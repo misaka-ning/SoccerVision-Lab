@@ -1,0 +1,11 @@
+# 可重新生成的 CMake / Ninja 构建产物
+/build/
+/CMakeUserPresets.json
+
+# 新核验输出；history 是保留的历史证据
+/artifacts/verification/latest/
+
+# 本地编辑器和系统临时文件
+*.swp
+*~
+.DS_Store

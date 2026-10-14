@@ -1,0 +1,10 @@
+# 四类困难场景在 metadata.csv 中，目标类别只有 football。
+# 自动球框必须按 label_review_required 完成人工审核后用于正式训练。
+# 缺失 label 的不确定样本请先审核，不要直接当成无球背景。
+path: /home/misaka/workspace/datasets
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names:
+  0: football

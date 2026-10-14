@@ -1,0 +1,4 @@
+interface:
+  display_name: "足球视频数据集整理"
+  short_description: "从视频原生提帧、去重和四类场景分类，生成待人工审核的球框并合并数据集"
+  default_prompt: "使用 $football-dataset-curation 处理视频 /绝对路径/视频.avi，提帧、去重、四类分类并补充到现有数据集。"

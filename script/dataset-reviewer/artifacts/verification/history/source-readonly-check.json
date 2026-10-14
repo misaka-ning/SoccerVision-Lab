@@ -1,0 +1,11 @@
+{
+  "all_checked_files_unchanged": true,
+  "sha256": {
+    "metadata.csv": "7f97e91a6c75efb808babc4dc4e26a675a2bcf964367088bd3a5da61f54b2c14",
+    "images/train/legacy_train_000002.jpg": "ed54d0666255b6b2fe00f2cd8d4cb8ced70839a09ecdd7efc850c7c709eda372",
+    "labels/train/legacy_train_000002.txt": "4d71094a01e57243c53a34992b8ab2631120682e6d0260ddef31eb7b4025dfc5",
+    "images/train/frame_000383_left.png": "e5f0c4695ffd5e1669b8b4cae2af127c7fa89c66e41b05f3aabab1f7cdbbdf76",
+    "labels/train/frame_000383_left.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "images/train/frame_001521_left.png": "13f22d4fa04b1afcb292649eed4e55f65348f6abba973ddc1fbef8d124db6845"
+  }
+}
