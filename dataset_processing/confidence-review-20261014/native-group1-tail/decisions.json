@@ -1,0 +1,1506 @@
+[
+  {
+    "n": 1249,
+    "filename": "video_4bec9c343db72928_frame_00007617_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-17.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-shelves.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及展示架3倍局部已看；展示架中层有灰色圆状物，但分辨率不足以确认是否足球，不能高置信度排除，保留待审。右侧两个浅色圆形可辨为玩偶面部。"
+  },
+  {
+    "n": 1250,
+    "filename": "video_4bec9c343db72928_frame_00007620_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-17.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-shelves.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及展示架3倍局部已看；展示架中层有灰色圆状物，但分辨率不足以确认是否足球，不能高置信度排除，保留待审。右侧两个浅色圆形可辨为玩偶面部。"
+  },
+  {
+    "n": 1251,
+    "filename": "video_4bec9c343db72928_frame_00007620_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-17.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-shelves.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及展示架3倍局部已看；展示架中层有灰色圆状物，但分辨率不足以确认是否足球，不能高置信度排除，保留待审。右侧两个浅色圆形可辨为玩偶面部。"
+  },
+  {
+    "n": 1252,
+    "filename": "video_4bec9c343db72928_frame_00007628_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-17.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-shelves.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及展示架3倍局部已看；展示架中层有灰色圆状物，但分辨率不足以确认是否足球，不能高置信度排除，保留待审。右侧两个浅色圆形可辨为玩偶面部。"
+  },
+  {
+    "n": 1253,
+    "filename": "video_4bec9c343db72928_frame_00007628_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-17.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-shelves.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及展示架3倍局部已看；展示架中层有灰色圆状物，但分辨率不足以确认是否足球，不能高置信度排除，保留待审。右侧两个浅色圆形可辨为玩偶面部。"
+  },
+  {
+    "n": 1262,
+    "filename": "video_4bec9c343db72928_frame_00007665_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-17.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-18-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部局部已看；前景人物脚部是白色运动鞋，地上白色点为扁平标记，墙边、电视架与四边未见足球。"
+  },
+  {
+    "n": 1263,
+    "filename": "video_4bec9c343db72928_frame_00007665_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-18.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-18-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部局部已看；前景人物脚部是白色运动鞋，地上白色点为扁平标记，墙边、电视架与四边未见足球。"
+  },
+  {
+    "n": 1264,
+    "filename": "video_4bec9c343db72928_frame_00007675_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-18.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-18-bottom.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景人物交叉裤腿下方、画面底边有白色弧状小露出，虽可能是鞋，不能可靠排除球残片，保留可见性待审。"
+  },
+  {
+    "n": 1265,
+    "filename": "video_4bec9c343db72928_frame_00007675_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-18.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-18-bottom.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景人物交叉裤腿下方、画面底边有白色弧状小露出，虽可能是鞋，不能可靠排除球残片，保留可见性待审。"
+  },
+  {
+    "n": 1268,
+    "filename": "video_4bec9c343db72928_frame_00007692_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-18.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-18-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部局部已看；机器人两脚是黑色方形脚壳和银色连接件，左侧白斑为地面扁平标记，人物手部、墙边及四边未见足球。"
+  },
+  {
+    "n": 1269,
+    "filename": "video_4bec9c343db72928_frame_00007692_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-18.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-18-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部局部已看；机器人两脚是黑色方形脚壳和银色连接件，左侧白斑为地面扁平标记，人物手部、墙边及四边未见足球。"
+  },
+  {
+    "n": 1270,
+    "filename": "video_4bec9c343db72928_frame_00007698_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-18.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p17-18-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部局部已看；机器人两脚是黑色方形脚壳和银色连接件，左侧白斑为地面扁平标记，人物手部、墙边及四边未见足球。"
+  },
+  {
+    "n": 1271,
+    "filename": "video_4bec9c343db72928_frame_00007698_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-19.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p19-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍脚部局部已看；底边浅色/粉白弧面属于机器人鞋面及金属连接件，地面白点是扁平标记，周围地面、人物手部和四边未见足球。"
+  },
+  {
+    "n": 1272,
+    "filename": "video_4bec9c343db72928_frame_00007709_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-19.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p19-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍脚部局部已看；底边浅色/粉白弧面属于机器人鞋面及金属连接件，地面白点是扁平标记，周围地面、人物手部和四边未见足球。"
+  },
+  {
+    "n": 1273,
+    "filename": "video_4bec9c343db72928_frame_00007709_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-19.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p19-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍脚部局部已看；底边浅色/粉白弧面属于机器人鞋面及金属连接件，地面白点是扁平标记，周围地面、人物手部和四边未见足球。"
+  },
+  {
+    "n": 1274,
+    "filename": "video_4bec9c343db72928_frame_00007712_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-19.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p19-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍脚部局部已看；底边浅色/粉白弧面属于机器人鞋面及金属连接件，地面白点是扁平标记，周围地面、人物手部和四边未见足球。"
+  },
+  {
+    "n": 1275,
+    "filename": "video_4bec9c343db72928_frame_00007712_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-19.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p19-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍脚部局部已看；底边浅色/粉白弧面属于机器人鞋面及金属连接件，地面白点是扁平标记，周围地面、人物手部和四边未见足球。"
+  },
+  {
+    "n": 1284,
+    "filename": "video_4bec9c343db72928_frame_00007748_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-19.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p19-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍脚部局部已看；底边浅色/粉白弧面属于机器人鞋面及金属连接件，地面白点是扁平标记，周围地面、人物手部和四边未见足球。"
+  },
+  {
+    "n": 1285,
+    "filename": "video_4bec9c343db72928_frame_00007748_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-20.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p20-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍机器人脚部局部已看；可见物为黑色机器人脚壳、银白脚部零件和人物运动鞋，地面白点为标记；底边、人物手部和场内未见足球。"
+  },
+  {
+    "n": 1286,
+    "filename": "video_4bec9c343db72928_frame_00007755_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-20.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p20-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍机器人脚部局部已看；可见物为黑色机器人脚壳、银白脚部零件和人物运动鞋，地面白点为标记；底边、人物手部和场内未见足球。"
+  },
+  {
+    "n": 1287,
+    "filename": "video_4bec9c343db72928_frame_00007755_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-20.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p20-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍机器人脚部局部已看；可见物为黑色机器人脚壳、银白脚部零件和人物运动鞋，地面白点为标记；底边、人物手部和场内未见足球。"
+  },
+  {
+    "n": 1288,
+    "filename": "video_4bec9c343db72928_frame_00007763_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-20.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p20-feet.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及3倍脚部局部可见前方机器人两腿间的灰白足球和深色拼接纹理，球被机器人腿脚遮住一部分；完整球尺度约30至40像素，建议Small=1、Occluded=1，当前漏框保留待审。"
+  },
+  {
+    "n": 1289,
+    "filename": "video_4bec9c343db72928_frame_00007763_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-20.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p20-feet.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及3倍脚部局部可见前方机器人两腿间的灰白足球和深色拼接纹理，球被机器人腿脚遮住一部分；完整球尺度约30至40像素，建议Small=1、Occluded=1，当前漏框保留待审。"
+  },
+  {
+    "n": 1290,
+    "filename": "video_4bec9c343db72928_frame_00007777_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-20.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p20-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍机器人脚部局部已看；可见物为黑色机器人脚壳、银白脚部零件和人物运动鞋，地面白点为标记；底边、人物手部和场内未见足球。"
+  },
+  {
+    "n": 1291,
+    "filename": "video_4bec9c343db72928_frame_00007777_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-21.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p21-feet.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及3倍脚部局部已看；机器人脚部为方形脚壳、银白鞋面和连杆，地面白点为扁平标记；人物双手、墙边及全图四边未见足球。"
+  },
+  {
+    "n": 1292,
+    "filename": "video_4bec9c343db72928_frame_00007784_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-21.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p21-feet.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及脚部放大局部已看；两机器人脚间可见灰白圆球与深色拼接面，轮廓约30至40像素，部分被机器人腿脚挡住，建议Small=1、Occluded=1；空label漏球需继续补框审核。"
+  },
+  {
+    "n": 1293,
+    "filename": "video_4bec9c343db72928_frame_00007784_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-21.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p21-feet.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及脚部放大局部已看；两机器人脚间可见灰白圆球与深色拼接面，轮廓约30至40像素，部分被机器人腿脚挡住，建议Small=1、Occluded=1；空label漏球需继续补框审核。"
+  },
+  {
+    "n": 1294,
+    "filename": "video_4bec9c343db72928_frame_00007789_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-21.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p21-feet.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及脚部放大局部已看；两机器人脚间可见灰白圆球与深色拼接面，轮廓约30至40像素，部分被机器人腿脚挡住，建议Small=1、Occluded=1；空label漏球需继续补框审核。"
+  },
+  {
+    "n": 1295,
+    "filename": "video_4bec9c343db72928_frame_00007789_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-21.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p21-feet.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及脚部放大局部已看；两机器人脚间可见灰白圆球与深色拼接面，轮廓约30至40像素，部分被机器人腿脚挡住，建议Small=1、Occluded=1；空label漏球需继续补框审核。"
+  },
+  {
+    "n": 1296,
+    "filename": "video_4bec9c343db72928_frame_00007799_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-21.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p21-feet.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及脚部放大局部已看；两机器人脚间可见灰白圆球与深色拼接面，轮廓约30至40像素，部分被机器人腿脚挡住，建议Small=1、Occluded=1；空label漏球需继续补框审核。"
+  },
+  {
+    "n": 1297,
+    "filename": "video_4bec9c343db72928_frame_00007799_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-22.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-feet.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及脚部放大局部已看；两机器人脚间可见灰白圆球与深色拼接面，轮廓约30至40像素，部分被机器人腿脚挡住，建议Small=1、Occluded=1；空label漏球需继续补框审核。"
+  },
+  {
+    "n": 1298,
+    "filename": "video_4bec9c343db72928_frame_00007800_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-22.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-feet.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及脚部放大局部已看；两机器人脚间可见灰白圆球与深色拼接面，轮廓约30至40像素，部分被机器人腿脚挡住，建议Small=1、Occluded=1；空label漏球需继续补框审核。"
+  },
+  {
+    "n": 1299,
+    "filename": "video_4bec9c343db72928_frame_00007800_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-22.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-feet.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及脚部放大局部已看；两机器人脚间可见灰白圆球与深色拼接面，轮廓约30至40像素，部分被机器人腿脚挡住，建议Small=1、Occluded=1；空label漏球需继续补框审核。"
+  },
+  {
+    "n": 1300,
+    "filename": "video_4bec9c343db72928_frame_00007814_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-22.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-feet.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-ball-check.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和2至3倍脚间局部已看；两机器人腿脚间存在很小的不规则浅灰/白色露出，与足球候选位置接近，但无法可靠区别球残片与金属脚件，保留待审，不确认无球。"
+  },
+  {
+    "n": 1301,
+    "filename": "video_4bec9c343db72928_frame_00007814_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-22.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-feet.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-ball-check.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和2至3倍脚间局部已看；两机器人腿脚间存在很小的不规则浅灰/白色露出，与足球候选位置接近，但无法可靠区别球残片与金属脚件，保留待审，不确认无球。"
+  },
+  {
+    "n": 1302,
+    "filename": "video_4bec9c343db72928_frame_00007820_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-22.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-feet.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-ball-check.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和2至3倍脚间局部已看；两机器人腿脚间存在很小的不规则浅灰/白色露出，与足球候选位置接近，但无法可靠区别球残片与金属脚件，保留待审，不确认无球。"
+  },
+  {
+    "n": 1303,
+    "filename": "video_4bec9c343db72928_frame_00007820_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-23.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-feet.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-ball-check.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和2至3倍脚间局部已看；两机器人腿脚间存在很小的不规则浅灰/白色露出，与足球候选位置接近，但无法可靠区别球残片与金属脚件，保留待审，不确认无球。"
+  },
+  {
+    "n": 1304,
+    "filename": "video_4bec9c343db72928_frame_00007826_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-23.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-feet.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-ball-check.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和2至3倍脚间局部已看；两机器人腿脚间存在很小的不规则浅灰/白色露出，与足球候选位置接近，但无法可靠区别球残片与金属脚件，保留待审，不确认无球。"
+  },
+  {
+    "n": 1305,
+    "filename": "video_4bec9c343db72928_frame_00007826_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-23.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-feet.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p22-23-ball-check.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和2至3倍脚间局部已看；两机器人腿脚间存在很小的不规则浅灰/白色露出，与足球候选位置接近，但无法可靠区别球残片与金属脚件，保留待审，不确认无球。"
+  },
+  {
+    "n": 1340,
+    "filename": "video_4bec9c343db72928_frame_00007962_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-23.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景已看；全场地面、人物手部、右侧椅子与花盆周围和四边可辨，白色地面点是平面标记，未见足球。"
+  },
+  {
+    "n": 1341,
+    "filename": "video_4bec9c343db72928_frame_00007962_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-23.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景已看；全场地面、人物手部、右侧椅子与花盆周围和四边可辨，白色地面点是平面标记，未见足球。"
+  },
+  {
+    "n": 1342,
+    "filename": "video_4bec9c343db72928_frame_00007972_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-23.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p23-24-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及底部2倍局部已看；机器人腿间白色竖面是机械连杆，脚部为银黑方形壳体，底边白点是地面标记；电视架、人物手部及四边未见足球。"
+  },
+  {
+    "n": 1343,
+    "filename": "video_4bec9c343db72928_frame_00007972_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-24.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p23-24-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及底部2倍局部已看；机器人腿间白色竖面是机械连杆，脚部为银黑方形壳体，底边白点是地面标记；电视架、人物手部及四边未见足球。"
+  },
+  {
+    "n": 1344,
+    "filename": "video_4bec9c343db72928_frame_00007974_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-24.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p23-24-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及底部2倍局部已看；机器人腿间白色竖面是机械连杆，脚部为银黑方形壳体，底边白点是地面标记；电视架、人物手部及四边未见足球。"
+  },
+  {
+    "n": 1345,
+    "filename": "video_4bec9c343db72928_frame_00007974_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-24.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p23-24-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及底部2倍局部已看；机器人腿间白色竖面是机械连杆，脚部为银黑方形壳体，底边白点是地面标记；电视架、人物手部及四边未见足球。"
+  },
+  {
+    "n": 1386,
+    "filename": "video_4bec9c343db72928_frame_00008135_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-24.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p24-shelf.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及展示架3倍局部已看；展示架中层灰色圆状物受低分辨率与阴影影响，纹理不足以排除足球，保留待审；浅色人脸玩偶和机器人脚不是足球。"
+  },
+  {
+    "n": 1387,
+    "filename": "video_4bec9c343db72928_frame_00008135_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-24.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p24-shelf.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及展示架3倍局部已看；展示架中层灰色圆状物受低分辨率与阴影影响，纹理不足以排除足球，保留待审；浅色人脸玩偶和机器人脚不是足球。"
+  },
+  {
+    "n": 1392,
+    "filename": "video_4bec9c343db72928_frame_00008158_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-24.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p23-24-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及底部2倍局部已看；机器人腿间白色竖面是机械连杆，脚部为银黑方形壳体，底边白点是地面标记；电视架、人物手部及四边未见足球。"
+  },
+  {
+    "n": 1393,
+    "filename": "video_4bec9c343db72928_frame_00008158_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-25.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景可见机器人身体/方形脚壳、人物裤脚和运动鞋，地面白斑为平面标记，场地、墙边和四边未见足球。"
+  },
+  {
+    "n": 1394,
+    "filename": "video_4bec9c343db72928_frame_00008163_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-25.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景可见机器人身体/方形脚壳、人物裤脚和运动鞋，地面白斑为平面标记，场地、墙边和四边未见足球。"
+  },
+  {
+    "n": 1395,
+    "filename": "video_4bec9c343db72928_frame_00008163_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-25.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景可见机器人身体/方形脚壳、人物裤脚和运动鞋，地面白斑为平面标记，场地、墙边和四边未见足球。"
+  },
+  {
+    "n": 1410,
+    "filename": "video_4bec9c343db72928_frame_00008221_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-25.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和下缘2倍局部已看；画面底边可见灰白足球上部弧面及深色拼接块，足球被画面裁切；裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  },
+  {
+    "n": 1412,
+    "filename": "video_4bec9c343db72928_frame_00008228_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-25.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景可见机器人身体/方形脚壳、人物裤脚和运动鞋，地面白斑为平面标记，场地、墙边和四边未见足球。"
+  },
+  {
+    "n": 1413,
+    "filename": "video_4bec9c343db72928_frame_00008228_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-25.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景可见机器人身体/方形脚壳、人物裤脚和运动鞋，地面白斑为平面标记，场地、墙边和四边未见足球。"
+  },
+  {
+    "n": 1414,
+    "filename": "video_4bec9c343db72928_frame_00008240_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-26.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景可见机器人身体/方形脚壳、人物裤脚和运动鞋，地面白斑为平面标记，场地、墙边和四边未见足球。"
+  },
+  {
+    "n": 1415,
+    "filename": "video_4bec9c343db72928_frame_00008240_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-26.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景可见机器人身体/方形脚壳、人物裤脚和运动鞋，地面白斑为平面标记，场地、墙边和四边未见足球。"
+  },
+  {
+    "n": 1416,
+    "filename": "video_4bec9c343db72928_frame_00008248_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-26.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和底边2倍局部已看；前景人物裤脚旁、底边有很小的白灰弧状露出，无法可靠区分鞋与裁切足球，保留待审。"
+  },
+  {
+    "n": 1417,
+    "filename": "video_4bec9c343db72928_frame_00008248_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-26.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和底边2倍局部已看；前景人物裤脚旁、底边有很小的白灰弧状露出，无法可靠区分鞋与裁切足球，保留待审。"
+  },
+  {
+    "n": 1418,
+    "filename": "video_4bec9c343db72928_frame_00008254_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-26.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p25-26-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和下缘2倍局部已看；画面底边可见灰白足球上部弧面及深色拼接块，足球被画面裁切；裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  },
+  {
+    "n": 1426,
+    "filename": "video_4bec9c343db72928_frame_00008280_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-26.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p27-28-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "reason": "原生全景与下部局部已看；可见白色物为人物运动鞋、地面平面标记与机器人金属脚件，四边未见足球；电视、机器人和地面纹理均有明显方向性运动模糊，建议Blurred=1。"
+  },
+  {
+    "n": 1427,
+    "filename": "video_4bec9c343db72928_frame_00008280_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-27.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p27-28-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "reason": "原生全景与下部局部已看；可见白色物为人物运动鞋、地面平面标记与机器人金属脚件，四边未见足球；电视、机器人和地面纹理均有明显方向性运动模糊，建议Blurred=1。"
+  },
+  {
+    "n": 1428,
+    "filename": "video_4bec9c343db72928_frame_00008293_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-27.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景已看；单个机器人站在开放地面，脚部是银黑方形鞋壳，人物手持小型设备，墙边、电视架、全景地面及四边未见足球。"
+  },
+  {
+    "n": 1429,
+    "filename": "video_4bec9c343db72928_frame_00008293_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-27.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景已看；单个机器人站在开放地面，脚部是银黑方形鞋壳，人物手持小型设备，墙边、电视架、全景地面及四边未见足球。"
+  },
+  {
+    "n": 1430,
+    "filename": "video_4bec9c343db72928_frame_00008296_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-27.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景已看；单个机器人站在开放地面，脚部是银黑方形鞋壳，人物手持小型设备，墙边、电视架、全景地面及四边未见足球。"
+  },
+  {
+    "n": 1431,
+    "filename": "video_4bec9c343db72928_frame_00008296_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-27.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景已看；单个机器人站在开放地面，脚部是银黑方形鞋壳，人物手持小型设备，墙边、电视架、全景地面及四边未见足球。"
+  },
+  {
+    "n": 1440,
+    "filename": "video_4bec9c343db72928_frame_00008336_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-27.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p27-28-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景人物裤脚与运动鞋可辨，底边白斑为平面地面标记，机器人脚件、椅子周围、人物手部及四边未见足球。"
+  },
+  {
+    "n": 1441,
+    "filename": "video_4bec9c343db72928_frame_00008336_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-28.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p27-28-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景人物裤脚与运动鞋可辨，底边白斑为平面地面标记，机器人脚件、椅子周围、人物手部及四边未见足球。"
+  },
+  {
+    "n": 1466,
+    "filename": "video_4bec9c343db72928_frame_00008436_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-28.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p28-robot-feet.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及3倍机器人脚部局部已看；左机器人外侧小腿后有浅灰白圆弧形物，旁边还有人的白鞋，现有像素无法可靠分辨是否足球部分，保留待审。"
+  },
+  {
+    "n": 1467,
+    "filename": "video_4bec9c343db72928_frame_00008436_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-28.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p28-robot-feet.png"
+    ],
+    "conclusion": "uncertain",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及3倍机器人脚部局部已看；左机器人外侧小腿后有浅灰白圆弧形物，旁边还有人的白鞋，现有像素无法可靠分辨是否足球部分，保留待审。"
+  },
+  {
+    "n": 1482,
+    "filename": "video_4bec9c343db72928_frame_00008490_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-28.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p27-28-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和下缘2倍局部已看；画面底边可见灰白足球上部弧面及深色拼接块，足球被画面裁切；裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  },
+  {
+    "n": 1483,
+    "filename": "video_4bec9c343db72928_frame_00008490_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-28.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p27-28-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景和下缘2倍局部已看；画面底边可见灰白足球上部弧面及深色拼接块，足球被画面裁切；裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  },
+  {
+    "n": 1484,
+    "filename": "video_4bec9c343db72928_frame_00008504_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-28.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p27-28-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下缘2倍局部已看；前景人物裤脚与运动鞋可辨，底边白斑为平面地面标记，机器人脚件、椅子周围、人物手部及四边未见足球。"
+  },
+  {
+    "n": 1485,
+    "filename": "video_4bec9c343db72928_frame_00008504_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-29.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部2倍局部已看；可见白色物为人物运动鞋或地面平面标记，机器人脚部是银黑方形脚壳，人物手部、椅子/花盆周围、开放地面和四边均未见足球。"
+  },
+  {
+    "n": 1486,
+    "filename": "video_4bec9c343db72928_frame_00008506_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-29.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及下部2倍局部已看；前景人物右裤脚后方可见灰白足球弧面和深色拼接面，人体裤脚遮住球右侧，建议Occluded=1；完整球尺度接近Small临界，Small保留场景待审，不确认无球。"
+  },
+  {
+    "n": 1487,
+    "filename": "video_4bec9c343db72928_frame_00008506_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-29.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及下部2倍局部已看；前景人物右裤脚后方可见灰白足球弧面和深色拼接面，人体裤脚遮住球右侧，建议Occluded=1；完整球尺度接近Small临界，Small保留场景待审，不确认无球。"
+  },
+  {
+    "n": 1502,
+    "filename": "video_4bec9c343db72928_frame_00008567_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-29.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部2倍局部已看；可见白色物为人物运动鞋或地面平面标记，机器人脚部是银黑方形脚壳，人物手部、椅子/花盆周围、开放地面和四边均未见足球。"
+  },
+  {
+    "n": 1503,
+    "filename": "video_4bec9c343db72928_frame_00008567_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-29.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部2倍局部已看；可见白色物为人物运动鞋或地面平面标记，机器人脚部是银黑方形脚壳，人物手部、椅子/花盆周围、开放地面和四边均未见足球。"
+  },
+  {
+    "n": 1506,
+    "filename": "video_4bec9c343db72928_frame_00008582_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-29.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；人物裤脚左侧、图像底边可见灰白足球弧面及深色拼接纹理，球右侧也被裤脚挡住，建议Occluded=1；画面裁切本身不算遮挡，Small不由小残片推定。"
+  },
+  {
+    "n": 1507,
+    "filename": "video_4bec9c343db72928_frame_00008582_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-30.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；人物裤脚左侧、图像底边可见灰白足球弧面及深色拼接纹理，球右侧也被裤脚挡住，建议Occluded=1；画面裁切本身不算遮挡，Small不由小残片推定。"
+  },
+  {
+    "n": 1508,
+    "filename": "video_4bec9c343db72928_frame_00008593_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-30.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部2倍局部已看；可见白色物为人物运动鞋或地面平面标记，机器人脚部是银黑方形脚壳，人物手部、椅子/花盆周围、开放地面和四边均未见足球。"
+  },
+  {
+    "n": 1509,
+    "filename": "video_4bec9c343db72928_frame_00008593_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-30.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部2倍局部已看；可见白色物为人物运动鞋或地面平面标记，机器人脚部是银黑方形脚壳，人物手部、椅子/花盆周围、开放地面和四边均未见足球。"
+  },
+  {
+    "n": 1510,
+    "filename": "video_4bec9c343db72928_frame_00008599_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-30.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部2倍局部已看；可见白色物为人物运动鞋或地面平面标记，机器人脚部是银黑方形脚壳，人物手部、椅子/花盆周围、开放地面和四边均未见足球。"
+  },
+  {
+    "n": 1511,
+    "filename": "video_4bec9c343db72928_frame_00008599_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-30.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部2倍局部已看；可见白色物为人物运动鞋或地面平面标记，机器人脚部是银黑方形脚壳，人物手部、椅子/花盆周围、开放地面和四边均未见足球。"
+  },
+  {
+    "n": 1515,
+    "filename": "video_4bec9c343db72928_frame_00008611_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-30.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p29-30-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；画面底边可见灰白足球上部弧面和深色拼接纹理，球下部出画；附近白斑为平面地面标记。裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  },
+  {
+    "n": 1516,
+    "filename": "video_4bec9c343db72928_frame_00008620_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-31.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p31-32-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部2倍局部已看；可见白色物为人物运动鞋或地面平面标记，机器人脚部是银黑方形脚壳，人物手部、椅子/花盆周围、开放地面和四边均未见足球。"
+  },
+  {
+    "n": 1517,
+    "filename": "video_4bec9c343db72928_frame_00008620_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-31.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p31-32-bottom.png"
+    ],
+    "conclusion": "yes",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "reason": "原生全景及下部2倍局部已看；可见白色物为人物运动鞋或地面平面标记，机器人脚部是银黑方形脚壳，人物手部、椅子/花盆周围、开放地面和四边均未见足球。"
+  },
+  {
+    "n": 1520,
+    "filename": "video_4bec9c343db72928_frame_00008633_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-31.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p31-32-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；画面底边可见灰白足球上部弧面和深色拼接纹理，球下部出画；附近白斑为平面地面标记。裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  },
+  {
+    "n": 1521,
+    "filename": "video_4bec9c343db72928_frame_00008633_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-31.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p31-32-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；画面底边可见灰白足球上部弧面和深色拼接纹理，球下部出画；附近白斑为平面地面标记。裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  },
+  {
+    "n": 1524,
+    "filename": "video_4bec9c343db72928_frame_00008651_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-31.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p31-32-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；人物抬起的运动鞋下面可见灰白足球上缘与拼接纹理，鞋压在球上并遮住球上部，建议Occluded=1；底边同时裁切，Small不由小残片推定。"
+  },
+  {
+    "n": 1525,
+    "filename": "video_4bec9c343db72928_frame_00008651_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-31.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p31-32-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；人物抬起的运动鞋下面可见灰白足球上缘与拼接纹理，鞋压在球上并遮住球上部，建议Occluded=1；底边同时裁切，Small不由小残片推定。"
+  },
+  {
+    "n": 1526,
+    "filename": "video_4bec9c343db72928_frame_00008662_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-32.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p31-32-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；画面底边可见灰白足球上部弧面和深色拼接纹理，球下部出画；附近白斑为平面地面标记。裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  },
+  {
+    "n": 1527,
+    "filename": "video_4bec9c343db72928_frame_00008662_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-32.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p31-32-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；画面底边可见灰白足球上部弧面和深色拼接纹理，球下部出画；附近白斑为平面地面标记。裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  },
+  {
+    "n": 1528,
+    "filename": "video_4bec9c343db72928_frame_00008664_left.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-32.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p31-32-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；画面底边可见灰白足球上部弧面和深色拼接纹理，球下部出画；附近白斑为平面地面标记。裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  },
+  {
+    "n": 1529,
+    "filename": "video_4bec9c343db72928_frame_00008664_right.png",
+    "native_evidence": [
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/group-1/empty-native/page-32.png",
+      "/home/misaka/workspace/dataset_processing/confidence-review-20261014/native-group1-tail/p31-32-bottom.png"
+    ],
+    "conclusion": "visible_ball",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "reason": "原生全景及底边2倍局部已看；画面底边可见灰白足球上部弧面和深色拼接纹理，球下部出画；附近白斑为平面地面标记。裁边不计Occluded，小露出不据此标Small，空label保留漏球待审。"
+  }
+]

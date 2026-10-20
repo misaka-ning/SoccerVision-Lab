@@ -1,0 +1,33 @@
+[
+  {
+    "group_id": "G01",
+    "segment_id": "S01",
+    "reason": "相机抬起前的固定机位及刚放下后的首批球/人物画面，仍与训练保留的前后过程有关；不依据低SSIM否认时序关联。保留中间明确搬动相机的负例过程，首尾代表图暂不入Test。",
+    "interval_rules": "S01 core with time<68s or>=103s",
+    "evidence_pair_ids": [
+      "N00001",
+      "N00025",
+      "N00050",
+      "N00100"
+    ],
+    "disposition": "heldout_unused",
+    "review_required_for_recovery": true,
+    "user_review_result": "",
+    "withdrawn_initial_representatives": 6
+  },
+  {
+    "group_id": "G02",
+    "segment_id": "S05",
+    "reason": "已看N00026/N00043及片段联系图：远球/机器人位置接近，前景人员站立、俯身和离开有变化。无法明确分开同一机器人重置/球停留过程，整段候选暂不进Test；没有把背景相同直接认定为已确认重复。",
+    "interval_rules": "S05 entire core644-670s",
+    "evidence_pair_ids": [
+      "N00026",
+      "N00027",
+      "N00043"
+    ],
+    "disposition": "heldout_unused",
+    "review_required_for_recovery": true,
+    "user_review_result": "",
+    "withdrawn_initial_representatives": 20
+  }
+]

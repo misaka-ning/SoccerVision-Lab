@@ -1,0 +1,44 @@
+{
+  "executed": true,
+  "model": "torchvision.mobilenet_v3_small",
+  "weights": "IMAGENET1K_V1",
+  "pretrained": true,
+  "checkpoint_url": "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth",
+  "checkpoint_sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+  "torch_version": "2.9.1+cpu",
+  "torchvision_version": "0.24.1+cpu",
+  "dimension": 576,
+  "pooling": "mean of final backbone feature map H,W, before classifier",
+  "normalization": "L2",
+  "preprocess": {
+    "color": "RGB",
+    "resize": [
+      224,
+      224
+    ],
+    "interpolation": "Pillow BILINEAR",
+    "crop": "none; whole-frame anisotropic resize to preserve all edge content",
+    "scale": "divide 255",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "batch_size": 32,
+  "device": "CPU",
+  "threads": 1,
+  "seed": 20261019,
+  "images": 8148,
+  "elapsed_seconds": 57.33442759513855,
+  "limitation": "ImageNet classification backbone, not DINOv2. Whole-frame warp differs from official center-crop evaluation. Similarity is candidate evidence, not proof of event identity or leakage.",
+  "faiss_used": false,
+  "retrieval": "exact cross-split normalized inner product in bounded NumPy batches; no within-train all-pairs",
+  "source_inventory_sha256": "c88924426077933d3e1e4fafbed80623ec9853cf8cdc929226548e53898b6111",
+  "source_files_written": false
+}

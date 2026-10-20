@@ -1,0 +1,19 @@
+{
+  "assignments": {
+    "val": 1223,
+    "train": 4346,
+    "buffer": 755,
+    "heldout_unused": 1334,
+    "test": 490
+  },
+  "eye_rule": "Fixedleft for odd segment IDs, right for even; fallback only when preferred eye is excluded/missing. No quality/confidence/label-based eye choice.",
+  "quotas": "400-600 is an engineering reference, no forced fill; adaptive local multi-signal temporal thinning applied first.",
+  "initial_test_flags": {
+    "Small": 96,
+    "Occluded": 106,
+    "Blurred": 167,
+    "No Ball": 130
+  },
+  "seed": 20261019,
+  "thresholds_are_independence_proof": false
+}

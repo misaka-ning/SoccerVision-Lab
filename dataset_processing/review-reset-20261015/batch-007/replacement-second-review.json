@@ -1,0 +1,360 @@
+[
+  {
+    "index": 27,
+    "group": 1,
+    "local": 27,
+    "filename": "video_4bec9c343db72928_frame_00016638_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        361,
+        0,
+        668,
+        292
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-013.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/grid-027.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/before-after-027.png"
+    ],
+    "assessment": "原框上边遗漏当前可见球顶部且左侧多含手掌。新框上达画面顶边，下界保留运动软边，左右贴合球体可见范围；O1B1。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 529,
+    "group": 3,
+    "local": 29,
+    "filename": "video_4bec9c343db72928_frame_00018522_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        437,
+        237,
+        512,
+        277
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/full/page-014.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/nativegrid-028-029.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/before-after-029.png"
+    ],
+    "assessment": "原框多含约24像素高的踩球鞋面；新框仅取鞋下可见球面与软边，遮挡O1。底端软界仍需人工精修，保留不确定。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 60,
+    "group": 1,
+    "local": 60,
+    "filename": "video_4bec9c343db72928_frame_00016765_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        452,
+        346,
+        502,
+        376
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-030.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/grid-060.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/before-after-060.png"
+    ],
+    "assessment": "底边当前可见的蓝白球冠与鞋前弧形软边；只取当前可见部分，边缘截断O1、方向拖影B1。鞋球交界/运动软边难精确，保留重点人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 61,
+    "group": 1,
+    "local": 61,
+    "filename": "video_4bec9c343db72928_frame_00016765_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        425,
+        346,
+        474,
+        376
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-030.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/grid-061.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/before-after-061.png"
+    ],
+    "assessment": "底边当前可见的蓝白球冠与鞋前弧形软边；只取当前可见部分，边缘截断O1、方向拖影B1。鞋球交界/运动软边难精确，保留重点人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 62,
+    "group": 1,
+    "local": 62,
+    "filename": "video_4bec9c343db72928_frame_00016776_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        279,
+        314,
+        321,
+        376
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-031.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/grid-062.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/before-after-062.png"
+    ],
+    "assessment": "底边当前可见的蓝白球冠与鞋前弧形软边；只取当前可见部分，边缘截断O1、方向拖影B1。鞋球交界/运动软边难精确，保留重点人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 63,
+    "group": 1,
+    "local": 63,
+    "filename": "video_4bec9c343db72928_frame_00016776_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        252,
+        313,
+        293,
+        376
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-031.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/grid-063.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/before-after-063.png"
+    ],
+    "assessment": "底边当前可见的蓝白球冠与鞋前弧形软边；只取当前可见部分，边缘截断O1、方向拖影B1。鞋球交界/运动软边难精确，保留重点人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 386,
+    "group": 2,
+    "local": 136,
+    "filename": "video_4bec9c343db72928_frame_00017987_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        330,
+        221,
+        421,
+        315
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-068.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/nativegrid-136.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/before-after-136.png"
+    ],
+    "assessment": "旧框底部多含约28像素地面投影；新框保留球面软边并去掉阴影。四类均0。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 660,
+    "group": 3,
+    "local": 160,
+    "filename": "video_4bec9c343db72928_frame_00019014_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        310,
+        357,
+        382,
+        376
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/full/page-080.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/nativegrid-160-161.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/before-after-160.png"
+    ],
+    "assessment": "底边当前帧可见球冠弧面及暗分区，方向拖影明显，仅补当前残片O1B1，不还原全球；软边保留不确定人工精修。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 661,
+    "group": 3,
+    "local": 161,
+    "filename": "video_4bec9c343db72928_frame_00019014_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        261,
+        353,
+        336,
+        376
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/full/page-080.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/nativegrid-160-161.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/before-after-161.png"
+    ],
+    "assessment": "底边当前帧可见球冠弧面及暗分区，方向拖影明显，仅补当前残片O1B1，不还原全球；软边保留不确定人工精修。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 470,
+    "group": 2,
+    "local": 220,
+    "filename": "video_4bec9c343db72928_frame_00018304_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        266,
+        219,
+        312,
+        249
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-110.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/nativegrid-220-221.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/before-after-220-221.png"
+    ],
+    "assessment": "鞋下当前球面白黑分区可辨，补当前可见部分，不推隐藏全球；完整球非Small，鞋覆盖O1，无球拖影。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 471,
+    "group": 2,
+    "local": 221,
+    "filename": "video_4bec9c343db72928_frame_00018304_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        243,
+        218,
+        289,
+        248
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-110.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/nativegrid-220-221.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/before-after-220-221.png"
+    ],
+    "assessment": "鞋下当前球面白黑分区可辨，补当前可见部分，不推隐藏全球；完整球非Small，鞋覆盖O1，无球拖影。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 152,
+    "group": 1,
+    "local": 152,
+    "filename": "video_4bec9c343db72928_frame_00017114_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        330,
+        110,
+        367,
+        139
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-076.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/grid-152.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/before-after-152.png"
+    ],
+    "assessment": "门边当前可见的小白黑圆弧运动候选，范围只取当前残影。身份和软边均保留不确定，Small1/Blurred1候选交人工重点核验，不自动通过。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 153,
+    "group": 1,
+    "local": 153,
+    "filename": "video_4bec9c343db72928_frame_00017114_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        320,
+        108,
+        357,
+        138
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-076.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/grid-153.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/before-after-153.png"
+    ],
+    "assessment": "门边当前可见的小白黑圆弧运动候选，范围只取当前残影。身份和软边均保留不确定，Small1/Blurred1候选交人工重点核验，不自动通过。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 756,
+    "group": 4,
+    "local": 6,
+    "filename": "video_4bec9c343db72928_frame_00019373_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        294,
+        270,
+        351,
+        329
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-003.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-000.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-grid-006.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-before-after-006.png"
+    ],
+    "assessment": "原窄框漏左侧与鞋下右侧可见蓝白球面，扩大当前可见范围并收掉试框余量；O1B0S0，约1像素软边继续人工复查。已获独立代理原生二审，root再看最终前后对照。",
+    "approved": false,
+    "reviewer": "batch006_visual_b_independent_native_visual_second_pass_and_root_final_visual",
+    "independent_review_record": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-candidates-independent-review.json",
+    "independent_review_record_sha256": "7b39508fa744293e8cc2d6bc06ba8bd69bf0ac445a7b5fd0224c98d1eb969c07"
+  },
+  {
+    "index": 757,
+    "group": 4,
+    "local": 7,
+    "filename": "video_4bec9c343db72928_frame_00019373_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        268,
+        270,
+        323,
+        329
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-003.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-000.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-grid-007.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-before-after-007.png"
+    ],
+    "assessment": "原窄框漏左侧与鞋下右侧可见蓝白球面，扩大当前可见范围并收掉试框余量；O1B0S0，约1像素软边继续人工复查。已获独立代理原生二审，root再看最终前后对照。",
+    "approved": false,
+    "reviewer": "batch006_visual_b_independent_native_visual_second_pass_and_root_final_visual",
+    "independent_review_record": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-candidates-independent-review.json",
+    "independent_review_record_sha256": "7b39508fa744293e8cc2d6bc06ba8bd69bf0ac445a7b5fd0224c98d1eb969c07"
+  },
+  {
+    "index": 227,
+    "group": 1,
+    "local": 227,
+    "filename": "video_4bec9c343db72928_frame_00017385_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        568,
+        348,
+        622,
+        376
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-113.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/grid-227.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/before-after-227.png"
+    ],
+    "assessment": "底边当前可见白蓝球冠，当前残片补框且O1，不把大球残片算Small；软边无明确方向拖影，B0并保留不确定人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  }
+]

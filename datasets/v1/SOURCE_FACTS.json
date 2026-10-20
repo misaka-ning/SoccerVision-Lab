@@ -1,0 +1,35 @@
+{
+  "authority": "User message in this task,2026-10-19; supersedes uncertainty/speculation in previous audit.",
+  "environment": "No football-pitch environment in any current source, confirmed by user.",
+  "recordings": [
+    {
+      "recording_id": "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb",
+      "session_id": "session_20261013_104748",
+      "physical_session_independent_of_other_two": true,
+      "evidence": "user_confirmed"
+    },
+    {
+      "recording_id": "stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a",
+      "session_id": "session_20261013_181326",
+      "physical_session_independent_of_other_two": true,
+      "evidence": "user_confirmed"
+    },
+    {
+      "recording_id": "stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min",
+      "session_id": "session_20261013_181531",
+      "physical_session_independent_of_other_two": true,
+      "evidence": "user_confirmed"
+    }
+  ],
+  "legacy": {
+    "physical_sessions_user_recalled": 2,
+    "analysis_group_count": 1,
+    "session_id": "session_legacy_conservative_group",
+    "trace_individual_sessions": false
+  },
+  "evaluation_kind": "same_session_segment_holdout",
+  "test_physical_session_count": 1,
+  "val_locked": true,
+  "all_weights_prior_exposure_status": "unknown unless complete training-image provenance becomes available",
+  "no_training_or_prediction_score_selection": true
+}

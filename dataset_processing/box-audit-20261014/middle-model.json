@@ -1,0 +1,4694 @@
+{
+  "video_4bec9c343db72928_frame_00009596_left.png": [
+    {
+      "xyxy": [
+        0.0053,
+        150.7634,
+        89.5535,
+        259.0635
+      ],
+      "confidence": 0.224622,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        315.2672,
+        266.7154,
+        333.9642,
+        284.9781
+      ],
+      "confidence": 0.1267806,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        149.9009,
+        87.7914,
+        258.4845
+      ],
+      "confidence": 0.1665998,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00009596_right.png": [
+    {
+      "xyxy": [
+        0.0893,
+        148.1872,
+        77.5005,
+        275.6091
+      ],
+      "confidence": 0.0606812,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        305.6469,
+        264.9604,
+        324.6374,
+        282.6125
+      ],
+      "confidence": 0.0523429,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        149.7896,
+        75.2688,
+        256.2418
+      ],
+      "confidence": 0.3016662,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00009663_left.png": [
+    {
+      "xyxy": [
+        0,
+        1.0566,
+        156.74,
+        185.8461
+      ],
+      "confidence": 0.3869608,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        209.1079,
+        0,
+        336.0,
+        178.339
+      ],
+      "confidence": 0.0417957,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00009663_right.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        154.7269,
+        188.5568
+      ],
+      "confidence": 0.1495166,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        194.4092,
+        0,
+        336.0,
+        173.5675
+      ],
+      "confidence": 0.1465837,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00009706_left.png": [
+    {
+      "xyxy": [
+        403.975,
+        230.5303,
+        418.4161,
+        247.7582
+      ],
+      "confidence": 0.1525519,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        404.4091,
+        231.4072,
+        418.3435,
+        247.3777
+      ],
+      "confidence": 0.0436951,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00009706_right.png": [
+    {
+      "xyxy": [
+        625.7846,
+        97.9925,
+        671.9893,
+        312.7535
+      ],
+      "confidence": 0.2579339,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        397.6903,
+        229.8913,
+        410.5281,
+        246.3733
+      ],
+      "confidence": 0.1067451,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        127.9667,
+        45.1787,
+        333.2124,
+        257.9262
+      ],
+      "confidence": 0.137062,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010198_left.png": [
+    {
+      "xyxy": [
+        324.9851,
+        247.1886,
+        342.2375,
+        269.6102
+      ],
+      "confidence": 0.0476693,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        326.1958,
+        247.0233,
+        341.9447,
+        267.1341
+      ],
+      "confidence": 0.4917653,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        437.311,
+        223.6169,
+        450.0722,
+        234.94459999999998
+      ],
+      "confidence": 0.2873442,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010198_right.png": [
+    {
+      "xyxy": [
+        431.1014,
+        224.05450000000002,
+        443.5617,
+        233.8813
+      ],
+      "confidence": 0.2079897,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        316.4409,
+        246.5326,
+        332.3495,
+        264.1627
+      ],
+      "confidence": 0.0829878,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        187.4319,
+        34.3938,
+        336.0,
+        234.2139
+      ],
+      "confidence": 0.0917268,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        430.7894,
+        223.5051,
+        443.2704,
+        233.5706
+      ],
+      "confidence": 0.0643645,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010206_left.png": [
+    {
+      "xyxy": [
+        288.5028,
+        264.2901,
+        303.9119,
+        285.685
+      ],
+      "confidence": 0.142463,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        327.3357,
+        124.3971,
+        376.0
+      ],
+      "confidence": 0.0560108,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010206_right.png": [
+    {
+      "xyxy": [
+        277.7565,
+        263.3747,
+        295.262,
+        284.9996
+      ],
+      "confidence": 0.5116354,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        277.8631,
+        263.7329,
+        294.8444,
+        283.7095
+      ],
+      "confidence": 0.7340257,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        482.429,
+        235.4398,
+        500.1151,
+        255.2168
+      ],
+      "confidence": 0.0921182,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        142.7853,
+        52.6124,
+        336.0,
+        249.1247
+      ],
+      "confidence": 0.1412224,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010222_left.png": [
+    {
+      "xyxy": [
+        524.8413,
+        223.1719,
+        537.7811,
+        234.0304
+      ],
+      "confidence": 0.2775235,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        445.37059999999997,
+        61.2947,
+        598.5476,
+        235.0861
+      ],
+      "confidence": 0.2152488,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010222_right.png": [
+    {
+      "xyxy": [
+        397.8342,
+        242.2436,
+        410.4267,
+        263.5352
+      ],
+      "confidence": 0.3920576,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        397.5355,
+        242.6169,
+        410.2743,
+        264.1465
+      ],
+      "confidence": 0.6859671,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        187.3858,
+        363.8963,
+        207.8875,
+        375.4837
+      ],
+      "confidence": 0.048939,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010224_left.png": [
+    {
+      "xyxy": [
+        188.8831,
+        365.7739,
+        207.4591,
+        376.0
+      ],
+      "confidence": 0.1017408,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        455.65340000000003,
+        57.7849,
+        571.77,
+        245.1148
+      ],
+      "confidence": 0.2599418,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010224_right.png": [],
+  "video_4bec9c343db72928_frame_00010347_left.png": [
+    {
+      "xyxy": [
+        424.6319,
+        214.633,
+        444.5067,
+        236.2692
+      ],
+      "confidence": 0.0995592,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        425.7326,
+        214.7065,
+        445.2777,
+        235.84390000000002
+      ],
+      "confidence": 0.0890247,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        476.6544,
+        219.0696,
+        496.3823,
+        238.5318
+      ],
+      "confidence": 0.0449765,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010347_right.png": [
+    {
+      "xyxy": [
+        417.2444,
+        213.2694,
+        439.3355,
+        234.7229
+      ],
+      "confidence": 0.1477093,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010447_left.png": [
+    {
+      "xyxy": [
+        290.2613,
+        267.2396,
+        318.8631,
+        301.7118
+      ],
+      "confidence": 0.0797082,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        291.004,
+        267.5457,
+        318.279,
+        301.034
+      ],
+      "confidence": 0.2601986,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        454.2124,
+        73.9268,
+        543.1078,
+        221.0619
+      ],
+      "confidence": 0.1092993,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010447_right.png": [
+    {
+      "xyxy": [
+        276.1671,
+        267.2573,
+        299.4281,
+        295.2039
+      ],
+      "confidence": 0.0628895,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        94.9248,
+        87.371,
+        260.4758,
+        272.9859
+      ],
+      "confidence": 0.1209942,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        446.5217,
+        77.2345,
+        534.7644,
+        220.2594
+      ],
+      "confidence": 0.0610866,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010501_left.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        119.7864,
+        309.4491
+      ],
+      "confidence": 0.0879203,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        240.8033,
+        243.0081,
+        263.2288,
+        262.946
+      ],
+      "confidence": 0.1620893,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        58.4707,
+        0,
+        229.7894,
+        186.2567
+      ],
+      "confidence": 0.0441648,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010501_right.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        105.8507,
+        306.7028
+      ],
+      "confidence": 0.0826669,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        235.0433,
+        242.48309999999998,
+        257.3115,
+        263.0439
+      ],
+      "confidence": 0.0991908,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        170.7878,
+        0,
+        336.0,
+        206.3098
+      ],
+      "confidence": 0.1068962,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010514_left.png": [
+    {
+      "xyxy": [
+        0,
+        2.6178,
+        205.0434,
+        210.8625
+      ],
+      "confidence": 0.2025753,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010514_right.png": [
+    {
+      "xyxy": [
+        302.2217,
+        230.7117,
+        325.5274,
+        250.6885
+      ],
+      "confidence": 0.0308477,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        3.727,
+        186.9981,
+        210.7078
+      ],
+      "confidence": 0.341075,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010522_left.png": [
+    {
+      "xyxy": [
+        295.3742,
+        240.0455,
+        319.293,
+        262.2188
+      ],
+      "confidence": 0.1494509,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        249.8289,
+        238.3681,
+        269.0363,
+        261.2263
+      ],
+      "confidence": 0.1007103,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        250.0951,
+        239.8049,
+        268.7368,
+        259.7403
+      ],
+      "confidence": 0.0827928,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        436.1884,
+        338.9434,
+        462.5732,
+        365.3527
+      ],
+      "confidence": 0.0456113,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        12.9942,
+        205.5806,
+        231.2312
+      ],
+      "confidence": 0.0517313,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        501.8496,
+        0,
+        618.6111000000001,
+        54.3383
+      ],
+      "confidence": 0.2419979,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010522_right.png": [
+    {
+      "xyxy": [
+        240.7042,
+        238.4783,
+        262.6984,
+        261.7001
+      ],
+      "confidence": 0.2072048,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        241.9271,
+        238.6644,
+        262.8317,
+        259.72069999999997
+      ],
+      "confidence": 0.0910272,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        14.1986,
+        200.7165,
+        230.4269
+      ],
+      "confidence": 0.1780345,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        460.4482,
+        0,
+        571.6537,
+        52.6923
+      ],
+      "confidence": 0.2203468,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010523_left.png": [
+    {
+      "xyxy": [
+        295.6151,
+        242.4392,
+        315.4954,
+        262.2794
+      ],
+      "confidence": 0.0440904,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        13.9925,
+        205.3241,
+        231.201
+      ],
+      "confidence": 0.0518931,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010523_right.png": [
+    {
+      "xyxy": [
+        241.7671,
+        237.8356,
+        262.5547,
+        261.9184
+      ],
+      "confidence": 0.0291391,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        241.9247,
+        238.7346,
+        262.8788,
+        261.1474
+      ],
+      "confidence": 0.1383412,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        13.266,
+        198.8727,
+        230.4775
+      ],
+      "confidence": 0.1698657,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010537_left.png": [
+    {
+      "xyxy": [
+        336,
+        0,
+        510.2279,
+        203.5156
+      ],
+      "confidence": 0.1166034,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        500.7404,
+        147.2849,
+        599.1032,
+        249.7867
+      ],
+      "confidence": 0.0795274,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010537_right.png": [
+    {
+      "xyxy": [
+        336,
+        0,
+        546.6347000000001,
+        203.7089
+      ],
+      "confidence": 0.1777569,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010552_left.png": [
+    {
+      "xyxy": [
+        453.2871,
+        0,
+        540.2491,
+        33.1749
+      ],
+      "confidence": 0.0643178,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        185.9002,
+        251.1318,
+        195.8461,
+        265.60630000000003
+      ],
+      "confidence": 0.0578828,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        446.5203,
+        0.0001,
+        553.0513,
+        34.1289
+      ],
+      "confidence": 0.5728641,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010552_right.png": [
+    {
+      "xyxy": [
+        0.0785,
+        105.172,
+        70.3788,
+        276.9652
+      ],
+      "confidence": 0.3344806,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        413.9074,
+        0,
+        491.4978,
+        31.9183
+      ],
+      "confidence": 0.1156772,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        594.7635,
+        241.29059999999998,
+        614.0069,
+        261.9298
+      ],
+      "confidence": 0.184097,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        410.5105,
+        0.0272,
+        503.2058,
+        32.7988
+      ],
+      "confidence": 0.6319652,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010554_left.png": [
+    {
+      "xyxy": [
+        485.8878,
+        0,
+        569.9494,
+        29.4031
+      ],
+      "confidence": 0.0483038,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        190.4708,
+        244.4,
+        201.2482,
+        256.48789999999997
+      ],
+      "confidence": 0.3884455,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        475.9688,
+        0.0181,
+        592.8716,
+        33.0243
+      ],
+      "confidence": 0.605671,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010554_right.png": [
+    {
+      "xyxy": [
+        179.7313,
+        242.6671,
+        192.7514,
+        255.1897
+      ],
+      "confidence": 0.0530357,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        179.3455,
+        241.7538,
+        192.513,
+        256.0046
+      ],
+      "confidence": 0.6420099,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        432.4356,
+        0.0054,
+        542.7953,
+        31.0297
+      ],
+      "confidence": 0.3309399,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010566_left.png": [
+    {
+      "xyxy": [
+        364.379,
+        188.8536,
+        387.1908,
+        211.3169
+      ],
+      "confidence": 0.0391975,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        408.871,
+        0,
+        627.623,
+        206.888
+      ],
+      "confidence": 0.1989244,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010566_right.png": [
+    {
+      "xyxy": [
+        355.6897,
+        187.9195,
+        379.4495,
+        211.2397
+      ],
+      "confidence": 0.1686467,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        406.7143,
+        0,
+        621.158,
+        207.3313
+      ],
+      "confidence": 0.3473745,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010573_left.png": [
+    {
+      "xyxy": [
+        508.8895,
+        0,
+        637.9389,
+        189.6188
+      ],
+      "confidence": 0.3667907,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010573_right.png": [
+    {
+      "xyxy": [
+        496.02660000000003,
+        0,
+        628.6028,
+        184.2983
+      ],
+      "confidence": 0.4153951,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010578_left.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        86.9539,
+        193.4432
+      ],
+      "confidence": 0.1751629,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        30.2541,
+        62.0648,
+        188.6101,
+        197.3116
+      ],
+      "confidence": 0.0635855,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        416.54470000000003,
+        0,
+        635.3399999999999,
+        211.3779
+      ],
+      "confidence": 0.1439731,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010578_right.png": [
+    {
+      "xyxy": [
+        23.0075,
+        55.5927,
+        200.0316,
+        198.8642
+      ],
+      "confidence": 0.1358436,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        86.6631,
+        195.9092
+      ],
+      "confidence": 0.1010326,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        418.9556,
+        0,
+        621.7732,
+        199.5276
+      ],
+      "confidence": 0.117468,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010664_left.png": [],
+  "video_4bec9c343db72928_frame_00010664_right.png": [],
+  "video_4bec9c343db72928_frame_00010797_left.png": [
+    {
+      "xyxy": [
+        604.0523,
+        56.9729,
+        672.0,
+        253.4499
+      ],
+      "confidence": 0.555046,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        605.6554,
+        120.2078,
+        672.0,
+        263.6791
+      ],
+      "confidence": 0.1264964,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010797_right.png": [
+    {
+      "xyxy": [
+        242.8032,
+        251.8957,
+        253.6561,
+        261.6574
+      ],
+      "confidence": 0.1967864,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        598.1731,
+        70.9576,
+        672.0,
+        263.1521
+      ],
+      "confidence": 0.0730891,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        243.3678,
+        251.4897,
+        253.1462,
+        260.6707
+      ],
+      "confidence": 0.1506689,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        598.0454,
+        112.2125,
+        672.0,
+        242.5782
+      ],
+      "confidence": 0.0672724,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        341.7114,
+        54.0668,
+        537.5502,
+        258.2498
+      ],
+      "confidence": 0.0451234,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010808_left.png": [
+    {
+      "xyxy": [
+        605.5312,
+        70.5228,
+        672.0,
+        262.9665
+      ],
+      "confidence": 0.4938796,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        245.1234,
+        253.3844,
+        256.869,
+        266.6011
+      ],
+      "confidence": 0.1054578,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        605.4844,
+        122.0756,
+        672.0,
+        257.2588
+      ],
+      "confidence": 0.1177979,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        336,
+        0,
+        495.4989,
+        41.7227
+      ],
+      "confidence": 0.054974,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010808_right.png": [
+    {
+      "xyxy": [
+        233.2897,
+        251.9328,
+        244.719,
+        262.2404
+      ],
+      "confidence": 0.0807637,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        233.7386,
+        251.6726,
+        244.2509,
+        261.1927
+      ],
+      "confidence": 0.2679743,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        598.1758,
+        117.8246,
+        672.0,
+        276.3419
+      ],
+      "confidence": 0.0580606,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010831_left.png": [
+    {
+      "xyxy": [
+        606.5231,
+        120.1193,
+        672.0,
+        257.6792
+      ],
+      "confidence": 0.666168,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        265.3642,
+        243.8328,
+        275.1035,
+        252.7693
+      ],
+      "confidence": 0.0542462,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        266.2916,
+        244.3616,
+        275.0894,
+        252.5515
+      ],
+      "confidence": 0.263817,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        29.7103,
+        0,
+        236.5138,
+        189.5357
+      ],
+      "confidence": 0.089341,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        605.2035000000001,
+        118.2702,
+        672.0,
+        256.8878
+      ],
+      "confidence": 0.2839015,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010831_right.png": [
+    {
+      "xyxy": [
+        599.0995,
+        112.8315,
+        672.0,
+        261.8174
+      ],
+      "confidence": 0.1814308,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        7.71,
+        0,
+        230.4735,
+        188.9167
+      ],
+      "confidence": 0.1890009,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        597.8745,
+        118.6877,
+        672.0,
+        247.7883
+      ],
+      "confidence": 0.2179753,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010940_left.png": [],
+  "video_4bec9c343db72928_frame_00010940_right.png": [
+    {
+      "xyxy": [
+        0,
+        330.1682,
+        144.9122,
+        375.9209
+      ],
+      "confidence": 0.0488394,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        457.4205,
+        96.7427,
+        657.5631000000001,
+        304.9774
+      ],
+      "confidence": 0.0452016,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010944_left.png": [
+    {
+      "xyxy": [
+        419.3219,
+        0,
+        626.8513,
+        184.9567
+      ],
+      "confidence": 0.1039584,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        502.6953,
+        57.9072,
+        661.6535,
+        263.0942
+      ],
+      "confidence": 0.0900647,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010944_right.png": [
+    {
+      "xyxy": [
+        416.8257,
+        0,
+        607.7075,
+        181.7758
+      ],
+      "confidence": 0.0829081,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010956_left.png": [
+    {
+      "xyxy": [
+        482.6095,
+        0.6398,
+        672.0,
+        201.8651
+      ],
+      "confidence": 0.1892123,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010956_right.png": [],
+  "video_4bec9c343db72928_frame_00010993_left.png": [
+    {
+      "xyxy": [
+        0,
+        45.6836,
+        76.1182,
+        184.1863
+      ],
+      "confidence": 0.0506018,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010993_right.png": [
+    {
+      "xyxy": [
+        213.4879,
+        243.6286,
+        253.7015,
+        274.8427
+      ],
+      "confidence": 0.0339649,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        213.806,
+        243.6457,
+        253.6367,
+        274.15049999999997
+      ],
+      "confidence": 0.1248767,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010995_left.png": [
+    {
+      "xyxy": [
+        235.028,
+        0.0033,
+        336.0,
+        135.0236
+      ],
+      "confidence": 0.044191,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00010995_right.png": [],
+  "video_4bec9c343db72928_frame_00011008_left.png": [
+    {
+      "xyxy": [
+        280.506,
+        76.7432,
+        298.431,
+        93.9307
+      ],
+      "confidence": 0.3817307,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        272.8731,
+        210.8675,
+        310.3616,
+        244.7463
+      ],
+      "confidence": 0.2378671,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        227.3549,
+        213.568,
+        259.7653,
+        247.6224
+      ],
+      "confidence": 0.0428619,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        228.3316,
+        213.7353,
+        259.1558,
+        248.46429999999998
+      ],
+      "confidence": 0.3740276,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        274.2186,
+        210.8962,
+        309.8608,
+        243.71179999999998
+      ],
+      "confidence": 0.361977,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011008_right.png": [
+    {
+      "xyxy": [
+        261.1376,
+        210.1217,
+        296.3499,
+        243.1217
+      ],
+      "confidence": 0.1525497,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        467.2582,
+        0,
+        633.3217999999999,
+        196.536
+      ],
+      "confidence": 0.0456627,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011371_left.png": [
+    {
+      "xyxy": [
+        336,
+        0.067,
+        500.19079999999997,
+        99.7491
+      ],
+      "confidence": 0.0600612,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011371_right.png": [
+    {
+      "xyxy": [
+        336,
+        0.0371,
+        488.8784,
+        99.7819
+      ],
+      "confidence": 0.11582,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011394_left.png": [
+    {
+      "xyxy": [
+        74.6877,
+        203.7521,
+        95.3118,
+        226.2203
+      ],
+      "confidence": 0.2345835,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        74.6252,
+        204.02100000000002,
+        94.7337,
+        225.365
+      ],
+      "confidence": 0.1275996,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        228.5972,
+        286.1193,
+        261.4732,
+        316.3103
+      ],
+      "confidence": 0.1113944,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        111.622,
+        222.8635,
+        127.3955,
+        240.03140000000002
+      ],
+      "confidence": 0.0761667,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        336,
+        0.6819,
+        435.5553,
+        115.3412
+      ],
+      "confidence": 0.1581059,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        424.0376,
+        0,
+        611.515,
+        154.745
+      ],
+      "confidence": 0.0685798,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        487.5765,
+        188.9796,
+        672.0,
+        352.2501
+      ],
+      "confidence": 0.0590336,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011394_right.png": [
+    {
+      "xyxy": [
+        208.8143,
+        285.8133,
+        229.9535,
+        313.8408
+      ],
+      "confidence": 0.2895401,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        102.6503,
+        222.7304,
+        116.6,
+        238.2843
+      ],
+      "confidence": 0.245531,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        62.9409,
+        202.2908,
+        85.3576,
+        224.5274
+      ],
+      "confidence": 0.1624293,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        208.4218,
+        286.11310000000003,
+        227.5355,
+        314.7377
+      ],
+      "confidence": 0.1329437,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011709_left.png": [],
+  "video_4bec9c343db72928_frame_00011709_right.png": [],
+  "video_4bec9c343db72928_frame_00011721_left.png": [
+    {
+      "xyxy": [
+        51.8574,
+        0,
+        207.5348,
+        14.4024
+      ],
+      "confidence": 0.1082307,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011721_right.png": [
+    {
+      "xyxy": [
+        64.5986,
+        0.0309,
+        192.3307,
+        11.9688
+      ],
+      "confidence": 0.0477257,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011829_left.png": [
+    {
+      "xyxy": [
+        386.0819,
+        126.9859,
+        396.4317,
+        156.0272
+      ],
+      "confidence": 0.0396959,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        124.7625,
+        0,
+        315.6366,
+        113.9779
+      ],
+      "confidence": 0.2240015,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011829_right.png": [
+    {
+      "xyxy": [
+        99.2551,
+        0,
+        298.3009,
+        114.1762
+      ],
+      "confidence": 0.1865755,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011845_left.png": [
+    {
+      "xyxy": [
+        0.0572,
+        213.5338,
+        22.4211,
+        376.0
+      ],
+      "confidence": 0.1545868,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0.0639,
+        223.7791,
+        21.8064,
+        375.94820000000004
+      ],
+      "confidence": 0.1478008,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        337.3197,
+        163.3699,
+        542.0285,
+        376.0
+      ],
+      "confidence": 0.5340728,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011845_right.png": [
+    {
+      "xyxy": [
+        338.5097,
+        158.2709,
+        577.8886,
+        374.8718
+      ],
+      "confidence": 0.1207755,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011856_left.png": [
+    {
+      "xyxy": [
+        470.1299,
+        127.2474,
+        658.6766,
+        299.7503
+      ],
+      "confidence": 0.3306404,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011856_right.png": [
+    {
+      "xyxy": [
+        190.5422,
+        114.7235,
+        333.9657,
+        301.5748
+      ],
+      "confidence": 0.045516,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        455.08910000000003,
+        122.8767,
+        647.0127,
+        301.945
+      ],
+      "confidence": 0.1819983,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00011862_left.png": [],
+  "video_4bec9c343db72928_frame_00011862_right.png": [],
+  "video_4bec9c343db72928_frame_00012096_left.png": [
+    {
+      "xyxy": [
+        111.2153,
+        91.2308,
+        279.779,
+        294.5214
+      ],
+      "confidence": 0.1738764,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        48.3141,
+        9.9578,
+        276.5874,
+        221.7524
+      ],
+      "confidence": 0.1543002,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00012096_right.png": [
+    {
+      "xyxy": [
+        59.344,
+        107.5687,
+        266.6257,
+        330.676
+      ],
+      "confidence": 0.2454247,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        602.2545,
+        57.1815,
+        672.0,
+        205.608
+      ],
+      "confidence": 0.2139441,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        43.1484,
+        4.9222,
+        259.3601,
+        220.0972
+      ],
+      "confidence": 0.3923303,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        79.0105,
+        92.6322,
+        265.4786,
+        304.692
+      ],
+      "confidence": 0.2082072,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        548.4711,
+        67.9411,
+        672.0,
+        213.7307
+      ],
+      "confidence": 0.0712981,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00012104_left.png": [
+    {
+      "xyxy": [
+        656.3191,
+        82.1683,
+        671.9778,
+        165.3019
+      ],
+      "confidence": 0.4497963,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00012104_right.png": [],
+  "video_4bec9c343db72928_frame_00012109_left.png": [],
+  "video_4bec9c343db72928_frame_00012109_right.png": [],
+  "video_4bec9c343db72928_frame_00012114_left.png": [
+    {
+      "xyxy": [
+        658.036,
+        135.4499,
+        671.9936,
+        212.3502
+      ],
+      "confidence": 0.1035391,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00012114_right.png": [
+    {
+      "xyxy": [
+        650.1195,
+        125.1748,
+        671.9813,
+        229.129
+      ],
+      "confidence": 0.2246857,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00012122_left.png": [
+    {
+      "xyxy": [
+        13.6187,
+        112.0344,
+        178.0453,
+        305.348
+      ],
+      "confidence": 0.0947784,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00012122_right.png": [],
+  "video_4bec9c343db72928_frame_00012131_left.png": [],
+  "video_4bec9c343db72928_frame_00012131_right.png": [
+    {
+      "xyxy": [
+        165.2682,
+        13.1855,
+        336.0,
+        229.4421
+      ],
+      "confidence": 0.0708725,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00012139_left.png": [
+    {
+      "xyxy": [
+        0,
+        13.187,
+        176.5642,
+        219.2911
+      ],
+      "confidence": 0.0487826,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00012139_right.png": [],
+  "video_4bec9c343db72928_frame_00012143_left.png": [],
+  "video_4bec9c343db72928_frame_00012143_right.png": [],
+  "video_4bec9c343db72928_frame_00012152_left.png": [
+    {
+      "xyxy": [
+        481.6391,
+        250.3509,
+        504.2895,
+        268.1904
+      ],
+      "confidence": 0.0486787,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        481.8014,
+        249.88479999999998,
+        504.0649,
+        269.0826
+      ],
+      "confidence": 0.1294566,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        389.0707,
+        203.2056,
+        401.6667,
+        219.6126
+      ],
+      "confidence": 0.0950338,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00012152_right.png": [
+    {
+      "xyxy": [
+        476.2375,
+        248.18099999999998,
+        494.7526,
+        267.1334
+      ],
+      "confidence": 0.0511178,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00012160_left.png": [],
+  "video_4bec9c343db72928_frame_00012160_right.png": [],
+  "video_4bec9c343db72928_frame_00013904_left.png": [
+    {
+      "xyxy": [
+        143.6762,
+        256.6889,
+        159.8841,
+        275.4074
+      ],
+      "confidence": 0.0288339,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        142.952,
+        256.727,
+        159.355,
+        275.7534
+      ],
+      "confidence": 0.3171286,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        159.6126,
+        191.5769
+      ],
+      "confidence": 0.5047297,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00013904_right.png": [
+    {
+      "xyxy": [
+        134.1985,
+        254.9339,
+        152.2987,
+        274.2989
+      ],
+      "confidence": 0.0335824,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        132.7659,
+        255.05200000000002,
+        151.6553,
+        274.6479
+      ],
+      "confidence": 0.2309465,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        42.8836,
+        156.2373,
+        257.532
+      ],
+      "confidence": 0.1001898,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00013913_left.png": [
+    {
+      "xyxy": [
+        141.4706,
+        251.6127,
+        153.7446,
+        265.9013
+      ],
+      "confidence": 0.6248189,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        142.6629,
+        252.3252,
+        153.4241,
+        264.6065
+      ],
+      "confidence": 0.4833593,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        157.0967,
+        196.0899
+      ],
+      "confidence": 0.2452653,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        44.1266,
+        12.9087,
+        259.7983,
+        222.9888
+      ],
+      "confidence": 0.079094,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00013913_right.png": [
+    {
+      "xyxy": [
+        134.9854,
+        250.5437,
+        147.6589,
+        264.97
+      ],
+      "confidence": 0.5606605,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        156.2661,
+        191.8251
+      ],
+      "confidence": 0.2863961,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        33.244,
+        14.597,
+        250.3734,
+        229.2367
+      ],
+      "confidence": 0.0592314,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00013949_left.png": [
+    {
+      "xyxy": [
+        114.5352,
+        245.1761,
+        132.1674,
+        260.948
+      ],
+      "confidence": 0.6244184,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        178.7842,
+        171.2931,
+        208.7505,
+        196.3335
+      ],
+      "confidence": 0.0475974,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        114.8413,
+        246.0,
+        131.4913,
+        260.4436
+      ],
+      "confidence": 0.7773781,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        486.55719999999997,
+        22.0465,
+        640.3359,
+        242.2859
+      ],
+      "confidence": 0.2218795,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00013949_right.png": [
+    {
+      "xyxy": [
+        0,
+        12.9383,
+        143.289,
+        284.0993
+      ],
+      "confidence": 0.0341751,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0.0261,
+        0,
+        43.4206,
+        216.9979
+      ],
+      "confidence": 0.0296208,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        108.25,
+        245.911,
+        124.9765,
+        259.5935
+      ],
+      "confidence": 0.3188244,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014182_left.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        163.8111,
+        192.8717
+      ],
+      "confidence": 0.4433843,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        452.6296,
+        0,
+        657.3147,
+        180.0556
+      ],
+      "confidence": 0.4417402,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014182_right.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        156.9757,
+        199.3499
+      ],
+      "confidence": 0.1090838,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        438.39660000000003,
+        0,
+        656.0721,
+        175.7726
+      ],
+      "confidence": 0.1807948,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014190_left.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        162.8179,
+        211.723
+      ],
+      "confidence": 0.2122064,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        475.9895,
+        2.2124,
+        658.3263,
+        195.4451
+      ],
+      "confidence": 0.1656344,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014190_right.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        160.3155,
+        196.7337
+      ],
+      "confidence": 0.2672023,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        32.5221,
+        13.4988,
+        266.6587,
+        230.829
+      ],
+      "confidence": 0.0813416,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        465.5283,
+        0,
+        672.0,
+        189.9952
+      ],
+      "confidence": 0.0892633,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014204_left.png": [],
+  "video_4bec9c343db72928_frame_00014204_right.png": [],
+  "video_4bec9c343db72928_frame_00014476_left.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        157.9518,
+        197.8316
+      ],
+      "confidence": 0.0730871,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014476_right.png": [
+    {
+      "xyxy": [
+        338.8331,
+        227.7069,
+        352.6499,
+        239.5417
+      ],
+      "confidence": 0.0380317,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        154.8846,
+        199.2402
+      ],
+      "confidence": 0.0559183,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014611_left.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        157.9637,
+        199.0
+      ],
+      "confidence": 0.1230939,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014611_right.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        154.975,
+        199.7601
+      ],
+      "confidence": 0.0548818,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014622_left.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        187.8656,
+        200.265
+      ],
+      "confidence": 0.201099,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014622_right.png": [
+    {
+      "xyxy": [
+        201.3611,
+        273.0771,
+        217.0438,
+        289.9075
+      ],
+      "confidence": 0.0689492,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        200.9549,
+        273.0988,
+        217.3788,
+        290.6711
+      ],
+      "confidence": 0.2299407,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        165.3145,
+        196.9965
+      ],
+      "confidence": 0.5474089,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014632_left.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        153.8467,
+        199.9952
+      ],
+      "confidence": 0.2715754,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        440.2341,
+        20.044,
+        668.2962,
+        241.9443
+      ],
+      "confidence": 0.0732846,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014632_right.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        145.2167,
+        201.7124
+      ],
+      "confidence": 0.2075561,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014634_left.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        166.8145,
+        198.7896
+      ],
+      "confidence": 0.4318708,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014634_right.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        150.867,
+        200.848
+      ],
+      "confidence": 0.1645818,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014641_left.png": [
+    {
+      "xyxy": [
+        0.0661,
+        0,
+        231.3928,
+        314.7317
+      ],
+      "confidence": 0.0335141,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        188.3133,
+        201.3252
+      ],
+      "confidence": 0.2839766,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014641_right.png": [
+    {
+      "xyxy": [
+        0,
+        0,
+        163.8381,
+        200.6559
+      ],
+      "confidence": 0.1669546,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014648_left.png": [
+    {
+      "xyxy": [
+        348.3984,
+        227.839,
+        359.8242,
+        240.9314
+      ],
+      "confidence": 0.2567296,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        348.2091,
+        227.70229999999998,
+        359.9753,
+        240.89749999999998
+      ],
+      "confidence": 0.5571969,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        169.5747,
+        199.9838
+      ],
+      "confidence": 0.4209955,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        348.8801,
+        228.3626,
+        358.609,
+        239.5775
+      ],
+      "confidence": 0.0865672,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014648_right.png": [
+    {
+      "xyxy": [
+        342.7361,
+        226.9384,
+        353.8075,
+        239.5315
+      ],
+      "confidence": 0.0986876,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        154.2722,
+        201.1057
+      ],
+      "confidence": 0.2471479,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014662_left.png": [
+    {
+      "xyxy": [
+        0.1414,
+        0,
+        74.7849,
+        162.8129
+      ],
+      "confidence": 0.0302042,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        172.0998,
+        179.7173
+      ],
+      "confidence": 0.2622925,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014662_right.png": [
+    {
+      "xyxy": [
+        0,
+        0.5599,
+        236.7421,
+        211.6174
+      ],
+      "confidence": 0.1259257,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014686_left.png": [
+    {
+      "xyxy": [
+        0.0208,
+        146.8528,
+        64.6389,
+        373.7103
+      ],
+      "confidence": 0.0327397,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014686_right.png": [
+    {
+      "xyxy": [
+        384.7606,
+        209.6014,
+        396.4007,
+        222.1086
+      ],
+      "confidence": 0.5752009,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        5.0697,
+        0,
+        163.0181,
+        209.9651
+      ],
+      "confidence": 0.0862634,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014695_left.png": [
+    {
+      "xyxy": [
+        387.3256,
+        209.6643,
+        400.6586,
+        224.171
+      ],
+      "confidence": 0.1023758,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014695_right.png": [],
+  "video_4bec9c343db72928_frame_00014706_left.png": [
+    {
+      "xyxy": [
+        375.4457,
+        209.6596,
+        389.7639,
+        224.8799
+      ],
+      "confidence": 0.1254015,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        375.8432,
+        209.526,
+        390.6126,
+        223.6796
+      ],
+      "confidence": 0.5217996,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        349.663,
+        233.9778,
+        358.9439,
+        245.1968
+      ],
+      "confidence": 0.0429386,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014706_right.png": [
+    {
+      "xyxy": [
+        36.7276,
+        14.007,
+        257.8746,
+        231.101
+      ],
+      "confidence": 0.1015925,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014714_left.png": [
+    {
+      "xyxy": [
+        350.705,
+        235.2975,
+        360.0925,
+        244.2439
+      ],
+      "confidence": 0.0883245,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        38.5368,
+        15.2034,
+        264.6364,
+        231.0482
+      ],
+      "confidence": 0.09008,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014714_right.png": [
+    {
+      "xyxy": [
+        26.1531,
+        3.5379,
+        229.2121,
+        198.1614
+      ],
+      "confidence": 0.1802971,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00014716_left.png": [],
+  "video_4bec9c343db72928_frame_00014716_right.png": [
+    {
+      "xyxy": [
+        33.7362,
+        4.7129,
+        233.5886,
+        211.0134
+      ],
+      "confidence": 0.0925072,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00015613_left.png": [
+    {
+      "xyxy": [
+        339.5327,
+        0,
+        554.462,
+        190.0742
+      ],
+      "confidence": 0.7427912,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00015613_right.png": [
+    {
+      "xyxy": [
+        1.8816,
+        0,
+        183.9249,
+        332.9317
+      ],
+      "confidence": 0.070624,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        57.4465,
+        200.7269,
+        272.6617
+      ],
+      "confidence": 0.0714981,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        336,
+        0,
+        493.9923,
+        191.8865
+      ],
+      "confidence": 0.2715997,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        550.7302999999999,
+        0.7891,
+        672.0,
+        106.3648
+      ],
+      "confidence": 0.0613552,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00015622_left.png": [
+    {
+      "xyxy": [
+        336,
+        0,
+        476.501,
+        134.2392
+      ],
+      "confidence": 0.0545907,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00015622_right.png": [],
+  "video_4bec9c343db72928_frame_00015650_left.png": [
+    {
+      "xyxy": [
+        294.2313,
+        336.90549999999996,
+        352.7648,
+        376.0
+      ],
+      "confidence": 0.0725363,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        342.0997,
+        0,
+        548.4244,
+        177.9548
+      ],
+      "confidence": 0.2156395,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00015650_right.png": [
+    {
+      "xyxy": [
+        267.0221,
+        335.4504,
+        326.0332,
+        376.0
+      ],
+      "confidence": 0.0928696,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        258.2531,
+        334.4737,
+        336.0,
+        375.9355
+      ],
+      "confidence": 0.0957755,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        210.2352,
+        0,
+        336.0,
+        166.2881
+      ],
+      "confidence": 0.0715016,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        340.5745,
+        0,
+        527.844,
+        175.758
+      ],
+      "confidence": 0.5149797,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00015978_left.png": [
+    {
+      "xyxy": [
+        449.76890000000003,
+        0,
+        657.0252,
+        181.1273
+      ],
+      "confidence": 0.130042,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        336,
+        0,
+        500.4171,
+        192.4283
+      ],
+      "confidence": 0.0996755,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00015978_right.png": [
+    {
+      "xyxy": [
+        336,
+        1.1546,
+        527.0524,
+        186.2849
+      ],
+      "confidence": 0.2175049,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        437.2662,
+        0,
+        648.8981,
+        183.6927
+      ],
+      "confidence": 0.1235338,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00015986_left.png": [
+    {
+      "xyxy": [
+        447.2758,
+        0,
+        634.7357999999999,
+        125.9845
+      ],
+      "confidence": 0.0636407,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00015986_right.png": [
+    {
+      "xyxy": [
+        435.5811,
+        0,
+        614.548,
+        117.3798
+      ],
+      "confidence": 0.0795951,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00016008_left.png": [
+    {
+      "xyxy": [
+        596.2591,
+        4.0692,
+        672.0,
+        256.5138
+      ],
+      "confidence": 0.2660213,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        562.3406,
+        286.8601,
+        589.5294,
+        318.3169
+      ],
+      "confidence": 0.1261245,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        562.6614,
+        286.9252,
+        589.6445,
+        316.8222
+      ],
+      "confidence": 0.0441087,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        336,
+        0,
+        509.8406,
+        125.6868
+      ],
+      "confidence": 0.0940028,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00016008_right.png": [
+    {
+      "xyxy": [
+        336,
+        0.2319,
+        551.2096,
+        209.1617
+      ],
+      "confidence": 0.064552,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00016013_left.png": [],
+  "video_4bec9c343db72928_frame_00016013_right.png": [],
+  "video_4bec9c343db72928_frame_00016638_left.png": [
+    {
+      "xyxy": [
+        143.7128,
+        224.0624,
+        424.2511,
+        376.0
+      ],
+      "confidence": 0.8558749,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        150.8641,
+        225.65789999999998,
+        413.3413,
+        376.0
+      ],
+      "confidence": 0.8643687,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        142.8137,
+        226.0597,
+        336.0,
+        376.0
+      ],
+      "confidence": 0.7786702,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        336,
+        325.5951,
+        441.7644,
+        375.9798
+      ],
+      "confidence": 0.4376674,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        489.62829999999997,
+        3.415,
+        651.7999,
+        210.6155
+      ],
+      "confidence": 0.106209,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00016638_right.png": [
+    {
+      "xyxy": [
+        104.0438,
+        223.5478,
+        401.3105,
+        376.0
+      ],
+      "confidence": 0.8512141,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        341.3195,
+        29.4937,
+        672.0,
+        297.9155
+      ],
+      "confidence": 0.6357077,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        109.3208,
+        223.1865,
+        400.6572,
+        376.0
+      ],
+      "confidence": 0.7904963,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        111.0675,
+        226.6875,
+        331.7913,
+        376.0
+      ],
+      "confidence": 0.6934088,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        192.2856,
+        0,
+        336.0,
+        70.6193
+      ],
+      "confidence": 0.049602,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        516.6745,
+        63.0399,
+        672.0,
+        252.6513
+      ],
+      "confidence": 0.7702018,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        387.2338,
+        0,
+        562.671,
+        199.9036
+      ],
+      "confidence": 0.6882622,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        336,
+        324.3212,
+        409.1243,
+        375.9573
+      ],
+      "confidence": 0.4755034,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00016776_left.png": [
+    {
+      "xyxy": [
+        280.5063,
+        315.0499,
+        336.0,
+        375.977
+      ],
+      "confidence": 0.1812328,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        179.7612,
+        0,
+        336.0,
+        157.1249
+      ],
+      "confidence": 0.104695,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        336,
+        0.1303,
+        502.28729999999996,
+        134.8699
+      ],
+      "confidence": 0.1193988,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00016776_right.png": [
+    {
+      "xyxy": [
+        161.5109,
+        0.1204,
+        336.0,
+        165.4726
+      ],
+      "confidence": 0.3657554,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        250.8824,
+        312.2905,
+        336.0,
+        376.0
+      ],
+      "confidence": 0.05052,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        336,
+        0.0551,
+        477.307,
+        132.4898
+      ],
+      "confidence": 0.0474801,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00016818_left.png": [
+    {
+      "xyxy": [
+        495.2699,
+        0,
+        660.2493,
+        149.6826
+      ],
+      "confidence": 0.0484214,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00016818_right.png": [],
+  "video_4bec9c343db72928_frame_00017095_left.png": [
+    {
+      "xyxy": [
+        276.1571,
+        357.1635,
+        336.0,
+        375.9585
+      ],
+      "confidence": 0.2090213,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00017095_right.png": [
+    {
+      "xyxy": [
+        229.4407,
+        351.5862,
+        330.5343,
+        375.9596
+      ],
+      "confidence": 0.498292,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00017345_left.png": [
+    {
+      "xyxy": [
+        401.2658,
+        273.6773,
+        484.1132,
+        374.9095
+      ],
+      "confidence": 0.8926126,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        401.6728,
+        274.7369,
+        484.3289,
+        376.0
+      ],
+      "confidence": 0.8914909,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        398.4839,
+        270.3825,
+        488.8483,
+        375.8588
+      ],
+      "confidence": 0.6991973,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        490.9971,
+        356.9949,
+        672.0,
+        376.0
+      ],
+      "confidence": 0.2229198,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        421.3841,
+        356.7057,
+        485.5451,
+        375.9794
+      ],
+      "confidence": 0.1211536,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00017345_right.png": [
+    {
+      "xyxy": [
+        0.0388,
+        243.2965,
+        14.3362,
+        376.0
+      ],
+      "confidence": 0.0304811,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        250.7955,
+        355.998,
+        336.0,
+        376.0
+      ],
+      "confidence": 0.5993587,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00017350_left.png": [
+    {
+      "xyxy": [
+        350.9709,
+        281.6313,
+        457.5977,
+        374.3466
+      ],
+      "confidence": 0.9300679,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        0,
+        0,
+        97.6616,
+        291.5693
+      ],
+      "confidence": 0.0759163,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        351.0618,
+        282.6837,
+        456.9575,
+        376.0
+      ],
+      "confidence": 0.9233937,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        346.7638,
+        277.5569,
+        466.6984,
+        376.0
+      ],
+      "confidence": 0.9163113,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        525.2497,
+        352.4525,
+        672.0,
+        376.0
+      ],
+      "confidence": 0.5663686,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00017350_right.png": [
+    {
+      "xyxy": [
+        0,
+        56.917,
+        52.487,
+        209.4831
+      ],
+      "confidence": 0.0825403,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        253.1169,
+        353.413,
+        336.0,
+        375.9536
+      ],
+      "confidence": 0.4399056,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00017385_left.png": [
+    {
+      "xyxy": [
+        568.2891,
+        348.7306,
+        672.0,
+        375.9559
+      ],
+      "confidence": 0.3957012,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00017385_right.png": [
+    {
+      "xyxy": [
+        0,
+        186.4913,
+        102.7185,
+        376.0
+      ],
+      "confidence": 0.0305251,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        8.6156,
+        323.7161,
+        101.6314,
+        375.0663
+      ],
+      "confidence": 0.0282687,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        554.6599,
+        348.35,
+        625.521,
+        376.0
+      ],
+      "confidence": 0.0910308,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        511.4507,
+        344.1068,
+        637.8177000000001,
+        376.0
+      ],
+      "confidence": 0.3950814,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00017394_left.png": [
+    {
+      "xyxy": [
+        85.9532,
+        323.747,
+        178.649,
+        374.6024
+      ],
+      "confidence": 0.0528459,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "fresh_onnx_ball_model",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        82.4505,
+        333.3529,
+        183.6908,
+        375.9597
+      ],
+      "confidence": 0.161018,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ],
+  "video_4bec9c343db72928_frame_00017394_right.png": [
+    {
+      "xyxy": [
+        239.6399,
+        332.7354,
+        315.7798,
+        376.0
+      ],
+      "confidence": 0.0754867,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        26.0679,
+        331.7181,
+        132.9065,
+        375.9722
+      ],
+      "confidence": 0.2263562,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    },
+    {
+      "xyxy": [
+        265.9999,
+        351.2278,
+        315.3135,
+        375.9653
+      ],
+      "confidence": 0.0492355,
+      "model_class_id": 0,
+      "class_name": "ball",
+      "dataset_class_id": 0,
+      "source": "native_crop_onnx",
+      "annotation_status": "pending_review"
+    }
+  ]
+}

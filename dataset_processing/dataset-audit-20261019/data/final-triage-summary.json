@@ -1,0 +1,64 @@
+{
+  "candidate_pairs": 22391,
+  "automated_risk_counts": {
+    "high": 58,
+    "medium": 7572,
+    "low": 14761
+  },
+  "final_review_priority_counts": {
+    "high": 74,
+    "medium": 7556,
+    "low": 14761
+  },
+  "visual_review_promotions": 16,
+  "legacy_high_reviewed": 26,
+  "legacy_visual_near_supported": 21,
+  "legacy_visual_uncertain": 5,
+  "medium_visual_near_supported": 16,
+  "source_event_confirmation_from_legacy_images": 0,
+  "actual_visual_reviewed_pairs": 50,
+  "temporal_representatives_actually_viewed": 8,
+  "confirmed_file_or_pixel_duplicates": 0,
+  "review_status_all_blank": true,
+  "source_modified": false,
+  "split_pair_counts": {
+    "train-val": {
+      "final_priority": {
+        "high": 37,
+        "medium": 3385,
+        "low": 7428
+      },
+      "automated_priority": {
+        "high": 31,
+        "medium": 3391,
+        "low": 7428
+      },
+      "high_both_usable": 37
+    },
+    "train-test": {
+      "final_priority": {
+        "high": 32,
+        "medium": 3283,
+        "low": 7114
+      },
+      "automated_priority": {
+        "high": 27,
+        "medium": 3288,
+        "low": 7114
+      },
+      "high_both_usable": 32
+    },
+    "val-test": {
+      "final_priority": {
+        "medium": 888,
+        "high": 5,
+        "low": 219
+      },
+      "automated_priority": {
+        "medium": 893,
+        "low": 219
+      },
+      "high_both_usable": 5
+    }
+  }
+}

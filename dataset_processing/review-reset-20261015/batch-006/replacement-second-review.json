@@ -1,0 +1,398 @@
+[
+  {
+    "group": 3,
+    "local": 2,
+    "index": 502,
+    "filename": "video_4bec9c343db72928_frame_00014622_left.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        213,
+        272,
+        227,
+        291
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-3/diagnostics/detail-002-003-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-3/diagnostics/before-after-002.png"
+    ],
+    "assessment": "原生图黑白足球圆弧可辨，棕裤前景遮挡；只框可见范围，完整球由圆弧与透视约20–30px，O1Small1合理，候选待人工复查",
+    "approved": false
+  },
+  {
+    "group": 3,
+    "local": 3,
+    "index": 503,
+    "filename": "video_4bec9c343db72928_frame_00014622_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        200,
+        271,
+        216,
+        291
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-3/diagnostics/detail-002-003-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-3/diagnostics/before-after-003.png"
+    ],
+    "assessment": "原生图黑白足球圆弧可辨，棕裤前景遮挡；只框可见范围，完整球由圆弧与透视约20–30px，O1Small1合理，候选待人工复查",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 65,
+    "index": 315,
+    "filename": "video_4bec9c343db72928_frame_00013913_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        132,
+        249,
+        147,
+        265
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-065-073.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-065-073.png"
+    ],
+    "assessment": "当前可辨独立小球，接受修正旧框右下或下偏，继续待用户复查",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 73,
+    "index": 323,
+    "filename": "video_4bec9c343db72928_frame_00013949_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        109,
+        243,
+        127,
+        258
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-065-073.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-065-073.png"
+    ],
+    "assessment": "当前可辨独立小球，接受修正旧框右下或下偏，继续待用户复查",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 88,
+    "index": 338,
+    "filename": "video_4bec9c343db72928_frame_00014005_left.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/detail-088.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/full/page-044.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/roi/page-003.png"
+    ],
+    "assessment": "旧框确为机器人白足，接受清空误框；当前图左裤腿后疑球不足定位，仍保留可见性待审、NoBall按空label为1",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 133,
+    "index": 383,
+    "filename": "video_4bec9c343db72928_frame_00014169_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        10,
+        282,
+        36,
+        307
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-133-134.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-133.png"
+    ],
+    "assessment": "左边缘鞋旁可辨黑白球面，接受只含可见范围的待审补框；完整球约26px，Small1，鞋遮球O1，底缘与影/鞋交界仍待复查",
+    "approved": false
+  },
+  {
+    "group": 4,
+    "local": 44,
+    "index": 794,
+    "filename": "video_4bec9c343db72928_frame_00015728_left.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        99,
+        48,
+        128,
+        84
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/head-before-after-044.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/head-fine-044.png"
+    ],
+    "assessment": "机器人臂/躯干之间球面黑白拼块可辨，接受只框当前可见部分，O1；完整球约40–50px故Small0，待用户复查",
+    "approved": false
+  },
+  {
+    "group": 4,
+    "local": 45,
+    "index": 795,
+    "filename": "video_4bec9c343db72928_frame_00015728_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        59,
+        44,
+        100,
+        82
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/head-before-after-045.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/head-fine-045.png"
+    ],
+    "assessment": "机器人臂/躯干之间球面黑白拼块可辨，接受只框当前可见部分，O1；完整球约40–50px故Small0，待用户复查",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 166,
+    "index": 416,
+    "filename": "video_4bec9c343db72928_frame_00014299_left.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        43,
+        316,
+        82,
+        345
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-166-169.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-166.png"
+    ],
+    "assessment": "移除机器人脚误框并改框当前图左下真球；可见边界接受，Small临界和鞋交界留场景疑点，候选继续待用户复查",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 169,
+    "index": 419,
+    "filename": "video_4bec9c343db72928_frame_00014303_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        14,
+        316,
+        49,
+        345
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-166-169.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-169.png"
+    ],
+    "assessment": "移除机器人脚误框并改框当前图左下真球；可见边界接受，Small临界和鞋交界留场景疑点，候选继续待用户复查",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 170,
+    "index": 420,
+    "filename": "video_4bec9c343db72928_frame_00014316_left.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/full/page-085.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/roi/page-012.png"
+    ],
+    "assessment": "旧框为机器人白足外壳与黑鞋底，接受清空误框、NoBall按空label为1；原疑点继续待审",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 171,
+    "index": 421,
+    "filename": "video_4bec9c343db72928_frame_00014316_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/full/page-085.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/roi/page-012.png"
+    ],
+    "assessment": "旧框为机器人白足外壳与黑鞋底，接受清空误框、NoBall按空label为1；原疑点继续待审",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 186,
+    "index": 436,
+    "filename": "video_4bec9c343db72928_frame_00014377_left.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        218,
+        294,
+        247,
+        316
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-186-187.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-186-187.png"
+    ],
+    "assessment": "独立球体与横向拖影可辨，候选覆盖当前可见软外缘，Small1Blurred1，无明确前景覆盖",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 187,
+    "index": 437,
+    "filename": "video_4bec9c343db72928_frame_00014377_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        207,
+        293,
+        237,
+        315
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-186-187.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-186-187.png"
+    ],
+    "assessment": "独立球体与横向拖影可辨，候选覆盖当前可见软外缘，Small1Blurred1，无明确前景覆盖",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 218,
+    "index": 468,
+    "filename": "video_4bec9c343db72928_frame_00014496_left.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        102,
+        282,
+        122,
+        303
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-218-219.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-218-219.png"
+    ],
+    "assessment": "当前地面独立小球身份/圆周可辨，接受紧框待用户复查",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 219,
+    "index": 469,
+    "filename": "video_4bec9c343db72928_frame_00014496_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        91,
+        281,
+        112,
+        303
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-218-219.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-218-219.png"
+    ],
+    "assessment": "当前地面独立小球身份/圆周可辨，接受紧框待用户复查",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 215,
+    "index": 465,
+    "filename": "video_4bec9c343db72928_frame_00014476_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/detail-215.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/full/page-107.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/roi/page-014.png"
+    ],
+    "assessment": "旧框为远处人物鞋面反光，接受清空误框且NoBall按空label为1，继续待用户复查",
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 234,
+    "index": 484,
+    "filename": "video_4bec9c343db72928_frame_00014557_left.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        140,
+        257,
+        156,
+        274
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-234.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-234.png"
+    ],
+    "assessment": "可辨黑白球面，收紧到当前可见范围，排除旧框下半部机器人腿与背景，O1Small1，候选待用户复查",
+    "approved": false
+  },
+  {
+    "group": 4,
+    "local": 122,
+    "index": 872,
+    "filename": "video_4bec9c343db72928_frame_00016027_left.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        164,
+        201,
+        199,
+        228
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/full/page-061.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/head-before-after-122.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/head-fine-122.png"
+    ],
+    "assessment": "完整黑白小球与方向性运动软边可辨，候选仅含当前可见球缘，排除下方长阴影，S1O0B1N0，待用户复查",
+    "approved": false
+  },
+  {
+    "group": 4,
+    "local": 123,
+    "index": 873,
+    "filename": "video_4bec9c343db72928_frame_00016027_right.png",
+    "second_reviewer": "root",
+    "reviewed_boxes_xyxy": [
+      [
+        154,
+        200,
+        190,
+        227
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/full/page-061.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/head-before-after-123.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/head-fine-123.png"
+    ],
+    "assessment": "完整黑白小球与方向性运动软边可辨，候选仅含当前可见球缘，排除下方长阴影，S1O0B1N0，待用户复查",
+    "approved": false
+  }
+]

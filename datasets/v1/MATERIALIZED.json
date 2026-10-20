@@ -1,0 +1,15 @@
+{
+  "status": "COPIED_PENDING_FRAMEWORK_VALIDATION",
+  "at_utc": "2026-10-19T07:12:39.593088+00:00",
+  "counts": {
+    "val": 1223,
+    "train": 4346,
+    "buffer": 755,
+    "heldout_unused": 1360,
+    "test": 464
+  },
+  "copy_method": "shutil.copy2, independent regular files; full source and target SHA checked",
+  "original_source_unchanged": true,
+  "original_excluded_not_copied": true,
+  "manifest_sha256": "a3f4d0fee50a99b60b4eeba7a5cf6fdc32e32319fb32ae33658defdb501a2b35"
+}

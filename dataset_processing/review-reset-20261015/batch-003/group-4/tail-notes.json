@@ -1,0 +1,356 @@
+{
+  "opened_full": [
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124
+  ],
+  "opened_roi": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "observations": [
+    {
+      "locals": [
+        160,
+        161
+      ],
+      "flags": "0000",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "下沿黑白足球仅露顶部，非小目标；相机裁切不算遮挡，鞋与可见球部分未明显重叠。原框靠近下边且软边留待核对。"
+    },
+    {
+      "locals": [
+        162,
+        163,
+        164,
+        165
+      ],
+      "flags": "0000",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "足球滚至右下仍被画面裁掉下半；非小目标、无实际前景遮挡。原框含主要可见球，低分辨软边不等同运动拖影，边界待复核。"
+    },
+    {
+      "locals": [
+        166,
+        167,
+        168,
+        169
+      ],
+      "flags": "0000",
+      "action": "needs_visibility_review",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "右下已标足球清楚可见且框大致贴合；人物脚前下边另有白蓝小片，可能第二足球顶部但当前帧范围不足可靠识别，整图需检查是否有漏球，保留所有现框，不借邻帧补框。"
+    },
+    {
+      "locals": [
+        170,
+        171,
+        172,
+        173
+      ],
+      "flags": "0010",
+      "action": "needs_visibility_review",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "右侧滚动足球存在明显方向软拖影，完整尺度大于40px，边缘裁切不算遮挡。人物脚前下沿另有极小白片，需核对第二球可见性，保留现框。"
+    },
+    {
+      "locals": [
+        174
+      ],
+      "flags": "0000",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "唯一现框罩在右鞋上，明确误框；实际足球只在画面最右侧露出窄片，当前帧不足可靠确定球缘，保留原参考label待手工移框，不能按无球通过。"
+    },
+    {
+      "locals": [
+        175,
+        177,
+        179
+      ],
+      "flags": "0010",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "右缘足球被画面切掉大部但星纹可识别，现框覆盖可见球片；球面有方向运动拖影，非小目标/非前景遮挡，紧致边界需复核。"
+    },
+    {
+      "locals": [
+        176,
+        178
+      ],
+      "flags": "0000",
+      "action": "needs_visibility_review",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "右边界只有极窄灰白片段，不能从当前帧可靠区分球与墙/地面结构；保留空label和NoBall0待可见性复核，不用另一目推测足球。"
+    },
+    {
+      "locals": [
+        180,
+        181
+      ],
+      "flags": "1000",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "右下完整足球约38–40px，Small临界，需按完整球实际尺度复核。无前景遮挡，原框覆盖主体，柔和边缘不能单凭低分辨判运动模糊。"
+    },
+    {
+      "locals": [
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189
+      ],
+      "flags": "1000",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high",
+      "reason": "右下足球约35–37px，球下部被画面边缘切掉，Small按完整尺度仍约40px以下；无前景遮挡或明确拖影，现框贴合可见球。"
+    },
+    {
+      "locals": [
+        190,
+        191
+      ],
+      "flags": "1000",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high",
+      "reason": "右下完整足球约37px，明显小目标，球面可辨且无前景覆盖；现框基本贴合球缘。"
+    },
+    {
+      "locals": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203
+      ],
+      "flags": "0000",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "右侧足球完整尺度约42–47px（左目部分被右边裁掉），不按裁边碎片算Small，当前接近40px临界需复核；无前景遮挡。纹理因低分辨较软，未见方向性运动拖影，原框暗底边与阴影交界需核对。"
+    },
+    {
+      "locals": [
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211
+      ],
+      "flags": "0000",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high",
+      "reason": "右侧静止足球完整约46px，左目被画面右边裁掉部分；不标小目标或遮挡。球纹可辨、无方向拖影，原框贴合可见外缘。"
+    },
+    {
+      "locals": [
+        212,
+        213
+      ],
+      "flags": "0010",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "相机移动造成全图及足球明显方向拖影，右侧球仍可识别，完整尺度约44px；原框运动软边不可靠，待复核边界。"
+    },
+    {
+      "locals": [
+        214,
+        215
+      ],
+      "flags": "1010",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "全图有两个可辨足球：前景大球和靠墙约37px小球，两份现框均存在；相机横移使球面和地板方向拖影，后球边界尤其模糊，保留框待复核。"
+    },
+    {
+      "locals": [
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "flags": "1000",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high",
+      "reason": "全景有前景约55–60px足球和靠墙约30–37px小足球，两个框均对应真实球且边界贴合；无前景覆盖，球面星纹可辨，无明确方向拖影。"
+    },
+    {
+      "locals": [
+        224,
+        225
+      ],
+      "flags": "1010",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "前景球和靠墙小球两框齐全；前景球及全图有纵向运动拖影，球被拉长，保留框并待核对运动软边。"
+    },
+    {
+      "locals": [
+        226,
+        227
+      ],
+      "flags": "0000",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high",
+      "reason": "全图只见前景大足球，星纹清楚，现框贴合；黑色连接头与金属杆相连为机器件，无其他可见足球。"
+    },
+    {
+      "locals": [
+        228,
+        229
+      ],
+      "flags": "1010",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "前景大足球和上沿裁切的小足球均已标；完整后球约37px，画面裁切不算遮挡。前景球沿竖向拖影，后球框接边，保留两个框待紧致边缘复核。"
+    },
+    {
+      "locals": [
+        230,
+        231,
+        232,
+        233,
+        234,
+        235
+      ],
+      "flags": "0010",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "全图两球均可识别且两个候选框齐全；当前完整尺度均大于40px。近球旋转纵向拖影，远球随相机横向拖影，运动边界需人工核对；无明确前景覆盖。"
+    },
+    {
+      "locals": [
+        236,
+        237
+      ],
+      "flags": "0000",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high",
+      "reason": "前景大足球星纹可辨且框贴合可见部分，下部为画面裁切；鞋虽运动但未覆盖球，球面没有明确方向拖影。墙脚浅色物为线缆/底座形状，无可辨足球纹理。"
+    },
+    {
+      "locals": [
+        238,
+        239
+      ],
+      "flags": "0000",
+      "action": "keep",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "reason": "脚前大足球已标，球上缘与鞋底接近；当前仅能确认接触，是否少量实际覆盖需核对，不因邻近鞋就判遮挡。原框覆盖可见球，壁边浅色物为线缆/底座而非可辨足球。"
+    },
+    {
+      "locals": [
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "flags": "0000",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high",
+      "reason": "全图只有脚前一个大足球，星纹清晰完整且现框贴合，鞋与球保持间隙无遮挡。仅脚移动不把球标运动模糊；墙角浅色环状物是线缆。"
+    }
+  ]
+}

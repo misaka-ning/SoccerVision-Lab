@@ -1,0 +1,9 @@
+{
+  "command": "/opt/VisionStudio/runtime/bin/python -B script/model-training/train.py --dry-run",
+  "exit_code": 0,
+  "observed_result": "预检查通过；尚未验证模型兼容性、图片/标注内容或训练设备。",
+  "dataset": "/home/misaka/workspace/datasets/dataset.yaml",
+  "model_loaded": false,
+  "training_executed": false,
+  "note": "Observed tool execution result recorded here; this is a basic configuration check, distinct from full-file verification.json."
+}

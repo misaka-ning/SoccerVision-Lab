@@ -1,0 +1,24 @@
+[
+  {
+    "index": 539,
+    "filename": "video_4bec9c343db72928_frame_00014759_right.png",
+    "edge_geometry_candidate": true,
+    "occluded_retained": "0",
+    "assessment": "原生全景及ROI二审，球靠近左边界约1px但完整可见圆周仍在图内，没有明确裁切或前景覆盖；保留O0，不仅按框坐标触边推遮挡",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-3/full/page-019.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-3/roi/page-001.png"
+    ]
+  },
+  {
+    "index": 683,
+    "filename": "video_4bec9c343db72928_frame_00015308_right.png",
+    "edge_geometry_candidate": true,
+    "occluded_retained": "0",
+    "assessment": "原生全景及ROI二审，球靠近左边界约1px但完整可见圆周仍在图内，没有明确裁切或前景覆盖；保留O0，不仅按框坐标触边推遮挡",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-3/full/page-091.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-3/roi/page-018.png"
+    ]
+  }
+]

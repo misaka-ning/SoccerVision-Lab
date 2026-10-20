@@ -1,0 +1,24 @@
+{
+  "rows": 310,
+  "unique_images": 291,
+  "counts": {
+    "Small_large_box_risk": 49,
+    "Occluded_boundary_quality_candidate": 199,
+    "label_format_or_geometry": 4,
+    "Small_small_box_risk": 9,
+    "stratified_visual_review_candidate": 26,
+    "edge_truncation_policy_review_candidate": 7,
+    "hand_ball_boundary_review_candidate": 6,
+    "visually_similar_pair_annotation_disagreement": 10
+  },
+  "baseline_issue_types": {
+    "historical_box_count_difference": 5546,
+    "excluded_in_raw_training_directory": 250,
+    "Small_large_box_risk": 49,
+    "Occluded_boundary_quality_candidate": 199,
+    "label_format_or_geometry": 4,
+    "Small_small_box_risk": 9,
+    "excluded_NoBall_label_context": 214
+  },
+  "warning": "Risk-screen and purposive review rows are not confirmed errors or a population error-rate estimate. Historical count differences remain only in annotation_issues_base.csv."
+}

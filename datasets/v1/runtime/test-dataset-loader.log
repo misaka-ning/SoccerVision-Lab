@@ -1,0 +1,2 @@
+[KScanning /home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/labels/test... 284 images, 76 backgrounds, 0 corrupt: 61% ━━━━━━━───── 284/464 849.4it/s 0.1s<0.2s[KScanning /home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/labels/test... 464 images, 121 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 464/464 2.9Kit/s 0.2s
+[KScanning /home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/labels/test.cache... 464 images, 121 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 464/464 216.2Mit/s 0.0s

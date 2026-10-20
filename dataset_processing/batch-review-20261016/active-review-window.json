@@ -1,0 +1,15 @@
+{
+  "batch": 9,
+  "group": 1,
+  "host_launch_session_id": 52333,
+  "state": "batch_review_completed",
+  "command": "/home/misaka/workspace/script/review_football_batch.sh 9 --group 1",
+  "image_list": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batches/batch-009-remaining-50/all-groups.txt",
+  "pages": 8,
+  "images_per_page": 50,
+  "total_images": 398,
+  "last_page_images": 48,
+  "opened_date": "2026-10-19",
+  "user_review_completed": true,
+  "completed_date": "2026-10-19"
+}

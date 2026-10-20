@@ -31,6 +31,9 @@ public:
     QVector<QStringList> rows;
 
     bool load(const QString &root, QString &error);
+    // Resolve a UTF-8 batch list without removing rows or changing the source store.
+    // Every non-empty line is an exact metadata image filename; order is preserved.
+    bool imageListRows(const QString &path, QVector<int> &selection, QString &error) const;
     QString value(int row, const QString &column) const;
     bool setValue(int row, const QString &column, const QString &value);
     QString imagePath(int row) const;
@@ -42,6 +45,11 @@ public:
     // Saves an explicit manual edit, backs up existing label bytes, and persists
     // the pending-review marker before replacing the label.
     bool saveLabelBoxes(int row, const LabelData &displayed, const QVector<Box> &boxes, QString &error);
+    static QStringList uncertainStatuses();
+    bool isUncertain(int row) const;
+    bool markUncertain(int row, const QString &reason, QString &error);
+    // Export a new, immutable snapshot; source files are never moved or relabeled.
+    bool exportDataset(const QString &destination, QString &error) const;
     bool isDirty() const;
     int dirtyCount() const;
     bool rowDirty(int row) const;

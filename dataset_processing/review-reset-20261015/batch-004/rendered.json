@@ -1,0 +1,30 @@
+[
+  {
+    "group": 1,
+    "images": 250,
+    "full_pages": 125,
+    "boxes": 190,
+    "roi_pages": 24
+  },
+  {
+    "group": 2,
+    "images": 250,
+    "full_pages": 125,
+    "boxes": 288,
+    "roi_pages": 36
+  },
+  {
+    "group": 3,
+    "images": 250,
+    "full_pages": 125,
+    "boxes": 124,
+    "roi_pages": 16
+  },
+  {
+    "group": 4,
+    "images": 250,
+    "full_pages": 125,
+    "boxes": 195,
+    "roi_pages": 25
+  }
+]

@@ -1,0 +1,602 @@
+{
+  "opened_full": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+  ],
+  "opened_roi": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "observations": [
+    {
+      "locals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "flags": "1000",
+      "scene_certain": true,
+      "reason": "远处唯一完整黑白足球约28–31px，无真实前景覆盖，低清柔化不算运动模糊。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "flags": "1010",
+      "scene_certain": false,
+      "reason": "远小足球小于40px，球纹/边缘有旋转或镜头拖影；模糊临界保留复核，鞋和三脚架靠近不自动记遮挡。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        14,
+        15
+      ],
+      "flags": "0110",
+      "scene_certain": false,
+      "reason": "图有两个黑白足球，脚旁球部分被鞋覆盖，右球完整；完整尺度在40px附近，不能据残片判小目标，有拖影。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "flags": "0010",
+      "scene_certain": false,
+      "reason": "近足球约40–55px，球或全景有方向性拖影；图像裁边不算遮挡；17另有右边界第二球，保留两框。尺寸临界和球缘待复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        22,
+        23
+      ],
+      "flags": "0001",
+      "scene_certain": true,
+      "reason": "全景未见可辨足球，白纸片、机器人和玩偶不是球；保留空label无球候选。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "flags": "0000",
+      "scene_certain": false,
+      "reason": "原框位于机器人躯干/腿间狭长反光区，不能区分结构与被遮挡球片；旧label作参考，NoBall清0可见性待审，不强行确认为遮挡球。",
+      "action": "needs_visibility_review"
+    },
+    {
+      "locals": [
+        28,
+        29
+      ],
+      "flags": "0100",
+      "scene_certain": false,
+      "reason": "左侧黑白足球右上缘与前景机器人重叠，约44px接近小目标阈值，无强方向性拖影，保留可见框待复核。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        30,
+        31
+      ],
+      "flags": "1010",
+      "scene_certain": true,
+      "reason": "远处唯一小足球，镜头转动使全景和球缘方向性拖影，无前景覆盖。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "flags": "1000",
+      "scene_certain": true,
+      "reason": "远处唯一完整黑白足球约25–29px，机器人在旁未覆盖球；低分辨柔化，无明显方向性拖影。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "flags": "1000",
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "远处唯一完整足球约23–25px，原生球面黑白斑纹可辨；机器人在旁或前景但未盖住球，只有人物动作不计球运动模糊。"
+    },
+    {
+      "locals": [
+        64,
+        65,
+        78,
+        79
+      ],
+      "flags": "1000",
+      "scene_certain": true,
+      "reason": "当前图唯一完整黑白小球约25–35px，鞋与机器人靠近但未盖住球，球纹可辨，无明显全局拖影。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        66,
+        67,
+        70,
+        71
+      ],
+      "flags": "1100",
+      "scene_certain": false,
+      "reason": "小足球位于鞋/机器人脚旁，边缘可能有少量前景重叠，保留遮挡候选供复查；当前原生球面可辨，无强拖影。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        68,
+        69,
+        74,
+        75,
+        76,
+        77
+      ],
+      "flags": "0000",
+      "scene_certain": false,
+      "reason": "机器人/人物挡住可能的球区域，当前没有可靠可见球框；保留空label与可见性疑点，不根据另目或相邻图判定无球。",
+      "action": "needs_visibility_review"
+    },
+    {
+      "locals": [
+        72,
+        73
+      ],
+      "flags": "1110",
+      "scene_certain": false,
+      "reason": "脚边小足球真实可辨，鞋在其上缘/左侧可能重叠；镜头转动造成全景方向性拖影，遮挡和紧致边界待复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "flags": "1000",
+      "scene_certain": false,
+      "reason": "唯一小足球约30–35px，鞋在球上方或侧后接近，是否极小重叠留复查；球面可辨，低清软化不自动算拖影。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        86,
+        87,
+        88,
+        89
+      ],
+      "flags": "0000",
+      "scene_certain": false,
+      "reason": "唯一完整足球约40–42px，处于Small阈值附近；鞋与机器人在旁，未见真实覆盖；轻微软边是否运动模糊亦留复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        90,
+        91
+      ],
+      "flags": "0010",
+      "scene_certain": false,
+      "reason": "下边缘近足球部分裁切，完整球大于40px；可见球缘运动拖影，图像裁切不算前景遮挡。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        92,
+        94,
+        95
+      ],
+      "flags": "0000",
+      "scene_certain": false,
+      "reason": "近处球区域处于画面下缘/人物脚旁，当前图不能可靠辨认并定位球；不将空label自动记无球，保留可见性复查。",
+      "action": "needs_visibility_review"
+    },
+    {
+      "locals": [
+        93
+      ],
+      "flags": "0000",
+      "scene_certain": false,
+      "reason": "下边缘可见真实黑白球顶弧，横向大于40px，图像裁切不算遮挡；低清软化和小范围可见边缘待复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        96,
+        97,
+        98,
+        99,
+        108,
+        109,
+        110,
+        111
+      ],
+      "flags": "0000",
+      "scene_certain": false,
+      "reason": "人物近处或前景机器人挡住部分球活动区域，当前没有足够可辨球像素；保留可见性待审NoBall0，不从空label推无球。",
+      "action": "needs_visibility_review"
+    },
+    {
+      "locals": [
+        101
+      ],
+      "flags": "1000",
+      "scene_certain": false,
+      "reason": "左下边缘黑白球真实可辨，横向约34px，原生当前可见框保留；完整尺度接近40px阈值、低清软边供复查，裁边不算遮挡。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        102,
+        103,
+        104,
+        105
+      ],
+      "flags": "1000",
+      "scene_certain": false,
+      "reason": "唯一完整小足球约33–37px，鞋在旁未盖住球，低像素软化无强拖影；轻微软边和框边供用户复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        106,
+        107
+      ],
+      "flags": "1010",
+      "scene_certain": true,
+      "reason": "小足球滚动时球面及轮廓出现明显水平方向拖影，鞋/机器人在旁无可见覆盖。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        100
+      ],
+      "flags": "1000",
+      "scene_certain": false,
+      "action": "replace",
+      "boxes_xyxy": [
+        [
+          136,
+          342,
+          174,
+          376
+        ]
+      ],
+      "reason": "原空label漏掉左下边缘明确黑白足球；原生坐标网格确认可见球从约136,342延至174,376，补当前可见框，不补图外轮廓。完整尺度约40px临界，Small候选待人工复查。"
+    },
+    {
+      "locals": [
+        112,
+        113
+      ],
+      "flags": "0000",
+      "scene_certain": false,
+      "reason": "前景机器人遮住球区域，右臂附近有小片亮色但身份和范围不够可靠；空label保持可见性待审，不按结构反光补框。",
+      "action": "needs_visibility_review"
+    },
+    {
+      "locals": [
+        114,
+        115
+      ],
+      "flags": "1100",
+      "scene_certain": false,
+      "reason": "远小足球在机器人手/腿旁露出，部分前景覆盖其左侧/上缘，保留当前可见框；强反光交界与边界供人工复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        116,
+        117,
+        118,
+        119
+      ],
+      "flags": "1000",
+      "scene_certain": true,
+      "reason": "远处唯一小足球约25–36px，机器人已与球有可见分离，无确定遮挡；低分辨软化不自动记运动模糊。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        120,
+        121
+      ],
+      "flags": "0010",
+      "scene_certain": false,
+      "reason": "近处足球被下边界截断，实际可见宽度约46px，不因裁切记遮挡；球面与全景有明显运动拖影。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        122,
+        123
+      ],
+      "flags": "0000",
+      "scene_certain": false,
+      "reason": "前景人体遮住下方球区域，当前没有可靠可定位球体；空标注保持可见性待审，不依据前后帧判无球。",
+      "action": "needs_visibility_review"
+    },
+    {
+      "locals": [
+        124,
+        125
+      ],
+      "flags": "0110",
+      "scene_certain": false,
+      "reason": "裤腿之间下边缘可见黑白足球，边界裁切且腿部可能覆盖球侧，运动拖影明显；完整尺寸接近40px阈值，场景留人工复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        126,
+        127
+      ],
+      "flags": "1000",
+      "scene_certain": false,
+      "reason": "足球约32px位于脚边，尚无明确真实覆盖；球缘软化不足以单独确定运动模糊，保留原框待复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        128,
+        129
+      ],
+      "flags": "1110",
+      "scene_certain": false,
+      "reason": "小足球紧邻运动鞋，鞋与球右侧交界有覆盖及拖影；当前框保留，遮挡和边缘待复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        130,
+        131
+      ],
+      "flags": "0010",
+      "scene_certain": false,
+      "reason": "球约40px处在小目标临界，暂不记Small；球和画面有方向性拖影，鞋与球有分离无明确遮挡。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "flags": "1000",
+      "scene_certain": true,
+      "reason": "远处足球约26–37px，完整可见且与鞋及机器人分离；仅低像素软化，未见足够明确球体方向性运动拖影。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        140,
+        141
+      ],
+      "flags": "1100",
+      "scene_certain": false,
+      "reason": "小足球夹在机器人和鞋之间，鞋覆盖右侧球缘；主体仍可定位，保留可见范围框，交界供复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        142,
+        143
+      ],
+      "flags": "1100",
+      "scene_certain": false,
+      "reason": "小足球右侧紧邻机器人腿/臂，ROI显示右缘有前景机械结构覆盖可能；保留框并留遮挡疑点。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        144,
+        145,
+        146,
+        147
+      ],
+      "flags": "1000",
+      "scene_certain": true,
+      "reason": "远处小球约24px，黑白球面和独立圆周可辨，鞋在后方没有明确遮住球。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        148,
+        149
+      ],
+      "flags": "0000",
+      "scene_certain": false,
+      "reason": "两机器人遮住中下部区域，当前没有可靠球体可定位；空label不等于确定无球。",
+      "action": "needs_visibility_review"
+    },
+    {
+      "locals": [
+        150,
+        151,
+        152,
+        153
+      ],
+      "flags": "1000",
+      "scene_certain": false,
+      "reason": "远处小足球约22px在鞋与机器人边，球缘软化且接近机械结构；现框保留，精确边界和接触关系留复查。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        154,
+        155
+      ],
+      "flags": "1010",
+      "scene_certain": true,
+      "reason": "小足球约22px，明显水平运动拖影；鞋靠近但未明确覆盖可见球体。",
+      "action": "keep"
+    },
+    {
+      "locals": [
+        156,
+        157,
+        158,
+        159
+      ],
+      "flags": "1000",
+      "scene_certain": true,
+      "reason": "小球约25–30px完整可见，与人脚和机器人有分离；地面阴影不计球体或遮挡，低像素软化不自动记模糊。",
+      "action": "keep"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checked_images": 8398,
+  "checked_labels": 8398,
+  "active_image_counts": {
+    "train": 6925,
+    "val": 1223,
+    "test": 0
+  },
+  "excluded_images": 250,
+  "unchanged_image_and_label_bytes": true,
+  "scene_and_review_fields_unchanged": true,
+  "metadata_only_split_modified": true,
+  "source_groups_cross_splits": 0,
+  "test_reserved_empty": true,
+  "original_archive_unchanged": true,
+  "original_frozen_audit_untouched": true,
+  "validated_at_utc": "2026-10-19T06:31:52.551897+00:00",
+  "moved_image_label_pairs": 1185,
+  "moved_files": 2370,
+  "metadata_sha256": "fed79f82abfd40b21e01c77e22bdbb851edb53e80b541dc9bd9adf7ceb12181c",
+  "yaml_sha256": "b80d9d0d7e2468ab53b37ecc50cc16c2582137abbf38d89a87f8c55b45c88c91",
+  "script_sha256": "617146fb00d8e927e64213c6e1e7cce66881127355ecc3f9b5974ed18582f751",
+  "cache_files_relocated": 0,
+  "backup_directory": "/home/misaka/workspace/dataset_processing/source-resplit-20261019/before",
+  "model_training_executed": false
+}

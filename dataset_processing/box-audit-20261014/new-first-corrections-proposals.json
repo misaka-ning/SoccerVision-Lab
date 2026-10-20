@@ -1,0 +1,1232 @@
+[
+  {
+    "filename": "video_4bec9c343db72928_frame_00005993_right.png",
+    "split": "train",
+    "expected_label_sha256": "39605327f62715b3a6bd03405c637f5436edaa5b1312ddfa132f6a30866643ad",
+    "boxes_xyxy": [
+      [
+        316.903599936,
+        236.890799848,
+        387.78080006399995,
+        309.548499912
+      ],
+      [
+        0,
+        155,
+        14,
+        188
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3261；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005993_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006008_right.png",
+    "split": "train",
+    "expected_label_sha256": "7e917db43473353f3943679730e5dbf5bc6442f62b1e2732f5a14c3b26a6bdb9",
+    "boxes_xyxy": [
+      [
+        340.483600464,
+        205.838699976,
+        415.771000176,
+        280.037900024
+      ],
+      [
+        0,
+        81,
+        50,
+        122
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3265；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006008_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006029_left.png",
+    "split": "train",
+    "expected_label_sha256": "72530cf5f9d9f9072b124472c5e5ec2f652b93c99e26834493691a7930c2fccf",
+    "boxes_xyxy": [
+      [
+        323.410700256,
+        256.336499948,
+        396.09740016,
+        330.382399908
+      ],
+      [
+        41,
+        114,
+        87,
+        154
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3268；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006029_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006029_right.png",
+    "split": "train",
+    "expected_label_sha256": "b379133efbb2969254c50a9fbefb2d2bf35693d1db482b4a01b0ccb8099da0f8",
+    "boxes_xyxy": [
+      [
+        291.1472004,
+        255.61049997199999,
+        363.300400176,
+        328.55710001200003
+      ],
+      [
+        24,
+        115,
+        71,
+        157
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3269；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006029_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006037_left.png",
+    "split": "train",
+    "expected_label_sha256": "2903a74f771f6fc75c679bc7284553375f55b9997d660c0cfcb806d6a9a5ff4c",
+    "boxes_xyxy": [
+      [
+        327.15340022399994,
+        266.405999908,
+        402.2484002879999,
+        343.874800076
+      ],
+      [
+        40,
+        122,
+        88,
+        161
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3270；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006037_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006038_left.png",
+    "split": "train",
+    "expected_label_sha256": "50ab7f05f6b28186317b041f0afabfa675b29192811e965d59a7b67f93027e9e",
+    "boxes_xyxy": [
+      [
+        330.044499792,
+        268.330900136,
+        404.33249976,
+        344.916399976
+      ],
+      [
+        44,
+        120,
+        91,
+        162
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3272；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006038_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006038_right.png",
+    "split": "train",
+    "expected_label_sha256": "ee5e2f930f49f2c80512b7c7018ae29dbf2dc30a6ca61252a1d003b4db6f27f9",
+    "boxes_xyxy": [
+      [
+        296.027100096,
+        267.066899996,
+        370.28160019200004,
+        344.500699828
+      ],
+      [
+        26,
+        119,
+        74,
+        161
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3273；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006038_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006050_left.png",
+    "split": "train",
+    "expected_label_sha256": "46329d162ac2c9754704cfcaf7d4d8e7335a2a7cdcb34fd054f77847a4e35d68",
+    "boxes_xyxy": [
+      [
+        324.111199776,
+        266.366300136,
+        401.25650006399997,
+        344.55050008800004
+      ],
+      [
+        20,
+        114,
+        71,
+        154
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3274；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006050_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006054_right.png",
+    "split": "train",
+    "expected_label_sha256": "52a110321d165c38f22f2a08453f9efe9d0ab3d50555314c22738d8c629632a5",
+    "boxes_xyxy": [
+      [
+        290.307199728,
+        266.05290018799997,
+        368.819600016,
+        345.45230018
+      ],
+      [
+        12,
+        105,
+        60,
+        145
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3277；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006054_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006085_right.png",
+    "split": "train",
+    "expected_label_sha256": "d08528c4ae149aafd7c9cdfb34ee5f57a7d465eb12b8a8287801b2eab53aaa97",
+    "boxes_xyxy": [
+      [
+        349.39979995199997,
+        222.83269997200003,
+        428.698199664,
+        301.761099804
+      ],
+      [
+        127,
+        59,
+        172,
+        99
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3285；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006085_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006095_right.png",
+    "split": "train",
+    "expected_label_sha256": "d9d4039ddce8641fb7b25348c4668416a53fa558eebb6db5788ebce083b686f8",
+    "boxes_xyxy": [
+      [
+        300.595599696,
+        220.16350003600002,
+        376.022999856,
+        295.89810022
+      ],
+      [
+        43,
+        59,
+        89,
+        101
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3287；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006095_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006100_left.png",
+    "split": "train",
+    "expected_label_sha256": "790b40aaccf1784412f169c8317e36088b774f6e7abf38bd9d6504245bc80766",
+    "boxes_xyxy": [
+      [
+        330.628099872,
+        223.655999912,
+        406.413199584,
+        299.03060002399997
+      ],
+      [
+        53,
+        62,
+        101,
+        105
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3288；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006100_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006100_right.png",
+    "split": "train",
+    "expected_label_sha256": "aa1f668a0ad451e5938779590fe1059f24a3b12c154570594ad0de71a5f0b756",
+    "boxes_xyxy": [
+      [
+        296.0022996,
+        222.381000268,
+        371.230299888,
+        298.0241001
+      ],
+      [
+        35,
+        59,
+        83,
+        101
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3289；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006100_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006117_left.png",
+    "split": "train",
+    "expected_label_sha256": "084ec77f56e53de5b67035a0e523f9ea745b3dc1dc686e3f44b00fe597a6e209",
+    "boxes_xyxy": [
+      [
+        325.590599712,
+        229.94119993200005,
+        402.785599776,
+        307.048200116
+      ],
+      [
+        43,
+        70,
+        92,
+        113
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3292；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006117_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006122_right.png",
+    "split": "train",
+    "expected_label_sha256": "04c5f3dea7d00b9232810de07fa74216c997fdb2e6219c79566cde82757b5ab4",
+    "boxes_xyxy": [
+      [
+        290.502300144,
+        233.053499888,
+        366.924600336,
+        309.735100064
+      ],
+      [
+        24,
+        72,
+        73,
+        115
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3295；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006122_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006133_left.png",
+    "split": "train",
+    "expected_label_sha256": "6d8dd66815171db3d4de7f30426531282f512843ce0b8b6507cfca2108962198",
+    "boxes_xyxy": [
+      [
+        322.240899792,
+        231.786999912,
+        400.26339998400005,
+        308.71219996
+      ],
+      [
+        32,
+        69,
+        82,
+        113
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3296；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006133_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006149_left.png",
+    "split": "train",
+    "expected_label_sha256": "aa81dd440c65a1d969286b85e0c9bff5f746b93182790fb3512be95b46e1f4c5",
+    "boxes_xyxy": [
+      [
+        324.96630028799996,
+        229.419999824,
+        402.192499968,
+        306.0969
+      ],
+      [
+        40,
+        69,
+        91,
+        113
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3300；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006149_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006153_left.png",
+    "split": "train",
+    "expected_label_sha256": "6ea6d55767a18ed9bed1daeaed40dceeec83a053bebfc27ad051cf464deaca78",
+    "boxes_xyxy": [
+      [
+        327.1160004,
+        229.661799972,
+        404.08610020799995,
+        306.446899788
+      ],
+      [
+        42,
+        65,
+        92,
+        108
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3302；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006153_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006153_right.png",
+    "split": "train",
+    "expected_label_sha256": "30e344a0bf4e3844bd124311790499a2a2b6d36f0cba772eafa0938c20d9ca14",
+    "boxes_xyxy": [
+      [
+        292.802500032,
+        229.01620007600002,
+        369.569100096,
+        305.008600148
+      ],
+      [
+        24,
+        65,
+        76,
+        108
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3303；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006153_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006164_right.png",
+    "split": "train",
+    "expected_label_sha256": "3ae09b8c9bc8764fafe3526ee01eb7b140201a2fbe7c8e5daad86a33f114fe9e",
+    "boxes_xyxy": [
+      [
+        293.65460006399996,
+        231.61579996799998,
+        370.19980032,
+        307.995099904
+      ],
+      [
+        29,
+        72,
+        79,
+        113
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3305；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006164_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006165_left.png",
+    "split": "train",
+    "expected_label_sha256": "500a5267956e0cfde2729636e22cf14dec863871aeea463194e87e6d5d049b0c",
+    "boxes_xyxy": [
+      [
+        328.86360024000004,
+        232.80090008,
+        405.525100176,
+        309.21310001600006
+      ],
+      [
+        49,
+        71,
+        99,
+        113
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3306；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006165_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006173_left.png",
+    "split": "train",
+    "expected_label_sha256": "d4aacee1fa3ac8c307e6906aecd90eae46bb6244eaaf58b7339f99d0c38a6816",
+    "boxes_xyxy": [
+      [
+        332.06819990400004,
+        230.67589979599998,
+        408.29050012799996,
+        306.945599868
+      ],
+      [
+        53,
+        71,
+        103,
+        113
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3308；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006173_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006173_right.png",
+    "split": "train",
+    "expected_label_sha256": "d0f4d6efb748fa863055573565539ffeb6d3dc435781a940fb39e90e5c5e1d3e",
+    "boxes_xyxy": [
+      [
+        297.709099632,
+        229.50089979599997,
+        373.6757999519999,
+        306.25539998
+      ],
+      [
+        35,
+        71,
+        86,
+        113
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3309；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006173_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006194_left.png",
+    "split": "train",
+    "expected_label_sha256": "7a953dd5cb14eb305cbe818e9241810be6124c8632f5d8cc4774fe82997692e2",
+    "boxes_xyxy": [
+      [
+        328.97249985599996,
+        229.545899852,
+        404.663099568,
+        305.590700036
+      ],
+      [
+        47,
+        65,
+        97,
+        109
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3312；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006194_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006208_left.png",
+    "split": "train",
+    "expected_label_sha256": "0938d90894689c646da300cf3efa13939d5f0172f28e25d7813bbedd2832400d",
+    "boxes_xyxy": [
+      [
+        327.38830017600003,
+        231.547900008,
+        403.93220011200003,
+        307.81859986399996
+      ],
+      [
+        45,
+        65,
+        97,
+        109
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3316；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006208_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006208_right.png",
+    "split": "train",
+    "expected_label_sha256": "92a243853428cee162db920cc963b56be9863b1beb51c7a900ed29eccdca4924",
+    "boxes_xyxy": [
+      [
+        292.358100048,
+        230.813200144,
+        369.360299952,
+        306.75060006399997
+      ],
+      [
+        27,
+        65,
+        77,
+        111
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3317；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006208_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006212_left.png",
+    "split": "train",
+    "expected_label_sha256": "b2c3c196cca0b9f5b7f1f8cee3362815d5d636f2df2712864549dd1658d16129",
+    "boxes_xyxy": [
+      [
+        327.427199904,
+        233.031399736,
+        404.185899936,
+        308.913899896
+      ],
+      [
+        45,
+        67,
+        97,
+        111
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3318；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006212_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006220_right.png",
+    "split": "train",
+    "expected_label_sha256": "a312a3edeb047132a12f87d22722322e0ad23b01a7fa640ca189d241312c0121",
+    "boxes_xyxy": [
+      [
+        290.21120016,
+        233.25549987200003,
+        366.667000224,
+        309.888999872
+      ],
+      [
+        18,
+        67,
+        70,
+        111
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框误落在近球球面白斑、鞋或远球局部；原生图确认左后方第二个足球，恢复其完整可见边界。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3321；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006220_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00005784_left.png",
+    "split": "train",
+    "expected_label_sha256": "22bcb71b1e30c03ab148e489726ca00e98cc691b2e6f4acfe0732be6de4a2045",
+    "boxes_xyxy": [
+      [
+        142,
+        258,
+        185,
+        296
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框对象或位置错误；原生图确认足球实际可见位置，替换为真实球边界，保留图像边缘裁切。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3204；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005784_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00005784_right.png",
+    "split": "train",
+    "expected_label_sha256": "a2417f92e8c953214636075588ebe11c25c84e68bbb652945593cce5bcdd1065",
+    "boxes_xyxy": [
+      [
+        123,
+        256,
+        168,
+        297
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框对象或位置错误；原生图确认足球实际可见位置，替换为真实球边界，保留图像边缘裁切。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3205；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005784_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006274_left.png",
+    "split": "train",
+    "expected_label_sha256": "28a067ee383493223d0831b7e97c50bf9a6a2d127e5bec4e007da1233ad5fd44",
+    "boxes_xyxy": [
+      [
+        318,
+        0,
+        374,
+        61
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框对象或位置错误；原生图确认足球实际可见位置，替换为真实球边界，保留图像边缘裁切。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3334；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006274_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007904_left.png",
+    "split": "train",
+    "expected_label_sha256": "1b8f1d1a342a5370f9e4e38b4421203cc7f67644911b7f6a60ace61e06473f55",
+    "boxes_xyxy": [
+      [
+        427,
+        293,
+        462,
+        325
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框对象或位置错误；原生图确认足球实际可见位置，替换为真实球边界，保留图像边缘裁切。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3756；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007904_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008611_left.png",
+    "split": "train",
+    "expected_label_sha256": "6328d8e6af868a29a9434cbc5ac1c954994439f00209c06afd112d073e61a43a",
+    "boxes_xyxy": [
+      [
+        506,
+        350,
+        572,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框对象或位置错误；原生图确认足球实际可见位置，替换为真实球边界，保留图像边缘裁切。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3946；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008611_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008832_left.png",
+    "split": "train",
+    "expected_label_sha256": "4c2d11910e8a94fa2847cfc2b341cdd98ddb3b3f4de49b2be9180820b887b348",
+    "boxes_xyxy": [
+      [
+        464,
+        343,
+        492,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框对象或位置错误；原生图确认足球实际可见位置，替换为真实球边界，保留图像边缘裁切。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4004；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008832_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008977_right.png",
+    "split": "train",
+    "expected_label_sha256": "66729e843e43f8127d087d7a553ad69aa893fc1b3c2a29ccb5a1e48749622b5c",
+    "boxes_xyxy": [
+      [
+        357,
+        275,
+        387,
+        300
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框对象或位置错误；原生图确认足球实际可见位置，替换为真实球边界，保留图像边缘裁切。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4043；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008977_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008978_right.png",
+    "split": "train",
+    "expected_label_sha256": "a123ae1c3423dcbe0b65222d275467c19f3503ec8fa63c26a027da83d7683385",
+    "boxes_xyxy": [
+      [
+        357,
+        275,
+        387,
+        300
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框对象或位置错误；原生图确认足球实际可见位置，替换为真实球边界，保留图像边缘裁切。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4045；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008978_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001292_left.png",
+    "split": "train",
+    "expected_label_sha256": "c81ec2abb5133edc55b0121c2b695392aa462a87b561dec6da6916516c001d13",
+    "boxes_xyxy": [
+      [
+        620,
+        42,
+        672,
+        101
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框对象或位置错误；原生图确认足球实际可见位置，替换为真实球边界，保留图像边缘裁切。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=2164；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00001292_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001299_left.png",
+    "split": "train",
+    "expected_label_sha256": "1a6000b0cdd0f539b06fdd2d70144c7bac3140a4d02fcb6e7878259cb7e2e6e9",
+    "boxes_xyxy": [
+      [
+        603,
+        115,
+        663,
+        168
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框对象或位置错误；原生图确认足球实际可见位置，替换为真实球边界，保留图像边缘裁切。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=2166；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00001299_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007536_left.png",
+    "split": "train",
+    "expected_label_sha256": "207d30e9c4c3591213b72e1f612e5135df3edef55564fbadf67548b89a5af457",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人脚部粉色标记；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3658；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007536_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007536_right.png",
+    "split": "train",
+    "expected_label_sha256": "a4917d824fa18903456878f3826402927f37a6df7b7ea1677b8408b53b769cfb",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人脚部粉色标记；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3659；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007536_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007541_right.png",
+    "split": "train",
+    "expected_label_sha256": "e0ae31f914113e09cb56c3ec5b6fcd178ded298cd521cbd432573c1c62d0e6c3",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人脚；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3661；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007541_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007675_left.png",
+    "split": "train",
+    "expected_label_sha256": "e442fc55d1b95f9ffe9395424f297328337e66ec752c851ed0e21645e8f19985",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人脚；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3696；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007675_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007692_left.png",
+    "split": "train",
+    "expected_label_sha256": "895a449b021ad5f45fbd41468cf8ce0c227df7d93801df4191d19ec4afde793c",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人脚；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3700；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007692_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007698_left.png",
+    "split": "train",
+    "expected_label_sha256": "d44348db9711918e9d11b1711ec9379b7a6cfc69af291879d4da8539ad7a6a2d",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为天花灯；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3702；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007698_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007709_left.png",
+    "split": "train",
+    "expected_label_sha256": "62928eb5d58b0358ffd59d25b7f2c83534327cd40d5d94e8a760b2f924c7d47c",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为天花灯；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3704；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007709_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007712_left.png",
+    "split": "train",
+    "expected_label_sha256": "9400b561458fd520913e27448557360b49a0aba0cddc9c5c06b878cc520059ae",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为天花灯；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3706；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007712_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007748_left.png",
+    "split": "train",
+    "expected_label_sha256": "457df6dfdf1e39c571e4a08a5b166353f2df1aee28e7a9924684d6f75518695f",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为人体手臂与衣物；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3716；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007748_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008248_left.png",
+    "split": "train",
+    "expected_label_sha256": "0fbd4d083e87e121016011f726dcf0acc58faebdc5fa3c95c234ba89f4344216",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为地板白色贴纸；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3848；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008248_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008248_right.png",
+    "split": "train",
+    "expected_label_sha256": "f624cea0f28b9736228d87c4012138a028faac5e88c7ea50ff006e29728a93c5",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为地板白色贴纸；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3849；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008248_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008293_left.png",
+    "split": "train",
+    "expected_label_sha256": "c4028e2cac742014ac096344762189a4818edec716a191df051590f13704e10b",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人鞋；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3860；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008293_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008293_right.png",
+    "split": "train",
+    "expected_label_sha256": "ce40c9dc5323db010e95b4351d6937b35cb3a98861b2880630d3f8326fc6d4fa",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人鞋；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3861；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008293_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008296_right.png",
+    "split": "train",
+    "expected_label_sha256": "69d84e730ec5f382cbe9592df4a0ebfab2b65e48c1d6578ab6e4ffe8a31da9b2",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人手臂的反光；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3863；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008296_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008436_left.png",
+    "split": "train",
+    "expected_label_sha256": "51177926c0ea321394204a607e027051159dd08772677270ccc9dbafed3e9b6a",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人脚部粉色标记；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3898；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008436_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008620_left.png",
+    "split": "train",
+    "expected_label_sha256": "323905fda9a06b7969ee644cc652ccabc9a2466c0127519f81a798fef3b8d043",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为地板白色贴纸；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3948；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008620_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008990_left.png",
+    "split": "train",
+    "expected_label_sha256": "e07dfa3997c0fea378f4ad97d5785dffd3a1fe2c4e77da23b9e4df2c737d6bf4",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人脚部粉色标记；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4046；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008990_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008994_left.png",
+    "split": "train",
+    "expected_label_sha256": "bb0aee956a84f50e83034f36b08055e7caefaaa5c020404b681be27817949fd5",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人脚部粉色标记；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4048；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008994_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009087_left.png",
+    "split": "train",
+    "expected_label_sha256": "d007181414851ba3f981870618589bd9178cc92d3622b2853486f77c0fac0ad4",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人鞋；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4072；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009087_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009087_right.png",
+    "split": "train",
+    "expected_label_sha256": "2a22d6e30d134ad88a933fb291dc4a9351380496a64d6db54fc476ad091bc1ae",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为机器人鞋；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4073；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009087_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009111_left.png",
+    "split": "train",
+    "expected_label_sha256": "870bd3197076c47ff51f1e5b6497facf64f89bbfdabecdeed7953abc2a1060de",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为电视及支架；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4078；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009111_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009111_right.png",
+    "split": "train",
+    "expected_label_sha256": "042b1c0dcc93abcea877fa7c51fa2e626df2a10fe2a4ef29caacfccb4fb4f78f",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为玩偶头部；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4079；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009111_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009121_right.png",
+    "split": "train",
+    "expected_label_sha256": "1c15662d0b492b6e379eb3c5170c33f9abf2d56efd90ddd00cd5b2046e662bee",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框实际为人的鞋；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4083；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009121_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00004934_right.png",
+    "split": "train",
+    "expected_label_sha256": "76e5d6e63120c8685bec1e56616109d4d2feb6aa23b5de20ba6f638d5ac0092b",
+    "boxes_xyxy": [
+      [
+        233.539799808,
+        180.10999983199997,
+        316.606399872,
+        261.731099976
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "重复框仅圈近球一块白色面片；本张原生图未见另一可见足球，移除重复框。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=2977；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00004934_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006367_left.png",
+    "split": "train",
+    "expected_label_sha256": "bfbed9956c94b71bdc5dc80a9e434e288e18c9dd3498dfe86eb16a9cef8a7393",
+    "boxes_xyxy": [
+      [
+        429.30569976,
+        168.179900156,
+        492.45129998400006,
+        229.883400084
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框是地板上的白色贴纸，移除误框，保留真实足球。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3358；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006367_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00006367_right.png",
+    "split": "train",
+    "expected_label_sha256": "8f1229a6ac7a9790c8af67bf6a995fb9919a56a135b4aed27fbce64464dccf8a",
+    "boxes_xyxy": [
+      [
+        402.414299616,
+        167.86470010800002,
+        464.38969987200005,
+        227.994000084
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框是地板上的白色贴纸，移除误框，保留真实足球。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=3359；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006367_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00003789_left.png",
+    "split": "train",
+    "expected_label_sha256": "fe9ad9ff11a946b15d0af5b866696badc59c7065b5fa794b279dd007ef3ff8b1",
+    "boxes_xyxy": [
+      [
+        354.10049976000005,
+        200.56159976000004,
+        424.59140001599997,
+        282
+      ]
+    ],
+    "action": "tighten",
+    "native_visual_review": true,
+    "reason": "下边界大段包入地面投影；原生像素核对球体和运动模糊轮廓，下边界收至282像素，排除投影。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=2736；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00003789_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00003789_right.png",
+    "split": "train",
+    "expected_label_sha256": "7e4313d328a67cd3fcef12e0ddcd4fa205c31e382dda794dbda94ddae9692403",
+    "boxes_xyxy": [
+      [
+        320.597300016,
+        199.03309978800002,
+        393.719699856,
+        282
+      ]
+    ],
+    "action": "tighten",
+    "native_visual_review": true,
+    "reason": "下边界大段包入地面投影；原生像素核对球体和运动模糊轮廓，下边界收至282像素，排除投影。",
+    "source": "全景与ROI全量审核后，原生672×376像素人工核对；inventory index=2737；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00003789_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00005260_left.png",
+    "split": "train",
+    "expected_label_sha256": "4cf9a293efd2ac97582cbea9e07df12ef6e1aeb39cfb300f19496e33e501ee78",
+    "boxes_xyxy": [
+      [
+        517.000699824,
+        63.824499947999996,
+        551.8926997919999,
+        97.9122001
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "第二框明确为黄色裤腿下的鞋；原生全图仅有右后方可见足球，保留真实球框并移除鞋误框。",
+    "source": "原生图视觉复核 inventory index=3064; /home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005260_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00007748_right.png",
+    "split": "train",
+    "expected_label_sha256": "838b5d4b32d0860f0489e02fd82122fc31a99d1b9f00195639279919738bcd67",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框明确为人的鞋及裤脚，原生全图没有可靠可框足球；移除误框，空label保持需人工核对可见性。",
+    "source": "原生图视觉复核 inventory index=3717; /home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007748_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00005958_left.png",
+    "split": "train",
+    "expected_label_sha256": "5e99f96c9621e5bdbde03d2bdd274faf5cbbd4be06df0d1d127f93e5894c7fb3",
+    "boxes_xyxy": [
+      [
+        50.078500080000005,
+        271.21709982399994,
+        123.89210030400001,
+        336
+      ]
+    ],
+    "action": "tighten",
+    "native_visual_review": true,
+    "reason": "原框下缘包入足球左下方长地板投影；原生像素保留完整球体和轻微模糊边缘，下缘收至336。",
+    "source": "原生图视觉复核 inventory index=3250; /home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005958_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00005958_right.png",
+    "split": "train",
+    "expected_label_sha256": "f9c7662e0180f0023668200b452c9287ffea14befa05b05704cfbd3f14d3d433",
+    "boxes_xyxy": [
+      [
+        20,
+        270.102599916,
+        97.283999904,
+        336
+      ]
+    ],
+    "action": "tighten",
+    "native_visual_review": true,
+    "reason": "原框下缘和左缘多包地板及投影；原生像素按完整球体和模糊边缘收紧，排除长投影。",
+    "source": "原生图视觉复核 inventory index=3251; /home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005958_right.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00005697_left.png",
+    "split": "train",
+    "expected_label_sha256": "4988c4d9646d666b905e45d6537efec91c851c338bff91b3c66a18fcd29d2f95",
+    "boxes_xyxy": [
+      [
+        384,
+        111,
+        422,
+        145
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "原框顶缘截掉真实足球的上部模糊球面；原生像素恢复足球完整可见边界，排除下方地板投影。",
+    "source": "原生图视觉复核 inventory index=3180; /home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005697_left.png"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00005978_left.png",
+    "split": "train",
+    "expected_label_sha256": "748c170736e6857a3d1e7ed469f9c7615937fbd2f7a6f882fb1ef78d421d94f2",
+    "boxes_xyxy": [
+      [
+        381,
+        246,
+        459,
+        315.61450001599997
+      ],
+      [
+        3.3599999982314444e-07,
+        226.00000008000004,
+        43.00000017599999,
+        273.999999904
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "近球原框顶缘截掉上部白色球面，原生像素恢复完整可见球体；远球保留原框。",
+    "source": "原生图视觉复核 inventory index=3256; /home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005978_left.png"
+  }
+]

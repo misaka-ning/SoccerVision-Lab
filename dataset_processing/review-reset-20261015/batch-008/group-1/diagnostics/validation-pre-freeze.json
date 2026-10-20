@@ -1,0 +1,15 @@
+{
+  "images": 250,
+  "full_pages": 125,
+  "roi_pages": 25,
+  "old_box_ROI_entries": 200,
+  "source_image_and_label_sha256_matches": 250,
+  "No_Ball_and_geometry_valid": true,
+  "canonical_dataset_written": false,
+  "awaiting_root_second_pass": [
+    "104",
+    "105",
+    "186",
+    "187"
+  ]
+}

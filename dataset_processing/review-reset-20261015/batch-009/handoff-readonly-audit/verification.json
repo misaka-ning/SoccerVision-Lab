@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "success": true,
+  "reviewer": "independent_batch009_handoff_readonly_audit",
+  "created_at_utc": "2026-10-19T03:23:29.249578+00:00",
+  "checks": {
+    "queued_batch_9_prechecked_398_not_opened": true,
+    "queue_proposals_and_verification_sha": true,
+    "staged_original_four_inputs_hash_equal": true,
+    "staged_verification_input_sha_and_PASS": true,
+    "all_collected_frozeninput_hashes": true,
+    "immutable_list_sha_order_398": true,
+    "canonical_398_rows_match_baseline": true,
+    "canonical_398_images_sha_unchanged": true,
+    "canonical_398_labels_sha_unchanged": true,
+    "staged_398_before_labels_match_frozen_sha": true,
+    "six_replacements_match_root_registry_precise_bytes": true,
+    "NoBall_exact_54_empty_360_boxes": true,
+    "priority_24_pending_double11": true,
+    "result_metrics_and_safety": true,
+    "staged_result_original_hashes_bound": true
+  },
+  "failures": [],
+  "metrics": {
+    "images": 398,
+    "boxes_before": 360,
+    "boxes_after": 360,
+    "empty_labels": 54,
+    "changed_labels": 6,
+    "unchanged_labels": 392,
+    "priority": 24
+  },
+  "canonical_dataset_written": false,
+  "file_sha256": {
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/staged/result.json": "3ced07c406a082345fa219567fd57da23b86069563e8ad60bc42b8f5e585b358",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/staged/verification.json": "cc80d4304a2bdf68bd2394522265f6ea67bfdc6a61992f91dd30d76d42206dd3",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/staged/proposals.json": "db64b155acc270c68fc9f6dbe6413fd5dddd58f2d83568968045e88f57d9e9e7",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/staged/inventory.json": "a4cd3daabb8a224ce1e31a6ee50c851a9b53e48d1c3b603c21c91d6a2ddc3a9e",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/staged/summary.json": "506c6f4041aa7b46db1406ca805905f028fd0fdd1ccaff1421e8aadce9a26ab4",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/staged/replacement-second-review.json": "8a62f777ec0a48c5c6a367297993ea2d793c22edafd11680122968b708174e9a"
+  },
+  "queue_sha256": "b3a02767ca9c18783a58854f7708da45314b342ecec3b3ade5a1492a6ceebc5b"
+}

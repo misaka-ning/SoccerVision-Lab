@@ -1,0 +1,2931 @@
+{
+  "opened_full": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-000.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-001.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-002.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-003.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-004.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-005.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-006.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-007.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-008.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-009.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-010.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-011.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-012.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-013.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-014.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-015.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-016.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-017.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-018.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-019.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-020.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-021.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-022.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-023.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-024.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-025.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-026.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-027.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-028.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-029.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-030.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-031.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-032.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-033.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-034.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-035.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-036.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-037.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-038.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-039.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-040.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-041.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-042.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-043.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-044.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-045.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-046.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-047.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-048.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-049.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-050.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-051.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-052.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-053.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-054.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-055.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-056.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-057.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-058.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-059.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-060.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-061.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-062.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-063.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-064.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-065.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-066.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-067.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-068.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-069.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-070.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-071.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-072.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-073.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-074.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-075.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-076.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-077.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-078.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-079.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-080.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-081.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-082.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-083.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-084.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-085.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-086.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-087.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-088.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-089.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-090.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-091.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-092.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-093.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-094.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-095.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-096.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-097.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-098.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-099.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-100.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-101.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-102.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-103.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-104.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-105.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-106.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-107.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-108.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-109.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-110.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-111.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-112.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-113.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-114.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-115.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-116.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-117.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-118.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-119.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-120.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-121.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-122.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-123.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/full/page-124.png"
+  ],
+  "opened_roi": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-000.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-001.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-002.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-003.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-004.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-005.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-006.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-007.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-008.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-009.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-010.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-011.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-012.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-013.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-014.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-015.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-016.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-017.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-018.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-019.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-020.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-021.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-022.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-023.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-024.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-025.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-026.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-027.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-028.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-029.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-030.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/roi/page-031.png"
+  ],
+  "decisions": {
+    "0": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手指明确覆盖近景足球左侧及上缘；足球不是小目标，画面和球纹有运动拖影，保留现框待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "1": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手指明确覆盖近景足球左侧及上缘；足球不是小目标，画面和球纹有运动拖影，保留现框待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "2": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手指明确覆盖近景足球左侧及上缘；足球不是小目标，画面和球纹有运动拖影，保留现框待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "3": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手指明确覆盖近景足球左侧及上缘；足球不是小目标，画面和球纹有运动拖影，保留现框待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "4": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手指明确覆盖近景足球左侧及上缘；足球不是小目标，画面和球纹有运动拖影，保留现框待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "5": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球完整可见且无前景物遮挡，球纹与桌面存在方向性拖影；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "6": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球完整可见且无前景物遮挡，球纹与桌面存在方向性拖影；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "7": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球下缘被图像边界裁切，裁切不计遮挡；近景大球及全景均存在运动拖影，保留边界候选。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "8": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球下缘被图像边界裁切，裁切不计遮挡；近景大球及全景均存在运动拖影，保留边界候选。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "9": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面大球完整且无前景遮挡；电线与背景存在方向性拖影，足球外缘略软，按全景运动模糊记录。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "10": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面大球完整且无前景遮挡；电线与背景存在方向性拖影，足球外缘略软，按全景运动模糊记录。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "11": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "大球发生明显竖向运动拖影，现框位置大致正确但真实球边缘与拖影难以可靠分离；不自动缩框，待用户核定边界。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "12": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "大球发生明显竖向运动拖影，现框位置大致正确但真实球边缘与拖影难以可靠分离；不自动缩框，待用户核定边界。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "13": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "大球发生明显竖向运动拖影，现框位置大致正确但真实球边缘与拖影难以可靠分离；不自动缩框，待用户核定边界。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "14": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "大球发生明显竖向运动拖影，现框位置大致正确但真实球边缘与拖影难以可靠分离；不自动缩框，待用户核定边界。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "15": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景大球无前景遮挡，球纹及背景有轻微运动拖影；现框大致沿可见外缘，继续待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "16": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景大球无前景遮挡，球纹及背景有轻微运动拖影；现框大致沿可见外缘，继续待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "17": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景大球无前景遮挡，球纹及背景有轻微运动拖影；现框大致沿可见外缘，继续待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "18": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面大球无遮挡，球纹及桌面电线有方向性运动拖影；下缘有画面裁切的帧不额外记遮挡，现框留待用户核对。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "19": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面大球无遮挡，球纹及桌面电线有方向性运动拖影；下缘有画面裁切的帧不额外记遮挡，现框留待用户核对。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "20": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面大球无遮挡，球纹及桌面电线有方向性运动拖影；下缘有画面裁切的帧不额外记遮挡，现框留待用户核对。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "21": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面大球无遮挡，球纹及桌面电线有方向性运动拖影；下缘有画面裁切的帧不额外记遮挡，现框留待用户核对。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "22": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右侧手指明确压住球面边缘，近景球纹可辨且没有明显运动拖尾，保留可见球区域现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "23": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右侧手指明确压住球面边缘，近景球纹可辨且没有明显运动拖尾，保留可见球区域现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "24": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右侧手指明确压住球面边缘，近景球纹可辨且没有明显运动拖尾，保留可见球区域现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "25": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右侧手指明确压住球面边缘，近景球纹可辨且没有明显运动拖尾，保留可见球区域现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "26": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "旋转足球纹理明显模糊，右侧手指接触边缘，前后覆盖关系较小需用户核对；不自动收缩边界。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "27": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手已移开球面，旋转球纹明显拖影；近景足球不是小目标，现框边缘保留待复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "28": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手已移开球面，旋转球纹明显拖影；近景足球不是小目标，现框边缘保留待复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "29": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手已移开球面，旋转球纹明显拖影；近景足球不是小目标，现框边缘保留待复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "30": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景大球纹理和外轮廓可辨，右侧手指与球之间有间隙，未见明确遮挡；保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "31": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景大球纹理和外轮廓可辨，右侧手指与球之间有间隙，未见明确遮挡；保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "32": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景大球纹理和外轮廓可辨，右侧手指与球之间有间隙，未见明确遮挡；保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "33": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景大球纹理和外轮廓可辨，右侧手指与球之间有间隙，未见明确遮挡；保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "34": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右手指仅在足球右缘接触，尚难确认有真实前景覆盖；保留无明确遮挡判断并提示用户核对，球不是小目标。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "35": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右手指仅在足球右缘接触，尚难确认有真实前景覆盖；保留无明确遮挡判断并提示用户核对，球不是小目标。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "36": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右手指伸入球体右侧轮廓并盖住少量球纹，属于局部真实遮挡；球纹清楚，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "37": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右手指伸入球体右侧轮廓并盖住少量球纹，属于局部真实遮挡；球纹清楚，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "38": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右手指伸入球体右侧轮廓并盖住少量球纹，属于局部真实遮挡；球纹清楚，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "39": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右手指伸入球体右侧轮廓并盖住少量球纹，属于局部真实遮挡；球纹清楚，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "40": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "右手指覆盖球面右下部，球体转动造成纹理方向性模糊；近景大球，保留现有候选框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "41": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "右手指覆盖球面右下部，球体转动造成纹理方向性模糊；近景大球，保留现有候选框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "42": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球下缘被画面裁切，手指已移开，没有真实前景遮挡；球纹或全景可见运动拖影，现框保留可见区域。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "43": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球下缘被画面裁切，手指已移开，没有真实前景遮挡；球纹或全景可见运动拖影，现框保留可见区域。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "44": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球下缘被画面裁切，手指已移开，没有真实前景遮挡；球纹或全景可见运动拖影，现框保留可见区域。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "45": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球下缘被画面裁切，手指已移开，没有真实前景遮挡；球纹或全景可见运动拖影，现框保留可见区域。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "46": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球下缘被画面裁切，手指已移开，没有真实前景遮挡；球纹或全景可见运动拖影，现框保留可见区域。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "47": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球下缘被画面裁切，手指已移开，没有真实前景遮挡；球纹或全景可见运动拖影，现框保留可见区域。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "48": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球下缘被画面裁切，手指已移开，没有真实前景遮挡；球纹或全景可见运动拖影，现框保留可见区域。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "49": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球下缘被画面裁切，手指已移开，没有真实前景遮挡；球纹或全景可见运动拖影，现框保留可见区域。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "50": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "球下部被图像边界裁切，球纹接缝清楚，无明确前景遮挡和明显运动拖尾；保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "51": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "球下部被图像边界裁切，球纹接缝清楚，无明确前景遮挡和明显运动拖尾；保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "52": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "下缘裁切的近景大球，球纹及背景有明显方向性拖影，现框可见部分大致匹配；保留待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "53": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "下缘裁切的近景大球，球纹及背景有明显方向性拖影，现框可见部分大致匹配；保留待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "54": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌边足球无手指前景覆盖，画面和球纹有方向性运动模糊；下缘裁切不记遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "55": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌边足球无手指前景覆盖，画面和球纹有方向性运动模糊；下缘裁切不记遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "56": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "右手拇指明确压住足球右下方球面，画面和球纹轻微运动软化；近景大球及现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "57": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "右手拇指明确压住足球右下方球面，画面和球纹轻微运动软化；近景大球及现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "58": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "右手拇指明确压住足球右下方球面，画面和球纹轻微运动软化；近景大球及现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "59": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "右手拇指明确压住足球右下方球面，画面和球纹轻微运动软化；近景大球及现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "60": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "手指已离开球面，桌面足球外轮廓和球面接缝清楚，未发现其他漏球；现框沿大球外缘保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "61": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "手指已离开球面，桌面足球外轮廓和球面接缝清楚，未发现其他漏球；现框沿大球外缘保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "62": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "手指已离开球面，桌面足球外轮廓和球面接缝清楚，未发现其他漏球；现框沿大球外缘保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "63": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "手指已离开球面，桌面足球外轮廓和球面接缝清楚，未发现其他漏球；现框沿大球外缘保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "64": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "手指已离开球面，桌面足球外轮廓和球面接缝清楚，未发现其他漏球；现框沿大球外缘保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "65": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面足球无遮挡，但球纹与电线、背景存在同向运动拖影；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "66": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "67": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "68": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "69": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "70": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "71": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "72": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "73": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "74": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "75": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "76": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "77": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面近景足球位于电线与鼠标前方，未见前景物覆盖球面；球纹或全景存在同向运动软化，画面边缘裁切不记遮挡，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "78": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球位于下方或右下方被画面裁切，球纹和桌面电线有明显同向运动拖影；未见真实遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "79": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球位于下方或右下方被画面裁切，球纹和桌面电线有明显同向运动拖影；未见真实遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "80": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球位于下方或右下方被画面裁切，球纹和桌面电线有明显同向运动拖影；未见真实遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "81": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球位于下方或右下方被画面裁切，球纹和桌面电线有明显同向运动拖影；未见真实遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "82": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右下方大球部分出画，现有可见球纹和电线边界清楚；裁切不算遮挡，保留可见区域现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "83": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右下方大球部分出画，现有可见球纹和电线边界清楚；裁切不算遮挡，保留可见区域现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "84": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右下方大球部分出画，现有可见球纹和电线边界清楚；裁切不算遮挡，保留可见区域现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "85": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右下方大球部分出画，现有可见球纹和电线边界清楚；裁切不算遮挡，保留可见区域现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "86": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右下方大球部分出画，现有可见球纹和电线边界清楚；裁切不算遮挡，保留可见区域现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "87": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "右下方大球部分出画，现有可见球纹和电线边界清楚；裁切不算遮挡，保留可见区域现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "88": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "下方大球和桌面背景均有运动拖影，未见前景物覆盖；保留当前候选框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "89": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "下方足球有部分出画，球面接缝与图案清楚，没有真实前景遮挡；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "90": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "球处于下方近景并被画面裁切，球纹与背景电线清楚；远离球面的上方手指不算足球遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "91": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "球处于下方近景并被画面裁切，球纹与背景电线清楚；远离球面的上方手指不算足球遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "92": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "球处于下方近景并被画面裁切，球纹与背景电线清楚；远离球面的上方手指不算足球遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "93": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "手指从左上方伸入并盖住球面，属于明确局部遮挡；球面接缝可辨，手指自身模糊不单独推断球的运动模糊。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "94": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "手指从左上方伸入并盖住球面，属于明确局部遮挡；球面接缝可辨，手指自身模糊不单独推断球的运动模糊。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "95": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "手指从左上方伸入并盖住球面，属于明确局部遮挡；球面接缝可辨，手指自身模糊不单独推断球的运动模糊。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "96": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "手指从左上方伸入并盖住球面，属于明确局部遮挡；球面接缝可辨，手指自身模糊不单独推断球的运动模糊。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "97": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手指压在旋转足球上方，球纹与背景有明显运动拖影；现框作为候选保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "98": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手指压在旋转足球上方，球纹与背景有明显运动拖影；现框作为候选保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "99": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "旋转足球和背景严重运动模糊，左侧指尖仍覆盖球缘；球体边缘和拖影难分，保留原框待用户定位。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "100": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "旋转足球和背景严重运动模糊，左侧指尖仍覆盖球缘；球体边缘和拖影难分，保留原框待用户定位。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "101": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "手指已离开足球，球纹仍有强烈旋转拖影；可见边缘难以精确确定，保留候选待用户定位。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "102": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球在画面下方强烈旋转拖影，球纹边缘难分离；保留现框待人工核定可见边缘。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "103": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球上方白色弧形外缘已露出现框上侧，原框上边可能漏包球体且强拖影影响精确定位；不猜测补全，保留框请用户修正。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "104": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球部分从左边出画，球纹与背景明显同向运动拖影；裁切不计遮挡，边缘模糊保留原框请用户定位。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "105": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球部分从左边出画，球纹与背景明显同向运动拖影；裁切不计遮挡，边缘模糊保留原框请用户定位。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "106": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球部分从左边出画，球纹与背景明显同向运动拖影；裁切不计遮挡，边缘模糊保留原框请用户定位。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "107": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球部分从左边出画，球纹与背景明显同向运动拖影；裁切不计遮挡，边缘模糊保留原框请用户定位。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "108": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球部分从左边出画，球纹与背景明显同向运动拖影；裁切不计遮挡，边缘模糊保留原框请用户定位。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "109": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧裁切足球的可见部分被现框覆盖，球纹与背景有运动拖影；画面边界及附近未覆盖球面的手指不计真实遮挡。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "110": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧裁切足球的可见部分被现框覆盖，球纹与背景有运动拖影；画面边界及附近未覆盖球面的手指不计真实遮挡。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "111": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧裁切足球的可见部分被现框覆盖，球纹与背景有运动拖影；画面边界及附近未覆盖球面的手指不计真实遮挡。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "112": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧裁切足球的可见部分被现框覆盖，球纹与背景有运动拖影；画面边界及附近未覆盖球面的手指不计真实遮挡。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "113": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左上方手指压住足球表面，球纹和桌面背景存在明显方向性运动模糊；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "114": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧桌面足球可见现框和近旁手指，手指主要停在球缘以外；球与全景有运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "115": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧桌面足球可见现框和近旁手指，手指主要停在球缘以外；球与全景有运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "116": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球在左侧出画，左上角指尖与球缘接触是否覆盖很小且运动模糊；保留现框并请用户核对遮挡关系。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "117": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "球面接缝与条码可辨，左侧手指未明确盖住球面；画面裁切不计遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "118": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "球面接缝与条码可辨，左侧手指未明确盖住球面；画面裁切不计遮挡，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "119": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面足球部分向左出画，未见手指真实覆盖；球纹及全景有方向性拖影，保留沿可见区域的现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "120": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面足球部分向左出画，未见手指真实覆盖；球纹及全景有方向性拖影，保留沿可见区域的现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "121": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面足球部分向左出画，未见手指真实覆盖；球纹及全景有方向性拖影，保留沿可见区域的现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "122": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面足球部分向左出画，未见手指真实覆盖；球纹及全景有方向性拖影，保留沿可见区域的现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "123": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面足球部分向左出画，未见手指真实覆盖；球纹及全景有方向性拖影，保留沿可见区域的现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "124": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面足球部分向左出画，未见手指真实覆盖；球纹及全景有方向性拖影，保留沿可见区域的现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "125": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "桌面足球部分向左出画，未见手指真实覆盖；球纹及全景有方向性拖影，保留沿可见区域的现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "126": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧近景足球无遮挡或仅被画面裁切，球纹及背景有明确运动拖影；上方手掌没有盖住球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "127": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧近景足球无遮挡或仅被画面裁切，球纹及背景有明确运动拖影；上方手掌没有盖住球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "128": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧近景足球无遮挡或仅被画面裁切，球纹及背景有明确运动拖影；上方手掌没有盖住球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "129": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧近景足球无遮挡或仅被画面裁切，球纹及背景有明确运动拖影；上方手掌没有盖住球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "130": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "左侧近景足球无遮挡或仅被画面裁切，球纹及背景有明确运动拖影；上方手掌没有盖住球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "131": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "健身房远处蓝白足球约20像素，鞋在后方未遮球；小目标纹理像素化但无明显方向性拖影，保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "132": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "原生像素网格及前后对照确认：旧框上侧多含约3像素背景、下侧多含约2像素地面；保留水平范围，将候选改为[237,51,260,69]覆盖可见球体，仍待用户审核。",
+      "action": "replace",
+      "scene_certain": true,
+      "boxes_xyxy": [
+        [
+          237,
+          51,
+          260,
+          69
+        ]
+      ],
+      "extra_evidence": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/detail-small-bounds.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/detail-n132-candidate.png"
+      ]
+    },
+    "133": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "远处蓝白足球约18至20像素，球面未被鞋或设备覆盖；低分辨率像素化不单独记模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "134": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "远处蓝白足球约18至20像素，球面未被鞋或设备覆盖；低分辨率像素化不单独记模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "135": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "健身房远处足球约20像素，脚部在球后未真实遮住球面；画面移动造成足球和背景软化，保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "136": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "健身房远处足球约20像素，脚部在球后未真实遮住球面；画面移动造成足球和背景软化，保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "137": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "健身房远处足球约20像素，脚部在球后未真实遮住球面；画面移动造成足球和背景软化，保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "138": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "健身房地面约17至20像素蓝白球明确可见，鞋位于球体后方未覆盖球纹；低像素不直接记运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "139": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "健身房地面约17至20像素蓝白球明确可见，鞋位于球体后方未覆盖球纹；低像素不直接记运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "140": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "健身房地面约17至20像素蓝白球明确可见，鞋位于球体后方未覆盖球纹；低像素不直接记运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "141": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "健身房地面约17至20像素蓝白球明确可见，鞋位于球体后方未覆盖球纹；低像素不直接记运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "142": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "健身房地面约17至20像素蓝白球明确可见，鞋位于球体后方未覆盖球纹；低像素不直接记运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "143": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "健身房地面约17至20像素蓝白球明确可见，鞋位于球体后方未覆盖球纹；低像素不直接记运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "144": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "健身房地面约17至20像素蓝白球明确可见，鞋位于球体后方未覆盖球纹；低像素不直接记运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "145": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋尖接近球的右上缘，局部可能真实覆盖但像素很少；保留候选和遮挡疑点供用户核对。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "146": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋尖接近球的右上缘，局部可能真实覆盖但像素很少；保留候选和遮挡疑点供用户核对。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "147": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "远处球与右侧白鞋相邻，蓝白球轮廓独立可辨，没有明确覆盖，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "148": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "球和脚部贴近且明显运动拖影，现框右侧可能漏包球体，鞋与球的分界不可靠；保留候选请用户修框和核对遮挡。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": false
+    },
+    "149": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "两脚前方蓝白小球完整可辨，鞋处后方不算遮挡，球框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "150": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚前方蓝白足球约16至19像素，小球轮廓独立可见；鞋在后方未盖球，原框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "151": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚前方蓝白足球约16至19像素，小球轮廓独立可见；鞋在后方未盖球，原框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "152": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚前方蓝白足球约16至19像素，小球轮廓独立可见；鞋在后方未盖球，原框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "153": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚前方蓝白足球约16至19像素，小球轮廓独立可见；鞋在后方未盖球，原框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "154": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "远处蓝白小球明确可见，但原框左缘疑似切到球纹，像素较少不直接猜缩放；保留原框请用户核定左缘。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "155": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物脚前小球轮廓完整，鞋位于后方，未发现真实遮挡；低像素图案不直接记模糊，原框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "156": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "脚前小球的左下方黑白轮廓可能伸出现框，原框偏紧；保留原候选，请用户核定可见范围。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "157": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "远处足球约17像素且在双脚前方，球面未被鞋覆盖；相机移动使全景和小球有轻微方向性模糊，保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "158": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "远处足球约17像素且在双脚前方，球面未被鞋覆盖；相机移动使全景和小球有轻微方向性模糊，保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "159": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "远处足球约17像素且在双脚前方，球面未被鞋覆盖；相机移动使全景和小球有轻微方向性模糊，保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "160": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "远处足球约17像素且在双脚前方，球面未被鞋覆盖；相机移动使全景和小球有轻微方向性模糊，保留现框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "161": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "两脚前方小球和鞋分开，蓝白纹理可辨，未见明显运动拖尾；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "162": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "163": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "164": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "165": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "166": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "167": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "168": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "169": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "170": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "171": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "172": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "173": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物两脚之间或前方的蓝白小球可独立辨认，大小约18至23像素，鞋处于后方未明确盖住球面；纹理像素化不按模糊处理，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "174": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋底在小球上方覆盖部分球缘，脚与球存在运动拖影；小球可见部分仍可辨，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "175": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋底在小球上方覆盖部分球缘，脚与球存在运动拖影；小球可见部分仍可辨，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "176": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋底在小球上方覆盖部分球缘，脚与球存在运动拖影；小球可见部分仍可辨，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "177": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "脚已移到球后，足球轮廓可独立辨认但有轻微运动拖影；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "178": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "小球在两脚前方或健身器材右侧，鞋与器材尚未明确覆盖球面；约21至24像素，不把像素化视为模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "179": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "小球在两脚前方或健身器材右侧，鞋与器材尚未明确覆盖球面；约21至24像素，不把像素化视为模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "180": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "小球在两脚前方或健身器材右侧，鞋与器材尚未明确覆盖球面；约21至24像素，不把像素化视为模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "181": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "小球在两脚前方或健身器材右侧，鞋与器材尚未明确覆盖球面；约21至24像素，不把像素化视为模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "182": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "小球在两脚前方或健身器材右侧，鞋与器材尚未明确覆盖球面；约21至24像素，不把像素化视为模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "183": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "小球靠近前景黑色器材横梁端部，左下球缘与横梁可能有轻微覆盖；当前像素不足以确定仅接触还是遮挡，请用户重点复核。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "184": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "小球靠近前景黑色器材横梁端部，左下球缘与横梁可能有轻微覆盖；当前像素不足以确定仅接触还是遮挡，请用户重点复核。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "185": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球与鞋接触且运动拖影明显，球上缘可能受鞋底覆盖；保留候选请用户核对遮挡关系。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "186": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球滚动造成蓝白纹理拖影，左侧鞋尖主要在球后；现框覆盖小球可见部分。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "187": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "脚尖接近足球上缘，极少像素可能受鞋底覆盖；保持候选，遮挡关系请用户核对。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "188": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "足球在脚前，球缘和鞋底基本分开；小球纹理像素化不额外记运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "189": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "足球在脚前，球缘和鞋底基本分开；小球纹理像素化不额外记运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "190": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "鞋底贴近小球上缘，是否覆盖仅数个像素，不能仅按接触判定；现框保留并请用户核对遮挡。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "191": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "鞋底贴近小球上缘，是否覆盖仅数个像素，不能仅按接触判定；现框保留并请用户核对遮挡。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "192": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物脚前足球约28至32像素，白黑蓝图案和外轮廓可辨；邻近鞋在后方未明显覆盖球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "193": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物脚前足球约28至32像素，白黑蓝图案和外轮廓可辨；邻近鞋在后方未明显覆盖球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "194": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物脚前足球约28至32像素，白黑蓝图案和外轮廓可辨；邻近鞋在后方未明显覆盖球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "195": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物脚前足球约28至32像素，白黑蓝图案和外轮廓可辨；邻近鞋在后方未明显覆盖球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "196": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物脚前足球约28至32像素，白黑蓝图案和外轮廓可辨；邻近鞋在后方未明显覆盖球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "197": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "人物脚前足球约28至32像素，白黑蓝图案和外轮廓可辨；邻近鞋在后方未明显覆盖球面，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "198": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋底进入足球上缘并盖住少量球面，球体转动使图案模糊；小球约34像素，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "199": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋底进入足球上缘并盖住少量球面，球体转动使图案模糊；小球约34像素，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "200": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋底进入足球上缘并盖住少量球面，球体转动使图案模糊；小球约34像素，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "201": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋底进入足球上缘并盖住少量球面，球体转动使图案模糊；小球约34像素，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "202": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "鞋已移到球后，转动的足球图案仍有运动软化；球面轮廓完整，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "203": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "鞋已移到球后，转动的足球图案仍有运动软化；球面轮廓完整，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "204": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "鞋尖贴近足球左缘并可能覆盖少量球面，足球有旋转模糊；保留原框，遮挡关系请用户复查。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "205": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "鞋尖贴近足球左缘并可能覆盖少量球面，足球有旋转模糊；保留原框，遮挡关系请用户复查。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "206": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "约32至34像素足球在双脚前方完整可见，白黑球纹清楚，未见明确运动拖尾；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "207": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "约32至34像素足球在双脚前方完整可见，白黑球纹清楚，未见明确运动拖尾；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "208": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "约32至34像素足球在双脚前方完整可见，白黑球纹清楚，未见明确运动拖尾；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "209": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "约32至34像素足球在双脚前方完整可见，白黑球纹清楚，未见明确运动拖尾；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "210": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "脚前足球完整可见，约32至39像素，鞋与球未明显重叠；白蓝球纹可辨，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "211": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "脚前足球完整可见，约32至39像素，鞋与球未明显重叠；白蓝球纹可辨，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "212": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "脚前足球完整可见，约32至39像素，鞋与球未明显重叠；白蓝球纹可辨，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "213": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "脚前足球完整可见，约32至39像素，鞋与球未明显重叠；白蓝球纹可辨，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "214": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "脚前足球完整可见，约32至39像素，鞋与球未明显重叠；白蓝球纹可辨，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "215": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "脚前足球完整可见，约32至39像素，鞋与球未明显重叠；白蓝球纹可辨，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "216": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "脚前足球完整可见，约32至39像素，鞋与球未明显重叠；白蓝球纹可辨，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "217": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "完整足球最长边约40至42像素，接近小目标阈值且球体运动软化，Small判定请用户复核；鞋未明确覆盖球面，现框保留。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "218": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "完整足球最长边约40至42像素，接近小目标阈值且球体运动软化，Small判定请用户复核；鞋未明确覆盖球面，现框保留。",
+      "action": "keep",
+      "scene_certain": false
+    },
+    "219": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球接近相机后可见直径超过40像素，未受前景物遮挡；滚动图案和背景有轻微运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "220": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球接近相机后可见直径超过40像素，未受前景物遮挡；滚动图案和背景有轻微运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "221": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球接近相机后可见直径超过40像素，未受前景物遮挡；滚动图案和背景有轻微运动模糊，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "222": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球已超过40像素且完整无遮挡，滚动图案有运动软化；人体在后方，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "223": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球已超过40像素且完整无遮挡，滚动图案有运动软化；人体在后方，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "224": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球已超过40像素且完整无遮挡，滚动图案有运动软化；人体在后方，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "225": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球已超过40像素且完整无遮挡，滚动图案有运动软化；人体在后方，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "226": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球已超过40像素且完整无遮挡，滚动图案有运动软化；人体在后方，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "227": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球已超过40像素且完整无遮挡，滚动图案有运动软化；人体在后方，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "228": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "完整蓝白足球约54至60像素，球面图案清楚，抬起的脚尚未覆盖球面；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "229": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "完整蓝白足球约54至60像素，球面图案清楚，抬起的脚尚未覆盖球面；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "230": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "完整蓝白足球约54至60像素，球面图案清楚，抬起的脚尚未覆盖球面；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "231": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "完整蓝白足球约54至60像素，球面图案清楚，抬起的脚尚未覆盖球面；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "232": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "鞋底明确盖住足球顶部，球面其余部分可辨；现框上缘与鞋底交界需按可见球范围核定，保留候选请用户复查上缘。",
+      "action": "needs_manual_bbox_annotation",
+      "scene_certain": true
+    },
+    "233": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "鞋尖覆盖足球右上方小部分，足球转动有轻微图案拖影；近景大球现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "234": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "鞋已在球体右侧分开，足球旋转图案轻微拖影；球直径明显大于40像素，现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "235": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "鞋在足球后方，足球完整外轮廓和蓝白图案清楚；没有明确前景覆盖，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "236": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "鞋在足球后方，足球完整外轮廓和蓝白图案清楚；没有明确前景覆盖，保留原框。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "237": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球在鞋前滚动且图案有运动软化，鞋主要位于后方或上方，未见明确球面缺失；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "238": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球在鞋前滚动且图案有运动软化，鞋主要位于后方或上方，未见明确球面缺失；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "239": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "足球在鞋前滚动且图案有运动软化，鞋主要位于后方或上方，未见明确球面缺失；现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "240": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "鞋底靠近并覆盖球的右上边缘，足球转动有明显图案拖影；近景大球现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "241": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "鞋底靠近并覆盖球的右上边缘，足球转动有明显图案拖影；近景大球现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "242": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋掌明确盖住足球右上方，足球其余球纹清楚；现框覆盖可见足球，继续待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "243": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋掌明确盖住足球右上方，足球其余球纹清楚；现框覆盖可见足球，继续待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "244": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋掌明确盖住足球右上方，足球其余球纹清楚；现框覆盖可见足球，继续待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "245": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "抬起的鞋掌明确盖住足球右上方，足球其余球纹清楚；现框覆盖可见足球，继续待用户复查。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "246": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "鞋已离开足球上方，球体完整且顶部和鞋底之间有可见间隙；蓝白球纹清楚，近景大球现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "247": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "鞋已离开足球上方，球体完整且顶部和鞋底之间有可见间隙；蓝白球纹清楚，近景大球现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "248": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "鞋已离开足球上方，球体完整且顶部和鞋底之间有可见间隙；蓝白球纹清楚，近景大球现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    },
+    "249": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "鞋已离开足球上方，球体完整且顶部和鞋底之间有可见间隙；蓝白球纹清楚，近景大球现框保留。",
+      "action": "keep",
+      "scene_certain": true
+    }
+  },
+  "opened_detail": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/detail-small-bounds.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-3/detail-n132-candidate.png"
+  ]
+}

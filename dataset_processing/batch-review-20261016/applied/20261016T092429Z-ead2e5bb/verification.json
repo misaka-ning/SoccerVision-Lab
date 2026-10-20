@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "success": true,
+  "independent": true,
+  "independent_verifier": "batch005_engineering",
+  "checked_at_utc": "2026-10-16T09:26:16.170131+00:00",
+  "audit": "/home/misaka/workspace/dataset_processing/batch-review-20261016/applied/20261016T092429Z-ead2e5bb",
+  "formal_dataset_modified_by_verification": false,
+  "metadata_before_sha256": "6ecc9d6eee9b3c17a36873b2b395f9b10868d8012480afd2d7fd8b4d1985d5aa",
+  "metadata_after_sha256": "e81dc5746b32e27165c99a2601e0fddac4eec71df6d0e27778e16c215ca0d6ce",
+  "checks": {
+    "batch_coverage": true,
+    "all_1000_image_SHA256_match_baseline": true,
+    "all_1000_old_label_backup_SHA256_match_baseline": true,
+    "34_replacement_label_bytes_match_independent_encode_apply_encode_and_proposed_backup": true,
+    "966_other_labels_original_bytes_preserved": true,
+    "all_labels_class0_finite_positive_and_in_bounds_tolerance_1e-6": true,
+    "all_1000_selected_double_pending": true,
+    "no_ball_matches_each_final_label_box_count": true,
+    "outside_7398_metadata_records_raw_bytes_preserved": true,
+    "all_metadata_record_newlines_order_header_and_BOM_preserved": true,
+    "selected_only_scene_flags_status_review_flags_and_appended_note_changed": true,
+    "all_old_notes_preserved": true,
+    "split_source_count_and_unknown_fields_preserved": true,
+    "replacement_second_review_registry_exact_34_unique_and_coordinates_match": true,
+    "review_policy_recorded_and_SHA256_matches": true,
+    "500_full_and_61_ROI_actual_opened_paths_complete": true,
+    "priority_82_matches_uncertain_or_needs": true,
+    "previous_four_batches_approvals_preserved": true,
+    "global_4000_done_4398_pending": true
+  },
+  "stats": {
+    "dataset_count": 8398,
+    "prechecked": 1000,
+    "batch_double_pending": 1000,
+    "labels_changed": 34,
+    "labels_unchanged": 966,
+    "old_false_positive_labels_cleared": 18,
+    "old_empty_labels_with_ball_added": 16,
+    "boxes_before": 478,
+    "boxes_after": 476,
+    "scene_rows_changed": 381,
+    "No Ball": 524,
+    "flags": {
+      "Occluded": 142,
+      "No Ball": 524,
+      "Small": 261,
+      "Blurred": 168
+    },
+    "actions": {
+      "keep": 896,
+      "needs_manual_bbox_annotation": 37,
+      "needs_visibility_review": 33,
+      "replace": 34
+    },
+    "priority": 82,
+    "empty_label_needs_action_allowed_under_new_policy": {
+      "needs_manual_bbox_annotation": 35,
+      "needs_visibility_review": 31
+    },
+    "outside_batch_records_byte_identical": 7398,
+    "selected_changed_field_counts": {
+      "Small": 59,
+      "label_review_note": 1000,
+      "Occluded": 108,
+      "No Ball": 212,
+      "annotation_status": 131,
+      "Blurred": 116
+    },
+    "previous_batches": [
+      {
+        "batch": 1,
+        "images": 1000,
+        "double_reviewed": 1000,
+        "counts": {
+          "negative_confirmed": 272,
+          "reviewed_annotation": 707,
+          "reviewed_excluded": 21
+        }
+      },
+      {
+        "batch": 2,
+        "images": 1000,
+        "double_reviewed": 1000,
+        "counts": {
+          "reviewed_annotation": 847,
+          "reviewed_excluded": 11,
+          "negative_confirmed": 142
+        }
+      },
+      {
+        "batch": 3,
+        "images": 1000,
+        "double_reviewed": 1000,
+        "counts": {
+          "negative_confirmed": 530,
+          "reviewed_excluded": 116,
+          "reviewed_annotation": 354
+        }
+      },
+      {
+        "batch": 4,
+        "images": 1000,
+        "double_reviewed": 1000,
+        "counts": {
+          "reviewed_annotation": 725,
+          "reviewed_excluded": 41,
+          "negative_confirmed": 234
+        }
+      }
+    ],
+    "global_done": 4000,
+    "global_pending": 4398,
+    "global_mixed": 0
+  },
+  "review_policy_sha256": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33",
+  "failed_checks": []
+}

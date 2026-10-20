@@ -1,0 +1,17 @@
+﻿图片,split,confidence,action,Small,Occluded,Blurred,No Ball,label_review_required,scene_review_required,reason
+frame_001459_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,左边缘约y40–65有极窄深色弧片，4倍局部仍难分辨是否为下一帧出现的边缘足球；不能确认为无球，No Ball=0，保留空候选并请用户判可见性/补框。
+frame_001765_left.png,train,uncertain,needs_visibility_review,0,0,1,0,1,1,原为空框/No Ball=1，但右边缘约y180–300可见遮住背景的大幅浅色运动弧面，3倍局部仍无法完全分辨球/手臂，右目同帧明确出现近处球；不能确认为无球，改No Ball=0、Blurred=1并保留空候选请用户判可见性与补框。
+frame_001919_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。
+frame_001919_right.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。
+frame_001921_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。
+frame_001921_right.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。
+frame_002400_left.png,val,uncertain,needs_visibility_review,0,0,1,0,1,1,三倍局部中后方位置被裤腿和鞋遮住，无法确认是否仍有可见球残片；保留空候选并待可见性复查，No Ball=0。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002400_right.png,val,uncertain,needs_visibility_review,0,0,1,0,1,1,三倍局部中后方位置被裤腿和鞋遮住，无法确认是否仍有可见球残片；保留空候选并待可见性复查，No Ball=0。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_003063_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003063_right.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003071_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003071_right.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003079_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003079_right.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_004005_left.png,train,uncertain,needs_visibility_review,0,0,1,0,1,1,全景有严重斜向运动拖影，人物脚旁浅色拖影不能可靠区分球体或鞋，不能标为确定无球；现空label保留，需用户辨认可见性。
+frame_004005_right.png,train,uncertain,needs_visibility_review,0,0,1,0,1,1,全景有严重斜向运动拖影，人物脚旁浅色拖影不能可靠区分球体或鞋，不能标为确定无球；现空label保留，需用户辨认可见性。

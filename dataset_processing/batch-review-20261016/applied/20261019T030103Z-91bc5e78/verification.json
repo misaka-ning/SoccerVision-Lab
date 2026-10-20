@@ -1,0 +1,296 @@
+{
+  "success": true,
+  "status": "PASS",
+  "independent": true,
+  "batch": 8,
+  "audit": "/home/misaka/workspace/dataset_processing/batch-review-20261016/applied/20261019T030103Z-91bc5e78",
+  "verified_at_utc": "2026-10-19T03:03:59.635236+00:00",
+  "dataset_count": 8398,
+  "selected_count": 1000,
+  "checks": {
+    "1000_unique_ordered_baseline_and_proposals": true,
+    "baseline_equals_immutable_batch_inventory": true,
+    "audit_proposals_equal_collected_frozen_proposals": true,
+    "8398_metadata_records_same_order_headers": true,
+    "csv_no_embedded_record_newlines": true,
+    "BOM_header_and_all_line_endings_preserved": true,
+    "outside_7398_raw_csv_records_byte_identical": true,
+    "1000_before_metadata_equals_baseline": true,
+    "1000_images_SHA_unchanged": true,
+    "1000_original_label_backups_SHA_and_bytes_match": true,
+    "all_actual_final_labels_exactly_match_proposals_and_valid_YOLO": true,
+    "all_flags_match_proposals_NoBall_and_dual_pending11": true,
+    "all_annotation_statuses_pending_and_match_actions": true,
+    "all_nonreview_nonflag_columns_unchanged": true,
+    "all_notes_prefix_and_exact_20261019_append": true,
+    "result_exactly_matches_actual_changes_and_counts": true,
+    "collected_flag_box_and_change_counts_match": true,
+    "approved_batch_1_1000_metadata_media_and_counts_unchanged": true,
+    "approved_batch_2_1000_metadata_media_and_counts_unchanged": true,
+    "approved_batch_3_1000_metadata_media_and_counts_unchanged": true,
+    "approved_batch_4_1000_metadata_media_and_counts_unchanged": true,
+    "approved_batch_5_1000_metadata_media_and_counts_unchanged": true,
+    "approved_batch_6_1000_metadata_media_and_counts_unchanged": true,
+    "approved_batch_7_1000_metadata_media_and_counts_unchanged": true,
+    "remaining398_original_images_labels_unchanged": true,
+    "dataset8398_done7000_pending1398_mixed0": true,
+    "independently_reviewed_frozen_fingerprints_unchanged": true,
+    "actual9_labels_5_empty_additions_4_corrections_991_unchanged": true,
+    "actual_totals619to624_scene269_flags76_127_286_376": true,
+    "metadata_before_collector_and_expected_after_sha": true,
+    "collector_all18_inputs_fingerprints_still_frozen": true,
+    "active_policy_content_and_SHA_match_collected": true,
+    "immutable_batch_list_SHA_matches_collector": true,
+    "priority22_order_and_exact_bytes": true,
+    "all9_final_labels_equal_independent_encoding_proposed_and_rootregistry": true,
+    "edge_scene_registry_flags_and_evidence_preserved": true,
+    "all1000_proposal_scene_oldROI_evidence_500full78ROI_coverage": true,
+    "group4_head76_middle50_tail124_exact_frozen_merge": true
+  },
+  "failures": [],
+  "metadata_before_sha256": "907a3084ca553d87733c4d7259fd4b6b8f63a7e909c7b591a19f436552a6ff94",
+  "metadata_after_sha256": "e7ad9bc05e5b386efd39e0a0b86ee8710da75946998c5bcbe3e1a8bd83887772",
+  "allowed_selected_metadata_fields": [
+    "Blurred",
+    "No Ball",
+    "Occluded",
+    "Small",
+    "annotation_status",
+    "label_review_note",
+    "label_review_required",
+    "scene_review_required"
+  ],
+  "selected_changed_field_counts": {
+    "label_review_note": 1000,
+    "Occluded": 116,
+    "Blurred": 168,
+    "Small": 6,
+    "No Ball": 13,
+    "annotation_status": 18
+  },
+  "images_sha256_unchanged": 1000,
+  "old_label_backups_sha256_match_baseline": 1000,
+  "labels_unchanged_byte_for_byte": 991,
+  "labels_changed": 9,
+  "changed_label_categories": {
+    "empty_to_ball": 5,
+    "nonempty_box_correction": 4
+  },
+  "changed_label_details": [
+    {
+      "index": 104,
+      "filename": "video_4bec9c343db72928_frame_00020686_left.png",
+      "category": "empty_to_ball",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "f501bcb60a28169358d5ffd0dc59a80ef5e3bde2138a7ceab30341c56c5e7259",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "reviewed_boxes_xyxy": [
+        [
+          282,
+          163,
+          336,
+          210
+        ]
+      ]
+    },
+    {
+      "index": 105,
+      "filename": "video_4bec9c343db72928_frame_00020686_right.png",
+      "category": "empty_to_ball",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "f1fe56b29d0ebaa1251dc03c6885a119e5ad0a0d05684f850e0f054e73a42b15",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "reviewed_boxes_xyxy": [
+        [
+          260,
+          163,
+          313,
+          209
+        ]
+      ]
+    },
+    {
+      "index": 186,
+      "filename": "video_4bec9c343db72928_frame_00020993_left.png",
+      "category": "nonempty_box_correction",
+      "before_sha256": "335d2fb246b1609a655f18099f2d10fe734995f5121269ae0e279619bdd394b3",
+      "after_sha256": "5eade6209cdbc9cd490ed842d07c13413b0271fcd1a13927f6ed58decc1a16fb",
+      "boxes_before": 1,
+      "boxes_after": 1,
+      "reviewed_boxes_xyxy": [
+        [
+          350,
+          293,
+          466,
+          376
+        ]
+      ]
+    },
+    {
+      "index": 187,
+      "filename": "video_4bec9c343db72928_frame_00020993_right.png",
+      "category": "nonempty_box_correction",
+      "before_sha256": "9f8bbfb1c431524d11c25041c991101fade2462e974a5848b560739e97e99ac4",
+      "after_sha256": "067c0c1122aa809c7addd9adc0c05025eeb922425c89f5259799be9cf2cb6c27",
+      "boxes_before": 1,
+      "boxes_after": 1,
+      "reviewed_boxes_xyxy": [
+        [
+          300,
+          292,
+          419,
+          376
+        ]
+      ]
+    },
+    {
+      "index": 358,
+      "filename": "video_4bec9c343db72928_frame_00021644_left.png",
+      "category": "empty_to_ball",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "8601ff9abdafb232b04c0f364df90daba5b2bf1521e7d4055a2bdc6077e44c1b",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "reviewed_boxes_xyxy": [
+        [
+          217,
+          0,
+          272,
+          48
+        ]
+      ]
+    },
+    {
+      "index": 359,
+      "filename": "video_4bec9c343db72928_frame_00021644_right.png",
+      "category": "empty_to_ball",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "63f9394f0c51486a463ec97ab1e54f70e71400c7baa779148eac12de4ff8940c",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "reviewed_boxes_xyxy": [
+        [
+          194,
+          0,
+          248,
+          48
+        ]
+      ]
+    },
+    {
+      "index": 719,
+      "filename": "video_4bec9c343db72928_frame_00023012_right.png",
+      "category": "empty_to_ball",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "8a3c5de00f1242313bcd3036122a0ad9959146f5305befd741c18b7b74350ca8",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "reviewed_boxes_xyxy": [
+        [
+          105,
+          366,
+          144,
+          376
+        ]
+      ]
+    },
+    {
+      "index": 912,
+      "filename": "video_4bec9c343db72928_frame_00023797_left.png",
+      "category": "nonempty_box_correction",
+      "before_sha256": "a772f986229eb946d927a74e40e112873d2ee441424f9e979709ff5b45d7aa89",
+      "after_sha256": "b7cd8499c4c74ab91879a05466cb4d33d7ab72eb9ec51050db16a7f4a37d77a3",
+      "boxes_before": 1,
+      "boxes_after": 1,
+      "reviewed_boxes_xyxy": [
+        [
+          91,
+          0,
+          255,
+          110
+        ]
+      ]
+    },
+    {
+      "index": 913,
+      "filename": "video_4bec9c343db72928_frame_00023797_right.png",
+      "category": "nonempty_box_correction",
+      "before_sha256": "31365f0621848b5d61df4acf56ed475f376324c439393f5075f98d37df873257",
+      "after_sha256": "4fbc57262aac7c68121021212f66f23c89dea6697b3db8cdd857c9c4d507a239",
+      "boxes_before": 1,
+      "boxes_after": 1,
+      "reviewed_boxes_xyxy": [
+        [
+          18,
+          0,
+          192,
+          109
+        ]
+      ]
+    }
+  ],
+  "boxes_before": 619,
+  "boxes_after": 624,
+  "annotation_status_counts": {
+    "auto_label_needs_review": 617,
+    "needs_visibility_review": 377,
+    "needs_manual_bbox_annotation": 6
+  },
+  "scene_flag_counts": {
+    "Small": 76,
+    "Occluded": 127,
+    "Blurred": 286,
+    "No Ball": 376
+  },
+  "prior_approved_batch_counts": [
+    {
+      "negative_confirmed": 272,
+      "reviewed_annotation": 707,
+      "reviewed_excluded": 21
+    },
+    {
+      "reviewed_annotation": 847,
+      "reviewed_excluded": 11,
+      "negative_confirmed": 142
+    },
+    {
+      "negative_confirmed": 530,
+      "reviewed_excluded": 116,
+      "reviewed_annotation": 354
+    },
+    {
+      "reviewed_annotation": 725,
+      "reviewed_excluded": 41,
+      "negative_confirmed": 234
+    },
+    {
+      "reviewed_annotation": 498,
+      "negative_confirmed": 488,
+      "reviewed_excluded": 14
+    },
+    {
+      "negative_confirmed": 507,
+      "reviewed_excluded": 47,
+      "reviewed_annotation": 446
+    },
+    {
+      "negative_confirmed": 325,
+      "reviewed_annotation": 675
+    }
+  ],
+  "dataset_review_state": {
+    "done": 7000,
+    "pending": 1398,
+    "mixed": 0
+  },
+  "user_approved": 0,
+  "canonical_dataset_written_by_verifier": false,
+  "scene_rows_changed": 269,
+  "priority_count": 22,
+  "full_page_count": 500,
+  "roi_page_count": 78,
+  "root_second_review_registry_sha256": "1816b5caa29f1f73c198dfd7ce6c00182d93b65b4636fe75e6ef04b88182a908",
+  "policy_sha256": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33"
+}

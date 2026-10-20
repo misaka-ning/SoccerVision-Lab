@@ -1,0 +1,83 @@
+{
+  "application_audit": "/home/misaka/workspace/dataset_processing/box-audit-20261014/apply-audits/20261014T103936Z-034417b7",
+  "applied": 265,
+  "skipped": 9,
+  "failed_pending": 0,
+  "proposal_sha256": "d29aab4dfb2b1224e0115e1f08f4f1f8490d220a7cff24ef048f9df2f25e84ff",
+  "metadata_columns": [
+    "图片",
+    "Small",
+    "Occluded",
+    "Blurred",
+    "No Ball",
+    "split",
+    "annotation_status",
+    "scene_review_required",
+    "label_review_required",
+    "auto_box_count",
+    "preserved_box_count",
+    "label_review_note",
+    "source_video",
+    "source_frame_idx",
+    "eye"
+  ],
+  "metadata_rows": 8398,
+  "metadata_before_sha256": "62facf45573f27c88c0fcac3cf864e2fcf86eedea3981bc147ecba4d8700ef19",
+  "metadata_current_sha256": "0cd71882d00e0f6c0e2d1c9d21fbcf2b979e7ff06352740041c5a129defa40a3",
+  "csv_rows_changed_since_apply_backup": 265,
+  "four_tags_preserved_at_commit": true,
+  "unknown_and_human_fields_preserved_at_commit": true,
+  "all_committed_changes_pending": true,
+  "original_note_and_label_sha_in_provenance": true,
+  "scene_conflicts_pending": {
+    "No Ball=0 with empty label": 53,
+    "No Ball=1 with nonempty boxes": 2
+  },
+  "verification_counts": {
+    "current_pending_rows": 265,
+    "backup_labels_verified": 265
+  },
+  "post_apply_human_metadata_changes": [],
+  "post_apply_label_changes": [],
+  "skipped_records": [
+    {
+      "filename": "video_4bec9c343db72928_frame_00014754_left.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014754_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00005687_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00006321_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00010459_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00010759_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00010762_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00015606_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00017403_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    }
+  ],
+  "fixtures_passed": true,
+  "lock_protocol": "native QLockFile; sorted label locks first, metadata.csv.review.lock last; fail on busy; SHA recheck under locks",
+  "production_images_or_yaml_modified_by_apply": false
+}

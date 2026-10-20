@@ -1,0 +1,117 @@
+{
+  "success": true,
+  "checks": [
+    {
+      "hash": "phash",
+      "query": "frame_002253_left.png",
+      "radius": 16,
+      "matches": 1,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "phash",
+      "query": "frame_002332_right.png",
+      "radius": 16,
+      "matches": 1,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "phash",
+      "query": "frame_002423_left.png",
+      "radius": 16,
+      "matches": 1,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "phash",
+      "query": "frame_002497_right.png",
+      "radius": 16,
+      "matches": 0,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "phash",
+      "query": "frame_002590_left.png",
+      "radius": 16,
+      "matches": 0,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "phash",
+      "query": "frame_002652_right.png",
+      "radius": 16,
+      "matches": 0,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "phash",
+      "query": "legacy_val_000016.jpg",
+      "radius": 16,
+      "matches": 3,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "phash",
+      "query": "legacy_val_000055.jpg",
+      "radius": 16,
+      "matches": 9,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "dhash",
+      "query": "frame_002253_left.png",
+      "radius": 16,
+      "matches": 24,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "dhash",
+      "query": "frame_002332_right.png",
+      "radius": 16,
+      "matches": 9,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "dhash",
+      "query": "frame_002423_left.png",
+      "radius": 16,
+      "matches": 3,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "dhash",
+      "query": "frame_002497_right.png",
+      "radius": 16,
+      "matches": 4,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "dhash",
+      "query": "frame_002590_left.png",
+      "radius": 16,
+      "matches": 23,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "dhash",
+      "query": "frame_002652_right.png",
+      "radius": 16,
+      "matches": 69,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "dhash",
+      "query": "legacy_val_000016.jpg",
+      "radius": 16,
+      "matches": 8,
+      "equals_brute_force": true
+    },
+    {
+      "hash": "dhash",
+      "query": "legacy_val_000055.jpg",
+      "radius": 16,
+      "matches": 4,
+      "equals_brute_force": true
+    }
+  ]
+}

@@ -1,0 +1,585 @@
+[
+  {
+    "group": 1,
+    "local": 184,
+    "index": 184,
+    "filename": "video_4bec9c343db72928_frame_00009591_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-1/detail-remove-184-185-before-after.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-1/full/page-092.png"
+    ],
+    "assessment": "原生全景和局部对照确认框落机器人鞋，接受清空误框作待审候选",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 1,
+    "local": 185,
+    "index": 185,
+    "filename": "video_4bec9c343db72928_frame_00009591_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-1/detail-remove-184-185-before-after.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-1/full/page-092.png"
+    ],
+    "assessment": "原生全景和局部对照确认框落机器人鞋，接受清空误框作待审候选",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 2,
+    "local": 10,
+    "index": 260,
+    "filename": "video_4bec9c343db72928_frame_00009889_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-10-11-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-10-11-before-after.png"
+    ],
+    "assessment": "黑白足球身份及独立圆周可辨，候选贴合，接受补框但继续待审",
+    "approved": false,
+    "reviewed_boxes_xyxy": [
+      [
+        292,
+        269,
+        314,
+        290
+      ]
+    ]
+  },
+  {
+    "group": 2,
+    "local": 11,
+    "index": 261,
+    "filename": "video_4bec9c343db72928_frame_00009889_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-10-11-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-10-11-before-after.png"
+    ],
+    "assessment": "黑白足球身份及独立圆周可辨，候选贴合，接受补框但继续待审",
+    "approved": false,
+    "reviewed_boxes_xyxy": [
+      [
+        282,
+        267,
+        304,
+        289
+      ]
+    ]
+  },
+  {
+    "group": 3,
+    "local": 14,
+    "index": 514,
+    "filename": "video_4bec9c343db72928_frame_00010857_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-007.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-000.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 15,
+    "index": 515,
+    "filename": "video_4bec9c343db72928_frame_00010857_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-007.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-000.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 16,
+    "index": 516,
+    "filename": "video_4bec9c343db72928_frame_00010860_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-008.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-000.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 17,
+    "index": 517,
+    "filename": "video_4bec9c343db72928_frame_00010860_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-008.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-000.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 44,
+    "index": 544,
+    "filename": "video_4bec9c343db72928_frame_00010972_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-022.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-002.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 45,
+    "index": 545,
+    "filename": "video_4bec9c343db72928_frame_00010972_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-022.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-002.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 46,
+    "index": 546,
+    "filename": "video_4bec9c343db72928_frame_00010973_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-023.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-002.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 47,
+    "index": 547,
+    "filename": "video_4bec9c343db72928_frame_00010973_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-023.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-002.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 48,
+    "index": 548,
+    "filename": "video_4bec9c343db72928_frame_00010986_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-024.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-002.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 49,
+    "index": 549,
+    "filename": "video_4bec9c343db72928_frame_00010986_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-024.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-002.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 50,
+    "index": 550,
+    "filename": "video_4bec9c343db72928_frame_00010993_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-025.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-003.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 51,
+    "index": 551,
+    "filename": "video_4bec9c343db72928_frame_00010993_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-025.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-003.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 52,
+    "index": 552,
+    "filename": "video_4bec9c343db72928_frame_00010995_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-026.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-003.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 53,
+    "index": 553,
+    "filename": "video_4bec9c343db72928_frame_00010995_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-026.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-003.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 54,
+    "index": 554,
+    "filename": "video_4bec9c343db72928_frame_00011008_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-027.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-003.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 3,
+    "local": 55,
+    "index": 555,
+    "filename": "video_4bec9c343db72928_frame_00011008_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-027.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/roi/page-003.png"
+    ],
+    "assessment": "原生全景与旧框ROI确认是机器人脚/腿外壳或人物灰白鞋面鞋带，接受清空误框作为待审候选，按新口径NoBall1",
+    "approved": false,
+    "reviewed_boxes_xyxy": []
+  },
+  {
+    "group": 2,
+    "local": 132,
+    "index": 382,
+    "filename": "video_4bec9c343db72928_frame_00010363_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-132-133-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-132-133-before-after.png"
+    ],
+    "assessment": "地面独立黑白小足球身份和圆周可辨，接受紧框待审",
+    "approved": false,
+    "reviewed_boxes_xyxy": [
+      [
+        367,
+        247,
+        389,
+        268
+      ]
+    ]
+  },
+  {
+    "group": 2,
+    "local": 133,
+    "index": 383,
+    "filename": "video_4bec9c343db72928_frame_00010363_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-132-133-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-132-133-before-after.png"
+    ],
+    "assessment": "地面独立黑白小足球身份和圆周可辨，接受紧框待审",
+    "approved": false,
+    "reviewed_boxes_xyxy": [
+      [
+        357,
+        246,
+        379,
+        267
+      ]
+    ]
+  },
+  {
+    "group": 3,
+    "local": 103,
+    "index": 603,
+    "filename": "video_4bec9c343db72928_frame_00011183_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/full/page-051.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/detail-103-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/native-before-after-103.png"
+    ],
+    "assessment": "机器人右侧露出蓝白球面，上下可见范围与新候选框吻合，接受遮挡球候选，待审",
+    "approved": false,
+    "reviewed_boxes_xyxy": [
+      [
+        541,
+        283,
+        568,
+        350
+      ]
+    ]
+  },
+  {
+    "group": 4,
+    "local": 188,
+    "index": 938,
+    "filename": "video_4bec9c343db72928_frame_00012453_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/tail-before-after-188.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/tail-grid-188.png"
+    ],
+    "assessment": "上边缘足球和竖向拖影可辨，候选覆盖当前可见范围，O1B1S0符合新口径，接受补框待审",
+    "approved": false,
+    "reviewed_boxes_xyxy": [
+      [
+        331,
+        0,
+        382,
+        52
+      ]
+    ]
+  },
+  {
+    "group": 4,
+    "local": 189,
+    "index": 939,
+    "filename": "video_4bec9c343db72928_frame_00012453_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/tail-before-after-189.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/tail-grid-189.png"
+    ],
+    "assessment": "上边缘足球和竖向拖影可辨，候选覆盖当前可见范围，O1B1S0符合新口径，接受补框待审",
+    "approved": false,
+    "reviewed_boxes_xyxy": [
+      [
+        309,
+        0,
+        360,
+        51
+      ]
+    ]
+  },
+  {
+    "group": 2,
+    "local": 209,
+    "index": 459,
+    "filename": "video_4bec9c343db72928_frame_00010644_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-209-211-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-209-211-before-after.png"
+    ],
+    "assessment": "当前可见黑白足球上半部，下边界截断O1；二审收紧top排除背景灰晕/鞋影，接受为待审补框",
+    "reviewed_boxes_xyxy": [
+      [
+        313,
+        360,
+        356,
+        376
+      ]
+    ],
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 211,
+    "index": 461,
+    "filename": "video_4bec9c343db72928_frame_00010653_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-209-211-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-209-211-before-after.png"
+    ],
+    "assessment": "当前可见黑白足球上半部，下边界截断O1；二审收紧top排除背景灰晕/鞋影，接受为待审补框",
+    "reviewed_boxes_xyxy": [
+      [
+        289,
+        361,
+        326,
+        376
+      ]
+    ],
+    "approved": false
+  },
+  {
+    "group": 4,
+    "local": 208,
+    "index": 958,
+    "filename": "video_4bec9c343db72928_frame_00012531_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/tail-before-after-208.png"
+    ],
+    "assessment": "器材架后可辨黑白足球，候选限于当前可见上半部，遮挡O1、完整球不Small；接受补框待审",
+    "reviewed_boxes_xyxy": [
+      [
+        523,
+        161,
+        574,
+        190
+      ]
+    ],
+    "approved": false
+  },
+  {
+    "group": 4,
+    "local": 209,
+    "index": 959,
+    "filename": "video_4bec9c343db72928_frame_00012531_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/tail-before-after-209.png"
+    ],
+    "assessment": "器材架后可辨黑白足球，候选限于当前可见上半部，遮挡O1、完整球不Small；接受补框待审",
+    "reviewed_boxes_xyxy": [
+      [
+        508,
+        159,
+        558,
+        188
+      ]
+    ],
+    "approved": false
+  },
+  {
+    "group": 4,
+    "local": 210,
+    "index": 960,
+    "filename": "video_4bec9c343db72928_frame_00012536_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/tail-before-after-210.png"
+    ],
+    "assessment": "器材架后可辨黑白足球，候选限于当前可见上半部，遮挡O1、完整球不Small；接受补框待审",
+    "reviewed_boxes_xyxy": [
+      [
+        575,
+        213,
+        635,
+        240
+      ]
+    ],
+    "approved": false
+  },
+  {
+    "group": 4,
+    "local": 211,
+    "index": 961,
+    "filename": "video_4bec9c343db72928_frame_00012536_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/tail-before-after-211.png"
+    ],
+    "assessment": "器材架后可辨黑白足球，候选限于当前可见上半部，遮挡O1、完整球不Small；接受补框待审",
+    "reviewed_boxes_xyxy": [
+      [
+        552,
+        212,
+        612,
+        239
+      ]
+    ],
+    "approved": false
+  },
+  {
+    "group": 4,
+    "local": 212,
+    "index": 962,
+    "filename": "video_4bec9c343db72928_frame_00012540_left.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/tail-before-after-212.png"
+    ],
+    "assessment": "器材架后可辨黑白足球，候选限于当前可见上半部，遮挡O1、完整球不Small；接受补框待审",
+    "reviewed_boxes_xyxy": [
+      [
+        635,
+        233,
+        672,
+        260
+      ]
+    ],
+    "approved": false
+  },
+  {
+    "group": 4,
+    "local": 213,
+    "index": 963,
+    "filename": "video_4bec9c343db72928_frame_00012540_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/tail-before-after-213.png"
+    ],
+    "assessment": "器材架后可辨黑白足球，候选限于当前可见上半部，遮挡O1、完整球不Small；接受补框待审",
+    "reviewed_boxes_xyxy": [
+      [
+        613,
+        231,
+        672,
+        260
+      ]
+    ],
+    "approved": false
+  },
+  {
+    "group": 2,
+    "local": 241,
+    "index": 491,
+    "filename": "video_4bec9c343db72928_frame_00010769_right.png",
+    "second_reviewer": "root",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-241-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-2/detail-add-241-before-after.png"
+    ],
+    "assessment": "底边当前可辨黑白球顶弧，接受只框可见部分的候选，O1S0B0N0",
+    "reviewed_boxes_xyxy": [
+      [
+        217,
+        363,
+        255,
+        376
+      ]
+    ],
+    "approved": false
+  }
+]

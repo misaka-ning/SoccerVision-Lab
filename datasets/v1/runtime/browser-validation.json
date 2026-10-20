@@ -1,0 +1,84 @@
+{
+  "status": "BROWSER_INTERACTION_PASS",
+  "testedUrl": "http://127.0.0.1:8767/review.html",
+  "servedFromIsolatedFolderContainingOnlyHTML": true,
+  "checkedAt": "2026-10-19T07:25:26.296Z",
+  "checks": {
+    "initial": {
+      "cards": 50,
+      "count": "当前筛选 464 / 464 张；每页50张。Test时刻464，核心片段8，连续留出块7，真实场次1。",
+      "firstImage": {
+        "complete": true,
+        "width": 416
+      },
+      "page": "第 1 / 10 页"
+    },
+    "lastPage": {
+      "cards": 14,
+      "nextDisabled": true,
+      "page": "第 10 / 10 页"
+    },
+    "small": "当前筛选 82 / 464 张；每页50张。Test时刻464，核心片段8，连续留出块7，真实场次1。",
+    "noBall": "当前筛选 121 / 464 张；每页50张。Test时刻464，核心片段8，连续留出块7，真实场次1。",
+    "ordinary": "当前筛选 103 / 464 张；每页50张。Test时刻464，核心片段8，连续留出块7，真实场次1。",
+    "segment": "当前筛选 109 / 464 张；每页50张。Test时刻464，核心片段8，连续留出块7，真实场次1。",
+    "search": "当前筛选 1 / 464 张；每页50张。Test时刻464，核心片段8，连续留出块7，真实场次1。",
+    "zoom": {
+      "open": true,
+      "title": "video_4bec9c343db72928_frame_00001022_left.png",
+      "width": 416
+    },
+    "segments": 9,
+    "pairsInitial": "第 1 / 7 页 · 49对",
+    "pairsLast": {
+      "cards": 1,
+      "nextDisabled": true,
+      "text": "第 7 / 7 页 · 49对"
+    },
+    "pairsVal": "第 1 / 2 页 · 16对",
+    "groups": {
+      "cards": 2,
+      "thumbs": 26,
+      "values": [
+        "",
+        ""
+      ]
+    },
+    "facts": true,
+    "inlineSources": {
+      "allImageSourcesEmbedded": true,
+      "externalScriptElements": 0,
+      "externalStyleElements": 0,
+      "imageElements": 98,
+      "visibleCards": [
+        {
+          "complete": true,
+          "width": 416
+        },
+        {
+          "complete": true,
+          "width": 416
+        },
+        {
+          "complete": true,
+          "width": 416
+        },
+        {
+          "complete": true,
+          "width": 416
+        },
+        {
+          "complete": true,
+          "width": 416
+        }
+      ]
+    },
+    "consoleErrors": [],
+    "directFileScheme": {
+      "tested": false,
+      "reason": "Browser automation permits only HTTP/HTTPS. No bypass attempted; isolated single-file HTTP rendering and static embedded dependency validation completed."
+    }
+  },
+  "directFileSchemeTested": false,
+  "screenshot": "evidence/review-ui.png"
+}

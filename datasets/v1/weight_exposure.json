@@ -1,0 +1,13 @@
+{
+  "weights": [
+    {
+      "path": "/home/misaka/workspace/baseline/original_best.pt",
+      "sha256": "646f8bc3fe0a656803d95c294f7852321748cb29d13466a1af8862e2db384a1b",
+      "exposure_to_current_test": "unknown",
+      "evidence": "No complete, verifiable training image membership supplied; checkpoint date/class metadata alone is not a membership audit."
+    }
+  ],
+  "checkpoint_pickle_loaded": false,
+  "rule": "Moving images now cannot undo prior training exposure. A weight that saw any heldout core/buffer is not unseen-test initialization. Formal comparison must restart from a verified unexposed initialization.",
+  "safe_architecture_only_example": "train_from_scratch.example.yaml"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "pair_id": "P000001",
+    "actual_opened_evidence": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000001.png",
+    "assistant_observation": "同一红衣人及球场边线，球和视角在4帧间移动，符合单次连续采集；不是像素重复。",
+    "visual_assessment": "confirmed_continuous_capture_from_provenance_and_consistent_visuals_not_exact_duplicate",
+    "review_status": "",
+    "reviewer": "root",
+    "source_session_confirmed": false,
+    "source_recording_confirmed": true
+  },
+  {
+    "pair_id": "P000005",
+    "actual_opened_evidence": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000005.png",
+    "assistant_observation": "玻璃走廊同一跟球片段，6帧间视角倾斜且左右目不同；来源SHA和帧号确认时序相邻。",
+    "visual_assessment": "confirmed_continuous_capture_from_provenance_and_consistent_visuals_not_exact_duplicate",
+    "review_status": "",
+    "reviewer": "root",
+    "source_session_confirmed": false,
+    "source_recording_confirmed": true
+  },
+  {
+    "pair_id": "P000009",
+    "actual_opened_evidence": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000009.png",
+    "assistant_observation": "相同机器人/走廊和红衣人离开画面的动作，7帧内取景明显改变，不能称视觉重复，但仍共享连续采集事件。",
+    "visual_assessment": "confirmed_continuous_capture_from_provenance_and_consistent_visuals_not_exact_duplicate",
+    "review_status": "",
+    "reviewer": "root",
+    "source_session_confirmed": false,
+    "source_recording_confirmed": true
+  },
+  {
+    "pair_id": "P000013",
+    "actual_opened_evidence": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000013.png",
+    "assistant_observation": "同一出入口转身片段，11帧间球从左目可见到右目不见；NoBall差异不自动判漏标。",
+    "visual_assessment": "confirmed_continuous_capture_from_provenance_and_consistent_visuals_not_exact_duplicate",
+    "review_status": "",
+    "reviewer": "root",
+    "source_session_confirmed": false,
+    "source_recording_confirmed": true
+  },
+  {
+    "pair_id": "P000017",
+    "actual_opened_evidence": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000017.png",
+    "assistant_observation": "与P000009同一转身走廊事件，11帧内取景明显改变；只确认时序依赖，不确认视觉重复。",
+    "visual_assessment": "confirmed_continuous_capture_from_provenance_and_consistent_visuals_not_exact_duplicate",
+    "review_status": "",
+    "reviewer": "root",
+    "source_session_confirmed": false,
+    "source_recording_confirmed": true
+  },
+  {
+    "pair_id": "P000021",
+    "actual_opened_evidence": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000021.png",
+    "assistant_observation": "与P000013相同门口片段，12帧；视角与目别使可见球不同，不能据标签不同判错。",
+    "visual_assessment": "confirmed_continuous_capture_from_provenance_and_consistent_visuals_not_exact_duplicate",
+    "review_status": "",
+    "reviewer": "root",
+    "source_session_confirmed": false,
+    "source_recording_confirmed": true
+  },
+  {
+    "pair_id": "P000025",
+    "actual_opened_evidence": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000025.png",
+    "assistant_observation": "同一红衣人、足球、球场线，14帧内相机前进/俯视，球显著放大；非exact副本，连续采集事件共享。",
+    "visual_assessment": "confirmed_continuous_capture_from_provenance_and_consistent_visuals_not_exact_duplicate",
+    "review_status": "",
+    "reviewer": "root",
+    "source_session_confirmed": false,
+    "source_recording_confirmed": true
+  },
+  {
+    "pair_id": "P000029",
+    "actual_opened_evidence": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000029.png",
+    "assistant_observation": "红衣人和球同一动作，15帧=1秒跨训练测试；背景、机器人与当前球可视化相符，非像素重复。",
+    "visual_assessment": "confirmed_continuous_capture_from_provenance_and_consistent_visuals_not_exact_duplicate",
+    "review_status": "",
+    "reviewer": "root",
+    "source_session_confirmed": false,
+    "source_recording_confirmed": true
+  }
+]

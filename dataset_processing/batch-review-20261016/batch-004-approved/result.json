@@ -1,0 +1,17 @@
+{
+  "count": 1000,
+  "counts": {
+    "reviewed_annotation": 725,
+    "reviewed_excluded": 41,
+    "negative_confirmed": 234
+  },
+  "label_review_required": 0,
+  "scene_review_required": 0,
+  "images_written": 0,
+  "labels_written": 0,
+  "scene_values_written": 0,
+  "metadata_before_sha256": "d9ad0e6f4184d75f11069e4de884988e60a76e3b5cd1640baeee1066e3412317",
+  "metadata_after_sha256": "6ecc9d6eee9b3c17a36873b2b395f9b10868d8012480afd2d7fd8b4d1985d5aa",
+  "audit": "/home/misaka/workspace/dataset_processing/batch-review-20261016/batch-004-approved",
+  "created_at_utc": "2026-10-16T09:00:04.558568+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "prechecked": 1000,
+  "labels_changed": 9,
+  "boxes_before": 619,
+  "boxes_after": 624,
+  "skipped": [],
+  "user_approved": 0,
+  "scene_rows_changed": 269,
+  "audit": "/home/misaka/workspace/dataset_processing/batch-review-20261016/applied/20261019T030103Z-91bc5e78",
+  "changed_labels": [
+    "video_4bec9c343db72928_frame_00020686_left.png",
+    "video_4bec9c343db72928_frame_00020686_right.png",
+    "video_4bec9c343db72928_frame_00020993_left.png",
+    "video_4bec9c343db72928_frame_00020993_right.png",
+    "video_4bec9c343db72928_frame_00021644_left.png",
+    "video_4bec9c343db72928_frame_00021644_right.png",
+    "video_4bec9c343db72928_frame_00023012_right.png",
+    "video_4bec9c343db72928_frame_00023797_left.png",
+    "video_4bec9c343db72928_frame_00023797_right.png"
+  ],
+  "failed_labels": [],
+  "metadata_after_sha256": "e7ad9bc05e5b386efd39e0a0b86ee8710da75946998c5bcbe3e1a8bd83887772",
+  "created_at_utc": "2026-10-19T03:01:04.517093+00:00"
+}

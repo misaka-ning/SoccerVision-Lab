@@ -1,0 +1,3782 @@
+{
+  "candidate_pairs": 6215,
+  "risk_counts": {
+    "medium": 54,
+    "low": 6161
+  },
+  "high_unique_test_images": 0,
+  "queries": 368,
+  "high_by_segment": {},
+  "reviewed_pages_pending_actual_open": 52,
+  "maxima": [
+    {
+      "query": "video_4bec9c343db72928_frame_00000965_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9630310535430908
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00000988_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9248578548431396
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001005_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7511216998100281
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001022_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7085742950439453
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001034_left.png",
+      "target": "train",
+      "maximum_cosine": 0.758068323135376
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001050_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7562835812568665
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001062_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7055059671401978
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001078_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7431880831718445
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001091_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6565331220626831
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001103_left.png",
+      "target": "train",
+      "maximum_cosine": 0.5685319900512695
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001120_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6475763916969299
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001132_left.png",
+      "target": "train",
+      "maximum_cosine": 0.65705806016922
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001154_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6234893202781677
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001168_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6458320617675781
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001182_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6996028423309326
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001196_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6208491325378418
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001208_left.png",
+      "target": "train",
+      "maximum_cosine": 0.5898634195327759
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001222_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6216061115264893
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001237_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6896237134933472
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001251_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7057203650474548
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001264_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6731098890304565
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001276_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6971573829650879
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001289_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7288024425506592
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001299_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6899574398994446
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001307_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7542858123779297
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001315_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7646710276603699
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001327_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6635485291481018
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001339_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7423609495162964
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001357_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8354636430740356
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001372_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8314734697341919
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001383_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8520151376724243
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001404_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7496894598007202
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001417_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7581384181976318
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001433_left.png",
+      "target": "train",
+      "maximum_cosine": 0.750455379486084
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001445_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7557789087295532
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001458_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7724833488464355
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001483_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7305059432983398
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001532_left.png",
+      "target": "train",
+      "maximum_cosine": 0.5593532919883728
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001543_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8059152960777283
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001558_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9350528717041016
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001569_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9592369794845581
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001599_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9487205743789673
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003169_right.png",
+      "target": "train",
+      "maximum_cosine": 0.824012041091919
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003179_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7996129989624023
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003190_right.png",
+      "target": "train",
+      "maximum_cosine": 0.853591799736023
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003200_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7570713758468628
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003208_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7832685708999634
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003217_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8702528476715088
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003236_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8215678930282593
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003247_right.png",
+      "target": "train",
+      "maximum_cosine": 0.858272910118103
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003258_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8653998970985413
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003267_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8608466386795044
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003279_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8564339876174927
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003292_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8436602354049683
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003300_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7363457679748535
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003307_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7811133861541748
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003314_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8887538313865662
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003322_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8736391067504883
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003330_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8422524929046631
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003342_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8405508995056152
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003354_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8245272636413574
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003363_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8406645059585571
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003381_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8311223983764648
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003403_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8395183086395264
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003419_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8547511100769043
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003431_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8787294626235962
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003443_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8721089363098145
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003454_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8657898902893066
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003465_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8785173892974854
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003476_right.png",
+      "target": "train",
+      "maximum_cosine": 0.86944580078125
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003488_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7158686518669128
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003499_right.png",
+      "target": "train",
+      "maximum_cosine": 0.819446325302124
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003506_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7281359434127808
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003517_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8326786756515503
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003528_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7795765399932861
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003536_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8330661654472351
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003544_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8285239338874817
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003553_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8420846462249756
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003562_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8463325500488281
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003570_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8512803912162781
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003579_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8383208513259888
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003587_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8555587530136108
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003594_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8755991458892822
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003610_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8768644332885742
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003622_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8592758178710938
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003636_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9024381041526794
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003644_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8818637132644653
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003664_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8921288251876831
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003683_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9004852771759033
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003704_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8969358205795288
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003714_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8778615593910217
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003726_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8548150062561035
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003743_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8753271102905273
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003757_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8823977112770081
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003770_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9039608836174011
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003786_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8615421056747437
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004685_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8958526253700256
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004702_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9022004008293152
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004724_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8800581097602844
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004732_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8522575497627258
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004829_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8627267479896545
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004880_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8257960677146912
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004889_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8098371028900146
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004898_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8792339563369751
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004907_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8335118889808655
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004914_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8253682851791382
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004921_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8082128763198853
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004928_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7792714834213257
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004939_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8333981037139893
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004949_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7635714411735535
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004957_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6440731287002563
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004966_left.png",
+      "target": "train",
+      "maximum_cosine": 0.797608494758606
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004979_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8229966759681702
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004993_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8777779340744019
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005001_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8554338216781616
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005012_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7272883057594299
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005020_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8698726892471313
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005030_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8774070739746094
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005047_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8901956677436829
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005065_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8858082294464111
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005077_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9000201225280762
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005088_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8677511215209961
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005100_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8790597319602966
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005108_left.png",
+      "target": "train",
+      "maximum_cosine": 0.858578085899353
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005118_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8724445104598999
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005132_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8851238489151001
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005148_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9057154655456543
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005164_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8984345197677612
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005175_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8561098575592041
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005186_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8292210698127747
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005195_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8459699153900146
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005209_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8049224615097046
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005218_left.png",
+      "target": "train",
+      "maximum_cosine": 0.825980544090271
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005225_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8703435063362122
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005233_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9000421762466431
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007564_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9246166348457336
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007576_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9217793941497803
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007584_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9231406450271606
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007604_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9044790863990784
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007628_right.png",
+      "target": "train",
+      "maximum_cosine": 0.889245867729187
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007641_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9007921814918518
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007653_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8798716068267822
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007663_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8884332180023193
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007675_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8966312408447266
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007692_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8819084167480469
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007709_right.png",
+      "target": "train",
+      "maximum_cosine": 0.905272364616394
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007724_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9116898775100708
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007733_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9263098835945129
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007742_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9103434681892395
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007755_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8866466283798218
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007763_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9027218818664551
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007777_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9118770360946655
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007784_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9150887131690979
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007799_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9176849126815796
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007814_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8948801755905151
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007826_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9313021898269653
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007834_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9357532262802124
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007843_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8738290667533875
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007851_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8998026847839355
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007865_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8886888027191162
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007889_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9142729043960571
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007904_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9386886358261108
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007914_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9023628234863281
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007923_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8882131576538086
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007934_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8913400173187256
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007949_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8722819089889526
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007962_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9046928882598877
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007972_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9080321788787842
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007981_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9131829738616943
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007992_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8936834335327148
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00008002_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9141783714294434
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00008016_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8920813798904419
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00008062_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8846447467803955
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00008083_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9003517627716064
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009663_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7967077493667603
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009673_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9168806076049805
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009687_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8723978996276855
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009697_left.png",
+      "target": "train",
+      "maximum_cosine": 0.903204083442688
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009714_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9047067165374756
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009727_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8992466926574707
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009740_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9245084524154663
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009781_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9300545454025269
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009789_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8953320980072021
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009803_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9091309309005737
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009817_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9222671389579773
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009832_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9301944971084595
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009851_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9392706751823425
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009889_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9352931976318359
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009907_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9543381929397583
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009934_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8779475688934326
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009952_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9089670777320862
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009967_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9106119871139526
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009989_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8569173812866211
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00010010_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9472167491912842
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011285_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8613060712814331
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011297_right.png",
+      "target": "train",
+      "maximum_cosine": 0.889109194278717
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011306_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8626944422721863
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011315_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8910113573074341
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011323_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8638211488723755
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011336_right.png",
+      "target": "train",
+      "maximum_cosine": 0.869434118270874
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011343_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8513062596321106
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011358_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8351856470108032
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011371_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7306612730026245
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011384_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8547676205635071
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011392_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8555992841720581
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011405_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8561625480651855
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011413_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8553736805915833
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011437_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8076534271240234
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011450_right.png",
+      "target": "train",
+      "maximum_cosine": 0.837193489074707
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011467_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8380661010742188
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011482_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7966440916061401
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011496_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8006947636604309
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011519_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8775852918624878
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011533_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8649801015853882
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011550_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8891770839691162
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011564_right.png",
+      "target": "train",
+      "maximum_cosine": 0.818374514579773
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011574_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8149574995040894
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011581_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8278188109397888
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011589_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8519601225852966
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011602_right.png",
+      "target": "train",
+      "maximum_cosine": 0.855722188949585
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011613_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8932930827140808
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011622_right.png",
+      "target": "train",
+      "maximum_cosine": 0.876606822013855
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011630_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8139462471008301
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011644_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8099805116653442
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011651_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8948585987091064
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011661_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9068186283111572
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011674_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8860093355178833
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011683_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8843270540237427
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011696_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9075307250022888
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011709_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8130496144294739
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016755_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8681577444076538
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016765_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8898708820343018
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016776_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8492015600204468
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016786_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8908374309539795
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016799_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8075772523880005
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016806_left.png",
+      "target": "train",
+      "maximum_cosine": 0.838483452796936
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016813_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8796007633209229
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016825_left.png",
+      "target": "train",
+      "maximum_cosine": 0.900749683380127
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016835_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8751233816146851
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016850_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8691391944885254
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016871_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8905031681060791
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016881_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8898642063140869
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016888_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8897733688354492
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016896_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8721125721931458
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016905_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9147049784660339
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016913_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8875719904899597
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016926_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8866819143295288
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016933_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8150032758712769
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016945_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8510257005691528
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016957_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8354554176330566
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016972_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8355083465576172
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016984_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8218640089035034
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016992_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8367472887039185
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017007_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8489280939102173
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017023_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8675740361213684
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017042_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8519067764282227
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017059_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8805155754089355
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017072_left.png",
+      "target": "train",
+      "maximum_cosine": 0.883881688117981
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017083_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8758771419525146
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017092_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8282554149627686
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017105_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7967720031738281
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017114_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6946161389350891
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017123_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8331261873245239
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017132_left.png",
+      "target": "train",
+      "maximum_cosine": 0.861618161201477
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017143_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9007000923156738
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017157_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7153818607330322
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017174_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7565962672233582
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017189_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8735159039497375
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017203_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8668874502182007
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017219_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8772611618041992
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017230_left.png",
+      "target": "train",
+      "maximum_cosine": 0.823336124420166
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017242_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8534834980964661
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017252_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8517597913742065
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017262_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8114162087440491
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017273_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8280171155929565
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00021966_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8756749629974365
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00021973_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9018207788467407
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00021987_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8627350330352783
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022004_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7419784665107727
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022012_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8357226848602295
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022019_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8938167095184326
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022026_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7747223377227783
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022035_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8376287221908569
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022042_right.png",
+      "target": "train",
+      "maximum_cosine": 0.87424635887146
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022058_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8732569217681885
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022068_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8262486457824707
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022083_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8151986598968506
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022092_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8052147626876831
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022107_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7804298996925354
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022118_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7939063906669617
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022132_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8527547121047974
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022147_right.png",
+      "target": "train",
+      "maximum_cosine": 0.902972936630249
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022157_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8925310969352722
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022166_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8896955251693726
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022176_right.png",
+      "target": "train",
+      "maximum_cosine": 0.880267858505249
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022183_right.png",
+      "target": "train",
+      "maximum_cosine": 0.910069465637207
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022198_right.png",
+      "target": "train",
+      "maximum_cosine": 0.7789876461029053
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022213_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8662426471710205
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022222_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8868540525436401
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022235_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8603780269622803
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022249_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8663423657417297
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022274_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8568436503410339
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022287_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8474836349487305
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022300_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8742930889129639
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022309_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8374685049057007
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022318_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8890857696533203
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022326_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8567218780517578
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022334_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8520357608795166
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022350_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8505046367645264
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022364_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8678150177001953
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022377_right.png",
+      "target": "train",
+      "maximum_cosine": 0.844997763633728
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022402_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8330287337303162
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022409_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8583287596702576
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022417_right.png",
+      "target": "train",
+      "maximum_cosine": 0.884428858757019
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022427_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8597177267074585
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022439_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9024469256401062
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022492_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9073633551597595
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022501_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9016781449317932
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022517_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8666252493858337
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022528_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8820558786392212
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022538_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8584679365158081
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022552_right.png",
+      "target": "train",
+      "maximum_cosine": 0.874305784702301
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022574_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8869012594223022
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022605_right.png",
+      "target": "train",
+      "maximum_cosine": 0.9025832414627075
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022623_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8530451059341431
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022640_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8206400871276855
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022664_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8202736377716064
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022678_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8373112082481384
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022688_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8545815944671631
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022702_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8717641830444336
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022709_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8459606170654297
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022720_right.png",
+      "target": "train",
+      "maximum_cosine": 0.844815731048584
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022732_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8956865668296814
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022739_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8714529275894165
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022750_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8430842161178589
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022761_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8914610743522644
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022770_right.png",
+      "target": "train",
+      "maximum_cosine": 0.8774693608283997
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023763_left.png",
+      "target": "train",
+      "maximum_cosine": 0.9008944630622864
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023797_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7705115079879761
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023804_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7513082027435303
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023815_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7500921487808228
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023828_left.png",
+      "target": "train",
+      "maximum_cosine": 0.6289788484573364
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023839_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7682300806045532
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023857_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7901957035064697
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023878_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8177480697631836
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023891_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7979283332824707
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023907_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7586894035339355
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023924_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7759068012237549
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023946_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7494478821754456
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023968_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7978723049163818
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023988_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8405026793479919
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024009_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8206629753112793
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024030_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8230652809143066
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024052_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8487647175788879
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024072_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8058667182922363
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024085_left.png",
+      "target": "train",
+      "maximum_cosine": 0.789151668548584
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024098_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7633951902389526
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024112_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7606279850006104
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024130_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7474625110626221
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024141_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7743800282478333
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024153_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8094617128372192
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024167_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8202788829803467
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024179_left.png",
+      "target": "train",
+      "maximum_cosine": 0.7991930246353149
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024201_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8365257978439331
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024222_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8418461680412292
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024254_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8647644519805908
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024267_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8067138195037842
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024284_left.png",
+      "target": "train",
+      "maximum_cosine": 0.8249744176864624
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00000965_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8587659597396851
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00000988_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8287472724914551
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001005_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7882375717163086
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001022_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7227349281311035
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001034_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8050931692123413
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001050_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7508362531661987
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001062_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7783547639846802
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001078_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7126731276512146
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001091_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6188358664512634
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001103_left.png",
+      "target": "val",
+      "maximum_cosine": 0.570995569229126
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001120_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6348593831062317
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001132_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6102688312530518
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001154_left.png",
+      "target": "val",
+      "maximum_cosine": 0.5932953357696533
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001168_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6656114459037781
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001182_left.png",
+      "target": "val",
+      "maximum_cosine": 0.643484890460968
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001196_left.png",
+      "target": "val",
+      "maximum_cosine": 0.5551744699478149
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001208_left.png",
+      "target": "val",
+      "maximum_cosine": 0.5216127634048462
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001222_left.png",
+      "target": "val",
+      "maximum_cosine": 0.5689980983734131
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001237_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6735960245132446
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001251_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6798833608627319
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001264_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6623863577842712
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001276_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6467309594154358
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001289_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7560870051383972
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001299_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7027966976165771
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001307_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7587972283363342
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001315_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7520326375961304
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001327_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6241525411605835
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001339_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7152624130249023
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001357_left.png",
+      "target": "val",
+      "maximum_cosine": 0.810059666633606
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001372_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8113881945610046
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001383_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8176261782646179
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001404_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7395409941673279
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001417_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7185832262039185
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001433_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7070637941360474
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001445_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7120996713638306
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001458_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7248141765594482
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001483_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6994167566299438
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001532_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6833781599998474
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001543_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7633105516433716
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001558_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8498120307922363
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001569_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8167070746421814
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00001599_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8186279535293579
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003169_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7767848968505859
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003179_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7444266676902771
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003190_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7701109647750854
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003200_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6530340909957886
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003208_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7181152701377869
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003217_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7630006074905396
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003236_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7330288290977478
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003247_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7777751088142395
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003258_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8216577172279358
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003267_right.png",
+      "target": "val",
+      "maximum_cosine": 0.785811722278595
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003279_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7730282545089722
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003292_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7683837413787842
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003300_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6233544945716858
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003307_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6247020363807678
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003314_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6600415110588074
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003322_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6627402305603027
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003330_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6578599214553833
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003342_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7078239917755127
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003354_right.png",
+      "target": "val",
+      "maximum_cosine": 0.712530791759491
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003363_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6971153020858765
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003381_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6985461711883545
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003403_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6967794299125671
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003419_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7499770522117615
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003431_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7574540376663208
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003443_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7840909361839294
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003454_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7794523239135742
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003465_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6940767765045166
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003476_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6803081035614014
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003488_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6222591400146484
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003499_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6883984208106995
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003506_right.png",
+      "target": "val",
+      "maximum_cosine": 0.5540183186531067
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003517_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7767722606658936
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003528_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6618585586547852
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003536_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7449061274528503
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003544_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7736929059028625
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003553_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8225971460342407
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003562_right.png",
+      "target": "val",
+      "maximum_cosine": 0.817598819732666
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003570_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7954670190811157
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003579_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7734184265136719
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003587_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7751845121383667
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003594_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7715651988983154
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003610_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7566038370132446
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003622_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6919611692428589
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003636_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7929803133010864
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003644_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7275769710540771
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003664_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7633843421936035
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003683_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7437601089477539
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003704_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7771885395050049
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003714_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7920766472816467
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003726_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7793617248535156
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003743_right.png",
+      "target": "val",
+      "maximum_cosine": 0.760767936706543
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003757_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7330362796783447
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003770_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7932335138320923
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00003786_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7620091438293457
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004685_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7176984548568726
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004702_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6974200010299683
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004724_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7305110692977905
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004732_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7189017534255981
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004829_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7242447137832642
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004880_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7069001197814941
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004889_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6867560148239136
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004898_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7362484931945801
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004907_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7484428286552429
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004914_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7210264205932617
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004921_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7112488150596619
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004928_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6784448623657227
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004939_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7185304164886475
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004949_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6440390348434448
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004957_left.png",
+      "target": "val",
+      "maximum_cosine": 0.5627909898757935
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004966_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6910557746887207
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004979_left.png",
+      "target": "val",
+      "maximum_cosine": 0.696104109287262
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00004993_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7420802116394043
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005001_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7051851153373718
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005012_left.png",
+      "target": "val",
+      "maximum_cosine": 0.5535061359405518
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005020_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7272905707359314
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005030_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7777803540229797
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005047_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7813953757286072
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005065_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8316534757614136
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005077_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7761189937591553
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005088_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7723088264465332
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005100_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7475718259811401
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005108_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7724583148956299
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005118_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7939313650131226
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005132_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7843540906906128
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005148_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8011273145675659
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005164_left.png",
+      "target": "val",
+      "maximum_cosine": 0.803449809551239
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005175_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7962573766708374
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005186_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6545332670211792
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005195_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7660590410232544
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005209_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6988861560821533
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005218_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7319179177284241
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005225_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7885684967041016
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00005233_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7642818093299866
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007564_right.png",
+      "target": "val",
+      "maximum_cosine": 0.792819619178772
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007576_right.png",
+      "target": "val",
+      "maximum_cosine": 0.812877893447876
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007584_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8203219771385193
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007604_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8299691081047058
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007628_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8185290098190308
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007641_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7639144659042358
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007653_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8086442947387695
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007663_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7971416711807251
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007675_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8133673071861267
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007692_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7845442295074463
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007709_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8072495460510254
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007724_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7846582531929016
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007733_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7629294395446777
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007742_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8098164796829224
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007755_right.png",
+      "target": "val",
+      "maximum_cosine": 0.806191086769104
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007763_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8114607334136963
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007777_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7957983016967773
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007784_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8017282485961914
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007799_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7901805639266968
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007814_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8054600954055786
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007826_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7801343202590942
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007834_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7880717515945435
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007843_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7865060567855835
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007851_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7842851877212524
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007865_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8146606683731079
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007889_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8411717414855957
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007904_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8233691453933716
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007914_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8143219351768494
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007923_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7832502722740173
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007934_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8024587035179138
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007949_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7845374345779419
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007962_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8022620677947998
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007972_right.png",
+      "target": "val",
+      "maximum_cosine": 0.771154522895813
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007981_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7647799253463745
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00007992_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7879214286804199
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00008002_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8037571907043457
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00008016_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8019528388977051
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00008062_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7929012775421143
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00008083_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8016958236694336
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009663_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7000390291213989
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009673_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7579237222671509
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009687_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7655289769172668
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009697_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7957653403282166
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009714_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8178759813308716
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009727_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8052940368652344
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009740_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8060058951377869
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009781_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8085218071937561
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009789_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8162457942962646
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009803_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8083965182304382
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009817_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8239407539367676
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009832_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8199491500854492
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009851_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8096930980682373
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009889_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8190997838973999
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009907_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7918154001235962
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009934_left.png",
+      "target": "val",
+      "maximum_cosine": 0.792879045009613
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009952_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7772977352142334
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009967_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7955559492111206
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00009989_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7816963195800781
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00010010_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7880221009254456
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011285_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7867012023925781
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011297_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7971271276473999
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011306_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7715529799461365
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011315_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7724252939224243
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011323_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7946995496749878
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011336_right.png",
+      "target": "val",
+      "maximum_cosine": 0.809392511844635
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011343_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8010168075561523
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011358_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7051838636398315
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011371_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6730083227157593
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011384_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8151746988296509
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011392_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8039629459381104
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011405_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7738049030303955
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011413_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7915405631065369
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011437_right.png",
+      "target": "val",
+      "maximum_cosine": 0.762998104095459
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011450_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7421149611473083
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011467_right.png",
+      "target": "val",
+      "maximum_cosine": 0.781548023223877
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011482_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7910311818122864
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011496_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7731599807739258
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011519_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8135409355163574
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011533_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8165637254714966
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011550_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7625453472137451
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011564_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7664311528205872
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011574_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7531875371932983
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011581_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7736165523529053
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011589_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8162487745285034
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011602_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7175692915916443
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011613_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7304779291152954
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011622_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7386105060577393
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011630_right.png",
+      "target": "val",
+      "maximum_cosine": 0.674691915512085
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011644_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6781327724456787
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011651_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7251900434494019
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011661_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7418410778045654
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011674_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7718735933303833
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011683_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7449912428855896
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011696_right.png",
+      "target": "val",
+      "maximum_cosine": 0.788042426109314
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00011709_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6783586144447327
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016755_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7512065172195435
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016765_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7657654285430908
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016776_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7585492730140686
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016786_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8073752522468567
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016799_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7761026620864868
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016806_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7782802581787109
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016813_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7442116737365723
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016825_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8263429403305054
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016835_left.png",
+      "target": "val",
+      "maximum_cosine": 0.77283775806427
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016850_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8010265827178955
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016871_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8371487259864807
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016881_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8092234134674072
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016888_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7554061412811279
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016896_left.png",
+      "target": "val",
+      "maximum_cosine": 0.772524356842041
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016905_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8187902569770813
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016913_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7498246431350708
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016926_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7450032234191895
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016933_left.png",
+      "target": "val",
+      "maximum_cosine": 0.5522595643997192
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016945_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6924886703491211
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016957_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7128996849060059
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016972_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6720199584960938
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016984_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7058980464935303
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00016992_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7127262353897095
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017007_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7019928693771362
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017023_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7250891923904419
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017042_left.png",
+      "target": "val",
+      "maximum_cosine": 0.761287271976471
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017059_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8032150268554688
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017072_left.png",
+      "target": "val",
+      "maximum_cosine": 0.792824387550354
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017083_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7408854961395264
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017092_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7043625116348267
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017105_left.png",
+      "target": "val",
+      "maximum_cosine": 0.537542462348938
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017114_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6290953159332275
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017123_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7762157917022705
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017132_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7992300987243652
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017143_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8385121822357178
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017157_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6174599528312683
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017174_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7644834518432617
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017189_left.png",
+      "target": "val",
+      "maximum_cosine": 0.836273193359375
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017203_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8381658792495728
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017219_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8079663515090942
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017230_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7718698382377625
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017242_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8059828877449036
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017252_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7863166332244873
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017262_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7350886464118958
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00017273_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7606344223022461
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00021966_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7189754247665405
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00021973_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7678791880607605
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00021987_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7500147819519043
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022004_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6096088886260986
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022012_right.png",
+      "target": "val",
+      "maximum_cosine": 0.5932819843292236
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022019_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6989477872848511
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022026_right.png",
+      "target": "val",
+      "maximum_cosine": 0.5785852670669556
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022035_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7044470310211182
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022042_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7657507658004761
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022058_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7541153430938721
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022068_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6864415407180786
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022083_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6845277547836304
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022092_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6181665658950806
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022107_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6715143322944641
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022118_right.png",
+      "target": "val",
+      "maximum_cosine": 0.640562117099762
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022132_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7530621290206909
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022147_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8031116724014282
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022157_right.png",
+      "target": "val",
+      "maximum_cosine": 0.821852445602417
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022166_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8151594400405884
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022176_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7876745462417603
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022183_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7948266267776489
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022198_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6878272294998169
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022213_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6932878494262695
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022222_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7397822141647339
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022235_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7781603932380676
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022249_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7914295196533203
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022274_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7836157083511353
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022287_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7575671672821045
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022300_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7968224287033081
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022309_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7870084047317505
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022318_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8155580759048462
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022326_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7626961469650269
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022334_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8037532567977905
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022350_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7857012748718262
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022364_right.png",
+      "target": "val",
+      "maximum_cosine": 0.764541745185852
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022377_right.png",
+      "target": "val",
+      "maximum_cosine": 0.737776517868042
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022402_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7571224570274353
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022409_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7418280839920044
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022417_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7745368480682373
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022427_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8027938604354858
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022439_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8141692876815796
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022492_right.png",
+      "target": "val",
+      "maximum_cosine": 0.819806694984436
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022501_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8093808889389038
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022517_right.png",
+      "target": "val",
+      "maximum_cosine": 0.764307975769043
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022528_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7804036140441895
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022538_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7489905953407288
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022552_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6826719045639038
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022574_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7065702676773071
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022605_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7337784767150879
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022623_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6790196895599365
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022640_right.png",
+      "target": "val",
+      "maximum_cosine": 0.6059170961380005
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022664_right.png",
+      "target": "val",
+      "maximum_cosine": 0.602243959903717
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022678_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7351342439651489
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022688_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7139102220535278
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022702_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7851701974868774
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022709_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7336994409561157
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022720_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7443786859512329
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022732_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7695412635803223
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022739_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8038123250007629
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022750_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7945974469184875
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022761_right.png",
+      "target": "val",
+      "maximum_cosine": 0.7510206699371338
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00022770_right.png",
+      "target": "val",
+      "maximum_cosine": 0.8012962341308594
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023763_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8163840770721436
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023797_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7446095943450928
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023804_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7117601633071899
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023815_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7399611473083496
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023828_left.png",
+      "target": "val",
+      "maximum_cosine": 0.6615505814552307
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023839_left.png",
+      "target": "val",
+      "maximum_cosine": 0.741896390914917
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023857_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7829971313476562
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023878_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7803128361701965
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023891_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7168929576873779
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023907_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7263972759246826
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023924_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7225916385650635
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023946_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7019789218902588
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023968_left.png",
+      "target": "val",
+      "maximum_cosine": 0.745657205581665
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00023988_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8264815211296082
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024009_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8215479254722595
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024030_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8123071193695068
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024052_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8515725135803223
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024072_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7641360759735107
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024085_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7773109674453735
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024098_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7824690937995911
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024112_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7683059573173523
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024130_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7730095386505127
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024141_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7581632733345032
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024153_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7979154586791992
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024167_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8331091403961182
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024179_left.png",
+      "target": "val",
+      "maximum_cosine": 0.7837264537811279
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024201_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8219021558761597
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024222_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8392277956008911
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024254_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8405698537826538
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024267_left.png",
+      "target": "val",
+      "maximum_cosine": 0.8371151089668274
+    },
+    {
+      "query": "video_4bec9c343db72928_frame_00024284_left.png",
+      "target": "val",
+      "maximum_cosine": 0.834288477897644
+    }
+  ],
+  "hash_index_checks": [
+    {
+      "target": "train",
+      "hash": "phash",
+      "query": "video_4bec9c343db72928_frame_00000965_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 28
+    },
+    {
+      "target": "train",
+      "hash": "phash",
+      "query": "video_4bec9c343db72928_frame_00009817_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 13
+    },
+    {
+      "target": "train",
+      "hash": "phash",
+      "query": "video_4bec9c343db72928_frame_00024284_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 0
+    },
+    {
+      "target": "train",
+      "hash": "dhash",
+      "query": "video_4bec9c343db72928_frame_00000965_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 28
+    },
+    {
+      "target": "train",
+      "hash": "dhash",
+      "query": "video_4bec9c343db72928_frame_00009817_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 15
+    },
+    {
+      "target": "train",
+      "hash": "dhash",
+      "query": "video_4bec9c343db72928_frame_00024284_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 0
+    },
+    {
+      "target": "val",
+      "hash": "phash",
+      "query": "video_4bec9c343db72928_frame_00000965_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 0
+    },
+    {
+      "target": "val",
+      "hash": "phash",
+      "query": "video_4bec9c343db72928_frame_00009817_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 0
+    },
+    {
+      "target": "val",
+      "hash": "phash",
+      "query": "video_4bec9c343db72928_frame_00024284_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 0
+    },
+    {
+      "target": "val",
+      "hash": "dhash",
+      "query": "video_4bec9c343db72928_frame_00000965_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 0
+    },
+    {
+      "target": "val",
+      "hash": "dhash",
+      "query": "video_4bec9c343db72928_frame_00009817_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 0
+    },
+    {
+      "target": "val",
+      "hash": "dhash",
+      "query": "video_4bec9c343db72928_frame_00024284_left.png",
+      "equal_to_brute_force": true,
+      "candidates": 0
+    }
+  ],
+  "method": "Reused normalized MobileNetV3-small576; bounded exact top8 per candidate and formal target split; BK exact p<=12/d<=10; union SSIM128x72. Thresholds prioritize review and are not event truth.",
+  "excluded_from_opponents": "All held-out cores and adaptive buffers; Val fixed.",
+  "elapsed_seconds": 2.8382672049920075
+}

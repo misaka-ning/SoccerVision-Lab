@@ -1,0 +1,65 @@
+{
+  "total_middle_proposals": 81,
+  "native_comparison_pages_reviewed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "priority_native_indices_reviewed": [
+    4658,
+    4846,
+    4847,
+    4848,
+    4849,
+    4853,
+    4854,
+    4855,
+    4856,
+    4857,
+    4860,
+    4861,
+    4862,
+    4863,
+    6026,
+    6226,
+    6228,
+    6229
+  ],
+  "adjustment_count": 10,
+  "adjustment_indices": [
+    4658,
+    4846,
+    4847,
+    4848,
+    4849,
+    4854,
+    4863,
+    6226,
+    6228,
+    6229
+  ],
+  "retain_priority_without_change": {
+    "4853": "右裁边球的白蓝弧与整体暗色球面在候选范围内，形状模糊，保持候选。",
+    "6026": "右裁边大球外缘与候选接近，左上手遮挡与球真实横向外缘有共同x投影，不为避手缩掉可见球。",
+    "4855/4856/4857/4860/4861/4862": "原生对照未见明确应修改的边界错误，保留pending。"
+  },
+  "last_proposals_final_native_comparison_reviewed": 33,
+  "last_comparison_pages": [
+    0,
+    1
+  ],
+  "production_written": false,
+  "automatic_approval": false,
+  "status": "proposals_pending_root_review"
+}

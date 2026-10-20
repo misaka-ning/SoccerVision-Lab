@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-19T06:33:00.260418+00:00",
+  "method": "Independent stdlib CSV parse, filename grouping (not reuse of migration source matcher), full SHA8398images+8398labels,2370 backup/destination checks, exact path sets and actual Ultralytics file discovery only.",
+  "checked": {
+    "images": 8398,
+    "labels": 8398,
+    "metadata_changed_rows": 1185
+  },
+  "sources": {
+    "10:47:48": {
+      "all": 1176,
+      "usable": 1154,
+      "excluded": 22
+    },
+    "legacy": {
+      "all": 714,
+      "usable": 713,
+      "excluded": 1
+    },
+    "18:13:26": {
+      "all": 70,
+      "usable": 69,
+      "excluded": 1
+    },
+    "18:15:31": {
+      "all": 6438,
+      "usable": 6212,
+      "excluded": 226
+    }
+  },
+  "active_statistics": {
+    "val": {
+      "images": 1223,
+      "negative_images": 410,
+      "boxes": 855,
+      "Small": 442,
+      "Occluded": 235,
+      "Blurred": 265,
+      "No Ball": 410,
+      "positive_images": 813
+    },
+    "train": {
+      "images": 6925,
+      "positive_images": 4407,
+      "boxes": 4562,
+      "Small": 1185,
+      "Occluded": 1181,
+      "Blurred": 2013,
+      "No Ball": 2518,
+      "negative_images": 2518
+    }
+  },
+  "loader": {
+    "train": {
+      "images": 6925,
+      "all_labels_present": true,
+      "excluded_discovered": 0
+    },
+    "val": {
+      "images": 1223,
+      "all_labels_present": true,
+      "excluded_discovered": 0
+    },
+    "test": {
+      "images": 0,
+      "expected_empty": true,
+      "discovery_raises": "FileNotFoundError",
+      "message": "Empty Test expected: Error loading data from /home/misaka/workspace/datasets/images/test\nSee https://docs.ultralytics.com/datasets for dataset formatting guidance."
+    }
+  },
+  "ultralytics_version": "8.4.173",
+  "metadata_sha256": "fed79f82abfd40b21e01c77e22bdbb851edb53e80b541dc9bd9adf7ceb12181c",
+  "yaml_sha256": "b80d9d0d7e2468ab53b37ecc50cc16c2582137abbf38d89a87f8c55b45c88c91",
+  "archive250_unchanged": true,
+  "all_metadata_fields_except_split_unchanged": true,
+  "no_source_caches_or_locks_left": true,
+  "model_instantiated": false,
+  "training_executed": false,
+  "canonical_label_cache_written": false,
+  "ultralytics_runtime_settings_redirected": true,
+  "validation_runtime_config_directory": "/home/misaka/workspace/dataset_processing/source-resplit-20261019/validation/ultralytics-config/Ultralytics",
+  "script_sha256": "5df1674e9ab9e7f28776ae4ea559b0bb00b946d208de26ca28f8c00789cc0b23"
+}

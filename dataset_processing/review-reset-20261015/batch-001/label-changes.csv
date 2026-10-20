@@ -1,0 +1,15 @@
+﻿图片,split,confidence,action,Small,Occluded,Blurred,No Ball,label_review_required,scene_review_required,reason
+frame_001650_left.png,train,high,replace,0,0,1,0,1,1,逐框放大确认box0为底边裁切足球，box1实际是灰鞋鞋面/鞋带误框，应删除；保留足球原框，裁边不算遮挡；球及全图有运动拖影。候选待用户复查。
+frame_001650_right.png,train,high,replace,0,0,1,0,1,1,逐框放大确认box0为底边裁切足球，box1实际是灰鞋鞋面/鞋带误框，应删除；保留足球原框，裁边不算遮挡；球及全图有运动拖影。候选待用户复查。
+frame_001654_left.png,train,high,replace,0,1,0,0,1,1,器械旁黑白球真实可见，原box0左/上边切进可见球面；已看原生和6倍像素网格，扩大到全部可见球缘，横杆遮挡使Occluded=1。完整球约45–52px，Small=0；未见明确球运动拖影。其他真实足球框保留，仍待用户复查。
+frame_001658_left.png,train,high,replace,0,1,1,0,1,1,器械旁黑白球真实可见，原box0左/上边切进可见球面；已看原生和6倍像素网格，扩大到全部可见球缘，横杆遮挡使Occluded=1。完整球约45–52px，Small=0；前景球有明显拖影，Blurred=1。其他真实足球框保留，仍待用户复查。
+frame_001658_right.png,train,uncertain,replace,0,1,1,0,1,1,器械旁黑白球真实可见，原box0左/上边切进可见球面；已看原生和6倍像素网格，扩大到全部可见球缘，横杆遮挡使Occluded=1。完整球约45–52px，Small=0；前景球有明显拖影，Blurred=1。其他真实足球框保留，仍待用户复查。该视角器械球尺度靠近40px，Small=0暂定请人工复核。
+frame_001665_left.png,train,high,replace,0,1,0,0,1,1,器械旁黑白球真实可见，原box0左/上边切进可见球面；已看原生和6倍像素网格，扩大到全部可见球缘，横杆遮挡使Occluded=1。完整球约45–52px，Small=0；未见明确球运动拖影。其他真实足球框保留，仍待用户复查。
+frame_003599_left.png,train,high,replace,0,1,0,0,1,1,3倍原生局部确认球上缘及左侧被手覆盖；原框左上纳入较多手/背景，按可见球边界调整，底边裁切保留到376。
+frame_003661_left.png,train,high,replace,0,1,0,0,1,1,"4倍原生局部确认唯一大球；原框上下及右侧带入背景/手指，按球面可见边界收至188,82–322,212。"
+frame_003661_right.png,train,high,replace,0,1,0,0,1,1,"4倍原生局部确认唯一手持球；右侧突出部分为手指，按球本体可见边界收至115,82–259,212。"
+frame_004504_left.png,train,high,replace,1,0,0,0,1,1,已查看原生5倍坐标网格：原框上下/右侧包含较大背景及地面阴影，按可见球体收紧。 修正仅为助手候选，仍待用户复核。
+frame_004618_left.png,train,high,replace,1,0,0,0,1,1,已查看原生5倍坐标网格：原框上下/右侧包含较大背景及地面阴影，按可见球体收紧。 修正仅为助手候选，仍待用户复核。
+frame_004660_left.png,train,high,replace,1,0,0,0,1,1,已查看原生5倍坐标网格：原框向右偏，左侧可见球缘在框外；扩展左边并贴合球体其余边界。 修正仅为助手候选，仍待用户复核。
+frame_004660_right.png,train,high,replace,1,0,0,0,1,1,已查看原生5倍坐标网格：原框向右偏，左侧可见球缘在框外；扩展左边并贴合球体其余边界。 修正仅为助手候选，仍待用户复核。
+frame_004995_right.png,test,high,replace,0,0,0,1,1,1,原生全景、ROI及5倍坐标网格均确认现框实际是鞋面/鞋带，不是足球；删除这一个误框。全景未见其他球，候选无球仍待用户确认。

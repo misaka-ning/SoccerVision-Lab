@@ -1,0 +1,1 @@
+﻿experiment_id,run_id,status,parent_run_id,dataset_version,data_manifest_sha256,seed,initialization_sha256,architecture_sha256,best_checkpoint_sha256,val_map50_95,test_map50_95,no_ball_fpr,parameter_count,flops,flops_method_ref,device,format,precision,latency_p50_ms,latency_p95_ms,record_path

@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "dry_run_zero_writes": true,
+    "positive_negative_semantics": true,
+    "uncertainty_remains_pending": true,
+    "partial_label_approval_resolves_presence_but_retains_unknown_scene": true,
+    "decimal_rounding_allowed_real_boundary_crossing_rejected": true,
+    "fresh_human_scene_change_skipped": true,
+    "fresh_label_change_skipped": true,
+    "qt_lock_conflict_zero_writes": true,
+    "metadata_only_atomic_apply_preserves_bom_newlines_unknown_columns_notes_images_labels": true
+  },
+  "fixture": "/tmp/football-approval-fixture-t8rju51n"
+}

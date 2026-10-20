@@ -1,0 +1,11 @@
+{
+  "validated_at_utc": "2026-10-19T03:43:15.506555+00:00",
+  "schema": "metadata-ordered list8398; uint8 gray[8398,72,128]; int32 indices=arange8398; hex hashes64b; feature content checksum saved in summary",
+  "counts_match_final_statistics": true,
+  "review_result_all_empty": true,
+  "excluded_all_filtered_from_usable": true,
+  "source_metadata_yaml_hashes_unchanged": true,
+  "image_full_decode_success": 8398,
+  "usable_images": 8148,
+  "usable_boxes": 5417
+}

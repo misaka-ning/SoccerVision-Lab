@@ -1,0 +1,86 @@
+{
+  "cached_inventory": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/inventory.json",
+  "pixel_hashes_reused_condition": "Each source file SHA must match cached raw-file SHA at final verification; then cached decoded RGB pixel hash is still valid.",
+  "embedding": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/embeddings.npz",
+  "embedding_model": {
+    "executed": true,
+    "model": "torchvision.mobilenet_v3_small",
+    "weights": "IMAGENET1K_V1",
+    "pretrained": true,
+    "checkpoint_url": "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth",
+    "checkpoint_sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+    "torch_version": "2.9.1+cpu",
+    "torchvision_version": "0.24.1+cpu",
+    "dimension": 576,
+    "pooling": "mean of final backbone feature map H,W, before classifier",
+    "normalization": "L2",
+    "preprocess": {
+      "color": "RGB",
+      "resize": [
+        224,
+        224
+      ],
+      "interpolation": "Pillow BILINEAR",
+      "crop": "none; whole-frame anisotropic resize to preserve all edge content",
+      "scale": "divide 255",
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    },
+    "batch_size": 32,
+    "device": "CPU",
+    "threads": 1,
+    "seed": 20261019,
+    "images": 8148,
+    "elapsed_seconds": 57.33442759513855,
+    "limitation": "ImageNet classification backbone, not DINOv2. Whole-frame warp differs from official center-crop evaluation. Similarity is candidate evidence, not proof of event identity or leakage.",
+    "faiss_used": false,
+    "retrieval": "exact cross-split normalized inner product in bounded NumPy batches; no within-train all-pairs",
+    "source_inventory_sha256": "c88924426077933d3e1e4fafbed80623ec9853cf8cdc929226548e53898b6111",
+    "source_files_written": false
+  },
+  "gray_cache": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/gray128x72.npz",
+  "old_candidate_count": 22391,
+  "old_high_count": 74,
+  "old_high_now_cross_formal_source_split": 0,
+  "old_temporal_candidate_rows": 4596,
+  "source_hashes": {
+    "/home/misaka/workspace/datasets/metadata.csv": "fed79f82abfd40b21e01c77e22bdbb851edb53e80b541dc9bd9adf7ceb12181c",
+    "/home/misaka/workspace/datasets/dataset.yaml": "b80d9d0d7e2468ab53b37ecc50cc16c2582137abbf38d89a87f8c55b45c88c91",
+    "/home/misaka/workspace/datasets/SPLIT_POLICY.md": "cb162ede44ef7d1fbbe7575a4f61ed9b02962b34b97fee274bcc3f1f60688272",
+    "/home/misaka/workspace/datasets/excluded/manifest.json": "068a5b00a7364af57dc87ee821ba4be52b7d6128969f2d624d3980fa455562b3",
+    "/home/misaka/workspace/datasets/excluded/metadata.csv": "db3f3fecd6c8cf157584d230a0a8f2e40c03e847096abe49022f885708cb7264",
+    "/home/misaka/workspace/datasets/excluded/README.md": "9416a4f76c5922fd33e66687c61cb0200f14f6595001864561daca73da546f4a"
+  },
+  "counts": {
+    "104748": {
+      "all": 1176,
+      "usable": 1154,
+      "excluded": 22
+    },
+    "legacy": {
+      "all": 714,
+      "usable": 713,
+      "excluded": 1
+    },
+    "181326": {
+      "all": 70,
+      "usable": 69,
+      "excluded": 1
+    },
+    "181531": {
+      "all": 6438,
+      "usable": 6212,
+      "excluded": 226
+    }
+  },
+  "seed": 20261019,
+  "prepared_at_utc": "2026-10-19T06:49:03.860812+00:00"
+}

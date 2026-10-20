@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-19T16:02:26.972735+08:00",
+  "phase": 1,
+  "checks": {
+    "required_deliverables_present": true,
+    "groups_unique": true,
+    "all_original_file_bytes_classified_once": true,
+    "all_inventory_groups_registered": true,
+    "move_plan_is_explicitly_empty": true,
+    "cleanup_candidates_unapproved_unexecuted": true,
+    "cleanup_no_formal_data_weights_git_or_transaction_backups": true,
+    "cleanup_sha_and_size_match_input": true,
+    "archive_only_future_with_source_preserved": true,
+    "equivalents_count_and_identity_preserved": true,
+    "original_weight_identity": true,
+    "formal_data_protected": true,
+    "existing_archive_full_stream_and_sample_restore_pass": true,
+    "peer_review_processing_and_archive_completed": true
+  },
+  "stage2_authorized_scope": "new documents/indexes/schema/catalog and one generic experiment record template only; exclusive create; never mutate pre-existing inputs",
+  "classification_groups": 111,
+  "cleanup_candidates": 131,
+  "move_operations": 0,
+  "archive_proposals": 7,
+  "existing_files_moved_or_deleted_by_this_task": 0
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "group": 1,
+    "index": 43,
+    "filename": "video_4bec9c343db72928_frame_00005175_right.png",
+    "before_count": 1,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "assessment": "球体身份与可见边界可定位；接受为待用户审核候选，不清除审核标志"
+  },
+  {
+    "group": 1,
+    "index": 68,
+    "filename": "video_4bec9c343db72928_frame_00005277_left.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "assessment": "球体身份与可见边界可定位；接受为待用户审核候选，不清除审核标志"
+  },
+  {
+    "group": 1,
+    "index": 69,
+    "filename": "video_4bec9c343db72928_frame_00005277_right.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "assessment": "球体身份与可见边界可定位；接受为待用户审核候选，不清除审核标志"
+  },
+  {
+    "group": 1,
+    "index": 70,
+    "filename": "video_4bec9c343db72928_frame_00005284_left.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "assessment": "球体身份与可见边界可定位；接受为待用户审核候选，不清除审核标志"
+  },
+  {
+    "group": 1,
+    "index": 71,
+    "filename": "video_4bec9c343db72928_frame_00005284_right.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "assessment": "球体身份与可见边界可定位；接受为待用户审核候选，不清除审核标志"
+  },
+  {
+    "group": 1,
+    "index": 94,
+    "filename": "video_4bec9c343db72928_frame_00005373_left.png",
+    "before_count": 1,
+    "after_count": 2,
+    "native_comparison_reviewed_by_root": true,
+    "assessment": "球体身份与可见边界可定位；接受为待用户审核候选，不清除审核标志"
+  },
+  {
+    "group": 1,
+    "index": 95,
+    "filename": "video_4bec9c343db72928_frame_00005373_right.png",
+    "before_count": 1,
+    "after_count": 2,
+    "native_comparison_reviewed_by_root": true,
+    "assessment": "球体身份与可见边界可定位；接受为待用户审核候选，不清除审核标志"
+  },
+  {
+    "group": 2,
+    "index": 277,
+    "filename": "video_4bec9c343db72928_frame_00006054_right.png",
+    "before_count": 2,
+    "after_count": 2,
+    "native_comparison_reviewed_by_root": true,
+    "assessment": "球体身份与可见边界可定位；接受为待用户审核候选，不清除审核标志"
+  },
+  {
+    "group": 3,
+    "index": 574,
+    "filename": "video_4bec9c343db72928_frame_00007171_left.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "assessment": "球体身份与可见边界可定位；接受为待用户审核候选，不清除审核标志"
+  },
+  {
+    "group": 3,
+    "index": 575,
+    "filename": "video_4bec9c343db72928_frame_00007171_right.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "assessment": "球体身份与可见边界可定位；接受为待用户审核候选，不清除审核标志"
+  },
+  {
+    "group": 4,
+    "index": 850,
+    "filename": "video_4bec9c343db72928_frame_00008254_left.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": false,
+    "independent_reviewer": "batch004_recovery",
+    "assessment": "可辨足球，边界接受为待用户复查候选；保留审核标志和场景疑点"
+  },
+  {
+    "group": 4,
+    "index": 915,
+    "filename": "video_4bec9c343db72928_frame_00008490_right.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "independent_reviewer": "root",
+    "assessment": "可辨足球，边界接受为待用户复查候选；保留审核标志和场景疑点"
+  },
+  {
+    "group": 4,
+    "index": 947,
+    "filename": "video_4bec9c343db72928_frame_00008611_right.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "independent_reviewer": "root",
+    "assessment": "可辨足球，边界接受为待用户复查候选；保留审核标志和场景疑点"
+  },
+  {
+    "group": 4,
+    "index": 952,
+    "filename": "video_4bec9c343db72928_frame_00008633_left.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "independent_reviewer": "root",
+    "assessment": "可辨足球，边界接受为待用户复查候选；保留审核标志和场景疑点"
+  },
+  {
+    "group": 4,
+    "index": 953,
+    "filename": "video_4bec9c343db72928_frame_00008633_right.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "independent_reviewer": "root",
+    "assessment": "可辨足球，边界接受为待用户复查候选；保留审核标志和场景疑点"
+  },
+  {
+    "group": 4,
+    "index": 958,
+    "filename": "video_4bec9c343db72928_frame_00008662_left.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "independent_reviewer": "root",
+    "assessment": "可辨足球，边界接受为待用户复查候选；保留审核标志和场景疑点"
+  },
+  {
+    "group": 4,
+    "index": 959,
+    "filename": "video_4bec9c343db72928_frame_00008662_right.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "independent_reviewer": "root",
+    "assessment": "可辨足球，边界接受为待用户复查候选；保留审核标志和场景疑点"
+  },
+  {
+    "group": 4,
+    "index": 960,
+    "filename": "video_4bec9c343db72928_frame_00008664_left.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "independent_reviewer": "root",
+    "assessment": "可辨足球，边界接受为待用户复查候选；保留审核标志和场景疑点"
+  },
+  {
+    "group": 4,
+    "index": 961,
+    "filename": "video_4bec9c343db72928_frame_00008664_right.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "independent_reviewer": "root",
+    "assessment": "可辨足球，边界接受为待用户复查候选；保留审核标志和场景疑点"
+  },
+  {
+    "group": 4,
+    "index": 984,
+    "filename": "video_4bec9c343db72928_frame_00008753_left.png",
+    "before_count": 0,
+    "after_count": 1,
+    "native_comparison_reviewed_by_root": true,
+    "independent_reviewer": "root",
+    "assessment": "可辨足球，边界接受为待用户复查候选；保留审核标志和场景疑点"
+  }
+]

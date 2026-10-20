@@ -1,0 +1,20 @@
+{
+  "accepted": 265,
+  "skipped": 9,
+  "four_tags_latest_values_preserved": true,
+  "human_and_unknown_columns_preserved": true,
+  "changed_labels_pending": true,
+  "original_note_and_sha_preserved": true,
+  "scene_review_required_for_conflicts": {
+    "No Ball=0 with empty label": 53,
+    "No Ball=1 with nonempty boxes": 2
+  },
+  "accepted_original_statuses": {
+    "reviewed_annotation": 1,
+    "auto_label_needs_review": 164,
+    "needs_manual_bbox_annotation": 53,
+    "needs_visibility_review": 45,
+    "negative_confirmed": 2
+  },
+  "production_touched": false
+}

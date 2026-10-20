@@ -1,0 +1,8 @@
+{
+  "actually_opened_pages": [
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/approved-group3-00.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/approved-group3-01.png"
+  ],
+  "reviewed_entries": 12,
+  "findings": "通过候选分层复核6正/6负：正球框四边贴合，手脚接近不等同遮挡。n561原生底边白块为地面矩形标记，非足球弧面，可确认无球；n8全景足球不在画面内；n184/n263明显全景模糊无可见球；n220/n1394玩偶/人脚/机器人部件非足球。"
+}

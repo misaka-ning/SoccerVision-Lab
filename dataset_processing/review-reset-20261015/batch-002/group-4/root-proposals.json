@@ -1,0 +1,3824 @@
+[
+  {
+    "filename": "legacy_train_009869_L.jpg",
+    "index": 750,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一近处完整蓝白足球，鞋在上方或旁边无前景覆盖；球面清晰，低像素软化不计模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-000.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-000.png"
+    ],
+    "expected_label_sha256": "456ed3967a677a34583e4e8e67f630eed4f2695f9d2ce43de9a97a25802d3e0e",
+    "expected_image_sha256": "2e458b708b9bfe5b60184ffac8447ac0eaae08155eb3afe7e6127d4ec46c1ef1"
+  },
+  {
+    "filename": "legacy_train_009870_L.jpg",
+    "index": 751,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一近处完整蓝白足球，鞋在上方或旁边无前景覆盖；球面清晰，低像素软化不计模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-000.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-000.png"
+    ],
+    "expected_label_sha256": "ac465a4575cd5fb9a921a732782b7454fac7092b8ff30497923714d9303f4cb1",
+    "expected_image_sha256": "c7e92b826b46f1e2566daf467a39851a2c92918edb9d4f745a4f0e0d12c742bc"
+  },
+  {
+    "filename": "legacy_train_009872_L.jpg",
+    "index": 752,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一近处完整蓝白足球，鞋在上方或旁边无前景覆盖；球面清晰，低像素软化不计模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-001.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-000.png"
+    ],
+    "expected_label_sha256": "4dc09ad847752e198e841bca46d272311a7de4ee016570248c4b886d56dfc8da",
+    "expected_image_sha256": "4b6f0d97776e79f71b4d4bc393291fc1a9e6b60b8716009e3a0e9ca8f334a937"
+  },
+  {
+    "filename": "legacy_train_009873_L.jpg",
+    "index": 753,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一近处完整蓝白足球，鞋在上方或旁边无前景覆盖；球面清晰，低像素软化不计模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-001.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-000.png"
+    ],
+    "expected_label_sha256": "a679ff12477bba59bb422420f7872a885457dcab2475de2dc8ace1bdcdd29a32",
+    "expected_image_sha256": "a9a60c8819dcf190470f7f45ccfbc9b5f7478d49b6e3a91255f601a1dd9e76e1"
+  },
+  {
+    "filename": "legacy_train_009874_L.jpg",
+    "index": 754,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一近处完整蓝白足球，鞋在上方或旁边无前景覆盖；球面清晰，低像素软化不计模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-002.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-000.png"
+    ],
+    "expected_label_sha256": "a56a93607578431ae3e903088fe09ef45842592d1835d1cee3b8eba48fe4e405",
+    "expected_image_sha256": "aad0976abe35953da87a33fd22d405f287a00a5d59245ade9bc9839e54289b13"
+  },
+  {
+    "filename": "legacy_train_009875_L.jpg",
+    "index": 755,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一近处完整蓝白足球，鞋在上方或旁边无前景覆盖；球面清晰，低像素软化不计模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-002.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-000.png"
+    ],
+    "expected_label_sha256": "ccee9eaf67d242f775e497bb7f398951aa8a13d134a653a9d9dd0fdc3475acf8",
+    "expected_image_sha256": "8075924a362d08dbbab79ed7987eb9ec9fe2bea3abfd903fcfde1e8c9fd04199"
+  },
+  {
+    "filename": "legacy_train_009876_L.jpg",
+    "index": 756,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一近处完整蓝白足球，鞋在上方或旁边无前景覆盖；球面清晰，低像素软化不计模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-003.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-000.png"
+    ],
+    "expected_label_sha256": "17c15a343a89e62429ee1b0242ec987563014c46b6b43eb9c28e06d0a05c5b63",
+    "expected_image_sha256": "bb400daff83ac7751c82b3e039e4940e8a451dddfaa64fecd1abd5ded07c73c1"
+  },
+  {
+    "filename": "legacy_train_009877_L.jpg",
+    "index": 757,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一近处完整蓝白足球，鞋在上方或旁边无前景覆盖；球面清晰，低像素软化不计模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-003.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-000.png"
+    ],
+    "expected_label_sha256": "fca6d0fa4e1ecaa363a1cb27ab7c022d5ff92735460170d77acd37ef3f82c81f",
+    "expected_image_sha256": "65978c161dd708337c81bb308b6d2eac96d91ca7750406f5369efb78568ee8aa"
+  },
+  {
+    "filename": "legacy_train_009886_L.jpg",
+    "index": 758,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景鞋底压住并盖住球上半部，真实足球仍可见，底边裁切不单独算遮挡，保留可见球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-004.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-001.png"
+    ],
+    "expected_label_sha256": "ff5579fb521e5b0796f87176ee8774e7bc18e9217b1d178e30d648959e71f550",
+    "expected_image_sha256": "d960c5a1e7435f5da862756a5553152e3fe8ca90a9fb861ff664910691fa9aff"
+  },
+  {
+    "filename": "legacy_train_009904_L.jpg",
+    "index": 759,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景鞋底压住并盖住球上半部，真实足球仍可见，底边裁切不单独算遮挡，保留可见球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-004.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-001.png"
+    ],
+    "expected_label_sha256": "e243095249e011aa59e9eeaf24e226740b9afb5e066551c07caa47ecc7531ab1",
+    "expected_image_sha256": "a7626e85c763b9dfd1f36eb3946719a44887eee4cb616b7d4e3220e7b1931f68"
+  },
+  {
+    "filename": "legacy_train_009906_L.jpg",
+    "index": 760,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景鞋底压住并盖住球上半部，真实足球仍可见，底边裁切不单独算遮挡，保留可见球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-005.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-001.png"
+    ],
+    "expected_label_sha256": "a4cf4cf686260fd775c87a0770b13d33f078fb413b904a1413c4e33235bd5819",
+    "expected_image_sha256": "1a3ad4c5465aeb0cea8c4412667e51e7ae8a93bdd26b92108345954f8f7ad141"
+  },
+  {
+    "filename": "legacy_train_009908_L.jpg",
+    "index": 761,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景鞋底压住并盖住球上半部，真实足球仍可见，底边裁切不单独算遮挡，保留可见球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-005.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-001.png"
+    ],
+    "expected_label_sha256": "0dad6ba43a25b47cc3a18520c3f155bb59c4a8fd5776969bdfd57ca130b16a4c",
+    "expected_image_sha256": "df840cd6612f88869c76c5a803e4792ab4666c050948eed5a180c9e05e2f28ca"
+  },
+  {
+    "filename": "legacy_train_009910_L.jpg",
+    "index": 762,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景鞋底压住并盖住球上半部，真实足球仍可见，底边裁切不单独算遮挡，保留可见球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-006.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-001.png"
+    ],
+    "expected_label_sha256": "0307048300a3d0b7dfaecdbc275ff11e4368f6e57f48a2764d19918671011d2c",
+    "expected_image_sha256": "cb7a34dac35d038ec1e2f41387c18f124e2f2cc03b7c512ab6b1bd5c24cb82cd"
+  },
+  {
+    "filename": "legacy_train_009913_L.jpg",
+    "index": 763,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景鞋底压住并盖住球上半部，真实足球仍可见，底边裁切不单独算遮挡，保留可见球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-006.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-001.png"
+    ],
+    "expected_label_sha256": "e352939dd7cb8f5861210b3dc0559c8df943ef0e9ee2c78774bbd40a9eebcfee",
+    "expected_image_sha256": "1a7720fc61ab3a5c94fdb42c6359ab11a034ffefa0f5f2a2dbae4b61a3a70a8b"
+  },
+  {
+    "filename": "legacy_train_009915_L.jpg",
+    "index": 764,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "球完整、鞋在上方接近球顶；是否轻微前景重叠须用户复查，暂不把接触算遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-007.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-001.png"
+    ],
+    "expected_label_sha256": "9c5b34af1d74cc6205025d1d16151ce5155e8d596908347cde30dec5c231b2c1",
+    "expected_image_sha256": "3b377a4c02b6c96ad2a39a002cdce839cd1792c08c799705fc0a4b2cd4161b0f"
+  },
+  {
+    "filename": "legacy_train_009922_L.jpg",
+    "index": 765,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "球完整、鞋在上方接近球顶；是否轻微前景重叠须用户复查，暂不把接触算遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-007.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-001.png"
+    ],
+    "expected_label_sha256": "0e754bbc39a808f0eb9b07c502eda882c4eba6788d009fb1026242ca671a9a48",
+    "expected_image_sha256": "405fc819eb1201f879b3b3e38c07695b504c82f9258ca906061cfaeb7fcf3d7e"
+  },
+  {
+    "filename": "legacy_train_009923_L.jpg",
+    "index": 766,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "球完整、鞋在上方接近球顶；是否轻微前景重叠须用户复查，暂不把接触算遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-008.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-002.png"
+    ],
+    "expected_label_sha256": "395ab2c143884a76f93c11e33b60ec2363ba2380da981297f6826cce6f114939",
+    "expected_image_sha256": "cab8193354da41309fc8b292e3d08bf61f3e8835ac1ae286bbc5e75d73732487"
+  },
+  {
+    "filename": "legacy_train_009924_L.jpg",
+    "index": 767,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "球完整、鞋在上方接近球顶；是否轻微前景重叠须用户复查，暂不把接触算遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-008.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-002.png"
+    ],
+    "expected_label_sha256": "1d8cdc772e219a782041bb6e8399350da6d23d6f993823502763a7f8742fb9c7",
+    "expected_image_sha256": "38ac83572327c02c28685478ec1352b3d26bfc440bdfdbd43826e0e6cb473cc4"
+  },
+  {
+    "filename": "legacy_train_009926_L.jpg",
+    "index": 768,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球在鞋旁滚动出现明显纵向拖影，仍是唯一完整球，尺寸大于Small阈值；脚位于后方/旁边，无可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-009.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-002.png"
+    ],
+    "expected_label_sha256": "2944e07a91fd27d8612dc3c09cfaa39c777d97de3c5136a3442077893e0f1297",
+    "expected_image_sha256": "abd59df577534d8dd365248966d4cb61f163b4ec321f71cae84d3b364f418b77"
+  },
+  {
+    "filename": "legacy_train_009928_L.jpg",
+    "index": 769,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球在鞋旁滚动出现明显纵向拖影，仍是唯一完整球，尺寸大于Small阈值；脚位于后方/旁边，无可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-009.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-002.png"
+    ],
+    "expected_label_sha256": "da3dcfe0397eb893c9e7e4e446b4994a2b2915cce3dd1997c58fec6cb1513303",
+    "expected_image_sha256": "cc2726fd599b590f5dbd7ba702d3634bb526cadea822dbc473dfc0455eef3eb1"
+  },
+  {
+    "filename": "legacy_train_009929_L.jpg",
+    "index": 770,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球在鞋旁滚动出现明显纵向拖影，仍是唯一完整球，尺寸大于Small阈值；脚位于后方/旁边，无可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-010.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-002.png"
+    ],
+    "expected_label_sha256": "139ddca3d2c364ff498da4fd514963634b66b22fcdda1952ffc54e422b6beb25",
+    "expected_image_sha256": "7773587b3880fbf73ea63484802ba9dfa3d4747b261d30e786decdeb7ca64f6d"
+  },
+  {
+    "filename": "legacy_train_009930_L.jpg",
+    "index": 771,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球在鞋旁滚动出现明显纵向拖影，仍是唯一完整球，尺寸大于Small阈值；脚位于后方/旁边，无可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-010.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-002.png"
+    ],
+    "expected_label_sha256": "833d4d27c31a52ad6200da2784bf665b32efa7cce86f3ab85b352cd68c675963",
+    "expected_image_sha256": "eff5fff49e6bc641825cc5d1f218e76cbb03ac6b2009e1a0cf86867030a96d2e"
+  },
+  {
+    "filename": "legacy_train_009932_L.jpg",
+    "index": 772,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球在鞋旁滚动出现明显纵向拖影，仍是唯一完整球，尺寸大于Small阈值；脚位于后方/旁边，无可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-011.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-002.png"
+    ],
+    "expected_label_sha256": "cdcb223dba1b1b5b01ea64156c6e02413804a9af4ce6818be615f910a8d8a1c4",
+    "expected_image_sha256": "bbc79e14aac0ca4d6e2a6642ea418e00404dfc53c308fd87aafe78eadc99a5ea"
+  },
+  {
+    "filename": "legacy_train_009933_L.jpg",
+    "index": 773,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球在鞋旁滚动出现明显纵向拖影，仍是唯一完整球，尺寸大于Small阈值；脚位于后方/旁边，无可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-011.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-002.png"
+    ],
+    "expected_label_sha256": "c32c93723847c97d4b23970a4a19265a8b2ae15074f4cbda5d2cacc582c4a2f3",
+    "expected_image_sha256": "f9d5111e14592e4e0792207e82b602e40df7800036d5dbcec13382ad8f404554"
+  },
+  {
+    "filename": "legacy_train_009934_L.jpg",
+    "index": 774,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球在鞋旁滚动出现明显纵向拖影，仍是唯一完整球，尺寸大于Small阈值；脚位于后方/旁边，无可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-012.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-003.png"
+    ],
+    "expected_label_sha256": "0b37e3bf2c966333f9d5854394f651183af81cda7d2fc4fbe62f62f4d34ec8cc",
+    "expected_image_sha256": "d71737cea5785c4c336df32e2f248522460d9cf494ab1a4e585ba67718496115"
+  },
+  {
+    "filename": "legacy_train_009935_L.jpg",
+    "index": 775,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球在鞋旁滚动出现明显纵向拖影，仍是唯一完整球，尺寸大于Small阈值；脚位于后方/旁边，无可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-012.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-003.png"
+    ],
+    "expected_label_sha256": "118e9d769e1e0db50d5022270e02b69de31f42470796fb431fa0b3cdbed41fc0",
+    "expected_image_sha256": "b8e04eae2c80f51b2467aa7a2548c3470eaaeca78f9f63fbb0a8a5b4af84d58d"
+  },
+  {
+    "filename": "legacy_train_009936_L.jpg",
+    "index": 776,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球在鞋旁滚动出现明显纵向拖影，仍是唯一完整球，尺寸大于Small阈值；脚位于后方/旁边，无可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-013.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-003.png"
+    ],
+    "expected_label_sha256": "b9d4fb55814d0069f3b1654b036dd6a9d0cff08fd06bf7e7e00f7d1a9225977a",
+    "expected_image_sha256": "7604ff61043515c0c487801ce1f097d2c7190ddf586c014a4ed67d68eb51ccad"
+  },
+  {
+    "filename": "legacy_train_009937_L.jpg",
+    "index": 777,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球在鞋旁滚动出现明显纵向拖影，仍是唯一完整球，尺寸大于Small阈值；脚位于后方/旁边，无可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-013.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-003.png"
+    ],
+    "expected_label_sha256": "fab742ff7e7a804d36b4169dcbbf3a2e022314f216602291b6a7a7c7b889d6c7",
+    "expected_image_sha256": "434a187e8f6466968135cbc96dc364cb6961fa19a323e476c426d8cb3b49cb9d"
+  },
+  {
+    "filename": "legacy_train_009938_L.jpg",
+    "index": 778,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-014.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-003.png"
+    ],
+    "expected_label_sha256": "4a152cebf209713f94af04ee3ce6296b5c5dc96d9ec9aa24061c6b23c4e37162",
+    "expected_image_sha256": "bc09bf0e72e68e7df2920bc40ab562704c951b333be77d331de51d5c8ee3b2da"
+  },
+  {
+    "filename": "legacy_train_009939_L.jpg",
+    "index": 779,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-014.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-003.png"
+    ],
+    "expected_label_sha256": "711f041190c1bcc902c6d45a580c3545d2c5f0626356894939a63a166c1b9344",
+    "expected_image_sha256": "2bee7403f1df9f6d57768ab058dcfa29c995ec73d5ea059aa97a5fd69f548229"
+  },
+  {
+    "filename": "legacy_train_009940_L.jpg",
+    "index": 780,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-015.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-003.png"
+    ],
+    "expected_label_sha256": "5294843441648e9e2249b304ef4dcae43cdf581a26ea275866d83f48159e2be9",
+    "expected_image_sha256": "e1bd00955ab312365f5f6b997cc29dde9db047dcc6c227a2662b29fda3a5a758"
+  },
+  {
+    "filename": "legacy_train_009942_L.jpg",
+    "index": 781,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-015.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-003.png"
+    ],
+    "expected_label_sha256": "d386f537e304ee0a09b3a6293c76f680eed49b24431a0982237fd87591ef5aa1",
+    "expected_image_sha256": "05fc0e518725364b1c905ca58f7e29f120a0797a6359b583c5c03af71bc86fc6"
+  },
+  {
+    "filename": "legacy_train_009943_L.jpg",
+    "index": 782,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-016.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-004.png"
+    ],
+    "expected_label_sha256": "aff5132982bfcd9e7b3074e48391a0d1902ddcfd6b6129d2a5a511a1e3214693",
+    "expected_image_sha256": "a0539a4a2024cfc2b914544be2effac1424d287052c8b09776e416f3b43f0cea"
+  },
+  {
+    "filename": "legacy_train_009944_L.jpg",
+    "index": 783,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-016.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-004.png"
+    ],
+    "expected_label_sha256": "28c237e83d8b3f285a96e06d93aa676f9d255c1ffe30a9667309f999981aa611",
+    "expected_image_sha256": "e13b0c461e666fd41443ebe598c91b79b2932b1cf44af92efc7684655e7b7345"
+  },
+  {
+    "filename": "legacy_train_009945_L.jpg",
+    "index": 784,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-017.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-004.png"
+    ],
+    "expected_label_sha256": "f1f07b04d7a34dc595f3985e5d9a04e5d3f2ef6f76c1ffcb679906db033da48d",
+    "expected_image_sha256": "d995fbc66c0baa3a1a296c5e9728af3f50ea81556e6e69169ef4b60ade4f9131"
+  },
+  {
+    "filename": "legacy_train_009946_L.jpg",
+    "index": 785,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-017.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-004.png"
+    ],
+    "expected_label_sha256": "96d428ffed5bfbedf76581f7d9d4c47fdc599f8571f9ceaa3e291b554ba97b74",
+    "expected_image_sha256": "6b665d1b6c22a0b6a61336427087f0008449cd343c27f70f531a8678acf5fc03"
+  },
+  {
+    "filename": "legacy_train_009947_L.jpg",
+    "index": 786,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-018.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-004.png"
+    ],
+    "expected_label_sha256": "0874086b6b97a1e6fe3f26570760ae667daf412c2c9b32794ebc9337ab7594bd",
+    "expected_image_sha256": "ebe40e53ba7b1ed22f0bfee203127245848dcb177a40c08dd6035e56d8a8dc67"
+  },
+  {
+    "filename": "legacy_train_009948_L.jpg",
+    "index": 787,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-018.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-004.png"
+    ],
+    "expected_label_sha256": "0d35dcfdaf0563eb452a1da494b7f90fb125f772b397d2e9663ef20789de4ced",
+    "expected_image_sha256": "4e61bb1fe9a32e286d5bd448b0966af6dfffe4409ed5cc4e952b5d5c0d534346"
+  },
+  {
+    "filename": "legacy_train_009949_L.jpg",
+    "index": 788,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-019.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-004.png"
+    ],
+    "expected_label_sha256": "a189e04ac227a2d8b7c2c6ca50cac355e44b7272acc9a85883a708959d4d00f5",
+    "expected_image_sha256": "d3de18cf167e1abd0cc017a09f32efe4321f31921d6de68c7affe3ff0e7f0335"
+  },
+  {
+    "filename": "legacy_train_009950_L.jpg",
+    "index": 789,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "球右下缘与前景鞋尖重叠，可见球面被局部盖住；接触前后关系需用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-019.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-004.png"
+    ],
+    "expected_label_sha256": "ce3b01f6ec7a43f52276fa32e2b22dc940f07d2a64007c79c02b0b068bb04770",
+    "expected_image_sha256": "1279a685d4ba507216ca29b54df1e9e9fdac4218d016e1eff7fbad9749627335"
+  },
+  {
+    "filename": "legacy_train_009952_L.jpg",
+    "index": 790,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-020.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-005.png"
+    ],
+    "expected_label_sha256": "db1c7db84dad3c68e2b39187e1bfed09ee4b3967eb058357405baabf964119d5",
+    "expected_image_sha256": "d4252481466bc356d4c8575939151f47b3ea616b0b2c403e775febdf76dd15fb"
+  },
+  {
+    "filename": "legacy_train_009953_L.jpg",
+    "index": 791,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-020.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-005.png"
+    ],
+    "expected_label_sha256": "269db12a4e376a9e8dc4fd7389e8cf23efeb1315024efb031af76173793412e3",
+    "expected_image_sha256": "12ead9a29450a04cd5d3b80b8b614af6deb4c68e34cf0669fbb610d888a04fa7"
+  },
+  {
+    "filename": "legacy_train_009954_L.jpg",
+    "index": 792,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-021.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-005.png"
+    ],
+    "expected_label_sha256": "36d4e3672af5c94415eaad4f17c25685b04e7f0695138c708b3cf4c4a12ce462",
+    "expected_image_sha256": "e4cc878ea6f4c565ec937ef5168eeed146fb652fc5278e02778024aa7b0e3ab6"
+  },
+  {
+    "filename": "legacy_train_009955_L.jpg",
+    "index": 793,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "唯一完整足球约43–49px，仍大于Small阈值；鞋多数位于后上方，接触处/轻软边待用户核对，低像素软化不直接计运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-021.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-005.png"
+    ],
+    "expected_label_sha256": "d0aff9ed2611cc410d71c48206001fa207edc0f3f130e77d935712a0a906bf46",
+    "expected_image_sha256": "4701e3a601c90fc29f2d12390475a0fc5a56a356631848be6e7dec27c0c100df"
+  },
+  {
+    "filename": "legacy_train_009956_L.jpg",
+    "index": 794,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整单球约43–50px，鞋在后方，少量接触/边缘软化待用户核对；未见可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-022.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-005.png"
+    ],
+    "expected_label_sha256": "dd7a3e0a7af6d5d324051a0eed87bd1176469713524a0b6e8a92801c8599611a",
+    "expected_image_sha256": "7b1dad82684afcecd47e6ff6937a261082848048e01e8dfaa3b0ae93397401b0"
+  },
+  {
+    "filename": "legacy_train_009957_L.jpg",
+    "index": 795,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整单球约43–50px，鞋在后方，少量接触/边缘软化待用户核对；未见可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-022.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-005.png"
+    ],
+    "expected_label_sha256": "da00e7f8048114a974e9ab7405d63a66691910af732efb2d8578193234500b29",
+    "expected_image_sha256": "4f1f10ca1640511db31d65eff8b5381a02f0ffd7f904321bd90a6030af1a0628"
+  },
+  {
+    "filename": "legacy_train_009958_L.jpg",
+    "index": 796,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整单球约43–50px，鞋在后方，少量接触/边缘软化待用户核对；未见可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-023.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-005.png"
+    ],
+    "expected_label_sha256": "d1ce7413e08a1f6262f7e4206f8c34757400cbd479314cd2c958fd0dceb4c48d",
+    "expected_image_sha256": "94dde8e4516a1218a438eaac7a36fdef40d56644d6456a23f05943f35d535059"
+  },
+  {
+    "filename": "legacy_train_009960_L.jpg",
+    "index": 797,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整单球约43–50px，鞋在后方，少量接触/边缘软化待用户核对；未见可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-023.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-005.png"
+    ],
+    "expected_label_sha256": "5bbddc650d659dfbf3fa8a76bc48913a8d781f884d2fdabdbdb3eb0263e62ad8",
+    "expected_image_sha256": "8d4d3a54548d983dc09ae9a1ba5c89643d1ed56fc3d9b1f9463eec6975b64b30"
+  },
+  {
+    "filename": "legacy_train_009964_L.jpg",
+    "index": 798,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整单球约43–50px，鞋在后方，少量接触/边缘软化待用户核对；未见可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-024.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-006.png"
+    ],
+    "expected_label_sha256": "d9bc4b36875a72ff349bc2ac777e979b712ab458fa993d86d9c9106dee8cac71",
+    "expected_image_sha256": "d58deaba9d4ce5ff8f976aef7d26839708027fc507970453c44fd82c9bfabf6e"
+  },
+  {
+    "filename": "legacy_train_009966_L.jpg",
+    "index": 799,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整单球约43–50px，鞋在后方，少量接触/边缘软化待用户核对；未见可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-024.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-006.png"
+    ],
+    "expected_label_sha256": "6f53843448d3a8ae54731f9e88b81c1ca5b0a865a2f1af5d48acdc02c864da98",
+    "expected_image_sha256": "a3a50390942638822274383188c5e66c8f2ff6d4ade65dd28c7f1e72cdaef281"
+  },
+  {
+    "filename": "legacy_train_009970_L.jpg",
+    "index": 800,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整单球约43–50px，鞋在后方，少量接触/边缘软化待用户核对；未见可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-025.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-006.png"
+    ],
+    "expected_label_sha256": "160cd7aa0a905c76357200dd1b65241437c50aa9a996bdb1958ab0a48feac77f",
+    "expected_image_sha256": "372428b14ec9b9244aa1841f43030c319b08816b3210c1c48d37b39a2a7db74d"
+  },
+  {
+    "filename": "legacy_train_009973_L.jpg",
+    "index": 801,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一球约42–50px，球与全景有清楚方向性拖影，前景无明确遮挡；soft边界保留候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-025.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-006.png"
+    ],
+    "expected_label_sha256": "8b54fa070eda2b32ab5b3493a66348a0bc6a3a012d0e01f256d757c852f6ef18",
+    "expected_image_sha256": "70e996abca0225eb74ce0e5129a243d880b7e0f5b3f4474cacdac4375f118b58"
+  },
+  {
+    "filename": "legacy_train_009975_L.jpg",
+    "index": 802,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一球约42–50px，球与全景有清楚方向性拖影，前景无明确遮挡；soft边界保留候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-026.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-006.png"
+    ],
+    "expected_label_sha256": "122438852ef18dbc6e50aa3d153772f6b4bf472697e776a4f02ddfedbf23551a",
+    "expected_image_sha256": "a9ece1344fb25e942c89dc825571fee83ea3f2a63f298580a9be8a34e9c33a6e"
+  },
+  {
+    "filename": "legacy_train_009977_L.jpg",
+    "index": 803,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整单球约43–50px，鞋在后方，少量接触/边缘软化待用户核对；未见可靠前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-026.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-006.png"
+    ],
+    "expected_label_sha256": "f965e14aafe803cfa5de0d9a006511affde5f14acbab538c43ccfc9e8e9fac66",
+    "expected_image_sha256": "e37359a0e3f39df6964cc2bba98397e3a9559461eb333846fa29be84ebf7a434"
+  },
+  {
+    "filename": "legacy_train_009982_L.jpg",
+    "index": 804,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一球约42–50px，球与全景有清楚方向性拖影，前景无明确遮挡；soft边界保留候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-027.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-006.png"
+    ],
+    "expected_label_sha256": "666b8c280f3cc99dae958848512605ed8bf24a6fec0c313ed25514e60cab43a1",
+    "expected_image_sha256": "fa7879e094fab74c023268421975133573f0953fd2c0e8653fbd8d92d4ded2d7"
+  },
+  {
+    "filename": "legacy_train_009983_L.jpg",
+    "index": 805,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一球约42–50px，球与全景有清楚方向性拖影，前景无明确遮挡；soft边界保留候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-027.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-006.png"
+    ],
+    "expected_label_sha256": "8276d59c77559443c95bb20489562294046da2b2755f925ec2ded9d71890ecd6",
+    "expected_image_sha256": "fcbf98a510b8119da59757dfea3ac182c4166f0f4b122093413f3eb9847757dc"
+  },
+  {
+    "filename": "legacy_train_009984_L.jpg",
+    "index": 806,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一球约42–50px，球与全景有清楚方向性拖影，前景无明确遮挡；soft边界保留候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-028.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-007.png"
+    ],
+    "expected_label_sha256": "51f38c05c3898e464bafd9a97ec2199ec5aee585990c562f62820432df426151",
+    "expected_image_sha256": "2fd430f9843b91170da15f1842c33408cda54bb647ad099fecdc36dcd5710843"
+  },
+  {
+    "filename": "legacy_train_009987_L.jpg",
+    "index": 807,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一球约42–50px，球与全景有清楚方向性拖影，前景无明确遮挡；soft边界保留候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-028.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-007.png"
+    ],
+    "expected_label_sha256": "38a1c4be770011c835987d8b139733e7c5b60ca3bb876a194ae1be99aea05e14",
+    "expected_image_sha256": "4da9073b5336b858cbbedfd57cd79840904b049c3743f58dcbca12eee19a9303"
+  },
+  {
+    "filename": "legacy_train_009989_L.jpg",
+    "index": 808,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处完整球约34–40px，Small临界按小目标候选；球/全景有方向性运动拖影，邻鞋在后/旁不算遮挡，边界与接触处需复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-029.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-007.png"
+    ],
+    "expected_label_sha256": "ba34fd3afadd0b58a6c9273cc346ac7af11740cae21bfa8466e52accf65a19d7",
+    "expected_image_sha256": "227e337f6856a69ed9c20f9f630bceea7fe8571d991862907b0f3c99d15bfd12"
+  },
+  {
+    "filename": "legacy_train_009992_L.jpg",
+    "index": 809,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处完整球约34–40px，Small临界按小目标候选；球/全景有方向性运动拖影，邻鞋在后/旁不算遮挡，边界与接触处需复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-029.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-007.png"
+    ],
+    "expected_label_sha256": "e03018f2a3d389af7e0ce40706f601bdbb0ae1696727a4071820d938bc9c6bc9",
+    "expected_image_sha256": "a703875d3298f8cb6fa87c38bbffb22ac67c0ef4f2d2e54faeb9d8d0223ff380"
+  },
+  {
+    "filename": "legacy_train_009993_L.jpg",
+    "index": 810,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处完整球约34–40px，Small临界按小目标候选；球/全景有方向性运动拖影，邻鞋在后/旁不算遮挡，边界与接触处需复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-030.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-007.png"
+    ],
+    "expected_label_sha256": "62962b27d60d0420cb1b727bf65632db284ef5413340bc48e42462624a2f95d6",
+    "expected_image_sha256": "a244a32730ba22d8a6d95bfb93f998fe1cb8e9dbf041ac83113fc86d920e2786"
+  },
+  {
+    "filename": "legacy_train_009994_L.jpg",
+    "index": 811,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处完整球约34–40px，Small临界按小目标候选；球/全景有方向性运动拖影，邻鞋在后/旁不算遮挡，边界与接触处需复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-030.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-007.png"
+    ],
+    "expected_label_sha256": "01c1d9246e1f6c7790ab5eb243e375bf781d6fa04881f53d097d43b51a4e4ebc",
+    "expected_image_sha256": "fe531e9a691e5334f738a3c175e4ac1d6094bf11e4e35dd76256e5175a6b486e"
+  },
+  {
+    "filename": "legacy_train_009995_L.jpg",
+    "index": 812,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处完整球约34–40px，Small临界按小目标候选；球/全景有方向性运动拖影，邻鞋在后/旁不算遮挡，边界与接触处需复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-031.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-007.png"
+    ],
+    "expected_label_sha256": "e1bac7e0a1e857459b34b04a85bf6afc536f1ec26cce33bfc0188fbe311edeff",
+    "expected_image_sha256": "1ef12ceb4bd6cf28685f7f4208cdfda2fed5def0c16d8064bbf413a9c4a42133"
+  },
+  {
+    "filename": "legacy_train_009996_L.jpg",
+    "index": 813,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处完整球约34–40px，Small临界按小目标候选；球/全景有方向性运动拖影，邻鞋在后/旁不算遮挡，边界与接触处需复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-031.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-007.png"
+    ],
+    "expected_label_sha256": "b1d8ec3232d70a33befee036f33fc66190dd6503d83f976c44560a0b31de94b1",
+    "expected_image_sha256": "5ec2c5b3f0a3982a58ca1415359536a37df240551594ffb66f2500701cce88c2"
+  },
+  {
+    "filename": "legacy_train_009997_L.jpg",
+    "index": 814,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处完整球约34–40px，Small临界按小目标候选；球/全景有方向性运动拖影，邻鞋在后/旁不算遮挡，边界与接触处需复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-032.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-008.png"
+    ],
+    "expected_label_sha256": "a8450412f7a7bcb824f597ac4e9a800a4dfc2eba496bc64077c3b7065b8f9b80",
+    "expected_image_sha256": "9afdd674b3bcb1ffe15e42bf037ee4bfc48ab01e49825a8476b8a31875a8c83d"
+  },
+  {
+    "filename": "legacy_train_009998_L.jpg",
+    "index": 815,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处完整球约34–40px，Small临界按小目标候选；球/全景有方向性运动拖影，邻鞋在后/旁不算遮挡，边界与接触处需复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-032.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-008.png"
+    ],
+    "expected_label_sha256": "239a7ff04ed98df99395a648b4bb34f2c2b085d8ad3cc92acb8cc2b5fc787b4b",
+    "expected_image_sha256": "e40ab4a4773f2ae3ac13416b04879693db510324e5111fa2e80920c31c52fba5"
+  },
+  {
+    "filename": "legacy_val_000001.jpg",
+    "index": 816,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一完整大足球，键盘在后方，没有前景盖住球；球面反光和纹理明确，候选框包住可见球体，四角背景正常。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-033.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-008.png"
+    ],
+    "expected_label_sha256": "40bbeada2a0e9923f7e0b14b31cd17d6e4df0c36943880c8c30e089812962e66",
+    "expected_image_sha256": "f4839a9c7dad9cb1cd8f3236398b125e30d1601d5e45afd5a5fd0ea197c46e2e"
+  },
+  {
+    "filename": "legacy_val_000002.jpg",
+    "index": 817,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一完整大足球，键盘在后方，没有前景盖住球；球面反光和纹理明确，候选框包住可见球体，四角背景正常。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-033.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-008.png"
+    ],
+    "expected_label_sha256": "a8e8295f962befde8d3034451490a9ca4de9cbe80a1145550efc1b0eb8b98bc0",
+    "expected_image_sha256": "bb7dcf04f06851e111ce74320f447147763ef462f9e891db1a77ae8dbf1cbd24"
+  },
+  {
+    "filename": "legacy_val_000004.jpg",
+    "index": 818,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一完整大足球，键盘在后方，没有前景盖住球；球面反光和纹理明确，候选框包住可见球体，四角背景正常。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-034.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-008.png"
+    ],
+    "expected_label_sha256": "4757415d2e17de27b349c51c3b900dc8722ecf535859dadc70081bad60cc42d9",
+    "expected_image_sha256": "c71c53d43e12323b2a45dbf4b507f8fded20fb48e1ab52a23bfb91f676d93d9c"
+  },
+  {
+    "filename": "legacy_val_000005.jpg",
+    "index": 819,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一完整大足球，键盘在后方，没有前景盖住球；球面反光和纹理明确，候选框包住可见球体，四角背景正常。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-034.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-008.png"
+    ],
+    "expected_label_sha256": "81f316967cf6c400c8ad370c6bd42b1c2fd265999fedb6a2d8f9035d063b1a12",
+    "expected_image_sha256": "dd73a36341225af285f2428f6f5ab81e52aa40c184dbe0349c3a810b130b0010"
+  },
+  {
+    "filename": "legacy_val_000008.jpg",
+    "index": 820,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一完整大足球，键盘在后方，没有前景盖住球；球面反光和纹理明确，候选框包住可见球体，四角背景正常。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-035.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-008.png"
+    ],
+    "expected_label_sha256": "4e6f7933ba019642490c9e4af11a6c42477377db6a63ac699f46f7d52fd66494",
+    "expected_image_sha256": "f76521370f138f283ce78f0dc759be46d15ba0637ce413e3eb6a064004310ebc"
+  },
+  {
+    "filename": "legacy_val_000009.jpg",
+    "index": 821,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一完整大足球，键盘在后方，没有前景盖住球；球面反光和纹理明确，候选框包住可见球体，四角背景正常。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-035.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-008.png"
+    ],
+    "expected_label_sha256": "8f9ca1c3d09b6aa5d14c9203b05682ffcb527ef0af9475198f78d585695409c5",
+    "expected_image_sha256": "a1936f1594b1d32144a35e8795bd163ba36a83b151a1a845adfbc0ddf90981f4"
+  },
+  {
+    "filename": "legacy_val_000012.jpg",
+    "index": 822,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一完整大足球，键盘在后方，没有前景盖住球；球面反光和纹理明确，候选框包住可见球体，四角背景正常。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-036.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-009.png"
+    ],
+    "expected_label_sha256": "d1e215913fb2a7d8dbb090e41229d6269b64111afd4247cd23fb9747d5dc70d6",
+    "expected_image_sha256": "fc227abf8b75e171e5bf5cf7b630105d41d4d5b972430c17d183800050f5fcb7"
+  },
+  {
+    "filename": "legacy_val_000013.jpg",
+    "index": 823,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一完整大足球，键盘在后方，没有前景盖住球；球面反光和纹理明确，候选框包住可见球体，四角背景正常。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-036.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-009.png"
+    ],
+    "expected_label_sha256": "9acb4894f60fb313999fb92d3d846d60b3ece758f936c19f6850f9bbaf875f9a",
+    "expected_image_sha256": "e6d41d6460e39db538681f511e31a1fe197d0141d1b084a6a4e9becaae540f48"
+  },
+  {
+    "filename": "legacy_val_000016.jpg",
+    "index": 824,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一足球及背景存在清晰斜向/纵向运动拖影，没有可见手盖球体；现框保留模糊轮廓待用户核对。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-037.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-009.png"
+    ],
+    "expected_label_sha256": "5f5208077d984c2d30270957372eb78bc2e214e0cefb9b17a2a44d9e0485c1fd",
+    "expected_image_sha256": "dd1d6f3e20c5f297b52c4a8b013d9a04cc656eb257b65bb20644e897fcdcacdc"
+  },
+  {
+    "filename": "legacy_val_000017.jpg",
+    "index": 825,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一足球及背景存在清晰斜向/纵向运动拖影，没有可见手盖球体；现框保留模糊轮廓待用户核对。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-037.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-009.png"
+    ],
+    "expected_label_sha256": "333fcf94256297f3205a93353995d993404424bd4884a01c31f79f449d0b30bb",
+    "expected_image_sha256": "7f6a7a2e3d912fd72e199f5542d8058b4def5f33eba7ccdb79457f0804921a8b"
+  },
+  {
+    "filename": "legacy_val_000020.jpg",
+    "index": 826,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一完整大足球，键盘在后方，没有前景盖住球；球面反光和纹理明确，候选框包住可见球体，四角背景正常。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-038.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-009.png"
+    ],
+    "expected_label_sha256": "ca2e1c81e948affec8170fa2040e84dafc13771b1e51f5561b6c44bf7cb535bb",
+    "expected_image_sha256": "6b7962a042f36261f6bdea345f5c5243c53c72a26891f29fa12a961d2bcef203"
+  },
+  {
+    "filename": "legacy_val_000021.jpg",
+    "index": 827,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一完整大足球，键盘在后方，没有前景盖住球；球面反光和纹理明确，候选框包住可见球体，四角背景正常。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-038.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-009.png"
+    ],
+    "expected_label_sha256": "6f9878f90069485d56b72bbf3ebe34f757c11d5bce6f4dc1246a1f24cc689ca3",
+    "expected_image_sha256": "1a14b9ee9cc1fb6ce47fd3b0d1e5dadd64d71b4f5bce365996542d09f86ed203"
+  },
+  {
+    "filename": "legacy_val_000023.jpg",
+    "index": 828,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一足球及背景存在清晰斜向/纵向运动拖影，没有可见手盖球体；现框保留模糊轮廓待用户核对。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-039.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-009.png"
+    ],
+    "expected_label_sha256": "6009e5ad7ec52f89b5427cafd2b2bc05bbdc1372327dce053335b109b42b82c8",
+    "expected_image_sha256": "c111c06e2fd92d0418be6fe3ce1b78593e98082a324f50f0eabf38a88f2180f4"
+  },
+  {
+    "filename": "legacy_val_000024.jpg",
+    "index": 829,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "桌面唯一足球及背景存在清晰斜向/纵向运动拖影，没有可见手盖球体；现框保留模糊轮廓待用户核对。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-039.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-009.png"
+    ],
+    "expected_label_sha256": "46ca58340d8c05f70e599522aa7e94b6fd3dda75b9cecef55211014d5c2580df",
+    "expected_image_sha256": "b1f1ed7d4a88c271735b4a543baf46b5e01e72967faacf0dc60da71ffc8fbee7"
+  },
+  {
+    "filename": "legacy_val_000026.jpg",
+    "index": 830,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "手指贴近并可能盖住球左上小部分，球明显垂直运动拖影；接触和遮挡边界留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-040.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-010.png"
+    ],
+    "expected_label_sha256": "4c766917a9e7f78b4a2fa1cec4cbcb23d79fd171eb617271b68521966d5fd35f",
+    "expected_image_sha256": "1777ef5d98bcb97d5fad6177837672afe56369c963f18261938c7ec331e254d2"
+  },
+  {
+    "filename": "legacy_val_000027.jpg",
+    "index": 831,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "手指贴近并可能盖住球左上小部分，球明显垂直运动拖影；接触和遮挡边界留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-040.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-010.png"
+    ],
+    "expected_label_sha256": "46db6e066ac16990391de40cb69f3b5710272293d7446fc0cd774c5cd9d89bc0",
+    "expected_image_sha256": "82acbd283cd1ff09facae70c861517f5150d79aa61e5d69487eb0fad4c8763df"
+  },
+  {
+    "filename": "legacy_val_000030.jpg",
+    "index": 832,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "大球上缘被画面裁切，未见手覆盖；裁切不算遮挡，轻微软边是否运动模糊留复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-041.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-010.png"
+    ],
+    "expected_label_sha256": "23b05b193047dd2e10948108a9c6bdd6fd93406e7156172511fbf3969e3b4b89",
+    "expected_image_sha256": "2ab750c4ec2aa317940c920750299d6c69fc3c10fce092866d04d45e191f6c33"
+  },
+  {
+    "filename": "legacy_val_000031.jpg",
+    "index": 833,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "大球上缘被画面裁切，未见手覆盖；裁切不算遮挡，轻微软边是否运动模糊留复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-041.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-010.png"
+    ],
+    "expected_label_sha256": "fa884060b7281231acb3b0dab4bf3fe365129815f83128c9218ceb55545e75dc",
+    "expected_image_sha256": "1b211f4497265d979564f2e391e81d2c25cbbebc2ccf3cf9bab4b20b787b53f5"
+  },
+  {
+    "filename": "legacy_val_000034.jpg",
+    "index": 834,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手指明确盖住球顶左上表面，足球旋转拖影明显。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-042.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-010.png"
+    ],
+    "expected_label_sha256": "01c47486144241d53fdcc69dca332d8f92ca9481eea5cc5a8785b63e0728acd7",
+    "expected_image_sha256": "aa55076268802e4e57fa8b693f929c040cf911d11a9f51b90bc9da02f465c4d2"
+  },
+  {
+    "filename": "legacy_val_000035.jpg",
+    "index": 835,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手指明确盖住球顶左上表面，足球旋转拖影明显。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-042.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-010.png"
+    ],
+    "expected_label_sha256": "a8279f1bf0f2e651740b94875c47402993a4a809a0074c79973944debc784c2f",
+    "expected_image_sha256": "1318530cf711e20a00e6b32acce8c299696c4f55aa8b6ca7e340f5a069ad842c"
+  },
+  {
+    "filename": "legacy_val_000038.jpg",
+    "index": 836,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一完整大球明显旋转拖影，手悬在上方或左侧无可见前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-043.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-010.png"
+    ],
+    "expected_label_sha256": "ecde023ba3c95d07bfbe969228fb84e6a427967522841576e74c9400999e6c02",
+    "expected_image_sha256": "d62b8e3c4699ad70e37539522a10953e36f9977a5792394c996513b435c80599"
+  },
+  {
+    "filename": "legacy_val_000039.jpg",
+    "index": 837,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一完整大球明显旋转拖影，手悬在上方或左侧无可见前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-043.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-010.png"
+    ],
+    "expected_label_sha256": "3402f02030bed36d7f2e151955a9772b142d9bf2ed0a86f6302b2437a3f54dfc",
+    "expected_image_sha256": "d6c00cdc1ef3540517b5aef6bfb40cb6d1d1f9ee216174bafdc10aa9548d6a5b"
+  },
+  {
+    "filename": "legacy_val_000042.jpg",
+    "index": 838,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一完整大球明显旋转拖影，手悬在上方或左侧无可见前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-044.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-011.png"
+    ],
+    "expected_label_sha256": "6e090542597fca6d6acbdfe4e9c079cbb2238d87161a8ef63b2e3e12e054f7d6",
+    "expected_image_sha256": "8d27c26c41fa22b5e789829e6abbfb8bd2dbacdd67e9a152283ba404c975091f"
+  },
+  {
+    "filename": "legacy_val_000043.jpg",
+    "index": 839,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一完整大球明显旋转拖影，手悬在上方或左侧无可见前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-044.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-011.png"
+    ],
+    "expected_label_sha256": "94a7c8644eaa24db79202d265ccdfb2faa3ad375363e9d76a70274cea5fb77e8",
+    "expected_image_sha256": "db9bc6e24bfaa8324c143eb45f761086c6bb2cf6b1aa9ab4c3ffd34d47369030"
+  },
+  {
+    "filename": "legacy_val_000046.jpg",
+    "index": 840,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一完整大球明显旋转拖影，手悬在上方或左侧无可见前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-045.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-011.png"
+    ],
+    "expected_label_sha256": "e81a19674d8ca50c0781dcc96e9afdfa490f00ff49c025bf6e7ea0ea61e6e6e9",
+    "expected_image_sha256": "6c59508ee0c19d097beadcb223053d7f7c22c5d19312ae75cf6d7c4d24ccdd03"
+  },
+  {
+    "filename": "legacy_val_000047.jpg",
+    "index": 841,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一完整大球明显旋转拖影，手悬在上方或左侧无可见前景覆盖。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-045.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-011.png"
+    ],
+    "expected_label_sha256": "a6871fa7586cd5d7a5dedcdfa7af6f3dfae332c8be669d48d8b94f39341b7e55",
+    "expected_image_sha256": "2ea7296e0fec05f2dc9add67b37ea9081b652cb40701bb704d2ed7ab53508745"
+  },
+  {
+    "filename": "legacy_val_000050.jpg",
+    "index": 842,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "手指从左侧触碰球左上缘，旋转及相机运动模糊明显；极小接触处遮挡归属待复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-046.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-011.png"
+    ],
+    "expected_label_sha256": "92bb5abc070074fc76146491848625242e9eb43157b88be56023873d39bc149a",
+    "expected_image_sha256": "d63e7ca9fc46c12ce94bc667296e8893c4cd5f341162b2c4d713972998bc79dd"
+  },
+  {
+    "filename": "legacy_val_000051.jpg",
+    "index": 843,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "手指从左侧触碰球左上缘，旋转及相机运动模糊明显；极小接触处遮挡归属待复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-046.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-011.png"
+    ],
+    "expected_label_sha256": "cf2c0ff7157d4b95cadfeb9b6f99c5d912496907740bd4d14b5b0e04e337fc12",
+    "expected_image_sha256": "9792b0bfb9b940440ae3b3375c7f7a7ea96b321244dc9a78a4d9cd35e625dafb"
+  },
+  {
+    "filename": "legacy_val_000054.jpg",
+    "index": 844,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一近景大球明显旋转运动模糊，未见前景遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-047.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-011.png"
+    ],
+    "expected_label_sha256": "4044398a67623df38d0d4f562b2bc33fbb3cccedd8e3822c4ae38a89ce3d0382",
+    "expected_image_sha256": "2aa6e14979d6674cfe5a727d92c81002f8a05691e2cf4dcef4bd7411b539758d"
+  },
+  {
+    "filename": "legacy_val_000055.jpg",
+    "index": 845,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一近景大球明显旋转运动模糊，未见前景遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-047.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-011.png"
+    ],
+    "expected_label_sha256": "b3cd2c391f726f333fde958ee4708757954a1e5891c08e55de2b4b8b786dcb08",
+    "expected_image_sha256": "50bd862773449282191fc1a00fbb4ea452954424f479a3791513d386dcad0e68"
+  },
+  {
+    "filename": "legacy_val_000057.jpg",
+    "index": 846,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-048.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-012.png"
+    ],
+    "expected_label_sha256": "a3ac5863e1e19e996b9edd5a9961e74de2d9f90e8e9ba520f6fd5e3d2f97871a",
+    "expected_image_sha256": "b0c0cd7ec244a772244d80587bbf686bb454264533ba090b778ea22ffe441cf7"
+  },
+  {
+    "filename": "legacy_val_000058.jpg",
+    "index": 847,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-048.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-012.png"
+    ],
+    "expected_label_sha256": "884d8c15610e50847be3a3d8faa1c3beb528c3d802c711ef474423cee4dea0ae",
+    "expected_image_sha256": "80a702ccc971b668a4dc5ed8f025fb782120385e6f503b3d4a8e04ed8fefe0e7"
+  },
+  {
+    "filename": "legacy_val_000060.jpg",
+    "index": 848,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-049.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-012.png"
+    ],
+    "expected_label_sha256": "d2249a3b095d32aef344f1f01f46d1ace9bc4c4f6fc1da0a500903a52c054773",
+    "expected_image_sha256": "d8509e16db902343379269a93616ed5ad49597ec34014c8eb3d8dcd625edb207"
+  },
+  {
+    "filename": "legacy_val_000061.jpg",
+    "index": 849,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-049.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-012.png"
+    ],
+    "expected_label_sha256": "75869c95f3e062a350339ed561db6d9d048658918bf43d7b3260717f3d90d93d",
+    "expected_image_sha256": "492f4ddad0ee5be9c933faff9b44a4800cf75c26dfe5f0a03cfae32ecdfd86fe"
+  },
+  {
+    "filename": "legacy_val_000064.jpg",
+    "index": 850,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手指明确覆盖球左侧和顶部表面，并有明显旋转拖影，保留可见球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-050.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-012.png"
+    ],
+    "expected_label_sha256": "8407f523a263a82b11d88baf433dab1367a9b8dfcf75a8d4c7791628f0157ab5",
+    "expected_image_sha256": "021f3b2c991a695b2661d14ea74d55f38c4492cdb026770f1530efd3aaf61368"
+  },
+  {
+    "filename": "legacy_val_000065.jpg",
+    "index": 851,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手指明确覆盖球左侧和顶部表面，并有明显旋转拖影，保留可见球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-050.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-012.png"
+    ],
+    "expected_label_sha256": "50cafe9efea8d2aae9c2424d55fa3e8f1f59fed154c93fc3811c4ed6735917c8",
+    "expected_image_sha256": "a9adfb22dd472c4c1f4353aa89737a4935a136840159090cccc4efa7c9dc21d2"
+  },
+  {
+    "filename": "legacy_val_000068.jpg",
+    "index": 852,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-051.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-012.png"
+    ],
+    "expected_label_sha256": "3657c6175dd11878c7d830029e13c6342b057d1d8d05e3dd924dfbbf870ded50",
+    "expected_image_sha256": "c2b9b4920d695fd1c206e34bd1d1cf80e4e082af3c0ac7c4e215c6178ce7ec0f"
+  },
+  {
+    "filename": "legacy_val_000069.jpg",
+    "index": 853,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-051.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-012.png"
+    ],
+    "expected_label_sha256": "a8d0c5f427ddd45f252867c903d534f81ed52f0e4056212dfc3f813571dd8355",
+    "expected_image_sha256": "15c3247f33501fcf68911d453e27a2edf3bf20ba50efad864fbb95312d4a77fd"
+  },
+  {
+    "filename": "legacy_val_000072.jpg",
+    "index": 854,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-052.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-013.png"
+    ],
+    "expected_label_sha256": "72bce2e94a91f3ebd20560a6cbfc118aad9c97572051588b34cc57c6805e8bda",
+    "expected_image_sha256": "ccb4c3b0902f937b788691ad4df87593a05487e2f3309d6588eea798c7d23a74"
+  },
+  {
+    "filename": "legacy_val_000073.jpg",
+    "index": 855,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-052.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-013.png"
+    ],
+    "expected_label_sha256": "d74af8d3bee26d6e6f06a65e19ae9459c40949269b0d9b3a357b69de837267cc",
+    "expected_image_sha256": "f9223f298281fac94cea74b6f62cf696f7ae6a8db1554b038c3b6463de23053d"
+  },
+  {
+    "filename": "legacy_val_000076.jpg",
+    "index": 856,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "球面基本清晰，手指在球右侧小范围重叠；接触与遮挡程度留用户复核，框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-053.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-013.png"
+    ],
+    "expected_label_sha256": "95b04059f8b128e8bc92b650f99d7bc5fffbf446d9261771a6d149d231682c8e",
+    "expected_image_sha256": "e5e137a2baf1370cd90b5cc32444c828c089606b8be56d29210afd633e007d93"
+  },
+  {
+    "filename": "legacy_val_000077.jpg",
+    "index": 857,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "球面基本清晰，手指在球右侧小范围重叠；接触与遮挡程度留用户复核，框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-053.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-013.png"
+    ],
+    "expected_label_sha256": "c4aedb95c77bc1f35dfcc91e8bff0113715f2673f3a957a636733f9bf04522cc",
+    "expected_image_sha256": "4ceff24d1bc01c39fcc184a1fc3e824ec6971a1ccf3d6811691e6a285a1b8d84"
+  },
+  {
+    "filename": "legacy_val_000080.jpg",
+    "index": 858,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-054.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-013.png"
+    ],
+    "expected_label_sha256": "a640383b67964050f815ec041c8788122f7ec12fa5cc18d7d31c107c21682ab2",
+    "expected_image_sha256": "749aaa0ea9529cba2f13e60ea42de1710b7cce4d8e1a00ede506bc4f19139ef2"
+  },
+  {
+    "filename": "legacy_val_000081.jpg",
+    "index": 859,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-054.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-013.png"
+    ],
+    "expected_label_sha256": "24aa092e4390e1898ea0c4add05bb15b419bf5b1915cc6b16d7b4d34a6dc0913",
+    "expected_image_sha256": "e35b3ca616c730240af116d62876531554a817012f862e28573546f53aa818fe"
+  },
+  {
+    "filename": "legacy_val_000083.jpg",
+    "index": 860,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整或边缘被画面裁切的大球，未见前景覆盖；部分背景或手在动，球面无明确强拖影，轻微软边留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-055.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-013.png"
+    ],
+    "expected_label_sha256": "0d21eeeb9c31301a124c754fd4347d14f0f8865596d0ef0e5136852c93202de7",
+    "expected_image_sha256": "e9ee5e767df8411959765bd8ae9b55a2d3793010a2789daefb5e9a4ade776aac"
+  },
+  {
+    "filename": "legacy_val_000084.jpg",
+    "index": 861,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整或边缘被画面裁切的大球，未见前景覆盖；部分背景或手在动，球面无明确强拖影，轻微软边留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-055.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-013.png"
+    ],
+    "expected_label_sha256": "bfe233817847352778daca62524caae7cdde5073be8d78851200b0af4ec34f25",
+    "expected_image_sha256": "085a7c5ea75352a3ab1b9ddd7191ded5e512bbcbbed8c9f38093cc5ddf75956d"
+  },
+  {
+    "filename": "legacy_val_000086.jpg",
+    "index": 862,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-056.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-014.png"
+    ],
+    "expected_label_sha256": "4233c69ec310fd0ead237454d6994d8d0a340d0295c9871b235b43c3b62e9b48",
+    "expected_image_sha256": "a689ddba629aa5a80c1f3189bcbc66741d308bdd603ce2a7555c27214d96f4ae"
+  },
+  {
+    "filename": "legacy_val_000087.jpg",
+    "index": 863,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-056.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-014.png"
+    ],
+    "expected_label_sha256": "de8d4a37ba78acfaf2683dfbdb6f279645c1587393b7e59940e89af0a25a0793",
+    "expected_image_sha256": "913ac1d60f414f2f69b74c5a8f13684acea414d00ebb67b6c5ee996fb5db94fb"
+  },
+  {
+    "filename": "legacy_val_000090.jpg",
+    "index": 864,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-057.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-014.png"
+    ],
+    "expected_label_sha256": "f062dd26116e321f4d2bf136a4bc9d4ec65fce6e2147bdc312afe9af4dc7d13a",
+    "expected_image_sha256": "cadae80f14afb9a9ef21b8868540606ecff11012d2856924f282336f81036019"
+  },
+  {
+    "filename": "legacy_val_000091.jpg",
+    "index": 865,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-057.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-014.png"
+    ],
+    "expected_label_sha256": "7ac9d480c544a7df0a5b0a86d2dc500f3a91e13913b387c164d6d962597f85af",
+    "expected_image_sha256": "f1359cf0eebca2c5b0e414938f1097b0fa40339ad416f7e78cb15b989d158d76"
+  },
+  {
+    "filename": "legacy_val_000094.jpg",
+    "index": 866,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-058.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-014.png"
+    ],
+    "expected_label_sha256": "a1327d58869e7c4d0e472fa03bf1f6978a23aa7ff00420279c9544511d93fb67",
+    "expected_image_sha256": "c0c346013a549b267da770da08d6ec575ec5892f248a32e00b911deabd15292c"
+  },
+  {
+    "filename": "legacy_val_000095.jpg",
+    "index": 867,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-058.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-014.png"
+    ],
+    "expected_label_sha256": "e9c3baa542af525785b5208698abb4774f2fd633332e2c4233ed9da357ad5a1a",
+    "expected_image_sha256": "cf18da9c306a1bb1bcd7f614ee7057e9c089b75749a48c897a07520e79e72ff7"
+  },
+  {
+    "filename": "legacy_test_000001.jpg",
+    "index": 868,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整或边缘被画面裁切的大球，未见前景覆盖；部分背景或手在动，球面无明确强拖影，轻微软边留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-059.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-014.png"
+    ],
+    "expected_label_sha256": "d054fdb5b3faea6081118f5faa9e70d8e477cc493ee7aed7735df5cc52c6c1ea",
+    "expected_image_sha256": "2629e218351965fc5aa288d78ae38f9edb8d97031499e5fb1eb524ef4df59e52"
+  },
+  {
+    "filename": "legacy_test_000003.jpg",
+    "index": 869,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整或边缘被画面裁切的大球，未见前景覆盖；部分背景或手在动，球面无明确强拖影，轻微软边留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-059.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-014.png"
+    ],
+    "expected_label_sha256": "c5b7f5646be222135f15f4193a9352527927e5fa0750105db0ce8ff74c578bf1",
+    "expected_image_sha256": "5a79dc0a8f6ce4023112db6bd7d67676afce751b1bd62cdd5a432c7d43d49aa4"
+  },
+  {
+    "filename": "legacy_test_000005.jpg",
+    "index": 870,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-060.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-015.png"
+    ],
+    "expected_label_sha256": "9178f400a058c0ef570d0b512baf1b1a4815151281edb52a74c5b8a6adf6397e",
+    "expected_image_sha256": "5a7d8383f61f42676710680db51a34f9b13d40c36092b0ad29ebb9f6fa432744"
+  },
+  {
+    "filename": "legacy_test_000006.jpg",
+    "index": 871,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-060.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-015.png"
+    ],
+    "expected_label_sha256": "36b31102428c0becc8590a122414f79ab2188f959c8363b0abda4f5e8ce264fd",
+    "expected_image_sha256": "23b2358209edd3f746800c7a2236ae2a3deca6cebf926f80038d14d91534e82c"
+  },
+  {
+    "filename": "legacy_test_000007.jpg",
+    "index": 872,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-061.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-015.png"
+    ],
+    "expected_label_sha256": "e4a7c7a96f271329a12e3b077f86afbf003aac6bfa78f2e1ce526fb2ca3d265b",
+    "expected_image_sha256": "1a992acd51047436cc9b7190d338be58f642c4b826f31a1765cace009af3e345"
+  },
+  {
+    "filename": "legacy_test_000011.jpg",
+    "index": 873,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-061.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-015.png"
+    ],
+    "expected_label_sha256": "81cc602f045e89634360ee9409bdb8d98907d7a1a74fb48cbdcfc19a4b6906b7",
+    "expected_image_sha256": "ca1c67328e47b16bbcee47101239d76c195c65656767abb63a6e76a5b85586d9"
+  },
+  {
+    "filename": "legacy_test_000019.jpg",
+    "index": 874,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-062.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-015.png"
+    ],
+    "expected_label_sha256": "e9e27489a952f647442d542aa8735e5b2751f81b4ccf9a194d0f39221146ad62",
+    "expected_image_sha256": "a49950e73b2dd05848c1b4628e6217a415bcbce99e8da049a08081dd90ca6ae0"
+  },
+  {
+    "filename": "legacy_test_000020.jpg",
+    "index": 875,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整或边缘被画面裁切的大球，未见前景覆盖；部分背景或手在动，球面无明确强拖影，轻微软边留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-062.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-015.png"
+    ],
+    "expected_label_sha256": "6a1b4449f5f06cefec8a9bb977b68b2f5d2da0a87ec34c27fb1f036aaf5818aa",
+    "expected_image_sha256": "c9496af9c4e68614dc18a622dc9b7fcf93454a6dd86865c3d4d3cfca98be1cfb"
+  },
+  {
+    "filename": "legacy_test_000022.jpg",
+    "index": 876,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-063.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-015.png"
+    ],
+    "expected_label_sha256": "685bb4f0d440f33cf466f706e4112f3043317e4acc7548612bf561da38730d68",
+    "expected_image_sha256": "27b8fd0945f32069505f5ec74d5cbab98e48c063b61798691b46fedb2cee129a"
+  },
+  {
+    "filename": "legacy_test_000024.jpg",
+    "index": 877,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-063.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-015.png"
+    ],
+    "expected_label_sha256": "6a819890c78150372fbcf39ad90dd1e0fc6ce2790669c8bfdffa812ab2dffc8e",
+    "expected_image_sha256": "a89d8ac9a8e919e124b98ddee5a76521dbadc1fbdbed8f87280579e377108773"
+  },
+  {
+    "filename": "legacy_test_000026.jpg",
+    "index": 878,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整或边缘被画面裁切的大球，未见前景覆盖；部分背景或手在动，球面无明确强拖影，轻微软边留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-064.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-016.png"
+    ],
+    "expected_label_sha256": "23d4e2fa2947ecfcefe484eba1137736f2c32cb8513401afa38ee6cd231ecfdd",
+    "expected_image_sha256": "906a67a11ed78b793c5baa88c4b15a5aed0e51fe131355985e3d90d447072f65"
+  },
+  {
+    "filename": "legacy_test_000027.jpg",
+    "index": 879,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-064.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-016.png"
+    ],
+    "expected_label_sha256": "b2e440c1b57f3e1978700b9fa1823aca50289e55dd7852648342c67a9809e776",
+    "expected_image_sha256": "f64556e60d5fc991f8df47be54b1b3b34038b5eaf8ebbfae56472d93ba618e27"
+  },
+  {
+    "filename": "legacy_test_000028.jpg",
+    "index": 880,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-065.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-016.png"
+    ],
+    "expected_label_sha256": "948678c84c3cf88e7bd7f293feecf9455369b71a3566ed0f24f75d155e2a5873",
+    "expected_image_sha256": "e715b1ab94ea6a12296c2cf7bb6f6621594a47911eccf6728621f5f095d12620"
+  },
+  {
+    "filename": "legacy_test_000030.jpg",
+    "index": 881,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-065.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-016.png"
+    ],
+    "expected_label_sha256": "bbdc91277bec452aaaa67888e6496416221d7214ecd9c383f46f10307e9b7368",
+    "expected_image_sha256": "d207d1b9223adf11cdb44990a750667aeb4d03eda64203e1d30f2fca08c3d1f7"
+  },
+  {
+    "filename": "legacy_test_000033.jpg",
+    "index": 882,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整或边缘被画面裁切的大球，未见前景覆盖；部分背景或手在动，球面无明确强拖影，轻微软边留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-066.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-016.png"
+    ],
+    "expected_label_sha256": "905aedefb323842fef41bd7e156cdc850df4449a46ee448e5a59d71bac67a24c",
+    "expected_image_sha256": "7340225952341a0e0e39fd19979311f1cb5f756bb22a13dcc56d3d950875d7fd"
+  },
+  {
+    "filename": "legacy_test_000036.jpg",
+    "index": 883,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-066.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-016.png"
+    ],
+    "expected_label_sha256": "6521aa68fb22751fd05f4c595a862fbfbb5f0162775ed4f314d893a4a97599b7",
+    "expected_image_sha256": "a6a5514e624b5b383484b03d35f525628fdb655fb5ebdf9695b9d42a1827f295"
+  },
+  {
+    "filename": "legacy_test_000037.jpg",
+    "index": 884,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-067.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-016.png"
+    ],
+    "expected_label_sha256": "f57617d6a1616683fa7983fbcfb7d2890583790609e451e6b15a0fa6db1ae4fb",
+    "expected_image_sha256": "ad72ddf2adb4ccc092ce81d0050189f8c1d754b71aa0ca87c2d2d85105df5e08"
+  },
+  {
+    "filename": "legacy_test_000038.jpg",
+    "index": 885,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "完整或边缘被画面裁切的大球，未见前景覆盖；部分背景或手在动，球面无明确强拖影，轻微软边留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-067.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-016.png"
+    ],
+    "expected_label_sha256": "ed34b4af9c35b82e313f5d706efc2f72f05f75c200814608c4fdde9b0ed09cdf",
+    "expected_image_sha256": "079be73479799a9946b1fdb2924fc129d32efd2beca769bc3dc1603df47b88ff"
+  },
+  {
+    "filename": "legacy_test_000043.jpg",
+    "index": 886,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-068.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-017.png"
+    ],
+    "expected_label_sha256": "a6c1ea6a8aefbde1aed9683914fdb388da65e7d4307b2268051ff6ac59bf5e14",
+    "expected_image_sha256": "45b94bf111b0cc879639693245178a0e3fa2171d8cb11433122ea886bbbaf462"
+  },
+  {
+    "filename": "legacy_test_000044.jpg",
+    "index": 887,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-068.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-017.png"
+    ],
+    "expected_label_sha256": "cd47237bd1c224fb417ad3ee9d4bf2a48eca76e7696a2944d86024e9c65af405",
+    "expected_image_sha256": "91d8826628e99282d0c66378fd583f9301e4b7429fc3fa03b7b9e8e4b4bebea2"
+  },
+  {
+    "filename": "legacy_test_000048.jpg",
+    "index": 888,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-069.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-017.png"
+    ],
+    "expected_label_sha256": "80c9db0d78df19ad656284912735713c8b48911f3f28ae6f4637a1959733f14b",
+    "expected_image_sha256": "b400dec20f518acfa91046777f241742e4a9958042ab6ad8b60e748ed5a02bb9"
+  },
+  {
+    "filename": "legacy_test_000049.jpg",
+    "index": 889,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "唯一大球发生旋转或相机移动拖影，表面及球缘可见方向性模糊；无明确前景覆盖，图像边界裁切不算遮挡，原框保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-069.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-017.png"
+    ],
+    "expected_label_sha256": "0abfe6a7a495c08ef1f15987cdd9f3ef96716289905d50fc37341e20af87ec49",
+    "expected_image_sha256": "0359afdfd4bdc77cb9de8e0bd9323a441464955f322aac7193b0b0d8d9fc972d"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000002_left.png",
+    "index": 890,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "检查完整当前画面，未见可见足球；144和146手遮住对应背景区域，也不根据另一个相机推测不可见球框，保留空label作为无可见球候选待复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-070.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "71c914d45ed6563b456075bfd4cd7d63bee1bbf814646164f4dd5ed4c44e2a42"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000002_right.png",
+    "index": 891,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "检查完整当前画面，未见可见足球；144和146手遮住对应背景区域，也不根据另一个相机推测不可见球框，保留空label作为无可见球候选待复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-070.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a0d90a53b79950265cfaf92e30a922f6041a5de1ce2510372d19e0838c6b4b85"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000087_left.png",
+    "index": 892,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "检查完整当前画面，未见可见足球；144和146手遮住对应背景区域，也不根据另一个相机推测不可见球框，保留空label作为无可见球候选待复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-071.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a563f3c3ca7fa70b703c3f72fbe0bb5122e170d7ca2e606daba88c25724771d8"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000087_right.png",
+    "index": 893,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "检查完整当前画面，未见可见足球；144和146手遮住对应背景区域，也不根据另一个相机推测不可见球框，保留空label作为无可见球候选待复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-071.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "17e984a5f6ccea96ca6612b132134a268556c223179d9c5e5f744cf8f9ece31c"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000327_left.png",
+    "index": 894,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "检查完整当前画面，未见可见足球；144和146手遮住对应背景区域，也不根据另一个相机推测不可见球框，保留空label作为无可见球候选待复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-072.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "3ff793be839b0b639a8b06985e1df725f0e6045f1e5023649f190b1b90840f6c"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000327_right.png",
+    "index": 895,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处小足球仍可见，前景手臂沿左侧覆盖球的一部分；完整球约40像素附近，轻微遮挡界线和小目标阈值均留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-072.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-017.png"
+    ],
+    "expected_label_sha256": "6fd4ba581348ba5225117a24c026661afa902a87f6add342b818d5cb7b06181e",
+    "expected_image_sha256": "5447f5d694ace84fb87c111600899ca9d5624ccc81479c918dbf2b88e90948c4"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000330_left.png",
+    "index": 896,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "检查完整当前画面，未见可见足球；144和146手遮住对应背景区域，也不根据另一个相机推测不可见球框，保留空label作为无可见球候选待复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-073.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "00197244274fce8eb318f67028c2ba2343e701e884cc04a399ef7ac26457551b"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000330_right.png",
+    "index": 897,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处小足球仍可见，前景手臂沿左侧覆盖球的一部分；完整球约40像素附近，轻微遮挡界线和小目标阈值均留用户复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-073.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-017.png"
+    ],
+    "expected_label_sha256": "c581868b9d10bebe1f0d6ae857734d6202dd02cfe08ec6f13d5de2a507f8d06b",
+    "expected_image_sha256": "f97bf678511cc0cabe7188454ac5504b7b5da38ac515db535a38b8a24c830993"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000332_left.png",
+    "index": 898,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-074.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-017.png"
+    ],
+    "expected_label_sha256": "0c49c9d96459188f89c7c983e6ef4a26edf7bbe45eb3b45b69397ac5d4b58669",
+    "expected_image_sha256": "3601c4cb51ea3f3162fb45d562a54317d904f2caed9e173efac9d62458bb273c"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000332_right.png",
+    "index": 899,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-074.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-017.png"
+    ],
+    "expected_label_sha256": "117e6f3061e667cb1a44fa4f52af9bfbe1fa62eb8bcbfa937b8548d6bc678750",
+    "expected_image_sha256": "fc46dee56d0f78645fdfdc210c3badfa67675fe59a38ea06c9658dda00790f71"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000339_left.png",
+    "index": 900,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-075.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-018.png"
+    ],
+    "expected_label_sha256": "c76ee72489336062fc8d3e358a03991185c5fd2440dee403573cf3ea22caa6d3",
+    "expected_image_sha256": "063e1185b6399685ed805fc168461189d84663df85a2f5dbefc4698afd440134"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000339_right.png",
+    "index": 901,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-075.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-018.png"
+    ],
+    "expected_label_sha256": "f9449732bbbf5a0a07377d3775932464326750048b74a61b760944fedfdbf6f3",
+    "expected_image_sha256": "821cc1d2e66ccf76395d2345ba9a50fc11fcf017d2e6ab0863df2267f2d1a7b7"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000355_left.png",
+    "index": 902,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-076.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-018.png"
+    ],
+    "expected_label_sha256": "098488facbc660d82a59e74d3560b7c70b98380dad1d05bb592510648968c2a6",
+    "expected_image_sha256": "9459137d0c62d65370c396af6b8bb363fc36b96212f8df6604097a4c353f0e46"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000355_right.png",
+    "index": 903,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-076.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-018.png"
+    ],
+    "expected_label_sha256": "6ccd112c3b59a2ee74e28a2171cdba5bc3f97fbf7b636b74fcc8c0e6b8aae7b5",
+    "expected_image_sha256": "d3e3c665bba2b1183796d41993ce46a90abcfc5683caab01ca791178f2812b33"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000361_left.png",
+    "index": 904,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-077.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-018.png"
+    ],
+    "expected_label_sha256": "26f93cebaf0a722d51198e1e9c5bb3d536cd3dba7540ab84fd8d119a257615e7",
+    "expected_image_sha256": "86bd19d62ffd2233d80506080b0e30423c30ca5f2bd667d5bc3392e67a279d4f"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000361_right.png",
+    "index": 905,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-077.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-018.png"
+    ],
+    "expected_label_sha256": "18d29349b4f32f5369f19911b3410fd17b6a4a17595a16d75ec8eefb5dbd5577",
+    "expected_image_sha256": "e9dd202e33547195ad7515ca2de6391a1f2c59245c39b08f23874d188f71bacc"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000373_left.png",
+    "index": 906,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-078.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-018.png"
+    ],
+    "expected_label_sha256": "38bc7b9ddaaf7b2d8a0174ebba0e8902544292ff42e6287d7db73cee18511e9f",
+    "expected_image_sha256": "3529c20df8aca2fe254383a875ec52198793cab3f7c218518613dac55b7e5cd3"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000373_right.png",
+    "index": 907,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-078.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-018.png"
+    ],
+    "expected_label_sha256": "50f37858236d9853ad6b6ccd4e47d7434798b8284644a95406abf7b0c841a826",
+    "expected_image_sha256": "7bb81619e1ab0708a7d548815ba48d34585a37ced99e84e0303ace6c30f7cc53"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000376_left.png",
+    "index": 908,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-079.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-019.png"
+    ],
+    "expected_label_sha256": "f9e8276d5953ee39e7b84b9ac6dea98a9640917b5914fd58dc500dc4c2a87e14",
+    "expected_image_sha256": "4c43b18772eac1f9e25cef245f0dded403bf83d0f21bd29af05df31a34790728"
+  },
+  {
+    "filename": "rec_20261013_181326_frame_000376_right.png",
+    "index": 909,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "远处唯一足球约38至41像素，球面低分辨率软化未见方向性运动拖影；无前景覆盖，位于小目标40像素阈值附近，保留小目标候选供用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-079.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-019.png"
+    ],
+    "expected_label_sha256": "ccb2a23aa9a903beec16020c09b4c3c6943e4f67f8b6cab975d5720ef82cb58f",
+    "expected_image_sha256": "a3850d684efffc30cb49618d72f56ba725a2a966c03fa02d47b497d22d90d3bb"
+  }
+]

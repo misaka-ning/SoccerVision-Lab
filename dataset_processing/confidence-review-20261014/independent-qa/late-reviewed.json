@@ -1,0 +1,10 @@
+{
+  "actually_opened_pages": [
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/late-00.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/late-01.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/late-02.png"
+  ],
+  "images": 18,
+  "findings": "逐张原生全景与球框核实后段18图：group-1 n1410/n1529空label漏底边足球片段；group-2 n1156/n1159框机器人白脚，真实球漏框；group-3 n1420双球拖影、n1475/n1533运动模糊须保留不可靠框。其余清楚样本按四边及实际遮挡判定。",
+  "phase": "before combined final decisions"
+}

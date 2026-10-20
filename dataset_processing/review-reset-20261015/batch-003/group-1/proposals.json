@@ -1,0 +1,5285 @@
+[
+  {
+    "filename": "video_4bec9c343db72928_frame_00000279_left.png",
+    "index": 0,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-000.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "4f0f4496153a42f9f2b9da335e54991cf37a5b6de0f96a62db1692c46fe9f30f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000279_right.png",
+    "index": 1,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-000.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a58731c6508d7916a6c763b58150a6b5f097de1343676bcd9ce0bdfe52205a27"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000287_left.png",
+    "index": 2,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-001.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "02805e7515a609ba2e1fdad2481b970fbf51eec13ff5c002d3b3aaf7963103aa"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000287_right.png",
+    "index": 3,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-001.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2a6b5518534f33b9d62d9749bedc58de3a7b200cc392a402c5ff57aa7c605130"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000338_left.png",
+    "index": 4,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-002.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "70fa006281b51a10b8d78fba9bac7276314cf325614bc7f6a010c77c44d3574c"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000338_right.png",
+    "index": 5,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-002.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "af1b32e93dd2498c63860bae84cebf5d0e179a632d14a596bd9d97c9be8e3896"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000345_left.png",
+    "index": 6,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-003.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "100f6dc8feac391dd16cb8f958b971c93992d4495632b1ee6903a794dcf93683"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000345_right.png",
+    "index": 7,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-003.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "3824d04d6af3e4c98592075f7926720b4bc5d5d8db09a2827c8e299b9a5e56fb"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000382_left.png",
+    "index": 8,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-004.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "33347f58478b330e590976cd11a106c7ba17063ef1d8f1065d1061d0fc8c03ee"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000382_right.png",
+    "index": 9,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-004.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e65d92471dda6d9e461c30d50070d8734e96ce9b77ec0e81704207109820cfe7"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000389_left.png",
+    "index": 10,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-005.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "45f9b9b4847da6dd9fa88c79f7c6d314dca55344e0797871d98a9f1a42288436"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000389_right.png",
+    "index": 11,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-005.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "3b551bbdc7a62917ce12cb6c4cc8db9d9c97c62f4a872f57a11bc4d879dea19c"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000390_left.png",
+    "index": 12,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-006.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "5b437083742c3b8ed491a41a09dc47eca093b4b22b7b6d284f3990652d6668bf"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000390_right.png",
+    "index": 13,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-006.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2bb30a8b1604f027c7849fd3a798e9ebee3324aba88c39790361aa726ebb6c7b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000404_left.png",
+    "index": 14,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-007.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9b611ab3094343bcaf29f7093fac3e207f02faf96614accdab887274731be05a"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000404_right.png",
+    "index": 15,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-007.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "3b70e8994b6de7f6d993e74781810ae3e5698e30059300dc2259a1122d3f4fb6"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000412_left.png",
+    "index": 16,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-008.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "b51b58e6e0336a9ddde72a61b4a361c04bd3ecaf5a2100cd8426def1b6206f6d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000412_right.png",
+    "index": 17,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-008.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "23226be8d707ea1222e611b9a34e5bc06e7db1cef95729cdf9f3e245e224dde3"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000418_left.png",
+    "index": 18,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-009.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a2965330146bd2b966c98bd7c7a6a623b2c647e69fccece31c4c123b31a473f6"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000418_right.png",
+    "index": 19,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-009.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "240c6a2584779ba5cb1f2f2027f17463e3725f03e163bbd31f7dc91359ae5511"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000422_left.png",
+    "index": 20,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-010.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "055876a5aec6e65d26c88fd9242eec6895860070450df5eb090997367922127f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000422_right.png",
+    "index": 21,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-010.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "30489d526e3075dc1e43398ee07b9ec2d6e334efc5ef4193a9b5cfe78e2b1c71"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000428_left.png",
+    "index": 22,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-011.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "00fd4f5237f5f408faa743644183357316c6475db91d4aa38117b9f16b8167f5"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000428_right.png",
+    "index": 23,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公室低机位全景逐幅检查：玻璃隔断、桌椅、人及脚鞋可见，桌下/走廊未见可辨认足球；右下灰色结构为器械/轮部，维持空框和无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-011.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "02f03a5e9042692df1ee30eb6a60cdd29254402b03eae6fdfe37ff59f4f0bbd9"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000441_left.png",
+    "index": 24,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-012.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "33e1d36ce3f707944173dfcf9c098975a105e5643460c8049e92ce543337b737"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000441_right.png",
+    "index": 25,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-012.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "31ba965d2b486af48957eef5c364c001f455deb96445160a1686de844a719a0c"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000446_left.png",
+    "index": 26,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-013.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1562f8315fbf108def15b0cf9e78eee40650ef5c2f550f197ed51ef8dc85a214"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000446_right.png",
+    "index": 27,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-013.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "731f2f0c339df225fb95e2a892e685bb878c4377e2c5bc458ab3e093a55a9ad9"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000453_left.png",
+    "index": 28,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-014.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c8c3c4a49b13baa8d98173898eb1a7bbe01ad078ef673887f4871300f41f809f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000453_right.png",
+    "index": 29,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-014.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "8c99e74f36d3bfc46ff91085223e8d0ae322a3a7e575bb87ed508f12264cdb4c"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000464_left.png",
+    "index": 30,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-015.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c20317b3a18b052dc320c1d15f4779854789a7c3b895a7da04188898c153715e"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000464_right.png",
+    "index": 31,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-015.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c9ed92454d5ea20416a6cba4e817b9de3e68d7b3d7416fa62f9229bc59c93160"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000471_left.png",
+    "index": 32,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-016.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "8d11821c6d7fe220db849ad8699b16d84982add5e852e2f5c19d4a8ebb514838"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000471_right.png",
+    "index": 33,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-016.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "79c21ce3e8b10748ecd49012c22115256df70399ccf6b450ac76dcc23d85c627"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000539_left.png",
+    "index": 34,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-017.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "0f8d0c5ddef339caa57afe7a33649f3a35e849298beefcf6313063108b191f63"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000539_right.png",
+    "index": 35,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅查看走廊及桌椅下方，远处行人、鞋和柜体可见，无可辨认足球；保留空框无球候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-017.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "05c96c607e682b60131edf4fede17ea1ca441f84ebe804e7adf5cb906623f2f0"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000545_left.png",
+    "index": 36,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-018.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c1c361c6f0912d65d34a57eadbaceb363dd29ff37e686a1122c01446bc0c572a"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000545_right.png",
+    "index": 37,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-018.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "94724efe38e005a8b0685400b94d5f633aad8d61b2dd41a120a26fdc05a720c0"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000548_left.png",
+    "index": 38,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-019.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e75e55d29a2c1fb12df1b1a4e0f8670a7907f794ebc295b17067028738f566b1"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000548_right.png",
+    "index": 39,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-019.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "630f3e8956e1c18001133a4730ffca9713418c976e77544ce810a3f163e85271"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000559_left.png",
+    "index": 40,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-020.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c434bb37cae6b777bc72f01bd2662e46fdfc05844b7640198a7ceb4f8e0464e4"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000559_right.png",
+    "index": 41,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-020.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "4d998f9875eaaa50f8aa7d793e69037619d85837d40f3807d7ce6e004e9026f1"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000567_left.png",
+    "index": 42,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-021.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "0161039c420f0ab085af87ce35dea451e3601ed07c65e95fb732547c54975c52"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000567_right.png",
+    "index": 43,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-021.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "248ec2edaa7c38a94398658f04a2ae1da8f09bff9e537c126c8f64a60d1b93c0"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000571_left.png",
+    "index": 44,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-022.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "dd8ed473fab581ed936c2fdec2c4afa28f7220a149052a1615c9fd498318981e"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000571_right.png",
+    "index": 45,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-022.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "5fe240b164bcc1151a6a63d7c5acb67afe3f85c7df6d9d4e2b8ec966ef5ad602"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000588_left.png",
+    "index": 46,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-023.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "bfb1ffc735528337ec61f38959f336b18a27de6d0dad05fcff0783c2bfd9f084"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000588_right.png",
+    "index": 47,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "办公通道近景桌椅和远处人员逐幅可见，未见足球；人物手持物在脸侧为手机/手，不是球。空框无球候选保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-023.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "433c3f3bf4702556e64eb26976f20bfb387b49d0d32b873eb518b72d583ef99b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000595_left.png",
+    "index": 48,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-024.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "4848e64c76d433eb4dadf1c33c3cc0a854ee4cd38288a163b2835fdf4d3425df"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000595_right.png",
+    "index": 49,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-024.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "0bdb0662ff58e82cbdeab7e0b2f2f8f32530b8f27a7fee657e07e05dcba1b7d8"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000706_left.png",
+    "index": 50,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-025.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9ebd6d3d7ec3be7d7adc867daefbfa0b764ae8422f1eb835ee635474af496101"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000706_right.png",
+    "index": 51,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-025.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "766ca8f15ecc3161c602ad997f68ca1ac2d5fb51f708740f67fba55f18d9ef2a"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000713_left.png",
+    "index": 52,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-026.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "edb0750119a0eae1255d6a628c40a87130669d86181683e2547858fba04a46a9"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000713_right.png",
+    "index": 53,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-026.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "d6f6a90481e651c79d6ee38e360911112772deeaf94e1133355677d5744e00f7"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000720_left.png",
+    "index": 54,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-027.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "976f09acbde1cad53016a1349e6495a4ffaab9755bbb45961fc4cdf312cfb5de"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000720_right.png",
+    "index": 55,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-027.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "b507de28b6043a5a0a8fea71317c07ee1049c54d92f543ce0c0b8a82224cf48b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000737_left.png",
+    "index": 56,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-028.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f753aa5d4744cc91007595571b3e72ef0d9724643ef18789c515834704db533e"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000737_right.png",
+    "index": 57,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-028.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "95a5a48ed635c96fe6578f5354c11ed4794ba820b75964aaee4cfaa18a335822"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000754_left.png",
+    "index": 58,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-029.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "b6e6c3464f20f22f4c07cd4e6bc5cf8d14622997369665b6a05cf2d446854e94"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000754_right.png",
+    "index": 59,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对，人员在远处手持手机，桌椅下及通道无可见足球；候选无球成立。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-029.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "351f894c11c0fd54cc2478645bd0ea9e8b85a2cf7619dda9429a8665d42e3c33"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000786_left.png",
+    "index": 60,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-030.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "aecbe2ce0f5c239caa4bef8f393b9f4b45051d3ec0908274cf8f2b08e8fa2d57"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000786_right.png",
+    "index": 61,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-030.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "910d9f7bee971d19772a6d862a094cfb717705f89220c6711e9dd19bbd3d4cca"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000908_left.png",
+    "index": 62,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-031.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f0e7bd45674b7d82c3de70c17788c14240809713acd925fa67137fbf2296c5ea"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000908_right.png",
+    "index": 63,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-031.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "60753c85b230d740031472a6a69810fc1e050de4073378c81f78fb6938b3a53f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000916_left.png",
+    "index": 64,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-032.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "7d65290062fb9af22622890af07954fb92b5c78fb9224e75f74f2c56c1465e11"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000916_right.png",
+    "index": 65,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-032.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "dcb39d5a909275380bdb2b81904d3787a67393b43e603ebd906486a3a0e7f23d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000928_left.png",
+    "index": 66,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-033.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "8ddd7430a81f10f8da8431ede63622a8c4be5624fbb6783c56cc1f848b8db85c"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000928_right.png",
+    "index": 67,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-033.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "19bd347fd7f4049b54da257918d819471eec64e4d24b513e4d4e623294ead383"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000931_left.png",
+    "index": 68,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-034.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "7f5c5430f41bb2341ca5d3b70abd4b9e0fe667ab50d527abcab86da3f06c0516"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000931_right.png",
+    "index": 69,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-034.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9405cd888ad230142d4b4609337a6e1252378eeaf40abbbeb44c0ac3a8612415"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000938_left.png",
+    "index": 70,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-035.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "6ef46a9a0dc7929c4c15fd643460d2fdec141b618ea4763b605e0b81bec6357a"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000938_right.png",
+    "index": 71,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全图逐幅检查红衣及灰衣人员、桌椅下和地板，无可识别足球；人员鞋底和右下机器结构不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-035.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f6e2ec8d160c6ee557a3af733e0cfbf0130deccaa456a5021057b375dc1aed74"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000945_left.png",
+    "index": 72,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-036.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "7a807042159e0efa58335b947582d4cf30f7be46a856ccce2f7cf0a7dd326e6c"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000945_right.png",
+    "index": 73,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-036.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "790304bdd3d74fde4779ac4386665d1eb1c769f9ea504d45461ccacd046922c8"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000955_left.png",
+    "index": 74,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-037.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2ef46e9160331dfc37592c42f60a1cd368cc5eb30252beb7041de7bc71377448"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000955_right.png",
+    "index": 75,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-037.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "4d85c345b402a74431bc1e06c13a6d305ad8dd234475159b8301f54e2d781d5c"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000965_left.png",
+    "index": 76,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-038.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a11fcede6e3005512382052ce140358cfb642e60a54cf5bb68fbb99b0b3a5e47"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000965_right.png",
+    "index": 77,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-038.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ebf256ddbbea33423766178c2512d5a7af7a5db78ce97b489508074f10598821"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000970_left.png",
+    "index": 78,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-039.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e05a67f525e98d450bc527f3f07de6b3d37bc2d6ecee749e8920b55a666b2683"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000970_right.png",
+    "index": 79,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-039.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f5d5813aeacd218e8e84eebb9683515cddff7e084297e235720d028db0bc1d1a"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000982_left.png",
+    "index": 80,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-040.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "fe70f25eb7c293e2575d374b6df74f720a76b402782bd704248a964bbd4106d3"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000982_right.png",
+    "index": 81,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-040.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "dd3da0643945a70c0331bfd8d70371a735d62ecd78b6ab3a83e6113d3f5b08a1"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000988_left.png",
+    "index": 82,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-041.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a0b75685bf74dd11fab51f10a02986ea67618b9a1535953094eabf908a1df6bc"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000988_right.png",
+    "index": 83,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红衣人员从走廊靠近经过镜头；每幅均未见足球，近景为裤腿/手而非球。仅人物运动不作球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-041.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a83a9949591fb01937ba6e3cbafcd3c35149c9fbb9b709fb1887a7e157bf583b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000997_left.png",
+    "index": 84,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景为手臂、裤腿及双足机器人腿脚，器械有固定直线结构，不是足球；图中未见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-042.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "514b983d70cb4e98255c004e82806b5df58ef01664d7f32d20b1a896442298d3"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000997_right.png",
+    "index": 85,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景为手臂、裤腿及双足机器人腿脚，器械有固定直线结构，不是足球；图中未见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-042.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "fb594c91fb84e8f74ba9a09a27bcc8f2faa113f2a87e12dec7251f7ff94e7c7d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000999_left.png",
+    "index": 86,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景为手臂、裤腿及双足机器人腿脚，器械有固定直线结构，不是足球；图中未见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-043.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "aa77cd4c999f89dc8cf0814339abd6c33b793b2da3323edb3cb8c6ec9de96d82"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00000999_right.png",
+    "index": 87,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景为手臂、裤腿及双足机器人腿脚，器械有固定直线结构，不是足球；图中未见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-043.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2223dfbd8442fa913aff52b8d17be37c9f2f0613da96eb3c3f7b803ecd3732cb"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001005_left.png",
+    "index": 88,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景为手臂、裤腿及双足机器人腿脚，器械有固定直线结构，不是足球；图中未见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-044.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "18d10c4f32c18c74f5aee62ca7a270b45492763853a24f8b4f8bb45a78dd54e5"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001005_right.png",
+    "index": 89,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景为手臂、裤腿及双足机器人腿脚，器械有固定直线结构，不是足球；图中未见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-044.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "6902d0ee727cf6115e0aeeb604365776e2133b0f73add8acf6e15e656829563f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001015_left.png",
+    "index": 90,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景为手臂、裤腿及双足机器人腿脚，器械有固定直线结构，不是足球；图中未见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-045.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "20d2c8a36964c5d85e4b97a12e523543bddc95c3aff02c496310373e2b69830a"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001015_right.png",
+    "index": 91,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景为手臂、裤腿及双足机器人腿脚，器械有固定直线结构，不是足球；图中未见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-045.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ae38f24f4c316e1c76a5d71c7b49e1e20fc33558e446225e951208b73d11fe11"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001022_left.png",
+    "index": 92,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "双足机器人和地板为主体，未见可辨认球；相机俯仰导致全图边缘方向性拖影，记录运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-046.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "04ea0e6f3c7ca78b36ec8a10b9ea4e73e6a072e376473f096cd22e298ca31d49"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001022_right.png",
+    "index": 93,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "双足机器人和地板为主体，未见可辨认球；相机俯仰导致全图边缘方向性拖影，记录运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-046.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "96ae44949710b7b885634d0eb5b6ff8f8bfc5b2f9af90507f12f2d5e177c0b9c"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001034_left.png",
+    "index": 94,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "双足机器人和地板为主体，未见可辨认球；相机俯仰导致全图边缘方向性拖影，记录运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-047.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "dd6197c85a0222bc29972490868f34a6fd4802e177d4a9e5f49f81b8e2f9a567"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001034_right.png",
+    "index": 95,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "双足机器人和地板为主体，未见可辨认球；相机俯仰导致全图边缘方向性拖影，记录运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-047.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2ff5beeb31b1b3ec800615f5de4e75e0aca2a8436be4e50a96bddd524d054a6f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001041_left.png",
+    "index": 96,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂近景与地板、门框/机器人可见，逐幅未见足球；手臂遮挡镜头本身不算足球局部遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-048.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "b43656235052161870d1b8b9098f5f24c799d60d32858c190e001ac949ea41bd"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001041_right.png",
+    "index": 97,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂近景与地板、门框/机器人可见，逐幅未见足球；手臂遮挡镜头本身不算足球局部遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-048.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "92b95761c4732ac604d38e354563e639de873237982f6149097bca80077dfee0"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001043_left.png",
+    "index": 98,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂近景与地板、门框/机器人可见，逐幅未见足球；手臂遮挡镜头本身不算足球局部遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-049.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "837841685fef69baa202a3eb30c9ab1f32a50970ce1c58c5013d28ee1266aced"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001043_right.png",
+    "index": 99,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂近景与地板、门框/机器人可见，逐幅未见足球；手臂遮挡镜头本身不算足球局部遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-049.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "178b6bf14d078cfc7d120868c81a1a9171d9381e40acd4ca6ee362f1e374f13b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001050_left.png",
+    "index": 100,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "画面主要为手臂和地板，无可见足球；全图机器人/地板边缘有方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-050.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "fffc3318000691fc2afda0f5b62914d779658de12b8e1a4e674776d8b82de594"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001050_right.png",
+    "index": 101,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "画面主要为手臂和地板，无可见足球；全图机器人/地板边缘有方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-050.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f9125ad8a8b52e791b248d61db533cdd0f6b35a6ff6d15fa8425407d6223d1de"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001062_left.png",
+    "index": 102,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂近景与地板、门框/机器人可见，逐幅未见足球；手臂遮挡镜头本身不算足球局部遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-051.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a34cd4b29af7a109538a15e04d9cb52b46b9ec9f1bd8bc65946140d632988a17"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001062_right.png",
+    "index": 103,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂近景与地板、门框/机器人可见，逐幅未见足球；手臂遮挡镜头本身不算足球局部遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-051.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ef4b204019ed993dcc1e989f3654e7841a080581a59ffa8c5c5b5d766b366c95"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001069_left.png",
+    "index": 104,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "画面主要为手臂和地板，无可见足球；全图机器人/地板边缘有方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-052.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "815ed1cf566557bf96a0055802a49c5014a137c366204c477b5a32b372b89039"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001069_right.png",
+    "index": 105,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "画面主要为手臂和地板，无可见足球；全图机器人/地板边缘有方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-052.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "431d8d0db62e4b6f39bf0dda7b174252afa60380b1ead6cbbbf9351cdda8c072"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001078_left.png",
+    "index": 106,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂近景与地板、门框/机器人可见，逐幅未见足球；手臂遮挡镜头本身不算足球局部遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-053.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "38ff03152e906f3d3b45afac694c3a1b362832127a7899593bba27c34d7bd46d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001078_right.png",
+    "index": 107,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂近景与地板、门框/机器人可见，逐幅未见足球；手臂遮挡镜头本身不算足球局部遮挡。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-053.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a0e306fe0b95eed537e74d7161ee49c6a55478ca328136c2bde9ebf20c60c545"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001084_left.png",
+    "index": 108,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-054.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "b9fd3a0e548076f4c97945b13370f9969263c8ca5259934245fa19b617e3e6e5"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001084_right.png",
+    "index": 109,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-054.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "210511e58614e20e9ac329bbf56fd0df05696c23a2ee605bb8a89e0521d0deda"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001091_left.png",
+    "index": 110,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-055.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "d6f684abd6122553f439e134c2ea34033f391e2b6ea53a80bfa2594c7a8dab23"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001091_right.png",
+    "index": 111,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-055.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ac4a3e0495ed76f5e917a19c27a9fa7b250872a94746f6eaf97c2af0309e8965"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001095_left.png",
+    "index": 112,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-056.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1d23b2209e3742cbc48772b6238ec10caedfdfa5400064b3e67d7f2b22cea1f2"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001095_right.png",
+    "index": 113,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-056.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "deb8953e87a629da39af72e4b594dc90f4cb994dd4ee868b988a96270552c414"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001103_left.png",
+    "index": 114,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-057.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "14fae23a3c7e2a3b94bc6f722150b0836846a76421fda43b2c9f4c44fa855a86"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001103_right.png",
+    "index": 115,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-057.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1dd245576375296931dceec0f2a307ca99b13eeaeaf44fdd5e3165141fd53065"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001117_left.png",
+    "index": 116,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-058.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "82d8815a7b7f9201d9b0930ef9717dea0bc7b9e9d6a2a7a9a3e8bc91314ab90f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001117_right.png",
+    "index": 117,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-058.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "b269c7cc278476517971699f90e6351a218bd9e7c77f26ccd62bff89d80e4492"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001120_left.png",
+    "index": 118,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-059.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "05e89fc6e200858f4e143085899e362e8b6529f6d71cbb775085754ba550d24d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001120_right.png",
+    "index": 119,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "红色衣袖和手臂占据近景，残余画面为门框/磨砂玻璃/地板；可见区域无足球。玻璃虚化不单凭低纹理判球运动模糊，镜头被手臂挡住不标足球Occluded。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-059.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "227ca98bada89c8728a6ef414eafde90499e649b8510b5a32844a1fdd1228465"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001132_left.png",
+    "index": 120,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-060.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2f6fe61aca7cbf8924e99b8aa4001f3d88c8936b48c3f935a96e56bc5ab0a283"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001132_right.png",
+    "index": 121,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-060.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "d6c6cd5969169f6348b2b80b93c79776bf45f01cb0f940532852a997e5898562"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001138_left.png",
+    "index": 122,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-061.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "aab3cbbfd48c10e7ed4b13155ed85faceadd4439684b72485c4e859a5ef0c709"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001138_right.png",
+    "index": 123,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-061.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "18cfbd54a37d8125a944deb46ec01fd70506e8ee0d533457cecd6627fc213027"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001140_left.png",
+    "index": 124,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-062.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f76a7b2b070c216abeb32a8d5946c0fb59dc3e0c89e6a70cc38f5141ff7d6f1d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001140_right.png",
+    "index": 125,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-062.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "93444a4e19538d35b0aa76ea297cef25acd7aac0766e4b376d66f216f24ccd33"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001154_left.png",
+    "index": 126,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-063.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "6f0be18f173352297f0b4376b0ba715cc6adfab9578aef2ed44a23f98d15b8f0"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001154_right.png",
+    "index": 127,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-063.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c79a34b9cbb308a18ac9136fb6768cb409119f5ece5c7c2f3247a7f4765049d2"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001157_left.png",
+    "index": 128,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-064.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9d4b158dade7dcf1a576606b12465a8646727a461b4fdc04fea2f3bff244774b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001157_right.png",
+    "index": 129,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-064.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "d3e82fdcb0b677f963005c875c82d899827eb3bc03733c53ad43ecd42d3b4b1d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001168_left.png",
+    "index": 130,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-065.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "52db7b9fa2a226aabc5fdf837a3817b155781cb9e5d7647fa67994fa97c62212"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001168_right.png",
+    "index": 131,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "可见画面为红衣手臂、门边纸箱成捆水瓶、人员及方形高脚凳；逐幅无足球，不将水瓶或凳面当球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-065.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c1a2fb61b9315a789b6b357234ac37f78e1f34ed711a53995f2df717c9fb61a9"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001171_left.png",
+    "index": 132,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "方凳/门框及地板随相机移动出现方向性拖影；可见区域是手臂、衣服、家具和地面，无足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-066.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "fc954f6ca13a28e148d8b7e6c7fadb4d84f841fd3c9de032743df0baf4a236fb"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001171_right.png",
+    "index": 133,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "方凳/门框及地板随相机移动出现方向性拖影；可见区域是手臂、衣服、家具和地面，无足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-066.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "7b307d69dd072f763364476d1d7e29800d80c405329212a3c947226a9f0ac038"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001182_left.png",
+    "index": 134,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂和红衣近景，背景门边及瓷砖无可辨认足球；不因画外或手臂遮住未知区域猜测球存在。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-067.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "aa7eada14d1f6fc9bbb0a46e3270826a2326184c969fddabdfe0e8f4f1fbc826"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001182_right.png",
+    "index": 135,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂和红衣近景，背景门边及瓷砖无可辨认足球；不因画外或手臂遮住未知区域猜测球存在。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-067.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ed846e697c6346430da97bbafa3b2628018a1d1099c09c3cb2ba25b40958c5bc"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001188_left.png",
+    "index": 136,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "方凳/门框及地板随相机移动出现方向性拖影；可见区域是手臂、衣服、家具和地面，无足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-068.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "b606c00176e044bfd2c5b12d3d0c0b2c1d2ebb07d331fb74b457902ffd3ccd25"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001188_right.png",
+    "index": 137,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "方凳/门框及地板随相机移动出现方向性拖影；可见区域是手臂、衣服、家具和地面，无足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-068.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "6b50e85eaa25142b1e0686728ccfbecdc3c8ccb2efd6a226e3db0ed0ca066aeb"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001196_left.png",
+    "index": 138,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂和红衣近景，背景门边及瓷砖无可辨认足球；不因画外或手臂遮住未知区域猜测球存在。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-069.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "19b6b458f79c8291f8ea7fe658e2f2da9276356788c138c803251e140913680b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001196_right.png",
+    "index": 139,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂和红衣近景，背景门边及瓷砖无可辨认足球；不因画外或手臂遮住未知区域猜测球存在。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-069.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a80e3bdd5814566f6df066b4f9912ee6b8b736103b046e31d57eb3951d9c16ba"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001202_left.png",
+    "index": 140,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂和红衣近景，背景门边及瓷砖无可辨认足球；不因画外或手臂遮住未知区域猜测球存在。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-070.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1f200692bec3000c3e2d9a6a8781b4335f8a010bf3e23b5db186024cdbda80ce"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001202_right.png",
+    "index": 141,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂和红衣近景，背景门边及瓷砖无可辨认足球；不因画外或手臂遮住未知区域猜测球存在。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-070.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "3cb35b7fcf8310b6fe091fc61e09a03105e1aeebb39267d439cca34d56e37761"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001208_left.png",
+    "index": 142,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂和红衣近景，背景门边及瓷砖无可辨认足球；不因画外或手臂遮住未知区域猜测球存在。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-071.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "96e80c14cebb6084c48d08a191ff1a6cf34ae7d412ae5f0bfe583908ff0e9b07"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001208_right.png",
+    "index": 143,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂和红衣近景，背景门边及瓷砖无可辨认足球；不因画外或手臂遮住未知区域猜测球存在。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-071.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "62c32d66f6273481454d20cd381b6a7fc6bf89fb3f5048200ca28c41f99235fe"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001222_left.png",
+    "index": 144,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-072.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "0bf12ac219d5186516e0a1fbee13dbf975ce3ab91d069e39a29ad7a9e8bde600"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001222_right.png",
+    "index": 145,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-072.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "6134706ee543a61128d2da54d6cd56dd9342eccfa73af4ef87fbed7058962255"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001229_left.png",
+    "index": 146,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-073.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "04b69605f5a1cbf3564252c675f7cf80cfaf18c7fd46519cf763d6d5901a7ab0"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001229_right.png",
+    "index": 147,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-073.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "984c247722ac515f576d7f42e38382353cda52b846c7126ea29ee4bac68a8688"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001237_left.png",
+    "index": 148,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-074.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "6cc72b695e1c075301161069bfe3e1434f1f5fa0f76bc8a44ab51ff4a29e9887"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001237_right.png",
+    "index": 149,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-074.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "cf846770a74dc5e42a9e0f0d4ec16fd0538ac37b0e2ad89ad53faff485841c15"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001244_left.png",
+    "index": 150,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-075.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9ba012b477dd7e5622518a7468b51b08adcc911410e26145a9ef8d546022d78b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001244_right.png",
+    "index": 151,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-075.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "24ac369abc6af6fce42a1d4a1b98386ededf67ce63c822842f3baff32b961b57"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001251_left.png",
+    "index": 152,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-076.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e4ea3deb7676afd9d8f174b07fd6c275c83eae99a3dceadd45dc562ab0dbfc0b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001251_right.png",
+    "index": 153,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-076.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e6a4f54803e09bbfe52bf0fa573af2e42115f8e276e0f9d33fa491d52dfa591d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001253_left.png",
+    "index": 154,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-077.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2c40e6de5107abf12c64cad136aa614f5fbf2157664325e7f7b8dc9ad24860ce"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001253_right.png",
+    "index": 155,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手臂、瓷砖与机器金属杆逐幅可见；黑色球头与杆一体且无足球纹理，是机械连接件，图中无可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-077.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "cbab9cea9b2859f38b8e8a01e4a178c7d845e3003fa144d78537192caea53208"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001264_left.png",
+    "index": 156,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "原生全景及边缘细节检查，近景手臂和门框/机器人结构；白色零件为连杆和脚部，未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-078.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2da895645826652493a9cce8641771eca76015ad79bf2624bda4a4fc5ad2dc7a"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001264_right.png",
+    "index": 157,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "原生全景及边缘细节检查，近景手臂和门框/机器人结构；白色零件为连杆和脚部，未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-078.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "cd7d3e411767949c0c7dcb713a0ad729dcc692db10988b75fe0a367569a78ba5"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001268_left.png",
+    "index": 158,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "原生全景及边缘细节检查，近景手臂和门框/机器人结构；白色零件为连杆和脚部，未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-079.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "63e6a964e7577a4d17b5b642275c3930f5eff040329f6dd0bd2017ff162c87ca"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001268_right.png",
+    "index": 159,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "原生全景及边缘细节检查，近景手臂和门框/机器人结构；白色零件为连杆和脚部，未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-079.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "88f18f8fad67da0639138a543bb4a0a9cd7ddcd74ca0c6351017b06bc0a28bf3"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001276_left.png",
+    "index": 160,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "原生全景及边缘细节检查，近景手臂和门框/机器人结构；白色零件为连杆和脚部，未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-080.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/detail-n160.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "02c998f66fe1fc88546e0996b64e3e7f85b13c921d4d4cd0f2ed4de3eaa52d2b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001276_right.png",
+    "index": 161,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "原生全景及边缘细节检查，近景手臂和门框/机器人结构；白色零件为连杆和脚部，未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-080.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/detail-n161.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "696ccd6dc16dff242e32fd19f4d3cb321d15e5e259475d7ccf2b5a3329c978af"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001289_left.png",
+    "index": 162,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "needs_manual_bbox_annotation",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "右上架台有黑白球状花纹可见，空label存在疑似漏标；相机运动模糊，白色机器人脚与球缘相邻且边界不够可靠，不猜测框，需人工定位。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-081.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/detail-n162.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/grid-n162.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "65610b9fb69db2cfa7ed9ab53828058c0e63148a252b0d367aa6ab48e684a36b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001289_right.png",
+    "index": 163,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "原生全景及边缘细节检查，近景手臂和门框/机器人结构；白色零件为连杆和脚部，未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-081.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/detail-n163.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/grid-n163.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ad63d331ad8e259a11629f9263aabc5c9bb0c53678ec88542093e55fbb5f6832"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001292_left.png",
+    "index": 164,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "右侧架台上黑白足球可见，原框覆盖主要可见球；球完整尺度大于40px，边缘裁切不算Small或Occluded。球及架体运动拖影，局部暗边与机械部件融合，保留参考框请复核紧致边界。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-082.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/roi/page-000.png"
+    ],
+    "expected_label_sha256": "11b8a0fdbcc3a12e0d79768a56dbbecf60c49b3dac003335eda02e6257a3b865",
+    "expected_image_sha256": "0ca5d5a7cd1edc7775858cec15fe1050208efb979ce1930470ef46f6ea0f52a3"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001292_right.png",
+    "index": 165,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "右侧架台上黑白足球可见，原框覆盖主要可见球；球完整尺度大于40px，边缘裁切不算Small或Occluded。球及架体运动拖影，局部暗边与机械部件融合，保留参考框请复核紧致边界。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-082.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/roi/page-000.png"
+    ],
+    "expected_label_sha256": "bdd642f4ddf897206017670d8aae95085803968d5d15ea07ae9cb6621b6882ee",
+    "expected_image_sha256": "1cb3612bd3ee1100754c4fca72d5301d639cc83592927d9a73f63880a596cc28"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001299_left.png",
+    "index": 166,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "右侧架台上黑白足球可见，原框覆盖主要可见球；球完整尺度大于40px，边缘裁切不算Small或Occluded。球及架体运动拖影，局部暗边与机械部件融合，保留参考框请复核紧致边界。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-083.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/roi/page-000.png"
+    ],
+    "expected_label_sha256": "473b6b1570452793796a67344d85ad2b4f43f831fd0516e2597bd371e7dc2225",
+    "expected_image_sha256": "969e3a08075ee058452bda6634f6f75085f412f6f4b33b032eda4bd8fda5e641"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001299_right.png",
+    "index": 167,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "右侧架台上黑白足球可见，原框覆盖主要可见球；球完整尺度大于40px，边缘裁切不算Small或Occluded。球及架体运动拖影，局部暗边与机械部件融合，保留参考框请复核紧致边界。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-083.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/roi/page-000.png"
+    ],
+    "expected_label_sha256": "11bd4422e712b1af418a63d7af023c2c5b017ccaa002de546c1f5ed6cdd0a8b4",
+    "expected_image_sha256": "1202aba42f0aaa7f47b8c81ef769fceae51c01b204b398c011f26d7538c28986"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001307_left.png",
+    "index": 168,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "needs_manual_bbox_annotation",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "右侧黑底架台有明确黑白足球但label为空，缺少球框；白色脚部与球相邻且运动软边难定，球大于40px；不按左侧白色机器零件补框，需人工框可见足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-084.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/detail-n168.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/grid-n168.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f3c90de7663d499b02327899c8a0daa366745cae4f79b75052816b0a6ddb1537"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001307_right.png",
+    "index": 169,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "右侧架台上黑白足球可见，原框覆盖主要可见球；球完整尺度大于40px，边缘裁切不算Small或Occluded。球及架体运动拖影，局部暗边与机械部件融合，保留参考框请复核紧致边界。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-084.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/roi/page-000.png"
+    ],
+    "expected_label_sha256": "54e6d88b3488dc1e7cbdef133a4d765c587f9659ceb7d2ecd22e92a91bf24fd3",
+    "expected_image_sha256": "b74afab52f342e13c4bab406cd28e428023aaf6e4b4630d0618e9763064371da"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001315_left.png",
+    "index": 170,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "needs_visibility_review",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "右缘和手臂后有黑白片段，当前帧不能可靠区分足球与机器人白色部件；保留空label，No Ball置0待当前帧可见性复核，不借另一目补框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-085.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/detail-n170.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1dfb5212cf316e576643f8a9c6c422d05ae539b54a06f538d780533971ae41e4"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001315_right.png",
+    "index": 171,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "右侧架台上黑白足球可见，原框覆盖主要可见球；球完整尺度大于40px，边缘裁切不算Small或Occluded。球及架体运动拖影，局部暗边与机械部件融合，保留参考框请复核紧致边界。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-085.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/roi/page-000.png"
+    ],
+    "expected_label_sha256": "b2f66993a691b1a25056779b0ece03ebcdff3bc740551f4dd548d4510b4d7555",
+    "expected_image_sha256": "449d55edf86dca05fe238e7104c38bf6817bc64a4406658ed038ca83a38605b7"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001327_left.png",
+    "index": 172,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全图检查展厅机器人、机械黑色球头、玩偶及手臂，未见可辨认足球；展架和地面有整体方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-086.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/topleft-n172.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "181ffe847c3b27a12421075b5fa3992b846045484c6474a93b5e8cebe2efbd0d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001327_right.png",
+    "index": 173,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全图检查展厅机器人、机械黑色球头、玩偶及手臂，未见可辨认足球；展架和地面有整体方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-086.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "bf4c44a2656c9acf1223ae31fdd5acd6d38c4a0a6f0683dfac8dbe18027fd199"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001333_left.png",
+    "index": 174,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全图检查展厅机器人、机械黑色球头、玩偶及手臂，未见可辨认足球；展架和地面有整体方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-087.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/topleft-n174.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2685a323616b438ed91f0eae5f15d5928480e76e376921bac9b528eab14793c4"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001333_right.png",
+    "index": 175,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全图检查展厅机器人、机械黑色球头、玩偶及手臂，未见可辨认足球；展架和地面有整体方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-087.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9708c1095de7cdcd630cd5519ccbefed39cf28b0358a92da2f28d8458e6bf321"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001339_left.png",
+    "index": 176,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全图检查展厅机器人、机械黑色球头、玩偶及手臂，未见可辨认足球；展架和地面有整体方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-088.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/topleft-n176.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e07e5ef295dd1bce29dae4ba13b2685af90bc480981327f00f9ba57d3801020a"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001339_right.png",
+    "index": 177,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全图检查展厅机器人、机械黑色球头、玩偶及手臂，未见可辨认足球；展架和地面有整体方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-088.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "dd4b10c7ae7bd4b1bd81af645afe7d7caae4ccf6ac34002401179c44a7c9e73a"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001344_left.png",
+    "index": 178,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全图检查展厅机器人、机械黑色球头、玩偶及手臂，未见可辨认足球；展架和地面有整体方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-089.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/topleft-n178.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a50ee079b72d7d2b2639f81af2180cb525994c4c21a585c8e557fe9b63f6f5f4"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001344_right.png",
+    "index": 179,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全图检查展厅机器人、机械黑色球头、玩偶及手臂，未见可辨认足球；展架和地面有整体方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-089.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "72aaa9d26952e8497ae212af43a4bf2c13afd9fff4e4ae5afca0de4f2b24b063"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001357_left.png",
+    "index": 180,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-090.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/topleft-n180.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "59dacd7dedfc49d0739f0778a11cbe24c78cd728f345984ac8a0a2969e517056"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001357_right.png",
+    "index": 181,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-090.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1df8935442540ca093ec1d1b94066de259b46148e1aa78b2681fee36d1a15657"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001358_left.png",
+    "index": 182,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-091.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/topleft-n182.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "b28303f8ae38ff4a0f600646d9a0cd40480d527084f81bb5587a4c7c37edb48f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001358_right.png",
+    "index": 183,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-091.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9d2aced63aa02ad590d8b0adfc78789af313f088ac65ccbf173f67f1585f7928"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001372_left.png",
+    "index": 184,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-092.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1d422bba5f536fc59b716bfc7be8962c99d0dc0ed791f7af762faa30d246a8c2"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001372_right.png",
+    "index": 185,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-092.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "5270cd3b12b829842289ac781fe6e1a165640e6a5af817856e25048fad42b640"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001374_left.png",
+    "index": 186,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-093.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "7ebc8c76480e5a7730fb84f95b95e9987fc85dfb78417c19a277be6411353be2"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001374_right.png",
+    "index": 187,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-093.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "8b4ef9ccc36d0e334c98f4290350d81557ee52f6c3f273b8305504d7f23165e2"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001383_left.png",
+    "index": 188,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-094.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "48a6b037204f46a6d168a7798f7b4cb968ffbf2441c65b3336895b7d44ae1700"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001383_right.png",
+    "index": 189,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-094.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a7b6510401643dfa4e74432445f44ecb58ccae561ac343963a326c7a32926b9d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001394_left.png",
+    "index": 190,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-095.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f5ab03e22996795601d4c1306f8f6ce22e402d73a582fb0c5eb98d89b4bbe759"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001394_right.png",
+    "index": 191,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋、手和双足机器构件近景，背景为机器人与大型玩偶；左上白色连串构件放大核对属于机器人腿足，无可见足球。仅鞋手移动不标球模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-095.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c8c3c112649fd20c69f1e2af830999213b05de2bc886de4bd1ce316fa1ce78b7"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001395_left.png",
+    "index": 192,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对：近景机器、鞋手或倒置仰视人员天花灯，均无足球；明亮圆斑是顶灯，不标球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-096.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ac717212e52cf16daff0eaaac1dc5d41156cb5d1f027422c87c5fce86a43659b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001395_right.png",
+    "index": 193,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对：近景机器、鞋手或倒置仰视人员天花灯，均无足球；明亮圆斑是顶灯，不标球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-096.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ce9eb464bff7e02c3055ec44ce839c81d19feaa5eb4cd7b0e0cff4e6f24730da"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001404_left.png",
+    "index": 194,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "相机旋转仰拍，人物及门/柜边缘整体明显方向拖影，无可见足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-097.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "5b7300029f0791117dc5bb9a09132159c911ef63bed1f19ba6058b369a8d6de5"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001404_right.png",
+    "index": 195,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "相机旋转仰拍，人物及门/柜边缘整体明显方向拖影，无可见足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-097.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "30a0497c13e2ae66de23f17a94f90e6ef78ebc09044b0d597b285060fa2ac922"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001417_left.png",
+    "index": 196,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对：近景机器、鞋手或倒置仰视人员天花灯，均无足球；明亮圆斑是顶灯，不标球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-098.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "65a3fb7e1341f884a54e6dd0f6a015cb58c2ebaf2748f645dadfd50bc2dd66a6"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001417_right.png",
+    "index": 197,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对：近景机器、鞋手或倒置仰视人员天花灯，均无足球；明亮圆斑是顶灯，不标球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-098.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "4d7f1cefa8a6540a26c3e1dbd521f3624a86375905f0ccd32b6429ae17871108"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001420_left.png",
+    "index": 198,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对：近景机器、鞋手或倒置仰视人员天花灯，均无足球；明亮圆斑是顶灯，不标球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-099.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "acbd6439c59497b3eb62121a1161a4502458bab900d536c8c716f34f68c2b1c2"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001420_right.png",
+    "index": 199,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对：近景机器、鞋手或倒置仰视人员天花灯，均无足球；明亮圆斑是顶灯，不标球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-099.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ffe7af921863f399b9ca4b47bad61d0b57c044b0e97fa57acf487b98a0e5794f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001425_left.png",
+    "index": 200,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对：近景机器、鞋手或倒置仰视人员天花灯，均无足球；明亮圆斑是顶灯，不标球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-100.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c370a7468a022ec407ff07b0ace7a8ea63c717ff00a87d291e3c5110eb0d14bf"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001425_right.png",
+    "index": 201,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对：近景机器、鞋手或倒置仰视人员天花灯，均无足球；明亮圆斑是顶灯，不标球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-100.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1afbc9c0a993db74915e8fb4a1b540180b98053a0475482b698e7688bfcab324"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001433_left.png",
+    "index": 202,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对：近景机器、鞋手或倒置仰视人员天花灯，均无足球；明亮圆斑是顶灯，不标球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-101.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f8ed82b411f985d2f6464f06d9f31af296237fa080b81e33df33235521b3e114"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001433_right.png",
+    "index": 203,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅全景核对：近景机器、鞋手或倒置仰视人员天花灯，均无足球；明亮圆斑是顶灯，不标球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-101.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "04c5649efdcf150f24c1c9f51bda542f63ee14a85240a634f29eeba0369dc9bc"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001445_left.png",
+    "index": 204,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-102.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "3f41c41ada837fee21b0ac6ffd73fb73234445caebfb784b280a8548544f3fbb"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001445_right.png",
+    "index": 205,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-102.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "85428a6f5ed6c7257592a4931effdaa76e6eebb395bb0fd80fbf193d76447d66"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001452_left.png",
+    "index": 206,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-103.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "24f5fb80b9fc4e4c069e04fb4844dfb89a807abf0bb65c713d6f3b84fb6ec6ed"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001452_right.png",
+    "index": 207,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-103.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "5326bbf701ff877a7944f93e8df1ea2a6cda3fb9b213673b2e4f79f696b0bf0b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001458_left.png",
+    "index": 208,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-104.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ea112097c79eabf73b587f8918d8c5a55ffca25becde0abd308c9012319acc26"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001458_right.png",
+    "index": 209,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-104.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f2316fc59eb556b31644d5df71d4a0f58bbbdb513c85d5b48e9083a81e3ce3c2"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001463_left.png",
+    "index": 210,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-105.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "8b3d8959f45f8e0fedc4b872d9906444d872571d7bddf8a479ae6c21455ed61f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001463_right.png",
+    "index": 211,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-105.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "014ea60d33dfca8dd2d78b291e7e2ca4e0fe106d5b3b7479e307b4c6f13cdffa"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001470_left.png",
+    "index": 212,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-106.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "7c3bd2e5f3dd938dd86706a037756b6a050b96e79aba174b5b9f2956977f1573"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001470_right.png",
+    "index": 213,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-106.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1dee7a9b531a0c8721a1cb8d32b7c8b3169f059b22899b16da5e370a6d20f81b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001483_left.png",
+    "index": 214,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-107.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ef94f699f627257b87c3a88af863a0f07c42dc184e9ecead124532b1fa261964"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001483_right.png",
+    "index": 215,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "倒置仰视人员、衣裤和天花灯逐幅无足球；圆形灯/顶面圆构件是背景结构，不作小球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-107.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a40a66f2f121b2d6f45d86e4cfe7923adf51c72e5b35f10c9d2913bbdc72fd06"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001485_left.png",
+    "index": 216,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅仰视天花板和边缘人员，无可见足球；灯具、线缆及顶面圆环为固定背景。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-108.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "eb8666eb8bd3a076f99b24c40750082dbf20f4c0c5065c8847b02e8a79f5615b"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001485_right.png",
+    "index": 217,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅仰视天花板和边缘人员，无可见足球；灯具、线缆及顶面圆环为固定背景。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-108.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1af6c971e0cb64f7f65a58f65da3d811d6fba44a9120936cf7b9e747c34e6844"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001497_left.png",
+    "index": 218,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅仰视天花板和边缘人员，无可见足球；灯具、线缆及顶面圆环为固定背景。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-109.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ae0c872715705879ca1874ba79bf97bec7dfefd22b86ef9125d173e4cf53be9f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001497_right.png",
+    "index": 219,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅仰视天花板和边缘人员，无可见足球；灯具、线缆及顶面圆环为固定背景。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-109.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2885d4e6564577be877f2d69a66adecf439d3cd50785b02e2eb6fed71572b898"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001506_left.png",
+    "index": 220,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅仰视天花板和边缘人员，无可见足球；灯具、线缆及顶面圆环为固定背景。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-110.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ddfa863d9071bc8e3e82fa9a1686ad319672f409a7bb5f9d6193f810ff01bae3"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001506_right.png",
+    "index": 221,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅仰视天花板和边缘人员，无可见足球；灯具、线缆及顶面圆环为固定背景。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-110.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "3712955b98f25c7a85b427cd06e01dc846b622ace69d8ef8be59bc4b51e2c7f4"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001509_left.png",
+    "index": 222,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅仰视天花板和边缘人员，无可见足球；灯具、线缆及顶面圆环为固定背景。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-111.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "6f5e9b081c58b247429426d1b06e0f6043c5c84094c35a60a59ed29311f4808a"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001509_right.png",
+    "index": 223,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅仰视天花板和边缘人员，无可见足球；灯具、线缆及顶面圆环为固定背景。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-111.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "82035cce84098c8af6c81a4434e826d49add03ebfbec7ff8f0387271fe6fe0cb"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001526_left.png",
+    "index": 224,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅仰视天花板和边缘人员，无可见足球；灯具、线缆及顶面圆环为固定背景。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-112.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "059b88493a63a479ee792a8ddd0a9ca7a795e2a25bf7f584355aee59efd53ed2"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001526_right.png",
+    "index": 225,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "逐幅仰视天花板和边缘人员，无可见足球；灯具、线缆及顶面圆环为固定背景。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-112.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9e97125ca331696d1d8fdab6ab5b96b0ce8169e024e48809a79e7c2df5e69046"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001532_left.png",
+    "index": 226,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "天花灯被相机运动拉成长线，整图强烈方向拖影；可见区域仅为顶面无足球，保留空框负样本候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-113.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "8865bc98edd134cdfa7e89c77f74b3d9633a2089f8b2dd32451c454225fc07de"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001532_right.png",
+    "index": 227,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "天花灯被相机运动拉成长线，整图强烈方向拖影；可见区域仅为顶面无足球，保留空框负样本候选。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-113.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e9840ef6d1e99b69d8e3e1b41fccea3e0e21aaf4b878cd69fff3149b95cb1070"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001543_left.png",
+    "index": 228,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "相机转向展厅，电视、灯和人物呈方向运动拖影；可见区域未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-114.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2f22f084b7bf08a7c8a3e62126e6a041ac87a81ecd04cc369411ec65ddce2aa6"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001543_right.png",
+    "index": 229,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "相机转向展厅，电视、灯和人物呈方向运动拖影；可见区域未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-114.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "4ecf0ae61a09830cd722165b6bb1d282db4990e3407207b0cd79ea10757b8f13"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001552_left.png",
+    "index": 230,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "相机转向展厅，电视、灯和人物呈方向运动拖影；可见区域未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-115.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "42f95e35ff6a2e2f5bfe1ad52698fa6d586d08a83d72e3a1ce5842135c4e4622"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001552_right.png",
+    "index": 231,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "相机转向展厅，电视、灯和人物呈方向运动拖影；可见区域未见可辨认足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-115.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "60a4e30e89cdef4599e613868b06b4db5aae43bedfbd8ef36228106bb580e7c2"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001558_left.png",
+    "index": 232,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "展厅电视、两名人员和黑色小型机器人全图检查无足球；白色块来自鞋及机器脚，人员手中为控制器。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-116.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "d5d185fda9a260fa9c6e4fb916d8d85f63509392c1ff97de2f1ae31297908efb"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001558_right.png",
+    "index": 233,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "展厅电视、两名人员和黑色小型机器人全图检查无足球；白色块来自鞋及机器脚，人员手中为控制器。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-116.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "658ddd697ebf879127e138099e8c98a2244ce281094baa21f80860b2ad007415"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001563_left.png",
+    "index": 234,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "展厅电视、两名人员和黑色小型机器人全图检查无足球；白色块来自鞋及机器脚，人员手中为控制器。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-117.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "521f3f4bb0afd249d64146de02f66ca1d1f70ed4cb841556032d9bf3ee3636dd"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001563_right.png",
+    "index": 235,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "展厅电视、两名人员和黑色小型机器人全图检查无足球；白色块来自鞋及机器脚，人员手中为控制器。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-117.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "82d64fbf8ec2dd94385ff15f9d3f4379a46ffbb104e119e25a36b841fb5b027f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001569_left.png",
+    "index": 236,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "展厅电视、两名人员和黑色小型机器人全图检查无足球；白色块来自鞋及机器脚，人员手中为控制器。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-118.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "169eb9794b971d7f0018f7033ebc073d472851ca457a08d099f1078d661dcfdd"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001569_right.png",
+    "index": 237,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "展厅电视、两名人员和黑色小型机器人全图检查无足球；白色块来自鞋及机器脚，人员手中为控制器。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-118.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e5b2f3c5e1959c5c257e76f717df495eeec6a413f96c6b9344b39a9bab4f398f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001581_left.png",
+    "index": 238,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "展厅电视、两名人员和黑色小型机器人全图检查无足球；白色块来自鞋及机器脚，人员手中为控制器。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-119.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "bc748a52d25d51ec37232747fc1b9fc6234040f3602014223e13190be4e57655"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001581_right.png",
+    "index": 239,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "展厅电视、两名人员和黑色小型机器人全图检查无足球；白色块来自鞋及机器脚，人员手中为控制器。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-119.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "73d1e57673cd0320a9eac9157ad9d656264eeaaea67dcb1444eb75cd45379112"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001583_left.png",
+    "index": 240,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、两名人员、黑色机器人、鞋及地面逐幅核对，无可见足球；机器人圆台/白色脚均不误作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-120.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "0f614e386146c13522ce225d3d15e1d6fc0f35d6f526b0abf4ba269d6a167f1e"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001583_right.png",
+    "index": 241,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、两名人员、黑色机器人、鞋及地面逐幅核对，无可见足球；机器人圆台/白色脚均不误作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-120.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "751758a1fb548d0ff920a46afb3d90ccbb8dc9728ad829f2709d062d68c61641"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001593_left.png",
+    "index": 242,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、两名人员、黑色机器人、鞋及地面逐幅核对，无可见足球；机器人圆台/白色脚均不误作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-121.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9f71a77dfcc257d1b173eebd596c3b8c6b2267382a1f27f8e501a1d9e8181c7f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001593_right.png",
+    "index": 243,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、两名人员、黑色机器人、鞋及地面逐幅核对，无可见足球；机器人圆台/白色脚均不误作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-121.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ea590dd34474bb6715dcea34c16129ea61e565a7a9005d1d646249ec22df511e"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001599_left.png",
+    "index": 244,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、两名人员、黑色机器人、鞋及地面逐幅核对，无可见足球；机器人圆台/白色脚均不误作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-122.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "91f41db700666fce1351241b7af5188d8613a190e0f46d0fce0ca73fdd2c98d4"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001599_right.png",
+    "index": 245,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、两名人员、黑色机器人、鞋及地面逐幅核对，无可见足球；机器人圆台/白色脚均不误作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-122.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e082e8a47353f6fbdc2ac0a98b7c9e3c33d51ceb944c00e5814f6d6c1371d42c"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001605_left.png",
+    "index": 246,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、两名人员、黑色机器人、鞋及地面逐幅核对，无可见足球；机器人圆台/白色脚均不误作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-123.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "63709335628d67c7bc21a9104c5f83fb93a5728363d83c3ff213a27a42ae2659"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001605_right.png",
+    "index": 247,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、两名人员、黑色机器人、鞋及地面逐幅核对，无可见足球；机器人圆台/白色脚均不误作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-123.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2df94d9e2fd9175a03279c06f6836727768df7e3690ae1a631c7348777ff90eb"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001614_left.png",
+    "index": 248,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、两名人员、黑色机器人、鞋及地面逐幅核对，无可见足球；机器人圆台/白色脚均不误作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-124.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9d5429672dafd4d1c9505b97bd1ca3930411e6b7f7eba87ad42bac9ef56cb158"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001614_right.png",
+    "index": 249,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、两名人员、黑色机器人、鞋及地面逐幅核对，无可见足球；机器人圆台/白色脚均不误作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-1/full/page-124.png"
+    ],
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c14c6705300944252a72c168bd9ec8ec1243a7acbb14d59c3f2aab7736fb95a4"
+  }
+]

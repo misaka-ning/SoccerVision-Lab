@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "success": true,
+  "reviewer": "independent_batch009_handoff_readonly_audit",
+  "created_at_utc": "2026-10-19T03:24:01.457206+00:00",
+  "checks": {
+    "fresh_snapshot_equals_audit_before_inventory": true,
+    "immutable_1000_order_snapshot_and_details": true,
+    "metadata_after_anchored_by_result_sha": true,
+    "total8398_order_headers_BOM_preserved": true,
+    "all_record_line_endings_preserved": true,
+    "outside_7398_raw_records_preserved": true,
+    "1000_images_labels_match_fresh_snapshot_sha": true,
+    "only_status_note_reviewflags_changed_fourflags_provenance_counts_preserved": true,
+    "1000_prior_notes_preserved_exact_confirmation_appended": true,
+    "1000_dual00_status_consistent_with_labels_NoBall": true,
+    "approved_records_match_actual_fresh_media": true,
+    "624_positive376_negative_zero_excluded": true,
+    "result_declares_zero_media_scene_writes": true,
+    "dataset_done8000_pending398_no_mixed": true
+  },
+  "failures": [],
+  "metrics": {
+    "images_approved": 1000,
+    "reviewed_annotation": 624,
+    "negative_confirmed": 376,
+    "reviewed_excluded": 0,
+    "outside_raw_preserved": 7398,
+    "dataset_done": 8000,
+    "dataset_pending": 398,
+    "changed_columns": [
+      "annotation_status",
+      "label_review_note",
+      "label_review_required",
+      "scene_review_required"
+    ]
+  },
+  "canonical_dataset_written": false,
+  "metadata_after_source": "/home/misaka/workspace/dataset_processing/batch-review-20261016/applied/20261019T032342Z-56593226/before/metadata.csv",
+  "metadata_before_sha256": "e7ad9bc05e5b386efd39e0a0b86ee8710da75946998c5bcbe3e1a8bd83887772",
+  "metadata_after_sha256": "d941eb92929c5ce8fb97bef51b066af6ab8ee0359705739d4f2ba1f96d522dc1",
+  "snapshot_sha256": "f24f9a800919e91a9093a5a078b415dbbceeb98cd9fb9aa9c032ef41c2055d58"
+}

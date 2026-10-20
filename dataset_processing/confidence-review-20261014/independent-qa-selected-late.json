@@ -1,0 +1,1008 @@
+[
+  {
+    "record": {
+      "index": 3325,
+      "filename": "video_4bec9c343db72928_frame_00006234_right.png",
+      "图片": "video_4bec9c343db72928_frame_00006234_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006234_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00006234_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "e2d5dc295622ad78419dba4c10cc2dfd6f2a3106409bfa38bfe3eb1569ed3804",
+      "label_sha256": "da0288438c920a7c9722a662c5934f5ec7375e32fb6e0974243f1a997684c11e",
+      "label_text": "0 0.488737723 0.715371011 0.112630804 0.197435106\n0 0.064732143 0.224734043 0.081845238 0.114361702\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            290.587799712,
+            231.861700208,
+            366.27570000000003,
+            306.09730006399997
+          ],
+          "xywhn": [
+            0.488737723,
+            0.715371011,
+            0.112630804,
+            0.197435106
+          ],
+          "raw_line": "0 0.488737723 0.715371011 0.112630804 0.197435106"
+        },
+        {
+          "box_index": 1,
+          "xyxy": [
+            16.000000128000003,
+            63.000000191999995,
+            71.000000064,
+            106.00000014399998
+          ],
+          "xywhn": [
+            0.064732143,
+            0.224734043,
+            0.081845238,
+            0.114361702
+          ],
+          "raw_line": "0 0.064732143 0.224734043 0.081845238 0.114361702"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00006234_right.png",
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "2",
+        "preserved_box_count": "0",
+        "label_review_note": "实际检查 early026–040 页；保留足球框，机器人身体、人体与鞋等候选排除；精确框与困难标签待审。 本段明确两个球，保留近球与左侧远球。 最终label叠框复核后补/修背景球可见范围候选，精确边界仍待审。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "6234",
+        "eye": "right"
+      },
+      "source_frame_idx": 6234,
+      "eye": "right"
+    },
+    "group": 1,
+    "local": 1009,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 3416,
+      "filename": "video_4bec9c343db72928_frame_00006583_left.png",
+      "图片": "video_4bec9c343db72928_frame_00006583_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006583_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00006583_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "ffe0a07c580ebc0910c04ec6cb3e0c2e09c1da623224a063077766be95d8eb37",
+      "label_sha256": "7edbc8abd236e0de06fb8f1a6cc1c5fd6b237c93004b0c2e42a533170d78a125",
+      "label_text": "0 0.593410714 0.838690293 0.118044345 0.225466755\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            359.109099888,
+            272.959800228,
+            438.434899728,
+            357.735300108
+          ],
+          "xywhn": [
+            0.593410714,
+            0.838690293,
+            0.118044345,
+            0.225466755
+          ],
+          "raw_line": "0 0.593410714 0.838690293 0.118044345 0.225466755"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00006583_left.png",
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "实际检查 early026–040 页；保留足球框，机器人身体、人体与鞋等候选排除；精确框与困难标签待审。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "6583",
+        "eye": "left"
+      },
+      "source_frame_idx": 6583,
+      "eye": "left"
+    },
+    "group": 1,
+    "local": 1100,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 3617,
+      "filename": "video_4bec9c343db72928_frame_00007372_right.png",
+      "图片": "video_4bec9c343db72928_frame_00007372_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007372_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00007372_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "7be2d5d7a1c9e3be63661da09de8fff225d6ee59e4818ccd9c1e1c265dee9dd6",
+      "label_sha256": "1dc6ca234d1fbcbec3be712b23f58b45db5ef45a7c63ce5b5d3a8f7a96e7f5f2",
+      "label_text": "0 0.206802307 0.806994947 0.046811161 0.081813830\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            123.242600208,
+            288.049100032,
+            154.69970039999998,
+            318.81110011199996
+          ],
+          "xywhn": [
+            0.206802307,
+            0.806994947,
+            0.046811161,
+            0.08181383
+          ],
+          "raw_line": "0 0.206802307 0.806994947 0.046811161 0.081813830"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00007372_right.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "实际检查 early026–040 页；保留足球框，机器人身体、人体与鞋等候选排除；精确框与困难标签待审。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "7372",
+        "eye": "right"
+      },
+      "source_frame_idx": 7372,
+      "eye": "right"
+    },
+    "group": 1,
+    "local": 1185,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 3692,
+      "filename": "video_4bec9c343db72928_frame_00007663_left.png",
+      "图片": "video_4bec9c343db72928_frame_00007663_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007663_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00007663_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "efb76d6e66dd48a9f156b414f63cf34bf2fb5635efa3f49bb4f3408d5b4ba2a1",
+      "label_sha256": "51fcba495be1ede823a6d1ad19b339e28e89fd3d2bd262cc1a96ce3c46f078b5",
+      "label_text": "0 0.677817485 0.925911436 0.061272470 0.114931383\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            434.9058,
+            326.535599932,
+            476.08089984000003,
+            369.74979994
+          ],
+          "xywhn": [
+            0.677817485,
+            0.925911436,
+            0.06127247,
+            0.114931383
+          ],
+          "raw_line": "0 0.677817485 0.925911436 0.061272470 0.114931383"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00007663_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "实际检查 early026–040 页；保留足球框，机器人身体、人体与鞋等候选排除；精确框与困难标签待审。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "7663",
+        "eye": "left"
+      },
+      "source_frame_idx": 7663,
+      "eye": "left"
+    },
+    "group": 1,
+    "local": 1260,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 3842,
+      "filename": "video_4bec9c343db72928_frame_00008221_left.png",
+      "图片": "video_4bec9c343db72928_frame_00008221_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008221_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00008221_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "e9f82f3cdacb43c0a8bbd554435466f5441fc9e8eb2c7b36ee075ec19151b374",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "label_text": "",
+      "boxes": [],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00008221_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "needs_manual_bbox_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "0",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 当前预计可见1个球，仅有0个框，需重点检查并补齐漏框。 未生成可靠框；label缺失表示待审核，不是无球空标注。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "8221",
+        "eye": "left"
+      },
+      "source_frame_idx": 8221,
+      "eye": "left"
+    },
+    "group": 1,
+    "local": 1410,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 3961,
+      "filename": "video_4bec9c343db72928_frame_00008664_right.png",
+      "图片": "video_4bec9c343db72928_frame_00008664_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008664_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00008664_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "934757f43a1c40c7436ce95bbff42e9779478992061ea2670389bf5c3165cbf8",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "label_text": "",
+      "boxes": [],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00008664_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "needs_manual_bbox_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "0",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 当前预计可见1个球，仅有0个框，需重点检查并补齐漏框。 未生成可靠框；label缺失表示待审核，不是无球空标注。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "8664",
+        "eye": "right"
+      },
+      "source_frame_idx": 8664,
+      "eye": "right"
+    },
+    "group": 1,
+    "local": 1529,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 5416,
+      "filename": "video_4bec9c343db72928_frame_00014299_left.png",
+      "图片": "video_4bec9c343db72928_frame_00014299_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014299_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00014299_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "eaeffb6179aeed0243a1b8d5c2a8ec4e65899abd5082ab861cd406a079b24175",
+      "label_sha256": "466216ef36e975fd4348e8a684203a7b03547f9c4ca2a707fa01c0402408ca4d",
+      "label_text": "0 0.223984970 0.787528856 0.020141964 0.035027394\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            143.750199936,
+            289.525699784,
+            157.285599744,
+            302.695999928
+          ],
+          "xywhn": [
+            0.22398497,
+            0.787528856,
+            0.020141964,
+            0.035027394
+          ],
+          "raw_line": "0 0.223984970 0.787528856 0.020141964 0.035027394"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00014299_left.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "14299",
+        "eye": "left"
+      },
+      "source_frame_idx": 14299,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 1156,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 5419,
+      "filename": "video_4bec9c343db72928_frame_00014303_right.png",
+      "图片": "video_4bec9c343db72928_frame_00014303_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014303_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00014303_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "e08537db467a24286a05c1662cbe6984d0507a3249ec44df5c8a6c29e794597f",
+      "label_sha256": "3a058acc4f26ba7bff31cf7a017b3709b916a5838eb0677d6def8fdba84a73d7",
+      "label_text": "0 0.160996801 0.801982979 0.020355208 0.044967021\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            101.35050038399999,
+            293.09180015600003,
+            115.02920016,
+            309.999400052
+          ],
+          "xywhn": [
+            0.160996801,
+            0.801982979,
+            0.020355208,
+            0.044967021
+          ],
+          "raw_line": "0 0.160996801 0.801982979 0.020355208 0.044967021"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00014303_right.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "14303",
+        "eye": "right"
+      },
+      "source_frame_idx": 14303,
+      "eye": "right"
+    },
+    "group": 2,
+    "local": 1159,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 5498,
+      "filename": "video_4bec9c343db72928_frame_00014607_left.png",
+      "图片": "video_4bec9c343db72928_frame_00014607_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014607_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00014607_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "7026ce140f902f09cbde336d88717bf6e5dac26a9793aa7a4151fe2db76ac959",
+      "label_sha256": "10186613d041abb014a2fc28e82d249240190e4db1c644070e68522280ea40c0",
+      "label_text": "0 0.327902604 0.731687899 0.027216220 0.054391755\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            211.20589996799998,
+            264.88900008400003,
+            229.495199808,
+            285.340299964
+          ],
+          "xywhn": [
+            0.327902604,
+            0.731687899,
+            0.02721622,
+            0.054391755
+          ],
+          "raw_line": "0 0.327902604 0.731687899 0.027216220 0.054391755"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00014607_left.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "14607",
+        "eye": "left"
+      },
+      "source_frame_idx": 14607,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 1238,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 5555,
+      "filename": "video_4bec9c343db72928_frame_00014819_right.png",
+      "图片": "video_4bec9c343db72928_frame_00014819_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014819_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00014819_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "9e6efb3efd74a81813315fcc65b1f3b52315eb2d9e1e10a2612772792f6986e6",
+      "label_sha256": "8eea63530ca68874c64bf808387d0b0048579c23f18d7a5700dbabee5122588f",
+      "label_text": "0 0.0342261905 0.9175531915 0.0684523810 0.1063829787\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            0.0,
+            325.00000000840004,
+            46.000000032,
+            364.9999999996
+          ],
+          "xywhn": [
+            0.0342261905,
+            0.9175531915,
+            0.068452381,
+            0.1063829787
+          ],
+          "raw_line": "0 0.0342261905 0.9175531915 0.0684523810 0.1063829787"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00014819_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "足球可能完全遮挡、出画或远处细节不能确认；不作无球负样本。 未生成可靠框；label缺失表示待审核，不是无球空标注。 2026-10-14 框边界审核：原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。 来源：middle-missing-extra.json; full scene, native ROI and proposed overlay inspected by assistant；原框SHA256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855；原状态=needs_visibility_review；助手修正候选框，需人工复核。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "14819",
+        "eye": "right"
+      },
+      "source_frame_idx": 14819,
+      "eye": "right"
+    },
+    "group": 2,
+    "local": 1295,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 5673,
+      "filename": "video_4bec9c343db72928_frame_00015275_right.png",
+      "图片": "video_4bec9c343db72928_frame_00015275_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015275_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00015275_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "9098368276dc4af0c774a420223532d973a00e003c30d8c823da4afa7a2a478a",
+      "label_sha256": "fe127058f5637f5fb9ad03e96ac50bdb66409c8f56b64dd4ee904d3c6763555c",
+      "label_text": "0 0.027626488 0.943502128 0.053686012 0.100997340\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            0.5264999040000014,
+            335.769300208,
+            36.603499968,
+            373.744300048
+          ],
+          "xywhn": [
+            0.027626488,
+            0.943502128,
+            0.053686012,
+            0.10099734
+          ],
+          "raw_line": "0 0.027626488 0.943502128 0.053686012 0.100997340"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00015275_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "底边或侧边截断球，截断不等于遮挡；完整尺寸待审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "15275",
+        "eye": "right"
+      },
+      "source_frame_idx": 15275,
+      "eye": "right"
+    },
+    "group": 2,
+    "local": 1413,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 5859,
+      "filename": "video_4bec9c343db72928_frame_00015968_right.png",
+      "图片": "video_4bec9c343db72928_frame_00015968_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015968_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00015968_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "732b82e29d0aac82269f646a7ecdbdf97a04fa00257fdaf4b780f27509ee661a",
+      "label_sha256": "8c0a25497cb91f7a2862278c3cf90930c336212d4aaaae3bb1fc3c27bd0b2efc",
+      "label_text": "0 0.273533185 0.879393750 0.083575893 0.146266755\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            155.732800272,
+            303.15390005999996,
+            211.895800368,
+            358.15019994
+          ],
+          "xywhn": [
+            0.273533185,
+            0.87939375,
+            0.083575893,
+            0.146266755
+          ],
+          "raw_line": "0 0.273533185 0.879393750 0.083575893 0.146266755"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00015968_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "15968",
+        "eye": "right"
+      },
+      "source_frame_idx": 15968,
+      "eye": "right"
+    },
+    "group": 2,
+    "local": 1529,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 7511,
+      "filename": "video_4bec9c343db72928_frame_00022213_right.png",
+      "图片": "video_4bec9c343db72928_frame_00022213_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00022213_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00022213_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "f769ca0a67e4223aa99141e740a46ec21fcb9fd523a2d24107f848a3876046cd",
+      "label_sha256": "6b31ca8a36114f3bd8e170e45469c59d1315754938303b83ff4364b39a7c574b",
+      "label_text": "0 0.351869048 0.387467686 0.099104167 0.175813032\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            203.157000144,
+            112.63499992,
+            269.755000368,
+            178.740699952
+          ],
+          "xywhn": [
+            0.351869048,
+            0.387467686,
+            0.099104167,
+            0.175813032
+          ],
+          "raw_line": "0 0.351869048 0.387467686 0.099104167 0.175813032"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00022213_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "可见一只足球；仅采纳足球框，排除器材、鞋和墙面误框。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "22213",
+        "eye": "right"
+      },
+      "source_frame_idx": 22213,
+      "eye": "right"
+    },
+    "group": 3,
+    "local": 1200,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 7600,
+      "filename": "video_4bec9c343db72928_frame_00022558_left.png",
+      "图片": "video_4bec9c343db72928_frame_00022558_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00022558_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00022558_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "2dcfa4dc7612da525e2cb1f3cd5c3a972ffa3071370caea175872fb35c897aa3",
+      "label_sha256": "d8532a7412bbbad1967d90a34216cea81fd71eef0301de36405bb01a20360cfb",
+      "label_text": "0 0.552047619 0.558999069 0.070631548 0.131389628\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            347.24379984,
+            185.48239988,
+            394.708200096,
+            234.884900008
+          ],
+          "xywhn": [
+            0.552047619,
+            0.558999069,
+            0.070631548,
+            0.131389628
+          ],
+          "raw_line": "0 0.552047619 0.558999069 0.070631548 0.131389628"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00022558_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "可见一只足球；仅采纳足球框，排除器材、鞋和墙面误框。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "22558",
+        "eye": "left"
+      },
+      "source_frame_idx": 22558,
+      "eye": "left"
+    },
+    "group": 3,
+    "local": 1289,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 7671,
+      "filename": "video_4bec9c343db72928_frame_00022837_right.png",
+      "图片": "video_4bec9c343db72928_frame_00022837_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00022837_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00022837_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "b0348e0d3d9d8981492d68c3536454265fc8b5ddf42974fb0c55e28a9bdb7d74",
+      "label_sha256": "5944f322cd40155c7211b776ff4454a9574574c8dfc84bc36da8153fc10faf15",
+      "label_text": "0 0.601830580 0.639475000 0.073976339 0.127688830\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            379.57409985600003,
+            216.43709995999998,
+            429.286199664,
+            264.44810004000004
+          ],
+          "xywhn": [
+            0.60183058,
+            0.639475,
+            0.073976339,
+            0.12768883
+          ],
+          "raw_line": "0 0.601830580 0.639475000 0.073976339 0.127688830"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00022837_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "可见一只足球；仅采纳足球框，排除器材、鞋和墙面误框。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "22837",
+        "eye": "right"
+      },
+      "source_frame_idx": 22837,
+      "eye": "right"
+    },
+    "group": 3,
+    "local": 1360,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 8042,
+      "filename": "video_4bec9c343db72928_frame_00003095_left.png",
+      "图片": "video_4bec9c343db72928_frame_00003095_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00003095_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00003095_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "c8fcb10ae027c756dcce549a53083b0f8ed1def0d046631544ba76bc006656fb",
+      "label_sha256": "8c0dc285299ffad6861995b56045ed8566846d9eb8bf26334c121bfe53fa1c4b",
+      "label_text": "0 0.509662500 0.177054521 0.066343750 0.134703191\n0 0.530425223 0.030276197 0.047098363 0.060552394\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            320.2017,
+            41.248299988,
+            364.7847,
+            91.896699804
+          ],
+          "xywhn": [
+            0.5096625,
+            0.177054521,
+            0.06634375,
+            0.134703191
+          ],
+          "raw_line": "0 0.509662500 0.177054521 0.066343750 0.134703191"
+        },
+        {
+          "box_index": 1,
+          "xyxy": [
+            340.620699888,
+            0.0,
+            372.27079982399994,
+            22.767700144000003
+          ],
+          "xywhn": [
+            0.530425223,
+            0.030276197,
+            0.047098363,
+            0.060552394
+          ],
+          "raw_line": "0 0.530425223 0.030276197 0.047098363 0.060552394"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00003095_left.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "2",
+        "preserved_box_count": "0",
+        "label_review_note": "近球之外后方还有较小足球，两球都保留；拒绝控制器/电视框。Small由背景完整小球成立，所有预框待人工复核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "3095",
+        "eye": "left"
+      },
+      "source_frame_idx": 3095,
+      "eye": "left"
+    },
+    "group": 3,
+    "local": 1420,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 8159,
+      "filename": "video_4bec9c343db72928_frame_00010870_right.png",
+      "图片": "video_4bec9c343db72928_frame_00010870_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00010870_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00010870_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "e8da0cd0aa7113ee46948281b0147d9bb933b386e389795555b58b73669b41f9",
+      "label_sha256": "129d906f592d81748865979349116207133f1c7949a6e10e1c17de5f37965263",
+      "label_text": "0 0.349702381 0.456117021 0.086309524 0.167553191\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            205.999999968,
+            139.999999988,
+            264.000000096,
+            202.999999804
+          ],
+          "xywhn": [
+            0.349702381,
+            0.456117021,
+            0.086309524,
+            0.167553191
+          ],
+          "raw_line": "0 0.349702381 0.456117021 0.086309524 0.167553191"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00010870_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "reviewed_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "0",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。 主模型未提供完整足球框；采用补充模型或录像候选，位置需重点核对。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "10870",
+        "eye": "right"
+      },
+      "source_frame_idx": 10870,
+      "eye": "right"
+    },
+    "group": 3,
+    "local": 1475,
+    "caption": "independent native-full and label outline cross-check"
+  },
+  {
+    "record": {
+      "index": 8388,
+      "filename": "video_4bec9c343db72928_frame_00022867_left.png",
+      "图片": "video_4bec9c343db72928_frame_00022867_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00022867_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00022867_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "52ee1cce6ad03d7feae9775dae41484013e9a73a450b7e4375400f63e8e722bb",
+      "label_sha256": "6f5dd780fad27f72db970e470181b55b089b5e2454a11fd89bdb3bf34da1ed33",
+      "label_text": "0 0.686505134 0.315088431 0.064888839 0.106652926\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            439.528800144,
+            98.42249996800001,
+            483.134099952,
+            138.52400014399998
+          ],
+          "xywhn": [
+            0.686505134,
+            0.315088431,
+            0.064888839,
+            0.106652926
+          ],
+          "raw_line": "0 0.686505134 0.315088431 0.064888839 0.106652926"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00022867_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "reviewed_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "0",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "可见一只足球；仅采纳足球框，排除器材、鞋和墙面误框。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "22867",
+        "eye": "left"
+      },
+      "source_frame_idx": 22867,
+      "eye": "left"
+    },
+    "group": 3,
+    "local": 1533,
+    "caption": "independent native-full and label outline cross-check"
+  }
+]

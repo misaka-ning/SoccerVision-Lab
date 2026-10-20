@@ -1,0 +1,19 @@
+{"decoded": 500, "total": 8398, "elapsed_seconds": 3.02}
+{"decoded": 1000, "total": 8398, "elapsed_seconds": 6.0}
+{"decoded": 1500, "total": 8398, "elapsed_seconds": 10.56}
+{"decoded": 2000, "total": 8398, "elapsed_seconds": 13.93}
+{"decoded": 2500, "total": 8398, "elapsed_seconds": 16.57}
+{"decoded": 3000, "total": 8398, "elapsed_seconds": 19.19}
+{"decoded": 3500, "total": 8398, "elapsed_seconds": 21.94}
+{"decoded": 4000, "total": 8398, "elapsed_seconds": 24.62}
+{"decoded": 4500, "total": 8398, "elapsed_seconds": 27.23}
+{"decoded": 5000, "total": 8398, "elapsed_seconds": 29.93}
+{"decoded": 5500, "total": 8398, "elapsed_seconds": 32.61}
+{"decoded": 6000, "total": 8398, "elapsed_seconds": 35.3}
+{"decoded": 6500, "total": 8398, "elapsed_seconds": 37.97}
+{"decoded": 7000, "total": 8398, "elapsed_seconds": 40.65}
+{"decoded": 7500, "total": 8398, "elapsed_seconds": 43.32}
+{"decoded": 8000, "total": 8398, "elapsed_seconds": 46.01}
+{"decoded": 8398, "total": 8398, "elapsed_seconds": 48.03}
+FEATURES_READY
+{"complete": true, "counts": {"metadata": 8398, "physical_images": 8398, "physical_labels": 8398, "image_full_decode_success": 8398, "label_valid": 8394, "usable": 8148, "excluded": 250, "usable_positive": 5220, "usable_negative": 2928, "usable_boxes": 5417, "all_parsed_boxes": 5468, "all_valid_boxes": 5464, "issues": 6057}, "issues_by_type": {"historical_box_count_difference": 5546, "excluded_in_raw_training_directory": 250, "Small_large_box_risk": 49, "Occluded_boundary_quality_candidate": 199, "label_format_or_geometry": 4, "Small_small_box_risk": 9}, "source_hashes_unchanged": true}

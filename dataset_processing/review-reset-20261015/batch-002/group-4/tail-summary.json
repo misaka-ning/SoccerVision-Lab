@@ -1,0 +1,428 @@
+{
+  "images_reviewed": 90,
+  "local_range": [
+    160,
+    249
+  ],
+  "existing_boxes_reviewed": 77,
+  "actual_opened_full_pages": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-080.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-081.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-082.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-083.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-084.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-085.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-086.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-087.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-088.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-089.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-090.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-091.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-092.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-093.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-094.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-095.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-096.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-097.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-098.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-099.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-100.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-101.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-102.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-103.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-104.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-105.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-106.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-107.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-108.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-109.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-110.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-111.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-112.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-113.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-114.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-115.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-116.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-117.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-118.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-119.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-120.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-121.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-122.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-123.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/full/page-124.png"
+  ],
+  "actual_opened_roi_pages": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-019.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-020.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-021.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-022.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-023.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-024.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-025.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-026.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-027.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-002/group-4/roi/page-028.png"
+  ],
+  "actual_opened_details": [
+    "/tmp/batch002-group4-tail-176-177.png",
+    "/tmp/batch002-group4-tail-242-249.png",
+    "/tmp/batch002-group4-tail-228-231.png"
+  ],
+  "coverage_images": [
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249
+  ],
+  "coverage_boxes": {
+    "rec_20261013_181326_frame_000385_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000385_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000390_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000390_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000398_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000398_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000406_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000406_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000498_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000498_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000990_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000990_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000999_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_000999_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001000_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001000_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001013_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001013_right.png": [],
+    "rec_20261013_181326_frame_001016_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001016_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001023_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001023_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001029_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001029_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001035_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001035_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001041_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001041_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001050_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001050_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001061_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001061_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001077_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001077_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001101_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001101_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001105_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001105_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001114_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001114_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001124_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001124_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001128_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001128_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001136_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001136_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001150_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001150_right.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001154_left.png": [
+      0
+    ],
+    "rec_20261013_181326_frame_001154_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000000_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000000_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000058_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000058_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000143_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000143_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000153_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000153_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000162_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000162_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000166_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000166_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000173_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000173_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000183_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000183_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000194_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000194_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000202_left.png": [],
+    "video_4bec9c343db72928_frame_00000202_right.png": [],
+    "video_4bec9c343db72928_frame_00000206_left.png": [],
+    "video_4bec9c343db72928_frame_00000206_right.png": [],
+    "video_4bec9c343db72928_frame_00000214_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000214_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000224_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000224_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000225_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000225_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000239_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000239_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000242_left.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000242_right.png": [
+      0
+    ],
+    "video_4bec9c343db72928_frame_00000251_left.png": [],
+    "video_4bec9c343db72928_frame_00000251_right.png": [],
+    "video_4bec9c343db72928_frame_00000256_left.png": [],
+    "video_4bec9c343db72928_frame_00000256_right.png": [],
+    "video_4bec9c343db72928_frame_00000267_left.png": [],
+    "video_4bec9c343db72928_frame_00000267_right.png": [],
+    "video_4bec9c343db72928_frame_00000273_left.png": [],
+    "video_4bec9c343db72928_frame_00000273_right.png": []
+  },
+  "uncertain_images": 76,
+  "replace_files": [],
+  "manual_bbox_files": [
+    "rec_20261013_181326_frame_001013_left.png"
+  ],
+  "visibility_files": [
+    "rec_20261013_181326_frame_001013_right.png",
+    "video_4bec9c343db72928_frame_00000251_left.png",
+    "video_4bec9c343db72928_frame_00000251_right.png",
+    "video_4bec9c343db72928_frame_00000256_left.png",
+    "video_4bec9c343db72928_frame_00000256_right.png",
+    "video_4bec9c343db72928_frame_00000267_left.png",
+    "video_4bec9c343db72928_frame_00000267_right.png",
+    "video_4bec9c343db72928_frame_00000273_left.png",
+    "video_4bec9c343db72928_frame_00000273_right.png"
+  ],
+  "labels_written_to_dataset": 0,
+  "approval_flags_cleared": 0
+}

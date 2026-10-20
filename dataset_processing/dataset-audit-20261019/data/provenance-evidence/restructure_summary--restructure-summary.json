@@ -1,0 +1,67 @@
+{
+  "source": "/home/misaka/workspace/dataset/football_20261013_104748",
+  "destination": "/home/misaka/workspace/dataset/football_dataset",
+  "backup": "/home/misaka/temp/dataset-curation-20261013/football_20261013_104748_before_restructure",
+  "image_count": 1176,
+  "stereo_pair_count": 588,
+  "split_counts": {
+    "train": 952,
+    "val": 118,
+    "test": 106
+  },
+  "flag_counts": {
+    "Small": 354,
+    "Occluded": 65,
+    "Blurred": 108,
+    "No Ball": 425
+  },
+  "all_zero_count": 283,
+  "overlapping_flag_count": 57,
+  "annotation_status_counts": {
+    "negative_confirmed": 425,
+    "needs_bbox_annotation": 721,
+    "needs_visibility_review": 30
+  },
+  "scene_review_required_count": 182,
+  "split_flag_counts": {
+    "train": {
+      "Small": 308,
+      "Occluded": 45,
+      "Blurred": 92,
+      "No Ball": 365
+    },
+    "val": {
+      "Small": 26,
+      "Occluded": 2,
+      "Blurred": 10,
+      "No Ball": 16
+    },
+    "test": {
+      "Small": 20,
+      "Occluded": 18,
+      "Blurred": 6,
+      "No Ball": 44
+    }
+  },
+  "split_clips": {
+    "val": [
+      5
+    ],
+    "test": [
+      11
+    ]
+  },
+  "split_method": "Whole fixed 30-second clips; val 150–180s, test 330–360s, remaining train.",
+  "split_limit": "Only one recording; adjoining clips and repeated views can remain correlated. Independent recording sessions are needed for unbiased evaluation.",
+  "validation": {
+    "all_image_sha256_unchanged": true,
+    "metadata_matches_all_images": true,
+    "left_right_pairs_never_cross_splits": true,
+    "30s_clips_never_cross_splits": true,
+    "source_10s_groups_never_cross_splits": true,
+    "empty_labels_only_for_confirmed_negatives": true,
+    "existing_parent_images_and_labels_unchanged": true
+  },
+  "metadata_sha256": "7552261d2635a6c78b7e15e373fcdc0fbab83281fff0cb8b94dfa910c5af55ae",
+  "dataset_yaml_sha256": "02e8c406735193009ff60cc1fcb353d0e3a7290c0bfcf0cd6a67a570491a1857"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "STATIC_SELF_CONTAINMENT_AND_JAVASCRIPT_PASS",
+  "html_sha256": "3b8711603e04a6d548777a38d0a8bb087e35b9575543bcc748dedc6ac348b660",
+  "html_bytes": 17282182,
+  "embedded_valid_jpegs": 597,
+  "external_dependencies": [],
+  "javascript_syntax": "node --check exit 0",
+  "standalone_copy": "/home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/runtime/standalone-proof/review.html",
+  "standalone_copy_hash_identical": true
+}

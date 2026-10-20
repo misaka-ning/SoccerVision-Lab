@@ -1,0 +1,126 @@
+{
+  "issues": [
+    {
+      "filename": "frame_001674_right.png",
+      "split": "train",
+      "status": "reviewed_excluded",
+      "flags": {
+        "Small": 0,
+        "Occluded": 1,
+        "Blurred": 1,
+        "No Ball": 0
+      },
+      "double_reviewed": true,
+      "usable": false,
+      "reasons": [
+        "reviewed_excluded",
+        "label_error"
+      ],
+      "image_valid": true,
+      "label_valid": false,
+      "box_count": null,
+      "image_error": "",
+      "label_error": "Box crosses image boundary: '0 0.31431626547528518 0.034205368324569212 0.044642859999999999 0.071808510000000006'",
+      "image_sha256": "4a0c22c1f07ce4b131411c1ec8f447ee3d67f2e43fe5f4da0577f40d95963a28",
+      "label_sha256": "22f5d7c58d3ea7c1046f75972af4255e709eb544d4420ee22afbd022b07686d7",
+      "resolution": "672x376",
+      "format": "PNG",
+      "excluded_original_status": "uncertain_bbox",
+      "source_video": "",
+      "source_frame_idx": "",
+      "eye": ""
+    },
+    {
+      "filename": "frame_003650_right.png",
+      "split": "train",
+      "status": "reviewed_excluded",
+      "flags": {
+        "Small": 0,
+        "Occluded": 1,
+        "Blurred": 0,
+        "No Ball": 0
+      },
+      "double_reviewed": true,
+      "usable": false,
+      "reasons": [
+        "reviewed_excluded",
+        "label_error"
+      ],
+      "image_valid": true,
+      "label_valid": false,
+      "box_count": null,
+      "image_error": "",
+      "label_error": "Box crosses image boundary: '0 0.038022813688212927 0.77135243827198452 0.077946768060836516 0.45729512345603096'",
+      "image_sha256": "3acf5d8b5a12f1d265ed6df0ddd1750aa93035409a62fa648b125c16ed8ee6ed",
+      "label_sha256": "809a6be0331d169e622ca3dd53ff8cc36366f74596f3e19f2b2b05b9ecba1702",
+      "resolution": "672x376",
+      "format": "PNG",
+      "excluded_original_status": "needs_manual_bbox_annotation",
+      "source_video": "",
+      "source_frame_idx": "",
+      "eye": ""
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00004643_left.png",
+      "split": "train",
+      "status": "reviewed_excluded",
+      "flags": {
+        "Small": 0,
+        "Occluded": 0,
+        "Blurred": 0,
+        "No Ball": 0
+      },
+      "double_reviewed": true,
+      "usable": false,
+      "reasons": [
+        "reviewed_excluded",
+        "label_error"
+      ],
+      "image_valid": true,
+      "label_valid": false,
+      "box_count": null,
+      "image_error": "",
+      "label_error": "Box crosses image boundary: '0 0.99081762460171097 0.93336963441889809 0.019658062891634659 0.073395024504166365'",
+      "image_sha256": "52ac70bbf4d396c3824716069165e4999c0ce6583d2ee2a0d3abc3558f812472",
+      "label_sha256": "0a7b8a6d16d9d2b8e805c1f06b068f50038dfc40124d4a2d75f8edb0b28ac9d2",
+      "resolution": "672x376",
+      "format": "PNG",
+      "excluded_original_status": "uncertain_bbox",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+      "source_frame_idx": "4643",
+      "eye": "left"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00007724_right.png",
+      "split": "train",
+      "status": "reviewed_excluded",
+      "flags": {
+        "Small": 0,
+        "Occluded": 1,
+        "Blurred": 0,
+        "No Ball": 0
+      },
+      "double_reviewed": true,
+      "usable": false,
+      "reasons": [
+        "reviewed_excluded",
+        "label_error"
+      ],
+      "image_valid": true,
+      "label_valid": false,
+      "box_count": null,
+      "image_error": "",
+      "label_error": "Box crosses image boundary: '0 0.10750299521673004 0.961346163905752 0.072066252912547521 0.077695968293665499'",
+      "image_sha256": "27de327ab59aec00cf6b5deb31b70a8c21ed946d16110fff45464da0ea428538",
+      "label_sha256": "c6020f75f0b8934e9362d22c8ef40a4b0252837107529ec7919723a72c73df44",
+      "resolution": "672x376",
+      "format": "PNG",
+      "excluded_original_status": "needs_manual_bbox_annotation",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+      "source_frame_idx": "7724",
+      "eye": "right"
+    }
+  ],
+  "exact_duplicates": [],
+  "cross_split_frames": []
+}

@@ -1,0 +1,142 @@
+{
+  "batch": 4,
+  "created_at_utc": "2026-10-16T08:34:12.858073+00:00",
+  "dataset": "/home/misaka/workspace/datasets",
+  "group_size": 50,
+  "selection": "all_pending",
+  "include_priority": true,
+  "source_metadata_sha256": "5d1dc5e72c0a38433a62a65839604650dc9cce98934999578e3a4be53d433e38",
+  "source_batch_sha256": "71cd68f9d2c231df8b799272b7024d3de874f36623c7f0d6134d6f2ef53287a2",
+  "source_priority_sha256": "fc91f47b86928dbbb2818361131b51f48cd6fc544487081b309c54a43a4942b2",
+  "source_proposals_sha256": "a1060ec05aa2d0e4544bb832b9bbd47c02cda381dc0e4ca6416deef3edc9fcbb",
+  "batch_count": 1000,
+  "priority_count": 463,
+  "priority_pending_count": 463,
+  "excluded_priority_count": 0,
+  "excluded_priority_pending": 0,
+  "excluded_already_passed": [],
+  "selected_count": 1000,
+  "groups": [
+    {
+      "group": 1,
+      "count": 50,
+      "file": "group-001.txt",
+      "sha256": "5ada65b62de92270816e44a77f028bd6c34974558fa6db23d07d21b13b13c56c"
+    },
+    {
+      "group": 2,
+      "count": 50,
+      "file": "group-002.txt",
+      "sha256": "5ce7b3a4047a1688aff64f99c22b18b845d335b02d801ec89596bf05a9e8dfb9"
+    },
+    {
+      "group": 3,
+      "count": 50,
+      "file": "group-003.txt",
+      "sha256": "fef3423f4b5d40c30dfc5b8ea2ef0e110af70c9e2aabf2010fcfaba84c7a0629"
+    },
+    {
+      "group": 4,
+      "count": 50,
+      "file": "group-004.txt",
+      "sha256": "4cc7d5a81fc5f38a31f1eaffe92ef123ae43463e4ce6251373a6401898fec88b"
+    },
+    {
+      "group": 5,
+      "count": 50,
+      "file": "group-005.txt",
+      "sha256": "a770ef936c7a92f6b63f12aa87851802d3f5295bb735a83764a8e13599e0bba0"
+    },
+    {
+      "group": 6,
+      "count": 50,
+      "file": "group-006.txt",
+      "sha256": "62f44b3d3d7f9aaf0101b44ed2346a07a9adcf81e85c28ee1a4838a44442f2e2"
+    },
+    {
+      "group": 7,
+      "count": 50,
+      "file": "group-007.txt",
+      "sha256": "4b447e7b7946fea11ff5216d530c474604e7a0372911cf323bd644754214e4a4"
+    },
+    {
+      "group": 8,
+      "count": 50,
+      "file": "group-008.txt",
+      "sha256": "f8f751fbd79239fc5f3e16755b2dea93e5dee0f19a05705a5c6bc63ea858ff27"
+    },
+    {
+      "group": 9,
+      "count": 50,
+      "file": "group-009.txt",
+      "sha256": "f019f30cc777f4e76414fc87e2e7902a6c05dfd25618edd8bb2f6561af45054b"
+    },
+    {
+      "group": 10,
+      "count": 50,
+      "file": "group-010.txt",
+      "sha256": "1a5cddb551a408005da2f332261b82253ea2c7affb12d96eae37938a1052636d"
+    },
+    {
+      "group": 11,
+      "count": 50,
+      "file": "group-011.txt",
+      "sha256": "789e3048948748603fb6017e9268b2b7bdf36cfc0cf7f5613b5e52702be4d3c6"
+    },
+    {
+      "group": 12,
+      "count": 50,
+      "file": "group-012.txt",
+      "sha256": "c36082a094fff422bc0dee9123248518a5039564c45564e999969ea37c12d122"
+    },
+    {
+      "group": 13,
+      "count": 50,
+      "file": "group-013.txt",
+      "sha256": "4f9e3605aecbf3fc9a71b8610ea0df65d858a69cd59969dc31b1eae0348afc7f"
+    },
+    {
+      "group": 14,
+      "count": 50,
+      "file": "group-014.txt",
+      "sha256": "364aac499fbe8501fb5cce58effc1b027ab576cfc9e1add1660450ba27c2501c"
+    },
+    {
+      "group": 15,
+      "count": 50,
+      "file": "group-015.txt",
+      "sha256": "e800b04c1e157a6f5514952f07d786f5ff68b8ba73d2b2521735b53e3c934aa7"
+    },
+    {
+      "group": 16,
+      "count": 50,
+      "file": "group-016.txt",
+      "sha256": "9ef02adcb3378ef7d764a0b4274b70ca4ff4a1648f5aeb7bf7827f39d136aa87"
+    },
+    {
+      "group": 17,
+      "count": 50,
+      "file": "group-017.txt",
+      "sha256": "978cd365ea66230d6e7a8834d41479a0b02ce615d5f5e695bb4b463095e09f6d"
+    },
+    {
+      "group": 18,
+      "count": 50,
+      "file": "group-018.txt",
+      "sha256": "e64268adebbebc3277954cf582446feda1936d251a133d9898bae39bb7ae239b"
+    },
+    {
+      "group": 19,
+      "count": 50,
+      "file": "group-019.txt",
+      "sha256": "3aa33451f15aef8aac438c8dbe6ed666a63011155e3f1ee2ff3677faace92294"
+    },
+    {
+      "group": 20,
+      "count": 50,
+      "file": "group-020.txt",
+      "sha256": "bb02e6a401a804a62190e465917c719c6618bba772821210b374b86581be2edb"
+    }
+  ],
+  "policy": "固定快照；包含本批待审疑点；排除创建时两项都已通过的图片；左右目同组；只读正式数据集"
+}

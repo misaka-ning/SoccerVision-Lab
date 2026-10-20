@@ -1,0 +1,26 @@
+{
+  "1": {
+    "images": 250,
+    "full_pages": 42,
+    "boxes": 169,
+    "roi_pages": 22
+  },
+  "2": {
+    "images": 250,
+    "full_pages": 42,
+    "boxes": 186,
+    "roi_pages": 24
+  },
+  "3": {
+    "images": 250,
+    "full_pages": 42,
+    "boxes": 183,
+    "roi_pages": 23
+  },
+  "4": {
+    "images": 250,
+    "full_pages": 42,
+    "boxes": 227,
+    "roi_pages": 29
+  }
+}

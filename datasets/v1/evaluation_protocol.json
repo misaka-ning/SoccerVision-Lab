@@ -1,0 +1,23 @@
+{
+  "primary_subset": "same_session_segment_holdout_v1",
+  "primary_test": "lists/test.txt",
+  "physical_test_sessions": 1,
+  "shared_test_train_session": "session_20261013_181531",
+  "independent_events_not_estimated": true,
+  "reporting_units": [
+    "image_count",
+    "source_frame_unit_count",
+    "segment_count",
+    "contiguous_heldout_block_count",
+    "physical_session_count"
+  ],
+  "stereo_auxiliary": "lists/test_stereo_pairs.csv; two eyes are correlated, not two independent events.",
+  "future_subset": {
+    "name": "future_independent_session_test",
+    "status": "not_collected",
+    "list": "lists/future_independent_test.txt",
+    "report_separately": true
+  },
+  "scene_labels": "Image-level multi-label; do not assign a multi-ball image flag to every individual box.",
+  "no_training_or_prediction_metrics_used_in_selection": true
+}

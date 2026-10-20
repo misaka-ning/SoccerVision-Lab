@@ -57,6 +57,14 @@ class DatasetStoreTests : public QObject {
     Q_OBJECT
 
 private slots:
+    void imageListPreservesCanonicalStore();
+    void invalidImageList_data();
+    void invalidImageList();
+    void uncertainLifecycle();
+    void uncertainFailurePreservesSource();
+    void exportSeparatesAllSplitsAndUncertain();
+    void reviewedExclusionsRemainOutsideTraining();
+    void exportRejectsDirtyStaleAndUnreviewed();
     void escapingUnicodeAndExtraColumnsRoundTrip();
     void flagEditBackupAndPaths();
     void externalEditRejected();
@@ -81,6 +89,69 @@ private slots:
     void manualEditRejectsConflictsAndInvalidBoxes();
     void manualEditFailurePreservesLabels();
 };
+
+void DatasetStoreTests::imageListPreservesCanonicalStore()
+{
+    QTemporaryDir directory;
+    QVERIFY(directory.isValid());
+    const QByteArray csv = header + ",Notes\n"
+        + QStringLiteral("first.png,0,0,0,0,train,positive,1,keep first\n"
+                         "outside.png,0,0,0,0,val,positive,1,keep outside\n"
+                         "足球 3.png,0,0,0,0,test,positive,1,keep last\n").toUtf8();
+    const QString metadata=directory.filePath("metadata.csv"), list=directory.filePath("batch-001.txt");
+    QVERIFY(writeFile(metadata,csv));
+    QVERIFY(writeFile(list,QByteArray("\xEF\xBB\xBF")+QStringLiteral("足球 3.png\r\n\r\nfirst.png\r\n").toUtf8()));
+    review::DatasetStore store; QString error;
+    QVERIFY2(store.load(directory.path(),error),qPrintable(error));
+    const auto originalRows=store.rows;
+    QVector<int> selected;
+    QVERIFY2(store.imageListRows(list,selected,error),qPrintable(error));
+    QCOMPARE(selected,QVector<int>({2,0}));
+    QCOMPARE(store.rows,originalRows);
+    QCOMPARE(store.root,directory.path());
+    QVERIFY(!store.isDirty());
+    QCOMPARE(readFile(metadata),csv);
+    QVERIFY(store.setValue(selected.first(),"Small","1"));
+    QVERIFY2(store.save(error),qPrintable(error));
+    review::DatasetStore reloaded;
+    QVERIFY2(reloaded.load(directory.path(),error),qPrintable(error));
+    QCOMPARE(reloaded.rows.size(),3);
+    QCOMPARE(reloaded.rows[0],originalRows[0]);
+    QCOMPARE(reloaded.rows[1],originalRows[1]);
+    QCOMPARE(reloaded.value(2,"Small"),QString("1"));
+    QCOMPARE(reloaded.value(2,"Notes"),QString("keep last"));
+    QCOMPARE(reloaded.value(2,"scene_review_required"),QString("1"));
+    QCOMPARE(reloaded.value(2,"annotation_status"),QString("positive"));
+}
+
+void DatasetStoreTests::invalidImageList_data()
+{
+    QTest::addColumn<QByteArray>("bytes");
+    QTest::newRow("empty") << QByteArray("\r\n\n");
+    QTest::newRow("duplicate") << QByteArray("shot.v1.png\nshot.v1.png\n");
+    QTest::newRow("unknown") << QByteArray("shot.v1.png\nunknown.png\n");
+    QTest::newRow("path-is-not-name") << QByteArray("images/train/shot.v1.png\n");
+    QTest::newRow("invalid-utf8") << QByteArray("\xFF\n");
+}
+
+void DatasetStoreTests::invalidImageList()
+{
+    QFETCH(QByteArray,bytes);
+    QTemporaryDir directory;
+    QVERIFY(directory.isValid());
+    QVERIFY(writeFile(directory.filePath("metadata.csv"),simpleCsv()));
+    const QString list=directory.filePath("batch.txt");
+    QVERIFY(writeFile(list,bytes));
+    review::DatasetStore store; QString error;
+    QVERIFY2(store.load(directory.path(),error),qPrintable(error));
+    QVector<int> selection{99};
+    QVERIFY(!store.imageListRows(list,selection,error));
+    QVERIFY(!error.isEmpty());
+    QCOMPARE(selection,QVector<int>({99}));
+    QVERIFY(!store.isDirty());
+    QVERIFY(!store.imageListRows(directory.filePath("missing.txt"),selection,error));
+    QCOMPARE(selection,QVector<int>({99}));
+}
 
 void DatasetStoreTests::escapingUnicodeAndExtraColumnsRoundTrip()
 {
@@ -589,6 +660,162 @@ void DatasetStoreTests::manualEditFailurePreservesLabels()
     QVERIFY(!store.saveLabelBoxes(0,displayed,{},error));
     QVERIFY(error.contains(QStringLiteral("外部修改")));
     QCOMPARE(readFile(path),original); QCOMPARE(readFile(store.metadataPath),external);
+}
+
+void DatasetStoreTests::uncertainLifecycle()
+{
+    for (const QString &reason : review::DatasetStore::uncertainStatuses()) {
+        QTemporaryDir directory;
+        QVERIFY(writeFile(directory.filePath("metadata.csv"),reviewCsv("negative_confirmed","1")));
+        const QString label=createLabel(directory,"");
+        review::DatasetStore store; QString error;
+        QVERIFY2(store.load(directory.path(),error),qPrintable(error));
+        QVERIFY2(store.markUncertain(0,reason,error),qPrintable(error));
+        QVERIFY(store.isUncertain(0));
+        QCOMPARE(store.value(0,"No Ball"),QString("0"));
+        QVERIFY(!store.setValue(0,"No Ball","1"));
+        QVERIFY(!store.approveAnnotation(0,review::readLabels(label).sourceHash,error));
+        QVERIFY(!store.saveLabelBoxes(0,review::readLabels(label),{{0,.5,.5,.1,.1}},error));
+        QVERIFY2(store.save(error),qPrintable(error));
+        review::DatasetStore reload;
+        QVERIFY2(reload.load(directory.path(),error),qPrintable(error));
+        QVERIFY(reload.isUncertain(0));
+        QCOMPARE(reload.value(0,"label_review_required"),QString("1"));
+        QCOMPARE(readFile(label),QByteArray());
+        QVERIFY(!backups(directory).isEmpty());
+        QVERIFY2(reload.requireAnnotationCorrection(0,error),qPrintable(error));
+        QVERIFY(!reload.isUncertain(0));
+        QVERIFY(!reload.approveAnnotation(0,review::readLabels(label).sourceHash,error));
+        QVERIFY(reload.setValue(0,"No Ball","1"));
+        QVERIFY2(reload.approveAnnotation(0,review::readLabels(label).sourceHash,error),qPrintable(error));
+        QVERIFY2(reload.save(error),qPrintable(error));
+        QCOMPARE(reload.value(0,"annotation_status"),QString("negative_confirmed"));
+    }
+}
+
+void DatasetStoreTests::uncertainFailurePreservesSource()
+{
+    QTemporaryDir directory;
+    const QByteArray original=reviewCsv();
+    QVERIFY(writeFile(directory.filePath("metadata.csv"),original));
+    const QByteArray boxes="0 .5 .5 .1 .1\n";
+    const QString label=createLabel(directory,boxes);
+    review::DatasetStore store; QString error;
+    QVERIFY2(store.load(directory.path(),error),qPrintable(error));
+    QVERIFY(!store.markUncertain(0,"typo",error));
+    QVERIFY(!store.isDirty());
+    QVERIFY(store.markUncertain(0,"temporal_only",error));
+    QLockFile lock(store.metadataPath+".review.lock"); QVERIFY(lock.tryLock(0));
+    QVERIFY(!store.save(error)); QVERIFY(store.isDirty());
+    QCOMPARE(readFile(store.metadataPath),original); QCOMPARE(readFile(label),boxes);
+    lock.unlock();
+    QVERIFY(writeFile(directory.filePath(".metadata-review-backups"),"blocked"));
+    QVERIFY(!store.save(error));
+    QCOMPARE(readFile(store.metadataPath),original); QCOMPARE(readFile(label),boxes);
+    QVERIFY(QFile::remove(directory.filePath(".metadata-review-backups")));
+    QVERIFY(writeFile(store.metadataPath,original+"\n"));
+    QVERIFY(!store.save(error)); QCOMPARE(readFile(label),boxes);
+}
+
+void DatasetStoreTests::exportSeparatesAllSplitsAndUncertain()
+{
+    QTemporaryDir directory, output;
+    QString csv=QString::fromUtf8(header)+",label_review_required,source_video,source_frame_idx,eye\n";
+    const QStringList statuses={"reviewed_annotation","negative_confirmed","uncertain_bbox","temporal_only","fully_occluded","severe_blur","severe_occlusion","uncertain","needs_manual_bbox_annotation"};
+    for (const auto &split : QStringList{"train","val","test"}) {
+        QVERIFY(QDir().mkpath(directory.filePath("images/"+split)));
+        QVERIFY(QDir().mkpath(directory.filePath("labels/"+split)));
+        for (int i=0;i<statuses.size();++i) {
+            const QString stem=split+QString::number(i);
+            csv+=QString("%1.png,0,1,1,%2,%3,%4,0,%5,match.mp4,123,left\n")
+                .arg(stem,i==1?"1":"0",split,statuses[i],i<2?"0":"1");
+            QVERIFY(writeFile(directory.filePath("images/"+split+'/'+stem+".png"),"image bytes"));
+            // Include uncertain samples with existing, empty and missing labels.
+            if (i!=3) QVERIFY(writeFile(directory.filePath("labels/"+split+'/'+stem+".txt"),i==1||i==4?"":"0 .5 .5 .1 .1\n"));
+        }
+    }
+    QVERIFY(writeFile(directory.filePath("metadata.csv"),csv.toUtf8()));
+    review::DatasetStore store; QString error;
+    QVERIFY2(store.load(directory.path(),error),qPrintable(error));
+    const QString target=output.filePath("snapshot");
+    QVERIFY2(store.exportDataset(target,error),qPrintable(error));
+    review::DatasetStore exported;
+    QVERIFY2(exported.load(target,error),qPrintable(error)); QCOMPARE(exported.rows.size(),6);
+    for (const auto &split : QStringList{"train","val","test"}) {
+        QCOMPARE(QDir(target+"/images/"+split).entryList(QDir::Files).size(),2);
+        QCOMPARE(QDir(target+"/labels/"+split).entryList(QDir::Files).size(),2);
+        QVERIFY(QFileInfo::exists(target+"/uncertain/temporal_only/"+split+"/images/"+split+"3.png"));
+        QVERIFY(!QFileInfo::exists(target+"/uncertain/temporal_only/"+split+"/reference_labels/"+split+"3.png.txt"));
+        QCOMPARE(readFile(target+"/uncertain/uncertain_bbox/"+split+"/reference_labels/"+split+"2.png.txt"),QByteArray("0 .5 .5 .1 .1\n"));
+    }
+    QVERIFY(readFile(target+"/uncertain/metadata.csv").contains("match.mp4,123,left"));
+    QVERIFY(readFile(target+"/export-summary.txt").contains("uncertain=18\npending=3"));
+    QVERIFY(readFile(target+"/dataset.yaml").contains("test: images/test"));
+    QCOMPARE(readFile(store.metadataPath),csv.toUtf8()); QVERIFY(!store.isDirty());
+    QVERIFY(!store.exportDataset(target,error));
+    QVERIFY(!store.exportDataset(directory.filePath("inside"),error));
+    QVERIFY(!QFileInfo::exists(directory.filePath("inside")));
+    QVERIFY(writeFile(directory.filePath("labels/train/train0.txt"),"bad label"));
+    QVERIFY(!store.exportDataset(output.filePath("bad"),error));
+    QVERIFY(!QFileInfo::exists(output.filePath("bad")));
+    QVERIFY(QDir(output.path()).entryList({".review-export-*"},QDir::Dirs|QDir::Hidden|QDir::NoDotAndDotDot).isEmpty());
+}
+
+void DatasetStoreTests::reviewedExclusionsRemainOutsideTraining()
+{
+    QTemporaryDir directory, output;
+    const QByteArray csv=header+",label_review_required,label_review_note,Notes\n"
+        "ambiguous.png,0,0,1,0,train,reviewed_excluded,0,0,previous=severe_blur,keep unknown\n"
+        "border.png,0,0,0,0,train,reviewed_excluded,0,0,previous=uncertain_bbox,keep unknown\n"
+        "normal.png,0,0,0,0,train,reviewed_annotation,0,0,confirmed,keep unknown\n";
+    QVERIFY(QDir().mkpath(directory.filePath("images/train")));
+    QVERIFY(QDir().mkpath(directory.filePath("labels/train")));
+    for (const auto &name : QStringList{"ambiguous","border","normal"})
+        QVERIFY(writeFile(directory.filePath("images/train/"+name+".png"),"image bytes"));
+    QVERIFY(writeFile(directory.filePath("labels/train/ambiguous.txt"),QByteArray()));
+    const QByteArray originalBorder="0 .01 .5 .1 .2\n";
+    QVERIFY(writeFile(directory.filePath("labels/train/border.txt"),originalBorder));
+    QVERIFY(writeFile(directory.filePath("labels/train/normal.txt"),"0 .5 .5 .1 .1\n"));
+    QVERIFY(writeFile(directory.filePath("metadata.csv"),csv));
+    review::DatasetStore store; QString error;
+    QVERIFY2(store.load(directory.path(),error),qPrintable(error));
+    QVERIFY(!store.isUncertain(0)); QVERIFY(!store.isUncertain(1));
+    // A completed exclusion must not block saving another image in a later batch.
+    QVERIFY(store.setValue(2,"Small","1"));
+    QVERIFY2(store.save(error),qPrintable(error));
+    const QString target=output.filePath("snapshot");
+    QVERIFY2(store.exportDataset(target,error),qPrintable(error));
+    review::DatasetStore exported;
+    QVERIFY2(exported.load(target,error),qPrintable(error)); QCOMPARE(exported.rows.size(),1);
+    QCOMPARE(exported.value(0,QStringLiteral("图片")),QString("normal.png"));
+    QVERIFY(!QFileInfo::exists(target+"/labels/train/ambiguous.txt"));
+    QCOMPARE(readFile(target+"/excluded/reviewed/train/reference_labels/border.txt"),originalBorder);
+    QVERIFY(QFileInfo::exists(target+"/excluded/reviewed/train/images/ambiguous.png"));
+    const QByteArray excluded=readFile(target+"/excluded/reviewed/metadata.csv");
+    QVERIFY(excluded.contains("previous=severe_blur")); QVERIFY(excluded.contains("keep unknown"));
+    const QByteArray summary=readFile(target+"/export-summary.txt");
+    QVERIFY(summary.contains("pending=0\nreviewed_excluded=2"));
+    QCOMPARE(readFile(directory.filePath("labels/train/border.txt")),originalBorder);
+}
+
+void DatasetStoreTests::exportRejectsDirtyStaleAndUnreviewed()
+{
+    QTemporaryDir directory, output;
+    QVERIFY(writeFile(directory.filePath("metadata.csv"),reviewCsv()));
+    review::DatasetStore store; QString error;
+    QVERIFY2(store.load(directory.path(),error),qPrintable(error));
+    QVERIFY(store.setValue(0,"Small","1"));
+    QVERIFY(!store.exportDataset(output.filePath("dirty"),error));
+    QVERIFY2(store.save(error),qPrintable(error));
+    // Pending samples are excluded, even with missing labels/images.
+    QVERIFY2(store.exportDataset(output.filePath("pending"),error),qPrintable(error));
+    QVERIFY(readFile(output.filePath("pending/export-summary.txt")).contains("pending=1"));
+    QVERIFY(writeFile(store.metadataPath,reviewCsv("provided_annotation")));
+    QVERIFY(!store.exportDataset(output.filePath("stale"),error));
+    QVERIFY2(store.load(directory.path(),error),qPrintable(error));
+    QVERIFY(store.markUncertain(0,"fully_occluded",error)); QVERIFY(store.save(error));
+    QVERIFY(!store.exportDataset(output.filePath("missing-image"),error));
+    QVERIFY(!QFileInfo::exists(output.filePath("missing-image")));
 }
 
 QTEST_APPLESS_MAIN(DatasetStoreTests)

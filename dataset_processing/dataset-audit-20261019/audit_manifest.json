@@ -1,0 +1,493 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "dataset-audit-20261019",
+  "conclusion": "BLOCKED",
+  "audit_execution_complete": true,
+  "created_at_utc": "2026-10-19T03:39:11.710522+00:00",
+  "completed_at_utc": "2026-10-19T04:08:29.248818+00:00",
+  "timezone_for_display": "Asia/Hong_Kong UTC+08:00",
+  "output_directory": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019",
+  "canonical_dataset": "/home/misaka/workspace/datasets",
+  "source_version": {
+    "metadata": {
+      "path": "/home/misaka/workspace/datasets/metadata.csv",
+      "sha256": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9"
+    },
+    "yaml": {
+      "path": "/home/misaka/workspace/datasets/dataset.yaml",
+      "sha256": "7781d543cc43364f2a2598ff596adb05a8e80b4547af40195665565a8eef05b6"
+    }
+  },
+  "source_snapshot": {
+    "metadata": "data/source-metadata.csv",
+    "yaml": "data/source-dataset.yaml",
+    "inventory": "data/inventory.json",
+    "inventory_sha256": "c88924426077933d3e1e4fafbed80623ec9853cf8cdc929226548e53898b6111",
+    "current_paths": "isolation/verification.json:mapped_file_records",
+    "image_sha_manifest": "data/image-sha256.tsv",
+    "label_sha_manifest": "data/label-sha256.tsv",
+    "pixel_sha_manifest": "data/pixel-sha256.tsv"
+  },
+  "file_counts": {
+    "metadata_rows": 8398,
+    "decoded_images": 8398,
+    "baseline_images": 8398,
+    "baseline_labels": 8398,
+    "usable_images": 8148,
+    "excluded_images": 250,
+    "usable_football_boxes": 5417,
+    "usable_positive_images": 5220,
+    "usable_negative_images": 2928,
+    "active_after_isolation": {
+      "train": {
+        "images": 7857,
+        "labels": 7857
+      },
+      "val": {
+        "images": 164,
+        "labels": 164
+      },
+      "test": {
+        "images": 127,
+        "labels": 127
+      }
+    },
+    "archived_after_isolation": {
+      "train": {
+        "images": 243,
+        "labels": 243
+      },
+      "val": {
+        "images": 6,
+        "labels": 6
+      },
+      "test": {
+        "images": 1,
+        "labels": 1
+      }
+    },
+    "original_image_and_label_bytes_checked": 16796
+  },
+  "user_authorized_change": {
+    "request": "可以帮我把那250张图片和label放到和images、labels同级的另外的文件夹中，隔离开来",
+    "destination": "/home/misaka/workspace/datasets/excluded",
+    "images_moved": 250,
+    "labels_moved": 250,
+    "usable_files_moved": 0,
+    "image_and_label_bytes_unchanged": true,
+    "metadata_unchanged": true,
+    "yaml_unchanged": true,
+    "split_fields_unchanged": true,
+    "manifest": "/home/misaka/workspace/datasets/excluded/manifest.json",
+    "backup": "isolation/backup",
+    "independent_verification": "isolation/verification.json",
+    "warning": "Root metadata intentionally remains the complete8398-row historical ledger.250 excluded paths resolve via the isolation manifest. Do not rerun the move."
+  },
+  "environment": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "python_executable": "/opt/VisionStudio/runtime/bin/python",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "packages": {
+      "numpy": "2.2.6",
+      "Pillow": "12.3.0",
+      "opencv-python": null,
+      "torch": "2.9.1+cpu",
+      "torchvision": "0.24.1+cpu",
+      "ultralytics": "8.4.173",
+      "matplotlib": "3.10.9",
+      "pandas": "2.3.3"
+    },
+    "compute": "CPU; one numerical/OpenCV/Torch thread per process, nice10; no production environment installation",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    }
+  },
+  "script_version": {
+    "strategy": "SHA256 of exact saved implementation, not a fabricated Git release",
+    "scripts": [
+      {
+        "path": "scripts/apply_visual_triage.py",
+        "sha256": "ace005d36f4721ff22a51508d17565d3ccb70e4a76695503ea08524e52966896",
+        "bytes": 4118
+      },
+      {
+        "path": "scripts/build_review.py",
+        "sha256": "1d0924d7353fb757b39c0b51c3fa3321d65c7411fa48e5cacd657e44d6f24796",
+        "bytes": 14064
+      },
+      {
+        "path": "scripts/embeddings.py",
+        "sha256": "780ffb5f28bf4655818bd98b4a7542a7dcd42eb063190511653796b8ace008df",
+        "bytes": 3409
+      },
+      {
+        "path": "scripts/finalize_outputs.py",
+        "sha256": "d003ea9f2e893d07380ad29db2046d322e2cfc73fd9adcb0d10a6403b6fb2d33",
+        "bytes": 30540
+      },
+      {
+        "path": "scripts/finish_manifest.py",
+        "sha256": "4517c277a012c27ff7545538a052c8b7e3c94091b1d8c19c7b6673741717703c",
+        "bytes": 14892
+      },
+      {
+        "path": "scripts/inventory_audit.py",
+        "sha256": "419efffa81b546608b7e8e5ed879fd7ffe3620bd8dbc96ce482b63a951e057aa",
+        "bytes": 30141
+      },
+      {
+        "path": "scripts/isolate_excluded.py",
+        "sha256": "444dfb43a279cea3c0ff70d1c9ecc679d2751ef5ae39a0e9606feb75b308bc69",
+        "bytes": 7088
+      },
+      {
+        "path": "scripts/provenance_stats.py",
+        "sha256": "1dbd6d9204aca55a25fca6728bffbffb1f41382a2e8ddd5a79f9d2b5cbffe8ed",
+        "bytes": 30426
+      },
+      {
+        "path": "scripts/render_pair_evidence.py",
+        "sha256": "7e9a041d08ad69b789592a3b894d57eb05f17f3f0caa0b444fbf5e7b32f8d68d",
+        "bytes": 3079
+      },
+      {
+        "path": "scripts/similarity_audit.py",
+        "sha256": "b07b65c6e4574bdc90a12cb35cc740e40fc6ff88327a13d14548b16dd5f8eb02",
+        "bytes": 15025
+      },
+      {
+        "path": "scripts/training_safety.py",
+        "sha256": "62c27e95900b7cf060a76bcfe476025a17f39638c9518de5384c8954065650da",
+        "bytes": 17093
+      },
+      {
+        "path": "scripts/verify_isolation.py",
+        "sha256": "13fb73c887c8e7ff5ea4bd03590e3b75a4c5b427c0920073b052b713ee73cec9",
+        "bytes": 14021
+      }
+    ]
+  },
+  "hashing": {
+    "file": "SHA256(raw bytes)",
+    "pixel": "SHA256(big endian uint32 width + uint32 height + decoded RGB row-major bytes); no EXIF orientation transposition",
+    "phash": "OpenCV RGB2GRAY, INTER_AREA resize32x32, float32 cv2.dct, upperleft8x8 coefficients > median of63 coefficients excludingDC; all64 bits includingDC; row-major top-left is most significant bit; 16 lowercase hex",
+    "dhash": "OpenCV RGB2GRAY, INTER_AREA resize9x8; compare right pixel > left pixel; row-major64 booleans, first is most significant bit;16 lowercase hex"
+  },
+  "thresholds": {
+    "inventory": {
+      "YOLO_boundary_tolerance": 1e-06,
+      "tiny_bbox": "min native side<2px or native area<4px2",
+      "duplicate_bbox_IoU": 0.9,
+      "blank": "gray std<2 OR entropy<0.5bit OR black(gray<=5)>0.99 OR white(gray>=250)>0.99",
+      "Small_risk": "only Occluded=0; Small1 and anybox_longside672>50, or Small0 and allbox_longside672<30; not error verdict",
+      "Occluded_risk": "No automatic judgment; Occluded0 with box near boundary<0.002 is visual candidate only",
+      "Blurred": "No automatic judgment from global sharpness; human interpretation of directional ball/camera motion required"
+    },
+    "hash_hamming_report": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      16
+    ],
+    "hash_index": "BK tree exact64-bit Hamming radius16; candidate pHash<=12 OR dHash<=10",
+    "cosine_report": [
+      0.9,
+      0.95,
+      0.97,
+      0.98,
+      0.99,
+      0.995
+    ],
+    "candidate_retrieval": "Cross split eval-query top5 plus reverse top1, normalized exact blocked dot product; no within-train all-pairs",
+    "ssim": "Gaussian11 sigma1.5, data_range255, valid5px border; base128x72;61 initially high refined256x144,58 remained automated high after refinement",
+    "ssim_pair_counts": {
+      "base128x72": 22391,
+      "refined256x144": 61,
+      "automated_high_after_refinement": 58
+    },
+    "alignment": "Translation diagnostic on58 automated high after refinement; response>=0.3, norm shift<=8px, extra10px border crop;26 valid aligned pairs",
+    "risk_policy": {
+      "critical": "file/pixel exact or confirmed same video/frame",
+      "high_temporal": "confirmed same video and <=1 second, irrespective of visual score",
+      "high_visual": "(pHash<=4 AND dHash<=6 AND (cosine>=.97 OR SSIM>=.82)) OR (cosine>=.985 AND SSIM>=.60 AND (pHash<=8 OR dHash<=8))",
+      "justification": "Operational review triage, not universal duplicate thresholds; joint signals only; low SSIM cannot veto camera motion/exposure candidates. No automatic deletion or split assignment."
+    },
+    "temporal_report_frames": [
+      1,
+      5,
+      15,
+      30,
+      75,
+      150
+    ],
+    "high_temporal_seconds": 1,
+    "review_thresholds_are_groundtruth": false
+  },
+  "embedding_model": {
+    "executed": true,
+    "model": "torchvision.mobilenet_v3_small",
+    "weights": "IMAGENET1K_V1",
+    "pretrained": true,
+    "checkpoint_url": "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth",
+    "checkpoint_sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+    "torch_version": "2.9.1+cpu",
+    "torchvision_version": "0.24.1+cpu",
+    "dimension": 576,
+    "pooling": "mean of final backbone feature map H,W, before classifier",
+    "normalization": "L2",
+    "preprocess": {
+      "color": "RGB",
+      "resize": [
+        224,
+        224
+      ],
+      "interpolation": "Pillow BILINEAR",
+      "crop": "none; whole-frame anisotropic resize to preserve all edge content",
+      "scale": "divide 255",
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    },
+    "batch_size": 32,
+    "device": "CPU",
+    "threads": 1,
+    "seed": 20261019,
+    "images": 8148,
+    "elapsed_seconds": 57.33442759513855,
+    "limitation": "ImageNet classification backbone, not DINOv2. Whole-frame warp differs from official center-crop evaluation. Similarity is candidate evidence, not proof of event identity or leakage.",
+    "faiss_used": false,
+    "retrieval": "exact cross-split normalized inner product in bounded NumPy batches; no within-train all-pairs",
+    "source_inventory_sha256": "c88924426077933d3e1e4fafbed80623ec9853cf8cdc929226548e53898b6111",
+    "source_files_written": false
+  },
+  "random_seed": 20261019,
+  "sampling": {
+    "stratified_unique_images": 64,
+    "actual_visual_sample_pages": 32,
+    "purposeful_legacy_visual_pairs": 42,
+    "temporal_pair_representatives": 8,
+    "pair_review_initially_blank": true,
+    "annotation_review_initially_blank": true
+  },
+  "final_candidates": {
+    "candidate_pairs": 22391,
+    "automated_risk_counts": {
+      "high": 58,
+      "medium": 7572,
+      "low": 14761
+    },
+    "final_review_priority_counts": {
+      "high": 74,
+      "medium": 7556,
+      "low": 14761
+    },
+    "visual_review_promotions": 16,
+    "legacy_high_reviewed": 26,
+    "legacy_visual_near_supported": 21,
+    "legacy_visual_uncertain": 5,
+    "medium_visual_near_supported": 16,
+    "source_event_confirmation_from_legacy_images": 0,
+    "actual_visual_reviewed_pairs": 50,
+    "temporal_representatives_actually_viewed": 8,
+    "confirmed_file_or_pixel_duplicates": 0,
+    "review_status_all_blank": true,
+    "source_modified": false,
+    "split_pair_counts": {
+      "train-val": {
+        "final_priority": {
+          "high": 37,
+          "medium": 3385,
+          "low": 7428
+        },
+        "automated_priority": {
+          "high": 31,
+          "medium": 3391,
+          "low": 7428
+        },
+        "high_both_usable": 37
+      },
+      "train-test": {
+        "final_priority": {
+          "high": 32,
+          "medium": 3283,
+          "low": 7114
+        },
+        "automated_priority": {
+          "high": 27,
+          "medium": 3288,
+          "low": 7114
+        },
+        "high_both_usable": 32
+      },
+      "val-test": {
+        "final_priority": {
+          "medium": 888,
+          "high": 5,
+          "low": 219
+        },
+        "automated_priority": {
+          "medium": 893,
+          "low": 219
+        },
+        "high_both_usable": 5
+      }
+    }
+  },
+  "source_associations": {
+    "confirmed_recording_images": 7684,
+    "recovered_from_sha_matched_manifest": 1176,
+    "confirmed_recording_files": 3,
+    "legacy_recording_unknown": 714,
+    "true_independent_physical_session_count": null,
+    "same_frame_cross_split_known_source_groups": 0,
+    "confirmed_le_1s_cross_split_image_pairs": 32,
+    "distinct_temporal_pairs": 8,
+    "temporal_pairs_are_not_independent_events": true,
+    "historical_text_evidence": "data/provenance-evidence/sources.json"
+  },
+  "completed_steps": [
+    {
+      "step": "A",
+      "coverage": "All8398 image bytes, full RGB decode, labels, metadata, paths, YAML, class mapping, excluded filtering before/after."
+    },
+    {
+      "step": "B1",
+      "coverage": "All8398 raw-file and decoded-RGB SHA256; zero exact cross-split groups."
+    },
+    {
+      "step": "B2",
+      "coverage": "All8398 pHash/dHash indexed cross-split retrieval; threshold sensitivity and independent brute-force checks."
+    },
+    {
+      "step": "B3",
+      "coverage": "All8148 usable MobileNetV3-small ImageNet1K embeddings; L2 normalization; exact blocked cross-split cosine retrieval/distributions."
+    },
+    {
+      "step": "B4",
+      "coverage": "22391 candidate SSIM128x72;61 initial high refined256x144,58 remained automated high;26 valid limited alignment diagnostics on those58."
+    },
+    {
+      "step": "B5/C",
+      "coverage": "7684 source identities from current fields or SHA-confirmed historical manifests; frames, stereo, temporal gaps; unknown identities explicitly preserved."
+    },
+    {
+      "step": "B6/E3",
+      "coverage": "Offline HTML all22391 candidate pairs;74 evidence comparison pages;42 actual legacy visual pair inspections,8 actual temporal representative inspections,64 actual stratified image inspections."
+    },
+    {
+      "step": "D",
+      "coverage": "All splits, multi-label joints, positives/negatives/box bins/video groups; Test correlation and conditional illustrative Wilson/planning calculations."
+    },
+    {
+      "step": "E1/E2",
+      "coverage": "All label geometry/count/NoBall checks; Small/edge candidate screening; subjective scenes only sampled visual observations."
+    },
+    {
+      "step": "F",
+      "coverage": "Actual installed Ultralytics get_img_files before/after; copies-only4 invalid-label verifier tests; source/cache/model nc mapping inspection; no model instantiation/training."
+    },
+    {
+      "step": "authorized isolation",
+      "coverage": "250 images+250 labels moved, backup/journal; independent all16796 file SHA and500 archive/backup byte comparisons passed."
+    },
+    {
+      "step": "final validation",
+      "coverage": "Independent report arithmetic/CSV review, paths, runtime browser pagination/filter checks, figures, source SHA and output index."
+    }
+  ],
+  "not_executed_or_unverifiable": [
+    {
+      "item": "DINOv2/FAISS",
+      "reason": "Not installed; actual pretrained alternative and exact bounded retrieval used instead; no dependency installation."
+    },
+    {
+      "item": "Independent physical sessions and714 legacy original videos/frames",
+      "reason": "Insufficient reliable acquisition evidence. Recording count is not session count."
+    },
+    {
+      "item": "Full manual8398 reannotation/all22391 candidate adjudication",
+      "reason": "Audit uses recorded stratified/purposeful visual coverage; assistant observations are not user approval."
+    },
+    {
+      "item": "Universal rotation/perspective/exposure matching or formal no-leak proof",
+      "reason": "Finite retrieval/diagnostic coverage cannot establish absence of all leakage."
+    },
+    {
+      "item": "Actual Recall/AP/mAP, E00/E01, ablation, multiseed training, production TensorRT update",
+      "reason": "Not authorized by this audit and expressly prohibited; statistical intervals are hypothetical only."
+    },
+    {
+      "item": "Other cleaning or repartition",
+      "reason": "Proposals only. Only the later explicitly authorized250-sample isolation was applied."
+    },
+    {
+      "item": "YOLO26s runtime/weight compatibility",
+      "reason": "Data I/O and installed trainer nc source checked; no model instantiated. E00 COCO32-to-class0 protocol remains to define."
+    }
+  ],
+  "reproduction_notes": "REPRODUCE.md",
+  "validation": {
+    "final": "logs/final-validation.json",
+    "independent": "logs/final-independent-review.json",
+    "paths": "logs/final-path-validation.json",
+    "browser": "logs/html-ui-validation.json"
+  },
+  "outputs": {
+    "required": [
+      {
+        "path": "AUDIT_REPORT.md",
+        "sha256": "a4c5bbed9aaf47809e0d46e8b71a51538819a0d785f322543c17e92852d1af72"
+      },
+      {
+        "path": "cross_split_duplicates.csv",
+        "sha256": "58c71178caf4e9a3ec1c408760d06c17d6b08a185818525067faae2bc869e504"
+      },
+      {
+        "path": "split_distribution.csv",
+        "sha256": "96accafd7e85017eb2758cb0df47651fe02466587a16e956dcc490865039e18d"
+      },
+      {
+        "path": "annotation_issues.csv",
+        "sha256": "eed9acdddb62737ac95b050771968c67700cc68eb7abf6f6f574b596a7a18a2d"
+      },
+      {
+        "path": "excluded_samples_audit.csv",
+        "sha256": "0144ecb8da6ee70f81a12354aebeca43317c0d3e70ec3e90ab134ca39b080db7"
+      },
+      {
+        "path": "leakage_review.html",
+        "sha256": "5a0154798cc7ab398c5b776697c162cf221c682d90f4d5292e2bbb713a40ba9c"
+      },
+      {
+        "path": "proposed_split_plan.md",
+        "sha256": "6e2ad7710d97780760f2447586d67065bf99ba40aac524eb52593e0f0f4bb3cc"
+      },
+      {
+        "path": "audit_manifest.json",
+        "sha256": null
+      }
+    ],
+    "full_inventory": "data/output-files.json",
+    "full_inventory_sha256": "6b31b02628b3bf523c35b3e9ba7a6c0f74ec12e71c18ced0a470b0feb3f48926",
+    "indexed_entries": 25228,
+    "counts": {
+      "regular_file": 17080,
+      "symlink": 8148
+    },
+    "self_hash_policy": "The manifest has no self digest. File index deliberately excludes itself and the manifest. All other output regular files are hashed."
+  }
+}

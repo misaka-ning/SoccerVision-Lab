@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "method": "Actual Codex in-app browser against temporary127.0.0.1-only HTTP server; no external hosting. Browser DOM observations and viewport screenshot.",
+  "checks": {
+    "initial_high74_page1_of4": true,
+    "first_thumbnails_loaded_natural_width320": true,
+    "next_clicked_three_times_reaches_page4_of4": true,
+    "last_page14_cards_next_disabled": true,
+    "val_test_high_filter5_cards_page1_of1": true,
+    "val_test_user_review_values_all_empty": true,
+    "filename_search_legacy_val_000060_returns1_pair": true,
+    "all_risks22391_page1_of1120": true,
+    "assistant_observation_filter50_page1_of3": true,
+    "restored_default_high74_page1_of4": true,
+    "browser_console_errors_empty": true
+  },
+  "screenshot": "figures/review-ui.png",
+  "limits": [
+    "No user review decision was entered; source CSV fields remain blank.",
+    "Export button was inspected in saved JavaScript but not clicked; no browser download outside audit directory.",
+    "Raw file URI navigation is intended for offline local opening; thumbnails and evidence pages are bundled relative assets."
+  ],
+  "completed_at_utc": "2026-10-19T04:06:46.572948+00:00",
+  "temporary_preview_server_stopped": true,
+  "browser_tab_closed": true,
+  "final_reloaded_build_verified": true
+}

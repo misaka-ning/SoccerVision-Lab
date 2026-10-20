@@ -1,0 +1,23 @@
+{
+  "historical_contact_sheets": [
+    "analysis/round1/evidence/segment-S01.jpg",
+    "analysis/round1/evidence/segment-S02.jpg",
+    "analysis/round1/evidence/segment-S03.jpg",
+    "analysis/round1/evidence/segment-S04.jpg",
+    "analysis/round1/evidence/segment-S05.jpg",
+    "analysis/round1/evidence/segment-S06.jpg",
+    "analysis/round1/evidence/segment-S07.jpg",
+    "analysis/round1/evidence/segment-S08.jpg",
+    "analysis/round1/evidence/segment-S09.jpg",
+    "analysis/round2/evidence/segment-S01.jpg",
+    "analysis/round2/evidence/segment-S02.jpg",
+    "analysis/round2/evidence/segment-S03.jpg",
+    "analysis/round2/evidence/segment-S04.jpg",
+    "analysis/round2/evidence/segment-S05.jpg",
+    "analysis/round2/evidence/segment-S06.jpg",
+    "analysis/round2/evidence/segment-S07.jpg",
+    "analysis/round2/evidence/segment-S08.jpg",
+    "analysis/round2/evidence/segment-S09.jpg"
+  ],
+  "all_match_original_sha256": true
+}

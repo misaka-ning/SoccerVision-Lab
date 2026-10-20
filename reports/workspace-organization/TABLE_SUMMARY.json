@@ -1,0 +1,24 @@
+{
+  "classification_groups": 111,
+  "classified_regular_files": 64153,
+  "class_counts": {
+    "C1": 42631,
+    "C4": 57,
+    "C2": 18528,
+    "C3": 2934,
+    "C5": 3
+  },
+  "cleanup_candidates": 131,
+  "cleanup_total_logical_bytes": 72255343,
+  "cleanup_total_allocated_bytes": 72605696,
+  "verified_equivalents": 2934,
+  "move_operations": 0,
+  "archive_proposals": 7,
+  "archive_executed": 0,
+  "existing_archive_recompressed": false,
+  "original_asset_edits": 0,
+  "cleanup_present_at_final_check": 130,
+  "cleanup_absent_due_to_observed_concurrent_changes": 1,
+  "stage2_new_navigation_template_files": 10,
+  "stage2_new_navigation_template_bytes": 20998
+}

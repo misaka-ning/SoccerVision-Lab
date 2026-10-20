@@ -1,0 +1,121 @@
+{
+  "created_at_utc": "2026-10-19T04:03:46.190506+00:00",
+  "purpose": "Byte-identical cached copies of eight historical provenance text evidences and two baseline normative/reference texts; no historical media copied.",
+  "count": 10,
+  "total_bytes": 2526038,
+  "sources": [
+    {
+      "evidence_id": "104748",
+      "original_path": "/home/misaka/temp/dataset-curation-20261013/restructured-manifest.jsonl",
+      "cache_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/provenance-evidence/104748--restructured-manifest.jsonl",
+      "cache_relative_path": "data/provenance-evidence/104748--restructured-manifest.jsonl",
+      "sha256": "de63fabe6464e5b1704b8773e30df9d1a0330d90b838f1b784b95c4fcf0bbfa6",
+      "bytes": 1584269,
+      "matches_provenance_sha256": true,
+      "matches_provenance_size": true,
+      "category": "historical_provenance_evidence"
+    },
+    {
+      "evidence_id": "104748_summary",
+      "original_path": "/home/misaka/temp/dataset-curation-20261013/football_20261013_104748_before_restructure/summary.json",
+      "cache_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/provenance-evidence/104748_summary--summary.json",
+      "cache_relative_path": "data/provenance-evidence/104748_summary--summary.json",
+      "sha256": "f2b83f9af6c2cf62f50da624ee378421dc09a40702a45a0dfe1a371201f8248d",
+      "bytes": 1801,
+      "matches_provenance_sha256": true,
+      "matches_provenance_size": true,
+      "category": "historical_provenance_evidence"
+    },
+    {
+      "evidence_id": "restructure_summary",
+      "original_path": "/home/misaka/temp/dataset-curation-20261013/restructure-summary.json",
+      "cache_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/provenance-evidence/restructure_summary--restructure-summary.json",
+      "cache_relative_path": "data/provenance-evidence/restructure_summary--restructure-summary.json",
+      "sha256": "581c2ae60a147dc36a149c3d32a53e06546fda9bd016d30b459aa42248f9749a",
+      "bytes": 1925,
+      "matches_provenance_sha256": true,
+      "matches_provenance_size": true,
+      "category": "historical_provenance_evidence"
+    },
+    {
+      "evidence_id": "legacy",
+      "original_path": "/home/misaka/temp/dataset-curation-20261013/legacy-merge/imported-manifest.jsonl",
+      "cache_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/provenance-evidence/legacy--imported-manifest.jsonl",
+      "cache_relative_path": "data/provenance-evidence/legacy--imported-manifest.jsonl",
+      "sha256": "3a763041ae5bb0c9d1211b6a69561f5c567b00644df74959b66294a092e2e51e",
+      "bytes": 770966,
+      "matches_provenance_sha256": true,
+      "matches_provenance_size": true,
+      "category": "historical_provenance_evidence"
+    },
+    {
+      "evidence_id": "legacy_summary",
+      "original_path": "/home/misaka/temp/dataset-curation-20261013/legacy-merge/merge-summary.json",
+      "cache_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/provenance-evidence/legacy_summary--merge-summary.json",
+      "cache_relative_path": "data/provenance-evidence/legacy_summary--merge-summary.json",
+      "sha256": "4769972a4438c912e75fc4bc4d1c0501cd8fd381a6292929bd0502a111343714",
+      "bytes": 1747,
+      "matches_provenance_sha256": true,
+      "matches_provenance_size": true,
+      "category": "historical_provenance_evidence"
+    },
+    {
+      "evidence_id": "181531_trim",
+      "original_path": "/home/misaka/temp/nvidia-recordings-20261013-181531/trim-report.json",
+      "cache_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/provenance-evidence/181531_trim--trim-report.json",
+      "cache_relative_path": "data/provenance-evidence/181531_trim--trim-report.json",
+      "sha256": "13ab4e41e056843ca03cac2365e9bd0586ba0e082245dded44064884d94c74a3",
+      "bytes": 4761,
+      "matches_provenance_sha256": true,
+      "matches_provenance_size": true,
+      "category": "historical_provenance_evidence"
+    },
+    {
+      "evidence_id": "181326_addition",
+      "original_path": "/home/misaka/temp/dataset-curation-20261013/reaudit-20261013-205545/evidence/new-recording/addition-manifest.json",
+      "cache_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/provenance-evidence/181326_addition--addition-manifest.json",
+      "cache_relative_path": "data/provenance-evidence/181326_addition--addition-manifest.json",
+      "sha256": "485c746341691cc3f15969899d1fc6a79d4bbbdb65af3cc2f80d4d1f588bdcb7",
+      "bytes": 144531,
+      "matches_provenance_sha256": true,
+      "matches_provenance_size": true,
+      "category": "historical_provenance_evidence"
+    },
+    {
+      "evidence_id": "181326_selection",
+      "original_path": "/home/misaka/temp/nvidia-recordings-20261013-193624/curated-video-report.json",
+      "cache_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/provenance-evidence/181326_selection--curated-video-report.json",
+      "cache_relative_path": "data/provenance-evidence/181326_selection--curated-video-report.json",
+      "sha256": "03b51f89cc8a901ed89b33b44a0d6fee12a56994cced747a095e77229e98add4",
+      "bytes": 9698,
+      "matches_provenance_sha256": true,
+      "matches_provenance_size": true,
+      "category": "historical_provenance_evidence"
+    },
+    {
+      "evidence_id": "review_policy",
+      "category": "normative_baseline_reference",
+      "original_path": "/home/misaka/workspace/dataset_processing/batch-review-20261016/review-policy.json",
+      "cache_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/provenance-evidence/review_policy--review-policy.json",
+      "cache_relative_path": "data/provenance-evidence/review_policy--review-policy.json",
+      "sha256": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33",
+      "bytes": 920,
+      "baseline_reference_sha256": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33",
+      "matches_baseline_sha256": true
+    },
+    {
+      "evidence_id": "baseline_final_statistics_report",
+      "category": "normative_baseline_reference",
+      "original_path": "/home/misaka/workspace/dataset_processing/batch-review-20261016/final-statistics-20261019/REPORT.md",
+      "cache_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/provenance-evidence/baseline_final_statistics_report--REPORT.md",
+      "cache_relative_path": "data/provenance-evidence/baseline_final_statistics_report--REPORT.md",
+      "sha256": "b02b0dac018cd36ee76de6c2301afeae96fe5fbfcac16f4993ef08e11c63976f",
+      "bytes": 5420,
+      "baseline_reference_sha256": "b02b0dac018cd36ee76de6c2301afeae96fe5fbfcac16f4993ef08e11c63976f",
+      "matches_baseline_sha256": true
+    }
+  ],
+  "updated_at_utc": "2026-10-19T04:04:35.990368+00:00",
+  "historical_evidence_count": 8,
+  "normative_reference_count": 2
+}

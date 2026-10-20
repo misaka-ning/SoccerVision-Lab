@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "archive_id": "review-metadata-backups-20261019-cleanup",
+  "checked_at_utc": "2026-10-19T07:52:55.426108+00:00",
+  "archive_path": "dataset_archives/review-metadata-backups-20261019-cleanup/metadata-backups.tar.zst",
+  "archive_bytes": 71998479,
+  "archive_sha256": "bd6e5923963bf2439ba7517dc016ecde420f96466a61b50550ad05a483ee9e71",
+  "historically_recorded_archive_sha256": "bd6e5923963bf2439ba7517dc016ecde420f96466a61b50550ad05a483ee9e71",
+  "archive_sha256_matches_historical_record": true,
+  "external_manifest_sha256": "9460caa7491a5c9d96bf7cd2f613e0726915e586bc59cfb346088e75c4a00619",
+  "result_json_sha256": "ecfa2dcbc938be7373248e3bb8f2e01c87577a8e007289c70636439a356631e3",
+  "expected_file_count": 2918,
+  "verified_data_file_count": 2918,
+  "tar_regular_member_count": 2919,
+  "embedded_manifest_matches_external": true,
+  "expected_uncompressed_data_bytes": 13656380391,
+  "verified_uncompressed_data_bytes": 13656380391,
+  "unique_data_sha256_count": 2885,
+  "source_identity_policy": "All 2918 original names retained; hash-equivalent timeline records are not deduplicated.",
+  "member_types": "regular_files_only",
+  "path_safety": "no absolute path, traversal, symlink or hardlink member",
+  "restore_verification": "6 deterministic samples restored to fresh independent /tmp directory, then reread and SHA256 verified; all members verified by streaming, not fully restored to disk.",
+  "sample_restore_directory": "/tmp/workspace-archive-restore-check-g9f9rk12",
+  "sample_restored_bytes": 28343316,
+  "restored_samples": [
+    {
+      "member": "metadata-backups/metadata-20261014T092410191Z-04593d95-ab1c-4187-8f8c-ce7914e220f5.csv",
+      "restore_path": "/tmp/workspace-archive-restore-check-g9f9rk12/metadata-backups/metadata-20261014T092410191Z-04593d95-ab1c-4187-8f8c-ce7914e220f5.csv",
+      "size": 2988335,
+      "sha256": "ac193a0c7544fb6c5d68ec97b4956cfd77721b74744bfe2735d2f101cf097c0b",
+      "restored_sha256_matches": true
+    },
+    {
+      "member": "metadata-backups/metadata-20261014T092411598Z-51d3dcd8-2250-4040-9904-b960e754e5e4.csv",
+      "restore_path": "/tmp/workspace-archive-restore-check-g9f9rk12/metadata-backups/metadata-20261014T092411598Z-51d3dcd8-2250-4040-9904-b960e754e5e4.csv",
+      "size": 2988325,
+      "sha256": "53b97efadc6ad09f253bb5fe2bfc4ca4f4b69dc8e68f7eacdf5c6ccd35451ea5",
+      "restored_sha256_matches": true
+    },
+    {
+      "member": "metadata-backups/metadata-20261014T094825074Z-4663f308-ffc8-4c67-a496-237ee6a73b9d.csv",
+      "restore_path": "/tmp/workspace-archive-restore-check-g9f9rk12/metadata-backups/metadata-20261014T094825074Z-4663f308-ffc8-4c67-a496-237ee6a73b9d.csv",
+      "size": 2985740,
+      "sha256": "452ea867f700f26ffe9dd72aae67fd4d0c032b8fcbf22af1dcb8e4f734494394",
+      "restored_sha256_matches": true
+    },
+    {
+      "member": "metadata-backups/metadata-20261014T122629981Z-76200d0a-3930-4ee5-8164-7e31048650e9.csv",
+      "restore_path": "/tmp/workspace-archive-restore-check-g9f9rk12/metadata-backups/metadata-20261014T122629981Z-76200d0a-3930-4ee5-8164-7e31048650e9.csv",
+      "size": 3118972,
+      "sha256": "3e66ee066397546ae15172a5ce566f1aca61ba809066eb7d347f18a96f989463",
+      "restored_sha256_matches": true
+    },
+    {
+      "member": "metadata-backups/metadata-20261015T034528241Z-23987ca4-d1a8-4c4b-97a7-2d171e27d2fb.csv",
+      "restore_path": "/tmp/workspace-archive-restore-check-g9f9rk12/metadata-backups/metadata-20261015T034528241Z-23987ca4-d1a8-4c4b-97a7-2d171e27d2fb.csv",
+      "size": 7257710,
+      "sha256": "50c0889320ceb1a5a09289790f5a8f09b596f312e67e3a2d06967dab2d3550b2",
+      "restored_sha256_matches": true
+    },
+    {
+      "member": "metadata-backups/metadata-20261019T014403163Z-be4efebd-2951-4c85-a30f-ad74fbccacd3.csv",
+      "restore_path": "/tmp/workspace-archive-restore-check-g9f9rk12/metadata-backups/metadata-20261019T014403163Z-be4efebd-2951-4c85-a30f-ad74fbccacd3.csv",
+      "size": 9004234,
+      "sha256": "7ba70ce07842dfd48b38364fa40a3e436ee15e47ce423c7bad302fd551ddfa55",
+      "restored_sha256_matches": true
+    }
+  ],
+  "source_paths_at_creation": [
+    "datasets/.metadata-review-backups/{name}"
+  ],
+  "current_logical_source_paths": [
+    "datasets/v0/.metadata-review-backups/{name}"
+  ],
+  "archive_member_mapping": "metadata-backups/{name} -> independent_restore_root/metadata-backups/{name}; no automatic write-back to datasets/v0",
+  "source_mapping_evidence": [
+    "script/dataset-reviewer/maintenance/compact_metadata_backups.py",
+    "script/dataset-reviewer/maintenance/README.md",
+    "reports/review-tool-cleanup-20261019/README.md",
+    "docs/WORKSPACE_FILE_STRUCTURE.md"
+  ],
+  "source_mapping_limit": "Manifest stores basenames, not full original source paths; legacy/current mapping is reconstructed from archived tool contract and directory migration evidence.",
+  "elapsed_seconds": 16.791,
+  "status": "PASS",
+  "existing_archive_modified": false,
+  "source_deleted": false,
+  "recompressed": false
+}

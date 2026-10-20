@@ -1,0 +1,9 @@
+{
+  "root": "/home/misaka/workspace/datasets",
+  "images": 8398,
+  "boxes": 5218,
+  "metadata_sha256": "8b20e9b5a4a02ca877d93cfc5f985a53a575b8db036be74169e7fd77a0765bc9",
+  "syntax_errors": [],
+  "created_utc": "2026-10-14T09:43:28.647161+00:00",
+  "snapshots_include_images": false
+}

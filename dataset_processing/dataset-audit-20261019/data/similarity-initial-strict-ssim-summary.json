@@ -1,0 +1,305 @@
+{
+  "methods": {
+    "hash_index": "BK-tree Hamming64, exact radius16 retrieval separately for pHash/dHash; candidates p<=12 OR d<=10",
+    "embedding": "L2 normalized pretrained MobileNetV3-small576, exact bounded cross-split inner product; eval top5 + reverse top1",
+    "ssim": "Wang-style Gaussian11 sigma1.5, data_range255, valid border crop, grayscale full-frame resize128x72; initial high-risk refined256x144",
+    "alignment": "Up to first200 high-risk pairs; phase-correlation translation only, response>=.3 and shift<=8px; aligned SSIM diagnostic only",
+    "source_images_written": false,
+    "thresholds_not_groundtruth": true
+  },
+  "hash_threshold_counts": {
+    "train-val": {
+      "all_cross_pairs": 1377000,
+      "phash": {
+        "0": 4,
+        "2": 8,
+        "4": 23,
+        "6": 45,
+        "8": 88,
+        "10": 152,
+        "12": 270,
+        "16": 934
+      },
+      "phash_both_usable": {
+        "0": 4,
+        "2": 8,
+        "4": 23,
+        "6": 45,
+        "8": 88,
+        "10": 152,
+        "12": 270,
+        "16": 928
+      },
+      "dhash": {
+        "0": 4,
+        "2": 31,
+        "4": 74,
+        "6": 179,
+        "8": 330,
+        "10": 584,
+        "12": 1047,
+        "16": 5078
+      },
+      "dhash_both_usable": {
+        "0": 4,
+        "2": 31,
+        "4": 74,
+        "6": 179,
+        "8": 329,
+        "10": 577,
+        "12": 1029,
+        "16": 4885
+      }
+    },
+    "train-test": {
+      "all_cross_pairs": 1036800,
+      "phash": {
+        "0": 1,
+        "2": 4,
+        "4": 12,
+        "6": 26,
+        "8": 40,
+        "10": 51,
+        "12": 78,
+        "16": 342
+      },
+      "phash_both_usable": {
+        "0": 1,
+        "2": 4,
+        "4": 12,
+        "6": 26,
+        "8": 40,
+        "10": 51,
+        "12": 78,
+        "16": 340
+      },
+      "dhash": {
+        "0": 0,
+        "2": 7,
+        "4": 23,
+        "6": 50,
+        "8": 78,
+        "10": 157,
+        "12": 341,
+        "16": 2215
+      },
+      "dhash_both_usable": {
+        "0": 0,
+        "2": 7,
+        "4": 23,
+        "6": 50,
+        "8": 78,
+        "10": 157,
+        "12": 340,
+        "16": 2169
+      }
+    },
+    "val-test": {
+      "all_cross_pairs": 21760,
+      "phash": {
+        "0": 0,
+        "2": 0,
+        "4": 0,
+        "6": 0,
+        "8": 1,
+        "10": 9,
+        "12": 13,
+        "16": 29
+      },
+      "phash_both_usable": {
+        "0": 0,
+        "2": 0,
+        "4": 0,
+        "6": 0,
+        "8": 1,
+        "10": 9,
+        "12": 13,
+        "16": 29
+      },
+      "dhash": {
+        "0": 0,
+        "2": 0,
+        "4": 0,
+        "6": 3,
+        "8": 11,
+        "10": 16,
+        "12": 25,
+        "16": 124
+      },
+      "dhash_both_usable": {
+        "0": 0,
+        "2": 0,
+        "4": 0,
+        "6": 3,
+        "8": 11,
+        "10": 16,
+        "12": 25,
+        "16": 123
+      }
+    }
+  },
+  "cosine_distributions": {
+    "train-val": {
+      "images_a": 7857,
+      "images_b": 164,
+      "all_cross_pairs": 1288548,
+      "all_pair_quantiles": {
+        "0": -0.14814023673534393,
+        "0.01": 0.3326442241668701,
+        "0.05": 0.4306042194366455,
+        "0.25": 0.5351442098617554,
+        "0.5": 0.5977866053581238,
+        "0.75": 0.6620006561279297,
+        "0.95": 0.75132155418396,
+        "0.99": 0.8109152317047119,
+        "1": 0.989657998085022
+      },
+      "nearest_eval_quantiles": {
+        "0": 0.7364108562469482,
+        "0.25": 0.8165769428014755,
+        "0.5": 0.8577522337436676,
+        "0.75": 0.940802127122879,
+        "0.95": 0.9812735855579376,
+        "1": 0.989657998085022
+      },
+      "threshold_pairs": {
+        "0.9": 2296,
+        "0.95": 362,
+        "0.97": 76,
+        "0.98": 25,
+        "0.99": 0,
+        "0.995": 0
+      }
+    },
+    "train-test": {
+      "images_a": 7857,
+      "images_b": 127,
+      "all_cross_pairs": 997839,
+      "all_pair_quantiles": {
+        "0": -0.14617210626602173,
+        "0.01": 0.3015766739845276,
+        "0.05": 0.4070333242416382,
+        "0.25": 0.527622401714325,
+        "0.5": 0.5927553772926331,
+        "0.75": 0.6492988467216492,
+        "0.95": 0.7242391109466553,
+        "0.99": 0.7840709686279297,
+        "1": 0.9897767305374146
+      },
+      "nearest_eval_quantiles": {
+        "0": 0.7164598703384399,
+        "0.25": 0.8031278848648071,
+        "0.5": 0.8265622854232788,
+        "0.75": 0.8799395859241486,
+        "0.95": 0.9750300765037536,
+        "1": 0.9897767305374146
+      },
+      "threshold_pairs": {
+        "0.9": 839,
+        "0.95": 136,
+        "0.97": 24,
+        "0.98": 8,
+        "0.99": 0,
+        "0.995": 0
+      }
+    },
+    "val-test": {
+      "images_a": 164,
+      "images_b": 127,
+      "all_cross_pairs": 20828,
+      "all_pair_quantiles": {
+        "0": 0.33421218395233154,
+        "0.01": 0.43824926018714905,
+        "0.05": 0.5005000233650208,
+        "0.25": 0.5798836946487427,
+        "0.5": 0.6281723380088806,
+        "0.75": 0.6799813508987427,
+        "0.95": 0.7577003836631775,
+        "0.99": 0.8504005074501038,
+        "1": 0.9696828722953796
+      },
+      "nearest_eval_quantiles": {
+        "0": 0.6539469957351685,
+        "0.25": 0.7501694858074188,
+        "0.5": 0.7869353294372559,
+        "0.75": 0.8227140307426453,
+        "0.95": 0.9517456412315368,
+        "1": 0.9696828722953796
+      },
+      "threshold_pairs": {
+        "0.9": 107,
+        "0.95": 13,
+        "0.97": 0,
+        "0.98": 0,
+        "0.99": 0,
+        "0.995": 0
+      }
+    }
+  },
+  "exact_duplicate_groups": [],
+  "candidate_pairs": 22391,
+  "risk_counts": {
+    "high": 32,
+    "medium": 7598,
+    "low": 14761
+  },
+  "both_usable_risk_counts": {
+    "high": 32,
+    "medium": 7592,
+    "low": 14760
+  },
+  "alignment_executed_pairs": 0,
+  "metrics_missing_reason": "cosine blank if either image is excluded; embeddings extracted only for usable8148. alignedSSIM blank outside diagnostic selected/valid shifts.",
+  "split_pair_counts": {
+    "train-val": {
+      "candidates": 10850,
+      "risk": {
+        "high": 12,
+        "medium": 3410,
+        "low": 7428
+      },
+      "both_usable_risk": {
+        "high": 12,
+        "medium": 3404,
+        "low": 7427
+      },
+      "affected_images_both_usable": {
+        "train": 4,
+        "val": 6
+      }
+    },
+    "train-test": {
+      "candidates": 10429,
+      "risk": {
+        "high": 20,
+        "medium": 3295,
+        "low": 7114
+      },
+      "both_usable_risk": {
+        "high": 20,
+        "medium": 3295,
+        "low": 7114
+      },
+      "affected_images_both_usable": {
+        "train": 8,
+        "test": 6
+      }
+    },
+    "val-test": {
+      "candidates": 1112,
+      "risk": {
+        "medium": 893,
+        "low": 219
+      },
+      "both_usable_risk": {
+        "medium": 893,
+        "low": 219
+      },
+      "affected_images_both_usable": {
+        "val": 0,
+        "test": 0
+      }
+    }
+  },
+  "source_inventory_sha256": "c88924426077933d3e1e4fafbed80623ec9853cf8cdc929226548e53898b6111"
+}

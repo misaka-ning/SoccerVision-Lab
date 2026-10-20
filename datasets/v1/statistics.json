@@ -1,0 +1,270 @@
+{
+  "train": {
+    "images": 4346,
+    "positive_images": 2780,
+    "negative_images": 1566,
+    "boxes": 2863,
+    "source_counts": {
+      "legacy": 713,
+      "181531": 3633
+    },
+    "source_moments_known": 1823,
+    "legacy_images_without_frame_identity": 713,
+    "segments": 9,
+    "session_ids": [
+      "session_20261013_181531",
+      "session_legacy_conservative_group"
+    ],
+    "scenes": {
+      "Small": {
+        "images": 633,
+        "positive_images": 610,
+        "negative_images": 23
+      },
+      "Occluded": {
+        "images": 742,
+        "positive_images": 683,
+        "negative_images": 59
+      },
+      "Blurred": {
+        "images": 1213,
+        "positive_images": 983,
+        "negative_images": 230
+      },
+      "No Ball": {
+        "images": 1566,
+        "positive_images": 0,
+        "negative_images": 1566
+      }
+    },
+    "ordinary_clear_positive": 1015,
+    "multiball_images": 83,
+    "joint_flags": {
+      "0000": 1015,
+      "0010": 589,
+      "0100": 282,
+      "0110": 284,
+      "1000": 404,
+      "1010": 89,
+      "1100": 96,
+      "1110": 21,
+      "0001": 1287,
+      "1101": 21,
+      "0011": 218,
+      "1011": 2,
+      "0101": 28,
+      "0111": 10
+    }
+  },
+  "val": {
+    "images": 1223,
+    "positive_images": 813,
+    "negative_images": 410,
+    "boxes": 855,
+    "source_counts": {
+      "104748": 1154,
+      "181326": 69
+    },
+    "source_moments_known": 617,
+    "legacy_images_without_frame_identity": 0,
+    "segments": 2,
+    "session_ids": [
+      "session_20261013_104748",
+      "session_20261013_181326"
+    ],
+    "scenes": {
+      "Small": {
+        "images": 442,
+        "positive_images": 440,
+        "negative_images": 2
+      },
+      "Occluded": {
+        "images": 235,
+        "positive_images": 233,
+        "negative_images": 2
+      },
+      "Blurred": {
+        "images": 265,
+        "positive_images": 206,
+        "negative_images": 59
+      },
+      "No Ball": {
+        "images": 410,
+        "positive_images": 0,
+        "negative_images": 410
+      }
+    },
+    "ordinary_clear_positive": 165,
+    "multiball_images": 42,
+    "joint_flags": {
+      "0001": 349,
+      "0011": 59,
+      "1100": 66,
+      "1000": 271,
+      "1110": 15,
+      "1010": 88,
+      "0100": 105,
+      "0110": 47,
+      "0000": 165,
+      "0010": 56,
+      "1101": 2
+    }
+  },
+  "test": {
+    "images": 464,
+    "positive_images": 343,
+    "negative_images": 121,
+    "boxes": 354,
+    "source_counts": {
+      "181531": 464
+    },
+    "source_moments_known": 464,
+    "legacy_images_without_frame_identity": 0,
+    "segments": 8,
+    "session_ids": [
+      "session_20261013_181531"
+    ],
+    "scenes": {
+      "Small": {
+        "images": 82,
+        "positive_images": 82,
+        "negative_images": 0
+      },
+      "Occluded": {
+        "images": 102,
+        "positive_images": 101,
+        "negative_images": 1
+      },
+      "Blurred": {
+        "images": 163,
+        "positive_images": 134,
+        "negative_images": 29
+      },
+      "No Ball": {
+        "images": 121,
+        "positive_images": 0,
+        "negative_images": 121
+      }
+    },
+    "ordinary_clear_positive": 103,
+    "multiball_images": 11,
+    "joint_flags": {
+      "0011": 29,
+      "0001": 91,
+      "0010": 75,
+      "1010": 22,
+      "0110": 33,
+      "0100": 50,
+      "0000": 103,
+      "1000": 42,
+      "1110": 4,
+      "1100": 14,
+      "0101": 1
+    }
+  },
+  "buffer": {
+    "images": 755,
+    "positive_images": 358,
+    "negative_images": 397,
+    "boxes": 397,
+    "source_counts": {
+      "181531": 755
+    },
+    "source_moments_known": 380,
+    "legacy_images_without_frame_identity": 0,
+    "segments": 8,
+    "session_ids": [
+      "session_20261013_181531"
+    ],
+    "scenes": {
+      "Small": {
+        "images": 215,
+        "positive_images": 215,
+        "negative_images": 0
+      },
+      "Occluded": {
+        "images": 109,
+        "positive_images": 109,
+        "negative_images": 0
+      },
+      "Blurred": {
+        "images": 242,
+        "positive_images": 150,
+        "negative_images": 92
+      },
+      "No Ball": {
+        "images": 397,
+        "positive_images": 0,
+        "negative_images": 397
+      }
+    },
+    "ordinary_clear_positive": 40,
+    "multiball_images": 39,
+    "joint_flags": {
+      "0001": 305,
+      "0110": 27,
+      "0010": 62,
+      "0000": 40,
+      "1010": 46,
+      "1000": 101,
+      "0011": 92,
+      "1100": 53,
+      "0100": 14,
+      "1110": 15
+    }
+  },
+  "heldout_unused": {
+    "images": 1360,
+    "positive_images": 926,
+    "negative_images": 434,
+    "boxes": 948,
+    "source_counts": {
+      "181531": 1360
+    },
+    "source_moments_known": 911,
+    "legacy_images_without_frame_identity": 0,
+    "segments": 9,
+    "session_ids": [
+      "session_20261013_181531"
+    ],
+    "scenes": {
+      "Small": {
+        "images": 255,
+        "positive_images": 250,
+        "negative_images": 5
+      },
+      "Occluded": {
+        "images": 228,
+        "positive_images": 218,
+        "negative_images": 10
+      },
+      "Blurred": {
+        "images": 395,
+        "positive_images": 318,
+        "negative_images": 77
+      },
+      "No Ball": {
+        "images": 434,
+        "positive_images": 0,
+        "negative_images": 434
+      }
+    },
+    "ordinary_clear_positive": 298,
+    "multiball_images": 22,
+    "joint_flags": {
+      "0001": 345,
+      "0011": 77,
+      "0010": 186,
+      "0110": 81,
+      "1010": 46,
+      "1000": 178,
+      "0100": 111,
+      "0000": 298,
+      "1110": 5,
+      "1100": 21,
+      "0101": 7,
+      "1101": 3,
+      "1001": 2
+    }
+  }
+}

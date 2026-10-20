@@ -1,0 +1,243 @@
+{
+  "images": 1000,
+  "boxes": 666,
+  "boxes_after": 675,
+  "full_pages": 500,
+  "roi_pages": 84,
+  "groups": [
+    {
+      "group": 1,
+      "images": 250,
+      "boxes": 144,
+      "boxes_after": 149,
+      "full_pages": 125,
+      "roi_pages": 18,
+      "actions": {
+        "keep": 237,
+        "replace": 8,
+        "needs_visibility_review": 5
+      },
+      "flags": {
+        "Small": 30,
+        "Occluded": 64,
+        "Blurred": 84,
+        "No Ball": 101
+      },
+      "uncertain": 12,
+      "priority": 12,
+      "labels_changed": 8,
+      "scene_rows_changed": 73
+    },
+    {
+      "group": 2,
+      "images": 250,
+      "boxes": 144,
+      "boxes_after": 146,
+      "full_pages": 125,
+      "roi_pages": 18,
+      "actions": {
+        "keep": 242,
+        "needs_visibility_review": 5,
+        "replace": 3
+      },
+      "flags": {
+        "Small": 12,
+        "Occluded": 46,
+        "Blurred": 76,
+        "No Ball": 104
+      },
+      "uncertain": 19,
+      "priority": 19,
+      "labels_changed": 3,
+      "scene_rows_changed": 68
+    },
+    {
+      "group": 3,
+      "images": 250,
+      "boxes": 182,
+      "boxes_after": 184,
+      "full_pages": 125,
+      "roi_pages": 23,
+      "actions": {
+        "keep": 242,
+        "replace": 3,
+        "needs_manual_bbox_annotation": 4,
+        "needs_visibility_review": 1
+      },
+      "flags": {
+        "Small": 10,
+        "Occluded": 52,
+        "Blurred": 86,
+        "No Ball": 66
+      },
+      "uncertain": 18,
+      "priority": 18,
+      "labels_changed": 3,
+      "scene_rows_changed": 86
+    },
+    {
+      "group": 4,
+      "images": 250,
+      "boxes": 196,
+      "boxes_after": 196,
+      "full_pages": 125,
+      "roi_pages": 25,
+      "actions": {
+        "keep": 234,
+        "replace": 2,
+        "needs_visibility_review": 10,
+        "needs_manual_bbox_annotation": 4
+      },
+      "flags": {
+        "Small": 12,
+        "Occluded": 55,
+        "Blurred": 78,
+        "No Ball": 54
+      },
+      "uncertain": 40,
+      "priority": 40,
+      "labels_changed": 2,
+      "scene_rows_changed": 58
+    }
+  ],
+  "actions": {
+    "keep": 955,
+    "replace": 16,
+    "needs_visibility_review": 21,
+    "needs_manual_bbox_annotation": 8
+  },
+  "uncertain": 89,
+  "priority": 89,
+  "labels_changed": 16,
+  "changed_labels": [
+    {
+      "filename": "video_4bec9c343db72928_frame_00016638_right.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00016765_left.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00016765_right.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00016776_left.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00016776_right.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00017114_left.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00017114_right.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00017385_right.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00017987_left.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00018304_left.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00018304_right.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00018522_right.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00019014_left.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00019014_right.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00019373_left.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00019373_right.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    }
+  ],
+  "scene_rows_changed": 285,
+  "flags": {
+    "Small": 64,
+    "Occluded": 217,
+    "Blurred": 324,
+    "No Ball": 325
+  },
+  "all_require_user_review": true,
+  "user_approved": 0,
+  "labels_written_to_dataset": 0,
+  "approval_flags_cleared": 0,
+  "no_ball_matches_final_box_count": true,
+  "occluded_basis": "visual_proposals_including_confirmed_edge_truncation; no_geometry_inference",
+  "review_policy": {
+    "path": "/home/misaka/workspace/dataset_processing/batch-review-20261016/review-policy.json",
+    "sha256": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33",
+    "policy": {
+      "effective_from_batch": 5,
+      "effective_date": "2026-10-16",
+      "authority": "用户：之后注意如果在边缘被挡了一半的也算是遮挡，没有标出label框的标注为无球",
+      "Occluded": "明确前景遮挡、足球被画面边缘截断（包括只露半球）均为1；单纯贴近但未覆盖不算。",
+      "No Ball": "以本轮预审最终label为准：0个球框为1；保留或补上至少1个球框为0。缺失label须补空文件；No Ball仅代表本项目分类口径，不自动通过审核。",
+      "Small": "按完整足球尺度折算到图像长边672后约40像素判断，不能用大球残片尺寸当完整小球。",
+      "Blurred": "足球或相机有可辨方向性运动拖影为1，低像素软化和单独脚部运动不自动记。",
+      "review": "每批预审仍保留label_review_required=1和scene_review_required=1，需用户复查；已确认的前4批不追溯重写。"
+    }
+  },
+  "dataset_metadata_sha256": "9cf8f0cb61a87f52da7ea44ee4aa4a087b89003e3eaeaea494e510ab2307889c",
+  "input_sha256": {
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/inventory.json": "0da72290e5e9dc11fed2459b1548064dedfea4ac29ad5e6fe5addc56ad4f7118",
+    "/home/misaka/workspace/dataset_processing/batch-review-20261016/review-policy.json": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/inventory.json": "429a1951a6e916f80e05e3865116c67f505c020f38b9fd9009a7531a345279e6",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/manifest.json": "e96351e496d18940484761db313af88103e642e1620d2a983ef26383a7af5574",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/proposals.json": "0dab05c7554612470a2f6464bcc894e5f9b802054681d5c06bf41935b55921b0",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/summary.json": "d078135000b86e4edcda5b9a982e6ac80a2e8c0df30f87eaa3b5ef79c0b8ee1e",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/inventory.json": "b1f86a41fb255105ff42f1199eca6a5333d5f213c1fd7a0c01637989f32c6ded",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/manifest.json": "7bf2316cf9168e6a94323f54d608df3e953e1d2f3e1b3669a1002379975d9c69",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/proposals.json": "daaf372749ed80a74ea151e0b817fd1a54087842160002036d8e9c8eee92a99b",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/summary.json": "1f281d38c264ff4477add2a6fe1838b0f190accc6299a3a88b41a7a189212998",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/inventory.json": "5ce98962448ac4539413d560d39d295e5f65f7bcb7da9a09d62f9df786f891b7",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/manifest.json": "d782a02f2c40f897af6d89918359929532cde2745ff4225947801845ab446261",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/proposals.json": "4f769dd6ac1a14a0ac7034d8bca88c6f4292df435ab229e771cf411bd7473be4",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/summary.json": "a7e83cc2c5d554102191999b21f91d629f1eef6602310376400e135e92ba505a",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/inventory.json": "19991176506c93f440e695cc2e50ae922206cfd856662d9ab55c0a793ded9cf6",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/manifest.json": "4703ba68f92c7032a597243ab31a4a657aadfc1670f71b52a03492482b14a39b",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/proposals.json": "bf3e316e4d2ed7cae9f5bb9d207398e9d9de2cff0f6c71e951d905ce145814c7",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/summary.json": "bc6fd47fdf6c0707f49fa3ecde25042bdaa3fbe464c454d51e7d6bd9c688ac12"
+  },
+  "immutable_batch_list_sha256": "d51935b1d3052520863b7f1b0cd2e50ecfdaa7ef3a5e7fcaf6c83ded076416cf"
+}

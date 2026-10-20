@@ -1,0 +1,25 @@
+# Generated training runs (weights, logs, charts, and dataset caches within runs).
+/experiments/train/
+
+# Reproducible Python caches and local review recovery copies.
+**/__pycache__/
+*.py[cod]
+/datasets/.metadata-review-backups/
+/datasets/.label-review-backups/
+/dataset_archives/review-metadata-backups-*/
+/reports/review-tool-cleanup-20261019/
+
+# Model evaluation predictions, figures and reproducibility manifests.
+/experiments/eval/
+
+# Runtime dataset views are regenerated from script/config.yaml.
+/experiments/configs/
+/datasets/*/.metadata-review-backups/
+/datasets/*/.label-review-backups/
+
+# Per-experiment runs contain local checkpoints, plots and source snapshots.
+/experiments/E*/runs/
+
+# Machine-specific plotting and Ultralytics settings are regenerated locally.
+**/matplotlib-config/fontlist-v*.json
+**/ultralytics-config/**/settings.json

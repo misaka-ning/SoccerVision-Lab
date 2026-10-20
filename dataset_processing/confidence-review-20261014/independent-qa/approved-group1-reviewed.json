@@ -1,0 +1,9 @@
+{
+  "actually_opened_pages": [
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/approved-group1-00.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/approved-group1-01.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/group1-negative-feet.png"
+  ],
+  "reviewed_entries": 12,
+  "findings": "通过候选分层复核6正/6负：n1003双球均有框、球缘贴合，分类仍有疑问独立保留；n1105完整大球贴框；n1202可靠球框与待审场景分开。n1291/n1431另外完整原生脚部4倍放大确认亮部均为与脚壳/关节相连的机器人器件；无独立可见足球。"
+}

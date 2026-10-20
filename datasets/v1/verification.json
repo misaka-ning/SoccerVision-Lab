@@ -1,0 +1,170 @@
+{
+  "status": "PASS_FOR_ALLOCATION_AND_LOADING",
+  "limitation": "Same-session segment holdout; finite similarity review does not prove full independence or absence of all possible leakage.",
+  "verified_at_utc": "2026-10-19T07:15:51.048450+00:00",
+  "counts": {
+    "train": 4346,
+    "val": 1223,
+    "test": 464,
+    "buffer": 755,
+    "heldout_unused": 1360
+  },
+  "all_active_images_assigned": 8148,
+  "all_disjoint": true,
+  "source_image_label_pairs_checked": 8398,
+  "copied_image_label_pairs_checked": 8148,
+  "original_excluded_omitted": 250,
+  "val_exactly_locked": true,
+  "legacy_all_train": true,
+  "source_frame_cross_sides": 0,
+  "test_one_eye_per_source_frame": true,
+  "test_source_frames": 464,
+  "test_segments": 8,
+  "test_physical_sessions": 1,
+  "file_and_pixel_exact_cross_split_groups": {
+    "image_sha256": [],
+    "pixel_sha256": []
+  },
+  "old_high_priority_pairs_rechecked": 74,
+  "old_recorded_relations_cross_formal_sides": 0,
+  "all_heldout_cores_and_buffers_out_of_train": true,
+  "nearest_train_time_gap_seconds": {
+    "min": 4.533333333333303,
+    "median": 28.200000000000017,
+    "max": 79.6,
+    "not_independence_proof": true
+  },
+  "current_similarity_queries": 464,
+  "current_similarity_candidate_pairs": 7616,
+  "current_reviewed_focus_pairs": 49,
+  "unresolved_active_test_groups": 0,
+  "recovery_only_uncertain_groups": [
+    "G01",
+    "G02"
+  ],
+  "source_documents_unchanged": true,
+  "all_source_and_copy_content_unchanged": true,
+  "loader": {
+    "train": {
+      "images": 4346,
+      "boxes": 2863,
+      "cache_absent_before_first_validation": true,
+      "first_scan": {
+        "path": "/home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/labels/train.cache",
+        "loaded_existing": false,
+        "results": [
+          4346,
+          0,
+          1566,
+          0,
+          4346
+        ],
+        "hash": "24075536a3b2e6925a82ab5113b285adb7ed44c7971a6c5b030a10595a262c1c"
+      },
+      "second_load": {
+        "path": "/home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/labels/train.cache",
+        "loaded_existing": true,
+        "results": [
+          4346,
+          0,
+          1566,
+          0,
+          4346
+        ],
+        "hash": "24075536a3b2e6925a82ab5113b285adb7ed44c7971a6c5b030a10595a262c1c"
+      },
+      "batch_shape": [
+        2,
+        3,
+        640,
+        640
+      ],
+      "workers": 0,
+      "verification_threads": 1,
+      "augmentation": false
+    },
+    "val": {
+      "images": 1223,
+      "boxes": 855,
+      "cache_absent_before_first_validation": true,
+      "first_scan": {
+        "path": "/home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/labels/val.cache",
+        "loaded_existing": false,
+        "results": [
+          1223,
+          0,
+          410,
+          0,
+          1223
+        ],
+        "hash": "5c9d67aed6eb2cc7945e9b98d6bd869c91bbf9d1d3f22545dac1672e07aacf39"
+      },
+      "second_load": {
+        "path": "/home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/labels/val.cache",
+        "loaded_existing": true,
+        "results": [
+          1223,
+          0,
+          410,
+          0,
+          1223
+        ],
+        "hash": "5c9d67aed6eb2cc7945e9b98d6bd869c91bbf9d1d3f22545dac1672e07aacf39"
+      },
+      "batch_shape": [
+        2,
+        3,
+        640,
+        640
+      ],
+      "workers": 0,
+      "verification_threads": 1,
+      "augmentation": false
+    },
+    "test": {
+      "images": 464,
+      "boxes": 354,
+      "cache_absent_before_first_validation": true,
+      "first_scan": {
+        "path": "/home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/labels/test.cache",
+        "loaded_existing": false,
+        "results": [
+          464,
+          0,
+          121,
+          0,
+          464
+        ],
+        "hash": "b968e87cf250f897fc95eeac727038b9f5c98004d18980353b12e88e7a84cc50"
+      },
+      "second_load": {
+        "path": "/home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/labels/test.cache",
+        "loaded_existing": true,
+        "results": [
+          464,
+          0,
+          121,
+          0,
+          464
+        ],
+        "hash": "b968e87cf250f897fc95eeac727038b9f5c98004d18980353b12e88e7a84cc50"
+      },
+      "batch_shape": [
+        2,
+        3,
+        640,
+        640
+      ],
+      "workers": 0,
+      "verification_threads": 1,
+      "augmentation": false
+    }
+  },
+  "ultralytics_version": "8.4.173",
+  "runtime_config": "/home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/runtime/ultralytics-config/Ultralytics",
+  "caches_written_only_inside_new_version": true,
+  "model_instantiated": false,
+  "model_training_executed": false,
+  "prediction_metrics_used": false,
+  "validation_script_sha256": "6007c2dbdcd7b517d4e662a3b76346fbe62d8b2f633be2b9fa03de64885c153d"
+}

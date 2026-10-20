@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "status": "PASS",
+  "reviewer": "group2_independent_static_and_staged_readonly_audit",
+  "checks": {
+    "complete_398_order": {
+      "passed": true,
+      "detail": ""
+    },
+    "preview_bom_headers_endings_order": {
+      "passed": true,
+      "detail": ""
+    },
+    "total_8398_rows": {
+      "passed": true,
+      "detail": ""
+    },
+    "all_8000_outside_raw_records_unchanged": {
+      "passed": true,
+      "detail": ""
+    },
+    "header_raw_record_unchanged": {
+      "passed": true,
+      "detail": ""
+    },
+    "label_artifact_counts": {
+      "passed": true,
+      "detail": ""
+    },
+    "all398_metadata_only_allowed_fields_and_note_preserved": {
+      "passed": true,
+      "detail": "Only four flags, pending status, two review flags, and appended review note may change; all counts/split/provenance and other fields preserved."
+    },
+    "before398_and_candidate6_precise_label_bytes": {
+      "passed": true,
+      "detail": ""
+    },
+    "360_boxes_preserved": {
+      "passed": true,
+      "detail": ""
+    },
+    "77_scene_rows_changed": {
+      "passed": true,
+      "detail": ""
+    },
+    "root_registry_exactly6": {
+      "passed": true,
+      "detail": ""
+    },
+    "all6_independent_reviewed_candidate_coords_uncertain": {
+      "passed": true,
+      "detail": ""
+    },
+    "staged_four_inputs_exactly_frozen_inputs": {
+      "passed": true,
+      "detail": ""
+    },
+    "collected_frozen_inputs_sha256": {
+      "passed": true,
+      "detail": ""
+    },
+    "immutable_batch009_list_hash_and_order": {
+      "passed": true,
+      "detail": ""
+    },
+    "threegroups_134_132_132_full_roi_coverage": {
+      "passed": true,
+      "detail": ""
+    },
+    "canonical398_target_rows_and_image_label_sha_unchanged": {
+      "passed": true,
+      "detail": "Unrelated live CSV rows may legitimately change while batch 8 is saved; no global live metadata hash equality required."
+    },
+    "active_batch8_window_record_unchanged": {
+      "passed": true,
+      "detail": ""
+    },
+    "result_summaries_and_pending_safety": {
+      "passed": true,
+      "detail": ""
+    },
+    "stage_hashes": {
+      "passed": true,
+      "detail": ""
+    }
+  },
+  "metrics": {
+    "images": 398,
+    "total_metadata_rows": 8398,
+    "outside_raw_rows_preserved": 8000,
+    "before_labels": 398,
+    "unchanged_labels": 392,
+    "candidate_labels": 6,
+    "boxes_before": 360,
+    "boxes_after": 360,
+    "scene_rows_changed": 77,
+    "priority": 24,
+    "full_pages": 199,
+    "roi_pages": 46,
+    "roi_boxes": 360,
+    "flags": {
+      "Small": 64,
+      "Occluded": 55,
+      "Blurred": 330,
+      "No Ball": 54
+    },
+    "canonical_targets_written": 0,
+    "active_window_batch": 8,
+    "active_window_sha256": "4cf42be5c201939c75b6084f2b9164cbf896d10071a58953fda894bae61cdce2"
+  },
+  "input_sha256": {
+    "inventory.json": "a4cd3daabb8a224ce1e31a6ee50c851a9b53e48d1c3b603c21c91d6a2ddc3a9e",
+    "proposals.json": "db64b155acc270c68fc9f6dbe6413fd5dddd58f2d83568968045e88f57d9e9e7",
+    "summary.json": "506c6f4041aa7b46db1406ca805905f028fd0fdd1ccaff1421e8aadce9a26ab4",
+    "replacement-second-review.json": "8a62f777ec0a48c5c6a367297993ea2d793c22edafd11680122968b708174e9a"
+  },
+  "before_metadata_sha256": "e7ad9bc05e5b386efd39e0a0b86ee8710da75946998c5bcbe3e1a8bd83887772",
+  "preview_metadata_sha256": "5f0198b1633cb10913b4c243f9fc0fb617384d6fc1de9d77571e81c4d17e32ab",
+  "canonical_dataset_written": false,
+  "user_approved": 0
+}

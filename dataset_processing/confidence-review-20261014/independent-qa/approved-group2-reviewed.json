@@ -1,0 +1,9 @@
+{
+  "actually_opened_pages": [
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/approved-group2-00.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/approved-group2-01.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/negative-robot-feet.png"
+  ],
+  "reviewed_entries": 12,
+  "findings": "通过候选分层独立抽核：6张正样本四边覆盖足球，n552手明确遮挡、Occluded=1；6张负样本原生全景与边界无可见足球。n928/n983另放大机器人脚，白色亮部为与脚连接的脚部器件，非独立足球。"
+}

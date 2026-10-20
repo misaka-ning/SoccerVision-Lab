@@ -1,0 +1,110 @@
+[
+  {
+    "index": 46,
+    "group": 1,
+    "local": 46,
+    "filename": "video_4bec9c343db72928_frame_00020471_left.png",
+    "expected_Occluded": "0",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/full/page-023.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/roi/page-004.png"
+    ],
+    "assessment": "原生全景和ROI复看：球下弧及运动软边仍完整在图内，距底边约1至3像素，球与鞋未覆盖；保持Occluded0，不能仅以框靠边自动记遮挡。"
+  },
+  {
+    "index": 252,
+    "group": 2,
+    "local": 2,
+    "filename": "video_4bec9c343db72928_frame_00021245_left.png",
+    "expected_Occluded": "0",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/full/page-001.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/roi/page-000.png"
+    ],
+    "assessment": "原生全景和ROI复看：球下弧及运动软边仍完整在图内，距底边约1至3像素，球与鞋未覆盖；保持Occluded0，不能仅以框靠边自动记遮挡。"
+  },
+  {
+    "index": 253,
+    "group": 2,
+    "local": 3,
+    "filename": "video_4bec9c343db72928_frame_00021245_right.png",
+    "expected_Occluded": "0",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/full/page-001.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/roi/page-000.png"
+    ],
+    "assessment": "原生全景和ROI复看：球下弧及运动软边仍完整在图内，距底边约1至3像素，球与鞋未覆盖；保持Occluded0，不能仅以框靠边自动记遮挡。"
+  },
+  {
+    "index": 432,
+    "group": 2,
+    "local": 182,
+    "filename": "video_4bec9c343db72928_frame_00021922_left.png",
+    "expected_Occluded": "0",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/full/page-091.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/roi/page-018.png"
+    ],
+    "assessment": "原生全景和ROI复看：球下弧及运动软边仍完整在图内，距底边约1至3像素，球与鞋未覆盖；保持Occluded0，不能仅以框靠边自动记遮挡。"
+  },
+  {
+    "index": 433,
+    "group": 2,
+    "local": 183,
+    "filename": "video_4bec9c343db72928_frame_00021922_right.png",
+    "expected_Occluded": "0",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/full/page-091.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/roi/page-018.png"
+    ],
+    "assessment": "原生全景和ROI复看：球下弧及运动软边仍完整在图内，距底边约1至3像素，球与鞋未覆盖；保持Occluded0，不能仅以框靠边自动记遮挡。"
+  },
+  {
+    "index": 506,
+    "group": 3,
+    "local": 6,
+    "filename": "video_4bec9c343db72928_frame_00022198_left.png",
+    "expected_Occluded": "0",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/full/page-003.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/roi/page-000.png"
+    ],
+    "assessment": "原生全景和ROI复看：球下弧及运动软边仍完整在图内，距底边约1至3像素，球与鞋未覆盖；保持Occluded0，不能仅以框靠边自动记遮挡。"
+  },
+  {
+    "index": 507,
+    "group": 3,
+    "local": 7,
+    "filename": "video_4bec9c343db72928_frame_00022198_right.png",
+    "expected_Occluded": "0",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/full/page-003.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/roi/page-000.png"
+    ],
+    "assessment": "原生全景和ROI复看：球下弧及运动软边仍完整在图内，距底边约1至3像素，球与鞋未覆盖；保持Occluded0，不能仅以框靠边自动记遮挡。"
+  },
+  {
+    "index": 548,
+    "group": 3,
+    "local": 48,
+    "filename": "video_4bec9c343db72928_frame_00022350_left.png",
+    "expected_Occluded": "0",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/full/page-024.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/roi/page-006.png"
+    ],
+    "assessment": "原生全景和ROI复看：球下弧及运动软边仍完整在图内，距底边约1至3像素，球与鞋未覆盖；保持Occluded0，不能仅以框靠边自动记遮挡。"
+  },
+  {
+    "index": 549,
+    "group": 3,
+    "local": 49,
+    "filename": "video_4bec9c343db72928_frame_00022350_right.png",
+    "expected_Occluded": "0",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/full/page-024.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/roi/page-006.png"
+    ],
+    "assessment": "原生全景和ROI复看：球下弧及运动软边仍完整在图内，距底边约1至3像素，球与鞋未覆盖；保持Occluded0，不能仅以框靠边自动记遮挡。"
+  }
+]

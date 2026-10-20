@@ -1,0 +1,4 @@
+模型：/home/misaka/workspace/baseline/original_best.pt
+训练参数：{'data': '/home/misaka/workspace/datasets/dataset.yaml', 'task': 'detect', 'mode': 'train', 'project': '/home/misaka/workspace/experiments/train', 'name': 'football_yolo26s', 'exist_ok': False, 'epochs': 100, 'patience': 30, 'imgsz': 640, 'batch': 8, 'device': None, 'workers': 4, 'cache': False, 'amp': True, 'seed': 42, 'deterministic': True, 'optimizer': 'AdamW', 'lr0': 0.001, 'lrf': 0.01, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'cos_lr': True, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'close_mosaic': 10, 'mixup': 0.0, 'val': True, 'plots': True, 'save': True, 'save_period': 10}
+提示：训练不按 metadata.csv 审核标记筛选样本，请确认数据已审核。
+预检查通过；尚未验证模型兼容性、图片/标注内容或训练设备。

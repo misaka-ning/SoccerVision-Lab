@@ -1,0 +1,31 @@
+{
+  "prechecked": 1000,
+  "labels_changed": 16,
+  "boxes_before": 666,
+  "boxes_after": 675,
+  "skipped": [],
+  "user_approved": 0,
+  "scene_rows_changed": 285,
+  "audit": "/home/misaka/workspace/dataset_processing/batch-review-20261016/applied/20261019T022722Z-e11a7a5f",
+  "changed_labels": [
+    "video_4bec9c343db72928_frame_00016638_right.png",
+    "video_4bec9c343db72928_frame_00016765_left.png",
+    "video_4bec9c343db72928_frame_00016765_right.png",
+    "video_4bec9c343db72928_frame_00016776_left.png",
+    "video_4bec9c343db72928_frame_00016776_right.png",
+    "video_4bec9c343db72928_frame_00017114_left.png",
+    "video_4bec9c343db72928_frame_00017114_right.png",
+    "video_4bec9c343db72928_frame_00017385_right.png",
+    "video_4bec9c343db72928_frame_00017987_left.png",
+    "video_4bec9c343db72928_frame_00018304_left.png",
+    "video_4bec9c343db72928_frame_00018304_right.png",
+    "video_4bec9c343db72928_frame_00018522_right.png",
+    "video_4bec9c343db72928_frame_00019014_left.png",
+    "video_4bec9c343db72928_frame_00019014_right.png",
+    "video_4bec9c343db72928_frame_00019373_left.png",
+    "video_4bec9c343db72928_frame_00019373_right.png"
+  ],
+  "failed_labels": [],
+  "metadata_after_sha256": "8088931728470c0cc03d7af61824f4ce0f3d046d97ba02062fc656087983339d",
+  "created_at_utc": "2026-10-19T02:27:22.971313+00:00"
+}

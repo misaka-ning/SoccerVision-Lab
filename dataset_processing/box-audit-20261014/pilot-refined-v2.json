@@ -1,0 +1,3612 @@
+[
+  {
+    "xyxy": [
+      2.011,
+      88.6,
+      44.382,
+      127.833
+    ],
+    "fit_confidence": 0.105,
+    "flags": [
+      "small_source_object",
+      "original_box_may_cover_only_part_of_ball",
+      "large_motion_or_size_change",
+      "blur_or_low_texture",
+      "occluded_visible_extent_requires_manual_review",
+      "metadata_blurred",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.899,
+      "angular_coverage": 0.8021,
+      "balanced_quadrant_support": 0.9819,
+      "edge_strength": 0.9312,
+      "exterior_change": 0.4911,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.6825,
+      "iou_with_original": 0.4913,
+      "crop_laplacian_variance": 2.53
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          0,
+          98.877,
+          31.971,
+          129.083
+        ],
+        "score": 0.7788
+      }
+    ],
+    "original_xyxy": [
+      0.0,
+      87.0,
+      26.0,
+      125.0
+    ],
+    "filename": "frame_001471_left.png",
+    "box_index": 0,
+    "annotation_status_before": "reviewed_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_001471_left.png"
+  },
+  {
+    "xyxy": [
+      268.386,
+      0.128,
+      309.638,
+      44.968
+    ],
+    "fit_confidence": 0.5,
+    "flags": [
+      "image_edge_clipped",
+      "blur_or_low_texture",
+      "occluded_visible_extent_requires_manual_review",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.3908,
+      "angular_coverage": 0.9759,
+      "balanced_quadrant_support": 1.5625,
+      "edge_strength": 1.4334,
+      "exterior_change": 0.6297,
+      "valid_perimeter_fraction": 0.8646,
+      "area_ratio": 1.115,
+      "iou_with_original": 0.8766,
+      "crop_laplacian_variance": 5.69
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          279.397,
+          4.099,
+          309.223,
+          40.034
+        ],
+        "score": 1.1044
+      }
+    ],
+    "original_xyxy": [
+      267.89,
+      1.973,
+      309.171,
+      42.16
+    ],
+    "filename": "frame_001677_left.png",
+    "box_index": 0,
+    "annotation_status_before": "reviewed_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_001677_left.png"
+  },
+  {
+    "xyxy": [
+      388.478,
+      258.09,
+      421.525,
+      297.906
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4533,
+      "angular_coverage": 0.9688,
+      "balanced_quadrant_support": 2.0699,
+      "edge_strength": 1.3935,
+      "exterior_change": 0.8276,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.7464,
+      "iou_with_original": 0.7464,
+      "crop_laplacian_variance": 6.516
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          385.044,
+          268.307,
+          423.956,
+          300.733
+        ],
+        "score": 1.1251
+      }
+    ],
+    "original_xyxy": [
+      384.0,
+      257.0,
+      425.0,
+      300.0
+    ],
+    "filename": "frame_002080_left.png",
+    "box_index": 0,
+    "annotation_status_before": "reviewed_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_002080_left.png"
+  },
+  {
+    "xyxy": [
+      537.292,
+      134.818,
+      559.168,
+      153.048
+    ],
+    "fit_confidence": 0.13999999999999999,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture",
+      "occluded_visible_extent_requires_manual_review",
+      "metadata_blurred",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.0333,
+      "angular_coverage": 0.8229,
+      "balanced_quadrant_support": 0.9946,
+      "edge_strength": 1.047,
+      "exterior_change": 0.375,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8632,
+      "iou_with_original": 0.7219,
+      "crop_laplacian_variance": 5.246
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          537.641,
+          131.906,
+          554.199,
+          151.854
+        ],
+        "score": 0.8712
+      }
+    ],
+    "original_xyxy": [
+      538.0,
+      136.0,
+      560.0,
+      157.0
+    ],
+    "filename": "frame_002423_left.png",
+    "box_index": 0,
+    "annotation_status_before": "reviewed_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/val/frame_002423_left.png"
+  },
+  {
+    "xyxy": [
+      533.699,
+      125.421,
+      554.596,
+      146.317
+    ],
+    "fit_confidence": 0.22,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture",
+      "competing_outline_hypotheses",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.075,
+      "angular_coverage": 0.8229,
+      "balanced_quadrant_support": 1.2486,
+      "edge_strength": 1.1271,
+      "exterior_change": 0.6109,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.274,
+      "iou_with_original": 0.7132,
+      "crop_laplacian_variance": 4.532
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          537.164,
+          129.556,
+          554.261,
+          146.654
+        ],
+        "score": 1.0116
+      }
+    ],
+    "original_xyxy": [
+      532.745,
+      125.84,
+      550.631,
+      145.004
+    ],
+    "filename": "frame_002726_left.png",
+    "box_index": 0,
+    "annotation_status_before": "reviewed_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_002726_left.png"
+  },
+  {
+    "xyxy": [
+      122.987,
+      159.662,
+      179.193,
+      215.868
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "blur_or_low_texture",
+      "metadata_blurred",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4565,
+      "angular_coverage": 0.9583,
+      "balanced_quadrant_support": 1.8723,
+      "edge_strength": 1.3238,
+      "exterior_change": 0.5059,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8499,
+      "iou_with_original": 0.822,
+      "crop_laplacian_variance": 8.794
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          130.792,
+          164.903,
+          206.668,
+          247.377
+        ],
+        "score": 1.2754
+      }
+    ],
+    "original_xyxy": [
+      124.0,
+      159.0,
+      187.0,
+      218.0
+    ],
+    "filename": "frame_003027_left.png",
+    "box_index": 0,
+    "annotation_status_before": "reviewed_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_003027_left.png"
+  },
+  {
+    "xyxy": [
+      520.278,
+      200.33,
+      544.315,
+      226.457
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "small_source_object",
+      "large_shrink_requires_visual_review",
+      "blur_or_low_texture",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4287,
+      "angular_coverage": 0.9688,
+      "balanced_quadrant_support": 1.9982,
+      "edge_strength": 1.399,
+      "exterior_change": 0.8433,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.5707,
+      "iou_with_original": 0.5707,
+      "crop_laplacian_variance": 7.475
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          513.518,
+          199.993,
+          547.685,
+          228.489
+        ],
+        "score": 1.236
+      }
+    ],
+    "original_xyxy": [
+      512.442,
+      199.091,
+      548.761,
+      229.391
+    ],
+    "filename": "frame_003298_left.png",
+    "box_index": 0,
+    "annotation_status_before": "reviewed_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_003298_left.png"
+  },
+  {
+    "xyxy": [
+      323.781,
+      307.728,
+      378.913,
+      361.885
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "blur_or_low_texture",
+      "metadata_blurred",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4114,
+      "angular_coverage": 0.9062,
+      "balanced_quadrant_support": 1.65,
+      "edge_strength": 1.2748,
+      "exterior_change": 0.3082,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9694,
+      "iou_with_original": 0.9315,
+      "crop_laplacian_variance": 5.016
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          335.509,
+          315.234,
+          376.331,
+          359.606
+        ],
+        "score": 1.2092
+      }
+    ],
+    "original_xyxy": [
+      324.0,
+      306.0,
+      380.0,
+      361.0
+    ],
+    "filename": "frame_003712_right.png",
+    "box_index": 0,
+    "annotation_status_before": "reviewed_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_003712_right.png"
+  },
+  {
+    "xyxy": [
+      358.158,
+      206.613,
+      375.804,
+      227.874
+    ],
+    "fit_confidence": 0.22,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture",
+      "competing_outline_hypotheses",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.0393,
+      "angular_coverage": 0.8542,
+      "balanced_quadrant_support": 0.9407,
+      "edge_strength": 1.0194,
+      "exterior_change": 0.3103,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.6204,
+      "iou_with_original": 0.6204,
+      "crop_laplacian_variance": 7.177
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          353.655,
+          206.972,
+          373.331,
+          225.191
+        ],
+        "score": 0.9882
+      }
+    ],
+    "original_xyxy": [
+      354.525,
+      205.688,
+      379.437,
+      229.962
+    ],
+    "filename": "frame_003981_right.png",
+    "box_index": 0,
+    "annotation_status_before": "reviewed_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_003981_right.png"
+  },
+  {
+    "xyxy": [
+      349.302,
+      175.646,
+      373.631,
+      204.959
+    ],
+    "fit_confidence": 0.4,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.0319,
+      "angular_coverage": 0.7188,
+      "balanced_quadrant_support": 1.1068,
+      "edge_strength": 1.0253,
+      "exterior_change": 0.3468,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.1097,
+      "iou_with_original": 0.8099,
+      "crop_laplacian_variance": 7.944
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          350.361,
+          177.853,
+          375.715,
+          198.98
+        ],
+        "score": 0.8646
+      }
+    ],
+    "original_xyxy": [
+      351.11,
+      176.833,
+      374.966,
+      203.772
+    ],
+    "filename": "frame_004225_right.png",
+    "box_index": 0,
+    "annotation_status_before": "reviewed_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_004225_right.png"
+  },
+  {
+    "xyxy": [
+      614.265,
+      260.265,
+      902.735,
+      548.735
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4374,
+      "angular_coverage": 0.9271,
+      "balanced_quadrant_support": 1.7219,
+      "edge_strength": 1.3069,
+      "exterior_change": 0.3712,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9827,
+      "iou_with_original": 0.9827,
+      "crop_laplacian_variance": 447.305
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          694.116,
+          277.846,
+          904.363,
+          531.155
+        ],
+        "score": 1.1459
+      }
+    ],
+    "original_xyxy": [
+      613.0,
+      259.0,
+      904.0,
+      550.0
+    ],
+    "filename": "legacy_train_000002.jpg",
+    "box_index": 0,
+    "annotation_status_before": "provided_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000002.jpg"
+  },
+  {
+    "xyxy": [
+      350.459,
+      167.462,
+      728.54,
+      517.537
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4987,
+      "angular_coverage": 0.9271,
+      "balanced_quadrant_support": 1.8288,
+      "edge_strength": 1.3497,
+      "exterior_change": 0.3538,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.999,
+      "iou_with_original": 0.9127,
+      "crop_laplacian_variance": 339.928
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          458.301,
+          182.767,
+          723.458,
+          502.232
+        ],
+        "score": 1.1592
+      }
+    ],
+    "original_xyxy": [
+      359.0,
+      159.0,
+      719.999,
+      526.0
+    ],
+    "filename": "legacy_train_000140.jpg",
+    "box_index": 0,
+    "annotation_status_before": "provided_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000140.jpg"
+  },
+  {
+    "xyxy": [
+      380.411,
+      411.898,
+      665.522,
+      720
+    ],
+    "fit_confidence": 0.32850999999999997,
+    "flags": [
+      "image_edge_clipped",
+      "occluded_visible_extent_requires_manual_review",
+      "metadata_blurred",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.0586,
+      "angular_coverage": 0.8193,
+      "balanced_quadrant_support": 1.1076,
+      "edge_strength": 1.1333,
+      "exterior_change": 0.5272,
+      "valid_perimeter_fraction": 0.8646,
+      "area_ratio": 0.6396,
+      "iou_with_original": 0.6231,
+      "crop_laplacian_variance": 600.279
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          265.93,
+          376.509,
+          646.07,
+          720
+        ],
+        "score": 0.9043
+      }
+    ],
+    "original_xyxy": [
+      251.0,
+      385.0,
+      661.0,
+      720.0
+    ],
+    "filename": "legacy_train_000255.jpg",
+    "box_index": 0,
+    "annotation_status_before": "provided_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000255.jpg"
+  },
+  {
+    "xyxy": [
+      625.611,
+      23.297,
+      820.806,
+      223.703
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "metadata_blurred",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.497,
+      "angular_coverage": 0.9479,
+      "balanced_quadrant_support": 2.08,
+      "edge_strength": 1.3978,
+      "exterior_change": 0.6859,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.7269,
+      "iou_with_original": 0.7269,
+      "crop_laplacian_variance": 234.753
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          469.32,
+          0,
+          818.081,
+          268.817
+        ],
+        "score": 1.024
+      }
+    ],
+    "original_xyxy": [
+      595.0,
+      6.0,
+      824.0,
+      241.0
+    ],
+    "filename": "legacy_train_000377.jpg",
+    "box_index": 0,
+    "annotation_status_before": "provided_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000377.jpg"
+  },
+  {
+    "xyxy": [
+      202.724,
+      130.223,
+      714.237,
+      641.736
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.2975,
+      "angular_coverage": 0.8542,
+      "balanced_quadrant_support": 1.4185,
+      "edge_strength": 1.2505,
+      "exterior_change": 0.3475,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9923,
+      "iou_with_original": 0.9544,
+      "crop_laplacian_variance": 982.246
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          251.37,
+          106.629,
+          677.631,
+          532.89
+        ],
+        "score": 1.0767
+      }
+    ],
+    "original_xyxy": [
+      209.0,
+      134.0,
+      720.001,
+      650.0
+    ],
+    "filename": "legacy_train_000514.jpg",
+    "box_index": 0,
+    "annotation_status_before": "provided_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000514.jpg"
+  },
+  {
+    "xyxy": [
+      358.434,
+      426.354,
+      617.566,
+      708.019
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "metadata_blurred",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.1451,
+      "angular_coverage": 0.8681,
+      "balanced_quadrant_support": 1.0626,
+      "edge_strength": 1.1007,
+      "exterior_change": 0.2505,
+      "valid_perimeter_fraction": 0.9479,
+      "area_ratio": 0.874,
+      "iou_with_original": 0.8645,
+      "crop_laplacian_variance": 1545.182
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          426.312,
+          418.078,
+          713.208,
+          720
+        ],
+        "score": 0.8971
+      }
+    ],
+    "original_xyxy": [
+      345.0,
+      428.0,
+      631.0,
+      720.0
+    ],
+    "filename": "legacy_train_000657.jpg",
+    "box_index": 0,
+    "annotation_status_before": "provided_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000657.jpg"
+  },
+  {
+    "xyxy": [
+      219.807,
+      277.09,
+      673.287,
+      654.99
+    ],
+    "fit_confidence": 0.32403,
+    "flags": [
+      "competing_outline_hypotheses",
+      "metadata_blurred",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.9062,
+      "angular_coverage": 0.7708,
+      "balanced_quadrant_support": 0.9526,
+      "edge_strength": 0.9392,
+      "exterior_change": 0.4647,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9771,
+      "iou_with_original": 0.5633,
+      "crop_laplacian_variance": 634.037
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          181.088,
+          150.272,
+          722.833,
+          651.888
+        ],
+        "score": 0.8366
+      }
+    ],
+    "original_xyxy": [
+      155.0,
+      342.0,
+      619.0,
+      720.0
+    ],
+    "filename": "legacy_train_000791.jpg",
+    "box_index": 0,
+    "annotation_status_before": "provided_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000791.jpg"
+  },
+  {
+    "xyxy": [
+      286.85,
+      182.403,
+      306.15,
+      205.657
+    ],
+    "fit_confidence": 0.22,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture",
+      "competing_outline_hypotheses",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.9629,
+      "angular_coverage": 0.7708,
+      "balanced_quadrant_support": 0.9542,
+      "edge_strength": 1.0057,
+      "exterior_change": 0.4381,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.0177,
+      "iou_with_original": 0.8118,
+      "crop_laplacian_variance": 10.525
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          286.376,
+          183.077,
+          303.683,
+          199.103
+        ],
+        "score": 0.9529
+      }
+    ],
+    "original_xyxy": [
+      286.0,
+      185.0,
+      307.0,
+      206.0
+    ],
+    "filename": "legacy_train_009749_L.jpg",
+    "box_index": 0,
+    "annotation_status_before": "provided_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_009749_L.jpg"
+  },
+  {
+    "xyxy": [
+      375.23,
+      179.69,
+      482.291,
+      286.75
+    ],
+    "fit_confidence": 0.5,
+    "flags": [
+      "blur_or_low_texture",
+      "occluded_visible_extent_requires_manual_review",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.5089,
+      "angular_coverage": 0.9583,
+      "balanced_quadrant_support": 1.9769,
+      "edge_strength": 1.3634,
+      "exterior_change": 0.512,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.0108,
+      "iou_with_original": 0.911,
+      "crop_laplacian_variance": 41.434
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          375.436,
+          180.672,
+          464.445,
+          263.088
+        ],
+        "score": 1.2747
+      }
+    ],
+    "original_xyxy": [
+      375.0,
+      183.0,
+      480.0,
+      291.0
+    ],
+    "filename": "legacy_train_009863_L.jpg",
+    "box_index": 0,
+    "annotation_status_before": "provided_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_009863_L.jpg"
+  },
+  {
+    "xyxy": [
+      444.792,
+      207.017,
+      478.298,
+      240.523
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "blur_or_low_texture",
+      "metadata_blurred",
+      "human_annotation_change_proposal_only"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4301,
+      "angular_coverage": 0.9375,
+      "balanced_quadrant_support": 1.7231,
+      "edge_strength": 1.328,
+      "exterior_change": 0.435,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8467,
+      "iou_with_original": 0.837,
+      "crop_laplacian_variance": 4.65
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          444.228,
+          214.71,
+          474.312,
+          249.211
+        ],
+        "score": 1.1944
+      }
+    ],
+    "original_xyxy": [
+      445.0,
+      207.0,
+      479.0,
+      246.0
+    ],
+    "filename": "legacy_train_009998_L.jpg",
+    "box_index": 0,
+    "annotation_status_before": "provided_annotation",
+    "is_human_provided_annotation": true,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_009998_L.jpg"
+  },
+  {
+    "xyxy": [
+      494.594,
+      136.017,
+      545.396,
+      178.353
+    ],
+    "fit_confidence": 0.165,
+    "flags": [
+      "small_source_object",
+      "original_box_may_cover_only_part_of_ball",
+      "large_motion_or_size_change",
+      "blur_or_low_texture",
+      "competing_outline_hypotheses"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.9203,
+      "angular_coverage": 0.7292,
+      "balanced_quadrant_support": 1.1299,
+      "edge_strength": 0.9483,
+      "exterior_change": 0.5158,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 2.1724,
+      "iou_with_original": 0.4083,
+      "crop_laplacian_variance": 9.226
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          512.235,
+          136.624,
+          547.005,
+          178.516
+        ],
+        "score": 0.9065
+      }
+    ],
+    "original_xyxy": [
+      510.0,
+      148.0,
+      540.0,
+      181.0
+    ],
+    "filename": "frame_004546_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_004546_left.png"
+  },
+  {
+    "xyxy": [
+      260.691,
+      195.123,
+      293.915,
+      235.152
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.3573,
+      "angular_coverage": 0.9271,
+      "balanced_quadrant_support": 1.8168,
+      "edge_strength": 1.3202,
+      "exterior_change": 0.7201,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8196,
+      "iou_with_original": 0.766,
+      "crop_laplacian_variance": 10.145
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          258.3,
+          204.96,
+          290.583,
+          234.852
+        ],
+        "score": 1.1445
+      }
+    ],
+    "original_xyxy": [
+      257.455,
+      196.607,
+      297.15,
+      237.482
+    ],
+    "filename": "frame_004884_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/frame_004884_right.png"
+  },
+  {
+    "xyxy": [
+      384.141,
+      179.106,
+      421.687,
+      213.87
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4827,
+      "angular_coverage": 0.9479,
+      "balanced_quadrant_support": 2.0254,
+      "edge_strength": 1.3861,
+      "exterior_change": 0.6578,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8853,
+      "iou_with_original": 0.8246,
+      "crop_laplacian_variance": 12.141
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          381.992,
+          180.579,
+          411.265,
+          212.397
+        ],
+        "score": 1.1605
+      }
+    ],
+    "original_xyxy": [
+      382.774,
+      180.027,
+      421.257,
+      218.337
+    ],
+    "filename": "rec_20261013_181326_frame_000332_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/rec_20261013_181326_frame_000332_right.png"
+  },
+  {
+    "xyxy": [
+      362.396,
+      347.291,
+      394.93,
+      374.403
+    ],
+    "fit_confidence": 0.4,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.914,
+      "angular_coverage": 0.6562,
+      "balanced_quadrant_support": 1.1802,
+      "edge_strength": 0.9627,
+      "exterior_change": 0.5918,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.106,
+      "iou_with_original": 0.5965,
+      "crop_laplacian_variance": 8.666
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          363.294,
+          356.008,
+          394.969,
+          376
+        ],
+        "score": 0.8234
+      }
+    ],
+    "original_xyxy": [
+      359.079,
+      355.116,
+      399.183,
+      375.001
+    ],
+    "filename": "video_4bec9c343db72928_frame_00000194_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00000194_right.png"
+  },
+  {
+    "xyxy": [
+      375.535,
+      208.91,
+      439.494,
+      268.131
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.6831,
+      "angular_coverage": 0.9792,
+      "balanced_quadrant_support": 2.3424,
+      "edge_strength": 1.4683,
+      "exterior_change": 0.5148,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9299,
+      "iou_with_original": 0.9149,
+      "crop_laplacian_variance": 19.381
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          394.272,
+          212.481,
+          438.741,
+          266.058
+        ],
+        "score": 1.4064
+      }
+    ],
+    "original_xyxy": [
+      375.804,
+      207.157,
+      439.225,
+      271.382
+    ],
+    "filename": "video_4bec9c343db72928_frame_00003425_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00003425_left.png"
+  },
+  {
+    "xyxy": [
+      273.913,
+      155.761,
+      312.118,
+      191.136
+    ],
+    "fit_confidence": 0.55,
+    "flags": [
+      "blur_or_low_texture",
+      "competing_outline_hypotheses"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.3496,
+      "angular_coverage": 0.9167,
+      "balanced_quadrant_support": 1.8077,
+      "edge_strength": 1.3038,
+      "exterior_change": 0.6935,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.692,
+      "iou_with_original": 0.6694,
+      "crop_laplacian_variance": 9.821
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          278.44,
+          146.242,
+          313.94,
+          189.013
+        ],
+        "score": 1.275
+      }
+    ],
+    "original_xyxy": [
+      274.661,
+      151.3,
+      317.719,
+      196.655
+    ],
+    "filename": "video_4bec9c343db72928_frame_00003726_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00003726_right.png"
+  },
+  {
+    "xyxy": [
+      644.919,
+      335.871,
+      671.631,
+      364.907
+    ],
+    "fit_confidence": 0.4,
+    "flags": [
+      "image_edge_clipped",
+      "small_source_object",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.071,
+      "angular_coverage": 0.9157,
+      "balanced_quadrant_support": 1.0407,
+      "edge_strength": 1.2077,
+      "exterior_change": 0.6706,
+      "valid_perimeter_fraction": 0.8646,
+      "area_ratio": 0.6335,
+      "iou_with_original": 0.6335,
+      "crop_laplacian_variance": 5.249
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          649.096,
+          338.914,
+          672,
+          370.131
+        ],
+        "score": 0.7965
+      }
+    ],
+    "original_xyxy": [
+      640.886,
+      334.84,
+      671.99,
+      374.204
+    ],
+    "filename": "video_4bec9c343db72928_frame_00004643_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00004643_right.png"
+  },
+  {
+    "xyxy": [
+      333.705,
+      238.673,
+      402.009,
+      309.454
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.6086,
+      "angular_coverage": 0.9896,
+      "balanced_quadrant_support": 2.2432,
+      "edge_strength": 1.4375,
+      "exterior_change": 0.6089,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9516,
+      "iou_with_original": 0.909,
+      "crop_laplacian_variance": 26.342
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          347.543,
+          242.609,
+          401.715,
+          298.746
+        ],
+        "score": 1.4194
+      }
+    ],
+    "original_xyxy": [
+      334.539,
+      239.476,
+      404.56,
+      312.037
+    ],
+    "filename": "video_4bec9c343db72928_frame_00005049_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005049_left.png"
+  },
+  {
+    "xyxy": [
+      325.057,
+      185.49,
+      372.286,
+      234.08
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.6886,
+      "angular_coverage": 1.0,
+      "balanced_quadrant_support": 2.3426,
+      "edge_strength": 1.4717,
+      "exterior_change": 0.5232,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8189,
+      "iou_with_original": 0.8189,
+      "crop_laplacian_variance": 8.361
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          330.527,
+          192.679,
+          369.321,
+          239.419
+        ],
+        "score": 1.3513
+      }
+    ],
+    "original_xyxy": [
+      323.83,
+      185.444,
+      376.019,
+      239.138
+    ],
+    "filename": "video_4bec9c343db72928_frame_00005388_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005388_left.png"
+  },
+  {
+    "xyxy": [
+      168.442,
+      302.26,
+      231.956,
+      365.774
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4012,
+      "angular_coverage": 0.9479,
+      "balanced_quadrant_support": 1.8511,
+      "edge_strength": 1.3244,
+      "exterior_change": 0.642,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.7021,
+      "iou_with_original": 0.7021,
+      "crop_laplacian_variance": 14.24
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          165.227,
+          309.358,
+          245.935,
+          376
+        ],
+        "score": 1.0756
+      }
+    ],
+    "original_xyxy": [
+      167.139,
+      300.239,
+      244.024,
+      374.971
+    ],
+    "filename": "video_4bec9c343db72928_frame_00005923_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00005923_left.png"
+  },
+  {
+    "xyxy": [
+      292.493,
+      231.42,
+      369.225,
+      295.364
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.5574,
+      "angular_coverage": 0.9792,
+      "balanced_quadrant_support": 2.1649,
+      "edge_strength": 1.4089,
+      "exterior_change": 0.6302,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8391,
+      "iou_with_original": 0.8391,
+      "crop_laplacian_variance": 27.013
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          308.432,
+          235.268,
+          364.066,
+          302.296
+        ],
+        "score": 1.3643
+      }
+    ],
+    "original_xyxy": [
+      292.358,
+      230.813,
+      369.36,
+      306.751
+    ],
+    "filename": "video_4bec9c343db72928_frame_00006208_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006208_right.png"
+  },
+  {
+    "xyxy": [
+      30.05,
+      77.352,
+      45.83,
+      91.964
+    ],
+    "fit_confidence": 0.4,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.001,
+      "angular_coverage": 0.875,
+      "balanced_quadrant_support": 1.0303,
+      "edge_strength": 1.0378,
+      "exterior_change": 0.5466,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.7453,
+      "iou_with_original": 0.6419,
+      "crop_laplacian_variance": 13.239
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          30.778,
+          66.649,
+          55.593,
+          96.547
+        ],
+        "score": 0.8719
+      }
+    ],
+    "original_xyxy": [
+      28.573,
+      78.587,
+      47.307,
+      95.1
+    ],
+    "filename": "video_4bec9c343db72928_frame_00006208_right.png",
+    "box_index": 1,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006208_right.png"
+  },
+  {
+    "xyxy": [
+      327.919,
+      273.756,
+      403.101,
+      343.369
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.5288,
+      "angular_coverage": 0.9271,
+      "balanced_quadrant_support": 2.052,
+      "edge_strength": 1.3749,
+      "exterior_change": 0.5039,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8363,
+      "iou_with_original": 0.8363,
+      "crop_laplacian_variance": 30.381
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          332.92,
+          288.978,
+          398.099,
+          349.329
+        ],
+        "score": 1.0984
+      }
+    ],
+    "original_xyxy": [
+      327.592,
+      272.114,
+      403.428,
+      354.639
+    ],
+    "filename": "video_4bec9c343db72928_frame_00006513_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00006513_right.png"
+  },
+  {
+    "xyxy": [
+      87.525,
+      262.793,
+      107.238,
+      278.886
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "small_source_object",
+      "large_shrink_requires_visual_review",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.2986,
+      "angular_coverage": 1.0,
+      "balanced_quadrant_support": 1.4776,
+      "edge_strength": 1.3605,
+      "exterior_change": 0.735,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.6132,
+      "iou_with_original": 0.6132,
+      "crop_laplacian_variance": 12.974
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          88.41,
+          255.445,
+          108.115,
+          279.185
+        ],
+        "score": 1.0911
+      }
+    ],
+    "original_xyxy": [
+      83.913,
+      260.564,
+      109.088,
+      281.115
+    ],
+    "filename": "video_4bec9c343db72928_frame_00007147_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007147_left.png"
+  },
+  {
+    "xyxy": [
+      467.796,
+      300.437,
+      487.999,
+      322.396
+    ],
+    "fit_confidence": 0.165,
+    "flags": [
+      "small_source_object",
+      "large_motion_or_size_change",
+      "blur_or_low_texture",
+      "competing_outline_hypotheses"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.8435,
+      "angular_coverage": 0.7604,
+      "balanced_quadrant_support": 0.832,
+      "edge_strength": 0.9182,
+      "exterior_change": 0.3817,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9363,
+      "iou_with_original": 0.2753,
+      "crop_laplacian_variance": 7.2
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          446.274,
+          281.686,
+          482.253,
+          325.034
+        ],
+        "score": 0.7979
+      }
+    ],
+    "original_xyxy": [
+      460.921,
+      291.94,
+      478.761,
+      318.499
+    ],
+    "filename": "video_4bec9c343db72928_frame_00007675_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007675_left.png"
+  },
+  {
+    "xyxy": [
+      252.108,
+      274.565,
+      272.791,
+      293.716
+    ],
+    "fit_confidence": 0.4,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.284,
+      "angular_coverage": 0.8854,
+      "balanced_quadrant_support": 1.5722,
+      "edge_strength": 1.2512,
+      "exterior_change": 0.5506,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.7113,
+      "iou_with_original": 0.7113,
+      "crop_laplacian_variance": 7.656
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          251.631,
+          276.459,
+          268.673,
+          296.992
+        ],
+        "score": 1.0755
+      }
+    ],
+    "original_xyxy": [
+      250.563,
+      274.418,
+      273.187,
+      299.032
+    ],
+    "filename": "video_4bec9c343db72928_frame_00008083_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008083_left.png"
+  },
+  {
+    "xyxy": [
+      408.604,
+      286.747,
+      429.526,
+      316.637
+    ],
+    "fit_confidence": 0.4,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.9684,
+      "angular_coverage": 0.7708,
+      "balanced_quadrant_support": 1.1441,
+      "edge_strength": 0.9747,
+      "exterior_change": 0.5383,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.1125,
+      "iou_with_original": 0.7429,
+      "crop_laplacian_variance": 11.905
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          406.241,
+          291.073,
+          429.178,
+          312.311
+        ],
+        "score": 0.8838
+      }
+    ],
+    "original_xyxy": [
+      412.098,
+      287.171,
+      431.453,
+      316.213
+    ],
+    "filename": "video_4bec9c343db72928_frame_00008436_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008436_left.png"
+  },
+  {
+    "xyxy": [
+      226.749,
+      326.381,
+      255.081,
+      354.712
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "large_shrink_requires_visual_review",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.2251,
+      "angular_coverage": 0.9583,
+      "balanced_quadrant_support": 1.4108,
+      "edge_strength": 1.2669,
+      "exterior_change": 0.6953,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.5547,
+      "iou_with_original": 0.5547,
+      "crop_laplacian_variance": 4.026
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          219.677,
+          326.361,
+          258.321,
+          358.564
+        ],
+        "score": 0.9827
+      }
+    ],
+    "original_xyxy": [
+      224.251,
+      321.933,
+      259.496,
+      362.993
+    ],
+    "filename": "video_4bec9c343db72928_frame_00008858_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008858_right.png"
+  },
+  {
+    "xyxy": [
+      121.423,
+      273.997,
+      145.948,
+      300.655
+    ],
+    "fit_confidence": 0.4,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.9373,
+      "angular_coverage": 0.7083,
+      "balanced_quadrant_support": 1.1375,
+      "edge_strength": 1.0138,
+      "exterior_change": 0.633,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9889,
+      "iou_with_original": 0.8909,
+      "crop_laplacian_variance": 4.361
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          120.187,
+          272.301,
+          141.746,
+          290.267
+        ],
+        "score": 0.7971
+      }
+    ],
+    "original_xyxy": [
+      119.831,
+      273.957,
+      145.727,
+      299.488
+    ],
+    "filename": "video_4bec9c343db72928_frame_00009653_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009653_left.png"
+  },
+  {
+    "xyxy": [
+      272.17,
+      265.3,
+      292.648,
+      282.366
+    ],
+    "fit_confidence": 0.4,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.2051,
+      "angular_coverage": 0.8438,
+      "balanced_quadrant_support": 1.3981,
+      "edge_strength": 1.1792,
+      "exterior_change": 0.4695,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.7153,
+      "iou_with_original": 0.7153,
+      "crop_laplacian_variance": 8.411
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          273.587,
+          266.2,
+          292.266,
+          288.705
+        ],
+        "score": 1.0097
+      }
+    ],
+    "original_xyxy": [
+      271.903,
+      264.821,
+      293.95,
+      286.982
+    ],
+    "filename": "video_4bec9c343db72928_frame_00010294_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00010294_left.png"
+  },
+  {
+    "xyxy": [
+      564.174,
+      125.586,
+      665.209,
+      269.921
+    ],
+    "fit_confidence": 0.165,
+    "flags": [
+      "large_motion_or_size_change",
+      "competing_outline_hypotheses"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.8804,
+      "angular_coverage": 0.6562,
+      "balanced_quadrant_support": 1.1215,
+      "edge_strength": 0.9415,
+      "exterior_change": 0.5909,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.3427,
+      "iou_with_original": 0.5479,
+      "crop_laplacian_variance": 77.302
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          598.612,
+          98.799,
+          672,
+          234.134
+        ],
+        "score": 0.8395
+      }
+    ],
+    "original_xyxy": [
+      599.1,
+      112.831,
+      672.0,
+      261.817
+    ],
+    "filename": "video_4bec9c343db72928_frame_00010831_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00010831_right.png"
+  },
+  {
+    "xyxy": [
+      254.155,
+      208.345,
+      339.545,
+      291.978
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.6559,
+      "angular_coverage": 0.9896,
+      "balanced_quadrant_support": 2.2221,
+      "edge_strength": 1.4419,
+      "exterior_change": 0.4549,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9678,
+      "iou_with_original": 0.9678,
+      "crop_laplacian_variance": 24.75
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          253.352,
+          212.391,
+          316.05,
+          287.932
+        ],
+        "score": 1.3206
+      }
+    ],
+    "original_xyxy": [
+      253.46,
+      207.644,
+      340.241,
+      292.679
+    ],
+    "filename": "video_4bec9c343db72928_frame_00011358_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00011358_right.png"
+  },
+  {
+    "xyxy": [
+      387.602,
+      200.925,
+      417.443,
+      230.826
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "large_shrink_requires_visual_review",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.5468,
+      "angular_coverage": 1.0,
+      "balanced_quadrant_support": 2.389,
+      "edge_strength": 1.4977,
+      "exterior_change": 1.036,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.606,
+      "iou_with_original": 0.606,
+      "crop_laplacian_variance": 5.281
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          383.309,
+          200.254,
+          422.633,
+          247.632
+        ],
+        "score": 1.2897
+      }
+    ],
+    "original_xyxy": [
+      383.808,
+      199.355,
+      422.133,
+      237.774
+    ],
+    "filename": "video_4bec9c343db72928_frame_00011817_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00011817_right.png"
+  },
+  {
+    "xyxy": [
+      297.007,
+      247.804,
+      361.97,
+      312.767
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.6199,
+      "angular_coverage": 0.9688,
+      "balanced_quadrant_support": 2.0218,
+      "edge_strength": 1.4165,
+      "exterior_change": 0.3175,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9242,
+      "iou_with_original": 0.9181,
+      "crop_laplacian_variance": 15.048
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          301.554,
+          246.649,
+          349.367,
+          304.254
+        ],
+        "score": 1.2517
+      }
+    ],
+    "original_xyxy": [
+      297.229,
+      245.758,
+      363.359,
+      314.812
+    ],
+    "filename": "video_4bec9c343db72928_frame_00012386_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00012386_left.png"
+  },
+  {
+    "xyxy": [
+      86.781,
+      267.249,
+      106.742,
+      287.21
+    ],
+    "fit_confidence": 0.4,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.1481,
+      "angular_coverage": 0.8854,
+      "balanced_quadrant_support": 1.1668,
+      "edge_strength": 1.1625,
+      "exterior_change": 0.4539,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8606,
+      "iou_with_original": 0.7567,
+      "crop_laplacian_variance": 13.9
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          86.848,
+          265.419,
+          104.506,
+          283.077
+        ],
+        "score": 0.8428
+      }
+    ],
+    "original_xyxy": [
+      85.686,
+      265.911,
+      108.92,
+      285.838
+    ],
+    "filename": "video_4bec9c343db72928_frame_00014089_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014089_right.png"
+  },
+  {
+    "xyxy": [
+      122.819,
+      276.502,
+      153.262,
+      301.872
+    ],
+    "fit_confidence": 0.3,
+    "flags": [
+      "small_source_object",
+      "original_box_may_cover_only_part_of_ball",
+      "large_motion_or_size_change",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.9649,
+      "angular_coverage": 0.8229,
+      "balanced_quadrant_support": 1.0656,
+      "edge_strength": 1.0261,
+      "exterior_change": 0.5223,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.7766,
+      "iou_with_original": 0.4628,
+      "crop_laplacian_variance": 9.501
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          117.323,
+          270.741,
+          151.106,
+          302.022
+        ],
+        "score": 0.8639
+      }
+    ],
+    "original_xyxy": [
+      122.742,
+      273.92,
+      142.627,
+      295.782
+    ],
+    "filename": "video_4bec9c343db72928_frame_00014527_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014527_right.png"
+  },
+  {
+    "xyxy": [
+      17.934,
+      324.918,
+      58.538,
+      365.522
+    ],
+    "fit_confidence": 0.9875,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.1577,
+      "angular_coverage": 0.8438,
+      "balanced_quadrant_support": 1.4373,
+      "edge_strength": 1.2047,
+      "exterior_change": 0.6976,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8585,
+      "iou_with_original": 0.7403,
+      "crop_laplacian_variance": 4.157
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          26.11,
+          323.035,
+          63.871,
+          368.53
+        ],
+        "score": 0.9461
+      }
+    ],
+    "original_xyxy": [
+      14.114,
+      322.503,
+      62.358,
+      362.308
+    ],
+    "filename": "video_4bec9c343db72928_frame_00015037_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015037_left.png"
+  },
+  {
+    "xyxy": [
+      31.064,
+      322.553,
+      71.781,
+      366.81
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.2293,
+      "angular_coverage": 0.8646,
+      "balanced_quadrant_support": 1.5438,
+      "edge_strength": 1.2294,
+      "exterior_change": 0.6372,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.0741,
+      "iou_with_original": 0.7572,
+      "crop_laplacian_variance": 4.292
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          36.274,
+          325.845,
+          71.567,
+          358.523
+        ],
+        "score": 1.1303
+      }
+    ],
+    "original_xyxy": [
+      26.514,
+      325.592,
+      69.337,
+      364.771
+    ],
+    "filename": "video_4bec9c343db72928_frame_00015428_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015428_left.png"
+  },
+  {
+    "xyxy": [
+      204.279,
+      275.63,
+      219.151,
+      288.023
+    ],
+    "fit_confidence": 0.3,
+    "flags": [
+      "small_source_object",
+      "large_shrink_requires_visual_review",
+      "large_motion_or_size_change",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.2778,
+      "angular_coverage": 0.9375,
+      "balanced_quadrant_support": 1.5287,
+      "edge_strength": 1.2793,
+      "exterior_change": 0.623,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.517,
+      "iou_with_original": 0.494,
+      "crop_laplacian_variance": 9.506
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          206.304,
+          274.809,
+          221.257,
+          289.762
+        ],
+        "score": 1.0862
+      }
+    ],
+    "original_xyxy": [
+      204.721,
+      273.825,
+      222.84,
+      293.5
+    ],
+    "filename": "video_4bec9c343db72928_frame_00016227_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00016227_right.png"
+  },
+  {
+    "xyxy": [
+      422.043,
+      207.57,
+      487.22,
+      270.24
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.713,
+      "angular_coverage": 1.0,
+      "balanced_quadrant_support": 2.3439,
+      "edge_strength": 1.483,
+      "exterior_change": 0.4719,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9205,
+      "iou_with_original": 0.9205,
+      "crop_laplacian_variance": 19.0
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          429.87,
+          217.538,
+          479.393,
+          271.368
+        ],
+        "score": 1.365
+      }
+    ],
+    "original_xyxy": [
+      420.664,
+      207.04,
+      488.599,
+      272.355
+    ],
+    "filename": "video_4bec9c343db72928_frame_00016972_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00016972_right.png"
+  },
+  {
+    "xyxy": [
+      592.545,
+      299.57,
+      653.262,
+      372.723
+    ],
+    "fit_confidence": 0.3,
+    "flags": [
+      "small_source_object",
+      "original_box_may_cover_only_part_of_ball",
+      "large_motion_or_size_change",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.8526,
+      "angular_coverage": 0.6979,
+      "balanced_quadrant_support": 0.9931,
+      "edge_strength": 0.8695,
+      "exterior_change": 0.4253,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.6553,
+      "iou_with_original": 0.3035,
+      "crop_laplacian_variance": 13.781
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          548.609,
+          296.963,
+          658.322,
+          375.33
+        ],
+        "score": 0.7216
+      }
+    ],
+    "original_xyxy": [
+      578.035,
+      345.4,
+      665.727,
+      376.0
+    ],
+    "filename": "video_4bec9c343db72928_frame_00017382_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00017382_left.png"
+  },
+  {
+    "xyxy": [
+      223.299,
+      165.723,
+      303.281,
+      245.705
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.7668,
+      "angular_coverage": 1.0,
+      "balanced_quadrant_support": 2.4187,
+      "edge_strength": 1.4967,
+      "exterior_change": 0.399,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.962,
+      "iou_with_original": 0.9103,
+      "crop_laplacian_variance": 22.607
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          248.27,
+          167.623,
+          305.139,
+          236.139
+        ],
+        "score": 1.4644
+      }
+    ],
+    "original_xyxy": [
+      224.722,
+      166.564,
+      305.69,
+      248.697
+    ],
+    "filename": "video_4bec9c343db72928_frame_00018026_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00018026_left.png"
+  },
+  {
+    "xyxy": [
+      233.838,
+      222.673,
+      297.166,
+      281.309
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.5682,
+      "angular_coverage": 0.9792,
+      "balanced_quadrant_support": 2.1592,
+      "edge_strength": 1.4294,
+      "exterior_change": 0.6301,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8852,
+      "iou_with_original": 0.8717,
+      "crop_laplacian_variance": 14.354
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          241.294,
+          220.115,
+          291.244,
+          270.065
+        ],
+        "score": 1.3972
+      }
+    ],
+    "original_xyxy": [
+      234.356,
+      221.43,
+      298.182,
+      287.153
+    ],
+    "filename": "video_4bec9c343db72928_frame_00018419_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00018419_right.png"
+  },
+  {
+    "xyxy": [
+      272.049,
+      343.906,
+      354.146,
+      376
+    ],
+    "fit_confidence": 0.27999999999999997,
+    "flags": [
+      "image_edge_clipped",
+      "small_source_object",
+      "blur_or_low_texture",
+      "metadata_blurred"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.7368,
+      "angular_coverage": 1.0,
+      "balanced_quadrant_support": 0.7418,
+      "edge_strength": 1.4809,
+      "exterior_change": 0.1167,
+      "valid_perimeter_fraction": 0.4688,
+      "area_ratio": 0.9216,
+      "iou_with_original": 0.8251,
+      "crop_laplacian_variance": 19.554
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          295.166,
+          294.95,
+          379.541,
+          373.074
+        ],
+        "score": 0.5932
+      }
+    ],
+    "original_xyxy": [
+      263.642,
+      345.346,
+      358.144,
+      375.599
+    ],
+    "filename": "video_4bec9c343db72928_frame_00018720_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00018720_left.png"
+  },
+  {
+    "xyxy": [
+      330.88,
+      294.552,
+      419.05,
+      376
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "image_edge_clipped",
+      "blur_or_low_texture",
+      "metadata_blurred"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.5127,
+      "angular_coverage": 0.988,
+      "balanced_quadrant_support": 1.9005,
+      "edge_strength": 1.4719,
+      "exterior_change": 0.6441,
+      "valid_perimeter_fraction": 0.8646,
+      "area_ratio": 0.9574,
+      "iou_with_original": 0.9306,
+      "crop_laplacian_variance": 13.579
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          344.852,
+          302.053,
+          419.777,
+          364.491
+        ],
+        "score": 1.2418
+      }
+    ],
+    "original_xyxy": [
+      331.017,
+      291.598,
+      421.013,
+      374.946
+    ],
+    "filename": "video_4bec9c343db72928_frame_00019268_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00019268_left.png"
+  },
+  {
+    "xyxy": [
+      273.36,
+      269.667,
+      346.679,
+      342.986
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.5232,
+      "angular_coverage": 0.9479,
+      "balanced_quadrant_support": 2.0865,
+      "edge_strength": 1.3997,
+      "exterior_change": 0.6181,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8708,
+      "iou_with_original": 0.8708,
+      "crop_laplacian_variance": 15.646
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          288.743,
+          264.351,
+          346.119,
+          333.478
+        ],
+        "score": 1.3195
+      }
+    ],
+    "original_xyxy": [
+      272.166,
+      265.605,
+      351.579,
+      343.341
+    ],
+    "filename": "video_4bec9c343db72928_frame_00019642_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00019642_right.png"
+  },
+  {
+    "xyxy": [
+      296.7,
+      175.818,
+      357.419,
+      226.417
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.5653,
+      "angular_coverage": 0.9896,
+      "balanced_quadrant_support": 2.2369,
+      "edge_strength": 1.4426,
+      "exterior_change": 0.7365,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.7942,
+      "iou_with_original": 0.7768,
+      "crop_laplacian_variance": 18.029
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          288.585,
+          170.385,
+          333.571,
+          224.585
+        ],
+        "score": 1.3868
+      }
+    ],
+    "original_xyxy": [
+      297.448,
+      175.07,
+      359.577,
+      237.334
+    ],
+    "filename": "video_4bec9c343db72928_frame_00019935_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00019935_left.png"
+  },
+  {
+    "xyxy": [
+      383.179,
+      206.061,
+      443.441,
+      261.859
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.3071,
+      "angular_coverage": 0.875,
+      "balanced_quadrant_support": 1.6547,
+      "edge_strength": 1.242,
+      "exterior_change": 0.5396,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.7838,
+      "iou_with_original": 0.7838,
+      "crop_laplacian_variance": 13.665
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          375.323,
+          214.239,
+          437.437,
+          266.001
+        ],
+        "score": 1.022
+      }
+    ],
+    "original_xyxy": [
+      378.0,
+      203.0,
+      444.0,
+      268.0
+    ],
+    "filename": "video_4bec9c343db72928_frame_00020364_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00020364_right.png"
+  },
+  {
+    "xyxy": [
+      533.855,
+      317.367,
+      589.542,
+      368.929
+    ],
+    "fit_confidence": 0.3,
+    "flags": [
+      "large_motion_or_size_change",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.3096,
+      "angular_coverage": 0.9583,
+      "balanced_quadrant_support": 1.8156,
+      "edge_strength": 1.3594,
+      "exterior_change": 0.8914,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.1988,
+      "iou_with_original": 0.3939,
+      "crop_laplacian_variance": 13.719
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          547.766,
+          320.483,
+          594.55,
+          376
+        ],
+        "score": 1.0575
+      }
+    ],
+    "original_xyxy": [
+      537.374,
+      340.403,
+      604.942,
+      375.849
+    ],
+    "filename": "video_4bec9c343db72928_frame_00020770_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00020770_left.png"
+  },
+  {
+    "xyxy": [
+      258.062,
+      221.673,
+      319.626,
+      283.236
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.6948,
+      "angular_coverage": 0.9688,
+      "balanced_quadrant_support": 2.2173,
+      "edge_strength": 1.4285,
+      "exterior_change": 0.2869,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9185,
+      "iou_with_original": 0.9049,
+      "crop_laplacian_variance": 17.382
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          264.84,
+          234.533,
+          314.369,
+          284.062
+        ],
+        "score": 1.4133
+      }
+    ],
+    "original_xyxy": [
+      257.945,
+      222.151,
+      321.264,
+      287.32
+    ],
+    "filename": "video_4bec9c343db72928_frame_00021092_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00021092_right.png"
+  },
+  {
+    "xyxy": [
+      313.045,
+      226.587,
+      383.544,
+      291.864
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.506,
+      "angular_coverage": 0.9688,
+      "balanced_quadrant_support": 1.9786,
+      "edge_strength": 1.3629,
+      "exterior_change": 0.5337,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9009,
+      "iou_with_original": 0.8865,
+      "crop_laplacian_variance": 23.721
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          316.198,
+          223.943,
+          378.712,
+          276.038
+        ],
+        "score": 1.3471
+      }
+    ],
+    "original_xyxy": [
+      311.961,
+      224.085,
+      382.948,
+      296.045
+    ],
+    "filename": "video_4bec9c343db72928_frame_00021423_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00021423_left.png"
+  },
+  {
+    "xyxy": [
+      221.182,
+      298.363,
+      256.052,
+      340.375
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4055,
+      "angular_coverage": 0.9583,
+      "balanced_quadrant_support": 1.9776,
+      "edge_strength": 1.3463,
+      "exterior_change": 0.7985,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8129,
+      "iou_with_original": 0.8127,
+      "crop_laplacian_variance": 3.865
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          216.934,
+          303.0,
+          252.291,
+          335.737
+        ],
+        "score": 1.1917
+      }
+    ],
+    "original_xyxy": [
+      216.166,
+      298.365,
+      259.066,
+      340.372
+    ],
+    "filename": "video_4bec9c343db72928_frame_00021825_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00021825_right.png"
+  },
+  {
+    "xyxy": [
+      336.279,
+      260.707,
+      390.093,
+      325.7
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.4082,
+      "angular_coverage": 0.9167,
+      "balanced_quadrant_support": 1.8845,
+      "edge_strength": 1.3349,
+      "exterior_change": 0.6405,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.8599,
+      "iou_with_original": 0.8424,
+      "crop_laplacian_variance": 12.529
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          318.295,
+          267.927,
+          386.811,
+          325.024
+        ],
+        "score": 1.2822
+      }
+    ],
+    "original_xyxy": [
+      333.358,
+      261.422,
+      391.378,
+      331.528
+    ],
+    "filename": "video_4bec9c343db72928_frame_00022185_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00022185_left.png"
+  },
+  {
+    "xyxy": [
+      279.453,
+      268.569,
+      346.949,
+      341.934
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.6535,
+      "angular_coverage": 0.9896,
+      "balanced_quadrant_support": 2.1089,
+      "edge_strength": 1.42,
+      "exterior_change": 0.3213,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.9103,
+      "iou_with_original": 0.8796,
+      "crop_laplacian_variance": 39.099
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          280.155,
+          283.105,
+          335.598,
+          343.369
+        ],
+        "score": 1.3097
+      }
+    ],
+    "original_xyxy": [
+      277.439,
+      269.885,
+      348.963,
+      345.942
+    ],
+    "filename": "video_4bec9c343db72928_frame_00022478_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00022478_right.png"
+  },
+  {
+    "xyxy": [
+      386.241,
+      258.404,
+      448.212,
+      324.052
+    ],
+    "fit_confidence": 1.0,
+    "flags": [
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.6938,
+      "angular_coverage": 0.9896,
+      "balanced_quadrant_support": 2.3292,
+      "edge_strength": 1.4633,
+      "exterior_change": 0.4728,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.877,
+      "iou_with_original": 0.877,
+      "crop_laplacian_variance": 13.451
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          383.132,
+          258.725,
+          441.506,
+          307.371
+        ],
+        "score": 1.3638
+      }
+    ],
+    "original_xyxy": [
+      384.149,
+      257.806,
+      450.305,
+      327.922
+    ],
+    "filename": "video_4bec9c343db72928_frame_00022787_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "inspect_external_boundary_candidate",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00022787_left.png"
+  },
+  {
+    "xyxy": [
+      73.195,
+      100.252,
+      166.288,
+      177.83
+    ],
+    "fit_confidence": 0.35,
+    "flags": [
+      "blur_or_low_texture",
+      "metadata_blurred"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.5337,
+      "angular_coverage": 1.0,
+      "balanced_quadrant_support": 2.2712,
+      "edge_strength": 1.4764,
+      "exterior_change": 0.9262,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.6291,
+      "iou_with_original": 0.6291,
+      "crop_laplacian_variance": 12.197
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          58.882,
+          87.313,
+          162.338,
+          190.769
+        ],
+        "score": 1.3951
+      }
+    ],
+    "original_xyxy": [
+      54.701,
+      95.535,
+      166.519,
+      198.202
+    ],
+    "filename": "video_4bec9c343db72928_frame_00003509_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00003509_right.png"
+  },
+  {
+    "xyxy": [
+      507.56,
+      265.825,
+      537.855,
+      291.071
+    ],
+    "fit_confidence": 0.4,
+    "flags": [
+      "small_source_object",
+      "blur_or_low_texture"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.0042,
+      "angular_coverage": 0.7604,
+      "balanced_quadrant_support": 1.0954,
+      "edge_strength": 1.0106,
+      "exterior_change": 0.4223,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 1.0726,
+      "iou_with_original": 0.6963,
+      "crop_laplacian_variance": 5.394
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          512.722,
+          263.237,
+          535.948,
+          282.593
+        ],
+        "score": 0.9224
+      }
+    ],
+    "original_xyxy": [
+      512.339,
+      264.041,
+      540.237,
+      289.601
+    ],
+    "filename": "video_4bec9c343db72928_frame_00009073_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009073_right.png"
+  },
+  {
+    "xyxy": [
+      215.105,
+      248.476,
+      269.637,
+      307.749
+    ],
+    "fit_confidence": 0.105,
+    "flags": [
+      "large_shrink_requires_visual_review",
+      "large_motion_or_size_change",
+      "blur_or_low_texture",
+      "occluded_visible_extent_requires_manual_review",
+      "metadata_blurred"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 1.388,
+      "angular_coverage": 0.8958,
+      "balanced_quadrant_support": 2.0233,
+      "edge_strength": 1.3517,
+      "exterior_change": 0.8066,
+      "valid_perimeter_fraction": 1.0,
+      "area_ratio": 0.5196,
+      "iou_with_original": 0.5196,
+      "crop_laplacian_variance": 10.43
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          192.352,
+          235.489,
+          265.473,
+          314.969
+        ],
+        "score": 1.1483
+      }
+    ],
+    "original_xyxy": [
+      187.714,
+      243.25,
+      270.111,
+      318.743
+    ],
+    "filename": "video_4bec9c343db72928_frame_00017401_right.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00017401_right.png"
+  },
+  {
+    "xyxy": [
+      574.745,
+      97.133,
+      671.718,
+      235.666
+    ],
+    "fit_confidence": 0.105,
+    "flags": [
+      "image_edge_clipped",
+      "original_box_may_cover_only_part_of_ball",
+      "large_motion_or_size_change",
+      "blur_or_low_texture",
+      "occluded_visible_extent_requires_manual_review",
+      "metadata_blurred"
+    ],
+    "evidence": {
+      "method": "lab_external_ellipse_boundary_v2",
+      "score": 0.9023,
+      "angular_coverage": 0.6867,
+      "balanced_quadrant_support": 0.9597,
+      "edge_strength": 1.0119,
+      "exterior_change": 0.5062,
+      "valid_perimeter_fraction": 0.8646,
+      "area_ratio": 2.04,
+      "iou_with_original": 0.3574,
+      "crop_laplacian_variance": 37.687
+    },
+    "alternatives": [
+      {
+        "xyxy": [
+          549.315,
+          71.31,
+          662.746,
+          207.973
+        ],
+        "score": 0.7564
+      }
+    ],
+    "original_xyxy": [
+      631.802,
+      103.6,
+      672.0,
+      267.424
+    ],
+    "filename": "video_4bec9c343db72928_frame_00020301_left.png",
+    "box_index": 0,
+    "annotation_status_before": "auto_label_needs_review",
+    "is_human_provided_annotation": false,
+    "proposal_status": "pending_visual_review",
+    "automatically_approved": false,
+    "candidate_type": "ellipse_boundary_hypothesis",
+    "ball_presence_confirmed": false,
+    "recommendation": "retain_original_pending_manual_review",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00020301_left.png"
+  }
+]

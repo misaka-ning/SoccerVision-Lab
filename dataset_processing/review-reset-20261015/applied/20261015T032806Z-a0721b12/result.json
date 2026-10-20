@@ -1,0 +1,29 @@
+{
+  "prechecked": 1000,
+  "labels_changed": 14,
+  "boxes_before": 765,
+  "boxes_after": 762,
+  "skipped": [],
+  "user_approved": 0,
+  "scene_rows_changed": 269,
+  "audit": "/home/misaka/workspace/dataset_processing/review-reset-20261015/applied/20261015T032806Z-a0721b12",
+  "changed_labels": [
+    "frame_001650_left.png",
+    "frame_001650_right.png",
+    "frame_001654_left.png",
+    "frame_001658_left.png",
+    "frame_001658_right.png",
+    "frame_001665_left.png",
+    "frame_003599_left.png",
+    "frame_003661_left.png",
+    "frame_003661_right.png",
+    "frame_004504_left.png",
+    "frame_004618_left.png",
+    "frame_004660_left.png",
+    "frame_004660_right.png",
+    "frame_004995_right.png"
+  ],
+  "failed_labels": [],
+  "metadata_after_sha256": "92c3e5b3fd233fdfab719ca05fbac8b9f37ab128b9ae6c452cfad5477d69da24",
+  "created_at_utc": "2026-10-15T03:28:07.364369+00:00"
+}

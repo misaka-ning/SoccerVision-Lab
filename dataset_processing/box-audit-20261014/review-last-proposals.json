@@ -1,0 +1,1211 @@
+[
+  {
+    "index": 6292,
+    "filename": "video_4bec9c343db72928_frame_00017634_left.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_correction_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        398,
+        290,
+        501,
+        376
+      ]
+    ],
+    "reason": "原框落在左侧红色器材；原生全图明确可见底部白蓝足球，按可见运动模糊外沿框住，裁边处保留到图像下边界。",
+    "source_scene_pages": [
+      0
+    ],
+    "source_roi_pages": [
+      0
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "3e73da72b4c65714938427ba0d35211eb954a543f184f43e30ec72327d3d14c1",
+    "image_sha256": "e29279211e4610255bbeb2db11b6cd378eb07d686f3a32a70f453060bec0cb9e",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        0.04749998399999844,
+        22.700899984000007,
+        23.352699887999997,
+        124.25010014400002
+      ]
+    ]
+  },
+  {
+    "index": 6293,
+    "filename": "video_4bec9c343db72928_frame_00017634_right.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_correction_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        358,
+        290,
+        465,
+        376
+      ]
+    ],
+    "reason": "原空label漏掉底部白蓝足球；原生图已核验，按可见运动模糊范围补框并延至图像下边界。",
+    "source_scene_pages": [
+      0
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "03e0645dd5af70a779798356fe6effeb96f1ff03495f02b86664bdb2233ebc9b",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6348,
+    "filename": "video_4bec9c343db72928_frame_00017849_left.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_clipped_blurred_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        613,
+        351,
+        672,
+        376
+      ]
+    ],
+    "reason": "原框落在右侧鞋子；原生图底部可见裁边白蓝足球，改至可见球范围，模糊/裁边须继续复核。",
+    "source_scene_pages": [
+      2
+    ],
+    "source_roi_pages": [
+      0
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "7ff13cae5713312ec57b4d779510ef7892c05414d38b04481632c693f22322f3",
+    "image_sha256": "1e45212d598ca2d3e85644f182a4923c0105d4575c8060810ac9897dbd43a764",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        655.3195000799999,
+        220.925199896,
+        671.868399888,
+        246.29009973599997
+      ]
+    ]
+  },
+  {
+    "index": 6349,
+    "filename": "video_4bec9c343db72928_frame_00017849_right.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_clipped_blurred_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        578,
+        351,
+        644,
+        376
+      ]
+    ],
+    "reason": "原框误包地板白色小标记；原生图底部可见裁边白蓝足球，改至可见球范围，模糊/裁边须继续复核。",
+    "source_scene_pages": [
+      2
+    ],
+    "source_roi_pages": [
+      0
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "beb5494d60dffc360f033d45363e865ad32cf3a1ccefd2891c9cdc58255e943a",
+    "image_sha256": "e39603283a31dffafc02aa307ca8fd0fe308eb809d12ad516d232b1f62ea148c",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        323.446699632,
+        188.37910011999998,
+        336.50629992,
+        193.79380016800002
+      ]
+    ]
+  },
+  {
+    "index": 6636,
+    "filename": "video_4bec9c343db72928_frame_00018923_left.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_occluded_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        263,
+        228,
+        311,
+        270
+      ]
+    ],
+    "reason": "原空label漏掉鞋下可见的白蓝足球；已查看原生全图，按可见球片段外沿补框，鞋部不属于球。存在遮挡/模糊，保留待复核。",
+    "source_scene_pages": [
+      8
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "c5fa9c57250090a8f1ed4a4c7858155e0eeb09422ea9a622e3825b8779092762",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6637,
+    "filename": "video_4bec9c343db72928_frame_00018923_right.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_occluded_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        246,
+        228,
+        294,
+        269
+      ]
+    ],
+    "reason": "原空label漏掉鞋下可见的白蓝足球；已查看原生全图，按可见球片段外沿补框，鞋部不属于球。存在遮挡/模糊，保留待复核。",
+    "source_scene_pages": [
+      8
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "944de7f5c69f6df7244befe834c48e194b24534ce9db4545f3f599539b2b22d3",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6640,
+    "filename": "video_4bec9c343db72928_frame_00018938_left.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_occluded_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        288,
+        230,
+        331,
+        269
+      ]
+    ],
+    "reason": "原空label漏掉鞋下可见的白蓝足球；已查看原生全图，按可见球片段外沿补框，鞋部不属于球。存在遮挡/模糊，保留待复核。",
+    "source_scene_pages": [
+      8
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "c699243aec8c1eb4ec1db548a8615bb317b295cb436ce347e4985c1b767c1f5e",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6641,
+    "filename": "video_4bec9c343db72928_frame_00018938_right.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_occluded_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        269,
+        230,
+        311,
+        268
+      ]
+    ],
+    "reason": "原空label漏掉鞋下可见的白蓝足球；已查看原生全图，按可见球片段外沿补框，鞋部不属于球。存在遮挡/模糊，保留待复核。",
+    "source_scene_pages": [
+      8
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "36bde2133247f1ae19a13c765d2a4eeff0d91e7962b3faf559315c88a78707fd",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6696,
+    "filename": "video_4bec9c343db72928_frame_00019149_left.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_occluded_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        252,
+        343,
+        312,
+        376
+      ]
+    ],
+    "reason": "原空label漏掉白蓝足球的可见片段；已原生复核并按可见边沿补框，球有裁边或器材遮挡，保留待复核。",
+    "source_scene_pages": [
+      9
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "b87cceaf09558ece63758dc2213dfb2e7a64eaf8f78582fe195debc320df7ee5",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6706,
+    "filename": "video_4bec9c343db72928_frame_00019190_left.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_occluded_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        204,
+        284,
+        263,
+        310
+      ]
+    ],
+    "reason": "原空label漏掉白蓝足球的可见片段；已原生复核并按可见边沿补框，球有裁边或器材遮挡，保留待复核。",
+    "source_scene_pages": [
+      9
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "51188486736d1c7ebd33d17175b6a01d694510ff5056f952fb690c7cb927325f",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6710,
+    "filename": "video_4bec9c343db72928_frame_00019207_left.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_occluded_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        274,
+        255,
+        335,
+        303
+      ]
+    ],
+    "reason": "原空label漏掉白蓝足球的可见片段；已原生复核并按可见边沿补框，球有裁边或器材遮挡，保留待复核。",
+    "source_scene_pages": [
+      9
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "7dfbcb53c1cc4a83a741bf580f4c95bd98a727d10325ee2f892e1c28d7f4fce4",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6750,
+    "filename": "video_4bec9c343db72928_frame_00019356_left.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_blurred_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        445,
+        43,
+        497,
+        126
+      ]
+    ],
+    "reason": "原空label漏掉画面中运动足球；原生图可确认白蓝球，按可见运动模糊范围补框，模糊边界保留待复核。",
+    "source_scene_pages": [
+      10
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "bfdd2f4ecb408ad1eef6e8cba6a869cd26ea9392effaa8292da753eb9e32879b",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6751,
+    "filename": "video_4bec9c343db72928_frame_00019356_right.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_blurred_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        416,
+        42,
+        469,
+        126
+      ]
+    ],
+    "reason": "原空label漏掉画面中运动足球；原生图可确认白蓝球，按可见运动模糊范围补框，模糊边界保留待复核。",
+    "source_scene_pages": [
+      10
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "944234819d283d959c4a740ac4d5b8ae9543c96498eafcaf369fd0a10995957c",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6927,
+    "filename": "video_4bec9c343db72928_frame_00020018_right.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_clipped_blurred_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        266,
+        336,
+        363,
+        376
+      ]
+    ],
+    "reason": "原空label漏掉底部运动足球；原生图确认裁边白蓝球，按可见模糊范围补框并延至下边界。",
+    "source_scene_pages": [
+      14
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "b8d6f0fb7006621c869a1c4c6723dc5a0170a9ac63132ce7256da785069b4d8d",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6957,
+    "filename": "video_4bec9c343db72928_frame_00020136_right.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_occluded_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        364,
+        34,
+        407,
+        80
+      ]
+    ],
+    "reason": "原空label漏掉上方鞋下足球；原生图确认白蓝球片段，按可见范围补框，足部遮挡保留待复核。",
+    "source_scene_pages": [
+      14
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "6dd6760493b4d7bf34e8de2546a21b2ba502c0d653ef8f9e2156de8e4f20c53a",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 6986,
+    "filename": "video_4bec9c343db72928_frame_00020247_left.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_external_boundary_tightening",
+    "action": "tighten_visible_ball_boundary",
+    "boxes_xyxy": [
+      [
+        94,
+        51,
+        355,
+        296
+      ]
+    ],
+    "reason": "原框下方含大量腿部/墙面空隙；已查看原生图并据白蓝足球真实可见外沿重框，四边贴外轮廓，裁边球延至图像边界，手部不计球体。",
+    "source_scene_pages": [
+      15
+    ],
+    "source_roi_pages": [
+      16
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "4ed578baae15339b1f9f775eccb559c747d7c4ed057ce9c7c967500bec5f4d1e",
+    "image_sha256": "f1c79bfd46a2d1365072faf6e0b1dd11ac9c3b213141f656dffde09e8270a1ff",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        83.53750003199998,
+        63.265299964000015,
+        370.81180012799996,
+        375.999999812
+      ]
+    ]
+  },
+  {
+    "index": 6987,
+    "filename": "video_4bec9c343db72928_frame_00020247_right.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_external_boundary_tightening",
+    "action": "tighten_visible_ball_boundary",
+    "boxes_xyxy": [
+      [
+        0,
+        58,
+        250,
+        296
+      ]
+    ],
+    "reason": "原框下方含大量腿部/墙面空隙；已查看原生图并据白蓝足球真实可见外沿重框，四边贴外轮廓，裁边球延至图像边界，手部不计球体。",
+    "source_scene_pages": [
+      15
+    ],
+    "source_roi_pages": [
+      16
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "08d66349d68c5ea398cdc06bfa442bb3fe2c8952c45e9c256ebbfc3427655c27",
+    "image_sha256": "63582b1f5c8a7e9cf7abfc5d56dbb04ddce01ab37722e6b8884d02430513c238",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        4.3050000000000015,
+        66.65439984000001,
+        265.82140032,
+        376.0
+      ]
+    ]
+  },
+  {
+    "index": 6988,
+    "filename": "video_4bec9c343db72928_frame_00020250_left.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_external_boundary_tightening",
+    "action": "tighten_visible_ball_boundary",
+    "boxes_xyxy": [
+      [
+        243,
+        0,
+        599,
+        299
+      ]
+    ],
+    "reason": "原框下方含大量腿部/墙面空隙；已查看原生图并据白蓝足球真实可见外沿重框，四边贴外轮廓，裁边球延至图像边界，手部不计球体。",
+    "source_scene_pages": [
+      15
+    ],
+    "source_roi_pages": [
+      16
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "eda7a74c868aa9b8760c6a7513df52e4ce35c9adfb60840d90aa43b2da94b5e7",
+    "image_sha256": "b058c3f41cd7940df72ba1aa90a22559aae0da68572851fc95dc5f86bb070ea6",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        215.21229979199998,
+        -1.8800001555518975e-07,
+        606.503400048,
+        333.669899884
+      ]
+    ]
+  },
+  {
+    "index": 6989,
+    "filename": "video_4bec9c343db72928_frame_00020250_right.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_external_boundary_tightening",
+    "action": "tighten_visible_ball_boundary",
+    "boxes_xyxy": [
+      [
+        54,
+        0,
+        403,
+        293
+      ]
+    ],
+    "reason": "原框下方含大量腿部/墙面空隙；已查看原生图并据白蓝足球真实可见外沿重框，四边贴外轮廓，裁边球延至图像边界，手部不计球体。",
+    "source_scene_pages": [
+      15
+    ],
+    "source_roi_pages": [
+      16
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "0459fbd41c1410188027c86b9a75b9bd8f0a7d2f1518f325560e139367bf7917",
+    "image_sha256": "e1583fe511f563a32a00fdd49c5c7de5d53ed2e3207cf6e2bb0dc84c959fd3cd",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        46.40439988800001,
+        0.0,
+        424.62269976,
+        363.680199824
+      ]
+    ]
+  },
+  {
+    "index": 6996,
+    "filename": "video_4bec9c343db72928_frame_00020287_left.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_external_boundary_tightening",
+    "action": "tighten_visible_ball_boundary",
+    "boxes_xyxy": [
+      [
+        447,
+        43,
+        631,
+        201
+      ]
+    ],
+    "reason": "原框下方含大量腿部/墙面空隙；已查看原生图并据白蓝足球真实可见外沿重框，四边贴外轮廓，裁边球延至图像边界，手部不计球体。",
+    "source_scene_pages": [
+      15
+    ],
+    "source_roi_pages": [
+      16
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "b773d0bc3c2979ad2ddb26436597062fa38541bac98609fac4af3e0c25ec9740",
+    "image_sha256": "b952e3ccede831fe2873eb863aca140b550d259556c3e353fcb5b76da425d088",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        442.014399792,
+        40.44140003999999,
+        637.3307999519999,
+        339.224699976
+      ]
+    ]
+  },
+  {
+    "index": 6997,
+    "filename": "video_4bec9c343db72928_frame_00020287_right.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_external_boundary_tightening",
+    "action": "tighten_visible_ball_boundary",
+    "boxes_xyxy": [
+      [
+        375,
+        42,
+        556,
+        200
+      ]
+    ],
+    "reason": "原框下方含大量腿部/墙面空隙；已查看原生图并据白蓝足球真实可见外沿重框，四边贴外轮廓，裁边球延至图像边界，手部不计球体。",
+    "source_scene_pages": [
+      15
+    ],
+    "source_roi_pages": [
+      16
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "af5c76e839c998d4c24f370b2c597ce2e89a0a2e7094831d4b334bbac07ced7b",
+    "image_sha256": "3ebd098f474b8f787556a3b230e39b60cf6c7d800b966eb0fe344d3f09c8db79",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        372.99709977599997,
+        45.40979993200001,
+        571.2723999359999,
+        375.999999812
+      ]
+    ]
+  },
+  {
+    "index": 7004,
+    "filename": "video_4bec9c343db72928_frame_00020317_left.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_external_boundary_tightening",
+    "action": "tighten_visible_ball_boundary",
+    "boxes_xyxy": [
+      [
+        505,
+        248,
+        622,
+        355
+      ]
+    ],
+    "reason": "原手持球框下边包入红衣/背景，左边含手部；原生图核验后，依据球的白蓝完整可见外轮廓收紧边界。",
+    "source_scene_pages": [
+      15
+    ],
+    "source_roi_pages": [
+      17
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "41a1d3c4fcb97edec4bf432467b5544183d1703b0413c1b0b54d9b7bc4d0305d",
+    "image_sha256": "4f319ae5ba70a93c4cc84bded550d418d6234d53168fa57fa70e19fd6a5a020a",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        499.790999904,
+        245.08909989999998,
+        623.255699808,
+        373.650899956
+      ]
+    ]
+  },
+  {
+    "index": 7006,
+    "filename": "video_4bec9c343db72928_frame_00020318_left.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_external_boundary_tightening",
+    "action": "tighten_visible_ball_boundary",
+    "boxes_xyxy": [
+      [
+        518,
+        249,
+        638,
+        355
+      ]
+    ],
+    "reason": "原手持球框下边包入红衣/背景，左边含手部；原生图核验后，依据球的白蓝完整可见外轮廓收紧边界。",
+    "source_scene_pages": [
+      15
+    ],
+    "source_roi_pages": [
+      17
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e785bbd231e94686bf6deda7cd070566839b246d0c1f8ca01a08ec8e91a8659d",
+    "image_sha256": "441f1ed51fef6d875596b566ffd160eee3590cce0372c82737735fec5913c675",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        507.50789980800005,
+        247.90670008000004,
+        639.553899936,
+        372.91360024
+      ]
+    ]
+  },
+  {
+    "index": 7917,
+    "filename": "video_4bec9c343db72928_frame_00023807_right.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_clipped_blurred_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        0,
+        141,
+        14,
+        228
+      ]
+    ],
+    "reason": "原空label漏掉左图边可见的灰白足球窄片段；已查看原生图，灰色球面及深色片段可见，按可见范围补框。裁边严重，须保留人工复核。",
+    "source_scene_pages": [
+      34
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_visibility_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "45541a4212c2faa0c13425d5031b7a777f21ecbbe775f3203c7407b6371e1ad8",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 8074,
+    "filename": "video_4bec9c343db72928_frame_00004911_left.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_false_box_replacement",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        336.626500224,
+        237.331599876,
+        394.51240012799997,
+        302.87640002800003
+      ],
+      [
+        482,
+        133,
+        521,
+        174
+      ]
+    ],
+    "reason": "第二框误落前景灰鞋；已原生查看全图，真实第二个足球在墙脚黑箱左侧，替换到该可见白蓝球范围，主球原框保留。",
+    "source_scene_pages": [
+      37
+    ],
+    "source_roi_pages": [
+      38
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "a9100efbcc451f7bbfaae9653866f586273835ae1b959ec565d96f91a032af6e",
+    "image_sha256": "29cbebf862a5430d1a4d7cb1abac24aea54013e074a12e3c8248de9575387598",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        336.626500224,
+        237.331599876,
+        394.51240012799997,
+        302.87640002800003
+      ],
+      [
+        95.98030008,
+        209.65259995199997,
+        149.60209992,
+        270.461700032
+      ]
+    ]
+  },
+  {
+    "index": 8075,
+    "filename": "video_4bec9c343db72928_frame_00004911_right.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_false_box_replacement",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        310.82829993599995,
+        236.88460017200003,
+        368.142299616,
+        301.501500004
+      ],
+      [
+        468,
+        134,
+        508,
+        174
+      ]
+    ],
+    "reason": "第二框误落前景灰鞋；已原生查看全图，真实第二个足球在墙脚黑箱左侧，替换到该可见白蓝球范围，主球原框保留。",
+    "source_scene_pages": [
+      37
+    ],
+    "source_roi_pages": [
+      39
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "91a9ecbbc0496d972c0954d5277df890aae2c651034033542fe77c3cec209ca1",
+    "image_sha256": "a2a53c289b504cb0d33fee097992ddbc4477e9fdc263178b7dbdca5f85304584",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        310.82829993599995,
+        236.88460017200003,
+        368.142299616,
+        301.501500004
+      ],
+      [
+        75.37509974400001,
+        213.48909997199996,
+        128.771199648,
+        269.94789998
+      ]
+    ]
+  },
+  {
+    "index": 8103,
+    "filename": "video_4bec9c343db72928_frame_00005687_right.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_blurred_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        73,
+        157,
+        120,
+        198
+      ]
+    ],
+    "reason": "原框左边切掉运动球可见范围，右边含空地；原生图核验球的可见模糊外沿后移框，保留模糊待审。",
+    "source_scene_pages": [
+      38
+    ],
+    "source_roi_pages": [
+      40
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "0a4257375fed4730f79acbff13a7b84357118b9a9cb473da26b626dbd68b18f3",
+    "image_sha256": "cccbbef8bebd731d38c295df8ec8c37b230dac81279beb38662698412bad4dd3",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        89.00000020799999,
+        156.00000018,
+        135.00000024,
+        197.00000010800002
+      ]
+    ]
+  },
+  {
+    "index": 8113,
+    "filename": "video_4bec9c343db72928_frame_00006321_right.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_blurred_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        55,
+        198,
+        166,
+        276
+      ]
+    ],
+    "reason": "原空label漏掉前景运动白蓝足球；原生图能确认球面花纹，按可见模糊范围补框。",
+    "source_scene_pages": [
+      38
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "92dc84751cb5491207a04a6f2101b739d3289dd96b8957a91167e7cd41831110",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 8147,
+    "filename": "video_4bec9c343db72928_frame_00010459_right.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_false_box_replacement",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        264,
+        220,
+        301,
+        252
+      ]
+    ],
+    "reason": "原框误落远处坐者白鞋；原生图确认真实球在前景机器人后侧地面，替换到其白蓝球可见范围。",
+    "source_scene_pages": [
+      39
+    ],
+    "source_roi_pages": [
+      41
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "91c491a1ececbc1de802846810e452672f90102a5479b4ed04bb65966a33789e",
+    "image_sha256": "e3516b8908ddf35b3d05d637de77831ba89a632e030a06ed0155edcb1726e2cf",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        477.538600224,
+        162.97239979600002,
+        508.92179990400007,
+        192.63209985200004
+      ]
+    ]
+  },
+  {
+    "index": 8151,
+    "filename": "video_4bec9c343db72928_frame_00010759_right.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_false_box_replacement",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        224,
+        326,
+        281,
+        376
+      ]
+    ],
+    "reason": "原框误落右上方人腿/鞋；原生图确认足球在前景下边裁边，改至可见球范围。",
+    "source_scene_pages": [
+      39
+    ],
+    "source_roi_pages": [
+      41
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "c4b16a3a8082f4aab02de01477b466a4f8d2b7e3f5ddaf00e6000deee22a266e",
+    "image_sha256": "468168a8cac61b5a93e50a78bf59453dd58794c621749e8c66d0683f78a9ea5c",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        609.115600128,
+        -1.8800000511909332e-07,
+        671.942199936,
+        123.06319993199999
+      ]
+    ]
+  },
+  {
+    "index": 8153,
+    "filename": "video_4bec9c343db72928_frame_00010762_right.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_false_box_replacement",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        284,
+        296,
+        342,
+        351
+      ]
+    ],
+    "reason": "原框误落远机器人手臂小亮斑；原生图确认前景球，替换到可见模糊球外沿。",
+    "source_scene_pages": [
+      39
+    ],
+    "source_roi_pages": [
+      41
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "ab36980d353db934215104da30c3d79f823e8f6e5954f01f2a7fd14e04efe632",
+    "image_sha256": "849fac2c1d92c423e3675a7f31836f876872097421f33252ff777ab8dc3efcf0",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        429.31289990399995,
+        144.475599804,
+        445.55209977600003,
+        159.151499828
+      ]
+    ]
+  },
+  {
+    "index": 8189,
+    "filename": "video_4bec9c343db72928_frame_00015606_right.png",
+    "scene_seen": true,
+    "roi_seen": false,
+    "review_status": "native_verified_blurred_ball_proposal",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        331,
+        65,
+        387,
+        138
+      ]
+    ],
+    "reason": "原空label漏掉前景运动白蓝球；原生图确认其明暗花纹及外沿，按可见运动模糊范围补框。",
+    "source_scene_pages": [
+      40
+    ],
+    "source_roi_pages": [],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image_sha256": "1fe8c2220d9707b29e00960b1d00cd51b58911f674283535810eb9ab68d37fed",
+    "split": "train",
+    "old_boxes_xyxy": []
+  },
+  {
+    "index": 8223,
+    "filename": "video_4bec9c343db72928_frame_00017403_right.png",
+    "scene_seen": true,
+    "roi_seen": true,
+    "review_status": "native_verified_false_box_replacement",
+    "action": "correct_false_positive_or_missing_ball",
+    "boxes_xyxy": [
+      [
+        234,
+        216,
+        304,
+        291
+      ]
+    ],
+    "reason": "原框误落左侧白色器材；原生图明确可见脚下白蓝球，改至球真实可见外沿，运动模糊待复核。",
+    "source_scene_pages": [
+      41
+    ],
+    "source_roi_pages": [
+      43
+    ],
+    "proposal_status": "pending_root_safety_review",
+    "automatically_approved": false,
+    "native_image_reviewed": true,
+    "annotation_status_before": "auto_label_needs_review",
+    "native_visual_review": true,
+    "source": "last 子组逐图场景联系页 + 框局部页 + 原生像素全图核验（2026-10-14）；原图来自 baseline inventory。",
+    "expected_label_sha256": "f46a7b177a8acd7e7262b3208f26e2ce8d5b3eac58a90d6d8ceb79cdafe93d30",
+    "image_sha256": "076d9f5a6780e7af8622d69b394b42c9f34c1562b181109ea2ac89004ef22e2f",
+    "split": "train",
+    "old_boxes_xyxy": [
+      [
+        -3.3599999982314444e-07,
+        240.493899748,
+        66.634099728,
+        374.66359993200007
+      ]
+    ]
+  }
+]

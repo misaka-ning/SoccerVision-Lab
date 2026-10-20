@@ -1,0 +1,626 @@
+[
+  {
+    "sheet": 0,
+    "tile": 0,
+    "inventory_box_index": 401,
+    "filename": "frame_003256_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      382.0,
+      146.0,
+      413.0,
+      178.0
+    ],
+    "candidate_xyxy": [
+      381.712,
+      145.985,
+      405.822,
+      168.309
+    ],
+    "crop_xyxy": [
+      366,
+      130,
+      428,
+      193
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 1,
+    "inventory_box_index": 478,
+    "filename": "frame_003744_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      375.0,
+      280.0,
+      415.0,
+      327.0
+    ],
+    "candidate_xyxy": [
+      381.092,
+      283.853,
+      412.198,
+      317.664
+    ],
+    "crop_xyxy": [
+      353,
+      258,
+      436,
+      348
+    ],
+    "fit_confidence": 0.0963
+  },
+  {
+    "sheet": 0,
+    "tile": 2,
+    "inventory_box_index": 667,
+    "filename": "frame_004600_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      413.0,
+      153.0,
+      444.0,
+      187.0
+    ],
+    "candidate_xyxy": [
+      416.118,
+      148.31,
+      442.469,
+      170.27
+    ],
+    "crop_xyxy": [
+      397,
+      133,
+      459,
+      202
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 3,
+    "inventory_box_index": 65,
+    "filename": "frame_001615_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      386.028,
+      201.551,
+      415.844,
+      231.241
+    ],
+    "candidate_xyxy": [
+      387.693,
+      200.875,
+      410.7,
+      222.177
+    ],
+    "crop_xyxy": [
+      371,
+      185,
+      430,
+      246
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 0,
+    "tile": 4,
+    "inventory_box_index": 948,
+    "filename": "legacy_train_000250.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      410.001,
+      214.0,
+      754.001,
+      567.0
+    ],
+    "candidate_xyxy": [
+      224.602,
+      183.271,
+      741.719,
+      614.202
+    ],
+    "crop_xyxy": [
+      65,
+      24,
+      912,
+      720
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 5,
+    "inventory_box_index": 78,
+    "filename": "frame_001650_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      121.194,
+      317.833,
+      185.247,
+      376.0
+    ],
+    "candidate_xyxy": [
+      136.139,
+      316.241,
+      188.237,
+      359.657
+    ],
+    "crop_xyxy": [
+      92,
+      287,
+      217,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 6,
+    "inventory_box_index": 97,
+    "filename": "frame_001677_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      626.0,
+      332.0,
+      672.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      641.828,
+      335.308,
+      672,
+      368.399
+    ],
+    "crop_xyxy": [
+      605,
+      311,
+      672,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 7,
+    "inventory_box_index": 477,
+    "filename": "frame_003743_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      358.0,
+      275.0,
+      399.0,
+      313.0
+    ],
+    "candidate_xyxy": [
+      361.913,
+      274.057,
+      395.087,
+      310.116
+    ],
+    "crop_xyxy": [
+      339,
+      255,
+      417,
+      331
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 8,
+    "inventory_box_index": 682,
+    "filename": "frame_004677_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      311.0,
+      157.0,
+      341.0,
+      189.0
+    ],
+    "candidate_xyxy": [
+      316.526,
+      151.108,
+      353.394,
+      190.412
+    ],
+    "crop_xyxy": [
+      296,
+      136,
+      368,
+      205
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 9,
+    "inventory_box_index": 77,
+    "filename": "frame_001647_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      35.0,
+      287.0,
+      117.0,
+      372.0
+    ],
+    "candidate_xyxy": [
+      35.305,
+      300.38,
+      102.812,
+      356.636
+    ],
+    "crop_xyxy": [
+      0,
+      248,
+      155,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 10,
+    "inventory_box_index": 81,
+    "filename": "frame_001650_right.png",
+    "box_index": 1,
+    "original_xyxy": [
+      225.49,
+      353.247,
+      297.034,
+      376.0
+    ],
+    "candidate_xyxy": [
+      220.437,
+      301.598,
+      333.806,
+      376
+    ],
+    "crop_xyxy": [
+      188,
+      269,
+      366,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 11,
+    "inventory_box_index": 94,
+    "filename": "frame_001674_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      186.0,
+      0.0,
+      216.0,
+      27.0
+    ],
+    "candidate_xyxy": [
+      174.022,
+      0,
+      222.378,
+      37.148
+    ],
+    "crop_xyxy": [
+      159,
+      0,
+      237,
+      52
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 12,
+    "inventory_box_index": 111,
+    "filename": "frame_001686_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      576.0,
+      325.0,
+      672.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      558.279,
+      288.32,
+      653.881,
+      376
+    ],
+    "crop_xyxy": [
+      515,
+      245,
+      672,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 13,
+    "inventory_box_index": 113,
+    "filename": "frame_001686_right.png",
+    "box_index": 1,
+    "original_xyxy": [
+      529.0,
+      321.0,
+      642.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      514.989,
+      286.923,
+      613.824,
+      376
+    ],
+    "crop_xyxy": [
+      464,
+      236,
+      672,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 0,
+    "tile": 14,
+    "inventory_box_index": 282,
+    "filename": "frame_002659_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      312.0,
+      298.0,
+      393.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      316.316,
+      303.076,
+      377.344,
+      359.584
+    ],
+    "crop_xyxy": [
+      275,
+      261,
+      429,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 0,
+    "tile": 15,
+    "inventory_box_index": 481,
+    "filename": "frame_003758_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      273.0,
+      352.0,
+      351.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      285.046,
+      307.307,
+      382.634,
+      376
+    ],
+    "crop_xyxy": [
+      237,
+      272,
+      417,
+      376
+    ],
+    "fit_confidence": 0.0825
+  },
+  {
+    "sheet": 0,
+    "tile": 16,
+    "inventory_box_index": 373,
+    "filename": "frame_003152_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      265.483,
+      187.224,
+      309.487,
+      229.463
+    ],
+    "candidate_xyxy": [
+      267.336,
+      185.288,
+      301.474,
+      218.05
+    ],
+    "crop_xyxy": [
+      245,
+      165,
+      329,
+      249
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 0,
+    "tile": 17,
+    "inventory_box_index": 518,
+    "filename": "frame_003928_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      359.518,
+      155.591,
+      388.663,
+      185.36
+    ],
+    "candidate_xyxy": [
+      361.95,
+      157.948,
+      389.01,
+      183.003
+    ],
+    "crop_xyxy": [
+      344,
+      140,
+      404,
+      200
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 18,
+    "inventory_box_index": 694,
+    "filename": "frame_004726_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      357.0,
+      182.0,
+      389.0,
+      218.0
+    ],
+    "candidate_xyxy": [
+      358.283,
+      182.193,
+      384.357,
+      213.607
+    ],
+    "crop_xyxy": [
+      340,
+      165,
+      405,
+      234
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 19,
+    "inventory_box_index": 695,
+    "filename": "frame_004726_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      344.0,
+      182.0,
+      376.0,
+      218.0
+    ],
+    "candidate_xyxy": [
+      344.662,
+      181.794,
+      371.978,
+      211.486
+    ],
+    "crop_xyxy": [
+      327,
+      165,
+      392,
+      234
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 20,
+    "inventory_box_index": 705,
+    "filename": "frame_004762_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      449.202,
+      216.419,
+      486.571,
+      252.358
+    ],
+    "candidate_xyxy": [
+      448.761,
+      218.932,
+      480.909,
+      249.845
+    ],
+    "crop_xyxy": [
+      431,
+      199,
+      503,
+      269
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 21,
+    "inventory_box_index": 0,
+    "filename": "frame_001471_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      0.0,
+      87.0,
+      26.0,
+      125.0
+    ],
+    "candidate_xyxy": [
+      2.011,
+      88.6,
+      44.382,
+      127.833
+    ],
+    "crop_xyxy": [
+      0,
+      69,
+      61,
+      144
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 22,
+    "inventory_box_index": 32,
+    "filename": "frame_001555_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      313.692,
+      40.278,
+      330.89,
+      69.627
+    ],
+    "candidate_xyxy": [
+      312.982,
+      40.562,
+      343.242,
+      73.452
+    ],
+    "crop_xyxy": [
+      297,
+      25,
+      358,
+      88
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 0,
+    "tile": 23,
+    "inventory_box_index": 38,
+    "filename": "frame_001570_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      66.445,
+      30.224,
+      99.65,
+      67.711
+    ],
+    "candidate_xyxy": [
+      64.699,
+      22.47,
+      116.266,
+      70.218
+    ],
+    "crop_xyxy": [
+      47,
+      5,
+      133,
+      87
+    ],
+    "fit_confidence": 0.15
+  }
+]

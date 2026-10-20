@@ -1,0 +1,153 @@
+[
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-000.jpg",
+    "indices": [
+      4186,
+      4187,
+      4204,
+      4205,
+      4216,
+      4341
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-001.jpg",
+    "indices": [
+      4342,
+      4405,
+      4421,
+      4423,
+      4424,
+      4425
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-002.jpg",
+    "indices": [
+      4434,
+      4435,
+      4436,
+      4437,
+      4441,
+      4463
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-003.jpg",
+    "indices": [
+      4499,
+      4503,
+      4508,
+      4509,
+      4536,
+      4537
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-004.jpg",
+    "indices": [
+      4538,
+      4539,
+      4540,
+      4550,
+      4552,
+      4554
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-005.jpg",
+    "indices": [
+      4653,
+      4658,
+      4742,
+      4743,
+      4744,
+      4745
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-006.jpg",
+    "indices": [
+      4774,
+      4775,
+      4780,
+      4781,
+      4846,
+      4847
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-007.jpg",
+    "indices": [
+      4848,
+      4849,
+      4853,
+      4854,
+      4855,
+      4856
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-008.jpg",
+    "indices": [
+      4857,
+      4858,
+      4859,
+      4860,
+      4861,
+      4862
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-009.jpg",
+    "indices": [
+      4863,
+      5310,
+      5315,
+      5323,
+      5654,
+      5658
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-010.jpg",
+    "indices": [
+      5660,
+      5762,
+      5763,
+      5764,
+      5765,
+      5772
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-011.jpg",
+    "indices": [
+      5773,
+      5868,
+      5869,
+      6026,
+      6062,
+      6063
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-012.jpg",
+    "indices": [
+      6074,
+      6075,
+      6148,
+      6149,
+      6226,
+      6227
+    ]
+  },
+  {
+    "path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/middle-proposed/page-013.jpg",
+    "indices": [
+      6228,
+      6229,
+      4845
+    ]
+  }
+]

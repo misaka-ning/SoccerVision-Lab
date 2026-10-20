@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-10-19T15:53:39.875342+08:00",
+  "files": 64153,
+  "directories": 434,
+  "logical_file_bytes": 5497495286,
+  "allocated_file_bytes": 5648416768,
+  "snapshot_document_sha256": "a640cba2f08902094bebbedd1acfd65a697c29b9557d39c23044d7587d1a58d4",
+  "original_snapshot_parsed_entries": 93441,
+  "added_since_snapshot": [
+    "experiments/configs",
+    "experiments/configs/datasets",
+    "experiments/configs/datasets/v1.dataset.yaml",
+    "script/__pycache__",
+    "script/__pycache__/dataset_config.cpython-310.pyc",
+    "script/dataset-reviewer/maintenance/__pycache__",
+    "script/dataset-reviewer/maintenance/__pycache__/audit_io.cpython-310.pyc",
+    "script/dataset-reviewer/maintenance/__pycache__/review_paths.cpython-310.pyc",
+    "script/requirements.txt",
+    "script/tests",
+    "script/tests/test_dataset_config.py"
+  ],
+  "missing_since_snapshot": [],
+  "seconds": 5.36,
+  "scope": "non-Git original files; new report folder excluded; original directories have recursive tree hashes; input files hashed without mutation"
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "page": "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/late-00.png",
+    "records": [
+      {
+        "filename": "video_4bec9c343db72928_frame_00006234_right.png",
+        "group": 1,
+        "local": 1009
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00006583_left.png",
+        "group": 1,
+        "local": 1100
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00007372_right.png",
+        "group": 1,
+        "local": 1185
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00007663_left.png",
+        "group": 1,
+        "local": 1260
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00008221_left.png",
+        "group": 1,
+        "local": 1410
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00008664_right.png",
+        "group": 1,
+        "local": 1529
+      }
+    ]
+  },
+  {
+    "page": "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/late-01.png",
+    "records": [
+      {
+        "filename": "video_4bec9c343db72928_frame_00014299_left.png",
+        "group": 2,
+        "local": 1156
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00014303_right.png",
+        "group": 2,
+        "local": 1159
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00014607_left.png",
+        "group": 2,
+        "local": 1238
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00014819_right.png",
+        "group": 2,
+        "local": 1295
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00015275_right.png",
+        "group": 2,
+        "local": 1413
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00015968_right.png",
+        "group": 2,
+        "local": 1529
+      }
+    ]
+  },
+  {
+    "page": "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/late-02.png",
+    "records": [
+      {
+        "filename": "video_4bec9c343db72928_frame_00022213_right.png",
+        "group": 3,
+        "local": 1200
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00022558_left.png",
+        "group": 3,
+        "local": 1289
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00022837_right.png",
+        "group": 3,
+        "local": 1360
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00003095_left.png",
+        "group": 3,
+        "local": 1420
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00010870_right.png",
+        "group": 3,
+        "local": 1475
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00022867_left.png",
+        "group": 3,
+        "local": 1533
+      }
+    ]
+  }
+]

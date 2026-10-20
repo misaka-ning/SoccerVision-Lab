@@ -1,0 +1,2831 @@
+[
+  {
+    "filename": "video_4bec9c343db72928_frame_00011743_left.png",
+    "index": 750,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视三脚架前地面小足球约18至29像素，旧框覆盖可见球体。球缘完整，低像素软化不作运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-000.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-000.png"
+    ],
+    "expected_image_sha256": "2272b76c18ed66ee25e5aa323b8f049102b486820923578bf88b8d2d68a58c3a",
+    "expected_label_sha256": "71fb2f93346e909ad9ce4231edd16ab35ae8fc55179ea7dc45f9614f7d952511"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011743_right.png",
+    "index": 751,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视三脚架前地面小足球约18至29像素，旧框覆盖可见球体。球缘完整，低像素软化不作运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-000.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-000.png"
+    ],
+    "expected_image_sha256": "7253cfa3977bd519d5795b209dbb76cdd05a74c9e052e95d8064b600f59fa8ec",
+    "expected_label_sha256": "258d3ae77c3652121df04a783c78260b52332fb3bd3318b51b24cbf8f3f9057f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011745_left.png",
+    "index": 752,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视三脚架前地面小足球约18至29像素，旧框覆盖可见球体。球缘完整，低像素软化不作运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-001.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-000.png"
+    ],
+    "expected_image_sha256": "f939bc6b6e4fd4675c3521f70458137e61a4084eca7c80daa056ca748127e8f0",
+    "expected_label_sha256": "3e7611067c0dae89617753fae04e61f4879ccdbb6b13ec4386b86668f0f04f03"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011745_right.png",
+    "index": 753,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视三脚架前地面小足球约18至29像素，旧框覆盖可见球体。球缘完整，低像素软化不作运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-001.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-000.png"
+    ],
+    "expected_image_sha256": "5e72f0682edb8a615a5c20cf3ae6c802993c49f304b64b57fe80aa9de2ab9d4a",
+    "expected_label_sha256": "a55ab79302e818f01a1a2de31ca7ac943ec4e2bb9a2c3c07f7b2318f336dac43"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011753_left.png",
+    "index": 754,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视三脚架前地面小足球约18至29像素，旧框覆盖可见球体。球与场景有明显横向相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-002.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-000.png"
+    ],
+    "expected_image_sha256": "4e5b3c54eaec7108fddb20b3e16876c8c59150f6cd97e36c6aff7d8fc3ed37f0",
+    "expected_label_sha256": "d0108614dc0879af52174e755476bf2c41b69eee785601a0eb30d1ecd01de892"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011753_right.png",
+    "index": 755,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视三脚架前地面小足球约18至29像素，旧框覆盖可见球体。球与场景有明显横向相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-002.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-000.png"
+    ],
+    "expected_image_sha256": "bd5c92fa82e98593b28e51a982c15dc90508b532aff13cb0b7413254a62a4e8b",
+    "expected_label_sha256": "0e6e5271f8941adfd478b3292ae0b90709875db465ab3c3d9a12bd3da55fd5b5"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011766_left.png",
+    "index": 756,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视三脚架前地面小足球约18至29像素，旧框覆盖可见球体。球缘完整，低像素软化不作运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-003.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-000.png"
+    ],
+    "expected_image_sha256": "83370470359f2f62db125a2d93754f6aefd6b2f7e4ec91fc96621953a417a032",
+    "expected_label_sha256": "4766b64944de04939f0bd3a55b21307336ad640fc73316a569e53b6e61b11927"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011766_right.png",
+    "index": 757,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视三脚架前地面小足球约18至29像素，旧框覆盖可见球体。球缘完整，低像素软化不作运动模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-003.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-000.png"
+    ],
+    "expected_image_sha256": "15255d8b162898c081e4cd47334a638c327c941eb148ded5df4196aba1c32862",
+    "expected_label_sha256": "6c7c2fbe4f4ff732906ef2dd2c691c041f418fc84917ed931aaed7881fab9249"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011773_left.png",
+    "index": 758,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整小足球约32至40像素，无遮挡，旧框覆盖球体。球与地面有明确方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-004.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-001.png"
+    ],
+    "expected_image_sha256": "6e91f1a7ea2616f91860e94bf76b0ca7b71654c1350a3e56a669b70320f59d1e",
+    "expected_label_sha256": "5d837d9d6a4c2892c25ea02b6d77c8613fd6a8c59c2479810773be78c862243f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011773_right.png",
+    "index": 759,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整小足球约32至40像素，无遮挡，旧框覆盖球体。球与地面有明确方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-004.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-001.png"
+    ],
+    "expected_image_sha256": "3e8d26275b13cd22039ae2d0d4b8c385613dd0d03b313a85e7101e22c3125f79",
+    "expected_label_sha256": "18ce1ad32c6afd18cfc1b81215bf6423c29f718201308a7f008714a2051061c1"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011776_left.png",
+    "index": 760,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整小足球约32至40像素，无遮挡，旧框覆盖球体。球与地面有明确方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-005.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-001.png"
+    ],
+    "expected_image_sha256": "9a5617653f9f2b8c07ee88159dba0517f292b239fe55cb303a55945bdc6e9ec8",
+    "expected_label_sha256": "6713f6da7c4619ae8bbcbac3cf953bd568ad6c43fb627dbf187693ddb673ac4d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011776_right.png",
+    "index": 761,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整小足球约32至40像素，无遮挡，旧框覆盖球体。球与地面有明确方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-005.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-001.png"
+    ],
+    "expected_image_sha256": "ff2afee4473fb5ba8b0f8ac43a141aae9ab84a722a32341f5eb385cfc19abf87",
+    "expected_label_sha256": "3b445cab8cdfbf8fdfe236f2d156dadbbb196b98076c6211d1555fed46e4f61f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011784_left.png",
+    "index": 762,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整小足球约32至40像素，无遮挡，旧框覆盖球体。球面可辨，机器人脚单独运动不计全图模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-006.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-001.png"
+    ],
+    "expected_image_sha256": "ae3bf7014cca22a353eb88b5e400de4953650299263d5c0f1ab31bbaadd58c34",
+    "expected_label_sha256": "292382bd9d2d59f6d4ef47f5f33f98de2d7b58c204d35d97ea16331c26563cf5"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011784_right.png",
+    "index": 763,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整小足球约32至40像素，无遮挡，旧框覆盖球体。球面可辨，机器人脚单独运动不计全图模糊。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-006.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-001.png"
+    ],
+    "expected_image_sha256": "149fa880b1b0065bc788db7f5f462b0f82c326a8377aa7e432f944649033b0de",
+    "expected_label_sha256": "47b252964a3a58621457b7c433319e7d1cb8e2fff69b209bad2226b0e8d4cdd3"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011796_left.png",
+    "index": 764,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整小足球约32至40像素，无遮挡，旧框覆盖球体。球与地面有明确方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-007.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-001.png"
+    ],
+    "expected_image_sha256": "9a227852c723462ef7fbc6371e0b9ca0c16a079fa788cd10a4c95a26f999629b",
+    "expected_label_sha256": "41ba05f3b9b3a24d349f5d307e1c616ae747c8a82211a12bcac1f5c7e7ebf878"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011796_right.png",
+    "index": 765,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整小足球约32至40像素，无遮挡，旧框覆盖球体。球与地面有明确方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-007.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-001.png"
+    ],
+    "expected_image_sha256": "3639fbfbcdc5e9987b5be05bbb29d34d963c9f94dd739103fa729aa37913b0ba",
+    "expected_label_sha256": "bf37dcd4a3a0aeb577926dcb14731b23b9e2ee2914336d8911bc14e961ea5d92"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011804_left.png",
+    "index": 766,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球，无遮挡，球面与地板有方向性相机拖影；完整球尺度约40像素，Small=1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-008.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-002.png"
+    ],
+    "expected_image_sha256": "3698c52eed5d7f6a59bfe3e5895c70bc2322cffaa72ba3be07d29daaca17cd14",
+    "expected_label_sha256": "5889b4118500e66b30e458af5da1eb8a8e061c79c75f2f6cc4ebb5f65326dac6"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011804_right.png",
+    "index": 767,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球，无遮挡，球面与地板有方向性相机拖影；完整球尺度约40像素，Small=1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-008.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-002.png"
+    ],
+    "expected_image_sha256": "f4df8c1eb40a3fec780af8307c7c8b5f17f5f46e9467113b902d0de63a214ae0",
+    "expected_label_sha256": "e92eeafafe9e7d9bf58ce3887ba4e3951c1b68917b06f5fd2e5b9bd72c31b983"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011810_left.png",
+    "index": 768,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球，无遮挡，球面与地板有方向性相机拖影；完整球尺度约43像素，Small=0。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-009.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-002.png"
+    ],
+    "expected_image_sha256": "69b61e1073d320e17c95d651865800185b68b55aae57238d19fd65d98fbd30b2",
+    "expected_label_sha256": "9edad7f292baf4d2b2d5ac0fb4f203776b291faed8423727828b65639717edb9"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011810_right.png",
+    "index": 769,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球，无遮挡，球面与地板有方向性相机拖影；完整球尺度约43像素，Small=0。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-009.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-002.png"
+    ],
+    "expected_image_sha256": "0c00d5020db6debd8d4a653e86616344d7f23275ebf48bbb1f67de6b687053ab",
+    "expected_label_sha256": "07dba17ff7aeecb2a35d83b167c1e98449e0a1c8236b28878a1c363f17baeac6"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011817_left.png",
+    "index": 770,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整小足球约38像素，球面可辨，无遮挡，人物脚单独运动不作全景模糊；旧框正确。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-010.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-002.png"
+    ],
+    "expected_image_sha256": "205f1f357e18b6a40709b37be7c62b4ee3e556459be1438e95bb4586f86c628d",
+    "expected_label_sha256": "30ee167a19c3445c43d3477be3471afcda65cfe8d8d69c5c84580b2fc89fe8fe"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011817_right.png",
+    "index": 771,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整小足球约38像素，球面可辨，无遮挡，人物脚单独运动不作全景模糊；旧框正确。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-010.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-002.png"
+    ],
+    "expected_image_sha256": "ee7e5a6f6329f423d26a70f4db985d8f92fe24b57b666384a21bb627cf535096",
+    "expected_label_sha256": "9878e1752178f42e9c9440716867afce5ee821a4cb2932d340c06e106c39ac06"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011824_left.png",
+    "index": 772,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "小足球约38像素，伸来的手指轻微覆盖左上球缘，Occluded=1；球体清晰，旧框覆盖可见范围。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-011.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-002.png"
+    ],
+    "expected_image_sha256": "4472177d5ae6df8d5d84a6c5b7c17b8e93ad6dc337f83df572639200680a1eff",
+    "expected_label_sha256": "f006dfe882ba03dc74c6e0334b8e3c91bed1cca5e679f56e1ba6e1e88122b5f5"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011824_right.png",
+    "index": 773,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "小足球约38像素，伸来的手指轻微覆盖左上球缘，Occluded=1；球体清晰，旧框覆盖可见范围。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-011.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-002.png"
+    ],
+    "expected_image_sha256": "0e875f44eed9b2d67f9c2e71c0baf489be0a30094dab5a0a7ef5d3f9b8b8afd8",
+    "expected_label_sha256": "5e475f7e357451394fc1bf24902ae11a286b9237b832ee82ab208c573032fe36"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011829_left.png",
+    "index": 774,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手掌遮住拿起的足球左侧，完整尺度约48像素，Occluded=1；球面有明显方向性运动拖影，保留可见范围旧框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-012.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-003.png"
+    ],
+    "expected_image_sha256": "18d9cf523309c2ced0b8990fb46c8fec997ca02044b5d6f96f6ec17d124e92f1",
+    "expected_label_sha256": "ab09f6a930ce679f76510b3e34424425f70cc3cbb60ef69c15a7ea8b731d1bea"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011829_right.png",
+    "index": 775,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手掌遮住拿起的足球左侧，完整尺度约48像素，Occluded=1；球面有明显方向性运动拖影，保留可见范围旧框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-012.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-003.png"
+    ],
+    "expected_image_sha256": "414d3b582fe35eda2a2286c69eedfcfc99645892fde731b34de74cde6b28b141",
+    "expected_label_sha256": "8b5d0e3ea25d96ab8cc6b5509f11bcfc0cf5476b0cedae7191562e52ab6ac318"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011840_left.png",
+    "index": 776,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "大足球由手拿着且左侧出画，Occluded=1；球面有横向运动拖影，保留现有球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-013.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-003.png"
+    ],
+    "expected_image_sha256": "19ab011fee379ab5ca3b588c2d84a49e221aeea71964733e38bf305f9cf626e3",
+    "expected_label_sha256": "07c6a4293ac5a9fcc601a8bef8ef8e71fd994d7c2c1181af82c789ccb87eb111"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011840_right.png",
+    "index": 777,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "大足球由手拿着且左侧出画，Occluded=1；球面有横向运动拖影，保留现有球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-013.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-003.png"
+    ],
+    "expected_image_sha256": "3f24c62048c0888483fca3fe56a342c09d893cae0e57c6d905b274207582094d",
+    "expected_label_sha256": "0dd03b08690a15eeb1d4f3c66c001b59adb52101e10c1c6b8d7190ccc180230f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011845_left.png",
+    "index": 778,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、门与玩偶场景有明显相机方向性拖影，逐区未见足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-014.png"
+    ],
+    "expected_image_sha256": "8adc2c6c800135247b4c5f7af506f08c1d90177b80fcd2fa21159072f725dd21",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011845_right.png",
+    "index": 779,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "电视、门与玩偶场景有明显相机方向性拖影，逐区未见足球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-014.png"
+    ],
+    "expected_image_sha256": "5f22d58412f83335e774d64770862f31ced58488c1509e6ad323ed56d8da0324",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011856_left.png",
+    "index": 780,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "needs_visibility_review",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "手掌下方画面下沿存在白色残片，可能为大足球出画部分，但皮肤与球面边界受拖影影响，保留旧框作参考；有框按用户口径No Ball=0，需人工确认球片身份及边界。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-015.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-003.png"
+    ],
+    "expected_image_sha256": "8a6c9d6c4b79ecb404d0050064a661dab4840cb38de73cc1fe546479a5bf22cc",
+    "expected_label_sha256": "d7118119b8ce19250b7b951bd6df51a7b90391592781477ccf132c9d44253e8c"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011856_right.png",
+    "index": 781,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "needs_visibility_review",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "手掌下方画面下沿存在白色残片，可能为大足球出画部分，但皮肤与球面边界受拖影影响，保留旧框作参考；有框按用户口径No Ball=0，需人工确认球片身份及边界。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-015.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-003.png"
+    ],
+    "expected_image_sha256": "8ac3752c15163d5fce9251a46de383a6382d6f71c8a4bc60e5280deebed28e93",
+    "expected_label_sha256": "e3b41b16358c9ed607eea6ed825fe02f72445ce3bc44e6066f30a417bf83ed2d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011862_left.png",
+    "index": 782,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "needs_visibility_review",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "人物手掌伸到画面下缘，足球是否仍露出无法在本图可靠确认；保持空label，按用户label口径No Ball=1，待人工检查下沿可见性。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-016.png"
+    ],
+    "expected_image_sha256": "ddcf89421331f091160199eb6c1a941069596fffc8f9d2988c1a31eb14a81965",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011862_right.png",
+    "index": 783,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "needs_visibility_review",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "人物手掌伸到画面下缘，足球是否仍露出无法在本图可靠确认；保持空label，按用户label口径No Ball=1，待人工检查下沿可见性。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-016.png"
+    ],
+    "expected_image_sha256": "7e843d07f679440ebb62b5bb841b582d6628d25068cf4ca83129ec075e9521e0",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011872_left.png",
+    "index": 784,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、玩偶和设备场景未见足球，圆形玩偶头及遥控器不作球。全景有明显斜向相机运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-017.png"
+    ],
+    "expected_image_sha256": "db48304d413231d6b159e03628aee03d62818a8a19a5bbfcca2e10b7b2df8b65",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011872_right.png",
+    "index": 785,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、玩偶和设备场景未见足球，圆形玩偶头及遥控器不作球。全景有明显斜向相机运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-017.png"
+    ],
+    "expected_image_sha256": "f3ebf0eac649d0e96aed565099f92bcea2922c51364e5e4cffa43fd256936950",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011878_left.png",
+    "index": 786,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、玩偶和设备场景未见足球，圆形玩偶头及遥控器不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-018.png"
+    ],
+    "expected_image_sha256": "4b9980e2f80c11a504fe3e1f54751be418abb3426f500a4bd7c608707e086802",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011878_right.png",
+    "index": 787,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、玩偶和设备场景未见足球，圆形玩偶头及遥控器不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-018.png"
+    ],
+    "expected_image_sha256": "3865b21cf827cc3096d7cb61e6b36b580c86c83e71a47086fd8e094ca95a6443",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011887_left.png",
+    "index": 788,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、玩偶和设备场景未见足球，圆形玩偶头及遥控器不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-019.png"
+    ],
+    "expected_image_sha256": "53d384862e76af199c5e51f3a6558038b34d929e4715e4d789e010f5185cfe68",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011887_right.png",
+    "index": 789,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、玩偶和设备场景未见足球，圆形玩偶头及遥控器不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-019.png"
+    ],
+    "expected_image_sha256": "5ee5f8f9d8e960a9a46eaf9554b3315bc5b5f624682e777c82308774bd62aad0",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011888_left.png",
+    "index": 790,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、机器人、宇航员玩偶和白色玩偶场景，未见足球，玩偶圆头排除。场景有明显方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-020.png"
+    ],
+    "expected_image_sha256": "a9d3b44e6c69b08f636bdd34639f66e9ca562dfd8b020e743e15fe5cb8e973c1",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011888_right.png",
+    "index": 791,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、机器人、宇航员玩偶和白色玩偶场景，未见足球，玩偶圆头排除。场景有明显方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-020.png"
+    ],
+    "expected_image_sha256": "e2c356f72809e59524abf4da6c59fdcc3bb33d4ec5139b3640fb316691af2581",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011902_left.png",
+    "index": 792,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、机器人、宇航员玩偶和白色玩偶场景，未见足球，玩偶圆头排除。场景有明显方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-021.png"
+    ],
+    "expected_image_sha256": "bf556a331c6fcdff0fc5689877451074d7915fa9f093ff524d80fe30886fcd44",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011902_right.png",
+    "index": 793,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、机器人、宇航员玩偶和白色玩偶场景，未见足球，玩偶圆头排除。场景有明显方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-021.png"
+    ],
+    "expected_image_sha256": "8305f0a66ba998d640e1d1b444bc436f3e7ac3cfee2e68ce5464d7fb5aba8140",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011909_left.png",
+    "index": 794,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、机器人、宇航员玩偶和白色玩偶场景，未见足球，玩偶圆头排除。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-022.png"
+    ],
+    "expected_image_sha256": "66a13941f603cc9ae4f618f1875afeaf93c8002e9e00379f4d168ad3c7d8a9da",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011909_right.png",
+    "index": 795,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、机器人、宇航员玩偶和白色玩偶场景，未见足球，玩偶圆头排除。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-022.png"
+    ],
+    "expected_image_sha256": "ccf30fedf4fdb044c29f8a3aa6b12f96a7d43945801306e23ad23edfab9a4645",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011910_left.png",
+    "index": 796,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、机器人、宇航员玩偶和白色玩偶场景，未见足球，玩偶圆头排除。场景有明显方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-023.png"
+    ],
+    "expected_image_sha256": "a16df04bb1eb67f8c09632fb761e8b5124c3ced12bec8c753828a2e0bab162d7",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011910_right.png",
+    "index": 797,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、机器人、宇航员玩偶和白色玩偶场景，未见足球，玩偶圆头排除。场景有明显方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-023.png"
+    ],
+    "expected_image_sha256": "4c60a5e2c7a24e4f0642eb9f0782d50ffa665821a9bda8a8bd0f9564dd615ae1",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011919_left.png",
+    "index": 798,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、宇航员玩偶、白色玩偶和机器人展台均无足球；地面与脚边已查，圆头玩偶不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-024.png"
+    ],
+    "expected_image_sha256": "dccd6d58070f7e211c3716d2e12e17cda6a2fc6b8487a30f217fa1b9213dbf1e",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011919_right.png",
+    "index": 799,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、宇航员玩偶、白色玩偶和机器人展台均无足球；地面与脚边已查，圆头玩偶不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-024.png"
+    ],
+    "expected_image_sha256": "db01338e8ca26cb7825e5fcafe4770d2c3dad129ae08342e6bfe25f5f4695973",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011925_left.png",
+    "index": 800,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、宇航员玩偶、白色玩偶和机器人展台均无足球；地面与脚边已查，圆头玩偶不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-025.png"
+    ],
+    "expected_image_sha256": "dee368b326b7773ab792705254b6bdd61df85b55cd09c93cb5518cf2c548543c",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011925_right.png",
+    "index": 801,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、宇航员玩偶、白色玩偶和机器人展台均无足球；地面与脚边已查，圆头玩偶不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-025.png"
+    ],
+    "expected_image_sha256": "383635b3628133995d188505f91df8c394658008113e644b1493c2a0630aa14f",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011935_left.png",
+    "index": 802,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、宇航员玩偶、白色玩偶和机器人展台均无足球；地面与脚边已查，圆头玩偶不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-026.png"
+    ],
+    "expected_image_sha256": "5489c81115705d04c34a3bc1faca2028a789278cb538c1d5c80fc7cf683f731b",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011935_right.png",
+    "index": 803,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、宇航员玩偶、白色玩偶和机器人展台均无足球；地面与脚边已查，圆头玩偶不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-026.png"
+    ],
+    "expected_image_sha256": "1e887c34db70f49a7c8be2ecef222289b4081eb3ab6cc35b0e01d60aaee24792",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011943_left.png",
+    "index": 804,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、宇航员玩偶、白色玩偶和机器人展台均无足球；地面与脚边已查，圆头玩偶不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-027.png"
+    ],
+    "expected_image_sha256": "2f2529106f432316531559ba03d3327eeb08317cccb20797268a83de0c1e4265",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011943_right.png",
+    "index": 805,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、宇航员玩偶、白色玩偶和机器人展台均无足球；地面与脚边已查，圆头玩偶不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-027.png"
+    ],
+    "expected_image_sha256": "b7b49ad2ebeaa0cbbbe68249ff6a69e0774c36545345f5b108269b39f9e1b4f4",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011949_left.png",
+    "index": 806,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、架子、玩偶与脚边地面未见足球；圆头为玩偶。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-028.png"
+    ],
+    "expected_image_sha256": "15d39635ee6538543a410025ee4d536e5e7c9a729b13108511157a7f954a740a",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011949_right.png",
+    "index": 807,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、架子、玩偶与脚边地面未见足球；圆头为玩偶。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-028.png"
+    ],
+    "expected_image_sha256": "7a5b5b0532c55c714146992eead12a4f1f22e34ba74b6c133f4855e2e2f3a10c",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011960_left.png",
+    "index": 808,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、架子、玩偶与脚边地面未见足球；圆头为玩偶。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-029.png"
+    ],
+    "expected_image_sha256": "036964cc1dbbdefaf4dde2ff41b66fa063a6bc1121198e545bc3014de98d4738",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011960_right.png",
+    "index": 809,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、架子、玩偶与脚边地面未见足球；圆头为玩偶。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-029.png"
+    ],
+    "expected_image_sha256": "4bcab5e68e2b5bcce6b19993d9de26f9200b515d1c6c523be132075a83db7f45",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011964_left.png",
+    "index": 810,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、架子、玩偶与脚边地面未见足球；圆头为玩偶。全景垂直方向性相机拖影明显。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-030.png"
+    ],
+    "expected_image_sha256": "07acfda4a21dd4292323b2c50a281943cde51368abfc87c50a546db7f2c543a8",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011964_right.png",
+    "index": 811,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、架子、玩偶与脚边地面未见足球；圆头为玩偶。全景垂直方向性相机拖影明显。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-030.png"
+    ],
+    "expected_image_sha256": "c6b0f6b5ed04a6f70c58a0bf0dd00223f6fc84e5b49fd1285cb39d12989b3926",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011971_left.png",
+    "index": 812,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、架子、玩偶与脚边地面未见足球；圆头为玩偶。全景垂直方向性相机拖影明显。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-031.png"
+    ],
+    "expected_image_sha256": "2cb4c7ce22b709bc1bac327e540dec96e5ef1b716343dc2a986b15d25ecec789",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011971_right.png",
+    "index": 813,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物、架子、玩偶与脚边地面未见足球；圆头为玩偶。全景垂直方向性相机拖影明显。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-031.png"
+    ],
+    "expected_image_sha256": "f9f3b36cfdfb6dca1b1212c9a5390c585ddde79bd07a05634b8391a792a36482",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011983_left.png",
+    "index": 814,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "白色玩偶、宇航员玩偶、架子与灭火器近景，未见足球；玩偶圆头不作球。物体边界有垂直方向相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-032.png"
+    ],
+    "expected_image_sha256": "ca965c6e214db4a5275ed8f8d9c3cfafb83728dd6becf631b1001c6e46426306",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011983_right.png",
+    "index": 815,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "白色玩偶、宇航员玩偶、架子与灭火器近景，未见足球；玩偶圆头不作球。物体边界有垂直方向相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-032.png"
+    ],
+    "expected_image_sha256": "1510bff46bb0ae78a097bdeae4c2cc29328bf71115f76904f794f98271dc735f",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011992_left.png",
+    "index": 816,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "白色玩偶、宇航员玩偶、架子与灭火器近景，未见足球；玩偶圆头不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-033.png"
+    ],
+    "expected_image_sha256": "62996f3660bbe76cdeb341f6c4df0045195178392cf26cb32e56cf8d827552b4",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011992_right.png",
+    "index": 817,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "白色玩偶、宇航员玩偶、架子与灭火器近景，未见足球；玩偶圆头不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-033.png"
+    ],
+    "expected_image_sha256": "34370c38d0de8d1e45b693a5e96832005e9f91082f29012a41cfba8585c2075b",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011993_left.png",
+    "index": 818,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "白色玩偶、宇航员玩偶、架子与灭火器近景，未见足球；玩偶圆头不作球。物体边界有垂直方向相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-034.png"
+    ],
+    "expected_image_sha256": "69fd1bfb541b2f2addb750b69e884dc8c997581f4aa4a48931bc5ed9290db44c",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011993_right.png",
+    "index": 819,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "白色玩偶、宇航员玩偶、架子与灭火器近景，未见足球；玩偶圆头不作球。物体边界有垂直方向相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-034.png"
+    ],
+    "expected_image_sha256": "2691a6728e7ccd293a80c9722a994a0ad51a8ef6b9df21ac21f900a8b9e9bccd",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012007_left.png",
+    "index": 820,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "白色玩偶、宇航员玩偶、架子与灭火器近景，未见足球；玩偶圆头不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-035.png"
+    ],
+    "expected_image_sha256": "5a0aca681ad2e19db19fcc86905b06f9eac1c45c6e3a5e8ba37186f15e594e02",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012007_right.png",
+    "index": 821,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "白色玩偶、宇航员玩偶、架子与灭火器近景，未见足球；玩偶圆头不作球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-035.png"
+    ],
+    "expected_image_sha256": "b546cc827965e85c53e131ad9d39e00e7a2a3db97f00276de174538d9b37cf8f",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012010_left.png",
+    "index": 822,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "白色玩偶与架子近景，圆头为玩偶并非足球；未见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-036.png"
+    ],
+    "expected_image_sha256": "ca3b34a6cfbde75bd74ac585b030e7dd4d92ab007788e6475a4b16929c779399",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012010_right.png",
+    "index": 823,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "白色玩偶与架子近景，圆头为玩偶并非足球；未见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-036.png"
+    ],
+    "expected_image_sha256": "de3c1d4ebf8a266d76b370a6ecdfcde451a23f9f7bc6717655319f3d89560620",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012022_left.png",
+    "index": 824,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景人物手臂遮住大部分画面，剩余架子、玩偶与灭火器区域未见足球，保持空label，No Ball=1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-037.png"
+    ],
+    "expected_image_sha256": "bc0e5e41386fa8cdc52eb8b41e7d92cfc38399af2f5c1a3798db5ba7b17a78fc",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012022_right.png",
+    "index": 825,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景人物手臂遮住大部分画面，剩余架子、玩偶与灭火器区域未见足球，保持空label，No Ball=1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-037.png"
+    ],
+    "expected_image_sha256": "3570fe373a6ee2889033682f5fd540e615825a940fbef55fdcfccc539d11f2f8",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012025_left.png",
+    "index": 826,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景人物手臂遮住大部分画面，剩余架子、玩偶与灭火器区域未见足球，保持空label，No Ball=1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-038.png"
+    ],
+    "expected_image_sha256": "b77d2f12e7a2b6fe104d2f5751f2a10cbdf445536bb531eb9df60dcd2944f08e",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012025_right.png",
+    "index": 827,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景人物手臂遮住大部分画面，剩余架子、玩偶与灭火器区域未见足球，保持空label，No Ball=1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-038.png"
+    ],
+    "expected_image_sha256": "04fe9d11deadef9b1c05123208e2ce8f63fc6d6c12364f6d6529c04a3a631f3d",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012036_left.png",
+    "index": 828,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景人物手臂遮住大部分画面，剩余架子、玩偶与灭火器区域未见足球，保持空label，No Ball=1。画面有方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-039.png"
+    ],
+    "expected_image_sha256": "3619be9e4d5f6d23f45495ece88bf6ea79d68a808c0bf9e211bff0852fcbc91f",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012036_right.png",
+    "index": 829,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景人物手臂遮住大部分画面，剩余架子、玩偶与灭火器区域未见足球，保持空label，No Ball=1。画面有方向性相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-039.png"
+    ],
+    "expected_image_sha256": "9c706f1fcddf4f59466b83f416d6b96123fd86670bffae78f533a69a9c60b931",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012039_left.png",
+    "index": 830,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景手臂与电视支架、地板场景未见可识别足球；白色弧面为玩偶或墙面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-040.png"
+    ],
+    "expected_image_sha256": "cdf619e065d58342e4a96eafaf2c5ec7ab4797ac3c4b31d76ec344a733fe5c4c",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012039_right.png",
+    "index": 831,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景手臂与电视支架、地板场景未见可识别足球；白色弧面为玩偶或墙面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-040.png"
+    ],
+    "expected_image_sha256": "396ad4e9f84ef739d673a90b5f012bc0c021e6ba72c43d63dd96f6eeadc2601a",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012051_left.png",
+    "index": 832,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景手臂与电视支架、地板场景未见可识别足球；白色弧面为玩偶或墙面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-041.png"
+    ],
+    "expected_image_sha256": "f9a488f1e15049af70ce4343287dff52c21fd1ba65e5315707082530f076cb2b",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012051_right.png",
+    "index": 833,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景手臂与电视支架、地板场景未见可识别足球；白色弧面为玩偶或墙面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-041.png"
+    ],
+    "expected_image_sha256": "d993de5eab9625fdab3222cbdb906bd5843efd0fb0384404debde3cdb028e673",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012059_left.png",
+    "index": 834,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景手臂与电视支架、地板场景未见可识别足球；白色弧面为玩偶或墙面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-042.png"
+    ],
+    "expected_image_sha256": "61735140b6bb1658c53292f385ee9434afcde9b4a8445b0aacb670e06122e9e6",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012059_right.png",
+    "index": 835,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "前景手臂与电视支架、地板场景未见可识别足球；白色弧面为玩偶或墙面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-042.png"
+    ],
+    "expected_image_sha256": "233279f285c279ce5784506e79cbe4b9f38a4413fdd2574914febcdc6de61972",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012067_left.png",
+    "index": 836,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物与机器人、电视支架和空旷地板未见足球；电视底座后的白色物为多孔插座/设备，非球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-043.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/detail-86-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/detail-86-raw.png"
+    ],
+    "expected_image_sha256": "4031cacdefb78b64b4f04b3633832bf092d072d4702cfe2ba3a2fd7c923b3fd4",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012067_right.png",
+    "index": 837,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物与机器人、电视支架和空旷地板未见足球；电视底座后的白色物为多孔插座/设备，非球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-043.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/detail-87-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/detail-87-raw.png"
+    ],
+    "expected_image_sha256": "427fbb7b8b6c32f53a95edd4f3d98c330975cda5ac6efd154702f368bc7371d9",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012068_left.png",
+    "index": 838,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物与机器人、电视支架和空旷地板未见足球；电视底座后的白色物为多孔插座/设备，非球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-044.png"
+    ],
+    "expected_image_sha256": "5b0de8688d1756a16f17626f36394824197cc7279f772f075febbbec9f4d5491",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012068_right.png",
+    "index": 839,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物与机器人、电视支架和空旷地板未见足球；电视底座后的白色物为多孔插座/设备，非球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-044.png"
+    ],
+    "expected_image_sha256": "8119d2d929f32661260d4f6dcb67f06161f27920ad7ce47b9525c76236cafec6",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012075_left.png",
+    "index": 840,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物与机器人、电视支架和空旷地板未见足球；电视底座后的白色物为多孔插座/设备，非球。全景有明显横向相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-045.png"
+    ],
+    "expected_image_sha256": "f7143b33a5a9a43097cdf7f583847f442516bf1365bef7be47de057873157766",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012075_right.png",
+    "index": 841,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物与机器人、电视支架和空旷地板未见足球；电视底座后的白色物为多孔插座/设备，非球。全景有明显横向相机拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-045.png"
+    ],
+    "expected_image_sha256": "0f5a1e0952f2ee59950eccb4ea86e761ae9c97cdf61c49eba895666ae6daffa3",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012083_left.png",
+    "index": 842,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物与机器人、电视支架和空旷地板未见足球；电视底座后的白色物为多孔插座/设备，非球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-046.png"
+    ],
+    "expected_image_sha256": "2f4c9c609eb67a93741be0817c1f211c5175bfc259ea21f15f8e096f69c01831",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012083_right.png",
+    "index": 843,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "人物与机器人、电视支架和空旷地板未见足球；电视底座后的白色物为多孔插座/设备，非球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-046.png"
+    ],
+    "expected_image_sha256": "4e05c9b31ad7f7d305007d0bad20c61775de7adbf3f1abe2826b2303e26c24fb",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012096_left.png",
+    "index": 844,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近处大足球被画面上边缘截断且由手持握，Occluded=1、Small=0；球纹可辨，旧框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-047.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-003.png"
+    ],
+    "expected_image_sha256": "063e9287550635434267846d15352c93afa3185783f1d09d2c42ad5ce3480c69",
+    "expected_label_sha256": "64dbed3bbc9162055dc1b8ab920da4164fd64190e6096ccc10a80dd61a5bc26f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012096_right.png",
+    "index": 845,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近处大足球被画面上边缘截断且由手持握，Occluded=1、Small=0；球纹可辨，旧框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-047.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-003.png"
+    ],
+    "expected_image_sha256": "d051d5108b9dba810c1eaafcc29bfd3c370abc6b6fca12c58afe20ee1ddc49ba",
+    "expected_label_sha256": "1c6b11d407e919b146c776ad2ac004c7e0d607822f58702b5e312d6ed13cc947"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012104_left.png",
+    "index": 846,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手持近处大足球，手指遮住球上缘且球下部被画面下沿截断，Occluded=1；保留现有球框，暗部软化不作拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-048.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-004.png"
+    ],
+    "expected_image_sha256": "84cad289b69903b2ece37734004d308f15fd2d68f74042c64ef6f45bd100bd8c",
+    "expected_label_sha256": "b56c13d3719f228adab6bd4477f3fb9f2aed183fa45d758f05b44ed1380a722e"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012104_right.png",
+    "index": 847,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手持近处大足球，手指遮住球上缘且球下部被画面下沿截断，Occluded=1；保留现有球框，暗部软化不作拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-048.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-004.png"
+    ],
+    "expected_image_sha256": "cd1464bee57da531bb6065e322bdcfed732f2d4967ae8a04dc91cbd48550ca21",
+    "expected_label_sha256": "2501978298f759ea50d54fa9b4f02c0526310e086f02d4391f7d4e58a8e3c6a5"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012109_left.png",
+    "index": 848,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手持近处大足球，手指遮住球上缘且球下部被画面下沿截断，Occluded=1；保留现有球框，暗部软化不作拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-049.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-004.png"
+    ],
+    "expected_image_sha256": "824b33065bf1b47fa05bc3e01a962bede4fdb5cdbff1193786d836bdca967d8e",
+    "expected_label_sha256": "01e01f3fb9a31810723e6ad7584b6bc0cb94f28f5a12300a9408d5731a088043"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012109_right.png",
+    "index": 849,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手持近处大足球，手指遮住球上缘且球下部被画面下沿截断，Occluded=1；保留现有球框，暗部软化不作拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-049.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-004.png"
+    ],
+    "expected_image_sha256": "4ea6755a249022127d3e4e2f89891e611142c1352c6457150d45738c25235904",
+    "expected_label_sha256": "b5af7204b8faf6e605412c4868e015db8387dafe64bc08bfbe4b4091ccde85ff"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012114_left.png",
+    "index": 850,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "needs_manual_bbox_annotation",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "画面右下沿在手下疑露出足球亮色弧片，球大部出画并被手遮住，暗部边界与手掌难以可靠分开；保留空label待人工补框，按用户口径No Ball=1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-050.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/detail-100-grid.png"
+    ],
+    "expected_image_sha256": "6343bab76db9f4914768fb78fdf0c810f0600be3fdffc8af74ef1ca4a1bfdc06",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012114_right.png",
+    "index": 851,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "needs_manual_bbox_annotation",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "画面右下沿在手下疑露出足球亮色弧片，球大部出画并被手遮住，暗部边界与手掌难以可靠分开；保留空label待人工补框，按用户口径No Ball=1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-050.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/detail-101-grid.png"
+    ],
+    "expected_image_sha256": "aa1edf531eac4c77fc17afe795667598a3e857697c4ac51879a7dc3b5a632f77",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012122_left.png",
+    "index": 852,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "机器人、人物和地板完整扫视未见足球；右边缘没有可见球体，保持空label，No Ball=1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-051.png"
+    ],
+    "expected_image_sha256": "ec6ad3f37f3b2e288df67e11b5e9cbf055d0264924338c68ead031fc1a3a439d",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012122_right.png",
+    "index": 853,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球从画面右边缘只露左侧一小段，属于大球出画，Occluded=1、Small=0；保留旧框覆盖可见球片。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-051.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-004.png"
+    ],
+    "expected_image_sha256": "e5320282e5931961c26db87dc0b41e007201bafcfaf3413c144d29ed8029168f",
+    "expected_label_sha256": "21f8ef0d21a66beca89b48a378cfdfb5e4ab880d0390cb4dbac5b97a7834d3ef"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012131_left.png",
+    "index": 854,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手持足球，手指遮住上部球缘，Occluded=1；旧框覆盖可见球体。球纹可辨，无明确方向性拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-052.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-004.png"
+    ],
+    "expected_image_sha256": "76554245453827a90494766ad435a0dc4f7bb5caf8536aca0cb481ef0f6f5357",
+    "expected_label_sha256": "9e72ab651337f33a350308d1f793a50ee94921a97ec3dd4f13ba6b9f6595bf7f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012131_right.png",
+    "index": 855,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手持足球，手指遮住上部球缘，Occluded=1；旧框覆盖可见球体。球纹可辨，无明确方向性拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-052.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-004.png"
+    ],
+    "expected_image_sha256": "a0e11d95713752e02750472a17ea94736b7e4270614391c24cbd337081b744ee",
+    "expected_label_sha256": "3485ab65b2e8d3d5fbcb5030537f31958686fe4b13bc4b275f45f4910d09d4eb"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012139_left.png",
+    "index": 856,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手持足球，手指遮住上部球缘，Occluded=1；旧框覆盖可见球体。球面亮点和边缘有方向性运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-053.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-004.png"
+    ],
+    "expected_image_sha256": "7fae5989789bb889d9d863b989efa978fadd173d6b212889ca0681df3aa765ab",
+    "expected_label_sha256": "9ae0ece3ba50540123ef94db053ea0ab4403e2e4d5d3d8c81f338696659b9212"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012139_right.png",
+    "index": 857,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手持足球，手指遮住上部球缘，Occluded=1；旧框覆盖可见球体。球面亮点和边缘有方向性运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-053.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-005.png"
+    ],
+    "expected_image_sha256": "183e86b090250e14bb1158bc9e1a2a2aff7c68a4c6b66f79d58cec0ec306268d",
+    "expected_label_sha256": "60e1b9d7e27a0a87763e652c875979ef22c6414192cd6a5acebebdec63fb8491"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012143_left.png",
+    "index": 858,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手指在足球上方与右缘覆盖部分球面，Occluded=1；旧框定位在可见球体。球纹可辨，无明确拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-054.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-005.png"
+    ],
+    "expected_image_sha256": "9f52b4b9d258b49158c25dd6e10a22d16d49ef7e991743a4a86bb850c2a53b73",
+    "expected_label_sha256": "0e082f468d2d80567b8721b01f0b50fdc1eb99a60a243c002578fe5476e933ea"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012143_right.png",
+    "index": 859,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手指在足球上方与右缘覆盖部分球面，Occluded=1；旧框定位在可见球体。球纹可辨，无明确拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-054.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-005.png"
+    ],
+    "expected_image_sha256": "76f295735ebf249ecfdf8de1b3aa6028adc24693b808b1f2b0d875cd412abefe",
+    "expected_label_sha256": "b41111a3050204c9a83e126486ca4bca8193e8bce3b583996a04c3a32ca3fe70"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012152_left.png",
+    "index": 860,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手指在足球上方与右缘覆盖部分球面，Occluded=1；旧框定位在可见球体。球纹可辨，无明确拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-055.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-005.png"
+    ],
+    "expected_image_sha256": "c0fe31963573f075e1b865dcab5f7b1a57b6581981a31278894cc9ad5ecfc369",
+    "expected_label_sha256": "d4b759887f1f10b0e04dcee805dcbba91a402b1e437151d0712db85357794456"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012152_right.png",
+    "index": 861,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手指在足球上方与右缘覆盖部分球面，Occluded=1；旧框定位在可见球体。球纹可辨，无明确拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-055.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-005.png"
+    ],
+    "expected_image_sha256": "016d0ded902eb86c42a0616197d321066a45f840b2a7f30b3ea354ff4bcb409e",
+    "expected_label_sha256": "60b0cf54732145dd90f634a86cfaef5da4aa8ee3158769d8b9b487a0ede398a9"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012160_left.png",
+    "index": 862,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手指在足球上方与右缘覆盖部分球面，Occluded=1；旧框定位在可见球体。球被放下时有垂直方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-056.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-005.png"
+    ],
+    "expected_image_sha256": "c1ebf62885414699797a2f75d97c0422607f4a10139c60e4478bfa010bedb0c2",
+    "expected_label_sha256": "4a7d00502de38ac3f4eab97ef7f46efa0bbf1bad9e89e1e5560e4c555704a9a9"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012160_right.png",
+    "index": 863,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手指在足球上方与右缘覆盖部分球面，Occluded=1；旧框定位在可见球体。球被放下时有垂直方向运动拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-056.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-005.png"
+    ],
+    "expected_image_sha256": "5e32f4be17cc3e44591ca82db6f97b8ec1f131def1d257244d429a63d9a69ba2",
+    "expected_label_sha256": "a2d730a2156a9c37e151e729c4e8b68151eb79975c0ea8bdc43cee24063434b2"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012167_left.png",
+    "index": 864,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球与手掌已分离，完整球体约64像素无遮挡，星纹可辨，保留球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-057.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-005.png"
+    ],
+    "expected_image_sha256": "e18ecd41e4d509c52fc00b348134a3a11812ea7bdda19e673f195c3e68a79e83",
+    "expected_label_sha256": "3abf20923d5b3f05bc02a4467d140480b8d213fb636739d2080c6f116909b314"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012167_right.png",
+    "index": 865,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球与手掌已分离，完整球体约64像素无遮挡，星纹可辨，保留球框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-057.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-006.png"
+    ],
+    "expected_image_sha256": "97f2cf9eee89ec3445f898a21970b34baf29d4d0ff5ab5776672520c5c913c74",
+    "expected_label_sha256": "07e9385eb739d9cd1fc94036317ab00b922dab4f613059b519e25d2f39873627"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012176_left.png",
+    "index": 866,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球约60至70像素，无前景遮挡，旧框覆盖球体。运动球面白块出现明显竖向拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-058.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-006.png"
+    ],
+    "expected_image_sha256": "1813c2e1f372b0b3c38c1fc038f809dc2bdd669889c3e96f01307349fbce2139",
+    "expected_label_sha256": "b80f52bdf700f306ed9bec0487387092fe78f6179767650e7354e9a6f0cf6a8f"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012176_right.png",
+    "index": 867,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球约60至70像素，无前景遮挡，旧框覆盖球体。运动球面白块出现明显竖向拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-058.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-006.png"
+    ],
+    "expected_image_sha256": "4d6c235e2ced91c387f36ebcd1d61d2fdd56e92d8f27d5477ab075244540f6dc",
+    "expected_label_sha256": "bc5f4e75b27395d42eb39fbf289e5ab9905eda89e467612d3c319b7fe3888d46"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012187_left.png",
+    "index": 868,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球约60至70像素，无前景遮挡，旧框覆盖球体。球面星纹可辨，无明确方向性拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-059.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-006.png"
+    ],
+    "expected_image_sha256": "6b74c5e187987d22801d0dc703e11598d48286f6bfbe34e76b962e9766689a91",
+    "expected_label_sha256": "beabdf48b1a5770bb65e8641496a7ce615726b75b30d1437e2577b630c8496af"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012187_right.png",
+    "index": 869,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球约60至70像素，无前景遮挡，旧框覆盖球体。球面星纹可辨，无明确方向性拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-059.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-006.png"
+    ],
+    "expected_image_sha256": "c0cfe032d0cd17d45eee7ddc83742c8ca43682fcd09cae81d04223d33191270c",
+    "expected_label_sha256": "d5501fb55eafd5fcf63d6c2a2d958df6ed8f873b746be7c5a28e35de7a3900f6"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012191_left.png",
+    "index": 870,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球约60至70像素，无前景遮挡，旧框覆盖球体。球面星纹可辨，无明确方向性拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-060.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-006.png"
+    ],
+    "expected_image_sha256": "cdbbfe158fcc7eda3b66293494c2345b58eb938ebe77d1e2477d77ea19fc340b",
+    "expected_label_sha256": "8c949459767a51f4054c9f8a0c9348d26975676519f77ede34111f6b614744b6"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012191_right.png",
+    "index": 871,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球约60至70像素，无前景遮挡，旧框覆盖球体。球面星纹可辨，无明确方向性拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-060.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-006.png"
+    ],
+    "expected_image_sha256": "c06447af4c1d923a4ce9e6af99eeceb6b4fb5f680723e5680dbd34238b9c6941",
+    "expected_label_sha256": "d69e67524e71ebe242247d250b14d722aa642bac1249a7fa80cf1235128d67f7"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012198_left.png",
+    "index": 872,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球约60至70像素，无前景遮挡，旧框覆盖球体。球面星纹可辨，无明确方向性拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-061.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-006.png"
+    ],
+    "expected_image_sha256": "13a961e5bb652d9255f2933cd2f8887a059f595cffe866905aeae69d1664b59c",
+    "expected_label_sha256": "fedc90a59940a5397bdfa9fbaae1860e2eca2a36be2f0e267352b3143252082d"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012198_right.png",
+    "index": 873,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球约60至70像素，无前景遮挡，旧框覆盖球体。球面星纹可辨，无明确方向性拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-061.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-007.png"
+    ],
+    "expected_image_sha256": "8e48d7378abcdd362aa6df2e276637cc244a50ae84826dac7cc4850edde7790c",
+    "expected_label_sha256": "be069d94d2d6b32ff620e42345e31d77d58b939492c3c61ad74e1572e16f9694"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012207_left.png",
+    "index": 874,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球约65像素，星纹可辨，无遮挡且无明确方向性拖影；旧框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-062.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-007.png"
+    ],
+    "expected_image_sha256": "61a03d03b2a25cfa5bb7e7f6e30ec4ada1029bf5deffe02bd8e2444495f6fbe4",
+    "expected_label_sha256": "6685e13eb08cf535e9b4d541731be5f1de76d3679aade4313752334bf1f781f7"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012207_right.png",
+    "index": 875,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面完整足球约65像素，星纹可辨，无遮挡且无明确方向性拖影；旧框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/full/page-062.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-4/roi/page-007.png"
+    ],
+    "expected_image_sha256": "d7689cb9f2929c3f5c9ce1309cd63c7b2bb617ce6d208d8bb27ca9b8ac7fd713",
+    "expected_label_sha256": "5e780b069a18c575cadf93cdb9ce9988aa0d3121c81dc54bdec21895843985f9"
+  }
+]

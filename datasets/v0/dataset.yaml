@@ -1,0 +1,12 @@
+# 2026-10-19 按来源划分：Train=18:15:31+legacy；Val=10:47:48+18:13:26。
+# 四类困难场景在 metadata.csv 中，目标类别只有 football。
+# 自动球框必须按 label_review_required 完成人工审核后用于正式训练。
+# 缺失 label 的不确定样本请先审核，不要直接当成无球背景。
+path: /home/misaka/workspace/datasets
+train: images/train
+val: images/val
+# Test暂空，待补采独立视频；空目录不能用于测试评估。
+test: images/test
+nc: 1
+names:
+  0: football

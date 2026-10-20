@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "decision_rows": 1536,
+  "unique_filenames": 1536,
+  "all_inventory_index_and_image_label_hashes_match": true,
+  "confirmed_labels_protected": 919,
+  "empty_images_with_native_evidence": 196,
+  "approved_negatives_with_native_evidence": 63,
+  "approved_positives_with_boxes": 271,
+  "all_evidence_paths_exist": true,
+  "scene_approve_noball_with_boxes": 0,
+  "scene_approve_visible_ball_without_boxes": 0,
+  "full_opened_pages": 32,
+  "roi_opened_pages": 64,
+  "native_empty_opened_pages": 33,
+  "own_native_empty_opened_pages": 17,
+  "helper_native_empty_opened_pages": 16,
+  "own_zoom_opened_pages": 5,
+  "checked_at": "2026-10-14T14:00:24.328654+00:00"
+}

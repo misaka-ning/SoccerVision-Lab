@@ -1,0 +1,10 @@
+from review_notes import *
+opened(full=[26],roi=[52,53])
+seq(1248,1253,'人物与展示架场景当前空标，需原生检查最下缘、机器人脚和鞋旁足球弧面。',scene='retain',label='retain')
+seq(1254,1261,'黑衣人/黄色裤腿旁小足球有明显球面软化或横向晃动，可见完整尺寸约35至43 px且部分被腿遮住；框覆盖、Small临界及当前Blurred=0均不能可靠确认。',scene='retain',label='retain')
+seq(1262,1265,'黑衣人腿与机器人挡住之前球位置，空框需原生检查底边是否尚露足球。',scene='retain',label='retain')
+seq(1266,1267,'黑裤腿旁足球仅露画面下边缘很薄白色弧面，身份/可见外缘和现框范围不可靠。',scene='retain',label='retain')
+seq(1268,1275,'机器人旁当前空标，需原生检查最下缘和身体/脚后是否仍有可见球片。',scene='retain',label='retain')
+seq(1276,1283,'机器人或鞋旁蓝白球很暗且有软化/拖影，尺寸约30至45 px、部分裁边，框外缘和Small完整尺度不可靠。',scene='retain',label='retain')
+seq(1284,1295,'三个机器人与室内人物场景空框，必须原生检查最下沿、左右边缘及机器脚后才可确认无球。',scene='retain',label='retain')
+save()

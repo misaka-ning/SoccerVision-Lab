@@ -1,0 +1,74 @@
+{
+  "combined_proposals_sha256": "2b79b5d580dbb12fa6b1f253cac0cdfa4b3032b35c20c9788abdb65db5405f17",
+  "proposals": 274,
+  "dry_run_accepted": 265,
+  "dry_run_skipped": [
+    {
+      "filename": "video_4bec9c343db72928_frame_00014754_left.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014754_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00005687_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00006321_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00010459_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00010759_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00010762_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00015606_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00017403_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    }
+  ],
+  "skip_reasons": {
+    "Manual review state/note changed after baseline": 9
+  },
+  "visual_coverage_images": 8398,
+  "unique_coverage_images": 8398,
+  "scene_and_roi_complete": true,
+  "roi_boxes": 5218,
+  "roi_by_group": {
+    "existing": 1586,
+    "first": 1196,
+    "middle": 952,
+    "last": 1484
+  },
+  "production_fresh_changes_since_baseline": {
+    "manual_review_state_or_note_changed": 319,
+    "label_sha_changed": 17
+  },
+  "production_touched": false,
+  "fixture": {
+    "passed": true,
+    "checks": [
+      "read-only dry-run and stale label/review skips",
+      "native QLockFile conflict leaves dataset untouched",
+      "atomic apply, exact backups, current human/unknown fields, pending provenance",
+      "failed label commit retains original label and pending CSV",
+      "final comparison rejects non-cooperating edits",
+      "explicit native false-positive removal remains pending and preserves class conflicts",
+      "only native corrections repair old out-of-bounds boxes; replacements and syntax remain strict"
+    ],
+    "production_touched": false
+  }
+}

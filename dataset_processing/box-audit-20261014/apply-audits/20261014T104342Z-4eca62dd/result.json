@@ -1,0 +1,145 @@
+{
+  "applied": [
+    {
+      "filename": "frame_001650_right.png",
+      "split": "train",
+      "path": "/home/misaka/workspace/datasets/labels/train/frame_001650_right.txt",
+      "image_path": "/home/misaka/workspace/datasets/images/train/frame_001650_right.png",
+      "before_sha256": "92068d9b6b8dd4c85d37eb295153a3e0efcb56775864c8b53752c62964195413",
+      "after_sha256": "efc7ede7080bc1727f715881ee54edc5537ce90234e263677bc4d051bc775ff0",
+      "old_boxes": [
+        [
+          0,
+          0.18584499342205324,
+          0.9209509733508616,
+          0.10863095000000002,
+          0.16489362
+        ],
+        [
+          0,
+          0.3887832699619772,
+          0.9697435482566136,
+          0.10646387832699619,
+          0.06051290348677289
+        ]
+      ],
+      "new_boxes": [
+        [
+          0,
+          0.1858449934,
+          0.9192520817,
+          0.10863095,
+          0.1614958366
+        ],
+        [
+          0,
+          0.38878327,
+          0.9697435483,
+          0.1064638783,
+          0.0605129035
+        ]
+      ],
+      "original_meta": {
+        "图片": "frame_001650_right.png",
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "reviewed_annotation",
+        "scene_review_required": "0",
+        "label_review_required": "0",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "Foreground football is visible beside the shoe, partly cropped at the lower edge. 新增球框均为待人工审核预标注；请检查漏球、误检及框边界。",
+        "source_video": "",
+        "source_frame_idx": "",
+        "eye": ""
+      },
+      "pending_meta": {
+        "图片": "frame_001650_right.png",
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "Foreground football is visible beside the shoe, partly cropped at the lower edge. 新增球框均为待人工审核预标注；请检查漏球、误检及框边界。 2026-10-14 框边界审核：本次最终全库校验发现原人工球框下沿略越界；重新查看最新原生图片确认足球被下图边截断，仅裁y2至图片高度，其他坐标和其他框保留；不回退本次期间的人工修改。 来源：助手对最新原图和最新label进行原生复核；edge-clip-latest-baseline.json；待人工确认。；原框SHA256=92068d9b6b8dd4c85d37eb295153a3e0efcb56775864c8b53752c62964195413；原状态=reviewed_annotation；助手修正候选框，需人工复核。",
+        "source_video": "",
+        "source_frame_idx": "",
+        "eye": ""
+      },
+      "reason": "本次最终全库校验发现原人工球框下沿略越界；重新查看最新原生图片确认足球被下图边截断，仅裁y2至图片高度，其他坐标和其他框保留；不回退本次期间的人工修改。",
+      "source": "助手对最新原图和最新label进行原生复核；edge-clip-latest-baseline.json；待人工确认。"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00010759_right.png",
+      "split": "train",
+      "path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00010759_right.txt",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00010759_right.png",
+      "before_sha256": "1d83cadc0f03c0075408e7a0917765f8a31f583cf135df5175fd9021dcb257c7",
+      "after_sha256": "c6fea7f1ecd4e917520f475b09db36145577615691cd115780525ac921167bf0",
+      "old_boxes": [
+        [
+          0,
+          0.36908553671482885,
+          0.9366435845710097,
+          0.08882512428897342,
+          0.1336220935008899
+        ]
+      ],
+      "new_boxes": [
+        [
+          0,
+          0.3690855367,
+          0.9349162689,
+          0.0888251243,
+          0.1301674622
+        ]
+      ],
+      "original_meta": {
+        "图片": "video_4bec9c343db72928_frame_00010759_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "reviewed_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "0",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "10759",
+        "eye": "right"
+      },
+      "pending_meta": {
+        "图片": "video_4bec9c343db72928_frame_00010759_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。 2026-10-14 框边界审核：本次最终全库校验发现原人工球框下沿略越界；重新查看最新原生图片确认足球被下图边截断，仅裁y2至图片高度，其他坐标和其他框保留；不回退本次期间的人工修改。 来源：助手对最新原图和最新label进行原生复核；edge-clip-latest-baseline.json；待人工确认。；原框SHA256=1d83cadc0f03c0075408e7a0917765f8a31f583cf135df5175fd9021dcb257c7；原状态=reviewed_annotation；助手修正候选框，需人工复核。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "10759",
+        "eye": "right"
+      },
+      "reason": "本次最终全库校验发现原人工球框下沿略越界；重新查看最新原生图片确认足球被下图边截断，仅裁y2至图片高度，其他坐标和其他框保留；不回退本次期间的人工修改。",
+      "source": "助手对最新原图和最新label进行原生复核；edge-clip-latest-baseline.json；待人工确认。"
+    }
+  ],
+  "skipped": [],
+  "failed_pending": [],
+  "metadata_after_sha256": "e016f9cc4b9c43a09cbf88b0690a489a16ae3e7200df53a5179f4c2c48c13b4d"
+}

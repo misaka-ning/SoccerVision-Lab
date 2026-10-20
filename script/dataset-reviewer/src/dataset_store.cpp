@@ -9,6 +9,9 @@
 #include <QRegularExpression>
 #include <QSaveFile>
 #include <QSet>
+#include <QTemporaryDir>
+#include <QJsonArray>
+#include <QJsonDocument>
 #include <QStringDecoder>
 #include <QUuid>
 
@@ -321,11 +324,56 @@ QString DatasetStore::value(int row, const QString &column) const
     return rows.at(row).at(index);
 }
 
+bool DatasetStore::imageListRows(const QString &path, QVector<int> &selection, QString &error) const
+{
+    error.clear();
+    QByteArray bytes;
+    if (!readFile(path, bytes, error))
+        return false;
+    if (bytes.startsWith("\xEF\xBB\xBF"))
+        bytes.remove(0, 3);
+    QStringDecoder decoder(QStringDecoder::Utf8);
+    const QString text = decoder(bytes);
+    if (decoder.hasError()) {
+        error = QStringLiteral("批次名单不是有效 UTF-8：%1").arg(path);
+        return false;
+    }
+    QMap<QString, int> imageRows;
+    for (int row = 0; row < rows.size(); ++row)
+        imageRows.insert(value(row, QStringLiteral("图片")), row);
+    QVector<int> candidate;
+    QSet<QString> seen;
+    const QStringList lines = text.split(QRegularExpression(QStringLiteral("\\r\\n|\\n|\\r")));
+    for (int line = 0; line < lines.size(); ++line) {
+        const QString &name = lines.at(line);
+        if (name.isEmpty())
+            continue;
+        if (seen.contains(name)) {
+            error = QStringLiteral("批次名单第 %1 行图片重复：%2").arg(line + 1).arg(name);
+            return false;
+        }
+        if (!imageRows.contains(name)) {
+            error = QStringLiteral("批次名单第 %1 行的图片不在 metadata.csv 中：%2").arg(line + 1).arg(name);
+            return false;
+        }
+        seen.insert(name);
+        candidate.append(imageRows.value(name));
+    }
+    if (candidate.isEmpty()) {
+        error = QStringLiteral("批次名单没有图片：%1").arg(path);
+        return false;
+    }
+    selection = candidate;
+    return true;
+}
+
 bool DatasetStore::setValue(int row, const QString &column, const QString &newValue)
 {
     const int index = headers.indexOf(column);
     if (!loaded_ || !editableColumn(column) || (newValue != QStringLiteral("0") && newValue != QStringLiteral("1"))
         || row < 0 || row >= rows.size() || index < 0 || index >= rows.at(row).size())
+        return false;
+    if (column == QStringLiteral("No Ball") && newValue == QStringLiteral("1") && isUncertain(row))
         return false;
     rows[row][index] = newValue;
     return true;
@@ -356,6 +404,10 @@ bool DatasetStore::approveAnnotation(int row, const QByteArray &displayedLabelHa
         error = QStringLiteral("请先加载含 label_review_required 的数据集并选择图片。");
         return false;
     }
+    if (isUncertain(row)) {
+        error = QStringLiteral("不确定样本不能直接审核通过；请先重新复核当前帧是否可辨认、可定位或明确无球。");
+        return false;
+    }
     const LabelData labels = readLabels(labelPath(row));
     if (!labels.exists) {
         error = QStringLiteral("缺少 label 文件；不能将未标注图片审核通过。");
@@ -382,6 +434,32 @@ bool DatasetStore::approveAnnotation(int row, const QByteArray &displayedLabelHa
     rows[row][headers.indexOf(QStringLiteral("annotation_status"))] = status;
     rows[row][headers.indexOf(QStringLiteral("label_review_required"))] = QStringLiteral("0");
     annotationReviews_[row] = {status, QStringLiteral("0"), labels.sourceHash};
+    return true;
+}
+
+QStringList DatasetStore::uncertainStatuses()
+{
+    return {"uncertain", "severe_blur", "severe_occlusion", "uncertain_bbox", "temporal_only", "fully_occluded"};
+}
+
+bool DatasetStore::isUncertain(int row) const
+{
+    return uncertainStatuses().contains(value(row, "annotation_status"));
+}
+
+bool DatasetStore::markUncertain(int row, const QString &reason, QString &error)
+{
+    error.clear();
+    if (!loaded_ || root != loadedRoot_ || row < 0 || row >= rows.size()
+        || !headers.contains("label_review_required") || !uncertainStatuses().contains(reason)) {
+        error = QStringLiteral("请选择图片和有效的不确定原因；CSV 需包含 label_review_required。");
+        return false;
+    }
+    rows[row][headers.indexOf("annotation_status")] = reason;
+    rows[row][headers.indexOf("label_review_required")] = "1";
+    rows[row][headers.indexOf("No Ball")] = "0";
+    rows[row][headers.indexOf("scene_review_required")] = "1";
+    annotationReviews_[row] = {reason, "1", QByteArray()};
     return true;
 }
 
@@ -435,6 +513,10 @@ bool DatasetStore::saveLabelBoxes(int row, const LabelData &displayed, const QVe
     if (!loaded_ || root != loadedRoot_ || headers != originalHeaders_ || rows.size() != originalRows_.size()
         || row < 0 || row >= rows.size() || !headers.contains(QStringLiteral("label_review_required"))) {
         error = QStringLiteral("请先加载含 label_review_required 的数据集并选择图片。");
+        return false;
+    }
+    if (isUncertain(row)) {
+        error = QStringLiteral("不确定样本保留原 label；请先重新复核，确认可定位后再修改框。");
         return false;
     }
     // Do not derive a write path from metadata altered outside the controlled API.
@@ -522,6 +604,134 @@ bool DatasetStore::saveLabelBoxes(int row, const LabelData &displayed, const QVe
     return true;
 }
 
+bool DatasetStore::exportDataset(const QString &destination, QString &error) const
+{
+    error.clear();
+    if (!loaded_ || root != loadedRoot_ || metadataPath != loadedMetadataPath_ || isDirty()) {
+        error = QStringLiteral("请先加载数据集并保存审核修改，再导出。");
+        return false;
+    }
+    if (!headers.contains("label_review_required")) {
+        error = QStringLiteral("导出需要 label_review_required 列和明确的人工审核结果。");
+        return false;
+    }
+    const QFileInfo targetInfo(destination);
+    const QString target = targetInfo.absoluteFilePath();
+    const QString parent = targetInfo.dir().canonicalPath();
+    const QString source = QFileInfo(root).canonicalFilePath();
+    if (QFileInfo::exists(target) || targetInfo.isSymLink() || parent.isEmpty()
+        || parent == source || parent.startsWith(source + '/')) {
+        error = QStringLiteral("请选择源数据集之外、父目录已存在且尚不存在的新导出目录。");
+        return false;
+    }
+    QLockFile lock(metadataPath + ".review.lock");
+    if (!lock.tryLock(0)) { error = QStringLiteral("数据集正被保存，请稍后导出。"); return false; }
+    QByteArray metadata;
+    if (!readFile(metadataPath, metadata, error)) return false;
+    if (hash(metadata) != loadedSourceHash_) {
+        error = QStringLiteral("metadata.csv 已被外部修改，请重新加载后导出。"); return false;
+    }
+    QTemporaryDir stage(QDir(parent).filePath(".review-export-XXXXXX"));
+    if (!stage.isValid()) { error = QStringLiteral("无法创建导出临时目录。"); return false; }
+    const auto write = [&](const QString &relative, const QByteArray &bytes) {
+        const QString path = QDir(stage.path()).filePath(relative);
+        if (!QDir().mkpath(QFileInfo(path).absolutePath())) {
+            error = QStringLiteral("无法创建导出目录：%1").arg(relative); return false;
+        }
+        QFile file(path);
+        if (!file.open(QIODevice::WriteOnly | QIODevice::NewOnly) || file.write(bytes) != bytes.size() || !file.flush()) {
+            error = QStringLiteral("无法完整写入导出文件：%1").arg(relative); return false;
+        }
+        return true;
+    };
+    QMap<QString, QByteArray> sourceHashes;
+    const auto copy = [&](const QString &from, const QString &relative, const QByteArray &expected = QByteArray()) {
+        QByteArray bytes;
+        if (!readFile(from, bytes, error)) return false;
+        const QByteArray digest = hash(bytes);
+        if (!expected.isEmpty() && digest != expected) {
+            error = QStringLiteral("导出期间源文件已变化：%1").arg(from); return false;
+        }
+        sourceHashes[from] = digest;
+        return write(relative, bytes);
+    };
+    QString includedCsv = csvRecord(headers) + '\n', uncertainCsv = includedCsv, excludedCsv = includedCsv, reviewedExcludedCsv = includedCsv;
+    QMap<QString, int> counts{{"train",0},{"val",0},{"test",0},{"uncertain",0},{"pending",0},{"reviewed_excluded",0}};
+    QSet<QString> stems;
+    for (int row = 0; row < rows.size(); ++row) {
+        const QString status = value(row, "annotation_status"), split = value(row, "split");
+        const QString name = value(row, QStringLiteral("图片"));
+        const QString stem = QFileInfo(name).completeBaseName();
+        const QString record = csvRecord(rows[row]) + '\n';
+        if (status == "reviewed_excluded" && value(row,"label_review_required") == "0" && value(row,"scene_review_required") == "0") {
+            const QString prefix = "excluded/reviewed/" + split + '/';
+            if (!copy(imagePath(row), prefix + "images/" + name)) return false;
+            // Human-reviewed exclusions retain the user's original boxes only
+            // as references, including imperfect or incomplete annotations.
+            if (QFileInfo::exists(labelPath(row)) && !copy(labelPath(row), prefix + "reference_labels/" + stem + ".txt")) return false;
+            reviewedExcludedCsv += record; excludedCsv += record; ++counts["reviewed_excluded"];
+            continue;
+        }
+        if (isUncertain(row)) {
+            const QString prefix = "uncertain/" + status + '/' + split + '/';
+            if (!copy(imagePath(row), prefix + "images/" + name)) return false;
+            // Existing boxes are archival references only, outside YOLO labels/.
+            if (QFileInfo::exists(labelPath(row)) && !copy(labelPath(row), prefix + "reference_labels/" + name + ".txt")) return false;
+            uncertainCsv += record; excludedCsv += record; ++counts["uncertain"];
+            continue;
+        }
+        const bool positive = status == "reviewed_annotation", negative = status == "negative_confirmed";
+        if ((!positive && !negative) || value(row,"label_review_required") != "0" || value(row,"scene_review_required") != "0") {
+            excludedCsv += record; ++counts["pending"]; continue;
+        }
+        const LabelData labels = readLabels(labelPath(row));
+        if (!labels.exists || !labels.errors.isEmpty() || labels.sourceHash.size() != 32
+            || (positive && (labels.boxes.isEmpty() || value(row,"No Ball") != "0"))
+            || (negative && (!labels.boxes.isEmpty() || value(row,"No Ball") != "1"))) {
+            error = QStringLiteral("已审核样本 %1 的 label 或 No Ball 状态不一致，请重新复核。").arg(name); return false;
+        }
+        for (const Box &box : labels.boxes) {
+            if (box.classId != 0 || box.x - box.w/2 < -1e-6 || box.x + box.w/2 > 1+1e-6
+                || box.y - box.h/2 < -1e-6 || box.y + box.h/2 > 1+1e-6) {
+                error = QStringLiteral("%1 存在非足球类别或超出图像的框，无法导出。").arg(name); return false;
+            }
+        }
+        const QString key = split + '/' + stem;
+        if (stems.contains(key)) { error = QStringLiteral("导出 label 文件名冲突：%1").arg(key); return false; }
+        stems.insert(key);
+        if (!copy(imagePath(row), "images/" + split + '/' + name)
+            || !copy(labelPath(row), "labels/" + key + ".txt", labels.sourceHash)) return false;
+        includedCsv += record; ++counts[split];
+    }
+    for (const auto &split : {"train", "val", "test"}) {
+        if (!QDir().mkpath(stage.path()+"/images/"+split) || !QDir().mkpath(stage.path()+"/labels/"+split)) {
+            error = QStringLiteral("无法创建训练集合目录。"); return false;
+        }
+    }
+    // An absolute YAML path avoids resolving relative to a trainer's global datasets directory.
+    const QString yamlPath = QString::fromUtf8(QJsonDocument(QJsonArray{target}).toJson(QJsonDocument::Compact)).mid(1).chopped(1);
+    QByteArray yaml = ("path: " + yamlPath + "\ntrain: images/train\nval: images/val\ntest: images/test\nnames:\n  0: football\n").toUtf8();
+    QString report = QStringLiteral("policy_version=1\ncreated_utc=%1\nsource_metadata_sha256=%2\ntrain=%3\nval=%4\ntest=%5\nuncertain=%6\npending=%7\nreviewed_excluded=%8\n")
+        .arg(QDateTime::currentDateTimeUtc().toString(Qt::ISODateWithMs), QString::fromLatin1(loadedSourceHash_.toHex()))
+        .arg(counts["train"]).arg(counts["val"]).arg(counts["test"]).arg(counts["uncertain"]).arg(counts["pending"]).arg(counts["reviewed_excluded"]);
+    if (!write("metadata.csv", includedCsv.toUtf8()) || !write("uncertain/metadata.csv", uncertainCsv.toUtf8())
+        || !write("excluded/reviewed/metadata.csv", reviewedExcludedCsv.toUtf8())
+        || !write("excluded.csv", excludedCsv.toUtf8()) || !write("dataset.yaml", yaml)
+        || !write("export-summary.txt", report.toUtf8())) return false;
+    // Check all copied inputs again before publishing the complete snapshot.
+    sourceHashes[metadataPath] = loadedSourceHash_;
+    for (auto it = sourceHashes.cbegin(); it != sourceHashes.cend(); ++it) {
+        QByteArray bytes;
+        if (!readFile(it.key(), bytes, error)) return false;
+        if (hash(bytes) != it.value()) { error = QStringLiteral("导出期间源文件已变化：%1").arg(it.key()); return false; }
+    }
+    if (QFileInfo::exists(target) || !QDir().rename(stage.path(), target)) {
+        error = QStringLiteral("无法发布导出目录（目标可能已存在）；未覆盖任何现有导出。"); return false;
+    }
+    stage.setAutoRemove(false);
+    return true;
+}
+
 bool DatasetStore::isDirty() const
 {
     return loaded_ && (headers != originalHeaders_ || rows != originalRows_);
@@ -556,6 +766,12 @@ bool DatasetStore::save(QString &error)
     }
     if (!validate(headers, rows, error))
         return false;
+    for (int row = 0; row < rows.size(); ++row) {
+        if (isUncertain(row) && (value(row, "No Ball") != "0" || value(row, "label_review_required") != "1")) {
+            error = QStringLiteral("不确定样本必须保持 No Ball=0 且 label_review_required=1（第 %1 行）。").arg(row + 1);
+            return false;
+        }
+    }
     if (!validateAnnotationReviews(error))
         return false;
     for (qsizetype row = 0; row < rows.size(); ++row) {

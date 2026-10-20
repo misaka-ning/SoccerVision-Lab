@@ -1,0 +1,2217 @@
+{
+  "opened_full": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-000.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-001.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-002.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-003.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-004.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-005.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-006.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-007.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-008.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-009.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-010.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-011.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-012.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-013.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-014.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-015.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-016.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-017.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-018.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-019.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-020.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-021.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-022.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-023.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-024.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-025.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-026.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-027.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-028.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-029.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-030.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-031.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-032.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-033.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-034.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-035.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-036.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-037.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-038.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-039.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-040.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-041.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-042.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-043.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-044.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-045.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-046.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-047.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-048.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-049.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-050.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-051.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-052.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-053.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-054.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-055.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-056.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-057.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-058.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-059.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-060.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-061.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-062.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-063.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-064.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-065.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-066.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-067.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-068.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-069.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-070.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-071.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-072.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-073.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-074.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-075.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-076.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-077.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-078.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-079.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-080.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-081.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-082.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-083.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-084.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-085.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-086.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-087.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-088.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-089.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-090.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-091.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-092.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-093.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-094.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-095.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-096.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-097.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-098.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-099.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-100.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-101.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-102.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-103.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-104.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-105.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-106.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-107.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-108.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-109.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-110.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-111.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-112.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-113.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-114.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-115.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-116.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-117.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-118.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-119.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-120.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-121.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-122.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-123.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/full/page-124.png"
+  ],
+  "opened_roi": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-000.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-001.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-002.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-003.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-004.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-005.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-006.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-007.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-008.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-009.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-010.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-011.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-012.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-013.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-014.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/roi/page-015.png"
+  ],
+  "observations": [
+    {
+      "local": 0,
+      "flags": "0001",
+      "reason": "全图为人物、机器人、玩偶与座椅，未见足球；圆形玩偶头和椅面不作为球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 1,
+      "flags": "0001",
+      "reason": "全图为人物、机器人、玩偶与座椅，未见足球；圆形玩偶头和椅面不作为球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 6,
+      "flags": "0001",
+      "reason": "全图为人物、机器人、玩偶与座椅，未见足球；圆形玩偶头和椅面不作为球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 7,
+      "flags": "0001",
+      "reason": "全图为人物、机器人、玩偶与座椅，未见足球；圆形玩偶头和椅面不作为球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 2,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 3,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 4,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 5,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 8,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 9,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 10,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 11,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 12,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 13,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 14,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 15,
+      "flags": "0011",
+      "reason": "全图存在相机运动方向性拖影，逐区未见可识别足球；机器人足部、椅面和玩偶均排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 16,
+      "flags": "0011",
+      "reason": "原图明显相机拖影；画面显示电视、家具、人物或机器人，没有可见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 17,
+      "flags": "0011",
+      "reason": "原图明显相机拖影；画面显示电视、家具、人物或机器人，没有可见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 20,
+      "flags": "0011",
+      "reason": "原图明显相机拖影；画面显示电视、家具、人物或机器人，没有可见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 21,
+      "flags": "0011",
+      "reason": "原图明显相机拖影；画面显示电视、家具、人物或机器人，没有可见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 28,
+      "flags": "0011",
+      "reason": "原图明显相机拖影；画面显示电视、家具、人物或机器人，没有可见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 29,
+      "flags": "0011",
+      "reason": "原图明显相机拖影；画面显示电视、家具、人物或机器人，没有可见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 30,
+      "flags": "0011",
+      "reason": "原图明显相机拖影；画面显示电视、家具、人物或机器人，没有可见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 31,
+      "flags": "0011",
+      "reason": "原图明显相机拖影；画面显示电视、家具、人物或机器人，没有可见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 18,
+      "flags": "0001",
+      "reason": "电视、墙面、支架及椅面可辨，无足球；轻度软化未见强方向性拖影。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 19,
+      "flags": "0001",
+      "reason": "电视、墙面、支架及椅面可辨，无足球；轻度软化未见强方向性拖影。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 22,
+      "flags": "0001",
+      "reason": "仰拍天花板灯具和画面边缘人物，无足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 23,
+      "flags": "0001",
+      "reason": "仰拍天花板灯具和画面边缘人物，无足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 24,
+      "flags": "0001",
+      "reason": "仰拍天花板灯具和画面边缘人物，无足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 25,
+      "flags": "0001",
+      "reason": "仰拍天花板灯具和画面边缘人物，无足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 26,
+      "flags": "0001",
+      "reason": "仰拍天花板灯具和画面边缘人物，无足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 27,
+      "flags": "0001",
+      "reason": "仰拍天花板灯具和画面边缘人物，无足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 32,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 33,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 34,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 35,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 36,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 37,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 38,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 39,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 40,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 41,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 42,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 43,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 44,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 45,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 46,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 47,
+      "flags": "0001",
+      "reason": "全图人物及手持游戏手柄、地板和陈列机器人清楚可辨；未见足球或未解疑似目标，人物局部动作不记球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 48,
+      "flags": "0001",
+      "reason": "全图人物、手柄与家具，无可辨足球；角落地面也未见未解疑似。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 49,
+      "flags": "0001",
+      "reason": "全图人物、手柄与家具，无可辨足球；角落地面也未见未解疑似。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 50,
+      "flags": "0001",
+      "reason": "全图人物、手柄与家具，无可辨足球；角落地面也未见未解疑似。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 51,
+      "flags": "0001",
+      "reason": "全图人物、手柄与家具，无可辨足球；角落地面也未见未解疑似。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 53,
+      "flags": "0001",
+      "reason": "当前单目全图未见足球，左边界无可识别球像素；不借另一目补推。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 57,
+      "flags": "0001",
+      "reason": "当前单目全图未见足球，左边界无可识别球像素；不借另一目补推。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 59,
+      "flags": "0001",
+      "reason": "当前单目全图未见足球，左边界无可识别球像素；不借另一目补推。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 52,
+      "flags": "1000",
+      "reason": "左边界可见小号黑白足球，边界裁切不算遮挡；现框基本贴合可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 54,
+      "flags": "1000",
+      "reason": "左边界可见小号黑白足球，边界裁切不算遮挡；现框基本贴合可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 55,
+      "flags": "1000",
+      "reason": "左边界可见小号黑白足球，边界裁切不算遮挡；现框基本贴合可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 56,
+      "flags": "1000",
+      "reason": "左边界可见小号黑白足球，边界裁切不算遮挡；现框基本贴合可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 58,
+      "flags": "1000",
+      "reason": "左边界可见小号黑白足球，边界裁切不算遮挡；现框基本贴合可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 60,
+      "flags": "1000",
+      "reason": "左下方有小号黑白足球，鞋在后上方接近球，接触与轻微重叠边界需复查；不把低分辨率软化直接记运动模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 61,
+      "flags": "1000",
+      "reason": "左下方有小号黑白足球，鞋在后上方接近球，接触与轻微重叠边界需复查；不把低分辨率软化直接记运动模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 62,
+      "flags": "1100",
+      "reason": "小号黑白足球左上侧被伸入的浅色鞋覆盖，保留现有候选框，细小边界需复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 63,
+      "flags": "1100",
+      "reason": "小号黑白足球左上侧被伸入的浅色鞋覆盖，保留现有候选框，细小边界需复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 64,
+      "flags": "1100",
+      "reason": "小号黑白足球左侧被浅色鞋尖覆盖，现框覆盖当前可见球；细小边缘需复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 65,
+      "flags": "1100",
+      "reason": "小号黑白足球左侧被浅色鞋尖覆盖，现框覆盖当前可见球；细小边缘需复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 66,
+      "flags": "1000",
+      "reason": "左侧地面清楚可见一个小号黑白足球，与鞋已分离，无另一个球；现框基本覆盖完整可见球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 67,
+      "flags": "1000",
+      "reason": "左侧地面清楚可见一个小号黑白足球，与鞋已分离，无另一个球；现框基本覆盖完整可见球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 68,
+      "flags": "1000",
+      "reason": "左侧地面清楚可见一个小号黑白足球，与鞋已分离，无另一个球；现框基本覆盖完整可见球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 69,
+      "flags": "1000",
+      "reason": "左侧地面清楚可见一个小号黑白足球，与鞋已分离，无另一个球；现框基本覆盖完整可见球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 70,
+      "flags": "1000",
+      "reason": "左侧地面清楚可见一个小号黑白足球，与鞋已分离，无另一个球；现框基本覆盖完整可见球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 71,
+      "flags": "1000",
+      "reason": "左侧地面清楚可见一个小号黑白足球，与鞋已分离，无另一个球；现框基本覆盖完整可见球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 72,
+      "flags": "1010",
+      "reason": "小号足球及背景有明显纵向拖影，现框仍覆盖可见球；软化球边保留复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 73,
+      "flags": "1010",
+      "reason": "小号足球及背景有明显纵向拖影，现框仍覆盖可见球；软化球边保留复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 74,
+      "flags": "1010",
+      "reason": "左下角黑白足球明确漏标；放大检查后补当前可见球，图像有相机拖影，边界需复查。",
+      "scene_certain": false,
+      "action": "replace",
+      "boxes_xyxy": [
+        [
+          21,
+          222,
+          48,
+          252
+        ]
+      ]
+    },
+    {
+      "local": 75,
+      "flags": "1010",
+      "reason": "左下角黑白足球明确漏标；放大检查后补当前可见球，图像有相机拖影，边界需复查。",
+      "scene_certain": false,
+      "action": "replace",
+      "boxes_xyxy": [
+        [
+          13,
+          222,
+          42,
+          251
+        ]
+      ]
+    },
+    {
+      "local": 76,
+      "flags": "0011",
+      "reason": "全画面相机拖影，左右边角均未见可识别足球；浅色鞋尖排除为鞋。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 77,
+      "flags": "0011",
+      "reason": "全画面相机拖影，左右边角均未见可识别足球；浅色鞋尖排除为鞋。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 78,
+      "flags": "0001",
+      "reason": "画面为人物腿脚、门和机器人，边缘浅色部分为鞋，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 79,
+      "flags": "0001",
+      "reason": "画面为人物腿脚、门和机器人，边缘浅色部分为鞋，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 80,
+      "flags": "0011",
+      "reason": "人物边缘和机器人存在相机运动拖影；全图及玻璃反射未见可辨足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 81,
+      "flags": "0011",
+      "reason": "人物边缘和机器人存在相机运动拖影；全图及玻璃反射未见可辨足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 82,
+      "flags": "0011",
+      "reason": "人物边缘和机器人存在相机运动拖影；全图及玻璃反射未见可辨足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 83,
+      "flags": "0011",
+      "reason": "人物边缘和机器人存在相机运动拖影；全图及玻璃反射未见可辨足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 84,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 85,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 86,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 87,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 88,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 89,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 90,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 91,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 92,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 93,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 94,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 95,
+      "flags": "0001",
+      "reason": "玻璃门、人物及机器人反射清楚可辨；白色地面亮斑为鞋/反射，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 96,
+      "flags": "0001",
+      "reason": "玻璃门及其人物、机器人反射中未见足球，地面亮斑不具球形纹理。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 97,
+      "flags": "0001",
+      "reason": "玻璃门及其人物、机器人反射中未见足球，地面亮斑不具球形纹理。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 98,
+      "flags": "0001",
+      "reason": "玻璃门及其人物、机器人反射中未见足球，地面亮斑不具球形纹理。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 99,
+      "flags": "0001",
+      "reason": "玻璃门及其人物、机器人反射中未见足球，地面亮斑不具球形纹理。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 100,
+      "flags": "0001",
+      "reason": "玻璃门及其人物、机器人反射中未见足球，地面亮斑不具球形纹理。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 101,
+      "flags": "0001",
+      "reason": "玻璃门及其人物、机器人反射中未见足球，地面亮斑不具球形纹理。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 102,
+      "flags": "0011",
+      "reason": "相机运动使门框/地面/人物出现方向性拖影，全图未见可识别足球；人脚及标牌排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 103,
+      "flags": "0011",
+      "reason": "相机运动使门框/地面/人物出现方向性拖影，全图未见可识别足球；人脚及标牌排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 104,
+      "flags": "0011",
+      "reason": "相机运动使门框/地面/人物出现方向性拖影，全图未见可识别足球；人脚及标牌排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 105,
+      "flags": "0011",
+      "reason": "相机运动使门框/地面/人物出现方向性拖影，全图未见可识别足球；人脚及标牌排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 106,
+      "flags": "0011",
+      "reason": "相机运动使门框/地面/人物出现方向性拖影，全图未见可识别足球；人脚及标牌排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 107,
+      "flags": "0011",
+      "reason": "相机运动使门框/地面/人物出现方向性拖影，全图未见可识别足球；人脚及标牌排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 108,
+      "flags": "0011",
+      "reason": "相机运动使门框/地面/人物出现方向性拖影，全图未见可识别足球；人脚及标牌排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 109,
+      "flags": "0011",
+      "reason": "相机运动使门框/地面/人物出现方向性拖影，全图未见可识别足球；人脚及标牌排除。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 110,
+      "flags": "0001",
+      "reason": "人物腿脚与圆柱柜体可辨，所有浅色地面物体对应人物鞋，无足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 111,
+      "flags": "0001",
+      "reason": "人物腿脚与圆柱柜体可辨，所有浅色地面物体对应人物鞋，无足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 112,
+      "flags": "0010",
+      "reason": "蓝色裤腿之间可见黑白足球但旧 label 为空；放大仍能识别球面与圆轮廓，补可见范围。相机方向性拖影，边缘软化及小目标阈值需复查。",
+      "scene_certain": false,
+      "action": "replace",
+      "boxes_xyxy": [
+        [
+          566,
+          257,
+          616,
+          297
+        ]
+      ]
+    },
+    {
+      "local": 113,
+      "flags": "0010",
+      "reason": "蓝色裤腿之间可见黑白足球但旧 label 为空；放大仍能识别球面与圆轮廓，补可见范围。相机方向性拖影，边缘软化及小目标阈值需复查。",
+      "scene_certain": false,
+      "action": "replace",
+      "boxes_xyxy": [
+        [
+          548,
+          256,
+          598,
+          297
+        ]
+      ]
+    },
+    {
+      "local": 114,
+      "flags": "1010",
+      "reason": "全图可辨一个小号黑白足球，与机器人脚部和地面亮斑分开；相机运动导致球及背景方向性拖影。现框基本覆盖球，软边需复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 115,
+      "flags": "1010",
+      "reason": "全图可辨一个小号黑白足球，与机器人脚部和地面亮斑分开；相机运动导致球及背景方向性拖影。现框基本覆盖球，软边需复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 120,
+      "flags": "1010",
+      "reason": "全图可辨一个小号黑白足球，与机器人脚部和地面亮斑分开；相机运动导致球及背景方向性拖影。现框基本覆盖球，软边需复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 121,
+      "flags": "1010",
+      "reason": "全图可辨一个小号黑白足球，与机器人脚部和地面亮斑分开；相机运动导致球及背景方向性拖影。现框基本覆盖球，软边需复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 116,
+      "flags": "1000",
+      "reason": "原图和 ROI 均为机器人旁地面单个小号黑白足球，与脚及亮斑分离，无明显前景遮挡；现框基本贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 117,
+      "flags": "1000",
+      "reason": "原图和 ROI 均为机器人旁地面单个小号黑白足球，与脚及亮斑分离，无明显前景遮挡；现框基本贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 118,
+      "flags": "1000",
+      "reason": "原图和 ROI 均为机器人旁地面单个小号黑白足球，与脚及亮斑分离，无明显前景遮挡；现框基本贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 119,
+      "flags": "1000",
+      "reason": "原图和 ROI 均为机器人旁地面单个小号黑白足球，与脚及亮斑分离，无明显前景遮挡；现框基本贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 122,
+      "flags": "1000",
+      "reason": "原图和 ROI 均为机器人旁地面单个小号黑白足球，与脚及亮斑分离，无明显前景遮挡；现框基本贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 123,
+      "flags": "1000",
+      "reason": "原图和 ROI 均为机器人旁地面单个小号黑白足球，与脚及亮斑分离，无明显前景遮挡；现框基本贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 124,
+      "flags": "1000",
+      "reason": "原图和 ROI 均为机器人旁地面单个小号黑白足球，与脚及亮斑分离，无明显前景遮挡；现框基本贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 125,
+      "flags": "1000",
+      "reason": "原图和 ROI 均为机器人旁地面单个小号黑白足球，与脚及亮斑分离，无明显前景遮挡；现框基本贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 126,
+      "flags": "1000",
+      "reason": "原图和 ROI 均为机器人旁地面单个小号黑白足球，与脚及亮斑分离，无明显前景遮挡；现框基本贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 127,
+      "flags": "1000",
+      "reason": "原图和 ROI 均为机器人旁地面单个小号黑白足球，与脚及亮斑分离，无明显前景遮挡；现框基本贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 128,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 129,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 130,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 131,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 132,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 133,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 134,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 135,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 136,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 137,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 138,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 139,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 140,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 141,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 142,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 143,
+      "flags": "1000",
+      "reason": "全图机器人旁只有一个小号黑白足球，地面亮斑非球；球无真实前景覆盖、无明显方向性拖影。现框基本贴合，常规矩形角落背景不属于松框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 144,
+      "flags": "1000",
+      "reason": "机器人左侧单个小号足球；人物鞋靠近或悬在上方，现帧仍能看到球整体，接触不直接算遮挡；框覆盖可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 145,
+      "flags": "1000",
+      "reason": "机器人左侧单个小号足球；人物鞋靠近或悬在上方，现帧仍能看到球整体，接触不直接算遮挡；框覆盖可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 146,
+      "flags": "1000",
+      "reason": "机器人左侧单个小号足球；人物鞋靠近或悬在上方，现帧仍能看到球整体，接触不直接算遮挡；框覆盖可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 147,
+      "flags": "1000",
+      "reason": "机器人左侧单个小号足球；人物鞋靠近或悬在上方，现帧仍能看到球整体，接触不直接算遮挡；框覆盖可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 148,
+      "flags": "1000",
+      "reason": "机器人左侧单个小号足球；人物鞋靠近或悬在上方，现帧仍能看到球整体，接触不直接算遮挡；框覆盖可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 149,
+      "flags": "1000",
+      "reason": "机器人左侧单个小号足球；人物鞋靠近或悬在上方，现帧仍能看到球整体，接触不直接算遮挡；框覆盖可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 150,
+      "flags": "1000",
+      "reason": "机器人左侧单个小号足球；人物鞋靠近或悬在上方，现帧仍能看到球整体，接触不直接算遮挡；框覆盖可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 151,
+      "flags": "1000",
+      "reason": "机器人左侧单个小号足球；人物鞋靠近或悬在上方，现帧仍能看到球整体，接触不直接算遮挡；框覆盖可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 152,
+      "flags": "1000",
+      "reason": "机器人左侧单个小号足球；人物鞋靠近或悬在上方，现帧仍能看到球整体，接触不直接算遮挡；框覆盖可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 153,
+      "flags": "1000",
+      "reason": "机器人左侧单个小号足球；人物鞋靠近或悬在上方，现帧仍能看到球整体，接触不直接算遮挡；框覆盖可见球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 154,
+      "flags": "1100",
+      "reason": "小号足球上缘被鞋尖/鞋底明确覆盖，保留可见球候选框，暗侧边界需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 155,
+      "flags": "1100",
+      "reason": "小号足球上缘被鞋尖/鞋底明确覆盖，保留可见球候选框，暗侧边界需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 156,
+      "flags": "1100",
+      "reason": "小号足球上缘被鞋尖/鞋底明确覆盖，保留可见球候选框，暗侧边界需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 157,
+      "flags": "1100",
+      "reason": "小号足球上缘被鞋尖/鞋底明确覆盖，保留可见球候选框，暗侧边界需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 158,
+      "flags": "0000",
+      "reason": "机器人腿脚交叠区域有难以分离的暗色疑似球部，当前帧不能可靠确认可见球边界，也不能据空标注认定无球。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 159,
+      "flags": "0000",
+      "reason": "机器人腿脚交叠区域有难以分离的暗色疑似球部，当前帧不能可靠确认可见球边界，也不能据空标注认定无球。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 160,
+      "flags": "0000",
+      "reason": "两台机器人腿脚间深色疑似区域缺乏可靠球面证据，不能按空 label 当成无球，也不补推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 161,
+      "flags": "1100",
+      "reason": "两机器人之间可见小号黑白足球残部，机器人腿部真实遮挡球的一侧；现框保留，可见部与金属脚边界需复查。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 162,
+      "flags": "1000",
+      "reason": "机器人右侧可辨一个小号足球，与人物鞋有分离轮廓；现框贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 163,
+      "flags": "1000",
+      "reason": "机器人右侧可辨一个小号足球，与人物鞋有分离轮廓；现框贴合。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 164,
+      "flags": "1100",
+      "reason": "小号足球与鞋尖/鞋底在球上缘发生覆盖或紧贴，保留遮挡候选；微小接触边界需人工确认，低清软化未直接算运动模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 165,
+      "flags": "1100",
+      "reason": "小号足球与鞋尖/鞋底在球上缘发生覆盖或紧贴，保留遮挡候选；微小接触边界需人工确认，低清软化未直接算运动模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 166,
+      "flags": "1100",
+      "reason": "小号足球与鞋尖/鞋底在球上缘发生覆盖或紧贴，保留遮挡候选；微小接触边界需人工确认，低清软化未直接算运动模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 167,
+      "flags": "1100",
+      "reason": "小号足球与鞋尖/鞋底在球上缘发生覆盖或紧贴，保留遮挡候选；微小接触边界需人工确认，低清软化未直接算运动模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 168,
+      "flags": "1100",
+      "reason": "小号足球与鞋尖/鞋底在球上缘发生覆盖或紧贴，保留遮挡候选；微小接触边界需人工确认，低清软化未直接算运动模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 169,
+      "flags": "1100",
+      "reason": "小号足球与鞋尖/鞋底在球上缘发生覆盖或紧贴，保留遮挡候选；微小接触边界需人工确认，低清软化未直接算运动模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 170,
+      "flags": "1100",
+      "reason": "小号足球与鞋尖/鞋底在球上缘发生覆盖或紧贴，保留遮挡候选；微小接触边界需人工确认，低清软化未直接算运动模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 171,
+      "flags": "1100",
+      "reason": "小号足球与鞋尖/鞋底在球上缘发生覆盖或紧贴，保留遮挡候选；微小接触边界需人工确认，低清软化未直接算运动模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 172,
+      "flags": "1000",
+      "reason": "小号足球在人物鞋左前方，球圆轮廓基本完整；鞋的接触不能直接算遮挡。现框基本贴合。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 173,
+      "flags": "1000",
+      "reason": "小号足球在人物鞋左前方，球圆轮廓基本完整；鞋的接触不能直接算遮挡。现框基本贴合。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 174,
+      "flags": "1000",
+      "reason": "小号足球在人物鞋左前方，球圆轮廓基本完整；鞋的接触不能直接算遮挡。现框基本贴合。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 175,
+      "flags": "1000",
+      "reason": "小号足球在人物鞋左前方，球圆轮廓基本完整；鞋的接触不能直接算遮挡。现框基本贴合。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 176,
+      "flags": "0001",
+      "reason": "原图人物、家具、玩偶及器材，已逐区排除圆形玩偶头和足部，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 177,
+      "flags": "0001",
+      "reason": "原图人物、家具、玩偶及器材，已逐区排除圆形玩偶头和足部，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 178,
+      "flags": "0001",
+      "reason": "原图人物、家具、玩偶及器材，已逐区排除圆形玩偶头和足部，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 179,
+      "flags": "0001",
+      "reason": "原图人物、家具、玩偶及器材，已逐区排除圆形玩偶头和足部，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 180,
+      "flags": "0001",
+      "reason": "原图人物、家具、玩偶及器材，已逐区排除圆形玩偶头和足部，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 181,
+      "flags": "0001",
+      "reason": "原图人物、家具、玩偶及器材，已逐区排除圆形玩偶头和足部，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 182,
+      "flags": "0001",
+      "reason": "原图人物、家具、玩偶及器材，已逐区排除圆形玩偶头和足部，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 183,
+      "flags": "0001",
+      "reason": "原图人物、家具、玩偶及器材，已逐区排除圆形玩偶头和足部，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 184,
+      "flags": "0001",
+      "reason": "原图人物、家具、玩偶及器材，已逐区排除圆形玩偶头和足部，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 185,
+      "flags": "0001",
+      "reason": "原图人物、家具、玩偶及器材，已逐区排除圆形玩偶头和足部，未见足球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 186,
+      "flags": "1000",
+      "reason": "右侧人物脚前一个小号黑白足球，鞋与球分离；只有前景走动腿部模糊，不记足球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 187,
+      "flags": "1000",
+      "reason": "右侧人物脚前一个小号黑白足球，鞋与球分离；只有前景走动腿部模糊，不记足球运动模糊。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 188,
+      "flags": "1000",
+      "reason": "足球完整可辨，鞋仅临近；尺度接近小目标阈值，保留 Small 候选待复查，前景裤腿动作不等于球模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 189,
+      "flags": "1000",
+      "reason": "足球完整可辨，鞋仅临近；尺度接近小目标阈值，保留 Small 候选待复查，前景裤腿动作不等于球模糊。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 190,
+      "flags": "1100",
+      "reason": "裤腿之间有小号足球，浅棕色前景裤腿在球一侧发生轻微覆盖；边界与 40 像素阈值需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 191,
+      "flags": "1100",
+      "reason": "裤腿之间有小号足球，浅棕色前景裤腿在球一侧发生轻微覆盖；边界与 40 像素阈值需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 192,
+      "flags": "0000",
+      "reason": "近侧黑白足球完整可辨，尺寸约 42 像素，接近 Small 阈值而暂不记小目标；邻近鞋裤在球后，未见真实球面覆盖。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 193,
+      "flags": "0000",
+      "reason": "近侧黑白足球完整可辨，尺寸约 42 像素，接近 Small 阈值而暂不记小目标；邻近鞋裤在球后，未见真实球面覆盖。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 194,
+      "flags": "0000",
+      "reason": "近侧裤腿与画面下边界遮住候选区域；局部只有难识别白色残片或无可靠球像素，不能确认无球，不造隐藏完整框。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 195,
+      "flags": "0000",
+      "reason": "近侧裤腿与画面下边界遮住候选区域；局部只有难识别白色残片或无可靠球像素，不能确认无球，不造隐藏完整框。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 196,
+      "flags": "0000",
+      "reason": "近侧裤腿与画面下边界遮住候选区域；局部只有难识别白色残片或无可靠球像素，不能确认无球，不造隐藏完整框。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 197,
+      "flags": "0000",
+      "reason": "近侧裤腿与画面下边界遮住候选区域；局部只有难识别白色残片或无可靠球像素，不能确认无球，不造隐藏完整框。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 198,
+      "flags": "0100",
+      "reason": "下边界仅余白色弧形残片，左侧裤腿覆盖、同时被画面裁切，单帧不足可靠辨认足球；原框保留参考，残片不能据小尺寸记 Small。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 199,
+      "flags": "0100",
+      "reason": "下边界仅余白色弧形残片，左侧裤腿覆盖、同时被画面裁切，单帧不足可靠辨认足球；原框保留参考，残片不能据小尺寸记 Small。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 200,
+      "flags": "0000",
+      "reason": "画面下边缘极少白色疑似片段缺乏可靠球面证据，保留可见性复查，不把空标注当负样本。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 201,
+      "flags": "0000",
+      "reason": "画面下边缘极少白色疑似片段缺乏可靠球面证据，保留可见性复查，不把空标注当负样本。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 202,
+      "flags": "0001",
+      "reason": "全图及下边界检查无可辨足球；机器人足部的白色/粉色反光属于金属脚，不补成球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 203,
+      "flags": "0001",
+      "reason": "全图及下边界检查无可辨足球；机器人足部的白色/粉色反光属于金属脚，不补成球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 204,
+      "flags": "0001",
+      "reason": "全图及下边界检查无可辨足球；机器人足部的白色/粉色反光属于金属脚，不补成球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 205,
+      "flags": "0001",
+      "reason": "全图及下边界检查无可辨足球；机器人足部的白色/粉色反光属于金属脚，不补成球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 206,
+      "flags": "0001",
+      "reason": "全图及下边界检查无可辨足球；机器人足部的白色/粉色反光属于金属脚，不补成球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 207,
+      "flags": "0001",
+      "reason": "全图及下边界检查无可辨足球；机器人足部的白色/粉色反光属于金属脚，不补成球。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 208,
+      "flags": "0000",
+      "reason": "左下方一个可辨黑白足球，部分图片被下边界裁切；完整球尺度在约 40 像素附近，裁切残部不据此标 Small。鞋靠近但未确认真实球面覆盖，软边与接触保留复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 209,
+      "flags": "0000",
+      "reason": "左下方一个可辨黑白足球，部分图片被下边界裁切；完整球尺度在约 40 像素附近，裁切残部不据此标 Small。鞋靠近但未确认真实球面覆盖，软边与接触保留复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 210,
+      "flags": "0000",
+      "reason": "左下方一个可辨黑白足球，部分图片被下边界裁切；完整球尺度在约 40 像素附近，裁切残部不据此标 Small。鞋靠近但未确认真实球面覆盖，软边与接触保留复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 211,
+      "flags": "0000",
+      "reason": "左下方一个可辨黑白足球，部分图片被下边界裁切；完整球尺度在约 40 像素附近，裁切残部不据此标 Small。鞋靠近但未确认真实球面覆盖，软边与接触保留复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 212,
+      "flags": "0000",
+      "reason": "左下方一个可辨黑白足球，部分图片被下边界裁切；完整球尺度在约 40 像素附近，裁切残部不据此标 Small。鞋靠近但未确认真实球面覆盖，软边与接触保留复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 213,
+      "flags": "0000",
+      "reason": "左下方一个可辨黑白足球，部分图片被下边界裁切；完整球尺度在约 40 像素附近，裁切残部不据此标 Small。鞋靠近但未确认真实球面覆盖，软边与接触保留复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 214,
+      "flags": "0000",
+      "reason": "左下方一个可辨黑白足球，部分图片被下边界裁切；完整球尺度在约 40 像素附近，裁切残部不据此标 Small。鞋靠近但未确认真实球面覆盖，软边与接触保留复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 215,
+      "flags": "0000",
+      "reason": "左下方一个可辨黑白足球，部分图片被下边界裁切；完整球尺度在约 40 像素附近，裁切残部不据此标 Small。鞋靠近但未确认真实球面覆盖，软边与接触保留复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 216,
+      "flags": "0000",
+      "reason": "机器人手/腿/脚交叠遮住近侧地面，局部暗白片段难与机械结构分离，当前帧无法可靠判断球可见性，不补隐藏框也不按空标认定无球。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 217,
+      "flags": "0000",
+      "reason": "机器人手/腿/脚交叠遮住近侧地面，局部暗白片段难与机械结构分离，当前帧无法可靠判断球可见性，不补隐藏框也不按空标认定无球。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 218,
+      "flags": "0000",
+      "reason": "机器人手/腿/脚交叠遮住近侧地面，局部暗白片段难与机械结构分离，当前帧无法可靠判断球可见性，不补隐藏框也不按空标认定无球。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 219,
+      "flags": "0000",
+      "reason": "机器人手/腿/脚交叠遮住近侧地面，局部暗白片段难与机械结构分离，当前帧无法可靠判断球可见性，不补隐藏框也不按空标认定无球。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 222,
+      "flags": "0000",
+      "reason": "机器人手/腿/脚交叠遮住近侧地面，局部暗白片段难与机械结构分离，当前帧无法可靠判断球可见性，不补隐藏框也不按空标认定无球。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 223,
+      "flags": "0000",
+      "reason": "机器人手/腿/脚交叠遮住近侧地面，局部暗白片段难与机械结构分离，当前帧无法可靠判断球可见性，不补隐藏框也不按空标认定无球。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 220,
+      "flags": "0100",
+      "reason": "机器人双腿之间可辨足球，左侧被机器人小腿覆盖；现框含机械腿边缘的程度需复查，不能机械推全球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 221,
+      "flags": "0100",
+      "reason": "机器人双腿之间可辨足球，左侧被机器人小腿覆盖；现框含机械腿边缘的程度需复查，不能机械推全球。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 224,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 225,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 226,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 227,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 228,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 229,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 230,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 231,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 232,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 233,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 234,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 235,
+      "flags": "1100",
+      "reason": "逐幅全图可见两机器人小腿之间被遮挡的黑白球面，完整球尺度为小目标候选；机械腿与球面边缘接近，当前可见部分范围需ROI复核，不推隐藏轮廓。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 236,
+      "flags": "0100",
+      "reason": "机器人腿间有疑似/可辨黑白球面残部，机械腿遮住大部，完整尺度与精确可见边界不可靠；保留原框参考，待ROI确认，残片不能直接判小。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 237,
+      "flags": "0100",
+      "reason": "机器人腿间有疑似/可辨黑白球面残部，机械腿遮住大部，完整尺度与精确可见边界不可靠；保留原框参考，待ROI确认，残片不能直接判小。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 238,
+      "flags": "1000",
+      "reason": "逐幅全图可见机器人右侧/人物鞋前方独立小黑白足球，约33至37px，鞋与球有分隔未遮挡；球纹可辨，前景人物动作不直接算球运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 239,
+      "flags": "1000",
+      "reason": "逐幅全图可见机器人右侧/人物鞋前方独立小黑白足球，约33至37px，鞋与球有分隔未遮挡；球纹可辨，前景人物动作不直接算球运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 240,
+      "flags": "1000",
+      "reason": "逐幅全图可见机器人右侧/人物鞋前方独立小黑白足球，约33至37px，鞋与球有分隔未遮挡；球纹可辨，前景人物动作不直接算球运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 241,
+      "flags": "1000",
+      "reason": "逐幅全图可见机器人右侧/人物鞋前方独立小黑白足球，约33至37px，鞋与球有分隔未遮挡；球纹可辨，前景人物动作不直接算球运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 242,
+      "flags": "1000",
+      "reason": "逐幅全图可见机器人右侧/人物鞋前方独立小黑白足球，约33至37px，鞋与球有分隔未遮挡；球纹可辨，前景人物动作不直接算球运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 243,
+      "flags": "1000",
+      "reason": "逐幅全图可见机器人右侧/人物鞋前方独立小黑白足球，约33至37px，鞋与球有分隔未遮挡；球纹可辨，前景人物动作不直接算球运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 244,
+      "flags": "1000",
+      "reason": "逐幅全图可见机器人右侧/人物鞋前方独立小黑白足球，约33至37px，鞋与球有分隔未遮挡；球纹可辨，前景人物动作不直接算球运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 245,
+      "flags": "1000",
+      "reason": "逐幅全图可见机器人右侧/人物鞋前方独立小黑白足球，约33至37px，鞋与球有分隔未遮挡；球纹可辨，前景人物动作不直接算球运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 246,
+      "flags": "1000",
+      "reason": "逐幅全图可见机器人右侧/人物鞋前方独立小黑白足球，约33至37px，鞋与球有分隔未遮挡；球纹可辨，前景人物动作不直接算球运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 247,
+      "flags": "1000",
+      "reason": "逐幅全图可见机器人右侧/人物鞋前方独立小黑白足球，约33至37px，鞋与球有分隔未遮挡；球纹可辨，前景人物动作不直接算球运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 248,
+      "flags": "1000",
+      "reason": "逐幅全图和ROI可见独立约32px小足球，与鞋和机器人有间隙未遮挡，球纹/轮廓可辨；低像素软边不单独算运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 249,
+      "flags": "1000",
+      "reason": "逐幅全图和ROI可见独立约32px小足球，与鞋和机器人有间隙未遮挡，球纹/轮廓可辨；低像素软边不单独算运动模糊，保留现框。",
+      "scene_certain": true,
+      "action": "keep"
+    },
+    {
+      "local": 232,
+      "flags": "0000",
+      "reason": "全图及现框ROI处于机器人小腿/脚交叠区，只有狭窄灰白残片，不能可靠区分足球球面与机械踝部；保留原候选框作参考，不猜隐藏球也不设无球，待人工可见性复核。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 233,
+      "flags": "0000",
+      "reason": "全图及现框ROI处于机器人小腿/脚交叠区，只有狭窄灰白残片，不能可靠区分足球球面与机械踝部；保留原候选框作参考，不猜隐藏球也不设无球，待人工可见性复核。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 234,
+      "flags": "0000",
+      "reason": "全图及现框ROI处于机器人小腿/脚交叠区，只有狭窄灰白残片，不能可靠区分足球球面与机械踝部；保留原候选框作参考，不猜隐藏球也不设无球，待人工可见性复核。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 235,
+      "flags": "0000",
+      "reason": "全图及现框ROI处于机器人小腿/脚交叠区，只有狭窄灰白残片，不能可靠区分足球球面与机械踝部；保留原候选框作参考，不猜隐藏球也不设无球，待人工可见性复核。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 236,
+      "flags": "0000",
+      "reason": "全图及现框ROI处于机器人小腿/脚交叠区，只有狭窄灰白残片，不能可靠区分足球球面与机械踝部；保留原候选框作参考，不猜隐藏球也不设无球，待人工可见性复核。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 237,
+      "flags": "0000",
+      "reason": "全图及现框ROI处于机器人小腿/脚交叠区，只有狭窄灰白残片，不能可靠区分足球球面与机械踝部；保留原候选框作参考，不猜隐藏球也不设无球，待人工可见性复核。",
+      "scene_certain": false,
+      "action": "needs_visibility_review"
+    },
+    {
+      "local": 238,
+      "flags": "1010",
+      "reason": "单个约34至37px黑白足球可识别，球纹和球边有方向性拖影；人物鞋及机器人与球有间隙未遮挡，现框软边需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 239,
+      "flags": "1010",
+      "reason": "单个约34至37px黑白足球可识别，球纹和球边有方向性拖影；人物鞋及机器人与球有间隙未遮挡，现框软边需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 240,
+      "flags": "1010",
+      "reason": "单个约34至37px黑白足球可识别，球纹和球边有方向性拖影；人物鞋及机器人与球有间隙未遮挡，现框软边需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 241,
+      "flags": "1010",
+      "reason": "单个约34至37px黑白足球可识别，球纹和球边有方向性拖影；人物鞋及机器人与球有间隙未遮挡，现框软边需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 242,
+      "flags": "1010",
+      "reason": "单个约34至37px黑白足球可识别，球纹和球边有方向性拖影；人物鞋及机器人与球有间隙未遮挡，现框软边需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 243,
+      "flags": "1010",
+      "reason": "单个约34至37px黑白足球可识别，球纹和球边有方向性拖影；人物鞋及机器人与球有间隙未遮挡，现框软边需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 244,
+      "flags": "1010",
+      "reason": "单个约34至37px黑白足球可识别，球纹和球边有方向性拖影；人物鞋及机器人与球有间隙未遮挡，现框软边需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    },
+    {
+      "local": 245,
+      "flags": "1010",
+      "reason": "单个约34至37px黑白足球可识别，球纹和球边有方向性拖影；人物鞋及机器人与球有间隙未遮挡，现框软边需人工复核。",
+      "scene_certain": false,
+      "action": "keep"
+    }
+  ],
+  "opened_detail": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/detail-074-079.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/detail-074-075-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/detail-112-113.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/detail-112-113-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/detail-194-199.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/detail-200-207.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/detail-216-223.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/compare-native-n74.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/compare-native-n75.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/compare-native-n112.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-004/group-3/compare-native-n113.png"
+  ],
+  "overrides": {
+    "112": {
+      "action": "needs_manual_bbox_annotation",
+      "flags": "0010",
+      "uncertain": true,
+      "reason": "蓝裤腿之间可辨一颗漏标黑白足球，但强方向性拖影使可见轮廓与阴影边界不可靠；原生对照和网格独立复核后保留拟补坐标于notes，提案转人工定位，不能将空label视为无球。"
+    },
+    "113": {
+      "action": "needs_manual_bbox_annotation",
+      "flags": "0010",
+      "uncertain": true,
+      "reason": "蓝裤腿之间可辨一颗漏标黑白足球，但强方向性拖影使可见轮廓与阴影边界不可靠；原生对照和网格独立复核后保留拟补坐标于notes，提案转人工定位，不能将空label视为无球。"
+    }
+  },
+  "recovery_review": {
+    "inherited_full_pages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ],
+    "inherited_roi_pages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "continued_full_pages": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124
+    ],
+    "continued_roi_pages": [
+      13,
+      14,
+      15
+    ],
+    "independent_native_replace_checks": [
+      74,
+      75,
+      112,
+      113
+    ],
+    "manual_instead_of_soft_candidate": [
+      112,
+      113
+    ]
+  }
+}

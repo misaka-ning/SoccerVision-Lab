@@ -1,0 +1,15 @@
+{
+  "total_rows": 8398,
+  "approved_batch": 1000,
+  "outside_batch_raw_records_unchanged": 7398,
+  "selected_source_and_scene_fields_unchanged": 1000,
+  "all_selected_image_and_label_hashes_unchanged": true,
+  "counts": {
+    "reviewed_annotation": 707,
+    "reviewed_excluded": 21,
+    "negative_confirmed": 272
+  },
+  "label_pending": 0,
+  "scene_pending": 0,
+  "qt_data_tests_passed": 48
+}

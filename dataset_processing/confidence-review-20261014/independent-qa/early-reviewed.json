@@ -1,0 +1,12 @@
+{
+  "actually_opened_pages": [
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/early-00.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/early-01.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/early-02.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/early-03.png",
+    "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/early-04.png"
+  ],
+  "images": 26,
+  "findings": "独立抽核26张原生全景和球框；四条边整体贴合，矩形角背景不当作松框。group-2 n390底边漏球保留正确；n104/768/1020全景无可见球。group-3 n138左边需再原生复核，已转组审核。",
+  "phase": "before combined final decisions"
+}

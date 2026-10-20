@@ -1,0 +1,195 @@
+[
+  {
+    "index": 68,
+    "filename": "video_4bec9c343db72928_frame_00016799_left.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-034.png"
+    ],
+    "assessment": "左边缘切穿球体；O1。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 69,
+    "filename": "video_4bec9c343db72928_frame_00016799_right.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-034.png"
+    ],
+    "assessment": "左边缘只余部分球面；O1。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 148,
+    "filename": "video_4bec9c343db72928_frame_00017095_left.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-074.png"
+    ],
+    "assessment": "底边仅露球上部残片；O1。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 149,
+    "filename": "video_4bec9c343db72928_frame_00017095_right.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-074.png"
+    ],
+    "assessment": "底边切穿球体残片；O1。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 160,
+    "filename": "video_4bec9c343db72928_frame_00017143_left.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-080.png"
+    ],
+    "assessment": "底部球下半轮廓超出图像；O1。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 161,
+    "filename": "video_4bec9c343db72928_frame_00017143_right.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-080.png"
+    ],
+    "assessment": "底部球下轮廓被裁切；O1。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 162,
+    "filename": "video_4bec9c343db72928_frame_00017146_left.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-081.png"
+    ],
+    "assessment": "底边仅露运动球冠；O1。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 163,
+    "filename": "video_4bec9c343db72928_frame_00017146_right.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-081.png"
+    ],
+    "assessment": "底边仅露运动球冠；O1。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 282,
+    "filename": "video_4bec9c343db72928_frame_00017595_left.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-016.png"
+    ],
+    "assessment": "球体或运动球残片被底边切断；O1。运动条纹明显。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 283,
+    "filename": "video_4bec9c343db72928_frame_00017595_right.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-016.png"
+    ],
+    "assessment": "球体或运动球残片被底边切断；O1。运动条纹明显。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 284,
+    "filename": "video_4bec9c343db72928_frame_00017604_left.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-017.png"
+    ],
+    "assessment": "球体或运动球残片被底边切断；O1。运动条纹明显。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 285,
+    "filename": "video_4bec9c343db72928_frame_00017604_right.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-017.png"
+    ],
+    "assessment": "球体或运动球残片被底边切断；O1。运动条纹明显。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 292,
+    "filename": "video_4bec9c343db72928_frame_00017634_left.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-021.png"
+    ],
+    "assessment": "球体或运动球残片被底边切断；O1。运动条纹明显。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 293,
+    "filename": "video_4bec9c343db72928_frame_00017634_right.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-021.png"
+    ],
+    "assessment": "球体或运动球残片被底边切断；O1。运动条纹明显。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 348,
+    "filename": "video_4bec9c343db72928_frame_00017849_left.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-049.png"
+    ],
+    "assessment": "球体或运动球残片被底边切断；O1。运动条纹明显。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 349,
+    "filename": "video_4bec9c343db72928_frame_00017849_right.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-2/full/page-049.png"
+    ],
+    "assessment": "球体或运动球残片被底边切断；O1。运动条纹明显。",
+    "expected_Occluded": "1",
+    "basis": "root_actual_native_full_image_view"
+  },
+  {
+    "index": 704,
+    "filename": "video_4bec9c343db72928_frame_00019182_left.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/full/page-102.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-3/roi/page-017.png"
+    ],
+    "assessment": "旧框距底边约3像素，但原生全景与ROI仍见完整球下圆周及地面间隙，球与鞋明显分离，保留Occluded0。",
+    "expected_Occluded": "0",
+    "basis": "root_actual_native_full_and_ROI_visual_second_pass"
+  },
+  {
+    "index": 98,
+    "filename": "video_4bec9c343db72928_frame_00016905_left.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-049.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/roi/page-004.png"
+    ],
+    "assessment": "原生全景及ROI仍能看到球下部完整软弧与底边约2至3像素间隙，未被截断；保持Occluded0，方向拖影B1。",
+    "expected_Occluded": "0",
+    "basis": "root_actual_native_full_and_ROI_visual_second_pass"
+  },
+  {
+    "index": 99,
+    "filename": "video_4bec9c343db72928_frame_00016905_right.png",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/full/page-049.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-1/roi/page-004.png"
+    ],
+    "assessment": "原生全景及ROI仍能看到球下部完整软弧与底边约2至3像素间隙，未被截断；保持Occluded0，方向拖影B1。",
+    "expected_Occluded": "0",
+    "basis": "root_actual_native_full_and_ROI_visual_second_pass"
+  }
+]

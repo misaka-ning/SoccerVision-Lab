@@ -1,0 +1,1390 @@
+[
+  {
+    "record": {
+      "index": 250,
+      "filename": "frame_002080_left.png",
+      "图片": "frame_002080_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/frame_002080_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/frame_002080_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "f268254cbfe7b0c24251cdae8f3c669377523ad01a11dcf843c970b93c9e6899",
+      "label_sha256": "866d1677f6209907f0623ded76f946895c0ac6d18932f103e4e573a41eb45f38",
+      "label_text": "0 0.60193452 0.74069149 0.06101190 0.11436170\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            383.99999904000003,
+            257.00000064,
+            424.99999584,
+            299.99999984
+          ],
+          "xywhn": [
+            0.60193452,
+            0.74069149,
+            0.0610119,
+            0.1143617
+          ],
+          "raw_line": "0 0.60193452 0.74069149 0.06101190 0.11436170"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "frame_002080_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "reviewed_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "0",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "Native 672×376 full image visually reviewed. Scene flags aggregate visible football instances; image-edge truncation and mere foot contact alone are excluded from Occluded. 新增球框均为待人工审核预标注；请检查漏球、误检及框边界。",
+        "source_video": "",
+        "source_frame_idx": "",
+        "eye": ""
+      },
+      "source_frame_idx": null,
+      "eye": ""
+    },
+    "group": 1,
+    "local": 3,
+    "caption": "{'detail': '门边黄色与白色线旁的蓝白足球完整，星形花纹与外轮廓可分辨，无前景遮挡。', 'scene': 'approve', 'label': 'auto', 'flags': {'Small': '0',"
+  },
+  {
+    "record": {
+      "index": 307,
+      "filename": "frame_002310_right.png",
+      "图片": "frame_002310_right.png",
+      "split": "val",
+      "image_path": "/home/misaka/workspace/datasets/images/val/frame_002310_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/val/frame_002310_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "504f76fcee5368373e4c99677d1ec66b62b687f260812de50f2ad50d50f4d88f",
+      "label_sha256": "5082e6a0b5d089e2ba484464a8de2f0386d24187a26f30723661ee164130fb8f",
+      "label_text": "0 0.40699405 0.96276596 0.09375000 0.07446809\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            242.0000016,
+            348.00000004,
+            305.0000016,
+            376.00000188
+          ],
+          "xywhn": [
+            0.40699405,
+            0.96276596,
+            0.09375,
+            0.07446809
+          ],
+          "raw_line": "0 0.40699405 0.96276596 0.09375000 0.07446809"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "frame_002310_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0",
+        "split": "val",
+        "annotation_status": "reviewed_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "0",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "Football's upper part is visible at the lower image edge. 新增球框均为待人工审核预标注；请检查漏球、误检及框边界。",
+        "source_video": "",
+        "source_frame_idx": "",
+        "eye": ""
+      },
+      "source_frame_idx": null,
+      "eye": ""
+    },
+    "group": 1,
+    "local": 29,
+    "caption": "{'detail': '地板蓝白足球明显斜向运动拖影，下缘两帧裁切；仅图像截断，未见前景遮挡。', 'scene': 'approve', 'label': 'auto', 'flags': None}"
+  },
+  {
+    "record": {
+      "index": 450,
+      "filename": "frame_002857_left.png",
+      "图片": "frame_002857_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/frame_002857_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/frame_002857_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "2f42262784a26e0dcbf5e363752e22cd4a9373b39a93517b0329311d8c13607b",
+      "label_sha256": "531fb3e021f7d39a4868186494dfb28da7f1e2bbae258e8e401a9181a9fea4a2",
+      "label_text": "0 0.68088065 0.83620771 0.07848542 0.14181064\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            431.18069568,
+            287.75369864,
+            483.92289791999997,
+            341.07449928000005
+          ],
+          "xywhn": [
+            0.68088065,
+            0.83620771,
+            0.07848542,
+            0.14181064
+          ],
+          "raw_line": "0 0.68088065 0.83620771 0.07848542 0.14181064"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "frame_002857_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "reviewed_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "0",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "Native 672×376 full image visually reviewed. Scene flags aggregate visible football instances; image-edge truncation and mere foot contact alone are excluded from Occluded. 新增球框均为待人工审核预标注；请检查漏球、误检及框边界。",
+        "source_video": "",
+        "source_frame_idx": "",
+        "eye": ""
+      },
+      "source_frame_idx": null,
+      "eye": ""
+    },
+    "group": 1,
+    "local": 90,
+    "caption": "{'detail': '入口黑地垫前地板有蓝白足球，背光使球暗但拼块接缝可辨，圆形外缘完整，人物与球分离。', 'scene': 'approve', 'label': 'auto', 'flags': None}"
+  },
+  {
+    "record": {
+      "index": 595,
+      "filename": "frame_003400_right.png",
+      "图片": "frame_003400_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/frame_003400_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/frame_003400_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "5b3022d82d6d1e5d096d30e19fbc1a19d6fe42d1b73c13cd83118c0ec218b51b",
+      "label_sha256": "892d7d08eeac3cdeab20489fe946838c37b8065a4dd4a0ba969d1683776ad924",
+      "label_text": "0 0.36532738 0.61037234 0.11160714 0.19946809\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            208.00000031999997,
+            191.99999891999997,
+            282.9999984,
+            267.00000076
+          ],
+          "xywhn": [
+            0.36532738,
+            0.61037234,
+            0.11160714,
+            0.19946809
+          ],
+          "raw_line": "0 0.36532738 0.61037234 0.11160714 0.19946809"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "frame_003400_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "reviewed_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "0",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "Native 672×376 full image visually reviewed. Scene flags aggregate visible football instances; image-edge truncation and mere foot contact alone are excluded from Occluded. 新增球框均为待人工审核预标注；请检查漏球、误检及框边界。",
+        "source_video": "",
+        "source_frame_idx": "",
+        "eye": ""
+      },
+      "source_frame_idx": null,
+      "eye": ""
+    },
+    "group": 1,
+    "local": 184,
+    "caption": "{'detail': '俯视木地板上的蓝白星纹球，球体完整且拼块清楚，鞋在右侧留有间隔，未见遮挡或球体拖影。', 'scene': 'approve', 'label': 'auto', 'flags': None}"
+  },
+  {
+    "record": {
+      "index": 1049,
+      "filename": "frame_005232_right.png",
+      "图片": "frame_005232_right.png",
+      "split": "test",
+      "image_path": "/home/misaka/workspace/datasets/images/test/frame_005232_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/test/frame_005232_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "94937795cc2ae1a1a964ad7557064b89126a06893cf4842c82d70f9f313eac9c",
+      "label_sha256": "87a08217f360eb4007c8da8d692ba809800b7ac44652553c8371e4686fb282f1",
+      "label_text": "0 0.07068452 0.71542553 0.06994048 0.11170213\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            23.999996160000002,
+            247.99999884,
+            70.99999872,
+            289.99999972
+          ],
+          "xywhn": [
+            0.07068452,
+            0.71542553,
+            0.06994048,
+            0.11170213
+          ],
+          "raw_line": "0 0.07068452 0.71542553 0.06994048 0.11170213"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "frame_005232_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "test",
+        "annotation_status": "reviewed_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "0",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "Football is clearly visible on the floor left of the stacked boxes. 新增球框均为待人工审核预标注；请检查漏球、误检及框边界。",
+        "source_video": "",
+        "source_frame_idx": "",
+        "eye": ""
+      },
+      "source_frame_idx": null,
+      "eye": ""
+    },
+    "group": 1,
+    "local": 335,
+    "caption": "{'detail': '大纸箱旁足球明显横向软化，框约46至47 px宽而高37至42 px，Small尺寸与Blurred临界不可靠。', 'scene': 'retain', 'label': 'auto', 'fl"
+  },
+  {
+    "record": {
+      "index": 1864,
+      "filename": "legacy_val_000090.jpg",
+      "图片": "legacy_val_000090.jpg",
+      "split": "val",
+      "image_path": "/home/misaka/workspace/datasets/images/val/legacy_val_000090.jpg",
+      "label_path": "/home/misaka/workspace/datasets/labels/val/legacy_val_000090.txt",
+      "width": 1280,
+      "height": 720,
+      "image_sha256": "cadae80f14afb9a9ef21b8868540606ecff11012d2856924f282336f81036019",
+      "label_sha256": "f062dd26116e321f4d2bf136a4bc9d4ec65fce6e2147bdc312afe9af4dc7d13a",
+      "label_text": "0 0.222266 0.652778 0.392969 0.638889\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            33.00031999999998,
+            240.00011999999995,
+            536.00064,
+            700.0002
+          ],
+          "xywhn": [
+            0.222266,
+            0.652778,
+            0.392969,
+            0.638889
+          ],
+          "raw_line": "0 0.222266 0.652778 0.392969 0.638889"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "legacy_val_000090.jpg",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0",
+        "split": "val",
+        "annotation_status": "provided_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "0",
+        "auto_box_count": "0",
+        "preserved_box_count": "1",
+        "label_review_note": "Audit index 688: native full image and ball ROI inspected. Existing supplied football annotation preserved. Ball pattern/edge shows clear rotational or camera-motion smearing. No clear foreground object covers the ball.",
+        "source_video": "",
+        "source_frame_idx": "",
+        "eye": ""
+      },
+      "source_frame_idx": null,
+      "eye": ""
+    },
+    "group": 1,
+    "local": 488,
+    "caption": "{'detail': '桌面蓝白大球有明显横向运动晃动，部分左边被图像截断，未见前景挡球。', 'scene': 'approve', 'label': 'auto', 'flags': None}"
+  },
+  {
+    "record": {
+      "index": 3968,
+      "filename": "video_4bec9c343db72928_frame_00008693_left.png",
+      "图片": "video_4bec9c343db72928_frame_00008693_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00008693_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00008693_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "31cb609f40bbaf75f38b9817cf43745879a8fca1a48b28afb08ac34c3c1bbf72",
+      "label_sha256": "aa86cd5d3c56f0da4034252c1b7365eb0cfb26e13f6c5c6d7aa0c180de73150a",
+      "label_text": "0 0.644354539 0.928762367 0.054806399 0.108270479\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            414.59130014399994,
+            328.85979994,
+            451.42120027199996,
+            369.569500044
+          ],
+          "xywhn": [
+            0.644354539,
+            0.928762367,
+            0.054806399,
+            0.108270479
+          ],
+          "raw_line": "0 0.644354539 0.928762367 0.054806399 0.108270479"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00008693_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "8693",
+        "eye": "left"
+      },
+      "source_frame_idx": 8693,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 0,
+    "caption": "{'decision': 'retain', 'reason': '球最长边接近40px判定线；图中尺寸/模糊外沿使Small临界不能可靠定。', 'flags': {'Small': '0', 'Occluded': "
+  },
+  {
+    "record": {
+      "index": 4067,
+      "filename": "video_4bec9c343db72928_frame_00009065_right.png",
+      "图片": "video_4bec9c343db72928_frame_00009065_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009065_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00009065_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "c7e49b8e6c72eccae6d56954dc6adc99d21bcfa70001974008fd47980af6504b",
+      "label_sha256": "4e445767116e1fcc289dc93e88f07b53a94a72571fb41b3461c4db95ce6bf56f",
+      "label_text": "0 0.763806622 0.769880851 0.038859077 0.064970745\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            500.2214001120001,
+            277.260699916,
+            526.334699856,
+            301.689700036
+          ],
+          "xywhn": [
+            0.763806622,
+            0.769880851,
+            0.038859077,
+            0.064970745
+          ],
+          "raw_line": "0 0.763806622 0.769880851 0.038859077 0.064970745"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00009065_right.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "9065",
+        "eye": "right"
+      },
+      "source_frame_idx": 9065,
+      "eye": "right"
+    },
+    "group": 2,
+    "local": 99,
+    "caption": "{'decision': 'approve', 'reason': '全景见单个地面黑白足球，没有第二个可见球；完整尺寸属Small，无明显整图或球运动拖影，未见前景跨过球。', 'flags': {'Small': '"
+  },
+  {
+    "record": {
+      "index": 4246,
+      "filename": "video_4bec9c343db72928_frame_00009819_left.png",
+      "图片": "video_4bec9c343db72928_frame_00009819_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009819_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00009819_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "a5ae1902e9993c0b6ded5731c995628c408e888fece25b04caf0ca693c4e5797",
+      "label_sha256": "ed10e8d0a1dc30ddd6c4a9565d502394a448d898f1ef33f7c512bf4203d1f905",
+      "label_text": "0 0.451730506 0.743340691 0.032736012 0.060184043\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            292.5636,
+            268.181499732,
+            314.56220006399997,
+            290.81069990000003
+          ],
+          "xywhn": [
+            0.451730506,
+            0.743340691,
+            0.032736012,
+            0.060184043
+          ],
+          "raw_line": "0 0.451730506 0.743340691 0.032736012 0.060184043"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00009819_left.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "9819",
+        "eye": "left"
+      },
+      "source_frame_idx": 9819,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 178,
+    "caption": "{'decision': 'approve', 'reason': '全景见单个地面黑白足球，没有第二个可见球；完整尺寸属Small，无明显整图或球运动拖影，未见前景跨过球。', 'flags': {'Small': '"
+  },
+  {
+    "record": {
+      "index": 4411,
+      "filename": "video_4bec9c343db72928_frame_00010469_right.png",
+      "图片": "video_4bec9c343db72928_frame_00010469_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00010469_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00010469_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "fd5cb79ae0bd177bc57eae9cfd8d690dde0caca02915f4a107fd29b9b12df6d2",
+      "label_sha256": "d92ba6953c854009cd2aca289ce53c14251c19a39b4d383da705d99b2a261bbf",
+      "label_text": "0 0.556942485 0.767530851 0.038251637 0.070342553\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            361.41279988800005,
+            275.367200012,
+            387.11789995199996,
+            301.81599994
+          ],
+          "xywhn": [
+            0.556942485,
+            0.767530851,
+            0.038251637,
+            0.070342553
+          ],
+          "raw_line": "0 0.556942485 0.767530851 0.038251637 0.070342553"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00010469_right.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "10469",
+        "eye": "right"
+      },
+      "source_frame_idx": 10469,
+      "eye": "right"
+    },
+    "group": 2,
+    "local": 343,
+    "caption": "{'decision': 'approve', 'reason': '全景见单个地面黑白足球，未见多球；原生长边672下球体属Small，未见球体被前景覆盖或明显拖影。', 'flags': {'Small': '1',"
+  },
+  {
+    "record": {
+      "index": 4638,
+      "filename": "video_4bec9c343db72928_frame_00011323_left.png",
+      "图片": "video_4bec9c343db72928_frame_00011323_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00011323_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00011323_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "029bed2133d0249b523fc2ced2742f135f67e315a71ac48af7e7bfcda7cce114",
+      "label_sha256": "832edd8b1eebe745ed2d50480e9159b2601dcfd2ecb465500d1bb38fd6571aa0",
+      "label_text": "0 0.449817708 0.603444016 0.083525893 0.146911968\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            274.212799728,
+            199.275500032,
+            330.342199824,
+            254.51439999999997
+          ],
+          "xywhn": [
+            0.449817708,
+            0.603444016,
+            0.083525893,
+            0.146911968
+          ],
+          "raw_line": "0 0.449817708 0.603444016 0.083525893 0.146911968"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00011323_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "11323",
+        "eye": "left"
+      },
+      "source_frame_idx": 11323,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 524,
+    "caption": "{'decision': 'approve', 'reason': '逐图全景只有一个足球，完整尺寸显著超过40px；未见第二个球、前景遮挡或明显球/整图运动拖影。', 'flags': {'Small': '0', '"
+  },
+  {
+    "record": {
+      "index": 4753,
+      "filename": "video_4bec9c343db72928_frame_00011745_right.png",
+      "图片": "video_4bec9c343db72928_frame_00011745_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00011745_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00011745_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "5e72f0682edb8a615a5c20cf3ae6c802993c49f304b64b57fe80aa9de2ab9d4a",
+      "label_sha256": "a55ab79302e818f01a1a2de31ca7ac943ec4e2bb9a2c3c07f7b2318f336dac43",
+      "label_text": "0 0.337428423 0.502706117 0.027533631 0.049114362\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            217.50060024,
+            179.78399993600001,
+            236.00320027199996,
+            198.251000048
+          ],
+          "xywhn": [
+            0.337428423,
+            0.502706117,
+            0.027533631,
+            0.049114362
+          ],
+          "raw_line": "0 0.337428423 0.502706117 0.027533631 0.049114362"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00011745_right.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "11745",
+        "eye": "right"
+      },
+      "source_frame_idx": 11745,
+      "eye": "right"
+    },
+    "group": 2,
+    "local": 599,
+    "caption": "{'decision': 'approve', 'reason': '原生全景/ROI见完整地面小足球，实际最长边约18–35px，显著小于40px；无遮挡。', 'flags': {'Small': '1', 'Occ"
+  },
+  {
+    "record": {
+      "index": 4902,
+      "filename": "video_4bec9c343db72928_frame_00012312_left.png",
+      "图片": "video_4bec9c343db72928_frame_00012312_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00012312_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00012312_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "7beae7b87abffd34d3275a55b8fb6c71ef007da7959d9d62b4194bcf10bebaf9",
+      "label_sha256": "b12f41d511eea5569a020c9a0060ff92ec3fd8fef4a0eb8db338d281a267acd9",
+      "label_text": "0 0.487074926 0.726378989 0.101006101 0.185115957\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            293.37630033600004,
+            238.31669994799998,
+            361.25240020800004,
+            307.92029978
+          ],
+          "xywhn": [
+            0.487074926,
+            0.726378989,
+            0.101006101,
+            0.185115957
+          ],
+          "raw_line": "0 0.487074926 0.726378989 0.101006101 0.185115957"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00012312_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "12312",
+        "eye": "left"
+      },
+      "source_frame_idx": 12312,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 718,
+    "caption": "{'decision': 'approve', 'reason': '全景只有一个可见足球，没有花纹重复球或背景漏球；完整尺寸和遮挡/模糊按逐框ROI核对。', 'flags': {'Small': '0', 'Occl"
+  },
+  {
+    "record": {
+      "index": 5354,
+      "filename": "video_4bec9c343db72928_frame_00014063_left.png",
+      "图片": "video_4bec9c343db72928_frame_00014063_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014063_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00014063_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "f93c9a65515154229b5bc8b8c6843992c82027800717dc80f7f06b9442752e51",
+      "label_sha256": "0b45a4feb956581b03501355d34dfe20e4234198aafe6b4d905568a7f350b785",
+      "label_text": "0 0.160611682 0.753503723 0.034440625 0.056142021\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            96.359000304,
+            272.7626999,
+            119.503100304,
+            293.87209979600004
+          ],
+          "xywhn": [
+            0.160611682,
+            0.753503723,
+            0.034440625,
+            0.056142021
+          ],
+          "raw_line": "0 0.160611682 0.753503723 0.034440625 0.056142021"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00014063_left.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "14063",
+        "eye": "left"
+      },
+      "source_frame_idx": 14063,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 1094,
+    "caption": "{'decision': 'approve', 'reason': '全景見單個地面小足球，完整長邊672下尺寸小于40px；未見第二可見球，沒有明顯球體或整圖拖影。', 'flags': {'Small': '1', "
+  },
+  {
+    "record": {
+      "index": 4072,
+      "filename": "video_4bec9c343db72928_frame_00009087_left.png",
+      "图片": "video_4bec9c343db72928_frame_00009087_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009087_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00009087_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "a7e7040ed17c9fea84e473f2876f87756f7218ef41a2b54885429ca45b8a44fb",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "label_text": "",
+      "boxes": [],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00009087_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "0",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。 2026-10-14 框边界审核：原框实际为机器人鞋；原生图中未见可靠可框足球，移除该明确误框；空标注仍需人工复核可见性。 来源：全景与ROI全量审核后，原生672×376像素人工核对；inventory index=4072；原图=/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00009087_left.png；原框SHA256=d007181414851ba3f981870618589bd9178cc92d3622b2853486f77c0fac0ad4；原状态=auto_label_needs_review；助手修正候选框，需人工复核。 已移除明确误框，当前空label与No Ball=0需要人工核对；保留最新分类值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "9087",
+        "eye": "left"
+      },
+      "source_frame_idx": 9087,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 104,
+    "caption": "{'decision': 'approve', 'reason': '逐图全景及原生补核只见机器人、人物、摆件和地面，未见可见足球；空label可确认为无球。', 'flags': {'Small': '0', 'Occ"
+  },
+  {
+    "record": {
+      "index": 4458,
+      "filename": "video_4bec9c343db72928_frame_00010644_left.png",
+      "图片": "video_4bec9c343db72928_frame_00010644_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00010644_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00010644_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "b666946ae22e4e7f308ead2ad048844bea9070d15d99965dbee734b84ffe4118",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "label_text": "",
+      "boxes": [],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00010644_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "needs_manual_bbox_annotation",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "0",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 当前预计可见1个球，仅有0个框，需重点检查并补齐漏框。 未生成可靠框；label缺失表示待审核，不是无球空标注。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "10644",
+        "eye": "left"
+      },
+      "source_frame_idx": 10644,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 390,
+    "caption": "{'decision': 'retain', 'reason': '原生全图最下缘露出带黑白纹足球弧面，当前空label漏掉裁边球，需补框。', 'flags': {'Small': '0', 'Occluded': '"
+  },
+  {
+    "record": {
+      "index": 5028,
+      "filename": "video_4bec9c343db72928_frame_00012789_left.png",
+      "图片": "video_4bec9c343db72928_frame_00012789_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00012789_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00012789_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "0b200af19aea1483f45aa944d94f5c914058d5c2ae14453480ad42b4f0cab6b4",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "label_text": "",
+      "boxes": [],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00012789_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "needs_visibility_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "0",
+        "preserved_box_count": "0",
+        "label_review_note": "足球可能完全遮挡、出画或远处细节不能确认；不作无球负样本。 未生成可靠框；label缺失表示待审核，不是无球空标注。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "12789",
+        "eye": "left"
+      },
+      "source_frame_idx": 12789,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 768,
+    "caption": "{'decision': 'approve', 'reason': '逐张672原生全图确认地面、人物脚边、机器人/器械及四周画面边缘没有可见足球；白色地面标记和摆件不是球，空label可确认无球。', 'flags':"
+  },
+  {
+    "record": {
+      "index": 5280,
+      "filename": "video_4bec9c343db72928_frame_00013788_left.png",
+      "图片": "video_4bec9c343db72928_frame_00013788_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00013788_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00013788_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "d36dcb576dd2aac26ff5c06a604b81693bdc50d369acd21d534574290b9c927a",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "label_text": "",
+      "boxes": [],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00013788_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "needs_visibility_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "0",
+        "preserved_box_count": "0",
+        "label_review_note": "足球可能完全遮挡、出画或远处细节不能确认；不作无球负样本。 未生成可靠框；label缺失表示待审核，不是无球空标注。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "13788",
+        "eye": "left"
+      },
+      "source_frame_idx": 13788,
+      "eye": "left"
+    },
+    "group": 2,
+    "local": 1020,
+    "caption": "{'decision': 'approve', 'reason': '逐张672原生全图确认地面、人物脚边、机器人/器械及四周画面边缘没有可见足球；白色地面标记和摆件不是球，空label可确认无球。', 'flags':"
+  },
+  {
+    "record": {
+      "index": 5880,
+      "filename": "video_4bec9c343db72928_frame_00016051_left.png",
+      "图片": "video_4bec9c343db72928_frame_00016051_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00016051_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00016051_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "c9dd9fb9581a36112a6ddbe65c6915ee3a4d74a76d8d20c24fd531d8a1756edf",
+      "label_sha256": "0501aed87afa80748765c2505309dff51b547680e028df96dfd67f392be293ca",
+      "label_text": "0 0.339137426 0.446769814 0.030220685 0.054423670\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            217.74620011200003,
+            157.753800104,
+            238.054500432,
+            178.217100024
+          ],
+          "xywhn": [
+            0.339137426,
+            0.446769814,
+            0.030220685,
+            0.05442367
+          ],
+          "raw_line": "0 0.339137426 0.446769814 0.030220685 0.054423670"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00016051_left.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "逐页检查场景；框与尺寸初分仍待人工审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "16051",
+        "eye": "left"
+      },
+      "source_frame_idx": 16051,
+      "eye": "left"
+    },
+    "group": 3,
+    "local": 2,
+    "caption": "agent: clear ball outline, positive approval suggested"
+  },
+  {
+    "record": {
+      "index": 6119,
+      "filename": "video_4bec9c343db72928_frame_00016984_right.png",
+      "图片": "video_4bec9c343db72928_frame_00016984_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00016984_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00016984_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "244258479e06d8e43f186037754503095b14bbb078e0c1153fd53f078a8d21a8",
+      "label_sha256": "482a428860d85b596c3f9cf08a0c11daf82f34bf3bf8a2004149e1742130b351",
+      "label_text": "0 0.238137202 0.517199335 0.111740179 0.175948670\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            122.4834996,
+            161.3886,
+            197.572899888,
+            227.54529992
+          ],
+          "xywhn": [
+            0.238137202,
+            0.517199335,
+            0.111740179,
+            0.17594867
+          ],
+          "raw_line": "0 0.238137202 0.517199335 0.111740179 0.175948670"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00016984_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "近处足球大于40px，无明确遮挡；背景器械/鞋的额外误框拒绝，球框待审核。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "16984",
+        "eye": "right"
+      },
+      "source_frame_idx": 16984,
+      "eye": "right"
+    },
+    "group": 3,
+    "local": 138,
+    "caption": "agent: clear ball outline, positive approval suggested"
+  },
+  {
+    "record": {
+      "index": 6413,
+      "filename": "video_4bec9c343db72928_frame_00018087_right.png",
+      "图片": "video_4bec9c343db72928_frame_00018087_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00018087_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00018087_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "5ae52a731f2bff312ac9d8563c474c312b1ad67b2effca163b6f84c1f3f7facb",
+      "label_sha256": "802200285ff4ee061f214c9c650383ec0bb3a9211e6413c015a493e824a6f708",
+      "label_text": "0 0.512257813 0.740164761 0.137403423 0.259195479\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            298.069700208,
+            229.57320008399998,
+            390.404800464,
+            327.03070018799997
+          ],
+          "xywhn": [
+            0.512257813,
+            0.740164761,
+            0.137403423,
+            0.259195479
+          ],
+          "raw_line": "0 0.512257813 0.740164761 0.137403423 0.259195479"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00018087_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "单球地面场景；人物腿/机器人不是足球，模型框待人工审。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "18087",
+        "eye": "right"
+      },
+      "source_frame_idx": 18087,
+      "eye": "right"
+    },
+    "group": 3,
+    "local": 328,
+    "caption": "agent: clear ball outline, positive approval suggested"
+  },
+  {
+    "record": {
+      "index": 6567,
+      "filename": "video_4bec9c343db72928_frame_00018667_right.png",
+      "图片": "video_4bec9c343db72928_frame_00018667_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00018667_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00018667_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "4b1f0ede391df97d96c4268a7df6e92be8925e770a6fb326669186981eb48c46",
+      "label_sha256": "3edce41c44f1815d3baea0d16dbd4d192789539379bd5b4a6358c7184cb3dabc",
+      "label_text": "0 0.535437946 0.487726463 0.073968750 0.136660372\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            334.96079971200004,
+            157.693000152,
+            384.66779971200003,
+            209.07730002399998
+          ],
+          "xywhn": [
+            0.535437946,
+            0.487726463,
+            0.07396875,
+            0.136660372
+          ],
+          "raw_line": "0 0.535437946 0.487726463 0.073968750 0.136660372"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00018667_right.png",
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "1",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "黄色裤腿附近单个足球；白色平面纸片不是球，尺寸/接触边界保留场景待审。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "18667",
+        "eye": "right"
+      },
+      "source_frame_idx": 18667,
+      "eye": "right"
+    },
+    "group": 3,
+    "local": 452,
+    "caption": "agent: clear ball outline, positive approval suggested"
+  },
+  {
+    "record": {
+      "index": 6794,
+      "filename": "video_4bec9c343db72928_frame_00019518_left.png",
+      "图片": "video_4bec9c343db72928_frame_00019518_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00019518_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00019518_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "4aafb08df756ee1aa8deece8ad0428101d6c042e296142f28f2f14252d012968",
+      "label_sha256": "1b82d84df0089f2492e1d47f911d25957fde0ac6f46676f7d8e38d0e36258e9d",
+      "label_text": "0 0.566559821 0.472175931 0.095158631 0.163991755\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            348.75489969600005,
+            146.707700116,
+            412.701499728,
+            208.368599996
+          ],
+          "xywhn": [
+            0.566559821,
+            0.472175931,
+            0.095158631,
+            0.163991755
+          ],
+          "raw_line": "0 0.566559821 0.472175931 0.095158631 0.163991755"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00019518_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "单球地面；19556原生鞋实际遮挡球上缘，19609下缘可见性待审。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "19518",
+        "eye": "left"
+      },
+      "source_frame_idx": 19518,
+      "eye": "left"
+    },
+    "group": 3,
+    "local": 609,
+    "caption": "agent: clear ball outline, positive approval suggested"
+  },
+  {
+    "record": {
+      "index": 6923,
+      "filename": "video_4bec9c343db72928_frame_00020004_right.png",
+      "图片": "video_4bec9c343db72928_frame_00020004_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00020004_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00020004_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "02011d1b2a2d57dfdd750221efeb7e049c6fc07944ad2dc6b87e46bf84334f3f",
+      "label_sha256": "f138ea3b2fa040f9157b14d812c43f6a4e05fb79593908d17e566ba76dc94dbf",
+      "label_text": "0 0.588168601 0.650707447 0.107067560 0.182269681\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            359.27459971200005,
+            210.39930004400003,
+            431.224000032,
+            278.93270010000003
+          ],
+          "xywhn": [
+            0.588168601,
+            0.650707447,
+            0.10706756,
+            0.182269681
+          ],
+          "raw_line": "0 0.588168601 0.650707447 0.107067560 0.182269681"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00020004_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "单球地面；19935原生球轮廓完整，身体/机器人背景假框排除，尺寸阈值待审。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "20004",
+        "eye": "right"
+      },
+      "source_frame_idx": 20004,
+      "eye": "right"
+    },
+    "group": 3,
+    "local": 738,
+    "caption": "agent: clear ball outline, positive approval suggested"
+  },
+  {
+    "record": {
+      "index": 7144,
+      "filename": "video_4bec9c343db72928_frame_00020840_left.png",
+      "图片": "video_4bec9c343db72928_frame_00020840_left.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00020840_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00020840_left.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "0f6793c3b5f5da52ecf83bdcff2c46d1f2fe344bae242b002a8c790a5980de5d",
+      "label_sha256": "c013cd698319adfb7d10377a2c3aeaea0a92417871af4957e1ffa6438c72c3d3",
+      "label_text": "0 0.409741815 0.533731250 0.075915179 0.138077926\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            249.83899953600002,
+            174.724299912,
+            300.853999824,
+            226.641600088
+          ],
+          "xywhn": [
+            0.409741815,
+            0.53373125,
+            0.075915179,
+            0.138077926
+          ],
+          "raw_line": "0 0.409741815 0.533731250 0.075915179 0.138077926"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00020840_left.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "可见一只足球；仅采纳足球框，排除器材、鞋和墙面误框。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "20840",
+        "eye": "left"
+      },
+      "source_frame_idx": 20840,
+      "eye": "left"
+    },
+    "group": 3,
+    "local": 901,
+    "caption": "agent: clear ball outline, positive approval suggested"
+  },
+  {
+    "record": {
+      "index": 7295,
+      "filename": "video_4bec9c343db72928_frame_00021404_right.png",
+      "图片": "video_4bec9c343db72928_frame_00021404_right.png",
+      "split": "train",
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00021404_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00021404_right.txt",
+      "width": 672,
+      "height": 376,
+      "image_sha256": "07cf34fa8517f6acbf26b37163c2779e0ad1d1ba77ff7616081fd00dfadcc1ad",
+      "label_sha256": "7acd7c4cc94843c4176fb6ad491663012395a1b016963b01bcfcfced87cc2741",
+      "label_text": "0 0.462047098 0.696948271 0.101431696 0.188974734\n",
+      "boxes": [
+        {
+          "box_index": 0,
+          "xyxy": [
+            276.4146,
+            226.52529990399998,
+            344.57669971199994,
+            297.579799888
+          ],
+          "xywhn": [
+            0.462047098,
+            0.696948271,
+            0.101431696,
+            0.188974734
+          ],
+          "raw_line": "0 0.462047098 0.696948271 0.101431696 0.188974734"
+        }
+      ],
+      "parse_errors": [],
+      "meta": {
+        "图片": "video_4bec9c343db72928_frame_00021404_right.png",
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0",
+        "split": "train",
+        "annotation_status": "auto_label_needs_review",
+        "scene_review_required": "0",
+        "label_review_required": "1",
+        "auto_box_count": "1",
+        "preserved_box_count": "0",
+        "label_review_note": "可见一只足球；仅采纳足球框，排除器材、鞋和墙面误框。 所有新框均为待审核候选，不是人工真值。",
+        "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+        "source_frame_idx": "21404",
+        "eye": "right"
+      },
+      "source_frame_idx": 21404,
+      "eye": "right"
+    },
+    "group": 3,
+    "local": 1032,
+    "caption": "agent: clear ball outline, positive approval suggested"
+  }
+]

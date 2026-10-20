@@ -1,0 +1,176 @@
+{
+  "started_at_utc": "2026-10-19T03:41:27.212733+00:00",
+  "finished_at_utc": "2026-10-19T03:42:18.317259+00:00",
+  "elapsed_seconds": 51.104530192009406,
+  "implementation": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/scripts/inventory_audit.py",
+  "runtime": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "numpy": "2.2.6",
+    "opencv": "4.11.0",
+    "pillow": "12.3.0",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "nice": 10,
+    "cv2_threads": 1,
+    "OMP_NUM_THREADS": "1"
+  },
+  "source_hashes_before": {
+    "/home/misaka/workspace/datasets/metadata.csv": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9",
+    "/home/misaka/workspace/datasets/dataset.yaml": "7781d543cc43364f2a2598ff596adb05a8e80b4547af40195665565a8eef05b6",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/source-metadata.csv": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9",
+    "/home/misaka/workspace/dataset_processing/batch-review-20261016/review-policy.json": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33",
+    "/home/misaka/workspace/dataset_processing/batch-review-20261016/final-statistics-20261019/REPORT.md": "b02b0dac018cd36ee76de6c2301afeae96fe5fbfcac16f4993ef08e11c63976f"
+  },
+  "source_hashes_after": {
+    "/home/misaka/workspace/datasets/metadata.csv": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9",
+    "/home/misaka/workspace/datasets/dataset.yaml": "7781d543cc43364f2a2598ff596adb05a8e80b4547af40195665565a8eef05b6",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/data/source-metadata.csv": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9",
+    "/home/misaka/workspace/dataset_processing/batch-review-20261016/review-policy.json": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33",
+    "/home/misaka/workspace/dataset_processing/batch-review-20261016/final-statistics-20261019/REPORT.md": "b02b0dac018cd36ee76de6c2301afeae96fe5fbfcac16f4993ef08e11c63976f"
+  },
+  "source_hashes_unchanged": true,
+  "definition_usable": "image and label valid; label_review_required=scene_review_required=0; reviewed_annotation + valid nonempty class0 label + No Ball=0 OR negative_confirmed + valid empty label + No Ball=1; reviewed_excluded always excluded",
+  "full_decode_method": "read bytes once, PIL.Image.open(BytesIO).load(), convert RGB; all metadata images scanned; no verify-only substitution",
+  "pixel_sha256_definition": "SHA256(big endian uint32 width + uint32 height + decoded RGB row-major bytes); no EXIF orientation transposition",
+  "phash_definition": "OpenCV RGB2GRAY, INTER_AREA resize32x32, float32 cv2.dct, upperleft8x8 coefficients > median of63 coefficients excludingDC; all64 bits includingDC; row-major top-left is most significant bit; 16 lowercase hex",
+  "dhash_definition": "OpenCV RGB2GRAY, INTER_AREA resize9x8; compare right pixel > left pixel; row-major64 booleans, first is most significant bit;16 lowercase hex",
+  "gray_npz_definition": "gray uint8[N,72,128]; indices int32 arange(N); metadata order; RGB2GRAY then INTER_AREA resize128x72, no crop or geometric alignment; aspect ratio slightly stretched for672x376; SSIM on these thumbnails is candidate evidence only and cannot prove semantic duplication",
+  "thresholds": {
+    "YOLO_boundary_tolerance": 1e-06,
+    "tiny_bbox": "min native side<2px or native area<4px2",
+    "duplicate_bbox_IoU": 0.9,
+    "blank": "gray std<2 OR entropy<0.5bit OR black(gray<=5)>0.99 OR white(gray>=250)>0.99",
+    "Small_risk": "only Occluded=0; Small1 and anybox_longside672>50, or Small0 and allbox_longside672<30; not error verdict",
+    "Occluded_risk": "No automatic judgment; Occluded0 with box near boundary<0.002 is visual candidate only",
+    "Blurred": "No automatic judgment from global sharpness; human interpretation of directional ball/camera motion required"
+  },
+  "policy": {
+    "effective_from_batch": 5,
+    "effective_date": "2026-10-16",
+    "authority": "用户：之后注意如果在边缘被挡了一半的也算是遮挡，没有标出label框的标注为无球",
+    "Occluded": "明确前景遮挡、足球被画面边缘截断（包括只露半球）均为1；单纯贴近但未覆盖不算。",
+    "No Ball": "以本轮预审最终label为准：0个球框为1；保留或补上至少1个球框为0。缺失label须补空文件；No Ball仅代表本项目分类口径，不自动通过审核。",
+    "Small": "按完整足球尺度折算到图像长边672后约40像素判断，不能用大球残片尺寸当完整小球。",
+    "Blurred": "足球或相机有可辨方向性运动拖影为1，低像素软化和单独脚部运动不自动记。",
+    "review": "每批预审仍保留label_review_required=1和scene_review_required=1，需用户复查；已确认的前4批不追溯重写。"
+  },
+  "counts": {
+    "metadata": 8398,
+    "physical_images": 8398,
+    "physical_labels": 8398,
+    "image_full_decode_success": 8398,
+    "label_valid": 8394,
+    "usable": 8148,
+    "excluded": 250,
+    "usable_positive": 5220,
+    "usable_negative": 2928,
+    "usable_boxes": 5417,
+    "all_parsed_boxes": 5468,
+    "all_valid_boxes": 5464,
+    "issues": 6271
+  },
+  "physical_mapping": {
+    "missing_images": [],
+    "missing_labels": [],
+    "orphan_images": [],
+    "orphan_labels": [],
+    "metadata_duplicate_filenames": {},
+    "metadata_duplicate_split_filename": {},
+    "image_symlinks": [],
+    "label_symlinks": [],
+    "directory_symlinks": [],
+    "image_hardlink_index_groups": [],
+    "label_hardlink_index_groups": [],
+    "metadata_duplicate_label_paths": {}
+  },
+  "file_sha_duplicate_index_groups": [],
+  "pixel_sha_duplicate_index_groups": [],
+  "resolutions": {
+    "672x376": 7869,
+    "1280x720": 528,
+    "1920x1080": 1
+  },
+  "formats": {
+    "PNG": 7684,
+    "JPEG": 714
+  },
+  "statuses": {
+    "negative_confirmed": 2928,
+    "reviewed_annotation": 5220,
+    "reviewed_excluded": 250
+  },
+  "issues_by_type": {
+    "historical_box_count_difference": 5546,
+    "excluded_in_raw_training_directory": 250,
+    "Small_large_box_risk": 49,
+    "Occluded_boundary_quality_candidate": 199,
+    "label_format_or_geometry": 4,
+    "Small_small_box_risk": 9,
+    "excluded_NoBall_label_context": 214
+  },
+  "label_error_files": [
+    {
+      "index": 137,
+      "image_path": "/home/misaka/workspace/datasets/images/train/frame_001674_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/frame_001674_right.txt",
+      "errors": [
+        "line 1: bbox corners outside [0,1]"
+      ]
+    },
+    {
+      "index": 657,
+      "image_path": "/home/misaka/workspace/datasets/images/train/frame_003650_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/frame_003650_right.txt",
+      "errors": [
+        "line 1: bbox corners outside [0,1]"
+      ]
+    },
+    {
+      "index": 2924,
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00004643_left.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00004643_left.txt",
+      "errors": [
+        "line 1: bbox corners outside [0,1]"
+      ]
+    },
+    {
+      "index": 3709,
+      "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007724_right.png",
+      "label_path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00007724_right.txt",
+      "errors": [
+        "line 1: bbox corners outside [0,1]"
+      ]
+    }
+  ],
+  "blank_candidate_indices": [],
+  "aggregate_hashes": {
+    "image_sha_manifest": "9083b726c04a78aa7f6f586a5fd3c0e6672efef1e908028e99b400bd0b4989d6",
+    "label_sha_manifest": "90bfa38ba5b16238b3bbb253e3db7e91169b1a98a268254ba75ccc33219cbe9c",
+    "pixel_sha_manifest": "010facd3c09bfe6c9a49bfff29c8e336994c76b19980a51aae0298f6b41a3d62",
+    "physical_inventory_sha256": "77f9084ab1bcc6ef37ebbd8a17316bca4575e5b2f41b6d9bf2323874968cdc34"
+  },
+  "read_only_evidence": "source metadata/YAML/policy/report hashes before and after equal; all original image and label content hashes recorded; script opens canonical data only for reading; no model loaded; no training or production inference",
+  "limitations": [
+    "No manual semantic judgment from image statistics",
+    "Occluded and Blurred need visual interpretation under project policy",
+    "Historical box counts can differ after human review and do not imply an annotation error",
+    "Boundary-invalid labels remain preserved and excluded; parsed box count differs from valid box count",
+    "Read-only audit checks hashes; it does not make a training loader safe by itself"
+  ],
+  "excluded_NoBall_label_context": {
+    "NoBall0_empty_label_uncertain_excluded": 205,
+    "NoBall0_nonempty_label_still_excluded": 35,
+    "invalid_label_preserved_reference": 4,
+    "NoBall1_nonempty_label_excluded_conflict": 6
+  },
+  "excluded_valid_label_statistics": {
+    "valid_nonempty_files": 41,
+    "valid_empty_files": 205,
+    "invalid_files": 4
+  },
+  "reporting_enriched_at_utc": "2026-10-19T03:43:23.636804+00:00",
+  "implementation_sha256": "419efffa81b546608b7e8e5ed879fd7ffe3620bd8dbc96ce482b63a951e057aa",
+  "feature_artifact_sha256": {
+    "data/inventory.json": "c88924426077933d3e1e4fafbed80623ec9853cf8cdc929226548e53898b6111",
+    "data/gray128x72.npz": "41e2d0bb4878db6c063fb5d98e04a208dc86352b2513e5b0d7770860c645b958"
+  }
+}

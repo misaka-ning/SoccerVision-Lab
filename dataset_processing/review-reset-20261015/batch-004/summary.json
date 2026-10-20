@@ -1,0 +1,82 @@
+{
+  "images": 1000,
+  "boxes": 797,
+  "full_pages": 500,
+  "roi_pages": 101,
+  "groups": [
+    {
+      "group": 1,
+      "images": 250,
+      "boxes": 190,
+      "full_pages": 125,
+      "roi_pages": 24,
+      "actions": {
+        "keep": 223,
+        "replace": 7,
+        "needs_manual_bbox_annotation": 5,
+        "needs_visibility_review": 15
+      },
+      "uncertain": 78
+    },
+    {
+      "group": 2,
+      "images": 250,
+      "boxes": 288,
+      "full_pages": 125,
+      "roi_pages": 36,
+      "actions": {
+        "keep": 211,
+        "replace": 1,
+        "needs_visibility_review": 38
+      },
+      "uncertain": 83
+    },
+    {
+      "group": 3,
+      "images": 250,
+      "boxes": 124,
+      "full_pages": 125,
+      "roi_pages": 16,
+      "actions": {
+        "keep": 223,
+        "replace": 2,
+        "needs_manual_bbox_annotation": 2,
+        "needs_visibility_review": 23
+      },
+      "uncertain": 103
+    },
+    {
+      "group": 4,
+      "images": 250,
+      "boxes": 195,
+      "full_pages": 125,
+      "roi_pages": 25,
+      "actions": {
+        "keep": 197,
+        "needs_visibility_review": 37,
+        "replace": 10,
+        "needs_manual_bbox_annotation": 6
+      },
+      "uncertain": 171
+    }
+  ],
+  "actions": {
+    "keep": 854,
+    "replace": 20,
+    "needs_manual_bbox_annotation": 13,
+    "needs_visibility_review": 113
+  },
+  "uncertain": 435,
+  "priority": 463,
+  "scene_rows_changed": 333,
+  "flags": {
+    "Small": 331,
+    "Occluded": 111,
+    "Blurred": 233,
+    "No Ball": 201
+  },
+  "all_require_user_review": true,
+  "unresolved_visibility_count": 85,
+  "negative_candidates_with_pending_visibility_status": 28,
+  "priority_description": "435张不确定，另28张高把握无球候选沿用待确认状态；全量1000张仍由用户复查"
+}

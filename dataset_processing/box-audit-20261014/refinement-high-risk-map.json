@@ -1,0 +1,3746 @@
+[
+  {
+    "sheet": 0,
+    "tile": 0,
+    "inventory_box_index": 401,
+    "filename": "frame_003256_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      382.0,
+      146.0,
+      413.0,
+      178.0
+    ],
+    "candidate_xyxy": [
+      381.712,
+      145.985,
+      405.822,
+      168.309
+    ],
+    "crop_xyxy": [
+      366,
+      130,
+      428,
+      193
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 1,
+    "inventory_box_index": 478,
+    "filename": "frame_003744_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      375.0,
+      280.0,
+      415.0,
+      327.0
+    ],
+    "candidate_xyxy": [
+      381.092,
+      283.853,
+      412.198,
+      317.664
+    ],
+    "crop_xyxy": [
+      353,
+      258,
+      436,
+      348
+    ],
+    "fit_confidence": 0.0963
+  },
+  {
+    "sheet": 0,
+    "tile": 2,
+    "inventory_box_index": 667,
+    "filename": "frame_004600_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      413.0,
+      153.0,
+      444.0,
+      187.0
+    ],
+    "candidate_xyxy": [
+      416.118,
+      148.31,
+      442.469,
+      170.27
+    ],
+    "crop_xyxy": [
+      397,
+      133,
+      459,
+      202
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 3,
+    "inventory_box_index": 65,
+    "filename": "frame_001615_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      386.028,
+      201.551,
+      415.844,
+      231.241
+    ],
+    "candidate_xyxy": [
+      387.693,
+      200.875,
+      410.7,
+      222.177
+    ],
+    "crop_xyxy": [
+      371,
+      185,
+      430,
+      246
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 0,
+    "tile": 4,
+    "inventory_box_index": 2061,
+    "filename": "video_4bec9c343db72928_frame_00005534_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      293.374,
+      347.294,
+      378.26,
+      376.0
+    ],
+    "candidate_xyxy": [
+      297.223,
+      301.541,
+      410.063,
+      376
+    ],
+    "crop_xyxy": [
+      255,
+      263,
+      448,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 5,
+    "inventory_box_index": 2259,
+    "filename": "video_4bec9c343db72928_frame_00006232_right.png",
+    "box_index": 1,
+    "original_xyxy": [
+      17.0,
+      62.0,
+      70.0,
+      104.0
+    ],
+    "candidate_xyxy": [
+      21.104,
+      63.632,
+      62.186,
+      96.185
+    ],
+    "crop_xyxy": [
+      0,
+      38,
+      93,
+      127
+    ],
+    "fit_confidence": 0.1347
+  },
+  {
+    "sheet": 0,
+    "tile": 6,
+    "inventory_box_index": 948,
+    "filename": "legacy_train_000250.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      410.001,
+      214.0,
+      754.001,
+      567.0
+    ],
+    "candidate_xyxy": [
+      224.602,
+      183.271,
+      741.719,
+      614.202
+    ],
+    "crop_xyxy": [
+      65,
+      24,
+      912,
+      720
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 7,
+    "inventory_box_index": 1057,
+    "filename": "legacy_train_000447.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      930.999,
+      834.0,
+      1304.0,
+      1080.0
+    ],
+    "candidate_xyxy": [
+      803.151,
+      646.675,
+      1379.628,
+      1058.444
+    ],
+    "crop_xyxy": [
+      635,
+      478,
+      1547,
+      1080
+    ],
+    "fit_confidence": 0.0825
+  },
+  {
+    "sheet": 0,
+    "tile": 8,
+    "inventory_box_index": 1232,
+    "filename": "legacy_train_000786.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      472.001,
+      360.0,
+      961.0,
+      720.0
+    ],
+    "candidate_xyxy": [
+      330.929,
+      141.663,
+      1056.432,
+      675.907
+    ],
+    "crop_xyxy": [
+      110,
+      0,
+      1276,
+      720
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 0,
+    "tile": 9,
+    "inventory_box_index": 1233,
+    "filename": "legacy_train_000787.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      252.0,
+      358.0,
+      738.001,
+      720.0
+    ],
+    "candidate_xyxy": [
+      193.453,
+      118.292,
+      717.168,
+      687.548
+    ],
+    "crop_xyxy": [
+      0,
+      0,
+      956,
+      720
+    ],
+    "fit_confidence": 0.0577
+  },
+  {
+    "sheet": 0,
+    "tile": 10,
+    "inventory_box_index": 1513,
+    "filename": "legacy_test_000028.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      1.0,
+      1.0,
+      569.0,
+      520.0
+    ],
+    "candidate_xyxy": [
+      188.09,
+      53.204,
+      554.202,
+      494.303
+    ],
+    "crop_xyxy": [
+      0,
+      0,
+      824,
+      720
+    ],
+    "fit_confidence": 0.21
+  },
+  {
+    "sheet": 0,
+    "tile": 11,
+    "inventory_box_index": 1154,
+    "filename": "legacy_train_000636.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      263.999,
+      384.0,
+      631.0,
+      720.0
+    ],
+    "candidate_xyxy": [
+      338.9,
+      381.46,
+      581.789,
+      645.471
+    ],
+    "crop_xyxy": [
+      98,
+      216,
+      796,
+      720
+    ],
+    "fit_confidence": 0.21
+  },
+  {
+    "sheet": 0,
+    "tile": 12,
+    "inventory_box_index": 1165,
+    "filename": "legacy_train_000660.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      492.0,
+      430.0,
+      769.0,
+      720.0
+    ],
+    "candidate_xyxy": [
+      552.725,
+      419.409,
+      762.408,
+      629.091
+    ],
+    "crop_xyxy": [
+      361,
+      288,
+      899,
+      720
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 0,
+    "tile": 13,
+    "inventory_box_index": 1219,
+    "filename": "legacy_train_000760.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      779.0,
+      449.0,
+      1280.0,
+      720.0
+    ],
+    "candidate_xyxy": [
+      683.009,
+      187.626,
+      1270.781,
+      677.435
+    ],
+    "crop_xyxy": [
+      457,
+      0,
+      1280,
+      720
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 14,
+    "inventory_box_index": 1243,
+    "filename": "legacy_train_000806.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      1.0,
+      161.0,
+      202.0,
+      519.0
+    ],
+    "candidate_xyxy": [
+      10.379,
+      56.752,
+      376.395,
+      422.768
+    ],
+    "crop_xyxy": [
+      0,
+      0,
+      537,
+      680
+    ],
+    "fit_confidence": 0.1155
+  },
+  {
+    "sheet": 0,
+    "tile": 15,
+    "inventory_box_index": 1488,
+    "filename": "legacy_val_000073.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      197.0,
+      386.0,
+      553.0,
+      716.0
+    ],
+    "candidate_xyxy": [
+      264.64,
+      394.953,
+      510.28,
+      640.593
+    ],
+    "crop_xyxy": [
+      36,
+      225,
+      713,
+      720
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 16,
+    "inventory_box_index": 1495,
+    "filename": "legacy_val_000086.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      753.0,
+      431.0,
+      1280.001,
+      720.0
+    ],
+    "candidate_xyxy": [
+      731.921,
+      103.667,
+      1239.596,
+      715.323
+    ],
+    "crop_xyxy": [
+      494,
+      0,
+      1280,
+      720
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 0,
+    "tile": 17,
+    "inventory_box_index": 1586,
+    "filename": "video_4bec9c343db72928_frame_00000000_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      378.036,
+      356.076,
+      420.376,
+      375.846
+    ],
+    "candidate_xyxy": [
+      372.043,
+      345.712,
+      413.526,
+      375.343
+    ],
+    "crop_xyxy": [
+      352,
+      326,
+      439,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 0,
+    "tile": 18,
+    "inventory_box_index": 1588,
+    "filename": "video_4bec9c343db72928_frame_00000058_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      378.229,
+      356.243,
+      420.243,
+      375.831
+    ],
+    "candidate_xyxy": [
+      372.331,
+      345.489,
+      413.397,
+      374.822
+    ],
+    "crop_xyxy": [
+      353,
+      326,
+      439,
+      376
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 0,
+    "tile": 19,
+    "inventory_box_index": 1590,
+    "filename": "video_4bec9c343db72928_frame_00000143_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      378.528,
+      356.243,
+      420.053,
+      375.915
+    ],
+    "candidate_xyxy": [
+      371.784,
+      345.463,
+      413.232,
+      375.068
+    ],
+    "crop_xyxy": [
+      353,
+      326,
+      438,
+      376
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 0,
+    "tile": 20,
+    "inventory_box_index": 1596,
+    "filename": "video_4bec9c343db72928_frame_00000166_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      378.057,
+      356.113,
+      419.812,
+      375.657
+    ],
+    "candidate_xyxy": [
+      372.195,
+      345.951,
+      413.008,
+      375.103
+    ],
+    "crop_xyxy": [
+      353,
+      327,
+      438,
+      376
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 0,
+    "tile": 21,
+    "inventory_box_index": 1598,
+    "filename": "video_4bec9c343db72928_frame_00000173_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      378.351,
+      356.18,
+      420.088,
+      375.831
+    ],
+    "candidate_xyxy": [
+      372.492,
+      346.08,
+      413.287,
+      375.219
+    ],
+    "crop_xyxy": [
+      353,
+      327,
+      438,
+      376
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 0,
+    "tile": 22,
+    "inventory_box_index": 1600,
+    "filename": "video_4bec9c343db72928_frame_00000183_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      377.917,
+      355.946,
+      419.597,
+      375.766
+    ],
+    "candidate_xyxy": [
+      372.066,
+      345.957,
+      412.806,
+      375.057
+    ],
+    "crop_xyxy": [
+      353,
+      327,
+      438,
+      376
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 0,
+    "tile": 23,
+    "inventory_box_index": 1841,
+    "filename": "video_4bec9c343db72928_frame_00004635_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      632.111,
+      336.138,
+      671.714,
+      374.383
+    ],
+    "candidate_xyxy": [
+      641.253,
+      341.828,
+      669.965,
+      370.541
+    ],
+    "crop_xyxy": [
+      614,
+      318,
+      672,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 0,
+    "inventory_box_index": 2117,
+    "filename": "video_4bec9c343db72928_frame_00005958_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      15.726,
+      270.103,
+      97.284,
+      355.555
+    ],
+    "candidate_xyxy": [
+      26.382,
+      270.28,
+      92.61,
+      325.469
+    ],
+    "crop_xyxy": [
+      0,
+      231,
+      135,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 1,
+    "inventory_box_index": 2119,
+    "filename": "video_4bec9c343db72928_frame_00005963_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      0.643,
+      288.991,
+      82.874,
+      366.752
+    ],
+    "candidate_xyxy": [
+      18.356,
+      288.543,
+      80.511,
+      340.338
+    ],
+    "crop_xyxy": [
+      0,
+      251,
+      119,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 2,
+    "inventory_box_index": 2948,
+    "filename": "video_4bec9c343db72928_frame_00010635_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      333.0,
+      359.0,
+      373.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      331.683,
+      338.325,
+      371.517,
+      375.208
+    ],
+    "crop_xyxy": [
+      313,
+      320,
+      391,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 3,
+    "inventory_box_index": 3052,
+    "filename": "video_4bec9c343db72928_frame_00011602_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      217.448,
+      243.035,
+      279.766,
+      306.721
+    ],
+    "candidate_xyxy": [
+      237.234,
+      248.794,
+      279.298,
+      299.475
+    ],
+    "crop_xyxy": [
+      188,
+      214,
+      308,
+      335
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 4,
+    "inventory_box_index": 3456,
+    "filename": "video_4bec9c343db72928_frame_00015278_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      0.15,
+      333.704,
+      39.636,
+      373.215
+    ],
+    "candidate_xyxy": [
+      2.243,
+      334.146,
+      32.012,
+      361.71
+    ],
+    "crop_xyxy": [
+      0,
+      315,
+      57,
+      376
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 1,
+    "tile": 5,
+    "inventory_box_index": 3460,
+    "filename": "video_4bec9c343db72928_frame_00015294_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      0.167,
+      333.408,
+      39.658,
+      372.714
+    ],
+    "candidate_xyxy": [
+      3.551,
+      333.168,
+      32.588,
+      360.053
+    ],
+    "crop_xyxy": [
+      0,
+      315,
+      57,
+      376
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 1,
+    "tile": 6,
+    "inventory_box_index": 4058,
+    "filename": "video_4bec9c343db72928_frame_00019437_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      425.047,
+      331.716,
+      511.211,
+      375.139
+    ],
+    "candidate_xyxy": [
+      441.79,
+      292.494,
+      514.573,
+      376
+    ],
+    "crop_xyxy": [
+      386,
+      253,
+      553,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 7,
+    "inventory_box_index": 4059,
+    "filename": "video_4bec9c343db72928_frame_00019437_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      392.292,
+      330.436,
+      474.229,
+      375.017
+    ],
+    "candidate_xyxy": [
+      408.663,
+      292.26,
+      478.888,
+      376
+    ],
+    "crop_xyxy": [
+      355,
+      255,
+      515,
+      376
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 1,
+    "tile": 8,
+    "inventory_box_index": 4396,
+    "filename": "video_4bec9c343db72928_frame_00021016_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      114.509,
+      340.396,
+      178.893,
+      374.34
+    ],
+    "candidate_xyxy": [
+      111.531,
+      306.37,
+      181.871,
+      376
+    ],
+    "crop_xyxy": [
+      82,
+      277,
+      210,
+      376
+    ],
+    "fit_confidence": 0.1155
+  },
+  {
+    "sheet": 1,
+    "tile": 9,
+    "inventory_box_index": 78,
+    "filename": "frame_001650_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      121.194,
+      317.833,
+      185.247,
+      376.0
+    ],
+    "candidate_xyxy": [
+      136.139,
+      316.241,
+      188.237,
+      359.657
+    ],
+    "crop_xyxy": [
+      92,
+      287,
+      217,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 1,
+    "tile": 10,
+    "inventory_box_index": 97,
+    "filename": "frame_001677_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      626.0,
+      332.0,
+      672.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      641.828,
+      335.308,
+      672,
+      368.399
+    ],
+    "crop_xyxy": [
+      605,
+      311,
+      672,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 1,
+    "tile": 11,
+    "inventory_box_index": 477,
+    "filename": "frame_003743_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      358.0,
+      275.0,
+      399.0,
+      313.0
+    ],
+    "candidate_xyxy": [
+      361.913,
+      274.057,
+      395.087,
+      310.116
+    ],
+    "crop_xyxy": [
+      339,
+      255,
+      417,
+      331
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 12,
+    "inventory_box_index": 2261,
+    "filename": "video_4bec9c343db72928_frame_00006234_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      40.0,
+      65.0,
+      87.0,
+      107.0
+    ],
+    "candidate_xyxy": [
+      43.935,
+      65.858,
+      83.065,
+      98.466
+    ],
+    "crop_xyxy": [
+      18,
+      43,
+      108,
+      128
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 13,
+    "inventory_box_index": 3513,
+    "filename": "video_4bec9c343db72928_frame_00015697_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      305.972,
+      129.333,
+      365.369,
+      189.474
+    ],
+    "candidate_xyxy": [
+      308.458,
+      129.009,
+      362.882,
+      174.362
+    ],
+    "crop_xyxy": [
+      278,
+      101,
+      392,
+      216
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 14,
+    "inventory_box_index": 5041,
+    "filename": "video_4bec9c343db72928_frame_00017293_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      280.426,
+      119.649,
+      357.053,
+      184.028
+    ],
+    "candidate_xyxy": [
+      295.879,
+      118.25,
+      354.115,
+      176.487
+    ],
+    "crop_xyxy": [
+      245,
+      83,
+      391,
+      218
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 15,
+    "inventory_box_index": 3856,
+    "filename": "video_4bec9c343db72928_frame_00018337_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      204.711,
+      183.233,
+      253.826,
+      229.478
+    ],
+    "candidate_xyxy": [
+      214.645,
+      180.469,
+      249.623,
+      218.49
+    ],
+    "crop_xyxy": [
+      182,
+      158,
+      275,
+      251
+    ],
+    "fit_confidence": 0.0825
+  },
+  {
+    "sheet": 1,
+    "tile": 16,
+    "inventory_box_index": 1141,
+    "filename": "legacy_train_000609.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      255.0,
+      236.0,
+      738.001,
+      720.0
+    ],
+    "candidate_xyxy": [
+      106.379,
+      38.769,
+      762.395,
+      646.191
+    ],
+    "crop_xyxy": [
+      0,
+      0,
+      980,
+      720
+    ],
+    "fit_confidence": 0.1155
+  },
+  {
+    "sheet": 1,
+    "tile": 17,
+    "inventory_box_index": 1217,
+    "filename": "legacy_train_000757.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      792.0,
+      428.0,
+      1280.0,
+      720.0
+    ],
+    "candidate_xyxy": [
+      667.454,
+      171.294,
+      1199.586,
+      703.426
+    ],
+    "crop_xyxy": [
+      447,
+      0,
+      1280,
+      720
+    ],
+    "fit_confidence": 0.1155
+  },
+  {
+    "sheet": 1,
+    "tile": 18,
+    "inventory_box_index": 1220,
+    "filename": "legacy_train_000761.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      570.001,
+      448.0,
+      1087.0,
+      720.0
+    ],
+    "candidate_xyxy": [
+      434.819,
+      195.615,
+      1005.042,
+      670.801
+    ],
+    "crop_xyxy": [
+      202,
+      0,
+      1280,
+      720
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 1,
+    "tile": 19,
+    "inventory_box_index": 682,
+    "filename": "frame_004677_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      311.0,
+      157.0,
+      341.0,
+      189.0
+    ],
+    "candidate_xyxy": [
+      316.526,
+      151.108,
+      353.394,
+      190.412
+    ],
+    "crop_xyxy": [
+      296,
+      136,
+      368,
+      205
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 20,
+    "inventory_box_index": 1593,
+    "filename": "video_4bec9c343db72928_frame_00000153_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      361.314,
+      355.295,
+      398.278,
+      375.585
+    ],
+    "candidate_xyxy": [
+      359.182,
+      343.59,
+      396.097,
+      374.353
+    ],
+    "crop_xyxy": [
+      342,
+      326,
+      414,
+      376
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 1,
+    "tile": 21,
+    "inventory_box_index": 1999,
+    "filename": "video_4bec9c343db72928_frame_00005248_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      264.065,
+      343.256,
+      343.809,
+      375.36
+    ],
+    "candidate_xyxy": [
+      246.61,
+      301.348,
+      346.379,
+      372.612
+    ],
+    "crop_xyxy": [
+      210,
+      265,
+      382,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 22,
+    "inventory_box_index": 2149,
+    "filename": "video_4bec9c343db72928_frame_00006029_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      41.0,
+      115.0,
+      74.0,
+      153.0
+    ],
+    "candidate_xyxy": [
+      46.508,
+      115.456,
+      83.565,
+      146.337
+    ],
+    "crop_xyxy": [
+      23,
+      97,
+      100,
+      170
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 1,
+    "tile": 23,
+    "inventory_box_index": 2153,
+    "filename": "video_4bec9c343db72928_frame_00006037_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      39.0,
+      120.0,
+      70.0,
+      149.0
+    ],
+    "candidate_xyxy": [
+      45.027,
+      121.241,
+      82.057,
+      152.099
+    ],
+    "crop_xyxy": [
+      24,
+      105,
+      97,
+      167
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 2,
+    "tile": 0,
+    "inventory_box_index": 2949,
+    "filename": "video_4bec9c343db72928_frame_00010635_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      310.215,
+      355.405,
+      353.678,
+      375.387
+    ],
+    "candidate_xyxy": [
+      315.088,
+      336.811,
+      356.918,
+      371.67
+    ],
+    "crop_xyxy": [
+      290,
+      317,
+      376,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 2,
+    "tile": 1,
+    "inventory_box_index": 3724,
+    "filename": "video_4bec9c343db72928_frame_00017382_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      578.035,
+      345.4,
+      665.727,
+      376.0
+    ],
+    "candidate_xyxy": [
+      592.545,
+      299.57,
+      653.262,
+      372.723
+    ],
+    "crop_xyxy": [
+      538,
+      260,
+      672,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 2,
+    "tile": 2,
+    "inventory_box_index": 3725,
+    "filename": "video_4bec9c343db72928_frame_00017382_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      533.278,
+      343.883,
+      636.18,
+      375.903
+    ],
+    "candidate_xyxy": [
+      512.473,
+      287.253,
+      599.36,
+      367.705
+    ],
+    "crop_xyxy": [
+      466,
+      240,
+      672,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 2,
+    "tile": 3,
+    "inventory_box_index": 4340,
+    "filename": "video_4bec9c343db72928_frame_00020770_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      537.374,
+      340.403,
+      604.942,
+      375.849
+    ],
+    "candidate_xyxy": [
+      533.855,
+      317.367,
+      589.542,
+      368.929
+    ],
+    "crop_xyxy": [
+      503,
+      286,
+      635,
+      376
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 2,
+    "tile": 4,
+    "inventory_box_index": 4397,
+    "filename": "video_4bec9c343db72928_frame_00021016_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      86.833,
+      339.188,
+      152.97,
+      374.433
+    ],
+    "candidate_xyxy": [
+      93.357,
+      305.141,
+      164.964,
+      371.444
+    ],
+    "crop_xyxy": [
+      57,
+      275,
+      194,
+      376
+    ],
+    "fit_confidence": 0.1155
+  },
+  {
+    "sheet": 2,
+    "tile": 5,
+    "inventory_box_index": 77,
+    "filename": "frame_001647_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      35.0,
+      287.0,
+      117.0,
+      372.0
+    ],
+    "candidate_xyxy": [
+      35.305,
+      300.38,
+      102.812,
+      356.636
+    ],
+    "crop_xyxy": [
+      0,
+      248,
+      155,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 2,
+    "tile": 6,
+    "inventory_box_index": 81,
+    "filename": "frame_001650_right.png",
+    "box_index": 1,
+    "original_xyxy": [
+      225.49,
+      353.247,
+      297.034,
+      376.0
+    ],
+    "candidate_xyxy": [
+      220.437,
+      301.598,
+      333.806,
+      376
+    ],
+    "crop_xyxy": [
+      188,
+      269,
+      366,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 2,
+    "tile": 7,
+    "inventory_box_index": 94,
+    "filename": "frame_001674_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      186.0,
+      0.0,
+      216.0,
+      27.0
+    ],
+    "candidate_xyxy": [
+      174.022,
+      0,
+      222.378,
+      37.148
+    ],
+    "crop_xyxy": [
+      159,
+      0,
+      237,
+      52
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 2,
+    "tile": 8,
+    "inventory_box_index": 111,
+    "filename": "frame_001686_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      576.0,
+      325.0,
+      672.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      558.279,
+      288.32,
+      653.881,
+      376
+    ],
+    "crop_xyxy": [
+      515,
+      245,
+      672,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 2,
+    "tile": 9,
+    "inventory_box_index": 113,
+    "filename": "frame_001686_right.png",
+    "box_index": 1,
+    "original_xyxy": [
+      529.0,
+      321.0,
+      642.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      514.989,
+      286.923,
+      613.824,
+      376
+    ],
+    "crop_xyxy": [
+      464,
+      236,
+      672,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 2,
+    "tile": 10,
+    "inventory_box_index": 282,
+    "filename": "frame_002659_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      312.0,
+      298.0,
+      393.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      316.316,
+      303.076,
+      377.344,
+      359.584
+    ],
+    "crop_xyxy": [
+      275,
+      261,
+      429,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 2,
+    "tile": 11,
+    "inventory_box_index": 481,
+    "filename": "frame_003758_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      273.0,
+      352.0,
+      351.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      285.046,
+      307.307,
+      382.634,
+      376
+    ],
+    "crop_xyxy": [
+      237,
+      272,
+      417,
+      376
+    ],
+    "fit_confidence": 0.0825
+  },
+  {
+    "sheet": 2,
+    "tile": 12,
+    "inventory_box_index": 1120,
+    "filename": "legacy_train_000568.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      173.0,
+      163.0,
+      628.001,
+      602.0
+    ],
+    "candidate_xyxy": [
+      237.64,
+      150.348,
+      616.445,
+      466.019
+    ],
+    "crop_xyxy": [
+      0,
+      0,
+      832,
+      720
+    ],
+    "fit_confidence": 0.175
+  },
+  {
+    "sheet": 2,
+    "tile": 13,
+    "inventory_box_index": 1159,
+    "filename": "legacy_train_000647.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      367.0,
+      390.0,
+      676.0,
+      720.0
+    ],
+    "candidate_xyxy": [
+      380.281,
+      394.326,
+      655.019,
+      623.274
+    ],
+    "crop_xyxy": [
+      218,
+      241,
+      824,
+      720
+    ],
+    "fit_confidence": 0.1225
+  },
+  {
+    "sheet": 2,
+    "tile": 14,
+    "inventory_box_index": 1316,
+    "filename": "legacy_train_009774_L.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      215.0,
+      202.0,
+      235.0,
+      224.0
+    ],
+    "candidate_xyxy": [
+      214.345,
+      202.174,
+      230.521,
+      217.152
+    ],
+    "crop_xyxy": [
+      199,
+      187,
+      250,
+      239
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 2,
+    "tile": 15,
+    "inventory_box_index": 1394,
+    "filename": "legacy_train_009908_L.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      323.0,
+      333.0,
+      408.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      316.446,
+      284.839,
+      402.654,
+      376
+    ],
+    "crop_xyxy": [
+      278,
+      246,
+      446,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 2,
+    "tile": 16,
+    "inventory_box_index": 1412,
+    "filename": "legacy_train_009939_L.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      373.0,
+      137.0,
+      416.0,
+      181.0
+    ],
+    "candidate_xyxy": [
+      378.463,
+      135.921,
+      410.538,
+      170.785
+    ],
+    "crop_xyxy": [
+      353,
+      116,
+      435,
+      200
+    ],
+    "fit_confidence": 0.0963
+  },
+  {
+    "sheet": 2,
+    "tile": 17,
+    "inventory_box_index": 1484,
+    "filename": "legacy_val_000065.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      191.0,
+      154.0,
+      623.0,
+      570.0
+    ],
+    "candidate_xyxy": [
+      312.883,
+      186.851,
+      611.997,
+      547.229
+    ],
+    "crop_xyxy": [
+      0,
+      0,
+      817,
+      720
+    ],
+    "fit_confidence": 0.0963
+  },
+  {
+    "sheet": 2,
+    "tile": 18,
+    "inventory_box_index": 2063,
+    "filename": "video_4bec9c343db72928_frame_00005549_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      461.317,
+      328.697,
+      557.033,
+      375.235
+    ],
+    "candidate_xyxy": [
+      467.04,
+      279.096,
+      549.076,
+      376
+    ],
+    "crop_xyxy": [
+      418,
+      236,
+      600,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 2,
+    "tile": 19,
+    "inventory_box_index": 3115,
+    "filename": "video_4bec9c343db72928_frame_00012104_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      348.0,
+      260.0,
+      537.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      286.985,
+      144.863,
+      611.245,
+      376
+    ],
+    "crop_xyxy": [
+      201,
+      59,
+      672,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 2,
+    "tile": 20,
+    "inventory_box_index": 3117,
+    "filename": "video_4bec9c343db72928_frame_00012109_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      440.0,
+      299.0,
+      596.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      427.258,
+      225.884,
+      637.862,
+      376
+    ],
+    "crop_xyxy": [
+      357,
+      155,
+      672,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 2,
+    "tile": 21,
+    "inventory_box_index": 5049,
+    "filename": "video_4bec9c343db72928_frame_00017401_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      187.714,
+      243.25,
+      270.111,
+      318.743
+    ],
+    "candidate_xyxy": [
+      215.105,
+      248.476,
+      269.637,
+      307.749
+    ],
+    "crop_xyxy": [
+      150,
+      206,
+      307,
+      355
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 2,
+    "tile": 22,
+    "inventory_box_index": 5051,
+    "filename": "video_4bec9c343db72928_frame_00017403_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      -0.0,
+      240.494,
+      66.634,
+      374.664
+    ],
+    "candidate_xyxy": [
+      0,
+      251.641,
+      114.3,
+      366.647
+    ],
+    "crop_xyxy": [
+      0,
+      180,
+      174,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 2,
+    "tile": 23,
+    "inventory_box_index": 4013,
+    "filename": "video_4bec9c343db72928_frame_00019197_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      169.576,
+      250.835,
+      246.456,
+      327.772
+    ],
+    "candidate_xyxy": [
+      174.195,
+      250.946,
+      238.247,
+      304.323
+    ],
+    "crop_xyxy": [
+      134,
+      216,
+      281,
+      362
+    ],
+    "fit_confidence": 0.175
+  },
+  {
+    "sheet": 3,
+    "tile": 0,
+    "inventory_box_index": 4240,
+    "filename": "video_4bec9c343db72928_frame_00020287_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      442.014,
+      40.441,
+      637.331,
+      339.225
+    ],
+    "candidate_xyxy": [
+      382.425,
+      69.229,
+      662.062,
+      373.182
+    ],
+    "crop_xyxy": [
+      247,
+      0,
+      672,
+      376
+    ],
+    "fit_confidence": 0.175
+  },
+  {
+    "sheet": 3,
+    "tile": 1,
+    "inventory_box_index": 5126,
+    "filename": "video_4bec9c343db72928_frame_00020301_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      631.802,
+      103.6,
+      672.0,
+      267.424
+    ],
+    "candidate_xyxy": [
+      574.745,
+      97.133,
+      671.718,
+      235.666
+    ],
+    "crop_xyxy": [
+      501,
+      23,
+      672,
+      341
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 3,
+    "tile": 2,
+    "inventory_box_index": 373,
+    "filename": "frame_003152_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      265.483,
+      187.224,
+      309.487,
+      229.463
+    ],
+    "candidate_xyxy": [
+      267.336,
+      185.288,
+      301.474,
+      218.05
+    ],
+    "crop_xyxy": [
+      245,
+      165,
+      329,
+      249
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 3,
+    "tile": 3,
+    "inventory_box_index": 518,
+    "filename": "frame_003928_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      359.518,
+      155.591,
+      388.663,
+      185.36
+    ],
+    "candidate_xyxy": [
+      361.95,
+      157.948,
+      389.01,
+      183.003
+    ],
+    "crop_xyxy": [
+      344,
+      140,
+      404,
+      200
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 4,
+    "inventory_box_index": 1258,
+    "filename": "legacy_train_000836.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      1.0,
+      225.0,
+      370.0,
+      595.0
+    ],
+    "candidate_xyxy": [
+      57.407,
+      173.654,
+      313.593,
+      482.312
+    ],
+    "crop_xyxy": [
+      0,
+      7,
+      536,
+      720
+    ],
+    "fit_confidence": 0.1155
+  },
+  {
+    "sheet": 3,
+    "tile": 5,
+    "inventory_box_index": 694,
+    "filename": "frame_004726_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      357.0,
+      182.0,
+      389.0,
+      218.0
+    ],
+    "candidate_xyxy": [
+      358.283,
+      182.193,
+      384.357,
+      213.607
+    ],
+    "crop_xyxy": [
+      340,
+      165,
+      405,
+      234
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 6,
+    "inventory_box_index": 695,
+    "filename": "frame_004726_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      344.0,
+      182.0,
+      376.0,
+      218.0
+    ],
+    "candidate_xyxy": [
+      344.662,
+      181.794,
+      371.978,
+      211.486
+    ],
+    "crop_xyxy": [
+      327,
+      165,
+      392,
+      234
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 7,
+    "inventory_box_index": 705,
+    "filename": "frame_004762_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      449.202,
+      216.419,
+      486.571,
+      252.358
+    ],
+    "candidate_xyxy": [
+      448.761,
+      218.932,
+      480.909,
+      249.845
+    ],
+    "crop_xyxy": [
+      431,
+      199,
+      503,
+      269
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 8,
+    "inventory_box_index": 1767,
+    "filename": "video_4bec9c343db72928_frame_00003726_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      274.661,
+      151.3,
+      317.719,
+      196.655
+    ],
+    "candidate_xyxy": [
+      273.913,
+      155.761,
+      312.118,
+      191.136
+    ],
+    "crop_xyxy": [
+      253,
+      130,
+      338,
+      217
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 9,
+    "inventory_box_index": 2051,
+    "filename": "video_4bec9c343db72928_frame_00005497_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      382.332,
+      229.662,
+      416.852,
+      267.109
+    ],
+    "candidate_xyxy": [
+      383.018,
+      229.301,
+      411.797,
+      263.976
+    ],
+    "crop_xyxy": [
+      365,
+      212,
+      433,
+      283
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 10,
+    "inventory_box_index": 2084,
+    "filename": "video_4bec9c343db72928_frame_00005835_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      597.51,
+      229.816,
+      648.404,
+      273.917
+    ],
+    "candidate_xyxy": [
+      598.594,
+      228.735,
+      643.757,
+      267.872
+    ],
+    "crop_xyxy": [
+      574,
+      205,
+      671,
+      296
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 11,
+    "inventory_box_index": 2124,
+    "filename": "video_4bec9c343db72928_frame_00005978_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      382.098,
+      255.097,
+      458.142,
+      315.615
+    ],
+    "candidate_xyxy": [
+      394.069,
+      244.696,
+      444.397,
+      299.4
+    ],
+    "crop_xyxy": [
+      347,
+      210,
+      492,
+      349
+    ],
+    "fit_confidence": 0.21
+  },
+  {
+    "sheet": 3,
+    "tile": 12,
+    "inventory_box_index": 2129,
+    "filename": "video_4bec9c343db72928_frame_00005990_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      5.296,
+      149.557,
+      56.984,
+      192.687
+    ],
+    "candidate_xyxy": [
+      12.424,
+      150.4,
+      53.474,
+      184.608
+    ],
+    "crop_xyxy": [
+      0,
+      126,
+      80,
+      215
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 13,
+    "inventory_box_index": 2163,
+    "filename": "video_4bec9c343db72928_frame_00006050_right.png",
+    "box_index": 1,
+    "original_xyxy": [
+      2.0,
+      114.0,
+      53.0,
+      153.0
+    ],
+    "candidate_xyxy": [
+      7.631,
+      115.16,
+      50.939,
+      148.27
+    ],
+    "crop_xyxy": [
+      0,
+      91,
+      75,
+      175
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 14,
+    "inventory_box_index": 2169,
+    "filename": "video_4bec9c343db72928_frame_00006062_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      81.0,
+      107.0,
+      119.0,
+      143.0
+    ],
+    "candidate_xyxy": [
+      85.102,
+      108.152,
+      120.218,
+      137.415
+    ],
+    "crop_xyxy": [
+      63,
+      89,
+      137,
+      160
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 15,
+    "inventory_box_index": 2207,
+    "filename": "video_4bec9c343db72928_frame_00006133_right.png",
+    "box_index": 1,
+    "original_xyxy": [
+      12.0,
+      63.0,
+      64.0,
+      103.0
+    ],
+    "candidate_xyxy": [
+      18.846,
+      65.653,
+      60.794,
+      97.92
+    ],
+    "crop_xyxy": [
+      0,
+      39,
+      87,
+      126
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 16,
+    "inventory_box_index": 2251,
+    "filename": "video_4bec9c343db72928_frame_00006212_right.png",
+    "box_index": 1,
+    "original_xyxy": [
+      27.0,
+      67.0,
+      76.0,
+      107.0
+    ],
+    "candidate_xyxy": [
+      29.644,
+      68.692,
+      72.212,
+      104.165
+    ],
+    "crop_xyxy": [
+      4,
+      44,
+      98,
+      129
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 17,
+    "inventory_box_index": 2406,
+    "filename": "video_4bec9c343db72928_frame_00007096_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      0.026,
+      279.057,
+      11.4,
+      300.847
+    ],
+    "candidate_xyxy": [
+      0,
+      279.53,
+      8.609,
+      293.255
+    ],
+    "crop_xyxy": [
+      0,
+      264,
+      26,
+      315
+    ],
+    "fit_confidence": 0.165
+  },
+  {
+    "sheet": 3,
+    "tile": 18,
+    "inventory_box_index": 2407,
+    "filename": "video_4bec9c343db72928_frame_00007108_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      0.01,
+      284.601,
+      15.484,
+      311.352
+    ],
+    "candidate_xyxy": [
+      0,
+      289.863,
+      12.863,
+      306.713
+    ],
+    "crop_xyxy": [
+      0,
+      269,
+      30,
+      326
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 19,
+    "inventory_box_index": 5063,
+    "filename": "video_4bec9c343db72928_frame_00018181_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      246.63,
+      165.32,
+      293.232,
+      208.433
+    ],
+    "candidate_xyxy": [
+      248.651,
+      165.7,
+      289.036,
+      199.354
+    ],
+    "crop_xyxy": [
+      225,
+      144,
+      314,
+      229
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 20,
+    "inventory_box_index": 3916,
+    "filename": "video_4bec9c343db72928_frame_00018561_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      462.426,
+      133.368,
+      514.294,
+      182.799
+    ],
+    "candidate_xyxy": [
+      465.076,
+      132.933,
+      508.012,
+      179.603
+    ],
+    "crop_xyxy": [
+      439,
+      109,
+      537,
+      206
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 21,
+    "inventory_box_index": 3917,
+    "filename": "video_4bec9c343db72928_frame_00018564_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      416.914,
+      133.632,
+      464.327,
+      177.907
+    ],
+    "candidate_xyxy": [
+      421.284,
+      134.799,
+      458.852,
+      175.634
+    ],
+    "crop_xyxy": [
+      395,
+      112,
+      485,
+      199
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 22,
+    "inventory_box_index": 3918,
+    "filename": "video_4bec9c343db72928_frame_00018564_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      397.794,
+      132.517,
+      444.329,
+      177.157
+    ],
+    "candidate_xyxy": [
+      401.373,
+      132.887,
+      442.922,
+      171.358
+    ],
+    "crop_xyxy": [
+      376,
+      111,
+      465,
+      198
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 3,
+    "tile": 23,
+    "inventory_box_index": 5092,
+    "filename": "video_4bec9c343db72928_frame_00018914_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      277.409,
+      224.869,
+      324.272,
+      266.181
+    ],
+    "candidate_xyxy": [
+      278.111,
+      227.17,
+      313.728,
+      262.786
+    ],
+    "crop_xyxy": [
+      256,
+      203,
+      345,
+      287
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 4,
+    "tile": 0,
+    "inventory_box_index": 3975,
+    "filename": "video_4bec9c343db72928_frame_00018972_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      409.121,
+      264.327,
+      453.637,
+      311.399
+    ],
+    "candidate_xyxy": [
+      409.071,
+      263.421,
+      445.999,
+      307.912
+    ],
+    "crop_xyxy": [
+      387,
+      242,
+      474,
+      332
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 4,
+    "tile": 1,
+    "inventory_box_index": 3976,
+    "filename": "video_4bec9c343db72928_frame_00018972_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      388.397,
+      262.786,
+      431.947,
+      309.444
+    ],
+    "candidate_xyxy": [
+      388.39,
+      262.83,
+      424.333,
+      306.134
+    ],
+    "crop_xyxy": [
+      367,
+      241,
+      452,
+      330
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 4,
+    "tile": 2,
+    "inventory_box_index": 5150,
+    "filename": "video_4bec9c343db72928_frame_00020874_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      180.212,
+      249.427,
+      253.504,
+      314.113
+    ],
+    "candidate_xyxy": [
+      191.002,
+      248.219,
+      247.844,
+      305.061
+    ],
+    "crop_xyxy": [
+      147,
+      215,
+      286,
+      347
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 4,
+    "tile": 3,
+    "inventory_box_index": 4577,
+    "filename": "video_4bec9c343db72928_frame_00021852_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      75.0,
+      208.0,
+      171.0,
+      279.0
+    ],
+    "candidate_xyxy": [
+      93.845,
+      211.412,
+      174.555,
+      271.108
+    ],
+    "crop_xyxy": [
+      31,
+      164,
+      217,
+      322
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 4,
+    "tile": 4,
+    "inventory_box_index": 5180,
+    "filename": "video_4bec9c343db72928_frame_00021932_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      319.0,
+      190.0,
+      415.0,
+      277.0
+    ],
+    "candidate_xyxy": [
+      322.68,
+      199.26,
+      395.64,
+      272.22
+    ],
+    "crop_xyxy": [
+      275,
+      146,
+      458,
+      320
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 4,
+    "tile": 5,
+    "inventory_box_index": 5188,
+    "filename": "video_4bec9c343db72928_frame_00022012_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      366.17,
+      176.079,
+      438.251,
+      238.934
+    ],
+    "candidate_xyxy": [
+      373.501,
+      177.275,
+      435.965,
+      229.329
+    ],
+    "crop_xyxy": [
+      333,
+      143,
+      470,
+      271
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 4,
+    "tile": 6,
+    "inventory_box_index": 5189,
+    "filename": "video_4bec9c343db72928_frame_00022012_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      338.326,
+      175.013,
+      408.922,
+      236.501
+    ],
+    "candidate_xyxy": [
+      340.858,
+      174.197,
+      404.743,
+      227.434
+    ],
+    "crop_xyxy": [
+      306,
+      142,
+      440,
+      268
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 4,
+    "tile": 7,
+    "inventory_box_index": 4785,
+    "filename": "video_4bec9c343db72928_frame_00022720_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      81.571,
+      265.103,
+      127.917,
+      308.93
+    ],
+    "candidate_xyxy": [
+      87.632,
+      265.859,
+      121.856,
+      307.092
+    ],
+    "crop_xyxy": [
+      60,
+      244,
+      148,
+      329
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 4,
+    "tile": 8,
+    "inventory_box_index": 4788,
+    "filename": "video_4bec9c343db72928_frame_00022739_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      324.895,
+      280.634,
+      369.919,
+      330.246
+    ],
+    "candidate_xyxy": [
+      325.533,
+      282.249,
+      368.124,
+      321.685
+    ],
+    "crop_xyxy": [
+      302,
+      258,
+      392,
+      352
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 4,
+    "tile": 9,
+    "inventory_box_index": 0,
+    "filename": "frame_001471_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      0.0,
+      87.0,
+      26.0,
+      125.0
+    ],
+    "candidate_xyxy": [
+      2.011,
+      88.6,
+      44.382,
+      127.833
+    ],
+    "crop_xyxy": [
+      0,
+      69,
+      61,
+      144
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 4,
+    "tile": 10,
+    "inventory_box_index": 32,
+    "filename": "frame_001555_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      313.692,
+      40.278,
+      330.89,
+      69.627
+    ],
+    "candidate_xyxy": [
+      312.982,
+      40.562,
+      343.242,
+      73.452
+    ],
+    "crop_xyxy": [
+      297,
+      25,
+      358,
+      88
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 4,
+    "tile": 11,
+    "inventory_box_index": 38,
+    "filename": "frame_001570_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      66.445,
+      30.224,
+      99.65,
+      67.711
+    ],
+    "candidate_xyxy": [
+      64.699,
+      22.47,
+      116.266,
+      70.218
+    ],
+    "crop_xyxy": [
+      47,
+      5,
+      133,
+      87
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 4,
+    "tile": 12,
+    "inventory_box_index": 48,
+    "filename": "frame_001598_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      239.0,
+      207.0,
+      272.0,
+      237.0
+    ],
+    "candidate_xyxy": [
+      234.269,
+      196.919,
+      276.731,
+      239.381
+    ],
+    "crop_xyxy": [
+      219,
+      181,
+      291,
+      254
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 4,
+    "tile": 13,
+    "inventory_box_index": 52,
+    "filename": "frame_001604_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      218.0,
+      227.0,
+      251.0,
+      255.0
+    ],
+    "candidate_xyxy": [
+      208.231,
+      217.599,
+      256.149,
+      258.241
+    ],
+    "crop_xyxy": [
+      193,
+      202,
+      271,
+      273
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 4,
+    "tile": 14,
+    "inventory_box_index": 54,
+    "filename": "frame_001604_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      202.0,
+      223.0,
+      237.0,
+      255.0
+    ],
+    "candidate_xyxy": [
+      194.578,
+      212.509,
+      243.605,
+      257.324
+    ],
+    "crop_xyxy": [
+      178,
+      196,
+      259,
+      273
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 4,
+    "tile": 15,
+    "inventory_box_index": 56,
+    "filename": "frame_001605_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      260.0,
+      221.0,
+      288.0,
+      246.0
+    ],
+    "candidate_xyxy": [
+      251.302,
+      214.907,
+      292.124,
+      259.279
+    ],
+    "crop_xyxy": [
+      236,
+      199,
+      307,
+      274
+    ],
+    "fit_confidence": 0.0577
+  },
+  {
+    "sheet": 4,
+    "tile": 16,
+    "inventory_box_index": 58,
+    "filename": "frame_001605_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      225.0,
+      226.0,
+      252.0,
+      255.0
+    ],
+    "candidate_xyxy": [
+      215.332,
+      214.311,
+      261.668,
+      257.216
+    ],
+    "crop_xyxy": [
+      200,
+      199,
+      276,
+      272
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 4,
+    "tile": 17,
+    "inventory_box_index": 62,
+    "filename": "frame_001612_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      253.0,
+      180.0,
+      281.0,
+      208.0
+    ],
+    "candidate_xyxy": [
+      241.417,
+      170.675,
+      284.743,
+      210.791
+    ],
+    "crop_xyxy": [
+      226,
+      155,
+      299,
+      225
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 4,
+    "tile": 18,
+    "inventory_box_index": 66,
+    "filename": "frame_001615_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      254.0,
+      199.0,
+      282.0,
+      226.0
+    ],
+    "candidate_xyxy": [
+      242.845,
+      188.313,
+      286.622,
+      228.847
+    ],
+    "crop_xyxy": [
+      227,
+      173,
+      301,
+      243
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 4,
+    "tile": 19,
+    "inventory_box_index": 70,
+    "filename": "frame_001620_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      258.0,
+      191.0,
+      287.0,
+      219.0
+    ],
+    "candidate_xyxy": [
+      247.841,
+      184.056,
+      292.423,
+      221.208
+    ],
+    "crop_xyxy": [
+      232,
+      169,
+      307,
+      236
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 4,
+    "tile": 20,
+    "inventory_box_index": 73,
+    "filename": "frame_001626_left.png",
+    "box_index": 1,
+    "original_xyxy": [
+      401.0,
+      240.0,
+      438.0,
+      276.0
+    ],
+    "candidate_xyxy": [
+      406.162,
+      235.056,
+      448.378,
+      280.944
+    ],
+    "crop_xyxy": [
+      384,
+      218,
+      465,
+      297
+    ],
+    "fit_confidence": 0.0825
+  },
+  {
+    "sheet": 4,
+    "tile": 21,
+    "inventory_box_index": 95,
+    "filename": "frame_001674_right.png",
+    "box_index": 1,
+    "original_xyxy": [
+      556.084,
+      315.418,
+      672.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      537.088,
+      272.388,
+      666.654,
+      364.936
+    ],
+    "crop_xyxy": [
+      484,
+      220,
+      672,
+      376
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 4,
+    "tile": 22,
+    "inventory_box_index": 114,
+    "filename": "frame_001689_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      154.0,
+      86.0,
+      193.0,
+      124.0
+    ],
+    "candidate_xyxy": [
+      155.13,
+      64.448,
+      207.34,
+      127.352
+    ],
+    "crop_xyxy": [
+      136,
+      46,
+      224,
+      144
+    ],
+    "fit_confidence": 0.105
+  },
+  {
+    "sheet": 4,
+    "tile": 23,
+    "inventory_box_index": 116,
+    "filename": "frame_001690_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      183.0,
+      104.0,
+      220.0,
+      140.0
+    ],
+    "candidate_xyxy": [
+      184.18,
+      85.982,
+      236.95,
+      143.341
+    ],
+    "crop_xyxy": [
+      166,
+      69,
+      253,
+      159
+    ],
+    "fit_confidence": 0.0577
+  },
+  {
+    "sheet": 5,
+    "tile": 0,
+    "inventory_box_index": 118,
+    "filename": "frame_001703_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      131.0,
+      205.0,
+      165.0,
+      238.0
+    ],
+    "candidate_xyxy": [
+      125.399,
+      188.983,
+      175.361,
+      238.944
+    ],
+    "crop_xyxy": [
+      110,
+      173,
+      190,
+      254
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 1,
+    "inventory_box_index": 119,
+    "filename": "frame_001703_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      116.0,
+      202.0,
+      152.0,
+      237.0
+    ],
+    "candidate_xyxy": [
+      106.7,
+      186.973,
+      149.54,
+      238.587
+    ],
+    "crop_xyxy": [
+      90,
+      170,
+      168,
+      254
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 2,
+    "inventory_box_index": 120,
+    "filename": "frame_001708_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      205.0,
+      197.0,
+      238.0,
+      230.0
+    ],
+    "candidate_xyxy": [
+      201.103,
+      183.863,
+      248.057,
+      230.817
+    ],
+    "crop_xyxy": [
+      186,
+      168,
+      263,
+      245
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 3,
+    "inventory_box_index": 121,
+    "filename": "frame_001708_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      192.0,
+      197.0,
+      225.0,
+      228.0
+    ],
+    "candidate_xyxy": [
+      184.245,
+      182.683,
+      223.515,
+      229.997
+    ],
+    "crop_xyxy": [
+      169,
+      167,
+      240,
+      244
+    ],
+    "fit_confidence": 0.0825
+  },
+  {
+    "sheet": 5,
+    "tile": 4,
+    "inventory_box_index": 122,
+    "filename": "frame_001719_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      351.0,
+      195.0,
+      380.0,
+      224.0
+    ],
+    "candidate_xyxy": [
+      344.7,
+      181.958,
+      391.037,
+      224.862
+    ],
+    "crop_xyxy": [
+      329,
+      166,
+      406,
+      239
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 5,
+    "inventory_box_index": 123,
+    "filename": "frame_001719_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      338.0,
+      195.0,
+      368.0,
+      222.0
+    ],
+    "candidate_xyxy": [
+      331.797,
+      180.306,
+      369.303,
+      225.494
+    ],
+    "crop_xyxy": [
+      316,
+      165,
+      384,
+      240
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 6,
+    "inventory_box_index": 124,
+    "filename": "frame_001727_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      389.0,
+      309.0,
+      421.0,
+      341.0
+    ],
+    "candidate_xyxy": [
+      382.609,
+      298.405,
+      430.378,
+      342.635
+    ],
+    "crop_xyxy": [
+      367,
+      283,
+      445,
+      357
+    ],
+    "fit_confidence": 0.0825
+  },
+  {
+    "sheet": 5,
+    "tile": 7,
+    "inventory_box_index": 233,
+    "filename": "frame_002431_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      335.609,
+      90.244,
+      355.844,
+      111.57
+    ],
+    "candidate_xyxy": [
+      334.99,
+      92.161,
+      353.975,
+      111.145
+    ],
+    "crop_xyxy": [
+      319,
+      75,
+      370,
+      126
+    ],
+    "fit_confidence": 0.2
+  },
+  {
+    "sheet": 5,
+    "tile": 8,
+    "inventory_box_index": 292,
+    "filename": "frame_002794_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      438.205,
+      161.612,
+      450.981,
+      184.608
+    ],
+    "candidate_xyxy": [
+      423.992,
+      150.847,
+      450.706,
+      183.033
+    ],
+    "crop_xyxy": [
+      408,
+      135,
+      465,
+      199
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 9,
+    "inventory_box_index": 464,
+    "filename": "frame_003694_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      55.0,
+      348.0,
+      145.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      58.126,
+      299.895,
+      135.574,
+      371.605
+    ],
+    "crop_xyxy": [
+      14,
+      259,
+      185,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 10,
+    "inventory_box_index": 465,
+    "filename": "frame_003694_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      -0.0,
+      347.0,
+      103.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      13.871,
+      302.864,
+      110.759,
+      372.069
+    ],
+    "crop_xyxy": [
+      0,
+      256,
+      157,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 11,
+    "inventory_box_index": 480,
+    "filename": "frame_003758_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      323.0,
+      351.0,
+      390.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      321.638,
+      317.824,
+      372.602,
+      373.22
+    ],
+    "crop_xyxy": [
+      291,
+      287,
+      420,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 12,
+    "inventory_box_index": 762,
+    "filename": "frame_004995_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      132.0,
+      105.0,
+      172.0,
+      148.0
+    ],
+    "candidate_xyxy": [
+      133.591,
+      90.842,
+      197.499,
+      144.098
+    ],
+    "crop_xyxy": [
+      112,
+      71,
+      216,
+      167
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 13,
+    "inventory_box_index": 974,
+    "filename": "legacy_train_000299.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      452.0,
+      139.0,
+      737.0,
+      470.0
+    ],
+    "candidate_xyxy": [
+      335.516,
+      107.303,
+      729.91,
+      501.697
+    ],
+    "crop_xyxy": [
+      186,
+      0,
+      885,
+      650
+    ],
+    "fit_confidence": 0.0674
+  },
+  {
+    "sheet": 5,
+    "tile": 14,
+    "inventory_box_index": 977,
+    "filename": "legacy_train_000303.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      314.0,
+      225.0,
+      659.0,
+      584.0
+    ],
+    "candidate_xyxy": [
+      179.082,
+      204.163,
+      659.891,
+      604.837
+    ],
+    "crop_xyxy": [
+      17,
+      42,
+      821,
+      720
+    ],
+    "fit_confidence": 0.0674
+  },
+  {
+    "sheet": 5,
+    "tile": 15,
+    "inventory_box_index": 1317,
+    "filename": "legacy_train_009775_L.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      213.0,
+      193.0,
+      233.0,
+      216.0
+    ],
+    "candidate_xyxy": [
+      200.33,
+      192.225,
+      232.79,
+      227.508
+    ],
+    "crop_xyxy": [
+      185,
+      177,
+      248,
+      242
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 16,
+    "inventory_box_index": 1392,
+    "filename": "legacy_train_009904_L.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      326.0,
+      319.0,
+      408.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      321.575,
+      281.028,
+      412.425,
+      371.879
+    ],
+    "crop_xyxy": [
+      284,
+      244,
+      449,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 17,
+    "inventory_box_index": 1393,
+    "filename": "legacy_train_009906_L.jpg",
+    "box_index": 0,
+    "original_xyxy": [
+      329.0,
+      324.0,
+      414.0,
+      376.0
+    ],
+    "candidate_xyxy": [
+      322.652,
+      281.962,
+      420.348,
+      372.421
+    ],
+    "crop_xyxy": [
+      284,
+      243,
+      458,
+      376
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 18,
+    "inventory_box_index": 684,
+    "filename": "frame_004687_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      430.0,
+      169.0,
+      462.0,
+      202.0
+    ],
+    "candidate_xyxy": [
+      431.686,
+      156.483,
+      468.784,
+      196.807
+    ],
+    "crop_xyxy": [
+      415,
+      141,
+      483,
+      217
+    ],
+    "fit_confidence": 0.0825
+  },
+  {
+    "sheet": 5,
+    "tile": 19,
+    "inventory_box_index": 685,
+    "filename": "frame_004687_right.png",
+    "box_index": 0,
+    "original_xyxy": [
+      416.0,
+      169.0,
+      449.0,
+      202.0
+    ],
+    "candidate_xyxy": [
+      415.729,
+      155.798,
+      461.591,
+      198.262
+    ],
+    "crop_xyxy": [
+      400,
+      140,
+      476,
+      217
+    ],
+    "fit_confidence": 0.0825
+  },
+  {
+    "sheet": 5,
+    "tile": 20,
+    "inventory_box_index": 1539,
+    "filename": "rec_20261013_181326_frame_000390_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      401.0,
+      181.0,
+      441.0,
+      221.0
+    ],
+    "candidate_xyxy": [
+      382.709,
+      168.468,
+      440.625,
+      216.732
+    ],
+    "crop_xyxy": [
+      364,
+      150,
+      459,
+      239
+    ],
+    "fit_confidence": 0.15
+  },
+  {
+    "sheet": 5,
+    "tile": 21,
+    "inventory_box_index": 1553,
+    "filename": "rec_20261013_181326_frame_001013_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      401.0,
+      181.0,
+      441.0,
+      221.0
+    ],
+    "candidate_xyxy": [
+      396.51,
+      184.443,
+      452.023,
+      239.957
+    ],
+    "crop_xyxy": [
+      378,
+      163,
+      470,
+      257
+    ],
+    "fit_confidence": 0.0825
+  },
+  {
+    "sheet": 5,
+    "tile": 22,
+    "inventory_box_index": 2263,
+    "filename": "video_4bec9c343db72928_frame_00006234_right.png",
+    "box_index": 1,
+    "original_xyxy": [
+      16.0,
+      63.0,
+      71.0,
+      106.0
+    ],
+    "candidate_xyxy": [
+      23.777,
+      65.418,
+      68.357,
+      109.998
+    ],
+    "crop_xyxy": [
+      0,
+      38,
+      95,
+      134
+    ],
+    "fit_confidence": 0.3
+  },
+  {
+    "sheet": 5,
+    "tile": 23,
+    "inventory_box_index": 3125,
+    "filename": "video_4bec9c343db72928_frame_00012152_left.png",
+    "box_index": 0,
+    "original_xyxy": [
+      292.0,
+      107.0,
+      365.0,
+      177.0
+    ],
+    "candidate_xyxy": [
+      294.158,
+      101.885,
+      398.612,
+      188.929
+    ],
+    "crop_xyxy": [
+      259,
+      69,
+      431,
+      221
+    ],
+    "fit_confidence": 0.15
+  }
+]

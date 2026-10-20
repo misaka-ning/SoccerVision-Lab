@@ -1,0 +1,125 @@
+{
+  "success": true,
+  "requested_end_time": "00:27:00",
+  "fps": 15.0,
+  "kept_frames": 24300,
+  "first_video_frame_idx": 0,
+  "last_video_frame_idx": 24299,
+  "duration_seconds": 1620.0,
+  "original_frames": 74120,
+  "removed_frames": 49820,
+  "removed_duration_seconds": 3321.3333333333335,
+  "video_path": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+  "jsonl_path": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.jsonl",
+  "codec": "MJPG",
+  "reencoded": false,
+  "every_retained_compressed_packet_sha256_identical": true,
+  "sampled_decoded_frames_pixel_identical": [
+    0,
+    12150,
+    24299
+  ],
+  "jsonl_records": 24300,
+  "jsonl_lines_copied_verbatim": true,
+  "video_sha256": "4bec9c343db729281ab4becf1e79d99effa7a333eb99cac7fd0872fe61509b09",
+  "jsonl_sha256": "55e0dbc7c1eb59460e4eeaa1381f7cb6993c4bd99d09aca0f102089fb315fded",
+  "video_bytes": 897060904,
+  "validation": {
+    "video": {
+      "path": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.partial.avi",
+      "size_bytes": 897060904,
+      "opened": true,
+      "header": {
+        "width": 1344,
+        "height": 376,
+        "fps": 15.0,
+        "reported_frame_count_raw": 24300.0,
+        "frame_count": 24300,
+        "fourcc": "MJPG",
+        "backend": "FFMPEG"
+      },
+      "samples": [
+        {
+          "sample": "first",
+          "requested_frame_index": 0,
+          "seek_returned_true": true,
+          "position_before_read": 0.0,
+          "position_after_read": 1.0,
+          "decoded": true,
+          "position_matches_requested_frame": true,
+          "reported_position_milliseconds_after_read": 0.0,
+          "decoded_size_wh": [
+            1344,
+            376
+          ],
+          "size_matches_header": true,
+          "snapshot_written": true,
+          "snapshot_path": "/tmp/football-download-181531/trim-27min/samples/first-frame-00000000.png"
+        },
+        {
+          "sample": "middle",
+          "requested_frame_index": 12150,
+          "seek_returned_true": true,
+          "position_before_read": 12150.0,
+          "position_after_read": 12151.0,
+          "decoded": true,
+          "position_matches_requested_frame": true,
+          "reported_position_milliseconds_after_read": 810000.0,
+          "decoded_size_wh": [
+            1344,
+            376
+          ],
+          "size_matches_header": true,
+          "snapshot_written": true,
+          "snapshot_path": "/tmp/football-download-181531/trim-27min/samples/middle-frame-00012150.png"
+        },
+        {
+          "sample": "last",
+          "requested_frame_index": 24299,
+          "seek_returned_true": true,
+          "position_before_read": 24299.0,
+          "position_after_read": 24300.0,
+          "decoded": true,
+          "position_matches_requested_frame": true,
+          "reported_position_milliseconds_after_read": 1619933.3333333335,
+          "decoded_size_wh": [
+            1344,
+            376
+          ],
+          "size_matches_header": true,
+          "snapshot_written": true,
+          "snapshot_path": "/tmp/football-download-181531/trim-27min/samples/last-frame-00024299.png"
+        }
+      ],
+      "decode_scope": "Only first, middle and last frame samples; full-frame decoding was not performed.",
+      "header_valid": true,
+      "expected_distinct_sample_count": 3,
+      "elapsed_seconds": 0.059
+    },
+    "jsonl": {
+      "path": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.partial.jsonl",
+      "size_bytes": 157847190,
+      "record_count": 24300,
+      "line_count": 24300,
+      "blank_line_count": 0,
+      "parse_error_count": 0,
+      "non_object_record_count": 0,
+      "invalid_video_frame_idx_count": 0,
+      "discontinuity_count": 0,
+      "first_video_frame_idx": 0,
+      "last_video_frame_idx": 24299,
+      "first_frame_idx": 0,
+      "last_frame_idx": 24299,
+      "schema_versions": {
+        "2": 24300
+      },
+      "issues_sample": [],
+      "streamed_line_by_line": true,
+      "video_frame_idx_contiguous_zero_based": true,
+      "elapsed_seconds": 0.944
+    }
+  },
+  "originals_archive": "/home/misaka/temp/nvidia-recordings-20261013-181531/originals",
+  "original_video_path": "/home/misaka/temp/nvidia-recordings-20261013-181531/originals/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4.avi",
+  "original_jsonl_path": "/home/misaka/temp/nvidia-recordings-20261013-181531/originals/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4.jsonl"
+}

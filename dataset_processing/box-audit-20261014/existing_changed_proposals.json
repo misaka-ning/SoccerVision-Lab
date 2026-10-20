@@ -1,0 +1,1651 @@
+[
+  {
+    "index": 136,
+    "filename": "frame_001674_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0,
+      1
+    ],
+    "decision": "propose_clip_to_image_pending_manual_review",
+    "uncertainty": [
+      "clipped_visible_extent",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          211.33460268045633,
+          -1.277564659923954,
+          258.70722433460077,
+          25.55133079847909
+        ],
+        "tight_xyxy": [
+          211.33460268045633,
+          0,
+          258.70722433460077,
+          25.55133079847909
+        ],
+        "decision": "propose_clip_to_image_pending_manual_review",
+        "reason": "原生全景确认上边缘可见足球被图边截断；原框y1=-1.277565越界，仅将y1裁为0，其余三边与第二框完全保留。",
+        "confidence": "high",
+        "evidence": [
+          "/home/misaka/workspace/datasets/images/train/frame_001674_left.png"
+        ]
+      },
+      {
+        "box_index": 1,
+        "original_xyxy": [
+          610.0000032,
+          322.00000048,
+          672.0,
+          376.0
+        ],
+        "tight_xyxy": null,
+        "decision": "keep_original",
+        "reason": "视觉检查原框局部，未见明确需要改框的证据；原有状态不升级。"
+      }
+    ],
+    "annotation_status_before": "reviewed_annotation",
+    "expected_label_sha256": "e8d5062aefeee9947d19985856d3b75a182833f6a311c79de7b76834b3961406",
+    "expected_image_sha256": "e5c2057a74da692e82472e37bf05358bb68c3116a5b1b20eaec560e7188ff69e",
+    "original_boxes_xyxy": [
+      [
+        211.33460268045633,
+        -1.277564659923954,
+        258.70722433460077,
+        25.55133079847909
+      ],
+      [
+        610.0000032,
+        322.00000048,
+        672.0,
+        376.0
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        211.33460268045633,
+        0,
+        258.70722433460077,
+        25.55133079847909
+      ],
+      [
+        610.0000032,
+        322.00000048,
+        672.0,
+        376.0
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 888,
+    "filename": "frame_004570_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          424.99999584,
+          147.99999952,
+          454.99999776,
+          181.00000048
+        ],
+        "tight_xyxy": [
+          428,
+          148,
+          451,
+          174
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生最近邻放大并按坐标刻度复核；原框在球两侧或下方包含可辨地面空隙，候选沿可见外缘收紧，保留模糊边缘。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        428,
+        148,
+        451,
+        174
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        424.99999584,
+        147.99999952,
+        454.99999776,
+        181.00000048
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "4e59b0dffd0f0ed4412dc2f16272a1110deada0c6a8180d6560a3c2945d3df37",
+    "expected_image_sha256": "1cdd027daec2e6d2848a6eead067f5ad182e276e29d7bf25df739e892dbb2979",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 889,
+    "filename": "frame_004570_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          411.99999792,
+          147.99999952,
+          443.99999951999996,
+          181.00000048
+        ],
+        "tight_xyxy": [
+          416,
+          148,
+          439,
+          174
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生最近邻放大并按坐标刻度复核；原框在球两侧或下方包含可辨地面空隙，候选沿可见外缘收紧，保留模糊边缘。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        416,
+        148,
+        439,
+        174
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        411.99999792,
+        147.99999952,
+        443.99999951999996,
+        181.00000048
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "601c8d3ede3b1424baf0567ebf40ae5508fe41c26b609c3035fd5e19e7c37d9a",
+    "expected_image_sha256": "9ab02cb6e655b42ec3b8cf077631a5ec90bf7e07fe9614e460579a989fd13283",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 890,
+    "filename": "frame_004581_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          574.00000224,
+          153.99999884,
+          607.00000032,
+          187.99999812
+        ],
+        "tight_xyxy": [
+          575,
+          154,
+          607,
+          184
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生最近邻放大并按坐标刻度复核；原框在球两侧或下方包含可辨地面空隙，候选沿可见外缘收紧，保留模糊边缘。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        575,
+        154,
+        607,
+        184
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        574.00000224,
+        153.99999884,
+        607.00000032,
+        187.99999812
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "c8962b75996bd75f9aa30c69c9a217a2762cfbe7ef52d5e936b996aa115bd321",
+    "expected_image_sha256": "b5badedef91dc1412519ca13691961286815706f426ce4337e70ed118eaa93be",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 891,
+    "filename": "frame_004581_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          559.00000128,
+          152.99999864,
+          593.00000256,
+          190.00000039999998
+        ],
+        "tight_xyxy": [
+          561,
+          154,
+          592,
+          183
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生最近邻放大并按坐标刻度复核；原框在球两侧或下方包含可辨地面空隙，候选沿可见外缘收紧，保留模糊边缘。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        561,
+        154,
+        592,
+        183
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        559.00000128,
+        152.99999864,
+        593.00000256,
+        190.00000039999998
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "eeed2b542901548c3bf1061fbb3c911b11f6446e4fb9c2537511c4ceda38f498",
+    "expected_image_sha256": "88eebbb6df69f64e07093877699827c3d5e6703a6f2011391c381ed7fecf5187",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 894,
+    "filename": "frame_004599_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          427.99999872000006,
+          143.0000004,
+          456.99999744,
+          176.00000136
+        ],
+        "tight_xyxy": [
+          430,
+          147,
+          453,
+          173
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生最近邻放大并按坐标刻度复核；原框在球两侧或下方包含可辨地面空隙，候选沿可见外缘收紧，保留模糊边缘。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        430,
+        147,
+        453,
+        173
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        427.99999872000006,
+        143.0000004,
+        456.99999744,
+        176.00000136
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "bea38930c5e0516734f895de564d295e132cea9d9f16da6886c9aeae96b2f964",
+    "expected_image_sha256": "124e0c65421b71bee9c0f325adeda4246344b60b2ecb93d1fbb01e9e96188d68",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 895,
+    "filename": "frame_004599_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          414.99999744,
+          143.0000004,
+          444.99999936,
+          176.00000136
+        ],
+        "tight_xyxy": [
+          417,
+          147,
+          442,
+          173
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生最近邻放大并按坐标刻度复核；原框在球两侧或下方包含可辨地面空隙，候选沿可见外缘收紧，保留模糊边缘。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        417,
+        147,
+        442,
+        173
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        414.99999744,
+        143.0000004,
+        444.99999936,
+        176.00000136
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "3222238770bcdbb67f8d2ac14e4779440b90edaf2a286f8725c94f92d0c6cda2",
+    "expected_image_sha256": "2f3b06cb1c41d8ba72326f461cf4ab3db284d293b42b659a8c73d3f15a6bd22e",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 897,
+    "filename": "frame_004600_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          413.00000112,
+          153.00000052,
+          443.99999951999996,
+          186.99999979999998
+        ],
+        "tight_xyxy": [
+          416,
+          148,
+          439,
+          174
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生局部显示原框下方有较大地面空隙，上缘可能切入球的白色模糊边缘；候选上移上边并收紧左右、下边，待人工复核。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        416,
+        148,
+        439,
+        174
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        413.00000112,
+        153.00000052,
+        443.99999951999996,
+        186.99999979999998
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "ddd00cb5f6abcc9fff146098ed633a2f67ddf46445cc6822f00378d2e652cc1f",
+    "expected_image_sha256": "e7c1b1a78cbde85323c1dd011c97ea66ff1a9fc24ee3798a359d10b7802f5d9c",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 898,
+    "filename": "frame_004613_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          602.9999976,
+          160.00000192000002,
+          638.9999985600001,
+          196.0000016
+        ],
+        "tight_xyxy": [
+          603,
+          159,
+          638,
+          186
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生最近邻放大并按坐标刻度复核；原框在球两侧或下方包含可辨地面空隙，候选沿可见外缘收紧，保留模糊边缘。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        603,
+        159,
+        638,
+        186
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        602.9999976,
+        160.00000192000002,
+        638.9999985600001,
+        196.0000016
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "7112e4b031f64b4ba36507345be46d27ada75b20a0d78faf3dddb9cde21f4fc2",
+    "expected_image_sha256": "880161da8d954aaeec8183a4143fb42353e17b3ef0ac6324fcc5a1a1e94c2604",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 899,
+    "filename": "frame_004613_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          589.0000032,
+          160.00000192000002,
+          626.0000006399999,
+          196.0000016
+        ],
+        "tight_xyxy": [
+          589,
+          159,
+          626,
+          186
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生最近邻放大并按坐标刻度复核；原框在球两侧或下方包含可辨地面空隙，候选沿可见外缘收紧，保留模糊边缘。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        589,
+        159,
+        626,
+        186
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        589.0000032,
+        160.00000192000002,
+        626.0000006399999,
+        196.0000016
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "2eb3914f7a880262a152b7ba60ccc94acb6b4b005558ed5016189fe6110d41d9",
+    "expected_image_sha256": "ee6fc353bfbede6f6484a4d14ad5324a7117488454fcc48fb41e996407f73f52",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 900,
+    "filename": "frame_004618_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          512.00000208,
+          147.99999952,
+          548.00000304,
+          185.00000128
+        ],
+        "tight_xyxy": [
+          514,
+          149,
+          546,
+          179
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生最近邻放大并按坐标刻度复核；原框在球两侧或下方包含可辨地面空隙，候选沿可见外缘收紧，保留模糊边缘。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        514,
+        149,
+        546,
+        179
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        512.00000208,
+        147.99999952,
+        548.00000304,
+        185.00000128
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "062c075548471e7546b5196ff6adc281304a4befec7709e8b8dde4108bb1feda",
+    "expected_image_sha256": "41c77e1bf2c9a833419c794c372329a086a0deccdc16c538432ef49b789cd8bd",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 901,
+    "filename": "frame_004618_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          497.99999760000003,
+          147.99999952,
+          533.9999985600001,
+          185.00000128
+        ],
+        "tight_xyxy": [
+          501,
+          149,
+          533,
+          180
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "原生最近邻放大并按坐标刻度复核；原框在球两侧或下方包含可辨地面空隙，候选沿可见外缘收紧，保留模糊边缘。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-888-901.png"
+        ]
+      }
+    ],
+    "boxes_xyxy": [
+      [
+        501,
+        149,
+        533,
+        180
+      ]
+    ],
+    "original_boxes_xyxy": [
+      [
+        497.99999760000003,
+        147.99999952,
+        533.9999985600001,
+        185.00000128
+      ]
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "6ddabdd7229c3bb239308c5c5df6763e6a849483e0e7bf3c8006c3b4709b4f1d",
+    "expected_image_sha256": "55c8f63d008aab0fbcfb01a02ba19dca5ce856b5733cd1151ae8436273455892",
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 902,
+    "filename": "frame_004627_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          357.99999648000005,
+          141.00000188,
+          387.9999984,
+          175.00000116
+        ],
+        "tight_xyxy": [
+          359,
+          142,
+          386,
+          171
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-902-915.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "6bb69b21a1424a77b4487feed4c309a9513329618f4463f6a8ee4995642da79e",
+    "expected_image_sha256": "de1d738e63b5128929244ee5557521c7db6f90736a0e84faf5d05dc2f32ab437",
+    "original_boxes_xyxy": [
+      [
+        357.99999648000005,
+        141.00000188,
+        387.9999984,
+        175.00000116
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        359,
+        142,
+        386,
+        171
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 903,
+    "filename": "frame_004627_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          344.00000208,
+          142.00000020000002,
+          375.00000048000004,
+          175.99999948
+        ],
+        "tight_xyxy": [
+          347,
+          143,
+          373,
+          172
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-902-915.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "4f0ea3f063b233160c4c4c3707922bf4f67f676ffa5bcc578e4a19d7b08c2d1c",
+    "expected_image_sha256": "fc896cc06b8a05f2ed9e8a8d89ade5fa73df7c79d106024d7d398d4c25ed5a6a",
+    "original_boxes_xyxy": [
+      [
+        344.00000208,
+        142.00000020000002,
+        375.00000048000004,
+        175.99999948
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        347,
+        143,
+        373,
+        172
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 904,
+    "filename": "frame_004638_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          464.99999615999997,
+          145.0000008,
+          494.99999807999995,
+          178.00000176
+        ],
+        "tight_xyxy": [
+          467,
+          148,
+          495,
+          175
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-902-915.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "ff6914fcb0a57a3329ce6a729237d772fc1c39919e4859cf458e9aafd2d9230b",
+    "expected_image_sha256": "a5466e3ea16ff1e803ec0a8b368ac5ebacccc7b1e2bca577ae742441aec0775c",
+    "original_boxes_xyxy": [
+      [
+        464.99999615999997,
+        145.0000008,
+        494.99999807999995,
+        178.00000176
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        467,
+        148,
+        495,
+        175
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 905,
+    "filename": "frame_004638_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          451.00000176,
+          145.0000008,
+          482.00000016,
+          178.00000176
+        ],
+        "tight_xyxy": [
+          454,
+          148,
+          482,
+          175
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-902-915.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "1266cfe8088461de8e7e11bac04d1fde86f0f0c4061b24b94bd92b9214a80944",
+    "expected_image_sha256": "f16d4fd0d4e14f42d15617dfe7e48d43f58b363d0b8c1f7685542853b3275f79",
+    "original_boxes_xyxy": [
+      [
+        451.00000176,
+        145.0000008,
+        482.00000016,
+        178.00000176
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        454,
+        148,
+        482,
+        175
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 910,
+    "filename": "frame_004660_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          489.99999888,
+          149.99999992,
+          520.99999728,
+          185.9999996
+        ],
+        "tight_xyxy": [
+          490,
+          150,
+          521,
+          182
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-902-915.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "dfd2c2dcbbc7a43e058ea49bcc29377c132d043f7893f4f401a040eef9e14029",
+    "expected_image_sha256": "8ad552ff472e91da5e9787497716b270ba60d925788a44ff1e214c92779545f4",
+    "original_boxes_xyxy": [
+      [
+        489.99999888,
+        149.99999992,
+        520.99999728,
+        185.9999996
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        490,
+        150,
+        521,
+        182
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 911,
+    "filename": "frame_004660_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          476.00000112,
+          149.99999992,
+          508.00000271999994,
+          185.9999996
+        ],
+        "tight_xyxy": [
+          477,
+          150,
+          508,
+          182
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-902-915.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "e770a00da47fc8ed36c44ce515dd9e74c03f69420f34645e8e6cadbbe26c806f",
+    "expected_image_sha256": "b6fb19469fefaa678a7773c44b14face49d623351dbe1163fe9785582d684a85",
+    "original_boxes_xyxy": [
+      [
+        476.00000112,
+        149.99999992,
+        508.00000271999994,
+        185.9999996
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        477,
+        150,
+        508,
+        182
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 914,
+    "filename": "frame_004677_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          311.00000064,
+          156.99999943999998,
+          341.00000256,
+          188.99999831999997
+        ],
+        "tight_xyxy": [
+          311,
+          159,
+          340,
+          187
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-902-915.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "ea3089cda94c73373dc76623f0578a5da3567768b9b1095844694ec880e9478b",
+    "expected_image_sha256": "7ca572eddf8125798da88b6ba7ddd2ac91637ce706c66117e9e29748dce47941",
+    "original_boxes_xyxy": [
+      [
+        311.00000064,
+        156.99999943999998,
+        341.00000256,
+        188.99999831999997
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        311,
+        159,
+        340,
+        187
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 918,
+    "filename": "frame_004691_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          484.99999968000003,
+          177.00000156,
+          521.99999712,
+          215.00000164
+        ],
+        "tight_xyxy": [
+          485,
+          177,
+          519,
+          207
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-916-927.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "f54208bd4b6d4b4557751de4a758784fe238cf37c74ea2a52843ce0ad0faf2ab",
+    "expected_image_sha256": "5631f31ea00f6a7143697688a85834081f877c4017438257bead59a1e0d413b0",
+    "original_boxes_xyxy": [
+      [
+        484.99999968000003,
+        177.00000156,
+        521.99999712,
+        215.00000164
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        485,
+        177,
+        519,
+        207
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 919,
+    "filename": "frame_004691_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          471.00000192000005,
+          177.00000156,
+          509.00000256,
+          215.00000164
+        ],
+        "tight_xyxy": [
+          472,
+          177,
+          505,
+          207
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-916-927.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "26df1b0684be23b728bb70f0df9b8905fa39ca0dca9ecbbc3861ba2e068ccde0",
+    "expected_image_sha256": "7fdb10b4cf2c43e1a0a52cf3d73fbd14a418a37bb7bdfe75a35f07f7fbfbdb70",
+    "original_boxes_xyxy": [
+      [
+        471.00000192000005,
+        177.00000156,
+        509.00000256,
+        215.00000164
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        472,
+        177,
+        505,
+        207
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 922,
+    "filename": "frame_004706_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          482.99999663999995,
+          174.99999928000003,
+          518.9999976,
+          212.00000104
+        ],
+        "tight_xyxy": [
+          483,
+          177,
+          516,
+          206
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-916-927.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "af57bdd631facdd894c53e2cccc1558daf973bac385bd5dd7e5c21fd063bcbcf",
+    "expected_image_sha256": "cb851581d325bc5054e0c10b60e764cea5bf87d1dd98298e1967634064bb8e30",
+    "original_boxes_xyxy": [
+      [
+        482.99999663999995,
+        174.99999928000003,
+        518.9999976,
+        212.00000104
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        483,
+        177,
+        516,
+        206
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 923,
+    "filename": "frame_004706_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          468.99999887999996,
+          174.99999928000003,
+          504.99999984,
+          212.00000104
+        ],
+        "tight_xyxy": [
+          469,
+          177,
+          503,
+          207
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-916-927.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "fa9f8978b51df7df2e3249c3d0b3872a1602579135ceb04a9b2f300dbce2100a",
+    "expected_image_sha256": "007953d80395c7563cd3d1b5819298ba68cef40a7d602cefb9d1aefed76c568f",
+    "original_boxes_xyxy": [
+      [
+        468.99999887999996,
+        174.99999928000003,
+        504.99999984,
+        212.00000104
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        469,
+        177,
+        503,
+        207
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 927,
+    "filename": "frame_004726_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          344.00000208,
+          181.99999880000001,
+          376.00000368,
+          217.99999848
+        ],
+        "tight_xyxy": [
+          344,
+          182,
+          376,
+          215
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-916-927.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "7f4ef7c64f3e9fdabfa84bd0fbd3d319e71d7dbb04675acd49b76adadc0ff448",
+    "expected_image_sha256": "fbfc6baf3f8a4387ba16bc3281cf40f51dd3023e62d7eb21a41f489472a0ef7f",
+    "original_boxes_xyxy": [
+      [
+        344.00000208,
+        181.99999880000001,
+        376.00000368,
+        217.99999848
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        344,
+        182,
+        376,
+        215
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 1002,
+    "filename": "frame_005023_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          298.9999992,
+          231.00000108,
+          342.99999888,
+          276.00000067999997
+        ],
+        "tight_xyxy": [
+          299,
+          231,
+          341,
+          271
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-1002-1011.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "4753d8292161f8c62dd4a90af8e59bd5d85fff6f0fb1387d45a0ea714703750e",
+    "expected_image_sha256": "f6f0d3ac224c1a3c517754e34b2096ab69f0e1c69a352c1d0760f8f80bb2661a",
+    "original_boxes_xyxy": [
+      [
+        298.9999992,
+        231.00000108,
+        342.99999888,
+        276.00000067999997
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        299,
+        231,
+        341,
+        271
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 1003,
+    "filename": "frame_005023_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          279.99999552,
+          231.00000108,
+          322.99999872,
+          276.00000067999997
+        ],
+        "tight_xyxy": [
+          280,
+          231,
+          322,
+          271
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-1002-1011.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "cfd82ce7c4f0282f83365d59f49c4dfdb07f8b8abe75238dc654829adb9a1173",
+    "expected_image_sha256": "1d82307f7fd52575b6b3e43e116a6ce3a7653d1447efa7da64e42e083fcd1d14",
+    "original_boxes_xyxy": [
+      [
+        279.99999552,
+        231.00000108,
+        322.99999872,
+        276.00000067999997
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        280,
+        231,
+        322,
+        271
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 1005,
+    "filename": "frame_005029_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          290.99999712,
+          237.00000040000003,
+          332.99999712,
+          279.99999959999997
+        ],
+        "tight_xyxy": [
+          291,
+          237,
+          333,
+          276
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-1002-1011.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "6e2ad9960e885f116aaea4ca17f6d3678fe19263db6754d9505156b2a7fcc68f",
+    "expected_image_sha256": "2a23a0bb60bc21c7ca1235bad1fb93ee6b68d4294e75a6d3df9391eda636fd69",
+    "original_boxes_xyxy": [
+      [
+        290.99999712,
+        237.00000040000003,
+        332.99999712,
+        279.99999959999997
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        291,
+        237,
+        333,
+        276
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 1006,
+    "filename": "frame_005033_left.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          317.99999615999997,
+          245.99999844,
+          360.99999936,
+          287.99999932000003
+        ],
+        "tight_xyxy": [
+          318,
+          246,
+          361,
+          285
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-1002-1011.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "47ff095f930de3673f4fa3c9cf5f098c32f602a9ff4ac5f0f60924b897ee2ea2",
+    "expected_image_sha256": "aa710b6a5bd5500c274898fa0caa8cac5f315ffa8481bb1e89ddc9b12faf9383",
+    "original_boxes_xyxy": [
+      [
+        317.99999615999997,
+        245.99999844,
+        360.99999936,
+        287.99999932000003
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        318,
+        246,
+        361,
+        285
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  },
+  {
+    "index": 1007,
+    "filename": "frame_005033_right.png",
+    "seen_full": true,
+    "seen_crops": [
+      0
+    ],
+    "decision": "propose_box_adjustment_pending_manual_review",
+    "uncertainty": [
+      "moderate_motion_blur_boundary",
+      "all_assistant_changes_pending_manual_review"
+    ],
+    "boxes": [
+      {
+        "box_index": 0,
+        "original_xyxy": [
+          298.99999584,
+          245.99999844,
+          341.99999904000003,
+          287.99999932000003
+        ],
+        "tight_xyxy": [
+          299,
+          246,
+          342,
+          285
+        ],
+        "decision": "propose_adjust_pending_manual_review",
+        "reason": "逐图原生最近邻放大并按坐标刻度核实；球外缘之外有可辨的地面区域，按实际可见轮廓分别调整左右/下沿，保留模糊过渡。",
+        "confidence": "medium",
+        "evidence": [
+          "native-auto-1002-1011.png"
+        ]
+      }
+    ],
+    "annotation_status_before": "auto_label_needs_review",
+    "expected_label_sha256": "0b3347b6d87b28e91cc2275cd739f08a7c1cf436acff44c2ffd3fba32fc36773",
+    "expected_image_sha256": "9ba412cc088bcc6e8f0101a8551ee47c92f9ce4d41c6abb0305266f6f661745e",
+    "original_boxes_xyxy": [
+      [
+        298.99999584,
+        245.99999844,
+        341.99999904000003,
+        287.99999932000003
+      ]
+    ],
+    "boxes_xyxy": [
+      [
+        299,
+        246,
+        342,
+        285
+      ]
+    ],
+    "assistant_modified_boxes_status": "pending_manual_review"
+  }
+]

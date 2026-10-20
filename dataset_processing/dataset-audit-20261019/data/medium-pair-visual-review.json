@@ -1,0 +1,449 @@
+{
+  "sampling_method": "按原始SSIM/embedding排序选取16个medium候选作目的性人工视觉对照，非随机样本，不能外推全库错误率。",
+  "review_status_policy": "review_status保持空；assistant视觉风险判断不是最终人工批准或session真值。",
+  "expected_count": 16,
+  "actual_opened_pages": [
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007569.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007586.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007600.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007588.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007541.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007567.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007561.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007562.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007488.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007484.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007496.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007514.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007493.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007472.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007477.png",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007476.png"
+  ],
+  "records": [
+    {
+      "pair_id": "P007569",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007569.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/val/legacy_val_000021.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000038.jpg",
+      "split_a": "val",
+      "split_b": "test",
+      "assistant_observation": "两图桌沿透视、键盘与显示器底座、手机/杯和鼠标垫布局几乎相同；球在同一桌前区域略作位移/旋转，下图新增左手。属于高度相近构图与物体布置，超出仅同环境背景，无法据此确认拍摄场次。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 10,
+        "dhash_distance": 5,
+        "ssim": 0.6554164886474609,
+        "ssim_128x72": 0.6554164886474609,
+        "cosine_similarity": 0.9575549364089966,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007586",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007586.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/val/legacy_val_000002.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000033.jpg",
+      "split_a": "val",
+      "split_b": "test",
+      "assistant_observation": "同一桌面物件布局，球位于键盘前，球面主要星纹和手机、杯、显示器底座相对关系高度接近；下图视角略降/移位可解释像素SSIM下降。视觉列近重复风险，未确认原采集事件。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 10,
+        "dhash_distance": 7,
+        "ssim": 0.4954451024532318,
+        "ssim_128x72": 0.4954451024532318,
+        "cosine_similarity": 0.9696225523948669,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007600",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007600.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/val/legacy_val_000060.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000044.jpg",
+      "split_a": "val",
+      "split_b": "test",
+      "assistant_observation": "键盘、鼠标垫、手机、显示器底座及左上操作电脑者手臂布置高度一致；近景球旋转并略变位置/清晰度，摄像机小位移。虽SSIM约0.48，仍属高度相近构图/动作阶段风险，不能仅凭低SSIM排除近重复。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 10,
+        "dhash_distance": 9,
+        "ssim": 0.4833482503890991,
+        "ssim_128x72": 0.4833482503890991,
+        "cosine_similarity": 0.9499367475509644,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007588",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007588.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/val/legacy_val_000009.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000033.jpg",
+      "split_a": "val",
+      "split_b": "test",
+      "assistant_observation": "同一键盘前足球及手机、杯、显示器底座、鼠标垫布置高度相同；球像稍位移且相机透视有变化，SSIM约0.41不抵消整体近重复构图证据。未能独立确认拍摄日期或session。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 10,
+        "dhash_distance": 7,
+        "ssim": 0.40891408920288086,
+        "ssim_128x72": 0.40891408920288086,
+        "cosine_similarity": 0.9696829319000244,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007541",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007541.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/val/legacy_val_000013.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000043.jpg",
+      "split_a": "val",
+      "split_b": "test",
+      "assistant_observation": "同一桌面物件布局和球面主星纹，球仍在键盘前相同区域，视角/曝光与运动软化有差别；即便SSIM约0.36，整体构图近似，不宜降为仅共有实验室背景。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 8,
+        "dhash_distance": 7,
+        "ssim": 0.358320027589798,
+        "ssim_128x72": 0.358320027589798,
+        "cosine_similarity": 0.9610474109649658,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007567",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007567.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000291.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000030.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "assistant_observation": "桌沿、椅子、手机、键盘及显示器底座几乎同位；足球在左上桌边上下运动、旋转，清晰度不同。背景构图高度重合，疑同一动作布置的近重复风险，未确认session。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [
+        "下图球处于原图上边缘并有截断外观，图页却未显示Occluded；只列场景标记风险，需原图人工复核。"
+      ],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 10,
+        "dhash_distance": 5,
+        "ssim": 0.8244901299476624,
+        "ssim_128x72": 0.8244901299476624,
+        "cosine_similarity": 0.9789084792137146,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007561",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007561.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000292.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000031.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "assistant_observation": "桌面背景、手机与键盘相对位置几乎重合，球在左上略有位移，train球有明显纵向运动拖影；不能因球姿态/清晰度不同忽略高度重合的拍摄构图。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [
+        "下图上边界处球残部与原Occluded标记需人工核验；主观场景不自动纠正。"
+      ],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 10,
+        "dhash_distance": 2,
+        "ssim": 0.8178276419639587,
+        "ssim_128x72": 0.8178276419639587,
+        "cosine_similarity": 0.969732403755188,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007562",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007562.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000282.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000031.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "assistant_observation": "桌沿透视和桌上固定物件几乎重合，train中的球在左上运动拖影明显，val中的球更靠上且清晰；近重复构图风险明确，是否同录制事件仍未确认。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [
+        "上下图球均靠近画面上沿，至少下图有截断外观；建议按画边遮挡规范复核Occluded，非自动纠正。"
+      ],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 10,
+        "dhash_distance": 2,
+        "ssim": 0.7974899411201477,
+        "ssim_128x72": 0.7974899411201477,
+        "cosine_similarity": 0.9767200946807861,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007488",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007488.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000099.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000008.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "assistant_observation": "球在键盘前的同一区域，主星纹方向高度近似；手机、杯、显示器底座、线缆及鼠标垫布局高度重合。主要差别是相机轻微上下/左右位移，属于近重复构图风险，不能归为仅共用桌面。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 6,
+        "dhash_distance": 2,
+        "ssim": 0.5478373169898987,
+        "ssim_128x72": 0.5478373169898987,
+        "cosine_similarity": 0.9873071312904358,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007484",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007484.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000104.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000009.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "assistant_observation": "球在键盘前同一位置，球面星纹及物件关系高度近似；下图整体轻微纵向位移/尺度变化，SSIM约0.56仍不影响视觉近重复构图判断。session未证实。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 6,
+        "dhash_distance": 1,
+        "ssim": 0.5585538744926453,
+        "ssim_128x72": 0.674538254737854,
+        "cosine_similarity": 0.986812949180603,
+        "ssim_aligned": null,
+        "ssim_resolution": "256x144"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007496",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007496.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000203.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000020.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "assistant_observation": "两图桌沿透视、键盘、手机、杯和球的空间关系几乎相同，球面主星纹同向，左手仅小幅姿态改变；细微相机/球位移即可使SSIM下降，属于近重复风险。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 6,
+        "dhash_distance": 4,
+        "ssim": 0.5883955359458923,
+        "ssim_128x72": 0.6829085946083069,
+        "cosine_similarity": 0.9859673976898193,
+        "ssim_aligned": null,
+        "ssim_resolution": "256x144"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007514",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007514.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000219.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000038.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "assistant_observation": "两图斜视桌面构图高度一致，球面中心星纹同向，键盘、手机和鼠标垫相对位置几乎一致，仅球/手和相机略移。视觉近重复风险，未确认采集时刻或session。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 8,
+        "dhash_distance": 2,
+        "ssim": 0.7806967496871948,
+        "ssim_128x72": 0.7806967496871948,
+        "cosine_similarity": 0.9801403880119324,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007493",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007493.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000216.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000038.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "assistant_observation": "球位于同一键盘前区域且主星纹方向高度相近，桌沿、手机、杯、底座和鼠标垫位置一致；下图新增较伸出的左手，整体视角差异小，构图近重复风险。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 6,
+        "dhash_distance": 4,
+        "ssim": 0.770709753036499,
+        "ssim_128x72": 0.770709753036499,
+        "cosine_similarity": 0.9689944982528687,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007472",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007472.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000081.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000001.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "assistant_observation": "两图前视桌面构图高度相似，球主星纹、键盘、手机、杯和底座关系几乎相同；仅轻微相机俯仰/平移，属于近重复视觉风险，session仍未确认。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 4,
+        "dhash_distance": 2,
+        "ssim": 0.7671154737472534,
+        "ssim_128x72": 0.7671154737472534,
+        "cosine_similarity": 0.9676763415336609,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007477",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007477.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000085.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000001.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "assistant_observation": "球面主星纹同向且同在键盘前，桌面固定物件布局高度一致；相机纵向平移/尺度差异导致SSIM约0.54，但仍能看见近重复构图证据。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 4,
+        "dhash_distance": 7,
+        "ssim": 0.5373395681381226,
+        "ssim_128x72": 0.6274355053901672,
+        "cosine_similarity": 0.9856045246124268,
+        "ssim_aligned": null,
+        "ssim_resolution": "256x144"
+      },
+      "actual_visual_seen": true
+    },
+    {
+      "pair_id": "P007476",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P007476.png"
+      ],
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000038.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000033.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "assistant_observation": "两图同一桌面区域中球、手机、键盘、杯和鼠标垫高度对应，球纹方向相近，摄像机小幅位移；SSIM约0.55不足以排除此类近重复风险。",
+      "visual_assessment": "v_near_duplicate",
+      "risk_notes": [],
+      "source_session_confirmed": false,
+      "review_status": "",
+      "metrics": {
+        "phash_distance": 4,
+        "dhash_distance": 7,
+        "ssim": 0.5466041564941406,
+        "ssim_128x72": 0.5466041564941406,
+        "cosine_similarity": 0.9833714962005615,
+        "ssim_aligned": null,
+        "ssim_resolution": "128x72"
+      },
+      "actual_visual_seen": true
+    }
+  ],
+  "summary": {
+    "actual_opened_pages": 16,
+    "actual_seen_pairs": 16,
+    "actual_image_slots": 32,
+    "visual_assessment_counts": {
+      "v_near_duplicate": 16
+    },
+    "split_pair_counts": {
+      "test/val": 5,
+      "train/val": 6,
+      "test/train": 5
+    },
+    "source_session_confirmed_count": 0,
+    "review_status_nonempty": 0,
+    "finding": "全部16对均表现为桌面物件布局、球主星纹/位置和相机构图高度重合，含小幅视角位移与动作/模糊变化，不宜仅归为共同实验室背景。此为目的性候选的视觉风险，不确认同session、不确认为精确重复，不可当作全库泄漏率。",
+    "source_data_written": false,
+    "completed_at_utc": "2026-10-19T03:53:38.144525+00:00"
+  }
+}

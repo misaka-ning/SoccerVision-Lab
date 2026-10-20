@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "algorithm": "lab_external_ellipse_boundary_v2",
+  "input_path": "/home/misaka/workspace/dataset_processing/box-audit-20261014/inventory.json",
+  "input_sha256": "4179c63a23d66867a56017489d36712444f8b9d3a8faf75cc39c9ac6ac979058",
+  "boxes_expected": 5218,
+  "boxes_completed": 5218,
+  "errors": [],
+  "elapsed_seconds": 630.75,
+  "complete": true,
+  "all_pending_visual_review": true,
+  "automatically_approved_count": 0,
+  "no_detection_means": "unknown_not_no_ball",
+  "crop_model": "/home/misaka/.local/share/vision-studio/converted-models/best-640.onnx"
+}

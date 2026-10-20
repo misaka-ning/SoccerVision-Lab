@@ -1,0 +1,1377 @@
+[
+  {
+    "filename": "video_4bec9c343db72928_frame_00009596_left.png",
+    "split": "train",
+    "expected_label_sha256": "40be20ddd1ceed281f20cf8311313286842aac59c99ae29ccf8dbe9d2cf80707",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4186
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009596_right.png",
+    "split": "train",
+    "expected_label_sha256": "d1df5ae9638fc68f57eb583ee5720988561d3f92b3116a7a2fec35c875a6ec37",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4187
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009663_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        145,
+        135,
+        176,
+        166
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4204
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009663_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        144,
+        134,
+        175,
+        167
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4205
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009706_left.png",
+    "split": "train",
+    "expected_label_sha256": "899cb0fe9162d4daa43a7168bbdc186845939a0c6665d0eecee97bd6db6e8a53",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4216
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010198_right.png",
+    "split": "train",
+    "expected_label_sha256": "f62e8c3b47970c28ba5baf686e3ca28cb657ff6cc7a290ac34c3f27377329c9c",
+    "boxes_xyxy": [
+      [
+        317,
+        246,
+        334,
+        269
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4341
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010206_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        289,
+        264,
+        305,
+        286
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4342
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010447_right.png",
+    "split": "train",
+    "expected_label_sha256": "68c914cf20e33ebc78e32fd84c77c588a0bcdaf63f685443467db8e0eb5ae20c",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4405
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010501_right.png",
+    "split": "train",
+    "expected_label_sha256": "e27d8bc42998c3028d544b6dda0d0da65417322e458aa2370ef67e7f0dfc60cd",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4421
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010514_right.png",
+    "split": "train",
+    "expected_label_sha256": "b618306110b7b5db3f28553565e1dbdfd8565aa7004980426f05cc2857d05332",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4423
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010522_left.png",
+    "split": "train",
+    "expected_label_sha256": "cb1f93a2ad8da45032846ccf0fc08a33b1756b20361e8d4cd959ced1e17b096b",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4424
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010522_right.png",
+    "split": "train",
+    "expected_label_sha256": "01853ab5849bc9ea58d86aba6df61b63a9ed4d2e52c33b8b3b782ea0ce9956b0",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4425
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010554_left.png",
+    "split": "train",
+    "expected_label_sha256": "84060bfcc30f367c63a24d283412a7a6ee34578ab3970ca4b911283d25260460",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4434
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010554_right.png",
+    "split": "train",
+    "expected_label_sha256": "da142e90107ed6f8f8051abf296c603495368b4d8dc617a99c54fd7134be47d0",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4435
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010566_left.png",
+    "split": "train",
+    "expected_label_sha256": "1ac5a8b9a0fe295163ef51811fc31604d468efb3ac0be3cce8160357ad6c7327",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4436
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010566_right.png",
+    "split": "train",
+    "expected_label_sha256": "26a00e20b0dda5173def777986635293e687ec4e6119972dd0052dc3cdd80081",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4437
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010578_right.png",
+    "split": "train",
+    "expected_label_sha256": "b3c56f5efe73473478f64c31889363a47f261692d8c70c1f6559435da1f60213",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4441
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010664_right.png",
+    "split": "train",
+    "expected_label_sha256": "bb3bdb63093498c819108463e11ff51d1d6c5d555dc28e54804b1ab057779c8f",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4463
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010797_right.png",
+    "split": "train",
+    "expected_label_sha256": "f020639337b21938d7370605121ac6bb1392344177e4613198874f20363aa97b",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4499
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010808_right.png",
+    "split": "train",
+    "expected_label_sha256": "f8623ec99ea7a78728663af99459e75d72565c4ed910b40b910df8d819a12bee",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4503
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010831_left.png",
+    "split": "train",
+    "expected_label_sha256": "2516d43db3b9ce344f39e78a35c895544dc70becf186cd303ebf7fb5f38e09d7",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4508
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010831_right.png",
+    "split": "train",
+    "expected_label_sha256": "9ec704da976d66f021013bebecc81809429ae32f2a9c93b8f3615aa07c179834",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4509
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010940_left.png",
+    "split": "train",
+    "expected_label_sha256": "f7aa3002e86c5e4fe28fd0f1ccb0f1bf5310c4b2620af287c88240c456b8f85a",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4536
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010940_right.png",
+    "split": "train",
+    "expected_label_sha256": "9d5d0fc28a6f75d3749b22e23fddd1d0cd692dbdabd5d06a7cd9c08a2ddbcac3",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4537
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010944_left.png",
+    "split": "train",
+    "expected_label_sha256": "897a0ff66e8cb1d436b5b81bf13cb5cdfa3c6aacc1f0725e8538298c6c515a3c",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4538
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010944_right.png",
+    "split": "train",
+    "expected_label_sha256": "44e5b0a2b65809c13d0571261f36112d1c3be4f3806c2100352ff42177e1b1f5",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4539
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010956_left.png",
+    "split": "train",
+    "expected_label_sha256": "b7e97338785efd1a2db1f452b75345f97d5db4364a1bc17f15536561bff249a9",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4540
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010993_left.png",
+    "split": "train",
+    "expected_label_sha256": "328a0a5c3ba9c91e1b2dc49799837f4d0437c7a7640a73915f7b5c151eee790c",
+    "boxes_xyxy": [
+      [
+        230,
+        244,
+        265,
+        275
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4550
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010995_left.png",
+    "split": "train",
+    "expected_label_sha256": "120080f9ab12204b456b2c627076f5542ab2e4e14f6966abf4da128e466d5b74",
+    "boxes_xyxy": [
+      [
+        242,
+        235,
+        277,
+        266
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4552
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011008_left.png",
+    "split": "train",
+    "expected_label_sha256": "3e48afd2eac1fd053ae3b41e498e9e7f6dd6367a2b7865a1876eb15f85c7371c",
+    "boxes_xyxy": [
+      [
+        274,
+        211,
+        310,
+        245
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4554
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011371_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        344,
+        247,
+        437,
+        365
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4653
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011394_left.png",
+    "split": "train",
+    "expected_label_sha256": "c8371fcbf41447d3a4d8967b708fee4828442cbe0cd1c78ea15838d1efef44bd",
+    "boxes_xyxy": [
+      [
+        230,
+        279,
+        259,
+        315
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：原生与同帧右眼核对：白蓝球可见左弧从约y279开始，旧候选右侧延到黑鞋白底/鞋面；调整到球外沿包围框。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4658,
+    "previous_proposed_boxes_xyxy": [
+      [
+        231,
+        285,
+        266,
+        316
+      ]
+    ],
+    "qa_reason": "原生与同帧右眼核对：白蓝球可见左弧从约y279开始，旧候选右侧延到黑鞋白底/鞋面；调整到球外沿包围框。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011709_left.png",
+    "split": "train",
+    "expected_label_sha256": "9d12118cdf6ee939be1b5e95222958617ce4d9458e381968c236ba3f12371ab8",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4742
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011709_right.png",
+    "split": "train",
+    "expected_label_sha256": "225adefc28000cc52eb0d0df57cd750fe3e2c5ddb06f773da15bb725233fbf38",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4743
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011721_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        344,
+        35,
+        380,
+        81
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4744
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011721_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        335,
+        35,
+        372,
+        81
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4745
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011829_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        426,
+        128,
+        454,
+        176
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4774
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011829_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        404,
+        128,
+        434,
+        176
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4775
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011856_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        331,
+        365,
+        370,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4780
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011856_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        310,
+        365,
+        349,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4781
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012104_left.png",
+    "split": "train",
+    "expected_label_sha256": "f113ec20da32ce5a41705e23cd16436fc58941ea0a30c87b2d7a902379130ea5",
+    "boxes_xyxy": [
+      [
+        348,
+        254,
+        505,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：暗色手持球上侧白灰外弧在y254..263可见，候选y264漏掉上缘；左缘保留灰暗模糊轮廓，右侧手部不加入球框。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4846,
+    "previous_proposed_boxes_xyxy": [
+      [
+        350,
+        264,
+        505,
+        376
+      ]
+    ],
+    "qa_reason": "暗色手持球上侧白灰外弧在y254..263可见，候选y264漏掉上缘；左缘保留灰暗模糊轮廓，右侧手部不加入球框。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012104_right.png",
+    "split": "train",
+    "expected_label_sha256": "8d2474fd2b0952a4b387a4ce04a392c0de6b0ae89f4e5be2c69979b7664fd3d0",
+    "boxes_xyxy": [
+      [
+        282,
+        254,
+        429,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：右眼暗色手持球顶部白灰外弧延到约y254，左侧灰暗圆弧约x282；候选顶边与左边略切球，补全可见轮廓。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4847,
+    "previous_proposed_boxes_xyxy": [
+      [
+        285,
+        259,
+        429,
+        376
+      ]
+    ],
+    "qa_reason": "右眼暗色手持球顶部白灰外弧延到约y254，左侧灰暗圆弧约x282；候选顶边与左边略切球，补全可见轮廓。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012109_left.png",
+    "split": "train",
+    "expected_label_sha256": "d2890877ca37455e773093ec390791d6781eb16018a2ede1bbbb7893a6b8e28d",
+    "boxes_xyxy": [
+      [
+        442,
+        287,
+        569,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：候选顶边y304明显穿过球顶部白弧；原生球上沿在约y287..298，而上方棕色区域为手，顶边补到可见球弧。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4848,
+    "previous_proposed_boxes_xyxy": [
+      [
+        442,
+        304,
+        569,
+        376
+      ]
+    ],
+    "qa_reason": "候选顶边y304明显穿过球顶部白弧；原生球上沿在约y287..298，而上方棕色区域为手，顶边补到可见球弧。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012109_right.png",
+    "split": "train",
+    "expected_label_sha256": "8f298b6c3c06dfdf3efd5b22a1f092c2dacb069cc94fa1b1a4db00a2e8068386",
+    "boxes_xyxy": [
+      [
+        380,
+        285,
+        506,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：右眼候选顶边y304穿过顶部白蓝外弧；原生球灰白上沿约y285..299，扩大顶边同时不包含上方手。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4849,
+    "previous_proposed_boxes_xyxy": [
+      [
+        380,
+        304,
+        506,
+        376
+      ]
+    ],
+    "qa_reason": "右眼候选顶边y304穿过顶部白蓝外弧；原生球灰白上沿约y285..299，扩大顶边同时不包含上方手。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012122_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        644,
+        122,
+        672,
+        181
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4853
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012131_left.png",
+    "split": "train",
+    "expected_label_sha256": "c48f49e5b3f9d6d4676c0b29bb2c9eafc124fadfb07881db8448642e167c2981",
+    "boxes_xyxy": [
+      [
+        442,
+        258,
+        504,
+        319
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：手持球左上白灰轮廓从约y258可见，候选y265少量切到外弧；底部及左右保持原提案。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4854,
+    "previous_proposed_boxes_xyxy": [
+      [
+        442,
+        265,
+        504,
+        319
+      ]
+    ],
+    "qa_reason": "手持球左上白灰轮廓从约y258可见，候选y265少量切到外弧；底部及左右保持原提案。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012131_right.png",
+    "split": "train",
+    "expected_label_sha256": "4af9f95fb0840850a19f25795228b41e409ac0319d04f7ae671af02c29aff4c0",
+    "boxes_xyxy": [
+      [
+        409,
+        266,
+        465,
+        319
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4855
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012139_left.png",
+    "split": "train",
+    "expected_label_sha256": "70638052b43fb1d517309def661f7602844ea96b47ef5223bef094d0db49631f",
+    "boxes_xyxy": [
+      [
+        345,
+        172,
+        407,
+        241
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4856
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012139_right.png",
+    "split": "train",
+    "expected_label_sha256": "48e05558bbc843536b4ff5dc17adcc14937e655302f43145cd881f92b10c79a3",
+    "boxes_xyxy": [
+      [
+        308,
+        170,
+        372,
+        239
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4857
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012143_left.png",
+    "split": "train",
+    "expected_label_sha256": "bd7b2d01239cd4fa6357a9e0b2f02be63b155fa3c2ae5a621619abb4d5bba234",
+    "boxes_xyxy": [
+      [
+        337,
+        73,
+        414,
+        144
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4858
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012143_right.png",
+    "split": "train",
+    "expected_label_sha256": "beba786c69e1ed1466731c605810fc3ebddf1b414b3bede6856d778f1dc844f4",
+    "boxes_xyxy": [
+      [
+        306,
+        73,
+        380,
+        144
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4859
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012152_left.png",
+    "split": "train",
+    "expected_label_sha256": "caad250934af2a15baf48b3e4b5ed62616bde0968e5c2cd0cc99094f815d7abd",
+    "boxes_xyxy": [
+      [
+        294,
+        110,
+        362,
+        176
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4860
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012152_right.png",
+    "split": "train",
+    "expected_label_sha256": "94769df58ea5d98210a7a68883b27caefeafffc2fbc32b6a2f9e3ef9422f6709",
+    "boxes_xyxy": [
+      [
+        258,
+        106,
+        336,
+        174
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4861
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012160_left.png",
+    "split": "train",
+    "expected_label_sha256": "aa892bbce1c2c78812e866e5adafdec7148532da502bb2e5512ce90d4049919a",
+    "boxes_xyxy": [
+      [
+        356,
+        156,
+        409,
+        210
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4862
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012160_right.png",
+    "split": "train",
+    "expected_label_sha256": "20bc09cf174d7b18183e6929f0ae816785d5ad3110c3a084b34b57eb6a3fcc77",
+    "boxes_xyxy": [
+      [
+        324,
+        156,
+        382,
+        211
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：原生灰暗球左侧圆弧约x324..329，候选x330切到可见表面；只向左补齐外缘。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4863,
+    "previous_proposed_boxes_xyxy": [
+      [
+        330,
+        156,
+        382,
+        211
+      ]
+    ],
+    "qa_reason": "原生灰暗球左侧圆弧约x324..329，候选x330切到可见表面；只向左补齐外缘。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00013904_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        144,
+        255,
+        161,
+        278
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5310
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00013913_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        140,
+        253,
+        158,
+        276
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5315
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00013949_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        110,
+        250,
+        128,
+        266
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5323
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015189_left.png",
+    "split": "train",
+    "expected_label_sha256": "1bcacad298d00028d96ae86170cb0bd7bfe4acd12cf96800a555546be4aa6007",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5654
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015206_left.png",
+    "split": "train",
+    "expected_label_sha256": "1d961c629fc19d3db74ad2347b0a655ac0e217054e3ee0f913faaeb4ab31d16b",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5658
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015210_left.png",
+    "split": "train",
+    "expected_label_sha256": "7395e91544053b5dca20670d5f9da78148ed8782daee4c19726e0a171e949aa5",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5660
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015613_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        352,
+        252,
+        407,
+        317
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5762
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015613_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        330,
+        252,
+        385,
+        317
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5763
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015622_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        404,
+        261,
+        430,
+        299
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5764
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015622_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        377,
+        262,
+        402,
+        299
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5765
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015650_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        289,
+        337,
+        350,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5772
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015650_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        266,
+        336,
+        331,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5773
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016008_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        564,
+        285,
+        588,
+        314
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5868
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016008_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        551,
+        285,
+        572,
+        314
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 5869
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016638_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        487,
+        0,
+        672,
+        290
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6026
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016776_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        283,
+        340,
+        320,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6062
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016776_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        255,
+        340,
+        293,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6063
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016818_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        53,
+        317,
+        121,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6074
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016818_right.png",
+    "split": "train",
+    "expected_label_sha256": "224378cd2391ff31b35d1257dd74a2e7e1b059ec7c7a811fdf155f46cf0a3f07",
+    "boxes_xyxy": [
+      [
+        14,
+        317,
+        82,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6075
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017095_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        296,
+        358,
+        339,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6148
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017095_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        269,
+        358,
+        312,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6149
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017385_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        602,
+        353,
+        660,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：底边蓝白星纹球片段真实可辨；球白色上弧约y353，底边横向轮廓约x602..660，旧候选只包内部片段。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6226,
+    "previous_proposed_boxes_xyxy": [
+      [
+        611,
+        360,
+        650,
+        376
+      ]
+    ],
+    "qa_reason": "底边蓝白星纹球片段真实可辨；球白色上弧约y353，底边横向轮廓约x602..660，旧候选只包内部片段。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017385_right.png",
+    "split": "train",
+    "expected_label_sha256": "bc3795317067874fe564a2db0e8a787d3ffc2293a52e0aa7b6f09ac63f2bb078",
+    "boxes_xyxy": [],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native full-image and ROI review confirmed that the candidate targets a toy, shoe, floor sticker, robot light or pillar rather than a football. Remove the false box; absence is not a confirmed negative.",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6227
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017394_left.png",
+    "split": "train",
+    "expected_label_sha256": "5eea064ae2244b57447c418d59dadd980cf9ef15f804f185399b11cb148a3034",
+    "boxes_xyxy": [
+      [
+        315,
+        326,
+        351,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：全图、右眼及相邻6230/6231核对为同一白蓝足球，被黑鞋大幅遮挡。可见球后侧白蓝外弧从约y326到裁边，旧候选y362切掉后侧弧且漏左下球面。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6228,
+    "previous_proposed_boxes_xyxy": [
+      [
+        331,
+        362,
+        352,
+        376
+      ]
+    ],
+    "qa_reason": "全图、右眼及相邻6230/6231核对为同一白蓝足球，被黑鞋大幅遮挡。可见球后侧白蓝外弧从约y326到裁边，旧候选y362切掉后侧弧且漏左下球面。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017394_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        269,
+        321,
+        312,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：右眼足球在黑鞋后侧的白蓝外弧从约y321延续到底边，左下表面约x269；旧候选仅覆盖y353以下内部白片。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6229,
+    "previous_proposed_boxes_xyxy": [
+      [
+        290,
+        353,
+        320,
+        376
+      ]
+    ],
+    "qa_reason": "右眼足球在黑鞋后侧的白蓝外弧从约y321延续到底边，左下表面约x269；旧候选仅覆盖y353以下内部白片。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012096_right.png",
+    "split": "train",
+    "expected_label_sha256": "3ac99a9492f81d778e286f37689cf2d18f45f6dd1bc79b4b341fe3f330256bc8",
+    "boxes_xyxy": [
+      [
+        342.087,
+        0,
+        575.533,
+        158.719
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native comparison confirms excess right margin is hand/forearm; tighten to complete dark football outer silhouette, retaining image clipping. Pending human review.",
+    "source": "root_native_comparison",
+    "index": 4845
+  }
+]

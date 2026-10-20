@@ -1,0 +1,3508 @@
+{
+  "full": [
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-00.png",
+      "locals": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-01.png",
+      "locals": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-02.png",
+      "locals": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-03.png",
+      "locals": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-04.png",
+      "locals": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-05.png",
+      "locals": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-06.png",
+      "locals": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-07.png",
+      "locals": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-08.png",
+      "locals": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-09.png",
+      "locals": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-10.png",
+      "locals": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-11.png",
+      "locals": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-12.png",
+      "locals": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-13.png",
+      "locals": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-14.png",
+      "locals": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-15.png",
+      "locals": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-16.png",
+      "locals": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-17.png",
+      "locals": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-18.png",
+      "locals": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-19.png",
+      "locals": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-20.png",
+      "locals": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-21.png",
+      "locals": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-22.png",
+      "locals": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-23.png",
+      "locals": [
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-24.png",
+      "locals": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-25.png",
+      "locals": [
+        150,
+        151,
+        152,
+        153,
+        154,
+        155
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-26.png",
+      "locals": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-27.png",
+      "locals": [
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-28.png",
+      "locals": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-29.png",
+      "locals": [
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-30.png",
+      "locals": [
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-31.png",
+      "locals": [
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-32.png",
+      "locals": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-33.png",
+      "locals": [
+        198,
+        199,
+        200,
+        201,
+        202,
+        203
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-34.png",
+      "locals": [
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-35.png",
+      "locals": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-36.png",
+      "locals": [
+        216,
+        217,
+        218,
+        219,
+        220,
+        221
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-37.png",
+      "locals": [
+        222,
+        223,
+        224,
+        225,
+        226,
+        227
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-38.png",
+      "locals": [
+        228,
+        229,
+        230,
+        231,
+        232,
+        233
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-39.png",
+      "locals": [
+        234,
+        235,
+        236,
+        237,
+        238,
+        239
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-40.png",
+      "locals": [
+        240,
+        241,
+        242,
+        243,
+        244,
+        245
+      ]
+    },
+    {
+      "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-41.png",
+      "locals": [
+        246,
+        247,
+        248,
+        249
+      ]
+    }
+  ],
+  "roi": [
+    {
+      "local": 72,
+      "box_index": 0,
+      "crop": [
+        0,
+        70,
+        43,
+        141
+      ],
+      "xyxy": [
+        0.0,
+        86.9999986,
+        26.00000256,
+        124.99999867999999
+      ],
+      "filename": "frame_001471_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-00.png"
+    },
+    {
+      "local": 73,
+      "box_index": 0,
+      "crop": [
+        0,
+        75,
+        34,
+        142
+      ],
+      "xyxy": [
+        0.0,
+        91.9999996,
+        17.00000064,
+        125.00000056000002
+      ],
+      "filename": "frame_001471_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-00.png"
+    },
+    {
+      "local": 74,
+      "box_index": 0,
+      "crop": [
+        231,
+        95,
+        291,
+        155
+      ],
+      "xyxy": [
+        247.99999728,
+        111.99999983999999,
+        274.99999632000004,
+        138.00000128
+      ],
+      "filename": "frame_001479_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-00.png"
+    },
+    {
+      "local": 75,
+      "box_index": 0,
+      "crop": [
+        219,
+        95,
+        281,
+        152
+      ],
+      "xyxy": [
+        235.9999992,
+        111.99999796,
+        264.00000144,
+        135.999999
+      ],
+      "filename": "frame_001479_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-00.png"
+    },
+    {
+      "local": 76,
+      "box_index": 0,
+      "crop": [
+        133,
+        173,
+        197,
+        234
+      ],
+      "xyxy": [
+        149.99999952,
+        189.00000019999996,
+        180.99999791999997,
+        217.00000204
+      ],
+      "filename": "frame_001485_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-00.png"
+    },
+    {
+      "local": 77,
+      "box_index": 0,
+      "crop": [
+        118,
+        171,
+        187,
+        233
+      ],
+      "xyxy": [
+        134.99999856,
+        187.00000168,
+        170.99999952000002,
+        216.00000183999998
+      ],
+      "filename": "frame_001485_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-00.png"
+    },
+    {
+      "local": 78,
+      "box_index": 0,
+      "crop": [
+        351,
+        159,
+        413,
+        218
+      ],
+      "xyxy": [
+        367.99999824,
+        175.9999976,
+        396.0000004799999,
+        201.99999904000003
+      ],
+      "filename": "frame_001494_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-00.png"
+    },
+    {
+      "local": 79,
+      "box_index": 0,
+      "crop": [
+        341,
+        159,
+        401,
+        219
+      ],
+      "xyxy": [
+        357.00000336000005,
+        175.00000116,
+        384.00000239999997,
+        202.00000092000002
+      ],
+      "filename": "frame_001494_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-00.png"
+    },
+    {
+      "local": 80,
+      "box_index": 0,
+      "crop": [
+        165,
+        177,
+        231,
+        239
+      ],
+      "xyxy": [
+        181.99999775999999,
+        193.000001,
+        214.99999584000003,
+        222.99999948
+      ],
+      "filename": "frame_001503_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-01.png"
+    },
+    {
+      "local": 81,
+      "box_index": 0,
+      "crop": [
+        152,
+        176,
+        219,
+        237
+      ],
+      "xyxy": [
+        168.99999648,
+        192.99999724,
+        202.99999776,
+        220.99999908
+      ],
+      "filename": "frame_001503_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-01.png"
+    },
+    {
+      "local": 82,
+      "box_index": 0,
+      "crop": [
+        271,
+        130,
+        332,
+        190
+      ],
+      "xyxy": [
+        287.99999760000003,
+        146.99999932,
+        315.99999984,
+        173.99999908
+      ],
+      "filename": "frame_001510_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-01.png"
+    },
+    {
+      "local": 83,
+      "box_index": 0,
+      "crop": [
+        261,
+        131,
+        321,
+        189
+      ],
+      "xyxy": [
+        277.00000272,
+        147.0000012,
+        304.00000176000003,
+        172.00000056
+      ],
+      "filename": "frame_001510_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-01.png"
+    },
+    {
+      "local": 84,
+      "box_index": 0,
+      "crop": [
+        300,
+        212,
+        358,
+        272
+      ],
+      "xyxy": [
+        316.99999968,
+        228.9999988,
+        341.99999904000003,
+        255.00000024
+      ],
+      "filename": "frame_001516_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-01.png"
+    },
+    {
+      "local": 85,
+      "box_index": 0,
+      "crop": [
+        289,
+        212,
+        348,
+        270
+      ],
+      "xyxy": [
+        305.0000016,
+        228.9999988,
+        331.00000416,
+        253.99999816000002
+      ],
+      "filename": "frame_001516_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-01.png"
+    },
+    {
+      "local": 86,
+      "box_index": 0,
+      "crop": [
+        335,
+        109,
+        394,
+        168
+      ],
+      "xyxy": [
+        351.99999743999996,
+        125.00000055999999,
+        378.0,
+        151.00000200000002
+      ],
+      "filename": "frame_001521_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-01.png"
+    },
+    {
+      "local": 86,
+      "box_index": 1,
+      "crop": [
+        408,
+        295,
+        523,
+        376
+      ],
+      "xyxy": [
+        424.9999992,
+        312.00000036,
+        505.99999632,
+        376.00000188
+      ],
+      "filename": "frame_001521_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-01.png"
+    },
+    {
+      "local": 87,
+      "box_index": 0,
+      "crop": [
+        325,
+        108,
+        383,
+        165
+      ],
+      "xyxy": [
+        341.00000256,
+        124.99999868,
+        366.00000192000005,
+        148.99999972
+      ],
+      "filename": "frame_001521_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-02.png"
+    },
+    {
+      "local": 87,
+      "box_index": 1,
+      "crop": [
+        374,
+        295,
+        487,
+        376
+      ],
+      "xyxy": [
+        390.9741024,
+        311.05330003999995,
+        470.26170239999993,
+        375.35889932000003
+      ],
+      "filename": "frame_001521_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-02.png"
+    },
+    {
+      "local": 88,
+      "box_index": 0,
+      "crop": [
+        363,
+        29,
+        424,
+        88
+      ],
+      "xyxy": [
+        379.99999632000004,
+        45.99999792,
+        407.99999856,
+        71.99999936
+      ],
+      "filename": "frame_001535_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-02.png"
+    },
+    {
+      "local": 88,
+      "box_index": 1,
+      "crop": [
+        294,
+        193,
+        383,
+        286
+      ],
+      "xyxy": [
+        310.8436968,
+        209.30309968,
+        366.84409775999995,
+        269.03370016
+      ],
+      "filename": "frame_001535_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-02.png"
+    },
+    {
+      "local": 89,
+      "box_index": 0,
+      "crop": [
+        351,
+        28,
+        415,
+        86
+      ],
+      "xyxy": [
+        367.00000176,
+        44.9999996,
+        398.00000016,
+        69.99999896
+      ],
+      "filename": "frame_001535_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-02.png"
+    },
+    {
+      "local": 89,
+      "box_index": 1,
+      "crop": [
+        267,
+        192,
+        362,
+        284
+      ],
+      "xyxy": [
+        283.45230144,
+        208.76969856000002,
+        345.10469952,
+        267.94599984
+      ],
+      "filename": "frame_001535_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-02.png"
+    },
+    {
+      "local": 90,
+      "box_index": 0,
+      "crop": [
+        362,
+        29,
+        424,
+        88
+      ],
+      "xyxy": [
+        378.99999984,
+        45.99999792,
+        407.00000207999994,
+        71.99999936
+      ],
+      "filename": "frame_001536_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-02.png"
+    },
+    {
+      "local": 90,
+      "box_index": 1,
+      "crop": [
+        311,
+        196,
+        403,
+        289
+      ],
+      "xyxy": [
+        327.05510208,
+        212.51050188000002,
+        386.21929919999997,
+        272.38940052000004
+      ],
+      "filename": "frame_001536_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-02.png"
+    },
+    {
+      "local": 91,
+      "box_index": 0,
+      "crop": [
+        351,
+        27,
+        413,
+        89
+      ],
+      "xyxy": [
+        367.99999824,
+        43.9999994,
+        396.0000004799999,
+        72.00000124
+      ],
+      "filename": "frame_001536_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-03.png"
+    },
+    {
+      "local": 91,
+      "box_index": 1,
+      "crop": [
+        283,
+        195,
+        376,
+        288
+      ],
+      "xyxy": [
+        299.38399680000003,
+        211.69639984000003,
+        359.01919872,
+        271.23830096
+      ],
+      "filename": "frame_001536_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-03.png"
+    },
+    {
+      "local": 92,
+      "box_index": 0,
+      "crop": [
+        425,
+        0,
+        491,
+        55
+      ],
+      "xyxy": [
+        441.99999984,
+        8.99999992,
+        474.00000144,
+        38.00000008
+      ],
+      "filename": "frame_001545_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-03.png"
+    },
+    {
+      "local": 92,
+      "box_index": 1,
+      "crop": [
+        521,
+        218,
+        664,
+        344
+      ],
+      "xyxy": [
+        542.00000064,
+        239.0000008,
+        643.00000128,
+        323.00000256
+      ],
+      "filename": "frame_001545_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-03.png"
+    },
+    {
+      "local": 93,
+      "box_index": 0,
+      "crop": [
+        412,
+        0,
+        479,
+        53
+      ],
+      "xyxy": [
+        428.00000207999994,
+        7.999999720000001,
+        462.99999984,
+        36.00000156
+      ],
+      "filename": "frame_001545_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-03.png"
+    },
+    {
+      "local": 93,
+      "box_index": 1,
+      "crop": [
+        490,
+        219,
+        620,
+        340
+      ],
+      "xyxy": [
+        509.00000256,
+        237.99999872,
+        601.00000128,
+        320.9999984
+      ],
+      "filename": "frame_001545_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-03.png"
+    },
+    {
+      "local": 94,
+      "box_index": 0,
+      "crop": [
+        307,
+        27,
+        363,
+        87
+      ],
+      "xyxy": [
+        323.99999856,
+        43.000001080000004,
+        346.99999824,
+        70.00000084
+      ],
+      "filename": "frame_001555_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-03.png"
+    },
+    {
+      "local": 94,
+      "box_index": 1,
+      "crop": [
+        447,
+        214,
+        567,
+        326
+      ],
+      "xyxy": [
+        464.99999615999997,
+        231.00000108,
+        549.99999936,
+        307.99999956
+      ],
+      "filename": "frame_001555_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-03.png"
+    },
+    {
+      "local": 95,
+      "box_index": 0,
+      "crop": [
+        297,
+        24,
+        347,
+        86
+      ],
+      "xyxy": [
+        313.69201776912547,
+        40.27756681992395,
+        330.8897338403042,
+        69.62737642585552
+      ],
+      "filename": "frame_001555_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-04.png"
+    },
+    {
+      "local": 95,
+      "box_index": 1,
+      "crop": [
+        414,
+        213,
+        531,
+        324
+      ],
+      "xyxy": [
+        431.0000016,
+        229.999999,
+        513.9999984,
+        306.99999748
+      ],
+      "filename": "frame_001555_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-04.png"
+    },
+    {
+      "local": 96,
+      "box_index": 0,
+      "crop": [
+        15,
+        38,
+        94,
+        112
+      ],
+      "xyxy": [
+        31.22052895939162,
+        54.250949410342194,
+        77.29277566539925,
+        95.17870722433462
+      ],
+      "filename": "frame_001563_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-04.png"
+    },
+    {
+      "local": 96,
+      "box_index": 1,
+      "crop": [
+        252,
+        235,
+        360,
+        343
+      ],
+      "xyxy": [
+        268.96249968,
+        251.52040036,
+        343.85519952,
+        326.93440076
+      ],
+      "filename": "frame_001563_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-04.png"
+    },
+    {
+      "local": 97,
+      "box_index": 0,
+      "crop": [
+        0,
+        38,
+        73,
+        110
+      ],
+      "xyxy": [
+        13.418250630570338,
+        54.752851071026605,
+        56.212927756654,
+        93.26235741444867
+      ],
+      "filename": "frame_001563_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-04.png"
+    },
+    {
+      "local": 97,
+      "box_index": 1,
+      "crop": [
+        218,
+        234,
+        327,
+        342
+      ],
+      "xyxy": [
+        234.63280175999998,
+        250.49669899999998,
+        310.43840016,
+        325.64319796
+      ],
+      "filename": "frame_001563_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-04.png"
+    },
+    {
+      "local": 98,
+      "box_index": 0,
+      "crop": [
+        50,
+        14,
+        116,
+        84
+      ],
+      "xyxy": [
+        66.44486932015211,
+        30.22433568076046,
+        99.65019011406845,
+        67.71102661596959
+      ],
+      "filename": "frame_001570_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-04.png"
+    },
+    {
+      "local": 98,
+      "box_index": 1,
+      "crop": [
+        288,
+        254,
+        422,
+        376
+      ],
+      "xyxy": [
+        308.00000112,
+        274.00000028,
+        401.99999951999996,
+        370.00000068
+      ],
+      "filename": "frame_001570_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-04.png"
+    },
+    {
+      "local": 99,
+      "box_index": 0,
+      "crop": [
+        32,
+        15,
+        100,
+        84
+      ],
+      "xyxy": [
+        48.0000024,
+        31.99999888,
+        83.00000016,
+        67.99999856000001
+      ],
+      "filename": "frame_001570_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-05.png"
+    },
+    {
+      "local": 99,
+      "box_index": 1,
+      "crop": [
+        247,
+        254,
+        381,
+        376
+      ],
+      "xyxy": [
+        266.99999760000003,
+        274.00000028,
+        361.9999992,
+        368.9999986
+      ],
+      "filename": "frame_001570_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-05.png"
+    },
+    {
+      "local": 100,
+      "box_index": 0,
+      "crop": [
+        208,
+        342,
+        324,
+        376
+      ],
+      "xyxy": [
+        224.9999976,
+        359.00000036,
+        306.99999792,
+        376.00000188
+      ],
+      "filename": "frame_001576_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-05.png"
+    },
+    {
+      "local": 101,
+      "box_index": 0,
+      "crop": [
+        164,
+        346,
+        268,
+        376
+      ],
+      "xyxy": [
+        180.99999792,
+        362.00000096,
+        251.00000016,
+        376.0
+      ],
+      "filename": "frame_001576_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-05.png"
+    },
+    {
+      "local": 102,
+      "box_index": 0,
+      "crop": [
+        608,
+        138,
+        672,
+        243
+      ],
+      "xyxy": [
+        624.764196,
+        154.21139920000002,
+        671.87509872,
+        226.23119872
+      ],
+      "filename": "frame_001587_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-05.png"
+    },
+    {
+      "local": 103,
+      "box_index": 0,
+      "crop": [
+        578,
+        135,
+        672,
+        242
+      ],
+      "xyxy": [
+        594.0000024,
+        151.99999844,
+        672.0000033599999,
+        225.9999982
+      ],
+      "filename": "frame_001587_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-05.png"
+    },
+    {
+      "local": 104,
+      "box_index": 0,
+      "crop": [
+        426,
+        17,
+        525,
+        110
+      ],
+      "xyxy": [
+        442.7756637992395,
+        33.60836653901141,
+        508.47148288973386,
+        93.26235741444867
+      ],
+      "filename": "frame_001590_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-05.png"
+    },
+    {
+      "local": 105,
+      "box_index": 0,
+      "crop": [
+        399,
+        12,
+        505,
+        108
+      ],
+      "xyxy": [
+        415.24129584,
+        28.272002120000003,
+        488.49299856000005,
+        91.6091006
+      ],
+      "filename": "frame_001590_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-05.png"
+    },
+    {
+      "local": 106,
+      "box_index": 0,
+      "crop": [
+        222,
+        191,
+        288,
+        253
+      ],
+      "xyxy": [
+        238.99999871999998,
+        207.00000004,
+        271.9999968,
+        236.99999852
+      ],
+      "filename": "frame_001598_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-06.png"
+    },
+    {
+      "local": 106,
+      "box_index": 1,
+      "crop": [
+        325,
+        207,
+        393,
+        275
+      ],
+      "xyxy": [
+        341.99999904000003,
+        223.9999978,
+        376.00000032,
+        258.99999916
+      ],
+      "filename": "frame_001598_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-06.png"
+    },
+    {
+      "local": 107,
+      "box_index": 0,
+      "crop": [
+        208,
+        190,
+        278,
+        253
+      ],
+      "xyxy": [
+        224.00000447999997,
+        206.00000172,
+        261.00000192,
+        236.00000020000002
+      ],
+      "filename": "frame_001598_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-06.png"
+    },
+    {
+      "local": 107,
+      "box_index": 1,
+      "crop": [
+        310,
+        207,
+        377,
+        275
+      ],
+      "xyxy": [
+        326.0000016,
+        223.9999978,
+        360.00000288,
+        258.99999916
+      ],
+      "filename": "frame_001598_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-06.png"
+    },
+    {
+      "local": 108,
+      "box_index": 0,
+      "crop": [
+        201,
+        211,
+        267,
+        272
+      ],
+      "xyxy": [
+        217.99999871999998,
+        227.00000028,
+        250.99999680000002,
+        255.00000212000003
+      ],
+      "filename": "frame_001604_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-06.png"
+    },
+    {
+      "local": 108,
+      "box_index": 1,
+      "crop": [
+        335,
+        206,
+        398,
+        269
+      ],
+      "xyxy": [
+        351.70330272,
+        222.52340068,
+        381.65020319999996,
+        252.06179899999995
+      ],
+      "filename": "frame_001604_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-06.png"
+    },
+    {
+      "local": 109,
+      "box_index": 0,
+      "crop": [
+        185,
+        207,
+        253,
+        272
+      ],
+      "xyxy": [
+        201.99999792,
+        223.00000136,
+        236.99999568,
+        255.00000024
+      ],
+      "filename": "frame_001604_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-06.png"
+    },
+    {
+      "local": 109,
+      "box_index": 1,
+      "crop": [
+        322,
+        204,
+        385,
+        267
+      ],
+      "xyxy": [
+        338.11960223999995,
+        220.97350048,
+        368.14690079999997,
+        250.95989904
+      ],
+      "filename": "frame_001604_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-06.png"
+    },
+    {
+      "local": 110,
+      "box_index": 0,
+      "crop": [
+        220,
+        223,
+        281,
+        268
+      ],
+      "xyxy": [
+        236.36502109140685,
+        239.54372623574145,
+        264.4562737642586,
+        251.74904974965773
+      ],
+      "filename": "frame_001605_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-07.png"
+    },
+    {
+      "local": 110,
+      "box_index": 1,
+      "crop": [
+        351,
+        199,
+        419,
+        268
+      ],
+      "xyxy": [
+        367.99999823999997,
+        215.99999995999997,
+        402.999996,
+        251.00000132
+      ],
+      "filename": "frame_001605_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-07.png"
+    },
+    {
+      "local": 111,
+      "box_index": 0,
+      "crop": [
+        208,
+        210,
+        268,
+        272
+      ],
+      "xyxy": [
+        224.9999976,
+        226.00000008000004,
+        251.99999664,
+        255.00000024
+      ],
+      "filename": "frame_001605_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-07.png"
+    },
+    {
+      "local": 111,
+      "box_index": 1,
+      "crop": [
+        340,
+        202,
+        407,
+        271
+      ],
+      "xyxy": [
+        356.00000016,
+        218.99999868,
+        390.99999792000006,
+        254.00000004000003
+      ],
+      "filename": "frame_001605_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-07.png"
+    },
+    {
+      "local": 112,
+      "box_index": 0,
+      "crop": [
+        247,
+        160,
+        314,
+        227
+      ],
+      "xyxy": [
+        263.99999808,
+        176.99999968,
+        297.99999936,
+        210.00000064000002
+      ],
+      "filename": "frame_001612_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-07.png"
+    },
+    {
+      "local": 112,
+      "box_index": 1,
+      "crop": [
+        372,
+        164,
+        436,
+        226
+      ],
+      "xyxy": [
+        388.9034016,
+        180.71080008,
+        419.3833996799999,
+        209.6460004
+      ],
+      "filename": "frame_001612_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-07.png"
+    },
+    {
+      "local": 113,
+      "box_index": 0,
+      "crop": [
+        236,
+        164,
+        298,
+        225
+      ],
+      "xyxy": [
+        252.99999984,
+        180.00000028000002,
+        281.00000208,
+        208.00000212000003
+      ],
+      "filename": "frame_001612_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-07.png"
+    },
+    {
+      "local": 113,
+      "box_index": 1,
+      "crop": [
+        359,
+        163,
+        420,
+        225
+      ],
+      "xyxy": [
+        375.9999969600001,
+        179.99999839999998,
+        403.9999992,
+        208.99999856
+      ],
+      "filename": "frame_001612_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-07.png"
+    },
+    {
+      "local": 114,
+      "box_index": 0,
+      "crop": [
+        248,
+        181,
+        315,
+        243
+      ],
+      "xyxy": [
+        264.00000144,
+        197.99999824000002,
+        298.9999992,
+        226.9999984
+      ],
+      "filename": "frame_001615_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-08.png"
+    },
+    {
+      "local": 114,
+      "box_index": 1,
+      "crop": [
+        370,
+        185,
+        432,
+        248
+      ],
+      "xyxy": [
+        386.02810176,
+        201.5505982,
+        415.84359936,
+        231.24099827999999
+      ],
+      "filename": "frame_001615_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-08.png"
+    },
+    {
+      "local": 115,
+      "box_index": 0,
+      "crop": [
+        237,
+        182,
+        298,
+        242
+      ],
+      "xyxy": [
+        253.99999631999998,
+        198.99999844,
+        281.99999856,
+        225.99999820000005
+      ],
+      "filename": "frame_001615_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-08.png"
+    },
+    {
+      "local": 115,
+      "box_index": 1,
+      "crop": [
+        356,
+        184,
+        418,
+        247
+      ],
+      "xyxy": [
+        372.22119984,
+        200.72670136000002,
+        401.37549648000004,
+        230.62640184
+      ],
+      "filename": "frame_001615_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-08.png"
+    },
+    {
+      "local": 116,
+      "box_index": 0,
+      "crop": [
+        254,
+        173,
+        321,
+        238
+      ],
+      "xyxy": [
+        270.00000048,
+        189.00000208,
+        304.99999823999997,
+        221.00000096000002
+      ],
+      "filename": "frame_001620_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-08.png"
+    },
+    {
+      "local": 116,
+      "box_index": 1,
+      "crop": [
+        362,
+        182,
+        426,
+        245
+      ],
+      "xyxy": [
+        378.97970208,
+        198.23089984,
+        409.63830432,
+        228.51830144
+      ],
+      "filename": "frame_001620_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-08.png"
+    },
+    {
+      "local": 117,
+      "box_index": 0,
+      "crop": [
+        241,
+        175,
+        303,
+        236
+      ],
+      "xyxy": [
+        257.99999904000003,
+        191.0000006,
+        286.99999776,
+        219.00000244000003
+      ],
+      "filename": "frame_001620_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-08.png"
+    },
+    {
+      "local": 117,
+      "box_index": 1,
+      "crop": [
+        351,
+        180,
+        416,
+        248
+      ],
+      "xyxy": [
+        367.00000176,
+        196.99999803999998,
+        399.00000336,
+        231.9999994
+      ],
+      "filename": "frame_001620_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-08.png"
+    },
+    {
+      "local": 118,
+      "box_index": 0,
+      "crop": [
+        288,
+        194,
+        361,
+        265
+      ],
+      "xyxy": [
+        304.99999824,
+        210.99999896,
+        344.99999856,
+        248.00000071999997
+      ],
+      "filename": "frame_001626_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-09.png"
+    },
+    {
+      "local": 118,
+      "box_index": 1,
+      "crop": [
+        384,
+        223,
+        454,
+        292
+      ],
+      "xyxy": [
+        400.99999968000003,
+        239.99999912,
+        437.99999712,
+        275.99999879999996
+      ],
+      "filename": "frame_001626_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-09.png"
+    },
+    {
+      "local": 119,
+      "box_index": 0,
+      "crop": [
+        269,
+        196,
+        334,
+        267
+      ],
+      "xyxy": [
+        285.00000144,
+        212.99999936000003,
+        317.00000304,
+        250.00000111999998
+      ],
+      "filename": "frame_001626_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-09.png"
+    },
+    {
+      "local": 119,
+      "box_index": 1,
+      "crop": [
+        371,
+        224,
+        436,
+        295
+      ],
+      "xyxy": [
+        387.00000192,
+        240.000001,
+        420.0,
+        278.00000108
+      ],
+      "filename": "frame_001626_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-09.png"
+    },
+    {
+      "local": 126,
+      "box_index": 0,
+      "crop": [
+        49,
+        278,
+        156,
+        375
+      ],
+      "xyxy": [
+        65.83269977977189,
+        294.4790874524715,
+        139.89353612167304,
+        358.3916366609885
+      ],
+      "filename": "frame_001647_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-09.png"
+    },
+    {
+      "local": 127,
+      "box_index": 0,
+      "crop": [
+        18,
+        270,
+        135,
+        376
+      ],
+      "xyxy": [
+        35.00000112,
+        287.000001,
+        117.00000143999999,
+        372.00000108
+      ],
+      "filename": "frame_001647_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-09.png"
+    },
+    {
+      "local": 128,
+      "box_index": 0,
+      "crop": [
+        105,
+        301,
+        202,
+        376
+      ],
+      "xyxy": [
+        121.19391762980989,
+        317.8326984997719,
+        185.2471482889734,
+        375.99999999999994
+      ],
+      "filename": "frame_001650_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-09.png"
+    },
+    {
+      "local": 128,
+      "box_index": 1,
+      "crop": [
+        243,
+        339,
+        340,
+        376
+      ],
+      "xyxy": [
+        259.9847908745248,
+        355.16349809885935,
+        323.8631178707224,
+        376.0
+      ],
+      "filename": "frame_001650_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-09.png"
+    },
+    {
+      "local": 129,
+      "box_index": 0,
+      "crop": [
+        72,
+        299,
+        178,
+        376
+      ],
+      "xyxy": [
+        88.3878363648,
+        315.27756543839996,
+        161.3878347648,
+        376.0
+      ],
+      "filename": "frame_001650_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-10.png"
+    },
+    {
+      "local": 129,
+      "box_index": 1,
+      "crop": [
+        209,
+        337,
+        314,
+        376
+      ],
+      "xyxy": [
+        225.4904943312,
+        353.2471483028,
+        297.0342205488,
+        376.0000000188
+      ],
+      "filename": "frame_001650_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-10.png"
+    },
+    {
+      "local": 130,
+      "box_index": 0,
+      "crop": [
+        89,
+        155,
+        163,
+        219
+      ],
+      "xyxy": [
+        105.0,
+        171.00000036,
+        147.0,
+        202.00000092000002
+      ],
+      "filename": "frame_001654_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-10.png"
+    },
+    {
+      "local": 130,
+      "box_index": 1,
+      "crop": [
+        220,
+        226,
+        309,
+        313
+      ],
+      "xyxy": [
+        236.99999903999998,
+        242.99999972,
+        292.00000032,
+        296.00000092
+      ],
+      "filename": "frame_001654_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-10.png"
+    },
+    {
+      "local": 131,
+      "box_index": 0,
+      "crop": [
+        68,
+        149,
+        142,
+        219
+      ],
+      "xyxy": [
+        84.69581941049427,
+        165.52851915026616,
+        125.20152091254754,
+        202.49429657794676
+      ],
+      "filename": "frame_001654_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-10.png"
+    },
+    {
+      "local": 131,
+      "box_index": 1,
+      "crop": [
+        196,
+        227,
+        285,
+        312
+      ],
+      "xyxy": [
+        212.00000304000002,
+        243.99999992000002,
+        268.0000008,
+        295.00000071999995
+      ],
+      "filename": "frame_001654_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-10.png"
+    },
+    {
+      "local": 132,
+      "box_index": 0,
+      "crop": [
+        90,
+        148,
+        165,
+        212
+      ],
+      "xyxy": [
+        106.99999967999999,
+        164.00000084,
+        148.99999968,
+        195.00000140000003
+      ],
+      "filename": "frame_001658_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-10.png"
+    },
+    {
+      "local": 132,
+      "box_index": 1,
+      "crop": [
+        223,
+        280,
+        331,
+        376
+      ],
+      "xyxy": [
+        239.99999856,
+        296.99999924,
+        314.00000016,
+        373.99999772
+      ],
+      "filename": "frame_001658_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-10.png"
+    },
+    {
+      "local": 133,
+      "box_index": 0,
+      "crop": [
+        65,
+        141,
+        138,
+        210
+      ],
+      "xyxy": [
+        81.99999695999999,
+        157.99999964,
+        121.99999728,
+        193.000001
+      ],
+      "filename": "frame_001658_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-11.png"
+    },
+    {
+      "local": 133,
+      "box_index": 1,
+      "crop": [
+        194,
+        280,
+        298,
+        376
+      ],
+      "xyxy": [
+        210.99999984,
+        296.99999924,
+        281.00000208,
+        370.99999900000006
+      ],
+      "filename": "frame_001658_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-11.png"
+    },
+    {
+      "local": 134,
+      "box_index": 0,
+      "crop": [
+        109,
+        63,
+        178,
+        127
+      ],
+      "xyxy": [
+        125.00000015999998,
+        79.99999908000001,
+        161.00000112,
+        110.99999964
+      ],
+      "filename": "frame_001665_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-11.png"
+    },
+    {
+      "local": 135,
+      "box_index": 0,
+      "crop": [
+        82,
+        58,
+        152,
+        125
+      ],
+      "xyxy": [
+        98.00000447999999,
+        74.00000164000001,
+        135.00000192000002,
+        108.00000091999999
+      ],
+      "filename": "frame_001665_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-11.png"
+    },
+    {
+      "local": 136,
+      "box_index": 0,
+      "crop": [
+        195,
+        0,
+        275,
+        42
+      ],
+      "xyxy": [
+        211.3346026512,
+        0.0,
+        258.7072243056,
+        25.551330791999998
+      ],
+      "filename": "frame_001674_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-11.png"
+    },
+    {
+      "local": 136,
+      "box_index": 1,
+      "crop": [
+        594,
+        306,
+        672,
+        376
+      ],
+      "xyxy": [
+        610.0000032,
+        322.00000048,
+        672.0,
+        376.0
+      ],
+      "filename": "frame_001674_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-11.png"
+    },
+    {
+      "local": 137,
+      "box_index": 0,
+      "crop": [
+        169,
+        0,
+        232,
+        44
+      ],
+      "xyxy": [
+        185.99999712000002,
+        1.879999999010451e-06,
+        215.99999903999998,
+        27.00000164
+      ],
+      "filename": "frame_001674_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-11.png"
+    },
+    {
+      "local": 137,
+      "box_index": 1,
+      "crop": [
+        532,
+        292,
+        672,
+        376
+      ],
+      "xyxy": [
+        556.0836482701138,
+        315.41825015057026,
+        672.0,
+        376.0
+      ],
+      "filename": "frame_001674_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-11.png"
+    },
+    {
+      "local": 138,
+      "box_index": 0,
+      "crop": [
+        251,
+        0,
+        326,
+        59
+      ],
+      "xyxy": [
+        267.8897338403042,
+        1.973385830418244,
+        309.17110266159693,
+        42.159695817490494
+      ],
+      "filename": "frame_001677_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-12.png"
+    },
+    {
+      "local": 139,
+      "box_index": 0,
+      "crop": [
+        610,
+        315,
+        672,
+        376
+      ],
+      "xyxy": [
+        626.0000006399999,
+        331.99999872000006,
+        672.0,
+        376.0
+      ],
+      "filename": "frame_001677_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-12.png"
+    },
+    {
+      "local": 140,
+      "box_index": 0,
+      "crop": [
+        556,
+        288,
+        672,
+        376
+      ],
+      "xyxy": [
+        576.0000019199999,
+        308.00000144,
+        672.0,
+        376.0
+      ],
+      "filename": "frame_001680_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-12.png"
+    },
+    {
+      "local": 140,
+      "box_index": 1,
+      "crop": [
+        149,
+        0,
+        236,
+        52
+      ],
+      "xyxy": [
+        165.00000383999998,
+        0.0,
+        219.00000191999996,
+        35.99999968
+      ],
+      "filename": "frame_001680_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-12.png"
+    },
+    {
+      "local": 141,
+      "box_index": 0,
+      "crop": [
+        516,
+        284,
+        672,
+        376
+      ],
+      "xyxy": [
+        539.0000011200001,
+        306.99999936,
+        651.0000033599999,
+        376.0
+      ],
+      "filename": "frame_001680_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-12.png"
+    },
+    {
+      "local": 141,
+      "box_index": 1,
+      "crop": [
+        124,
+        0,
+        209,
+        54
+      ],
+      "xyxy": [
+        140.9999976,
+        0.0,
+        192.999996,
+        37.000001759999996
+      ],
+      "filename": "frame_001680_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-12.png"
+    },
+    {
+      "local": 142,
+      "box_index": 0,
+      "crop": [
+        73,
+        14,
+        154,
+        93
+      ],
+      "xyxy": [
+        89.41824855057034,
+        30.418249550570337,
+        137.97718631178708,
+        76.65399239543727
+      ],
+      "filename": "frame_001682_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-12.png"
+    },
+    {
+      "local": 142,
+      "box_index": 1,
+      "crop": [
+        526,
+        277,
+        672,
+        376
+      ],
+      "xyxy": [
+        551.0000025600001,
+        301.99999835999995,
+        672.0,
+        375.99999812
+      ],
+      "filename": "frame_001682_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-12.png"
+    },
+    {
+      "local": 143,
+      "box_index": 0,
+      "crop": [
+        59,
+        16,
+        134,
+        87
+      ],
+      "xyxy": [
+        75.61216762038023,
+        32.52851699026616,
+        117.61216762038023,
+        70.52851707026616
+      ],
+      "filename": "frame_001682_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-13.png"
+    },
+    {
+      "local": 143,
+      "box_index": 1,
+      "crop": [
+        485,
+        266,
+        657,
+        376
+      ],
+      "xyxy": [
+        509.99999904000003,
+        291.0000018,
+        631.99999968,
+        376.00000188
+      ],
+      "filename": "frame_001682_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-13.png"
+    },
+    {
+      "local": 144,
+      "box_index": 0,
+      "crop": [
+        75,
+        28,
+        152,
+        100
+      ],
+      "xyxy": [
+        91.99999872000001,
+        44.999999599999995,
+        135.00000192000002,
+        83.99999799999999
+      ],
+      "filename": "frame_001683_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-13.png"
+    },
+    {
+      "local": 144,
+      "box_index": 1,
+      "crop": [
+        535,
+        266,
+        672,
+        376
+      ],
+      "xyxy": [
+        557.9999980800001,
+        288.99999952,
+        672.0,
+        376.0
+      ],
+      "filename": "frame_001683_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-13.png"
+    },
+    {
+      "local": 145,
+      "box_index": 0,
+      "crop": [
+        62,
+        24,
+        140,
+        100
+      ],
+      "xyxy": [
+        78.05703710053231,
+        40.88973552030418,
+        123.92395437262358,
+        83.04182509505704
+      ],
+      "filename": "frame_001683_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-13.png"
+    },
+    {
+      "local": 145,
+      "box_index": 1,
+      "crop": [
+        483,
+        263,
+        662,
+        376
+      ],
+      "xyxy": [
+        508.99999584,
+        288.99999952,
+        635.99999904,
+        376.0
+      ],
+      "filename": "frame_001683_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-13.png"
+    },
+    {
+      "local": 146,
+      "box_index": 0,
+      "crop": [
+        88,
+        49,
+        166,
+        124
+      ],
+      "xyxy": [
+        104.69581957049427,
+        65.2509516103422,
+        149.47528517110268,
+        107.31558935361217
+      ],
+      "filename": "frame_001686_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-13.png"
+    },
+    {
+      "local": 146,
+      "box_index": 1,
+      "crop": [
+        556,
+        305,
+        672,
+        376
+      ],
+      "xyxy": [
+        576.0000019199999,
+        324.99999919999993,
+        672.0,
+        376.0
+      ],
+      "filename": "frame_001686_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-13.png"
+    },
+    {
+      "local": 147,
+      "box_index": 0,
+      "crop": [
+        73,
+        48,
+        151,
+        121
+      ],
+      "xyxy": [
+        89.41825191057032,
+        64.88973468030417,
+        134.78326996197717,
+        104.1216730038023
+      ],
+      "filename": "frame_001686_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-14.png"
+    },
+    {
+      "local": 147,
+      "box_index": 1,
+      "crop": [
+        506,
+        298,
+        665,
+        376
+      ],
+      "xyxy": [
+        528.99999936,
+        320.9999984,
+        641.99999808,
+        376.0
+      ],
+      "filename": "frame_001686_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-14.png"
+    },
+    {
+      "local": 148,
+      "box_index": 0,
+      "crop": [
+        137,
+        70,
+        209,
+        141
+      ],
+      "xyxy": [
+        153.99999887999996,
+        86.00000028,
+        192.99999599999998,
+        124.00000035999999
+      ],
+      "filename": "frame_001689_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-14.png"
+    },
+    {
+      "local": 149,
+      "box_index": 0,
+      "crop": [
+        126,
+        71,
+        196,
+        140
+      ],
+      "xyxy": [
+        142.00000416,
+        87.00000047999998,
+        179.0000016,
+        123.00000016
+      ],
+      "filename": "frame_001689_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-14.png"
+    },
+    {
+      "local": 150,
+      "box_index": 0,
+      "crop": [
+        167,
+        88,
+        236,
+        157
+      ],
+      "xyxy": [
+        183.00000096,
+        104.000002,
+        219.9999984,
+        140.00000168
+      ],
+      "filename": "frame_001690_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-14.png"
+    },
+    {
+      "local": 151,
+      "box_index": 0,
+      "crop": [
+        150,
+        86,
+        225,
+        155
+      ],
+      "xyxy": [
+        166.99999680000002,
+        102.99999992,
+        208.99999680000002,
+        138.9999996
+      ],
+      "filename": "frame_001690_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-14.png"
+    },
+    {
+      "local": 152,
+      "box_index": 0,
+      "crop": [
+        115,
+        188,
+        182,
+        254
+      ],
+      "xyxy": [
+        131.00000256,
+        204.99999775999999,
+        165.00000383999998,
+        237.99999872
+      ],
+      "filename": "frame_001703_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-14.png"
+    },
+    {
+      "local": 153,
+      "box_index": 0,
+      "crop": [
+        99,
+        186,
+        168,
+        254
+      ],
+      "xyxy": [
+        115.99999823999998,
+        202.00000092,
+        151.9999992,
+        237.00000228000002
+      ],
+      "filename": "frame_001703_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-14.png"
+    },
+    {
+      "local": 154,
+      "box_index": 0,
+      "crop": [
+        189,
+        180,
+        255,
+        247
+      ],
+      "xyxy": [
+        205.00000415999997,
+        196.99999992000002,
+        238.00000224000001,
+        230.00000088000002
+      ],
+      "filename": "frame_001708_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-15.png"
+    },
+    {
+      "local": 155,
+      "box_index": 0,
+      "crop": [
+        176,
+        180,
+        242,
+        244
+      ],
+      "xyxy": [
+        192.00000287999998,
+        196.99999804000004,
+        225.00000096000002,
+        227.99999860000003
+      ],
+      "filename": "frame_001708_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-15.png"
+    },
+    {
+      "local": 156,
+      "box_index": 0,
+      "crop": [
+        335,
+        178,
+        396,
+        240
+      ],
+      "xyxy": [
+        351.00000095999997,
+        194.99999952,
+        379.99999968,
+        223.99999967999997
+      ],
+      "filename": "frame_001719_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-15.png"
+    },
+    {
+      "local": 157,
+      "box_index": 0,
+      "crop": [
+        321,
+        179,
+        385,
+        239
+      ],
+      "xyxy": [
+        337.99999968000003,
+        195.00000139999997,
+        368.0000016,
+        222.00000116
+      ],
+      "filename": "frame_001719_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-15.png"
+    },
+    {
+      "local": 158,
+      "box_index": 0,
+      "crop": [
+        372,
+        292,
+        437,
+        357
+      ],
+      "xyxy": [
+        388.99999824,
+        308.99999976,
+        420.99999984,
+        340.99999864
+      ],
+      "filename": "frame_001727_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-15.png"
+    },
+    {
+      "local": 159,
+      "box_index": 0,
+      "crop": [
+        359,
+        292,
+        422,
+        357
+      ],
+      "xyxy": [
+        375.00000048000004,
+        308.00000143999995,
+        405.99999888,
+        340.00000031999997
+      ],
+      "filename": "frame_001727_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-15.png"
+    },
+    {
+      "local": 160,
+      "box_index": 0,
+      "crop": [
+        382,
+        286,
+        451,
+        352
+      ],
+      "xyxy": [
+        398.99999663999995,
+        302.99999856,
+        434.99999760000003,
+        335.99999952
+      ],
+      "filename": "frame_001729_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-15.png"
+    },
+    {
+      "local": 161,
+      "box_index": 0,
+      "crop": [
+        369,
+        287,
+        436,
+        352
+      ],
+      "xyxy": [
+        385.00000224,
+        303.00000232,
+        419.00000352000006,
+        335.00000120000004
+      ],
+      "filename": "frame_001729_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-15.png"
+    },
+    {
+      "local": 166,
+      "box_index": 0,
+      "crop": [
+        627,
+        283,
+        672,
+        354
+      ],
+      "xyxy": [
+        643.00000128,
+        299.00000152,
+        672.0,
+        337.99999992
+      ],
+      "filename": "frame_001759_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-16.png"
+    },
+    {
+      "local": 167,
+      "box_index": 0,
+      "crop": [
+        609,
+        281,
+        672,
+        353
+      ],
+      "xyxy": [
+        625.0000008,
+        297.99999944,
+        665.00000112,
+        336.99999784
+      ],
+      "filename": "frame_001759_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-16.png"
+    },
+    {
+      "local": 169,
+      "box_index": 0,
+      "crop": [
+        487,
+        63,
+        672,
+        376
+      ],
+      "xyxy": [
+        539.7718631178708,
+        115.61977186311786,
+        672.0,
+        376.0
+      ],
+      "filename": "frame_001765_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-16.png"
+    },
+    {
+      "local": 170,
+      "box_index": 0,
+      "crop": [
+        359,
+        94,
+        601,
+        320
+      ],
+      "xyxy": [
+        394.19391426980985,
+        128.8060856101901,
+        565.9619771863119,
+        284.89733840304183
+      ],
+      "filename": "frame_001769_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-16.png"
+    },
+    {
+      "local": 171,
+      "box_index": 0,
+      "crop": [
+        292,
+        92,
+        513,
+        323
+      ],
+      "xyxy": [
+        325.14068441064643,
+        125.00000055999998,
+        479.7262357414449,
+        289.36882129277564
+      ],
+      "filename": "frame_001769_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-16.png"
+    },
+    {
+      "local": 172,
+      "box_index": 0,
+      "crop": [
+        313,
+        88,
+        548,
+        316
+      ],
+      "xyxy": [
+        347.35741284866924,
+        122.3041808695057,
+        514.2205323193916,
+        281.703422053232
+      ],
+      "filename": "frame_001778_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-16.png"
+    },
+    {
+      "local": 173,
+      "box_index": 0,
+      "crop": [
+        263,
+        97,
+        472,
+        308
+      ],
+      "xyxy": [
+        293.00000016000007,
+        127.74904938965778,
+        441.39923954372625,
+        277.23193916349805
+      ],
+      "filename": "frame_001778_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-16.png"
+    },
+    {
+      "local": 174,
+      "box_index": 0,
+      "crop": [
+        402,
+        124,
+        644,
+        352
+      ],
+      "xyxy": [
+        436.74905102965795,
+        159.02661628958182,
+        608.7604562737644,
+        317.47528517110266
+      ],
+      "filename": "frame_001780_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-16.png"
+    },
+    {
+      "local": 175,
+      "box_index": 0,
+      "crop": [
+        322,
+        119,
+        572,
+        354
+      ],
+      "xyxy": [
+        357.99999984,
+        154.99999904000003,
+        535.99999824,
+        317.99999968000003
+      ],
+      "filename": "frame_001780_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-17.png"
+    },
+    {
+      "local": 176,
+      "box_index": 0,
+      "crop": [
+        483,
+        22,
+        672,
+        311
+      ],
+      "xyxy": [
+        525.0,
+        63.99999964,
+        672.0,
+        269.00000116
+      ],
+      "filename": "frame_001790_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-17.png"
+    },
+    {
+      "local": 177,
+      "box_index": 0,
+      "crop": [
+        394,
+        11,
+        672,
+        312
+      ],
+      "xyxy": [
+        440.00000351999995,
+        57.99999844,
+        670.00000032,
+        265.99999868
+      ],
+      "filename": "frame_001790_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-17.png"
+    },
+    {
+      "local": 178,
+      "box_index": 0,
+      "crop": [
+        490,
+        15,
+        672,
+        307
+      ],
+      "xyxy": [
+        531.9999988799999,
+        57.00000012,
+        671.9999966400001,
+        265.00000036
+      ],
+      "filename": "frame_001792_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-17.png"
+    },
+    {
+      "local": 179,
+      "box_index": 0,
+      "crop": [
+        398,
+        8,
+        672,
+        332
+      ],
+      "xyxy": [
+        444.99999936000006,
+        54.999999720000005,
+        672.0,
+        285.00000059999996
+      ],
+      "filename": "frame_001792_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-17.png"
+    },
+    {
+      "local": 180,
+      "box_index": 0,
+      "crop": [
+        562,
+        89,
+        672,
+        344
+      ],
+      "xyxy": [
+        598.99999824,
+        125.99999888000002,
+        671.9999966400001,
+        306.99999936
+      ],
+      "filename": "frame_001793_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-17.png"
+    },
+    {
+      "local": 181,
+      "box_index": 0,
+      "crop": [
+        456,
+        47,
+        672,
+        376
+      ],
+      "xyxy": [
+        505.0000032,
+        95.99999851999999,
+        672.0,
+        339.99999844
+      ],
+      "filename": "frame_001793_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-17.png"
+    },
+    {
+      "local": 182,
+      "box_index": 0,
+      "crop": [
+        329,
+        126,
+        569,
+        376
+      ],
+      "xyxy": [
+        365.8593159093535,
+        162.88593423893536,
+        532.106463878327,
+        344.94296577946767
+      ],
+      "filename": "frame_001800_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-17.png"
+    },
+    {
+      "local": 183,
+      "box_index": 0,
+      "crop": [
+        241,
+        128,
+        482,
+        376
+      ],
+      "xyxy": [
+        276.99999936,
+        164.00000083999998,
+        446.50950570342206,
+        341.1102661596958
+      ],
+      "filename": "frame_001800_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-18.png"
+    },
+    {
+      "local": 184,
+      "box_index": 0,
+      "crop": [
+        207,
+        189,
+        478,
+        376
+      ],
+      "xyxy": [
+        246.00000096000002,
+        227.99999860000003,
+        439.00000031999997,
+        373.99999772
+      ],
+      "filename": "frame_001804_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-18.png"
+    },
+    {
+      "local": 185,
+      "box_index": 0,
+      "crop": [
+        111,
+        186,
+        390,
+        376
+      ],
+      "xyxy": [
+        151.00000272,
+        226.00000007999998,
+        350.00000112000004,
+        373.99999959999997
+      ],
+      "filename": "frame_001804_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-18.png"
+    },
+    {
+      "local": 186,
+      "box_index": 0,
+      "crop": [
+        574,
+        210,
+        672,
+        376
+      ],
+      "xyxy": [
+        602.0000011200001,
+        238.2661596958175,
+        672.0,
+        375.99999812
+      ],
+      "filename": "frame_001809_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-18.png"
+    },
+    {
+      "local": 187,
+      "box_index": 0,
+      "crop": [
+        469,
+        194,
+        672,
+        376
+      ],
+      "xyxy": [
+        502.9999968,
+        228.00000048,
+        672.0,
+        376.0
+      ],
+      "filename": "frame_001809_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-18.png"
+    },
+    {
+      "local": 208,
+      "box_index": 0,
+      "crop": [
+        593,
+        324,
+        657,
+        376
+      ],
+      "xyxy": [
+        609.99999984,
+        340.88000012000003,
+        640.99999824,
+        360.60000068
+      ],
+      "filename": "frame_001919_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-18.png"
+    },
+    {
+      "local": 210,
+      "box_index": 0,
+      "crop": [
+        593,
+        324,
+        657,
+        376
+      ],
+      "xyxy": [
+        609.99999984,
+        340.88000012000003,
+        640.99999824,
+        360.60000068
+      ],
+      "filename": "frame_001921_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-18.png"
+    },
+    {
+      "local": 236,
+      "box_index": 0,
+      "crop": [
+        312,
+        149,
+        381,
+        219
+      ],
+      "xyxy": [
+        328.03789872,
+        165.6120012,
+        364.81619664,
+        202.20320072
+      ],
+      "filename": "frame_002030_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-18.png"
+    },
+    {
+      "local": 237,
+      "box_index": 0,
+      "crop": [
+        294,
+        148,
+        364,
+        218
+      ],
+      "xyxy": [
+        310.83660048,
+        164.67599808,
+        347.29200240000006,
+        201.78779968
+      ],
+      "filename": "frame_002030_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-19.png"
+    },
+    {
+      "local": 238,
+      "box_index": 0,
+      "crop": [
+        313,
+        202,
+        383,
+        271
+      ],
+      "xyxy": [
+        329.68259856000003,
+        218.14320184000002,
+        366.14669616,
+        254.0190012
+      ],
+      "filename": "frame_002039_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-19.png"
+    },
+    {
+      "local": 239,
+      "box_index": 0,
+      "crop": [
+        296,
+        201,
+        365,
+        270
+      ],
+      "xyxy": [
+        312.79589712,
+        217.29259960000002,
+        348.9881976,
+        253.22409960000002
+      ],
+      "filename": "frame_002039_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-19.png"
+    },
+    {
+      "local": 240,
+      "box_index": 0,
+      "crop": [
+        303,
+        206,
+        372,
+        275
+      ],
+      "xyxy": [
+        319.19009808000004,
+        222.4210986,
+        355.65779760000004,
+        258.2143998
+      ],
+      "filename": "frame_002042_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-19.png"
+    },
+    {
+      "local": 241,
+      "box_index": 0,
+      "crop": [
+        287,
+        205,
+        354,
+        274
+      ],
+      "xyxy": [
+        303.31300272,
+        221.72070084,
+        337.63030224,
+        257.3878014
+      ],
+      "filename": "frame_002042_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-19.png"
+    },
+    {
+      "local": 242,
+      "box_index": 0,
+      "crop": [
+        81,
+        191,
+        148,
+        253
+      ],
+      "xyxy": [
+        97.00000128,
+        207.99999835999998,
+        131.00000256,
+        236.00000020000002
+      ],
+      "filename": "frame_002053_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-19.png"
+    },
+    {
+      "local": 242,
+      "box_index": 1,
+      "crop": [
+        466,
+        186,
+        545,
+        261
+      ],
+      "xyxy": [
+        482.99279951999995,
+        202.93789908,
+        528.45980208,
+        244.45580028
+      ],
+      "filename": "frame_002053_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-19.png"
+    },
+    {
+      "local": 243,
+      "box_index": 0,
+      "crop": [
+        64,
+        194,
+        129,
+        253
+      ],
+      "xyxy": [
+        80.00000064,
+        210.00000063999997,
+        112.99999872,
+        236.00000208
+      ],
+      "filename": "frame_002053_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-19.png"
+    },
+    {
+      "local": 243,
+      "box_index": 1,
+      "crop": [
+        447,
+        186,
+        525,
+        260
+      ],
+      "xyxy": [
+        463.32139728000004,
+        202.10730192000003,
+        508.20519792000005,
+        243.01950096
+      ],
+      "filename": "frame_002053_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-20.png"
+    },
+    {
+      "local": 244,
+      "box_index": 0,
+      "crop": [
+        0,
+        296,
+        53,
+        361
+      ],
+      "xyxy": [
+        9.999998399999997,
+        312.00000223999996,
+        36.000000959999994,
+        344.00000112
+      ],
+      "filename": "frame_002058_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-20.png"
+    },
+    {
+      "local": 244,
+      "box_index": 1,
+      "crop": [
+        388,
+        224,
+        459,
+        295
+      ],
+      "xyxy": [
+        404.99999904000003,
+        240.000001,
+        442.99999968,
+        278.00000108
+      ],
+      "filename": "frame_002058_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-20.png"
+    },
+    {
+      "local": 245,
+      "box_index": 0,
+      "crop": [
+        0,
+        295,
+        39,
+        359
+      ],
+      "xyxy": [
+        0.0,
+        311.00000015999996,
+        22.0000032,
+        342.99999904
+      ],
+      "filename": "frame_002058_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-20.png"
+    },
+    {
+      "local": 245,
+      "box_index": 1,
+      "crop": [
+        369,
+        222,
+        443,
+        294
+      ],
+      "xyxy": [
+        385.00239792,
+        238.85010088,
+        426.80499792,
+        277.83090072
+      ],
+      "filename": "frame_002058_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-20.png"
+    },
+    {
+      "local": 246,
+      "box_index": 0,
+      "crop": [
+        373,
+        220,
+        446,
+        293
+      ],
+      "xyxy": [
+        389.62570080000006,
+        236.75689948,
+        429.60789984,
+        276.13169844
+      ],
+      "filename": "frame_002065_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-20.png"
+    },
+    {
+      "local": 247,
+      "box_index": 0,
+      "crop": [
+        356,
+        219,
+        428,
+        292
+      ],
+      "xyxy": [
+        372.2394984,
+        235.72450123999997,
+        411.36659760000003,
+        275.04720164
+      ],
+      "filename": "frame_002065_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-20.png"
+    },
+    {
+      "local": 248,
+      "box_index": 0,
+      "crop": [
+        358,
+        247,
+        431,
+        320
+      ],
+      "xyxy": [
+        374.53149887999996,
+        263.24010039999996,
+        414.18039935999997,
+        303.29019912
+      ],
+      "filename": "frame_002073_left.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-20.png"
+    },
+    {
+      "local": 249,
+      "box_index": 0,
+      "crop": [
+        340,
+        246,
+        412,
+        318
+      ],
+      "xyxy": [
+        356.28580176,
+        262.03960007999996,
+        395.83240367999997,
+        301.96549848
+      ],
+      "filename": "frame_002073_right.png",
+      "page": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-21.png"
+    }
+  ]
+}

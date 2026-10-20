@@ -1,0 +1,70 @@
+{
+  "images": 8398,
+  "labels": 8398,
+  "metadata_rows": 8398,
+  "images_visually_reviewed": 8398,
+  "original_boxes_roi_reviewed": 5218,
+  "current_boxes": 5265,
+  "empty_labels": 3314,
+  "applied_images": 267,
+  "change_categories": {
+    "boundary_or_reposition": 110,
+    "remove_all_false": 53,
+    "remove_extra_box": 4,
+    "fill_empty_image": 100
+  },
+  "same_count_categories": {
+    "boundary_adjustment": 62,
+    "relocation_or_complete_partial_ball": 48
+  },
+  "skipped": [
+    {
+      "filename": "video_4bec9c343db72928_frame_00014754_left.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014754_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00005687_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00006321_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00010459_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00010759_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00010762_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00015606_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00017403_right.png",
+      "reason": "Manual review state/note changed after baseline"
+    }
+  ],
+  "failed_pending": [],
+  "geometry_errors": [],
+  "image_hash_changes": [],
+  "four_scene_flags_changed_after_apply": [],
+  "applied_labels_edited_again_by_user": [],
+  "applied_review_states_changed_again": [],
+  "yaml_unchanged": true,
+  "application_audit": "/home/misaka/workspace/dataset_processing/box-audit-20261014/apply-audits/20261014T103936Z-034417b7",
+  "all_application_audits": [
+    "/home/misaka/workspace/dataset_processing/box-audit-20261014/apply-audits/20261014T103936Z-034417b7",
+    "/home/misaka/workspace/dataset_processing/box-audit-20261014/apply-audits/20261014T104342Z-4eca62dd"
+  ]
+}

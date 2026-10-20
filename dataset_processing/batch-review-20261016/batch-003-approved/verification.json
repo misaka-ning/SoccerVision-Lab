@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "batch": 3,
+  "selected_count": 1000,
+  "outside_raw_rows_preserved": 7398,
+  "all_selected_both_review_flags_zero": true,
+  "all_selected_images_and_labels_sha256_unchanged": true,
+  "all_selected_scene_split_provenance_fields_unchanged": true,
+  "all_selected_prior_notes_retained": true,
+  "previous_batch_approvals": [
+    {
+      "batch": 1,
+      "count": 1000,
+      "both_reviewed": 1000
+    },
+    {
+      "batch": 2,
+      "count": 1000,
+      "both_reviewed": 1000
+    }
+  ],
+  "counts": {
+    "negative_confirmed": 530,
+    "reviewed_annotation": 354,
+    "reviewed_excluded": 116
+  },
+  "metadata_sha256": "261f28dc2da1c6494104af485698ee3c2dda8aac198f0f8135d4a0c7db61aa9c"
+}

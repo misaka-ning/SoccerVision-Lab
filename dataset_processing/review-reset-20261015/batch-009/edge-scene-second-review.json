@@ -1,0 +1,64 @@
+[
+  {
+    "index": 70,
+    "filename": "video_4bec9c343db72928_frame_00004584_left.png",
+    "group": 1,
+    "local": 70,
+    "occluded_candidate": "1",
+    "assessment": "当前球底暗弧与下画边交界不清；按截断候选标遮挡并保留visibility疑点。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-1/diagnostics/n70-bottom-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-1/diagnostics/n70-bottom-nearest4.png"
+    ],
+    "all_require_user_review": true,
+    "user_approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 71,
+    "filename": "video_4bec9c343db72928_frame_00004584_right.png",
+    "group": 1,
+    "local": 71,
+    "occluded_candidate": "1",
+    "assessment": "当前球暗色底部贴近下画边，不能高置信排除细微截断，O1候选仍需复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-1/diagnostics/n71-bottom-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-1/diagnostics/n71-bottom-nearest4.png"
+    ],
+    "all_require_user_review": true,
+    "user_approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 106,
+    "filename": "video_4bec9c343db72928_frame_00006240_left.png",
+    "group": 1,
+    "local": 106,
+    "occluded_candidate": "1",
+    "assessment": "近处大球下缘运动软化，存在被下边截断嫌疑；双球保留，边缘状态待用户复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-1/full/page-053.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-1/diagnostics/n106-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-1/diagnostics/n106-nearest3.png"
+    ],
+    "all_require_user_review": true,
+    "user_approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 107,
+    "filename": "video_4bec9c343db72928_frame_00006240_right.png",
+    "group": 1,
+    "local": 107,
+    "occluded_candidate": "0",
+    "assessment": "近处大球底部似有极细地面间隔，O0候选；软界不清，保留visibility复查。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-1/full/page-053.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-1/diagnostics/n107-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-1/diagnostics/n107-nearest3.png"
+    ],
+    "all_require_user_review": true,
+    "user_approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  }
+]

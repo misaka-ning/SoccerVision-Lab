@@ -1,0 +1,13 @@
+{
+  "html": "/home/misaka/workspace/dataset_versions/football_holdout_20261019_v1/review.html",
+  "bytes": 17282182,
+  "embedded_assets": 597,
+  "test_cards": 464,
+  "segment_cards": 9,
+  "pair_cards": 49,
+  "uncertain_groups": 2,
+  "external_javascript": 0,
+  "external_css": 0,
+  "external_images": 0,
+  "relative_media_dependencies": 0
+}

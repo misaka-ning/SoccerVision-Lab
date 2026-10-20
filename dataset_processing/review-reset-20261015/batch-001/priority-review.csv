@@ -1,0 +1,253 @@
+﻿图片,split,confidence,action,Small,Occluded,Blurred,No Ball,label_review_required,scene_review_required,reason
+frame_001459_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,左边缘约y40–65有极窄深色弧片，4倍局部仍难分辨是否为下一帧出现的边缘足球；不能确认为无球，No Ball=0，保留空候选并请用户判可见性/补框。
+frame_001471_left.png,train,uncertain,keep,1,0,0,0,1,1,左裁边可见黑白足球片段，原框覆盖可见球缘；裁图边不算遮挡。完整球尺度无法由片段可靠判断，Small暂沿用现值且场景待审；局部偏软不能直接认定运动模糊。候选待用户复查。
+frame_001471_right.png,train,uncertain,keep,1,0,0,0,1,1,左裁边可见黑白足球片段，原框覆盖可见球缘；裁图边不算遮挡。完整球尺度无法由片段可靠判断，Small暂沿用现值且场景待审；局部偏软不能直接认定运动模糊。候选待用户复查。
+frame_001555_left.png,train,uncertain,keep,1,1,0,0,1,1,前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。
+frame_001555_right.png,train,uncertain,keep,1,1,0,0,1,1,前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。
+frame_001563_left.png,train,uncertain,keep,0,1,0,0,1,1,前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。
+frame_001563_right.png,train,uncertain,keep,0,1,0,0,1,1,前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。
+frame_001570_left.png,train,uncertain,keep,0,1,1,0,1,1,前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。
+frame_001570_right.png,train,uncertain,keep,1,1,1,0,1,1,前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。
+frame_001598_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001598_right.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001604_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001604_right.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001605_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,1,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。全图方向拖影明显，Blurred=1。
+frame_001605_right.png,train,uncertain,needs_manual_bbox_annotation,1,1,1,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。全图方向拖影明显，Blurred=1。
+frame_001612_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001612_right.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001615_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001615_right.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001620_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001620_right.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001626_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001626_right.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。
+frame_001647_left.png,train,uncertain,keep,0,1,1,0,1,1,腿鞋旁蓝白球清楚存在且运动拖影，球上缘与腿鞋重叠，Occluded=1；现框上缘是否覆盖完整可见拖影边界不够确定，保留框请用户复核，非小球。
+frame_001647_right.png,train,uncertain,keep,0,1,1,0,1,1,腿鞋旁蓝白球清楚存在且运动拖影，球上缘与腿鞋重叠，Occluded=1；现框上缘是否覆盖完整可见拖影边界不够确定，保留框请用户复核，非小球。
+frame_001654_right.png,train,uncertain,keep,1,1,0,0,1,1,原生及6倍坐标网格检查，器械旁球轮廓在原框内，矩形角落背景正常，无需机械调整。球受横杆遮挡，完整尺度接近40px，Small暂沿用现值待用户复查。
+frame_001658_right.png,train,uncertain,replace,0,1,1,0,1,1,器械旁黑白球真实可见，原box0左/上边切进可见球面；已看原生和6倍像素网格，扩大到全部可见球缘，横杆遮挡使Occluded=1。完整球约45–52px，Small=0；前景球有明显拖影，Blurred=1。其他真实足球框保留，仍待用户复查。该视角器械球尺度靠近40px，Small=0暂定请人工复核。
+frame_001665_right.png,train,uncertain,keep,1,1,0,0,1,1,原生及6倍坐标网格检查，器械旁球轮廓在原框内，矩形角落背景正常，无需机械调整。球受横杆遮挡，完整尺度接近40px，Small暂沿用现值待用户复查。
+frame_001674_left.png,train,uncertain,keep,0,1,1,0,1,1,有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。
+frame_001674_right.png,train,uncertain,keep,0,1,1,0,1,1,有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。
+frame_001677_left.png,train,uncertain,keep,0,1,0,0,1,1,有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。
+frame_001677_right.png,train,uncertain,keep,0,1,1,0,1,1,有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。
+frame_001680_left.png,train,uncertain,keep,0,1,1,0,1,1,有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。
+frame_001680_right.png,train,uncertain,keep,0,1,1,0,1,1,有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。
+frame_001682_left.png,train,uncertain,keep,0,1,0,0,1,1,有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。
+frame_001682_right.png,train,uncertain,keep,0,1,0,0,1,1,有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。
+frame_001683_left.png,train,uncertain,keep,0,1,1,0,1,1,确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。球低像素软化与运动拖影需用户复核。
+frame_001683_right.png,train,uncertain,keep,1,1,0,0,1,1,确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。球低像素软化与运动拖影需用户复核。
+frame_001686_left.png,train,uncertain,keep,1,1,1,0,1,1,确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。球低像素软化与运动拖影需用户复核。
+frame_001686_right.png,train,uncertain,keep,1,1,0,0,1,1,确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。球低像素软化与运动拖影需用户复核。
+frame_001689_left.png,train,uncertain,keep,1,1,1,0,1,1,确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。全图/球有方向拖影，Blurred=1。
+frame_001689_right.png,train,uncertain,keep,1,1,1,0,1,1,确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。全图/球有方向拖影，Blurred=1。
+frame_001690_left.png,train,uncertain,keep,1,1,1,0,1,1,确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。全图/球有方向拖影，Blurred=1。
+frame_001690_right.png,train,uncertain,keep,1,1,1,0,1,1,确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。全图/球有方向拖影，Blurred=1。
+frame_001703_left.png,train,uncertain,keep,1,1,0,0,1,1,原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。
+frame_001703_right.png,train,uncertain,keep,1,1,0,0,1,1,原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。
+frame_001708_left.png,train,uncertain,keep,1,1,0,0,1,1,原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。
+frame_001708_right.png,train,uncertain,keep,1,1,0,0,1,1,原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。
+frame_001719_left.png,train,uncertain,keep,1,1,0,0,1,1,原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。
+frame_001719_right.png,train,uncertain,keep,1,1,0,0,1,1,原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。
+frame_001727_left.png,train,uncertain,keep,1,1,0,0,1,1,原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。
+frame_001727_right.png,train,uncertain,keep,1,1,0,0,1,1,原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。
+frame_001729_left.png,train,uncertain,keep,1,1,0,0,1,1,原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。
+frame_001729_right.png,train,uncertain,keep,1,1,0,0,1,1,原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。
+frame_001759_left.png,train,uncertain,keep,1,1,0,0,1,1,右底边器械横杆后可见黑白足球，非轮脚；有横杆遮挡，裁边本身不算遮挡。球完整尺寸被裁边/横杆影响，Small暂1且场景待审；原框保留请用户复核球缘。
+frame_001759_right.png,train,uncertain,keep,1,1,0,0,1,1,右底边器械横杆后可见黑白足球，非轮脚；有横杆遮挡，裁边本身不算遮挡。球完整尺寸被裁边/横杆影响，Small暂1且场景待审；原框保留请用户复核球缘。
+frame_001765_left.png,train,uncertain,needs_visibility_review,0,0,1,0,1,1,原为空框/No Ball=1，但右边缘约y180–300可见遮住背景的大幅浅色运动弧面，3倍局部仍无法完全分辨球/手臂，右目同帧明确出现近处球；不能确认为无球，改No Ball=0、Blurred=1并保留空候选请用户判可见性与补框。
+frame_001765_right.png,train,uncertain,keep,0,0,1,0,1,1,右裁边近处蓝白球可见，拖影很强；现框作为候选保留，但拖影外缘不够确定请用户复核。裁边不算Occluded，未能看到手遮球。
+frame_001919_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。
+frame_001919_right.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。
+frame_001921_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。
+frame_001921_right.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。
+frame_002053_left.png,train,uncertain,keep,1,1,0,0,1,1,走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。
+frame_002053_right.png,train,uncertain,keep,1,1,0,0,1,1,走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。
+frame_002058_left.png,train,uncertain,keep,1,1,0,0,1,1,走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。
+frame_002058_right.png,train,uncertain,keep,1,1,0,0,1,1,走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。
+frame_002065_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,"走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。 左边缘另见黑白球片漏框，可见范围约x0–10,y208–244，需用户补框。"
+frame_002065_right.png,train,uncertain,keep,1,1,0,0,1,1,走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。
+frame_002073_left.png,train,uncertain,keep,1,1,0,0,1,1,走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。
+frame_002073_right.png,train,uncertain,keep,1,1,0,0,1,1,走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。
+frame_002080_left.png,train,uncertain,keep,0,0,0,0,1,1,门边白线附近可见一只蓝白星纹球，未见额外球或脚轮误检，候选框覆盖单一球体。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002080_right.png,train,uncertain,keep,0,0,0,0,1,1,门边白线附近可见一只蓝白星纹球，未见额外球或脚轮误检，候选框覆盖单一球体。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002121_left.png,train,uncertain,keep,0,0,1,0,1,1,全景和四倍器械局部均见两只真实球；远球位于灰色横梁前，近球裁底，两框对应不同球，未见脚轮误检。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002121_right.png,train,uncertain,keep,0,0,1,0,1,1,全景和四倍器械局部均见两只真实球；远球位于灰色横梁前，近球裁底，两框对应不同球，未见脚轮误检。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002166_left.png,train,uncertain,keep,0,0,1,0,1,1,底边仍可见大球顶部及星纹残片，旁边灰色物体是鞋；球裁底且有运动拖影，不能由残片判为Small。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002166_right.png,train,uncertain,keep,0,0,1,0,1,1,底边仍可见大球顶部及星纹残片，旁边灰色物体是鞋；球裁底且有运动拖影，不能由残片判为Small。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002231_left.png,train,uncertain,keep,0,0,1,0,1,1,右侧白线旁有真实星纹球，部分被画面右边缘裁切，未见前景挡球；球与场景有运动软拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002231_right.png,train,uncertain,keep,0,0,1,0,1,1,右侧白线旁有真实星纹球，部分被画面右边缘裁切，未见前景挡球；球与场景有运动软拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002234_left.png,train,uncertain,keep,0,0,1,0,1,1,右侧白线旁有真实星纹球，部分被画面右边缘裁切，未见前景挡球；球与场景有运动软拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002234_right.png,train,uncertain,keep,0,0,1,0,1,1,右侧白线旁有真实星纹球，部分被画面右边缘裁切，未见前景挡球；球与场景有运动软拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002281_left.png,val,uncertain,keep,0,0,1,0,1,1,通道中央真实球可见，球体与全图有运动拖影，原框未把阴影或球纹拆成第二目标。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002281_right.png,val,uncertain,keep,0,0,1,0,1,1,通道中央真实球可见，球体与全图有运动拖影，原框未把阴影或球纹拆成第二目标。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002291_left.png,val,uncertain,keep,0,0,1,0,1,1,通道中央真实球可见，球体与全图有运动拖影，原框未把阴影或球纹拆成第二目标。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002291_right.png,val,uncertain,keep,0,0,1,0,1,1,通道中央真实球可见，球体与全图有运动拖影，原框未把阴影或球纹拆成第二目标。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002310_left.png,val,uncertain,keep,0,0,1,0,1,1,通道近球可见；n56–57仅露底边球上半，n58–59全球有强斜向运动拖影，保留原候选。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002310_right.png,val,uncertain,keep,0,0,1,0,1,1,通道近球可见；n56–57仅露底边球上半，n58–59全球有强斜向运动拖影，保留原候选。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002312_left.png,val,uncertain,keep,0,0,1,0,1,1,通道近球可见；n56–57仅露底边球上半，n58–59全球有强斜向运动拖影，保留原候选。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002312_right.png,val,uncertain,keep,0,0,1,0,1,1,通道近球可见；n56–57仅露底边球上半，n58–59全球有强斜向运动拖影，保留原候选。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002332_left.png,val,uncertain,keep,0,0,1,0,1,1,通道近大球可见，n62–63裁底；球/全图运动拖影存在，未见前景挡球或漏掉其他球。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002332_right.png,val,uncertain,keep,0,0,1,0,1,1,通道近大球可见，n62–63裁底；球/全图运动拖影存在，未见前景挡球或漏掉其他球。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002341_left.png,val,uncertain,keep,0,0,1,0,1,1,通道近大球可见，n62–63裁底；球/全图运动拖影存在，未见前景挡球或漏掉其他球。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002341_right.png,val,uncertain,keep,0,0,1,0,1,1,通道近大球可见，n62–63裁底；球/全图运动拖影存在，未见前景挡球或漏掉其他球。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002358_left.png,val,uncertain,keep,1,0,1,0,1,1,远处地面/椅脚旁小球真实可见，已逐框看无框与红框ROI；有运动模糊，球未与鞋或脚轮混淆。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002358_right.png,val,uncertain,keep,1,0,1,0,1,1,远处地面/椅脚旁小球真实可见，已逐框看无框与红框ROI；有运动模糊，球未与鞋或脚轮混淆。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002363_left.png,val,uncertain,keep,1,0,1,0,1,1,远处地面/椅脚旁小球真实可见，已逐框看无框与红框ROI；有运动模糊，球未与鞋或脚轮混淆。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002363_right.png,val,uncertain,keep,1,0,1,0,1,1,远处地面/椅脚旁小球真实可见，已逐框看无框与红框ROI；有运动模糊，球未与鞋或脚轮混淆。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002373_left.png,val,uncertain,keep,1,0,1,0,1,1,远处地面/椅脚旁小球真实可见，已逐框看无框与红框ROI；有运动模糊，球未与鞋或脚轮混淆。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002373_right.png,val,uncertain,keep,1,0,1,0,1,1,远处地面/椅脚旁小球真实可见，已逐框看无框与红框ROI；有运动模糊，球未与鞋或脚轮混淆。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002379_left.png,val,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,三倍背景局部确认椅脚旁/双腿间后方有蓝白小球，当前零框属漏标；强模糊和邻近椅脚使可见边界不可靠，需用户补框，暂不编造坐标。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002379_right.png,val,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,三倍背景局部确认椅脚旁/双腿间后方有蓝白小球，当前零框属漏标；强模糊和邻近椅脚使可见边界不可靠，需用户补框，暂不编造坐标。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002387_left.png,val,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,三倍背景局部确认椅脚旁/双腿间后方有蓝白小球，当前零框属漏标；强模糊和邻近椅脚使可见边界不可靠，需用户补框，暂不编造坐标。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002387_right.png,val,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,三倍背景局部确认椅脚旁/双腿间后方有蓝白小球，当前零框属漏标；强模糊和邻近椅脚使可见边界不可靠，需用户补框，暂不编造坐标。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002396_left.png,val,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,三倍背景局部确认椅脚旁/双腿间后方有蓝白小球，当前零框属漏标；强模糊和邻近椅脚使可见边界不可靠，需用户补框，暂不编造坐标。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002396_right.png,val,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,三倍背景局部确认椅脚旁/双腿间后方有蓝白小球，当前零框属漏标；强模糊和邻近椅脚使可见边界不可靠，需用户补框，暂不编造坐标。 本图建议四项为Small=1、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002400_left.png,val,uncertain,needs_visibility_review,0,0,1,0,1,1,三倍局部中后方位置被裤腿和鞋遮住，无法确认是否仍有可见球残片；保留空候选并待可见性复查，No Ball=0。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002400_right.png,val,uncertain,needs_visibility_review,0,0,1,0,1,1,三倍局部中后方位置被裤腿和鞋遮住，无法确认是否仍有可见球残片；保留空候选并待可见性复查，No Ball=0。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002414_left.png,val,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,三倍局部确认伸手下方有蓝白小球，手覆盖球的上部；当前无框，球边界软化及手部遮挡使可靠边框不可确定，需人工补框。 本图建议四项为Small=1、Occluded=1、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002414_right.png,val,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,三倍局部确认伸手下方有蓝白小球，手覆盖球的上部；当前无框，球边界软化及手部遮挡使可靠边框不可确定，需人工补框。 本图建议四项为Small=1、Occluded=1、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002449_left.png,val,uncertain,keep,0,1,1,0,1,1,前进过程中手持球有明显垂直运动拖影，手掌覆盖球上部；完整球尺度邻近40px。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=1、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002449_right.png,val,uncertain,keep,0,1,1,0,1,1,前进过程中手持球有明显垂直运动拖影，手掌覆盖球上部；完整球尺度邻近40px。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=1、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002471_left.png,val,uncertain,keep,0,0,0,0,1,1,地面单一星纹球，附近两只鞋与球分离；原框覆盖球体且未拆花纹，无明确球体运动拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002471_right.png,val,uncertain,keep,0,0,0,0,1,1,地面单一星纹球，附近两只鞋与球分离；原框覆盖球体且未拆花纹，无明确球体运动拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002475_left.png,val,uncertain,keep,0,0,0,0,1,1,地面单一星纹球，附近两只鞋与球分离；原框覆盖球体且未拆花纹，无明确球体运动拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002475_right.png,val,uncertain,keep,0,0,0,0,1,1,地面单一星纹球，附近两只鞋与球分离；原框覆盖球体且未拆花纹，无明确球体运动拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002481_left.png,val,uncertain,keep,0,0,0,0,1,1,地面单一星纹球，附近两只鞋与球分离；原框覆盖球体且未拆花纹，无明确球体运动拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002481_right.png,val,uncertain,keep,0,0,0,0,1,1,地面单一星纹球，附近两只鞋与球分离；原框覆盖球体且未拆花纹，无明确球体运动拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002488_left.png,val,uncertain,keep,0,0,0,0,1,1,地面单一星纹球，附近两只鞋与球分离；原框覆盖球体且未拆花纹，无明确球体运动拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002488_right.png,val,uncertain,keep,0,0,0,0,1,1,地面单一星纹球，附近两只鞋与球分离；原框覆盖球体且未拆花纹，无明确球体运动拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002497_left.png,val,uncertain,keep,0,0,0,0,1,1,地面单一星纹球，附近两只鞋与球分离；原框覆盖球体且未拆花纹，无明确球体运动拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002497_right.png,val,uncertain,keep,0,0,0,0,1,1,地面单一星纹球，附近两只鞋与球分离；原框覆盖球体且未拆花纹，无明确球体运动拖影。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=0、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002707_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,四倍柜边局部确认有球的左侧可见残片，右侧被白柜遮住，当前无框；严重遮挡和软边不宜推测完整圆形，需人工补框。 本图建议四项为Small=1、Occluded=1、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002719_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,四倍柜边局部确认白柜左侧露出蓝灰球面，当前无框属漏标；柜体挡住右半球，边缘软化需用户补框。 本图建议四项为Small=1、Occluded=1、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002730_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,0,0,1,1,四倍柜边局部确认真球露在柜体左侧，当前零框属漏标；右缘柜体覆盖及低清软边使边框不可靠，需人工补框。 本图建议四项为Small=1、Occluded=1、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002794_left.png,train,uncertain,keep,1,1,0,0,1,1,柜体左侧可见窄球面残片，白柜明确遮住球右部；保留原候选，不推测柜后完整形状。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=1、Occluded=1、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002847_left.png,train,uncertain,keep,1,0,0,0,1,1,门垫旁完整球可见，鞋与球分离，球约38px长边邻近40px临界，候选未拆花纹。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=1、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002847_right.png,train,uncertain,keep,1,0,0,0,1,1,门垫旁完整球可见，鞋与球分离，球约38px长边邻近40px临界，候选未拆花纹。 Small临界或裁边/运动软边影响完整尺度判断，先按当前最合理值记录，场景分类待用户复查。 本图建议四项为Small=1、Occluded=0、Blurred=0、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002984_left.png,train,uncertain,keep,0,0,1,0,1,1,右侧近球被画面裁边，球面和边缘存在运动软拖影；鞋未覆盖球，不机械缩小模糊框。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002984_right.png,train,uncertain,keep,0,0,1,0,1,1,右侧近球被画面裁边，球面和边缘存在运动软拖影；鞋未覆盖球，不机械缩小模糊框。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002999_left.png,train,uncertain,keep,0,0,1,0,1,1,右侧近球被画面裁边，球面和边缘存在运动软拖影；鞋未覆盖球，不机械缩小模糊框。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_002999_right.png,train,uncertain,keep,0,0,1,0,1,1,右侧近球被画面裁边，球面和边缘存在运动软拖影；鞋未覆盖球，不机械缩小模糊框。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_003027_left.png,train,uncertain,keep,0,0,1,0,1,1,脚旁球可见，球纹及轮廓有横向运动模糊；鞋仅接近球，未见明确前景挡球。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_003027_right.png,train,uncertain,keep,0,0,1,0,1,1,脚旁球可见，球纹及轮廓有横向运动模糊；鞋仅接近球，未见明确前景挡球。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_003036_left.png,train,uncertain,keep,0,0,1,0,1,1,左边缘近大球可见并有明显运动拖影，左侧为画面裁切，不能标成前景遮挡或小球。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_003036_right.png,train,uncertain,keep,0,0,1,0,1,1,左边缘近大球可见并有明显运动拖影，左侧为画面裁切，不能标成前景遮挡或小球。 球边界受裁切/强运动软化影响，原候选保留供用户检查，不编造精确圆形。 本图建议四项为Small=0、Occluded=0、Blurred=1、No Ball=0。仅助手预审，仍待用户复查通过。
+frame_003063_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003063_right.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003071_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003071_right.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003079_left.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003079_right.png,train,uncertain,needs_visibility_review,0,0,0,0,1,1,架子最下层暗部有深色带浅色纹理物，不能仅凭空label认定无球；需用户确认物品性质。
+frame_003167_left.png,train,uncertain,keep,0,0,1,0,1,1,球位于脚前完整可见，球面与全图有轻微运动软化/拖影；完整长边约40–43像素处于Small临界，暂取0待用户确认。
+frame_003167_right.png,train,uncertain,keep,0,0,1,0,1,1,球位于脚前完整可见，球面与全图有轻微运动软化/拖影；完整长边约40–43像素处于Small临界，暂取0待用户确认。
+frame_003169_left.png,train,uncertain,keep,0,0,1,0,1,1,球位于脚前完整可见，球面与全图有轻微运动软化/拖影；完整长边约40–43像素处于Small临界，暂取0待用户确认。
+frame_003169_right.png,train,uncertain,keep,0,0,1,0,1,1,球位于脚前完整可见，球面与全图有轻微运动软化/拖影；完整长边约40–43像素处于Small临界，暂取0待用户确认。
+frame_003208_left.png,train,uncertain,keep,1,0,1,0,1,1,足球出现横向压扁/拖影，完整直径约35–40像素临界；暂按Small=1、Blurred=1，尺寸待用户核对。
+frame_003208_right.png,train,uncertain,keep,1,0,1,0,1,1,足球出现横向压扁/拖影，完整直径约35–40像素临界；暂按Small=1、Blurred=1，尺寸待用户核对。
+frame_003324_left.png,train,uncertain,keep,0,0,0,0,1,1,完整球约41像素，处Small临界，暂按非Small；未见可靠遮挡及明显拖影。
+frame_003324_right.png,train,uncertain,keep,0,0,0,0,1,1,完整球约41像素，处Small临界，暂按非Small；未见可靠遮挡及明显拖影。
+frame_003697_left.png,train,uncertain,keep,0,1,0,0,1,1,手覆盖球上缘；球面可辨，无足够方向性拖影证据，暂取Blurred=0但轻度软化待用户核对。
+frame_003697_right.png,train,uncertain,keep,0,1,0,0,1,1,手覆盖球上缘；球面可辨，无足够方向性拖影证据，暂取Blurred=0但轻度软化待用户核对。
+frame_003859_left.png,train,uncertain,needs_manual_bbox_annotation,1,1,1,0,1,1,足球在鞋后方可见，但前景鞋覆盖大部分下缘/右缘且有运动拖影，现框可能混入鞋；用户需核对可见边界后修框，保留原label不猜测隐藏范围。
+frame_003859_right.png,train,uncertain,needs_manual_bbox_annotation,1,1,1,0,1,1,足球在鞋后方可见，但前景鞋覆盖大部分下缘/右缘且有运动拖影，现框可能混入鞋；用户需核对可见边界后修框，保留原label不猜测隐藏范围。
+frame_003888_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,足球可确认，但整图与球有严重斜向拖影，球缘/影子难可靠划分；现框保留，用户需手工复核边界，不能按清晰球猜框。
+frame_003888_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,足球可确认，但整图与球有严重斜向拖影，球缘/影子难可靠划分；现框保留，用户需手工复核边界，不能按清晰球猜框。
+frame_003900_left.png,train,uncertain,keep,1,0,0,0,1,1,约33像素球在鞋前，上缘接触鞋但小量重叠难可靠区分，暂不计Occluded；球软化不自动计Blurred，接触处待用户核对。
+frame_003900_right.png,train,uncertain,keep,1,0,0,0,1,1,约33像素球在鞋前，上缘接触鞋但小量重叠难可靠区分，暂不计Occluded；球软化不自动计Blurred，接触处待用户核对。
+frame_003944_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,放大ROI中球在框左侧/下侧，旧框疑切球缘且边界软化；现候选保留，请用户手工贴球边，勿按鞋的边缘扩框。
+frame_003944_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,放大ROI中球在框左侧/下侧，旧框疑切球缘且边界软化；现候选保留，请用户手工贴球边，勿按鞋的边缘扩框。
+frame_003955_left.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_003955_right.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_003961_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,放大ROI中球在框左侧/下侧，旧框疑切球缘且边界软化；现候选保留，请用户手工贴球边，勿按鞋的边缘扩框。
+frame_003961_right.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_003969_left.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_003969_right.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_003981_left.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_003981_right.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_003987_left.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_003987_right.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_003992_left.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_003992_right.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_004005_left.png,train,uncertain,needs_visibility_review,0,0,1,0,1,1,全景有严重斜向运动拖影，人物脚旁浅色拖影不能可靠区分球体或鞋，不能标为确定无球；现空label保留，需用户辨认可见性。
+frame_004005_right.png,train,uncertain,needs_visibility_review,0,0,1,0,1,1,全景有严重斜向运动拖影，人物脚旁浅色拖影不能可靠区分球体或鞋，不能标为确定无球；现空label保留，需用户辨认可见性。
+frame_004012_left.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_004012_right.png,train,uncertain,keep,1,0,0,0,1,1,原生全景和放大ROI均见唯一脚旁小球，完整直径约23–34px；鞋与球前后关系部分模糊，暂不把接触计Occluded。球缘待用户复核。
+frame_004031_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004031_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004078_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004078_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004121_left.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 完整尺度接近40px，Small为暂定，需复核。
+frame_004121_right.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 完整尺度接近40px，Small为暂定，需复核。
+frame_004183_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004183_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004186_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004186_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004199_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004199_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004200_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004200_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004215_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004215_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004257_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004257_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004275_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004275_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004287_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004287_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004289_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004289_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004313_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004313_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004320_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004320_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004329_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004329_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004376_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004395_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004395_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004478_left.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004478_right.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004480_left.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004480_right.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004618_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004627_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004627_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004668_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004668_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004677_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004677_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004687_left.png,train,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004687_right.png,train,uncertain,needs_manual_bbox_annotation,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004700_left.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 完整尺度接近40px，Small为暂定，需复核。
+frame_004700_right.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 完整尺度接近40px，Small为暂定，需复核。
+frame_004749_left.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 完整尺度接近40px，Small为暂定，需复核。
+frame_004749_right.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 完整尺度接近40px，Small为暂定，需复核。
+frame_004758_left.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004758_right.png,train,uncertain,keep,1,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。
+frame_004762_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004762_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004772_left.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004772_right.png,train,uncertain,keep,1,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004862_left.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。 完整尺度接近40px，Small为暂定，需复核。
+frame_004862_right.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。 完整尺度接近40px，Small为暂定，需复核。
+frame_004871_left.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。 完整尺度接近40px，Small为暂定，需复核。
+frame_004871_right.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 鞋与球接触处前后关系/软边仍需用户核对，未贸然计为遮挡。 完整尺度接近40px，Small为暂定，需复核。
+frame_004879_left.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004879_right.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004884_left.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004884_right.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004891_left.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004891_right.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004898_left.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004898_right.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004908_left.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004908_right.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004916_left.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004916_right.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004925_left.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004925_right.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004931_left.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004931_right.png,train,uncertain,keep,0,0,0,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 完整尺度接近40px，Small为暂定，需复核。
+frame_004991_left.png,test,uncertain,needs_manual_bbox_annotation,0,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。
+frame_004991_right.png,test,uncertain,needs_manual_bbox_annotation,0,0,1,0,1,1,逐张原生全景及现框局部可见唯一足球；鞋临近、接触或位于球后不直接视为遮挡。球体矩形四角背景正常，保留合理候选，待用户复查。 球或全景可见方向性拖影，Blurred=1。 旧框有偏移/鞋或阴影留白疑点，局部软边不能可靠自动贴边；保留旧候选，用户需手工核对。

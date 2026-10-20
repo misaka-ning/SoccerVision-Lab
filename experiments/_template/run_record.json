@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "template_only": true,
+  "record_kind": "experiment_management_not_training_configuration",
+  "experiment_id": null,
+  "run_id": null,
+  "status": "planned",
+  "created_utc": null,
+  "completed_utc": null,
+  "parent_run_id": null,
+  "purpose": null,
+  "source": {
+    "commit": null,
+    "dirty": null,
+    "diff_sha256": null,
+    "script_hashes": {}
+  },
+  "architecture": {
+    "file": null,
+    "sha256": null,
+    "variant": null,
+    "class_count": null,
+    "output_strides": [],
+    "parameter_count": null,
+    "flops": {
+      "value": null,
+      "unit": null,
+      "input_shape": null,
+      "method": null,
+      "tool_version": null,
+      "multiply_add_convention": null
+    }
+  },
+  "initialization": {
+    "mode": null,
+    "path": null,
+    "sha256": null,
+    "source_run_id": null,
+    "compatible_tensor_count": null,
+    "total_tensor_count": null,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "newly_initialized_modules": [],
+    "exposure": {
+      "evidence_ref": null,
+      "current_test_seen": null,
+      "some_training_images_seen": null,
+      "unknown_details": []
+    }
+  },
+  "baseline_reference": {
+    "path": "baseline/original_best.pt",
+    "sha256": "646f8bc3fe0a656803d95c294f7852321748cb29d13466a1af8862e2db384a1b",
+    "owner_confirmation_ref": "reports/workspace-organization/OWNER_ASSERTIONS.md",
+    "current_test_seen": false,
+    "some_training_images_seen": true
+  },
+  "data": {
+    "version": null,
+    "shared_config_sha256": null,
+    "resolved_runtime_yaml_sha256": null,
+    "metadata_sha256": null,
+    "frozen_manifest_sha256": null,
+    "split_list_sha256": {
+      "train": null,
+      "val": null,
+      "test": null
+    },
+    "image_label_content_manifest_sha256": null,
+    "counts": {
+      "train": null,
+      "val": null,
+      "test": null,
+      "buffer": null,
+      "heldout_unused": null,
+      "excluded": null
+    },
+    "relation": null
+  },
+  "training": {
+    "enabled": null,
+    "config_ref": null,
+    "config_sha256": null,
+    "effective_args": {},
+    "seed": null,
+    "deterministic": null,
+    "device": null,
+    "best_selection_rule": null,
+    "actual_output_ref": null,
+    "best_checkpoint_ref": null,
+    "last_checkpoint_ref": null,
+    "checkpoint_sha256": {
+      "best": null,
+      "last": null
+    },
+    "results_csv_ref": null,
+    "resume_events": []
+  },
+  "evaluation": {
+    "selected_checkpoint_sha256": null,
+    "class_mapping": null,
+    "imgsz": null,
+    "letterbox_rect": null,
+    "min_conf": null,
+    "operating_conf": null,
+    "match_iou": null,
+    "nms_iou": null,
+    "max_det": null,
+    "end_to_end_head": null,
+    "val": {
+      "status": "not_run",
+      "output_ref": null,
+      "manifest_sha256": null,
+      "sample_counts": null
+    },
+    "test": {
+      "status": "not_run",
+      "candidate_and_threshold_frozen_before_access": null,
+      "access_events": [],
+      "output_ref": null,
+      "manifest_sha256": null,
+      "sample_counts": null
+    }
+  },
+  "deployment": {
+    "status": "not_measured",
+    "hardware": null,
+    "os": null,
+    "cpu_gpu": null,
+    "power_mode": null,
+    "runtime": null,
+    "runtime_version": null,
+    "driver": null,
+    "cuda": null,
+    "export_ref": null,
+    "export_sha256": null,
+    "format": null,
+    "precision": null,
+    "calibration_manifest_sha256": null,
+    "input_shape": null,
+    "batch": null,
+    "warmup_count": null,
+    "timed_count": null,
+    "timing_boundary": null,
+    "synchronization": null,
+    "latency_ms": {
+      "mean": null,
+      "p50": null,
+      "p95": null
+    },
+    "throughput_fps": null,
+    "end_to_end_fps": null,
+    "peak_memory_mb": null,
+    "temperature": null,
+    "measured_power_w": null
+  },
+  "environment": {
+    "python": null,
+    "ultralytics": null,
+    "pytorch": null,
+    "cuda": null,
+    "cudnn": null,
+    "driver": null,
+    "dependencies_ref": null
+  },
+  "result": {
+    "comparison_run_ids": [],
+    "conclusion": null,
+    "failure_reason": null,
+    "artifacts_index_ref": null,
+    "amendment_refs": []
+  }
+}

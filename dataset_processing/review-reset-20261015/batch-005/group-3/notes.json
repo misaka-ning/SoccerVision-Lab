@@ -1,0 +1,1693 @@
+{
+  "full": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124
+  ],
+  "roi": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "obs": {
+    "0": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，脚边地面白片为地面标记，未见足球。",
+      "certain": true
+    },
+    "1": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，脚边地面白片为地面标记，未见足球。",
+      "certain": true
+    },
+    "2": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，脚边地面白片为地面标记，未见足球。",
+      "certain": true
+    },
+    "3": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，脚边地面白片为地面标记，未见足球。",
+      "certain": true
+    },
+    "4": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，脚边地面白片为地面标记，未见足球。",
+      "certain": true
+    },
+    "5": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，脚边地面白片为地面标记，未见足球。",
+      "certain": true
+    },
+    "6": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，脚边地面白片为地面标记，未见足球。",
+      "certain": true
+    },
+    "7": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，脚边地面白片为地面标记，未见足球。",
+      "certain": true
+    },
+    "8": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，地面白色标记和机器人足部均非足球；未见球。",
+      "certain": true
+    },
+    "9": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，地面白色标记和机器人足部均非足球；未见球。",
+      "certain": true
+    },
+    "10": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，地面白色标记和机器人足部均非足球；未见球。",
+      "certain": true
+    },
+    "11": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，地面白色标记和机器人足部均非足球；未见球。",
+      "certain": true
+    },
+    "12": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，地面白色标记和机器人足部均非足球；未见球。",
+      "certain": true
+    },
+    "13": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "全图人物与机器人可见，地面白色标记和机器人足部均非足球；未见球。",
+      "certain": true
+    },
+    "14": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框落在前排机器人脚掌及腿部白色外壳，ROI无足球花纹与球体轮廓，移除误框；全图未见足球。",
+      "certain": true
+    },
+    "15": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框落在前排机器人脚掌及腿部白色外壳，ROI无足球花纹与球体轮廓，移除误框；全图未见足球。",
+      "certain": true
+    },
+    "16": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框落在前排机器人脚掌及腿部白色外壳，ROI无足球花纹与球体轮廓，移除误框；全图未见足球。",
+      "certain": true
+    },
+    "17": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框落在前排机器人脚掌及腿部白色外壳，ROI无足球花纹与球体轮廓，移除误框；全图未见足球。",
+      "certain": true
+    },
+    "18": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面中央完整黑白足球，直径约46像素，旧框覆盖可见球体；无前景遮挡或方向性拖影。",
+      "certain": true
+    },
+    "19": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面中央完整黑白足球，直径约46像素，旧框覆盖可见球体；无前景遮挡或方向性拖影。",
+      "certain": true
+    },
+    "20": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面中央完整黑白足球，直径约46像素，旧框覆盖可见球体；无前景遮挡或方向性拖影。",
+      "certain": true
+    },
+    "21": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面中央完整黑白足球，直径约46像素，旧框覆盖可见球体；无前景遮挡或方向性拖影。",
+      "certain": true
+    },
+    "22": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面中央完整黑白足球，直径约46像素，旧框覆盖可见球体；无前景遮挡或方向性拖影。",
+      "certain": true
+    },
+    "23": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面中央完整黑白足球，直径约46像素，旧框覆盖可见球体；无前景遮挡或方向性拖影。",
+      "certain": true
+    },
+    "24": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整黑白足球约48像素，旧框覆盖球体；无遮挡或明确运动拖影。",
+      "certain": true
+    },
+    "25": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整黑白足球约48像素，旧框覆盖球体；无遮挡或明确运动拖影。",
+      "certain": true
+    },
+    "26": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整足球约60像素，球面白块及地面存在斜向拖影，旧框定位正确。",
+      "certain": true
+    },
+    "27": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整足球约60像素，球面白块及地面存在斜向拖影，旧框定位正确。",
+      "certain": true
+    },
+    "28": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "近处大球被画面下边缘截断，按用户规则Occluded=1；完整尺度显著大于40像素，无明确方向性球拖影。",
+      "certain": true
+    },
+    "29": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "近处大球被画面下边缘截断，按用户规则Occluded=1；完整尺度显著大于40像素，无明确方向性球拖影。",
+      "certain": true
+    },
+    "30": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "近处大球被画面下边缘截断，Occluded=1；球与地板有方向性相机拖影，保留旧框。",
+      "certain": true
+    },
+    "31": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "近处大球被画面下边缘截断，Occluded=1；球与地板有方向性相机拖影，保留旧框。",
+      "certain": true
+    },
+    "32": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "相机移动造成地面及物体方向性拖影，逐区未见足球；地面白十字和机器人足部不作为球。",
+      "certain": true
+    },
+    "33": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "相机移动造成地面及物体方向性拖影，逐区未见足球；地面白十字和机器人足部不作为球。",
+      "certain": true
+    },
+    "34": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "相机移动造成地面及物体方向性拖影，逐区未见足球；地面白十字和机器人足部不作为球。",
+      "certain": true
+    },
+    "35": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "相机移动造成地面及物体方向性拖影，逐区未见足球；地面白十字和机器人足部不作为球。",
+      "certain": true
+    },
+    "36": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、电视、机器人及玩偶场景，未见足球；白色玩偶头与小地面纸片均非球。",
+      "certain": true
+    },
+    "37": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、电视、机器人及玩偶场景，未见足球；白色玩偶头与小地面纸片均非球。",
+      "certain": true
+    },
+    "38": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、电视、机器人及玩偶场景，未见足球；白色玩偶头与小地面纸片均非球。",
+      "certain": true
+    },
+    "39": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、电视、机器人及玩偶场景，未见足球；白色玩偶头与小地面纸片均非球。",
+      "certain": true
+    },
+    "40": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "电视与人物、玩偶场景未见足球；人物白鞋和玩偶头部不算球。",
+      "certain": true
+    },
+    "41": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "电视与人物、玩偶场景未见足球；人物白鞋和玩偶头部不算球。",
+      "certain": true
+    },
+    "42": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "全景有相机方向性拖影，人物脚边及空旷地板未见足球；白鞋不是球。",
+      "certain": true
+    },
+    "43": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "全景有相机方向性拖影，人物脚边及空旷地板未见足球；白鞋不是球。",
+      "certain": true
+    },
+    "44": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框对应红衣人物的银白运动鞋，可见鞋面条纹与鞋底，非足球；移除误框，场景未见足球。",
+      "certain": true
+    },
+    "45": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框对应红衣人物的银白运动鞋，可见鞋面条纹与鞋底，非足球；移除误框，场景未见足球。",
+      "certain": true
+    },
+    "46": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框对应红衣人物的银白运动鞋，可见鞋面条纹与鞋底，非足球；移除误框，场景未见足球。",
+      "certain": true
+    },
+    "47": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框对应红衣人物的银白运动鞋，可见鞋面条纹与鞋底，非足球；移除误框，场景未见足球。",
+      "certain": true
+    },
+    "48": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框对应红衣人物的银白运动鞋，可见鞋面条纹与鞋底，非足球；移除误框，场景未见足球。",
+      "certain": true
+    },
+    "49": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框对应红衣人物的银白运动鞋，可见鞋面条纹与鞋底，非足球；移除误框，场景未见足球。",
+      "certain": true
+    },
+    "50": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框落在红衣人物银灰运动鞋，条纹鞋面和鞋底明确可见，移除误框；全图未见足球。",
+      "certain": true
+    },
+    "51": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框落在红衣人物银灰运动鞋，条纹鞋面和鞋底明确可见，移除误框；全图未见足球。",
+      "certain": true
+    },
+    "52": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框落在红衣人物银灰运动鞋，条纹鞋面和鞋底明确可见，移除误框；全图未见足球。",
+      "certain": true
+    },
+    "53": {
+      "flags": "0001",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框落在红衣人物银灰运动鞋，条纹鞋面和鞋底明确可见，移除误框；全图未见足球。",
+      "certain": true
+    },
+    "54": {
+      "flags": "0011",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框落在红衣人物银灰运动鞋，条纹鞋面和鞋底明确可见，移除误框；全图未见足球。全景有相机运动方向性拖影。",
+      "certain": true
+    },
+    "55": {
+      "flags": "0011",
+      "action": "replace",
+      "boxes": [],
+      "reason": "旧框落在红衣人物银灰运动鞋，条纹鞋面和鞋底明确可见，移除误框；全图未见足球。全景有相机运动方向性拖影。",
+      "certain": true
+    },
+    "56": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物鞋边、机器人和玩偶附近未见足球；背景白色圆头是玩偶。",
+      "certain": true
+    },
+    "57": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物鞋边、机器人和玩偶附近未见足球；背景白色圆头是玩偶。",
+      "certain": true
+    },
+    "58": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物鞋边、机器人和玩偶附近未见足球；背景白色圆头是玩偶。",
+      "certain": true
+    },
+    "59": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物鞋边、机器人和玩偶附近未见足球；背景白色圆头是玩偶。",
+      "certain": true
+    },
+    "60": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物鞋边、机器人和玩偶附近未见足球；背景白色圆头是玩偶。",
+      "certain": true
+    },
+    "61": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物鞋边、机器人和玩偶附近未见足球；背景白色圆头是玩偶。",
+      "certain": true
+    },
+    "62": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "人物和电视等有相机移动方向性拖影；未见可识别足球，白色圆形为玩偶头部。",
+      "certain": true
+    },
+    "63": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "人物和电视等有相机移动方向性拖影；未见可识别足球，白色圆形为玩偶头部。",
+      "certain": true
+    },
+    "64": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、玩偶与设备近景未见足球，白色大圆头为玩偶，机器人手臂不是球。",
+      "certain": true
+    },
+    "65": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、玩偶与设备近景未见足球，白色大圆头为玩偶，机器人手臂不是球。",
+      "certain": true
+    },
+    "66": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、玩偶与设备近景未见足球，白色大圆头为玩偶，机器人手臂不是球。",
+      "certain": true
+    },
+    "67": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、玩偶与设备近景未见足球，白色大圆头为玩偶，机器人手臂不是球。",
+      "certain": true
+    },
+    "68": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "人物、玩偶与设备近景未见足球，白色大圆头为玩偶，机器人手臂不是球。全景有斜向运动拖影。",
+      "certain": true
+    },
+    "69": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "人物、玩偶与设备近景未见足球，白色大圆头为玩偶，机器人手臂不是球。全景有斜向运动拖影。",
+      "certain": true
+    },
+    "70": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、玩偶与设备近景未见足球，白色大圆头为玩偶，机器人手臂不是球。",
+      "certain": true
+    },
+    "71": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、玩偶与设备近景未见足球，白色大圆头为玩偶，机器人手臂不是球。",
+      "certain": true
+    },
+    "72": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、橙帽玩偶、白色玩偶与架子近景，圆形玩偶头均非足球；全图未见球。",
+      "certain": true
+    },
+    "73": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、橙帽玩偶、白色玩偶与架子近景，圆形玩偶头均非足球；全图未见球。",
+      "certain": true
+    },
+    "74": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、橙帽玩偶、白色玩偶与架子近景，圆形玩偶头均非足球；全图未见球。",
+      "certain": true
+    },
+    "75": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、橙帽玩偶、白色玩偶与架子近景，圆形玩偶头均非足球；全图未见球。",
+      "certain": true
+    },
+    "76": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、橙帽玩偶、白色玩偶与架子近景，圆形玩偶头均非足球；全图未见球。",
+      "certain": true
+    },
+    "77": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、橙帽玩偶、白色玩偶与架子近景，圆形玩偶头均非足球；全图未见球。",
+      "certain": true
+    },
+    "78": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、橙帽玩偶、白色玩偶与架子近景，圆形玩偶头均非足球；全图未见球。",
+      "certain": true
+    },
+    "79": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物、橙帽玩偶、白色玩偶与架子近景，圆形玩偶头均非足球；全图未见球。",
+      "certain": true
+    },
+    "80": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "相机转向造成明显斜向拖影，机器人与人物脚边未见足球。",
+      "certain": true
+    },
+    "81": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "相机转向造成明显斜向拖影，机器人与人物脚边未见足球。",
+      "certain": true
+    },
+    "82": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "画面下沿可见大足球残片，按截断口径Occluded=1、Small=0；球和场景有方向性拖影，保留框。",
+      "certain": true
+    },
+    "83": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "画面下沿可见大足球残片，按截断口径Occluded=1、Small=0；球和场景有方向性拖影，保留框。",
+      "certain": true
+    },
+    "84": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "近处完整黑白足球约55至65像素，无前景遮挡；旧框覆盖球体，低分辨率软化不作运动模糊。",
+      "certain": true
+    },
+    "85": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "近处完整黑白足球约55至65像素，无前景遮挡；旧框覆盖球体，低分辨率软化不作运动模糊。",
+      "certain": true
+    },
+    "86": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "近处完整黑白足球约55至65像素，无前景遮挡；旧框覆盖球体，低分辨率软化不作运动模糊。",
+      "certain": true
+    },
+    "87": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "近处完整黑白足球约55至65像素，无前景遮挡；旧框覆盖球体，低分辨率软化不作运动模糊。",
+      "certain": true
+    },
+    "88": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "近处完整黑白足球约55至65像素，无前景遮挡；旧框覆盖球体，低分辨率软化不作运动模糊。",
+      "certain": true
+    },
+    "89": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "近处完整黑白足球约55至65像素，无前景遮挡；旧框覆盖球体，低分辨率软化不作运动模糊。",
+      "certain": true
+    },
+    "90": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整大足球球面白块有横向拖影，球框正确；无遮挡。",
+      "certain": true
+    },
+    "91": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整大足球球面白块有横向拖影，球框正确；无遮挡。",
+      "certain": true
+    },
+    "92": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整近处黑白足球，球面和地面出现方向性相机拖影，旧框覆盖足球且无遮挡。",
+      "certain": true
+    },
+    "93": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整近处黑白足球，球面和地面出现方向性相机拖影，旧框覆盖足球且无遮挡。",
+      "certain": true
+    },
+    "94": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整近处黑白足球，球面和地面出现方向性相机拖影，旧框覆盖足球且无遮挡。",
+      "certain": true
+    },
+    "95": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整近处黑白足球，球面和地面出现方向性相机拖影，旧框覆盖足球且无遮挡。",
+      "certain": true
+    },
+    "96": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "近处大球从下边缘截断，Occluded=1，球面存在横向拖影；保留现有可见球框。",
+      "certain": true
+    },
+    "97": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "近处大球从下边缘截断，Occluded=1，球面存在横向拖影；保留现有可见球框。",
+      "certain": true
+    },
+    "98": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "大足球在前景黑色机器人左侧被其遮挡，按可见外接边界保留旧框；无明确运动拖影。",
+      "certain": true
+    },
+    "99": {
+      "flags": "0001",
+      "action": "needs_visibility_review",
+      "reason": "前景机器人遮住预期球所在区域，当前图没有可靠可定位的足球，空label按用户口径No Ball=1；可见性需人工复查。",
+      "certain": false
+    },
+    "100": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "大足球在前景黑色机器人左侧被其遮挡，按可见外接边界保留旧框；无明确运动拖影。",
+      "certain": true
+    },
+    "101": {
+      "flags": "0001",
+      "action": "needs_visibility_review",
+      "reason": "前景机器人遮住预期球所在区域，当前图没有可靠可定位的足球，空label按用户口径No Ball=1；可见性需人工复查。",
+      "certain": false
+    },
+    "102": {
+      "flags": "0001",
+      "action": "needs_visibility_review",
+      "reason": "前景机器人遮住预期球所在区域，当前图没有可靠可定位的足球，空label按用户口径No Ball=1；可见性需人工复查。",
+      "certain": false
+    },
+    "103": {
+      "flags": "0100",
+      "action": "replace",
+      "boxes": [
+        [
+          541,
+          283,
+          568,
+          350
+        ]
+      ],
+      "reason": "前景机器人右侧可见蓝白足球弧形残片，完整球尺度较大，Occluded=1、Small=0；按可见范围补候选框，需人工二审。",
+      "certain": true,
+      "detail": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/detail-103-grid.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/native-before-after-103.png"
+      ]
+    },
+    "104": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物腿部、白鞋、入口玻璃与地面场景，未见足球；鞋面与地板反光均不作球。",
+      "certain": true
+    },
+    "105": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物腿部、白鞋、入口玻璃与地面场景，未见足球；鞋面与地板反光均不作球。",
+      "certain": true
+    },
+    "106": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物腿部、白鞋、入口玻璃与地面场景，未见足球；鞋面与地板反光均不作球。",
+      "certain": true
+    },
+    "107": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物腿部、白鞋、入口玻璃与地面场景，未见足球；鞋面与地板反光均不作球。",
+      "certain": true
+    },
+    "108": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物腿部、白鞋、入口玻璃与地面场景，未见足球；鞋面与地板反光均不作球。",
+      "certain": true
+    },
+    "109": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物腿部、白鞋、入口玻璃与地面场景，未见足球；鞋面与地板反光均不作球。",
+      "certain": true
+    },
+    "110": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "入口人物腿部与空旷地面未见足球；白鞋与玻璃反射均排除。",
+      "certain": true
+    },
+    "111": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "入口人物腿部与空旷地面未见足球；白鞋与玻璃反射均排除。",
+      "certain": true
+    },
+    "112": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "入口人物腿部与空旷地面未见足球；白鞋与玻璃反射均排除。",
+      "certain": true
+    },
+    "113": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "入口人物腿部与空旷地面未见足球；白鞋与玻璃反射均排除。",
+      "certain": true
+    },
+    "114": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "入口人物腿部与空旷地面未见足球；白鞋与玻璃反射均排除。",
+      "certain": true
+    },
+    "115": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "入口人物腿部与空旷地面未见足球；白鞋与玻璃反射均排除。",
+      "certain": true
+    },
+    "116": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "入口人物腿部与空旷地面未见足球；白鞋与玻璃反射均排除。",
+      "certain": true
+    },
+    "117": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "入口人物腿部与空旷地面未见足球；白鞋与玻璃反射均排除。",
+      "certain": true
+    },
+    "118": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "门口人物与地板未见足球，手持白物是遥控器，银色脚部是运动鞋。",
+      "certain": true
+    },
+    "119": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "门口人物与地板未见足球，手持白物是遥控器，银色脚部是运动鞋。",
+      "certain": true
+    },
+    "120": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "门口人物与地板未见足球，手持白物是遥控器，银色脚部是运动鞋。",
+      "certain": true
+    },
+    "121": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "门口人物与地板未见足球，手持白物是遥控器，银色脚部是运动鞋。",
+      "certain": true
+    },
+    "122": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "门口人物与地板未见足球，手持白物是遥控器，银色脚部是运动鞋。相机移动使地板和人物有方向性拖影。",
+      "certain": true
+    },
+    "123": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "门口人物与地板未见足球，手持白物是遥控器，银色脚部是运动鞋。相机移动使地板和人物有方向性拖影。",
+      "certain": true
+    },
+    "124": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "门口人物与地板未见足球，手持白物是遥控器，银色脚部是运动鞋。",
+      "certain": true
+    },
+    "125": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "门口人物与地板未见足球，手持白物是遥控器，银色脚部是运动鞋。",
+      "certain": true
+    },
+    "126": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "下边缘截断的近处大足球出现明显运动条纹与形变，Occluded=1、Blurred=1，保留球框。",
+      "certain": true
+    },
+    "127": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "下边缘截断的近处大足球出现明显运动条纹与形变，Occluded=1、Blurred=1，保留球框。",
+      "certain": true
+    },
+    "128": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "足球位于人物鞋尖旁，鞋尖遮住球的右上小部分，Occluded=1；球体约55像素，旧框定位正确。",
+      "certain": true
+    },
+    "129": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "足球位于人物鞋尖旁，鞋尖遮住球的右上小部分，Occluded=1；球体约55像素，旧框定位正确。",
+      "certain": true
+    },
+    "130": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "足球位于人物鞋尖旁，鞋尖遮住球的右上小部分，Occluded=1；球体约55像素，旧框定位正确。",
+      "certain": true
+    },
+    "131": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "足球位于人物鞋尖旁，鞋尖遮住球的右上小部分，Occluded=1；球体约55像素，旧框定位正确。",
+      "certain": true
+    },
+    "132": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球与鞋已分离，约55像素，旧框覆盖球体，无真实遮挡或方向性拖影。",
+      "certain": true
+    },
+    "133": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球与鞋已分离，约55像素，旧框覆盖球体，无真实遮挡或方向性拖影。",
+      "certain": true
+    },
+    "134": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整足球有横向拉伸和球面方向性模糊，地面同向拖影；旧框保留。",
+      "certain": true
+    },
+    "135": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整足球有横向拉伸和球面方向性模糊，地面同向拖影；旧框保留。",
+      "certain": true
+    },
+    "136": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "完整足球在人物脚前地面，尺度约56像素，星纹可辨，无遮挡或明确拖影。",
+      "certain": true
+    },
+    "137": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "完整足球在人物脚前地面，尺度约56像素，星纹可辨，无遮挡或明确拖影。",
+      "certain": true
+    },
+    "138": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "完整足球在人物脚前地面，尺度约56像素，星纹可辨，无遮挡或明确拖影。",
+      "certain": true
+    },
+    "139": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "完整足球在人物脚前地面，尺度约56像素，星纹可辨，无遮挡或明确拖影。",
+      "certain": true
+    },
+    "140": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "完整足球在人物脚前地面，尺度约56像素，星纹可辨，无遮挡或明确拖影。",
+      "certain": true
+    },
+    "141": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "完整足球在人物脚前地面，尺度约56像素，星纹可辨，无遮挡或明确拖影。",
+      "certain": true
+    },
+    "142": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整近处足球，星纹和边缘可辨，无前景遮挡；保留现有框。",
+      "certain": true
+    },
+    "143": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整近处足球，星纹和边缘可辨，无前景遮挡；保留现有框。",
+      "certain": true
+    },
+    "144": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整足球与地面有斜向相机拖影，球轮廓拉伸，旧框正确。",
+      "certain": true
+    },
+    "145": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "完整足球与地面有斜向相机拖影，球轮廓拉伸，旧框正确。",
+      "certain": true
+    },
+    "146": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "大足球底部被画面下边缘轻微截断，按用户规则Occluded=1；星纹可辨，保留旧框。",
+      "certain": true
+    },
+    "147": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "大足球底部被画面下边缘轻微截断，按用户规则Occluded=1；星纹可辨，保留旧框。",
+      "certain": true
+    },
+    "148": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整近处足球，星纹和边缘可辨，无前景遮挡；保留现有框。",
+      "certain": true
+    },
+    "149": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整近处足球，星纹和边缘可辨，无前景遮挡；保留现有框。",
+      "certain": true
+    },
+    "150": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "近处完整足球约90像素，星纹和球缘可辨，无遮挡；保留现框。",
+      "certain": true
+    },
+    "151": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "近处完整足球约90像素，星纹和球缘可辨，无遮挡；保留现框。",
+      "certain": true
+    },
+    "152": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "运动足球明显拉成斜长条，球面与场景有方向性拖影；旧框覆盖球迹。",
+      "certain": true
+    },
+    "153": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "运动足球明显拉成斜长条，球面与场景有方向性拖影；旧框覆盖球迹。",
+      "certain": true
+    },
+    "154": {
+      "flags": "1010",
+      "action": "keep",
+      "reason": "门边地面小足球约36像素，无遮挡，球面有明确斜向拖影，旧框定位正确。",
+      "certain": true
+    },
+    "155": {
+      "flags": "1010",
+      "action": "keep",
+      "reason": "门边地面小足球约36像素，无遮挡，球面有明确斜向拖影，旧框定位正确。",
+      "certain": true
+    },
+    "156": {
+      "flags": "0101",
+      "action": "needs_manual_bbox_annotation",
+      "reason": "黑鞋尖附近露出白色弧片，可能为被鞋遮挡的足球，但与连续白鞋底难以可靠分界，保留空label待人工补框；按用户label口径No Ball=1。",
+      "certain": false,
+      "detail": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/detail-156-grid.png"
+      ]
+    },
+    "157": {
+      "flags": "0101",
+      "action": "needs_manual_bbox_annotation",
+      "reason": "黑鞋尖附近露出白色弧片，可能为被鞋遮挡的足球，但与连续白鞋底难以可靠分界，保留空label待人工补框；按用户label口径No Ball=1。",
+      "certain": false,
+      "detail": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/detail-157-grid.png"
+      ]
+    },
+    "158": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "黑鞋前端遮住足球，鞋尖左下可见白色与蓝色球面残片；完整球尺度约45像素，Small=0、Occluded=1，保留旧框。",
+      "certain": true,
+      "detail": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/detail-158-raw.png"
+      ]
+    },
+    "159": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "黑鞋前端遮住足球，鞋尖左下可见白色与蓝色球面残片；完整球尺度约45像素，Small=0、Occluded=1，保留旧框。",
+      "certain": true
+    },
+    "160": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "脚前完整足球约64像素，球框覆盖边界，鞋已离开球体，无真实遮挡或拖影。",
+      "certain": true
+    },
+    "161": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "脚前完整足球约64像素，球框覆盖边界，鞋已离开球体，无真实遮挡或拖影。",
+      "certain": true
+    },
+    "162": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物近景与脚边地板未见可定位足球，白色部分为鞋底；现为空label，No Ball=1。",
+      "certain": true
+    },
+    "163": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物近景与脚边地板未见可定位足球，白色部分为鞋底；现为空label，No Ball=1。",
+      "certain": true
+    },
+    "164": {
+      "flags": "0101",
+      "action": "needs_manual_bbox_annotation",
+      "reason": "黑鞋尖附近露出白色弧片，可能为被鞋遮挡的足球，但与连续白鞋底难以可靠分界，保留空label待人工补框；按用户label口径No Ball=1。",
+      "certain": false,
+      "detail": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/detail-164-grid.png"
+      ]
+    },
+    "165": {
+      "flags": "0101",
+      "action": "needs_manual_bbox_annotation",
+      "reason": "黑鞋尖附近露出白色弧片，可能为被鞋遮挡的足球，但与连续白鞋底难以可靠分界，保留空label待人工补框；按用户label口径No Ball=1。",
+      "certain": false,
+      "detail": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-005/group-3/detail-165-grid.png"
+      ]
+    },
+    "166": {
+      "flags": "0101",
+      "action": "needs_manual_bbox_annotation",
+      "reason": "黑鞋尖附近露出白色弧片，可能为被鞋遮挡的足球，但与连续白鞋底难以可靠分界，保留空label待人工补框；按用户label口径No Ball=1。",
+      "certain": false
+    },
+    "167": {
+      "flags": "0101",
+      "action": "needs_manual_bbox_annotation",
+      "reason": "黑鞋尖附近露出白色弧片，可能为被鞋遮挡的足球，但与连续白鞋底难以可靠分界，保留空label待人工补框；按用户label口径No Ball=1。",
+      "certain": false
+    },
+    "168": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "近景黑鞋、立柱与地板未见足球；相机移动造成物体和地板方向性拖影。",
+      "certain": true
+    },
+    "169": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "近景黑鞋、立柱与地板未见足球；相机移动造成物体和地板方向性拖影。",
+      "certain": true
+    },
+    "170": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "人物黑裤、立柱与宣传架近景，未见足球；立柱反光及纸片不是球。全景有方向性相机拖影。",
+      "certain": true
+    },
+    "171": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "人物黑裤、立柱与宣传架近景，未见足球；立柱反光及纸片不是球。全景有方向性相机拖影。",
+      "certain": true
+    },
+    "172": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物黑裤、立柱与宣传架近景，未见足球；立柱反光及纸片不是球。",
+      "certain": true
+    },
+    "173": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物黑裤、立柱与宣传架近景，未见足球；立柱反光及纸片不是球。",
+      "certain": true
+    },
+    "174": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物黑裤、立柱与宣传架近景，未见足球；立柱反光及纸片不是球。",
+      "certain": true
+    },
+    "175": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物黑裤、立柱与宣传架近景，未见足球；立柱反光及纸片不是球。",
+      "certain": true
+    },
+    "176": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物黑裤、立柱与宣传架近景，未见足球；立柱反光及纸片不是球。",
+      "certain": true
+    },
+    "177": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物黑裤、立柱与宣传架近景，未见足球；立柱反光及纸片不是球。",
+      "certain": true
+    },
+    "178": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "立柱、宣传架、玻璃门与地面均未见足球；门外与玻璃倒影没有可识别球体。",
+      "certain": true
+    },
+    "179": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "立柱、宣传架、玻璃门与地面均未见足球；门外与玻璃倒影没有可识别球体。",
+      "certain": true
+    },
+    "180": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "立柱、宣传架、玻璃门与地面均未见足球；门外与玻璃倒影没有可识别球体。",
+      "certain": true
+    },
+    "181": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "立柱、宣传架、玻璃门与地面均未见足球；门外与玻璃倒影没有可识别球体。",
+      "certain": true
+    },
+    "182": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "立柱、宣传架、玻璃门与地面均未见足球；门外与玻璃倒影没有可识别球体。",
+      "certain": true
+    },
+    "183": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "立柱、宣传架、玻璃门与地面均未见足球；门外与玻璃倒影没有可识别球体。",
+      "certain": true
+    },
+    "184": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "立柱、宣传架、玻璃门与地面均未见足球；门外与玻璃倒影没有可识别球体。",
+      "certain": true
+    },
+    "185": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "立柱、宣传架、玻璃门与地面均未见足球；门外与玻璃倒影没有可识别球体。",
+      "certain": true
+    },
+    "186": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "玻璃门、人物鞋边和机器人展台未见足球，手持遥控器与鞋子排除。",
+      "certain": true
+    },
+    "187": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "玻璃门、人物鞋边和机器人展台未见足球，手持遥控器与鞋子排除。",
+      "certain": true
+    },
+    "188": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "玻璃门、人物鞋边和机器人展台未见足球，手持遥控器与鞋子排除。全景有横向相机拖影。",
+      "certain": true
+    },
+    "189": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "玻璃门、人物鞋边和机器人展台未见足球，手持遥控器与鞋子排除。全景有横向相机拖影。",
+      "certain": true
+    },
+    "190": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "玻璃门、人物鞋边和机器人展台未见足球，手持遥控器与鞋子排除。全景有横向相机拖影。",
+      "certain": true
+    },
+    "191": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "玻璃门、人物鞋边和机器人展台未见足球，手持遥控器与鞋子排除。全景有横向相机拖影。",
+      "certain": true
+    },
+    "192": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "玻璃门、人物鞋边和机器人展台未见足球，手持遥控器与鞋子排除。",
+      "certain": true
+    },
+    "193": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "玻璃门、人物鞋边和机器人展台未见足球，手持遥控器与鞋子排除。",
+      "certain": true
+    },
+    "194": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "人物鞋边和机器人展台场景未见足球，鞋和白色遥控器不是球。物体与地板有相机运动方向性拖影。",
+      "certain": true
+    },
+    "195": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "人物鞋边和机器人展台场景未见足球，鞋和白色遥控器不是球。物体与地板有相机运动方向性拖影。",
+      "certain": true
+    },
+    "196": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物鞋边和机器人展台场景未见足球，鞋和白色遥控器不是球。",
+      "certain": true
+    },
+    "197": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物鞋边和机器人展台场景未见足球，鞋和白色遥控器不是球。",
+      "certain": true
+    },
+    "198": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物鞋边和机器人展台场景未见足球，鞋和白色遥控器不是球。",
+      "certain": true
+    },
+    "199": {
+      "flags": "0001",
+      "action": "keep",
+      "reason": "人物鞋边和机器人展台场景未见足球，鞋和白色遥控器不是球。",
+      "certain": true
+    },
+    "200": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "人物鞋边和机器人展台场景未见足球，鞋和白色遥控器不是球。物体与地板有相机运动方向性拖影。",
+      "certain": true
+    },
+    "201": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "人物鞋边和机器人展台场景未见足球，鞋和白色遥控器不是球。物体与地板有相机运动方向性拖影。",
+      "certain": true
+    },
+    "202": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "手持近处足球，手指覆盖球体上缘，Occluded=1；旧框覆盖可见球。星纹可辨，未见明确方向性拖影。",
+      "certain": true
+    },
+    "203": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "手持近处足球，手指覆盖球体上缘，Occluded=1；旧框覆盖可见球。星纹可辨，未见明确方向性拖影。",
+      "certain": true
+    },
+    "204": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "手持近处足球，手指覆盖球体上缘，Occluded=1；旧框覆盖可见球。球面横向运动拖影明显。",
+      "certain": true
+    },
+    "205": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "手持近处足球，手指覆盖球体上缘，Occluded=1；旧框覆盖可见球。球面横向运动拖影明显。",
+      "certain": true
+    },
+    "206": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "手持近处足球，手指覆盖球体上缘，Occluded=1；旧框覆盖可见球。星纹可辨，未见明确方向性拖影。",
+      "certain": true
+    },
+    "207": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "手持近处足球，手指覆盖球体上缘，Occluded=1；旧框覆盖可见球。星纹可辨，未见明确方向性拖影。",
+      "certain": true
+    },
+    "208": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "手持近处足球，手指覆盖球体上缘，Occluded=1；旧框覆盖可见球。星纹可辨，未见明确方向性拖影。",
+      "certain": true
+    },
+    "209": {
+      "flags": "0100",
+      "action": "keep",
+      "reason": "手持近处足球，手指覆盖球体上缘，Occluded=1；旧框覆盖可见球。星纹可辨，未见明确方向性拖影。",
+      "certain": true
+    },
+    "210": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "手持足球被手掌遮住上缘且下缘出画，Occluded=1；球与场景斜向运动拖影明显，保留框。",
+      "certain": true
+    },
+    "211": {
+      "flags": "0110",
+      "action": "keep",
+      "reason": "手持足球被手掌遮住上缘且下缘出画，Occluded=1；球与场景斜向运动拖影明显，保留框。",
+      "certain": true
+    },
+    "212": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "足球落地完整可见，球面和场景有斜向运动拖影，保留正确旧框。",
+      "certain": true
+    },
+    "213": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "足球落地完整可见，球面和场景有斜向运动拖影，保留正确旧框。",
+      "certain": true
+    },
+    "214": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球约50至60像素，球面星纹可辨，无遮挡；软化不自动计运动模糊，保留框。",
+      "certain": true
+    },
+    "215": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球约50至60像素，球面星纹可辨，无遮挡；软化不自动计运动模糊，保留框。",
+      "certain": true
+    },
+    "216": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球约50至60像素，球面星纹可辨，无遮挡；软化不自动计运动模糊，保留框。",
+      "certain": true
+    },
+    "217": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球约50至60像素，球面星纹可辨，无遮挡；软化不自动计运动模糊，保留框。",
+      "certain": true
+    },
+    "218": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整黑白足球约48至55像素，无遮挡，旧框覆盖球体。低像素软化不作运动拖影。",
+      "certain": true
+    },
+    "219": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整黑白足球约48至55像素，无遮挡，旧框覆盖球体。低像素软化不作运动拖影。",
+      "certain": true
+    },
+    "220": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整黑白足球约48至55像素，无遮挡，旧框覆盖球体。低像素软化不作运动拖影。",
+      "certain": true
+    },
+    "221": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整黑白足球约48至55像素，无遮挡，旧框覆盖球体。低像素软化不作运动拖影。",
+      "certain": true
+    },
+    "222": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "地面完整黑白足球约48至55像素，无遮挡，旧框覆盖球体。相机转动使球和地面出现斜向拖影。",
+      "certain": true
+    },
+    "223": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "地面完整黑白足球约48至55像素，无遮挡，旧框覆盖球体。相机转动使球和地面出现斜向拖影。",
+      "certain": true
+    },
+    "224": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整黑白足球约48至55像素，无遮挡，旧框覆盖球体。低像素软化不作运动拖影。",
+      "certain": true
+    },
+    "225": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整黑白足球约48至55像素，无遮挡，旧框覆盖球体。低像素软化不作运动拖影。",
+      "certain": true
+    },
+    "226": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "地面完整足球约50至58像素，无真实遮挡，旧框覆盖球体。相机移动使机器人、地面和球出现方向性拖影。",
+      "certain": true
+    },
+    "227": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "地面完整足球约50至58像素，无真实遮挡，旧框覆盖球体。相机移动使机器人、地面和球出现方向性拖影。",
+      "certain": true
+    },
+    "228": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球约50至58像素，无真实遮挡，旧框覆盖球体。星纹可辨，无明确方向性拖影。",
+      "certain": true
+    },
+    "229": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球约50至58像素，无真实遮挡，旧框覆盖球体。星纹可辨，无明确方向性拖影。",
+      "certain": true
+    },
+    "230": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球约50至58像素，无真实遮挡，旧框覆盖球体。星纹可辨，无明确方向性拖影。",
+      "certain": true
+    },
+    "231": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球约50至58像素，无真实遮挡，旧框覆盖球体。星纹可辨，无明确方向性拖影。",
+      "certain": true
+    },
+    "232": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球约50至58像素，无真实遮挡，旧框覆盖球体。星纹可辨，无明确方向性拖影。",
+      "certain": true
+    },
+    "233": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面完整足球约50至58像素，无真实遮挡，旧框覆盖球体。星纹可辨，无明确方向性拖影。",
+      "certain": true
+    },
+    "234": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "地面近处完整足球约65至90像素，无前景遮挡，保留正确球框。球面与场景方向性拖影明显。",
+      "certain": true
+    },
+    "235": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "地面近处完整足球约65至90像素，无前景遮挡，保留正确球框。球面与场景方向性拖影明显。",
+      "certain": true
+    },
+    "236": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面近处完整足球约65至90像素，无前景遮挡，保留正确球框。星纹可辨，无明确方向性球拖影。",
+      "certain": true
+    },
+    "237": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面近处完整足球约65至90像素，无前景遮挡，保留正确球框。星纹可辨，无明确方向性球拖影。",
+      "certain": true
+    },
+    "238": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面近处完整足球约65至90像素，无前景遮挡，保留正确球框。星纹可辨，无明确方向性球拖影。",
+      "certain": true
+    },
+    "239": {
+      "flags": "0000",
+      "action": "keep",
+      "reason": "地面近处完整足球约65至90像素，无前景遮挡，保留正确球框。星纹可辨，无明确方向性球拖影。",
+      "certain": true
+    },
+    "240": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "地面近处完整足球约65至90像素，无前景遮挡，保留正确球框。球面与场景方向性拖影明显。",
+      "certain": true
+    },
+    "241": {
+      "flags": "0010",
+      "action": "keep",
+      "reason": "地面近处完整足球约65至90像素，无前景遮挡，保留正确球框。球面与场景方向性拖影明显。",
+      "certain": true
+    },
+    "242": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "相机俯看地面，方向性拖影明显，当前图未见足球；地面白标记与机器人脚均非球。",
+      "certain": true
+    },
+    "243": {
+      "flags": "0011",
+      "action": "keep",
+      "reason": "相机俯看地面，方向性拖影明显，当前图未见足球；地面白标记与机器人脚均非球。",
+      "certain": true
+    },
+    "244": {
+      "flags": "1010",
+      "action": "keep",
+      "reason": "机器人左侧的小足球滚动，球面和地面方向性拖影明显；按完整尺度约40像素计Small=1，保留旧框。",
+      "certain": true
+    },
+    "245": {
+      "flags": "1010",
+      "action": "keep",
+      "reason": "机器人左侧的小足球滚动，球面和地面方向性拖影明显；按完整尺度约40像素计Small=1，保留旧框。",
+      "certain": true
+    },
+    "246": {
+      "flags": "1010",
+      "action": "keep",
+      "reason": "机器人后方地面小足球约25像素，无遮挡，球与场景有方向性拖影，旧框定位正确。",
+      "certain": true
+    },
+    "247": {
+      "flags": "1010",
+      "action": "keep",
+      "reason": "机器人后方地面小足球约25像素，无遮挡，球与场景有方向性拖影，旧框定位正确。",
+      "certain": true
+    },
+    "248": {
+      "flags": "1100",
+      "action": "keep",
+      "reason": "电视支架旁小足球约18像素，右缘被三脚架杆遮住，Small=1、Occluded=1；旧框定位正确，低像素软化不作拖影。",
+      "certain": true
+    },
+    "249": {
+      "flags": "1100",
+      "action": "keep",
+      "reason": "电视支架旁小足球约18像素，右缘被三脚架杆遮住，Small=1、Occluded=1；旧框定位正确，低像素软化不作拖影。",
+      "certain": true
+    }
+  },
+  "root_secondary_review": "Root independently accepted deleting false robot-foot boxes locals14–17 and shoe boxes44–55. All remain pending user review. Root actually viewed native-before-after-103.png and accepted [541,283,568,350] candidate; pending user review."
+}

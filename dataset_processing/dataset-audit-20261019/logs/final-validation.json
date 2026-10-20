@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "performed_at_utc": "2026-10-19T04:08:29.248818+00:00",
+  "checks": {
+    "metadata_source_unchanged": true,
+    "yaml_source_unchanged": true,
+    "inventory8398_usable8148": true,
+    "isolation_independent_PASS": true,
+    "pairs22391_high74": true,
+    "pairs_user_reviews_blank": true,
+    "actual_visual_seen50": true,
+    "ssim_refined61": true,
+    "annotation310_user_reviews_blank": true,
+    "excluded250": true,
+    "exact_duplicates0": true,
+    "required_AUDIT_REPORT.md": true,
+    "required_cross_split_duplicates.csv": true,
+    "required_split_distribution.csv": true,
+    "required_annotation_issues.csv": true,
+    "required_excluded_samples_audit.csv": true,
+    "required_leakage_review.html": true,
+    "required_proposed_split_plan.md": true,
+    "python_scripts_syntax": true,
+    "active_split_counts": true,
+    "archive_split_counts": true,
+    "no_source_cache": true,
+    "validation_log_final-independent-review.json": true,
+    "validation_log_final-path-validation.json": true,
+    "validation_log_html-ui-validation.json": true,
+    "independent_final_PASS": true,
+    "path_validation_PASS": true,
+    "reproduction_notes": true
+  },
+  "scope": "Audit artifacts and final source metadata/YAML/path counts. Full16796 source byte identity is independently recorded in isolation/verification.json.",
+  "figures_visually_opened": [
+    "figures/split-and-test-counts.png",
+    "figures/illustrative-wilson.png",
+    "figures/similarity-signals.png"
+  ],
+  "source_images_or_labels_changed_by_this_script": false
+}

@@ -1,0 +1,681 @@
+Creating new Ultralytics Settings v0.0.8 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/ultralytics-config/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/usage/settings.
+AUDIT discovery: Fast image access ✅ (ping: 0.0±0.0 ms, read: 4902.9±2338.8 MB/s, size: 226.6 KB)
+AUDIT discovery: Fast image access ✅ (ping: 0.0±0.0 ms, read: 2421.5±2613.4 MB/s, size: 188.4 KB)
+AUDIT discovery: Fast image access ✅ (ping: 0.0±0.0 ms, read: 7598.9±1034.0 MB/s, size: 193.4 KB)
+AUDIT view discovery: Fast image access ✅ (ping: 0.0±0.0 ms, read: 3306.7±3729.6 MB/s, size: 187.6 KB)
+AUDIT view discovery: Fast image access ✅ (ping: 0.0±0.0 ms, read: 2879.0±2317.8 MB/s, size: 195.1 KB)
+AUDIT view discovery: Fast image access ✅ (ping: 0.0±0.0 ms, read: 4125.2±1306.7 MB/s, size: 179.0 KB)
+{
+  "performed_at_utc": "2026-10-19T03:43:15.975524+00:00",
+  "environment": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "ultralytics": "8.4.173",
+    "torch": "2.9.1+cpu",
+    "torch_threads": 1,
+    "numpy": "2.2.6",
+    "YOLO_CONFIG_DIR": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/ultralytics-config"
+  },
+  "source_sha256": {
+    "metadata.csv": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9",
+    "dataset.yaml": "7781d543cc43364f2a2598ff596adb05a8e80b4547af40195665565a8eef05b6"
+  },
+  "raw_loader_discovery": {
+    "train": {
+      "discovered": 8100,
+      "usable": 7857,
+      "excluded_discovered": 243,
+      "excluded_empty": 199,
+      "excluded_nonempty": 44,
+      "excluded_geometry_invalid": 4
+    },
+    "val": {
+      "discovered": 170,
+      "usable": 164,
+      "excluded_discovered": 6,
+      "excluded_empty": 6,
+      "excluded_nonempty": 0,
+      "excluded_geometry_invalid": 0
+    },
+    "test": {
+      "discovered": 128,
+      "usable": 127,
+      "excluded_discovered": 1,
+      "excluded_empty": 0,
+      "excluded_nonempty": 1,
+      "excluded_geometry_invalid": 0
+    }
+  },
+  "cache_inventory": [],
+  "cache_payloads_unpickled": 0,
+  "symlinks": [],
+  "duplicate_real_paths": [],
+  "duplicate_inode_paths": [],
+  "class_id_counts": {
+    "0": 5468
+  },
+  "isolated_verify_cases": [
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/frame_001674_right.png",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/frame_001674_right.txt",
+      "source_label_text": "0 0.31431626547528518 0.034205368324569212 0.044642859999999999 0.071808510000000006\n0 0.91375271448669182 0.91943916243426893 0.17249457102661633 0.16112167513146208\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/0/frame_001674_right.png",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/0/frame_001674_right.txt",
+      "accepted": true,
+      "returned_box_count": 2,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/frame_003650_right.png",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/frame_003650_right.txt",
+      "source_label_text": "0 0.038022813688212927 0.77135243827198452 0.077946768060836516 0.45729512345603096\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/1/frame_003650_right.png",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/1/frame_003650_right.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000492.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000492.txt",
+      "source_label_text": "0 0.331250 0.530556 0.542188 0.938889\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/2/legacy_train_000492.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/2/legacy_train_000492.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000493.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000493.txt",
+      "source_label_text": "0 0.198047 0.536806 0.394531 0.926389\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/3/legacy_train_000493.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/3/legacy_train_000493.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000506.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000506.txt",
+      "source_label_text": "0 0.414453 0.622917 0.453906 0.754167\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/4/legacy_train_000506.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/4/legacy_train_000506.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000616.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000616.txt",
+      "source_label_text": "0 0.608203 0.716667 0.333594 0.566667\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/5/legacy_train_000616.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/5/legacy_train_000616.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000636.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000636.txt",
+      "source_label_text": "0 0.349609 0.766667 0.286719 0.466667\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/6/legacy_train_000636.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/6/legacy_train_000636.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000688.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000688.txt",
+      "source_label_text": "0 0.380859 0.818056 0.252344 0.363889\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/7/legacy_train_000688.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/7/legacy_train_000688.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000692.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000692.txt",
+      "source_label_text": "0 0.341406 0.805556 0.265625 0.388889\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/8/legacy_train_000692.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/8/legacy_train_000692.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000695.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000695.txt",
+      "source_label_text": "0 0.433203 0.786806 0.275781 0.426389\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/9/legacy_train_000695.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/9/legacy_train_000695.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000699.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000699.txt",
+      "source_label_text": "0 0.339453 0.804167 0.277344 0.391667\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/10/legacy_train_000699.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/10/legacy_train_000699.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000705.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000705.txt",
+      "source_label_text": "0 0.591016 0.779167 0.292969 0.441667\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/11/legacy_train_000705.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/11/legacy_train_000705.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000737.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000737.txt",
+      "source_label_text": "0 0.628516 0.743056 0.325781 0.513889\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/12/legacy_train_000737.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/12/legacy_train_000737.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000738.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000738.txt",
+      "source_label_text": "0 0.474219 0.741667 0.329688 0.516667\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/13/legacy_train_000738.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/13/legacy_train_000738.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000749.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000749.txt",
+      "source_label_text": "0 0.822266 0.764583 0.355469 0.470833\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/14/legacy_train_000749.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/14/legacy_train_000749.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000754.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000754.txt",
+      "source_label_text": "0 0.722656 0.780556 0.409375 0.438889\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/15/legacy_train_000754.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/15/legacy_train_000754.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000760.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000760.txt",
+      "source_label_text": "0 0.804297 0.811806 0.391406 0.376389\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/16/legacy_train_000760.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/16/legacy_train_000760.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000767.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000767.txt",
+      "source_label_text": "0 0.685937 0.774306 0.390625 0.451389\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/17/legacy_train_000767.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/17/legacy_train_000767.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000771.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000771.txt",
+      "source_label_text": "0 0.494922 0.760417 0.353906 0.479167\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/18/legacy_train_000771.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/18/legacy_train_000771.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/legacy_train_000775.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/legacy_train_000775.txt",
+      "source_label_text": "0 0.485156 0.754167 0.356250 0.491667\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/19/legacy_train_000775.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/19/legacy_train_000775.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/val/legacy_val_000057.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/val/legacy_val_000057.txt",
+      "source_label_text": "0 0.595703 0.647917 0.471094 0.704167\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/20/legacy_val_000057.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/20/legacy_val_000057.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/val/legacy_val_000072.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/val/legacy_val_000072.txt",
+      "source_label_text": "0 0.412500 0.774306 0.265625 0.451389\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/21/legacy_val_000072.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/21/legacy_val_000072.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/val/legacy_val_000086.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/val/legacy_val_000086.txt",
+      "source_label_text": "0 0.794141 0.799306 0.411719 0.401389\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/22/legacy_val_000086.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/22/legacy_val_000086.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/val/legacy_val_000087.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/val/legacy_val_000087.txt",
+      "source_label_text": "0 0.619141 0.799306 0.383594 0.401389\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/23/legacy_val_000087.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/23/legacy_val_000087.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/test/legacy_test_000024.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/test/legacy_test_000024.txt",
+      "source_label_text": "0 0.558984 0.835417 0.282031 0.329167\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/24/legacy_test_000024.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/24/legacy_test_000024.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/test/legacy_test_000036.jpg",
+      "source_label": "/home/misaka/workspace/datasets/labels/test/legacy_test_000036.txt",
+      "source_label_text": "0 0.545312 0.779167 0.375000 0.441667\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/25/legacy_test_000036.jpg",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/25/legacy_test_000036.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00004643_left.png",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00004643_left.txt",
+      "source_label_text": "0 0.99081762460171097 0.93336963441889809 0.019658062891634659 0.073395024504166365\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/26/video_4bec9c343db72928_frame_00004643_left.png",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/26/video_4bec9c343db72928_frame_00004643_left.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00007724_right.png",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00007724_right.txt",
+      "source_label_text": "0 0.10750299521673004 0.961346163905752 0.072066252912547521 0.077695968293665499\n",
+      "source_geometry_invalid": true,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/27/video_4bec9c343db72928_frame_00007724_right.png",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/27/video_4bec9c343db72928_frame_00007724_right.txt",
+      "accepted": true,
+      "returned_box_count": 1,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 0,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    },
+    {
+      "source_image": "/home/misaka/workspace/datasets/images/train/frame_001471_right.png",
+      "source_label": "/home/misaka/workspace/datasets/labels/train/frame_001471_right.txt",
+      "source_label_text": "",
+      "source_geometry_invalid": false,
+      "physical_copy_image": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/28/frame_001471_right.png",
+      "physical_copy_label": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/verify-copies/28/frame_001471_right.txt",
+      "accepted": true,
+      "returned_box_count": 0,
+      "counters": {
+        "missing": 0,
+        "found": 1,
+        "empty": 1,
+        "corrupt": 0
+      },
+      "message": "",
+      "copied_label_unchanged": true
+    }
+  ],
+  "filtered_view": {
+    "path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/filtered-view",
+    "discovery_only": true,
+    "full_YOLODataset_not_constructed": true,
+    "counts": {
+      "train": {
+        "discovered": 7857,
+        "excluded": 0
+      },
+      "val": {
+        "discovered": 164,
+        "excluded": 0
+      },
+      "test": {
+        "discovered": 127,
+        "excluded": 0
+      }
+    },
+    "total": 8148,
+    "excluded": 0,
+    "label_copies": 8148,
+    "image_symlinks": 8148,
+    "warning": "Only an audit discovery view; original YAML unchanged. Training compatibility, augmentation, and batches were not exercised; do not treat as approved experimental split."
+  },
+  "cache_hash_probe": {
+    "same_length_changed_mtime_invalidates": true,
+    "same_size_same_mtime_content_change_can_collide": true
+  },
+  "source_excerpts": [
+    {
+      "source": "/opt/VisionStudio/runtime/lib/python3.10/site-packages/ultralytics/data/base.py",
+      "sha256": "1e5b99a17fa9ddee7ec5ecf204099eb91a8b8dd98da74afa54eae6e32e76eead",
+      "excerpt": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/source-excerpts/data_base.py",
+      "line_ranges": [
+        [
+          189,
+          226
+        ]
+      ]
+    },
+    {
+      "source": "/opt/VisionStudio/runtime/lib/python3.10/site-packages/ultralytics/data/dataset.py",
+      "sha256": "92c2278b653259e64937b3b21b096dd51035a744fa7a11d10c4303ccf9bf7842",
+      "excerpt": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/source-excerpts/data_dataset.py",
+      "line_ranges": [
+        [
+          118,
+          186
+        ],
+        [
+          200,
+          216
+        ],
+        [
+          271,
+          324
+        ]
+      ]
+    },
+    {
+      "source": "/opt/VisionStudio/runtime/lib/python3.10/site-packages/ultralytics/data/utils.py",
+      "sha256": "a7294ccd941e6d0324938851eaa669e6af5b890fef9a4aea5a3ac9bdb5d1e2f5",
+      "excerpt": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/source-excerpts/data_utils.py",
+      "line_ranges": [
+        [
+          225,
+          240
+        ],
+        [
+          432,
+          500
+        ],
+        [
+          959,
+          998
+        ]
+      ]
+    },
+    {
+      "source": "/opt/VisionStudio/runtime/lib/python3.10/site-packages/ultralytics/models/yolo/detect/train.py",
+      "sha256": "a045142cebae53ff94af9144fa108cd413904c27f085d58dc4ade2e83343c93a",
+      "excerpt": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/safety/source-excerpts/models_yolo_detect_train.py",
+      "line_ranges": [
+        [
+          130,
+          146
+        ],
+        [
+          183,
+          201
+        ]
+      ]
+    }
+  ],
+  "model_instantiated": false,
+  "training_executed": false,
+  "model_or_engine_written": false,
+  "downloads_requested": false,
+  "source_cache_written": false
+}

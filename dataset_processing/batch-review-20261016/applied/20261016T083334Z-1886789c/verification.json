@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-16T08:36:36.414922+00:00",
+  "independent_verifier": "batch004_recovery",
+  "audit": "/home/misaka/workspace/dataset_processing/batch-review-20261016/applied/20261016T083334Z-1886789c",
+  "metadata_after_sha256": "5d1dc5e72c0a38433a62a65839604650dc9cce98934999578e3a4be53d433e38",
+  "checks": {
+    "batch_coverage": {
+      "pass": true
+    },
+    "metadata_before_sha": {
+      "pass": true,
+      "detail": "261f28dc2da1c6494104af485698ee3c2dda8aac198f0f8135d4a0c7db61aa9c"
+    },
+    "metadata_after_sha": {
+      "pass": true,
+      "detail": "5d1dc5e72c0a38433a62a65839604650dc9cce98934999578e3a4be53d433e38"
+    },
+    "metadata_structure": {
+      "pass": true
+    },
+    "metadata_header_bytes": {
+      "pass": true
+    },
+    "outside_batch_raw_records_and_newlines": {
+      "pass": true,
+      "detail": {
+        "count": 7398
+      }
+    },
+    "all_per_image_integrity": {
+      "pass": true,
+      "detail": {
+        "verified": {
+          "image_SHA_verified": 1000,
+          "old_label_backup_SHA_verified": 1000,
+          "valid_label_files": 1000,
+          "protected_metadata_verified": 1000
+        },
+        "errors": []
+      }
+    },
+    "replacement_and_unchanged_counts": {
+      "pass": true,
+      "detail": {
+        "replaced": 20,
+        "unchanged": 980
+      }
+    },
+    "backup_file_counts": {
+      "pass": true
+    },
+    "box_counts": {
+      "pass": true,
+      "detail": {
+        "before": 797,
+        "after": 815,
+        "increase": 18
+      }
+    },
+    "result_and_scene_changes": {
+      "pass": true,
+      "detail": {
+        "scene_rows_changed": 333
+      }
+    },
+    "previous_batch_1": {
+      "pass": true,
+      "detail": {
+        "negative_confirmed": 272,
+        "reviewed_annotation": 707,
+        "reviewed_excluded": 21
+      }
+    },
+    "previous_batch_2": {
+      "pass": true,
+      "detail": {
+        "reviewed_annotation": 847,
+        "reviewed_excluded": 11,
+        "negative_confirmed": 142
+      }
+    },
+    "previous_batch_3": {
+      "pass": true,
+      "detail": {
+        "negative_confirmed": 530,
+        "reviewed_excluded": 116,
+        "reviewed_annotation": 354
+      }
+    }
+  },
+  "failed_checks": [],
+  "stats": {
+    "images": 1000,
+    "labels_replaced": 20,
+    "labels_unchanged": 980,
+    "boxes_before": 797,
+    "boxes_after": 815,
+    "boxes_added": 18,
+    "scene_rows_changed": 333,
+    "batch_double_pending": 1000,
+    "outside_batch_records_byte_identical": 7398,
+    "no_ball_empty_label_count": 201,
+    "previous_batches": {
+      "1": {
+        "negative_confirmed": 272,
+        "reviewed_annotation": 707,
+        "reviewed_excluded": 21
+      },
+      "2": {
+        "reviewed_annotation": 847,
+        "reviewed_excluded": 11,
+        "negative_confirmed": 142
+      },
+      "3": {
+        "negative_confirmed": 530,
+        "reviewed_excluded": 116,
+        "reviewed_annotation": 354
+      }
+    }
+  },
+  "formal_dataset_modified_by_verification": false
+}

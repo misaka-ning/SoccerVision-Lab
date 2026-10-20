@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "baseline_id": "original_yolo26s",
+  "paths_relative_to": "manifest_directory",
+  "weights": {
+    "file": "original_best.pt",
+    "size_bytes": 20422725,
+    "sha256": "646f8bc3fe0a656803d95c294f7852321748cb29d13466a1af8862e2db384a1b"
+  },
+  "architecture": {
+    "file": "original_model.yaml",
+    "source": "checkpoint.model.yaml",
+    "original_yaml_file": "yolo26s.yaml",
+    "scale": "s",
+    "task": "detect",
+    "num_classes": 80
+  },
+  "checkpoint_metadata": {
+    "ultralytics_version": "8.3.222",
+    "date": "2026-01-05T19:02:41.086829",
+    "train_imgsz": 640
+  },
+  "target_training": {
+    "task": "detect",
+    "dataset_config": "../datasets/dataset.yaml",
+    "num_classes": 1,
+    "class_names": {
+      "0": "football"
+    }
+  },
+  "verification": {
+    "checkpoint_metadata_inspected": true,
+    "architecture_matches_checkpoint": true,
+    "model_load_verified": false,
+    "architecture_build_verified": false
+  },
+  "notes": [
+    "原始权重包含 80 个类别，其中 0 为 person，32 为 sports ball。",
+    "后续使用单类足球数据集训练，目标类别为 0 = football；该目标配置不代表原始权重已经是单类足球模型。",
+    "checkpoint_metadata 为权重内保存的历史信息；train_imgsz 不代表后续训练或推理必须使用的尺寸。"
+  ]
+}

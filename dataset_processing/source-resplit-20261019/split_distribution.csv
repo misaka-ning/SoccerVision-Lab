@@ -1,0 +1,4 @@
+﻿split,images,positive_images,negative_images,boxes,Small,Occluded,Blurred,No Ball
+train,6925,4407,2518,4562,1185,1181,2013,2518
+val,1223,813,410,855,442,235,265,410
+test,0,0,0,0,0,0,0,0

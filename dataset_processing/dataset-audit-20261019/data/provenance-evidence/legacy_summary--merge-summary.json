@@ -1,0 +1,55 @@
+{
+  "destination": "/home/misaka/workspace/dataset/football_dataset",
+  "staging": "/tmp/football-dataset-merge-20261013/football_dataset",
+  "image_count_before": 1176,
+  "imported_image_count": 714,
+  "image_count_after": 1890,
+  "split_counts": {
+    "train": 1592,
+    "val": 170,
+    "test": 128
+  },
+  "imported_split_counts": {
+    "train": 640,
+    "val": 52,
+    "test": 22
+  },
+  "imported_scene_counts": {
+    "Small": 94,
+    "Occluded": 94,
+    "Blurred": 324,
+    "No Ball": 0
+  },
+  "total_scene_counts": {
+    "Small": 448,
+    "Occluded": 159,
+    "Blurred": 432,
+    "No Ball": 425
+  },
+  "imported_all_zero_count": 258,
+  "total_all_zero_count": 541,
+  "imported_overlapping_flag_count": 56,
+  "total_overlapping_flag_count": 113,
+  "annotation_status_counts": {
+    "negative_confirmed": 425,
+    "needs_bbox_annotation": 721,
+    "needs_visibility_review": 30,
+    "provided_annotation": 714
+  },
+  "imported_scene_review_required_count": 90,
+  "imported_label_review_required_count": 0,
+  "source_filename_collision_count": 43,
+  "renaming_rule": "legacy_<original_split>_<original_filename>; paired label keeps same stem.",
+  "small_rule": "For legacy varying resolutions, scale annotated ball maximum dimension to reference long side 672px; <=40px is the small candidate, confirmed visually.",
+  "label_file_count": 1139,
+  "provided_box_count": 714,
+  "confirmed_empty_label_count": 425,
+  "checks": {
+    "all_imported_image_and_label_bytes_preserved": true,
+    "all_existing_image_and_label_bytes_preserved": true,
+    "all_original_metadata_rows_preserved": true,
+    "all_images_have_unique_metadata_row": true,
+    "all_source_splits_preserved": true,
+    "all_labels_are_valid_single_class_yolo_format": true
+  }
+}

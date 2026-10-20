@@ -1,0 +1,2 @@
+# Shared runtime configuration reader (training/evaluation add their own deps).
+PyYAML>=6,<7

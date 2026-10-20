@@ -1,0 +1,202 @@
+[
+  {
+    "index": 358,
+    "group": 2,
+    "local": 108,
+    "filename": "video_4bec9c343db72928_frame_00021644_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        217,
+        0,
+        272,
+        48
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/full/page-054.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/diagnostics/n108-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/diagnostics/n108-beforeafter.png"
+    ],
+    "assessment": "鞋前当前白黑运动球面；顶边裁切与鞋交叠O1、拖影B1，软边/身份仍人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 359,
+    "group": 2,
+    "local": 109,
+    "filename": "video_4bec9c343db72928_frame_00021644_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        194,
+        0,
+        248,
+        48
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/full/page-054.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/diagnostics/n109-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/diagnostics/n109-beforeafter.png"
+    ],
+    "assessment": "鞋前当前白黑运动球面；顶边裁切与鞋交叠O1、拖影B1，软边/身份仍人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 104,
+    "group": 1,
+    "local": 104,
+    "filename": "video_4bec9c343db72928_frame_00020686_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        282,
+        163,
+        336,
+        210
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/full/page-052.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/diagnostics/n104-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/diagnostics/n104-before-after.png"
+    ],
+    "assessment": "鞋侧裤脚下当前白蓝球面，O1B1；只取可见范围，鞋球界与运动软边待人精修。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 105,
+    "group": 1,
+    "local": 105,
+    "filename": "video_4bec9c343db72928_frame_00020686_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        260,
+        163,
+        313,
+        209
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/full/page-052.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/diagnostics/n105-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/diagnostics/n105-before-after.png"
+    ],
+    "assessment": "鞋侧裤脚下当前白蓝球面，O1B1；只取可见范围，鞋球界与运动软边待人精修。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 719,
+    "group": 3,
+    "local": 219,
+    "filename": "video_4bec9c343db72928_frame_00023012_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        105,
+        366,
+        144,
+        376
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/full/page-109.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/diagnostics/edge219-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/diagnostics/edge219-before-after.png"
+    ],
+    "assessment": "当前底边薄白弧有深色斜分区，仅补候选；身份和软边待人工核验，O1B1，不用残片判断Small。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 186,
+    "group": 1,
+    "local": 186,
+    "filename": "video_4bec9c343db72928_frame_00020993_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        350,
+        293,
+        466,
+        376
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/full/page-093.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/diagnostics/n186-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/diagnostics/n186-before-after.png"
+    ],
+    "assessment": "原框漏掉当前可见球顶部约25至30像素，扩大到当前运动球软边；只补可见球冠，O1B1，继续不确定人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 187,
+    "group": 1,
+    "local": 187,
+    "filename": "video_4bec9c343db72928_frame_00020993_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        300,
+        292,
+        419,
+        376
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/full/page-093.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/diagnostics/n187-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/diagnostics/n187-before-after.png"
+    ],
+    "assessment": "原框漏掉当前可见球顶部约25至30像素，扩大到当前运动球软边；只补可见球冠，O1B1，继续不确定人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 912,
+    "group": 4,
+    "local": 162,
+    "filename": "video_4bec9c343db72928_frame_00023797_left.png",
+    "reviewed_boxes_xyxy": [
+      [
+        91,
+        0,
+        255,
+        110
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-081.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/roi/page-001.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/tail-n162-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/tail-n162-beforeafter.png"
+    ],
+    "assessment": "手持球顶端裁切，原框左侧多含手臂；新框收至当前可见球面，不推隐藏轮廓。O1B0，软界约数像素保留人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  },
+  {
+    "index": 913,
+    "group": 4,
+    "local": 163,
+    "filename": "video_4bec9c343db72928_frame_00023797_right.png",
+    "reviewed_boxes_xyxy": [
+      [
+        18,
+        0,
+        192,
+        109
+      ]
+    ],
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-081.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/roi/page-001.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/tail-n163-native-grid.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/tail-n163-beforeafter.png"
+    ],
+    "assessment": "手持球顶端裁切，原框左侧多含手臂；新框收至当前可见球面，不推隐藏轮廓。O1B0，软界约数像素保留人工复核。",
+    "approved": false,
+    "reviewer": "root_independent_native_visual_second_pass"
+  }
+]

@@ -1,0 +1,8 @@
+# Same-session segment holdout; original source and old split preserved.
+path: /home/misaka/workspace/dataset_versions/football_holdout_20261019_v1
+train: lists/train.txt
+val: lists/val.txt
+test: lists/test.txt
+nc: 1
+names:
+  0: football

@@ -1,0 +1,10 @@
+{
+  "items": 1537,
+  "images_sha_match": 1537,
+  "labels_sha_match": 1537,
+  "negative_empty_labels": 36,
+  "unique_filenames": 1537,
+  "confirmed_labels_preserved": 74,
+  "confirmed_scene_preserved": 980,
+  "errors": []
+}

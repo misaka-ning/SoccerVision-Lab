@@ -1,0 +1,16 @@
+# 修改这一项后，重新运行审阅/训练/评估/仓库工具即可生效，无需重新编译。
+dataset_version: v1
+
+# 路径相对仓库根目录；添加时按相同结构补充即可。
+datasets:
+  v0:
+    root: datasets/v0
+    review_records: dataset_processing/review-reset-20261015
+    # 历史分组manifest中的旧数据根目录，仅用于只读核验，不改历史记录。
+    review_dataset_aliases: [datasets]
+  v1:
+    root: datasets/v1
+    source_version: v0
+    manifest_id: football_holdout_20261019_v1
+    # v1不沿用v0的固定1000张批次；如需分批审核，请在此目录创建对应名单。
+    review_records: dataset_processing/review-v1

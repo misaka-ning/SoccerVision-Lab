@@ -1,0 +1,1102 @@
+{
+  "batch": 2,
+  "group": 1,
+  "metadata_sha256": "72c871c41040c3d796db6bfb7638dbf41458a645c70a6ee9268bf8f24b4d0ae2",
+  "created_at_utc": "20261016T063422Z",
+  "records": [
+    {
+      "number": 1,
+      "filename": "frame_005012_left.png",
+      "split": "test",
+      "image_sha256": "d3bceefe83a302608007eba8e901500cdbb1f7b891c89627731bdb5383179f37",
+      "label_sha256": "f6c32ff52abc56aa71726a0b2bded7053175807e10508889ba29a664e7277c91",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          139.00000128000002,
+          235.00000187999999,
+          185.00000064000002,
+          280.00000148
+        ]
+      ]
+    },
+    {
+      "number": 2,
+      "filename": "frame_005012_right.png",
+      "split": "test",
+      "image_sha256": "0b60b35efd9a3f3d34ecd7825fd9d9ca53dfe39719c42b42d735970f5929fe6c",
+      "label_sha256": "a631f47cf122d9342d631c87535fa2e6494aab997172424f44e342b292a65cce",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          119.00000112000001,
+          235.00000187999999,
+          164.000004,
+          280.00000148
+        ]
+      ]
+    },
+    {
+      "number": 3,
+      "filename": "frame_005023_left.png",
+      "split": "test",
+      "image_sha256": "f6f0d3ac224c1a3c517754e34b2096ab69f0e1c69a352c1d0760f8f80bb2661a",
+      "label_sha256": "97b5d6622e446d0d1c49360691f6d2dcbbff497155e5e0d5f9e2643f1987c7c9",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          299.0000000064,
+          231.00000000840004,
+          341.0000000064,
+          270.9999999996
+        ]
+      ]
+    },
+    {
+      "number": 4,
+      "filename": "frame_005023_right.png",
+      "split": "test",
+      "image_sha256": "1d82307f7fd52575b6b3e43e116a6ce3a7653d1447efa7da64e42e083fcd1d14",
+      "label_sha256": "de485253fc03a2b2eea4438e1a07717dcd001db6e0e9b66815d9676b65091ee6",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          280.0000000224,
+          231.00000000840004,
+          322.0000000224,
+          270.9999999996
+        ]
+      ]
+    },
+    {
+      "number": 5,
+      "filename": "frame_005029_left.png",
+      "split": "test",
+      "image_sha256": "021e8c5cce143db1bfe4c215bdf734fe8bd1f9a7f208c50addc106c20543f464",
+      "label_sha256": "fc0e58fa000297244ab2ed40167e3a89c767ba3cf3099de5393aeca3a47dfb6d",
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          309.99999743999996,
+          238.0000006,
+          347.99999807999995,
+          276.00000067999997
+        ]
+      ]
+    },
+    {
+      "number": 6,
+      "filename": "frame_005029_right.png",
+      "split": "test",
+      "image_sha256": "2a23a0bb60bc21c7ca1235bad1fb93ee6b68d4294e75a6d3df9391eda636fd69",
+      "label_sha256": "68a37045fa94a56d437e6016ea0e1d49c0de12bb199b7b20e1b6fa0ca5cce56b",
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          291.0000000096,
+          237.00000000520004,
+          333.0000000096,
+          276.000000022
+        ]
+      ]
+    },
+    {
+      "number": 7,
+      "filename": "frame_005033_left.png",
+      "split": "test",
+      "image_sha256": "aa710b6a5bd5500c274898fa0caa8cac5f315ffa8481bb1e89ddc9b12faf9383",
+      "label_sha256": "756c3dc2830d753b3e1251dd748e2a92a5393f0184f97111d0ef81a60501fea3",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          317.9999999904,
+          246.0000000004,
+          360.99999996480005,
+          285.00000001719997
+        ]
+      ]
+    },
+    {
+      "number": 8,
+      "filename": "frame_005033_right.png",
+      "split": "test",
+      "image_sha256": "9ba412cc088bcc6e8f0101a8551ee47c92f9ce4d41c6abb0305266f6f661745e",
+      "label_sha256": "395b47ed7e99cc14305f9bb2563359505dd5630d156316779c0ea4a9460a8989",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          299.0000000064,
+          246.0000000004,
+          341.9999999808,
+          285.00000001719997
+        ]
+      ]
+    },
+    {
+      "number": 9,
+      "filename": "frame_005046_left.png",
+      "split": "test",
+      "image_sha256": "f9ed2c3acb38bdf4991288c0577232fb0e94533b718fb9a104ec9e77e6a5bebd",
+      "label_sha256": "2e3927d6ae0260933858376f6fc063e9be470342254b31efbf3e0d130a11b5d8",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          468.71619983999994,
+          237.15880024,
+          518.34010032,
+          280.67610024000004
+        ]
+      ]
+    },
+    {
+      "number": 10,
+      "filename": "frame_005046_right.png",
+      "split": "test",
+      "image_sha256": "b7c79d48df78b67c2f520cb6e24596646059e1148975019b55f586ece7eb0207",
+      "label_sha256": "527d5eca84ba013f5901ddb16caf4e9e61cb279b8810379b29438cac47bcc524",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          448.40169696000004,
+          236.40300076,
+          491.67849696,
+          278.56110212
+        ]
+      ]
+    },
+    {
+      "number": 11,
+      "filename": "frame_005050_left.png",
+      "split": "test",
+      "image_sha256": "d98f04f6e6444a3d1c3aeca0ed5f309eedfd1f3682e572a3972a39c15ab3c65e",
+      "label_sha256": "0642c4209c0b7063e3f78d2cb075b1eef8f2aa4fc71a1516ef36a64ec2eb409b",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          478.99999728000006,
+          274.00000028,
+          531.99999888,
+          321.9999986
+        ]
+      ]
+    },
+    {
+      "number": 12,
+      "filename": "frame_005050_right.png",
+      "split": "test",
+      "image_sha256": "f73a5950ccc386ee0ce1608d123097bae4edc503fa77523bb9f75dabf37d5c11",
+      "label_sha256": "a5f397b36eeb10322c22774ac19e7d64e914e5813b6bfd431f5aa06e868be8ce",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          456.63919728,
+          272.22840108,
+          508.55289744,
+          320.23940116000006
+        ]
+      ]
+    },
+    {
+      "number": 13,
+      "filename": "frame_005059_left.png",
+      "split": "test",
+      "image_sha256": "320e9b308985edc987ede26ea8ab8d2b580ccaf8a5ae86d4a9391041f7c8ad59",
+      "label_sha256": "d3ddf9484d3e58fc371bbf0aa8ce3a014b89818d23913680aa8e2df5d6d833b4",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          352.27759728,
+          241.8030996,
+          403.92109968,
+          289.90690024
+        ]
+      ]
+    },
+    {
+      "number": 14,
+      "filename": "frame_005059_right.png",
+      "split": "test",
+      "image_sha256": "c2599e4b694a79c6e9970473c6e8d86409ebae46403985d359b7428294c93c73",
+      "label_sha256": "b8d43667a078f2c1547567cc3ab5fc531d411291f68f60e7308075c3f1757517",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          328.00000128000005,
+          240.99999931999997,
+          378.0,
+          288.99999764
+        ]
+      ]
+    },
+    {
+      "number": 15,
+      "filename": "frame_005066_left.png",
+      "split": "test",
+      "image_sha256": "4e7ce7e7fb20d368885596d4b05ec9ea20fbb1d7247794e159d34d58222793c5",
+      "label_sha256": "1353e1c8c0df4fca4dfdbc1f14b7ee95b645332376d4f6871db4b06dc8d99077",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          339.99999936000006,
+          278.00000108,
+          397.9999968,
+          334.000001
+        ]
+      ]
+    },
+    {
+      "number": 16,
+      "filename": "frame_005066_right.png",
+      "split": "test",
+      "image_sha256": "988049fa73945b4144c8d2aafb5a65f137982f16ad1b30cc85639c9e5b2eb60b",
+      "label_sha256": "89b98e6db5385dd328d6e5713eafa2be2838d11733e7a867cc3ccafddcf0d943",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          314.00000016,
+          276.999999,
+          371.00000112000004,
+          332.99999892
+        ]
+      ]
+    },
+    {
+      "number": 17,
+      "filename": "frame_005076_left.png",
+      "split": "test",
+      "image_sha256": "a59c9653044196d913ae5092a6c0da4c86814169d54f991afd23e980081f67f3",
+      "label_sha256": "10757ff3861dec878eb0d19e113d556486f12611c753eb205cebd81d11e06f06",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          283.99999824,
+          226.00000007999998,
+          343.99999536,
+          288.0000012
+        ]
+      ]
+    },
+    {
+      "number": 18,
+      "filename": "frame_005076_right.png",
+      "split": "test",
+      "image_sha256": "fa4b1e769160f00dd4e1d3d4d707d33a639cfe4102e307bf98729e3b9e8e5225",
+      "label_sha256": "a6de03030b41a5d80f91c07b3d449814e6d6fbde9e5992250e28116cf4ac0c69",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          253.99999968,
+          224.99999799999998,
+          315.99999648,
+          286.99999912
+        ]
+      ]
+    },
+    {
+      "number": 19,
+      "filename": "frame_005085_left.png",
+      "split": "test",
+      "image_sha256": "f23926b04db95570de68dfdb2234df0b2241e456919fc22315857828827a1de3",
+      "label_sha256": "7f2fb69f91eb1538376fa550818f2b726166601785604b7ffb8dabdf29b4950d",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          298.00000272,
+          208.00000024,
+          363.00000239999997,
+          279.9999996
+        ]
+      ]
+    },
+    {
+      "number": 20,
+      "filename": "frame_005085_right.png",
+      "split": "test",
+      "image_sha256": "b9df06be805dd2c04952c013f02726b7c58afcbee88679af918eeabcc84edfd4",
+      "label_sha256": "7e22416521f278ca576458e55a018b3fe5974f57559aba2f69753d3fcc70cc68",
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          261.00000192,
+          207.99999836,
+          332.00000064,
+          278.99999940000004
+        ]
+      ]
+    },
+    {
+      "number": 21,
+      "filename": "frame_005093_left.png",
+      "split": "test",
+      "image_sha256": "b37733598f949549432fe6f7d80e09de27f6ee24181cbd54e644aafdef089ff7",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 22,
+      "filename": "frame_005093_right.png",
+      "split": "test",
+      "image_sha256": "352abba1d397d4ab39dcb6b6eb1f485a26c0e5a01eadf8be84b8f68aca71c34a",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 23,
+      "filename": "frame_005098_left.png",
+      "split": "test",
+      "image_sha256": "fd1e1a429921812b31afb5fcdc76ce165ab53b29cb3d6bc0ac7f333103f29425",
+      "label_sha256": "c5d16872dd3e5929e4393b1956c96143fa99ece223a725834dd6d8f168dca801",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          42.999996479999986,
+          184.99999752,
+          139.99999775999999,
+          268.99999928
+        ]
+      ]
+    },
+    {
+      "number": 24,
+      "filename": "frame_005098_right.png",
+      "split": "test",
+      "image_sha256": "172cf269b301314b206130419abf05c2bd8d5bf023bd08afa887833eeb3cdf7a",
+      "label_sha256": "947a1fe144a2de84acceb4c97cbdb95541340de6cd6c236aee97a80698a4fa16",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          2.999999519999999,
+          183.9999992,
+          105.99999984000002,
+          268.00000095999997
+        ]
+      ]
+    },
+    {
+      "number": 25,
+      "filename": "frame_005104_left.png",
+      "split": "test",
+      "image_sha256": "573afb94443cad15517daf8274d1f429185974b1c04c37ec9f0edc44a1b4b2a3",
+      "label_sha256": "9a91fb566052943d6016c8db5a9808be213aa35a316e3621f43848177faa0bad",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          215.99999904,
+          77.99999867999999,
+          261.9999984,
+          124.00000035999999
+        ]
+      ]
+    },
+    {
+      "number": 26,
+      "filename": "frame_005104_right.png",
+      "split": "test",
+      "image_sha256": "aca47ec4c26326354a976a5689a470bad173d941d02336aede17ce0f9a924b82",
+      "label_sha256": "9cf1b7895bb56d4be71a75c7ca5fffb8a48e2de0f6f97ada3ae2152fb8ce76c1",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          194.99999904,
+          77.00000035999999,
+          242.0000016,
+          123.00000204
+        ]
+      ]
+    },
+    {
+      "number": 27,
+      "filename": "frame_005119_left.png",
+      "split": "test",
+      "image_sha256": "06586b7e3cf9bb3c1498471a525905e7a168bc4e2923a819c8271a77095119d4",
+      "label_sha256": "1e5ba23aa36ea0479194e992bc434c797ea8b3aebe3eeffc28c4968dbcd79c74",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          76.99999775999999,
+          212.99999935999998,
+          106.99999967999999,
+          246.00000032
+        ]
+      ]
+    },
+    {
+      "number": 28,
+      "filename": "frame_005119_right.png",
+      "split": "test",
+      "image_sha256": "7c2cbfdfec748883a037111ceb6ea254a7699e5fb70d2816f98a21fe94663800",
+      "label_sha256": "7bf0700af6160f7bafb1790c9df9baa4ad16453db992c1dd47da86dbacb3e20c",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          62.91019728,
+          214.20560011999999,
+          94.67319791999999,
+          241.33019876000003
+        ]
+      ]
+    },
+    {
+      "number": 29,
+      "filename": "frame_005127_left.png",
+      "split": "test",
+      "image_sha256": "fcb234438e3008347ff19faab464ef400efe8d0a5f4c639429c1e7eda3645e1a",
+      "label_sha256": "fc5c0c828c96d97d90b878efd52e315801de02d099c36dd47caeacb8c6d1bb20",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          351.54040319999996,
+          182.56339908,
+          368.35360127999996,
+          201.95279788
+        ]
+      ]
+    },
+    {
+      "number": 30,
+      "filename": "frame_005127_right.png",
+      "split": "test",
+      "image_sha256": "13f300fe633f12e344ae5cba798892a9cc0962bcb417f6c1ac1ae119e4274800",
+      "label_sha256": "38cf6a2e85b47e73b32acc35a7ca68ba6c085fbfad2605c067849924a036eda3",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          339.99999936,
+          180.99999860000003,
+          360.99999936,
+          204.99999964000003
+        ]
+      ]
+    },
+    {
+      "number": 31,
+      "filename": "frame_005134_left.png",
+      "split": "test",
+      "image_sha256": "c1c9b3da553397d8ca02df52131d60ab05ada829f0aee6a4f25a805cb08041ad",
+      "label_sha256": "ab3d6a18f0d81ab197792998debfa5393b53351ae992ea007a739ee2ddff7b98",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          395.17930032,
+          177.89779932000002,
+          413.7486024,
+          195.9090002
+        ]
+      ]
+    },
+    {
+      "number": 32,
+      "filename": "frame_005134_right.png",
+      "split": "test",
+      "image_sha256": "d640ba1938aea0635ec60018510ad3cdc544ce819c5b51aec8328e9d7ce4c359",
+      "label_sha256": "5baef9ddd76be3bcaf23f947fafc4d35ca3ed55a7188b2689c931d740f52c0f8",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          386.54350224,
+          176.71589971999998,
+          405.08019888,
+          193.99790124
+        ]
+      ]
+    },
+    {
+      "number": 33,
+      "filename": "frame_005136_left.png",
+      "split": "test",
+      "image_sha256": "e5acd28fc29cf1acedf6ac4bd2c3639a49d6f6bd927cfb00a60c5b13bdfa9aa7",
+      "label_sha256": "ec6188b7419c2f60d955053bdd3e4da814fec20cee62e30ac01407295691d543",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          402.00000288,
+          175.99999948,
+          419.00000351999995,
+          191.99999892
+        ]
+      ]
+    },
+    {
+      "number": 34,
+      "filename": "frame_005136_right.png",
+      "split": "test",
+      "image_sha256": "ad73f2ddad9aa8604e836cca3f2c5c784e6fb2afbdf787bb537b9bb797a96b5e",
+      "label_sha256": "2c22e5d763b98862d3528f3426b48e66096526e62dd6a35f1644dea7fa2745ae",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          392.78269968,
+          174.68139756000002,
+          410.93069807999996,
+          192.02079924
+        ]
+      ]
+    },
+    {
+      "number": 35,
+      "filename": "frame_005147_left.png",
+      "split": "test",
+      "image_sha256": "2d2cef7c5eb3a78167f67d68c66ae47f3af6b796a3cf80527a4035adbc7c511d",
+      "label_sha256": "585a9052f1938adf799659d0a991b5d4af4d1e069f48c1526c9830a71c044532",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          384.37000223999996,
+          163.14219820000002,
+          400.60310304000006,
+          178.63989924
+        ]
+      ]
+    },
+    {
+      "number": 36,
+      "filename": "frame_005147_right.png",
+      "split": "test",
+      "image_sha256": "3f5d4a0d5ec1903e6c433dd48e51cd8a529ffd864a8109c702a1ba99cdfb56a2",
+      "label_sha256": "5f3ceeb8bfeffb4c42afe8ecdf2c267d71e8a02de8c0fe5b380e62d90d83f368",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          376.20379775999993,
+          162.44529912000002,
+          393.12619584,
+          178.37089944
+        ]
+      ]
+    },
+    {
+      "number": 37,
+      "filename": "frame_005153_left.png",
+      "split": "test",
+      "image_sha256": "a74219f8cc7906440d703a92af2977f6096ab564f9793118391146736e2f7a55",
+      "label_sha256": "769c5ab09d624f4e742140bb0566219ccd6c03c6327efeeb6c1a17e637fb655e",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          396.6064032,
+          158.98119796,
+          413.70950208000005,
+          175.41519916
+        ]
+      ]
+    },
+    {
+      "number": 38,
+      "filename": "frame_005153_right.png",
+      "split": "test",
+      "image_sha256": "c4e460d188ea66ea9be431b4cb159827223eaf4432acb6a4f7fcc645f2f138a2",
+      "label_sha256": "e69e30f06859f0edd2e15b94b232e2e651aff33bf3109f695626ff21a6cca730",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          389.40610128000003,
+          157.67430091999998,
+          406.0920024,
+          174.49940228
+        ]
+      ]
+    },
+    {
+      "number": 39,
+      "filename": "frame_005164_left.png",
+      "split": "test",
+      "image_sha256": "103f94efbb790f18837045de484b438f2d50cba8a86cd7cd6d90ca6f97298023",
+      "label_sha256": "34c616573279930e025741626cf0b1e72f6a3cf53fb71c8d3bf2d4c935b31484",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          402.13350240000005,
+          160.825399,
+          419.0086992,
+          176.84419844
+        ]
+      ]
+    },
+    {
+      "number": 40,
+      "filename": "frame_005164_right.png",
+      "split": "test",
+      "image_sha256": "54200437bd7f140edfa63cb62ccb74cbb7bba40905efc66aad29f0595f6aa695",
+      "label_sha256": "929138cca8730186db4933167e6825c2376b1031d1556d50b3d92427507a1129",
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          395.08879872,
+          159.23479868,
+          412.1126016,
+          175.4442978
+        ]
+      ]
+    },
+    {
+      "number": 41,
+      "filename": "frame_005174_left.png",
+      "split": "test",
+      "image_sha256": "4b757d528573ab18b5b019f8adbf26a320c585d470bc2baab33d51e7476ecb51",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 42,
+      "filename": "frame_005174_right.png",
+      "split": "test",
+      "image_sha256": "947e0d0388e6f859a28b95fe9029f909fc6bfaebc8fe649183712683a673c1a9",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 43,
+      "filename": "frame_005215_left.png",
+      "split": "test",
+      "image_sha256": "a9d5f2b5c3cf1b05926c42315fe40863e38433897572b062f590dc9014472e21",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 44,
+      "filename": "frame_005215_right.png",
+      "split": "test",
+      "image_sha256": "610f515cbb0ad6ca470b058572ca290d2dee8786eec459a5f95ef66b4bafb78d",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 45,
+      "filename": "frame_005220_left.png",
+      "split": "test",
+      "image_sha256": "e8cf5145fbfea7d8dcbe827f69403eae05267d606d8a954974de5ad2f56e080a",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 46,
+      "filename": "frame_005220_right.png",
+      "split": "test",
+      "image_sha256": "f6d570cc4bc50dc678ecf2c18ef094eabaf101fbd22e7c026af21d6bf739dfee",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 47,
+      "filename": "frame_005231_left.png",
+      "split": "test",
+      "image_sha256": "ff88d7881ed4db0fe608af39ed727e7f53c12703d2e1820572d9425085dd3a13",
+      "label_sha256": "59fe878eac30725cf4a8f40229de7af6ca6bb50436a9b4dd3500e1471149d02c",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          15.667804320000002,
+          263.76969828,
+          62.8932024,
+          300.8380982
+        ]
+      ]
+    },
+    {
+      "number": 48,
+      "filename": "frame_005231_right.png",
+      "split": "test",
+      "image_sha256": "15cbd6d37d693dd57b4ef91d72c2fba18f0224e61c64101c120a238668f808de",
+      "label_sha256": "0310fb0ccc42741e0996a0ae44ad90df19a042ad323e2e09d1dbb647ea09721f",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          0.3044025599999991,
+          261.55869984000003,
+          47.142600959999996,
+          299.62930144
+        ]
+      ]
+    },
+    {
+      "number": 49,
+      "filename": "frame_005232_left.png",
+      "split": "test",
+      "image_sha256": "f35c9dbafd57e425c2e9a6829af3265741d27247e1a7b57e15645ad64b84afde",
+      "label_sha256": "2a9b2d5cb639db1c754415c2fddb74500eec8746640fed043c3bc2aae7075804",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          41.00000352000001,
+          248.99999903999998,
+          87.00000288000001,
+          287.99999744
+        ]
+      ]
+    },
+    {
+      "number": 50,
+      "filename": "frame_005232_right.png",
+      "split": "test",
+      "image_sha256": "94937795cc2ae1a1a964ad7557064b89126a06893cf4842c82d70f9f313eac9c",
+      "label_sha256": "87a08217f360eb4007c8da8d692ba809800b7ac44652553c8371e4686fb282f1",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": [
+        [
+          23.999996160000002,
+          247.99999884,
+          70.99999872,
+          289.99999972
+        ]
+      ]
+    }
+  ]
+}

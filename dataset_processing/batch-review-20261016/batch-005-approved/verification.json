@@ -1,0 +1,86 @@
+{
+  "success": true,
+  "independent": true,
+  "batch": 5,
+  "selected_count": 1000,
+  "dataset_count": 8398,
+  "outside_raw_rows_preserved": 7398,
+  "all_record_newlines_and_header_bom_preserved": true,
+  "selected_allowed_metadata_fields": [
+    "annotation_status",
+    "label_review_note",
+    "label_review_required",
+    "scene_review_required"
+  ],
+  "selected_changed_field_counts": {
+    "label_review_note": 1000,
+    "annotation_status": 1000,
+    "scene_review_required": 999,
+    "label_review_required": 1000
+  },
+  "all_selected_both_review_flags_zero": true,
+  "all_selected_images_and_labels_sha256_unchanged": true,
+  "all_selected_scene_split_provenance_fields_unchanged": true,
+  "all_selected_count_and_unknown_columns_unchanged": true,
+  "all_selected_prior_notes_retained": true,
+  "approval_status_independently_recomputed": true,
+  "snapshot_identical_to_audit_backup": true,
+  "previous_batch_approvals": [
+    {
+      "batch": 1,
+      "count": 1000,
+      "both_reviewed": 1000,
+      "counts": {
+        "negative_confirmed": 272,
+        "reviewed_annotation": 707,
+        "reviewed_excluded": 21
+      }
+    },
+    {
+      "batch": 2,
+      "count": 1000,
+      "both_reviewed": 1000,
+      "counts": {
+        "reviewed_annotation": 847,
+        "reviewed_excluded": 11,
+        "negative_confirmed": 142
+      }
+    },
+    {
+      "batch": 3,
+      "count": 1000,
+      "both_reviewed": 1000,
+      "counts": {
+        "negative_confirmed": 530,
+        "reviewed_excluded": 116,
+        "reviewed_annotation": 354
+      }
+    },
+    {
+      "batch": 4,
+      "count": 1000,
+      "both_reviewed": 1000,
+      "counts": {
+        "reviewed_annotation": 725,
+        "reviewed_excluded": 41,
+        "negative_confirmed": 234
+      }
+    }
+  ],
+  "counts": {
+    "reviewed_annotation": 498,
+    "negative_confirmed": 488,
+    "reviewed_excluded": 14
+  },
+  "excluded_reasons": {
+    "原不确定处置保留": 14
+  },
+  "global_review_counts": {
+    "done": 5000,
+    "pending": 3398,
+    "mixed": 0
+  },
+  "metadata_before_sha256": "1da9d2c60f6fa4ddd210c5beb9dbcf927c0343093859f526cbffca94b15b35aa",
+  "metadata_sha256": "4bac2d79cff7949dd19d9cebb5913a5ca9a3c7db91ce9a9f0d0602bf4132aab9",
+  "verified_at_utc": "2026-10-16T09:44:33.155883+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "report": "AUDIT_REPORT.md",
+  "conclusion": "BLOCKED",
+  "annotation_issue_rows": 310,
+  "annotation_unique_images": 291,
+  "excluded_rows": 250,
+  "created_at_utc": "2026-10-19T03:59:19.486122+00:00",
+  "checks_executed": true,
+  "model_predictions_executed": false
+}

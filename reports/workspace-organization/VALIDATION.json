@@ -1,0 +1,56 @@
+{
+  "status": "PASS_WITH_CONCURRENT_CHANGES",
+  "checked_at": "2026-10-19T16:09:07.294650+08:00",
+  "checks": {
+    "phase1_required_deliverables_present": true,
+    "phase1_self_check_passed": true,
+    "task_outputs_do_not_overlap_initial_input_files": true,
+    "protected_initial_assets_unchanged_and_present": true,
+    "original_weight_sha256_unchanged": true,
+    "stage2_new_files_present": true,
+    "new_markdown_links_and_fences_valid": true,
+    "new_json_parses": true,
+    "template_not_training_config_and_not_run": true,
+    "template_contains_flops_and_deployment_context": true,
+    "new_archive_schema_has_required_fields": true,
+    "benchmark_rows_zero": true,
+    "catalog_only_existing_verified_archive": true,
+    "zero_moves_and_zero_archive_executions": true,
+    "no_cleanup_execution_or_current_approval": true
+  },
+  "initial_input_file_count": 64153,
+  "protected_initial_asset_file_count": 63867,
+  "protected_assets_changed": [],
+  "protected_assets_missing": [],
+  "global_input_snapshot_drift": {
+    "unchanged_original_file_count": 64135,
+    "changed_initial_paths": 13,
+    "absent_initial_paths": 5,
+    "new_paths_outside_task_outputs": 44,
+    "observations": "CONCURRENT_CHANGES.csv",
+    "this_task_did_not_revert_or_fix_these_changes": true
+  },
+  "format_checks": {
+    "markdown_documents_checked": 16,
+    "local_link_issues": [],
+    "json_documents_parsed": 6,
+    "schema_engine_validation": "not_run; schema JSON, required-field declarations and template structure checked using stdlib; no dependency installed"
+  },
+  "operations_file_sha256": "dc30cfc1e3d7b841ac1a624ecf528f0abe16d5a21dfe68095a6213c828b7f976",
+  "operation_log_scope": "all content outputs; audit closure files OPERATIONS/VALIDATION/CHECKSUMS are sealed by CHECKSUMS rather than circular self-hashing",
+  "new_directories_created": [
+    "reports/workspace-organization",
+    "experiments/_template"
+  ],
+  "new_navigation_template_file_count": 10,
+  "new_navigation_template_bytes": 20998,
+  "immediate_space_reclaimed_bytes": 0,
+  "existing_files_moved_deleted_overwritten_by_this_task": 0,
+  "new_archives_created": 0,
+  "existing_archives_recompressed": 0,
+  "training_inference_evaluation_started": false,
+  "git_objects_or_history_mutated_by_this_task": false,
+  "committed_or_uploaded": false,
+  "cleanup_initial_candidates": 131,
+  "cleanup_still_present": 130
+}

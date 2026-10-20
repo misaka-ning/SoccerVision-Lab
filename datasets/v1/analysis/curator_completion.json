@@ -1,0 +1,14 @@
+{
+  "status": "SELECTION_VISUAL_REVIEW_COMPLETE",
+  "at_utc": "2026-10-19T07:12:35.565972+00:00",
+  "final_pairs_reviewed": 49,
+  "reused": 41,
+  "all_final_queries_screened": 464,
+  "formal_high_metric_candidates": 0,
+  "unresolved_groups_withdrawn": [
+    "G01",
+    "G02"
+  ],
+  "same_session_limitation_retained": true,
+  "not_a_proof_of_no_possible_leakage": true
+}

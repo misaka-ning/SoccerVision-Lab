@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "status": "ISOLATED",
+  "images_moved": 250,
+  "labels_moved": 250,
+  "destination": "/home/misaka/workspace/datasets/excluded",
+  "split_counts": {
+    "train": 243,
+    "val": 6,
+    "test": 1
+  },
+  "metadata_modified": false,
+  "yaml_modified": false,
+  "usable_files_moved": 0,
+  "bytes_and_permissions_preserved": true,
+  "backup_directory": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/isolation/backup",
+  "completed_at_utc": "2026-10-19T03:46:59.983650+00:00"
+}

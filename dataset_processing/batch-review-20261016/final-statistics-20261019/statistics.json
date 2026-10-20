@@ -1,0 +1,437 @@
+{
+  "dataset": "/home/misaka/workspace/datasets",
+  "created_at_utc": "2026-10-19T03:29:27.316909+00:00",
+  "metadata_sha256": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9",
+  "definition": "usable requires both reviews complete, reviewed_annotation with valid nonempty class0 label and No Ball=0, or negative_confirmed with valid empty label and No Ball=1, plus a valid image. reviewed_excluded is always kept out.",
+  "overall": {
+    "total": 8398,
+    "usable": 8148,
+    "unusable": 250,
+    "reviewed_excluded": 250,
+    "pending": 0,
+    "reviewed_positive": 5220,
+    "confirmed_negative": 2928,
+    "usable_positive": 5220,
+    "usable_negative": 2928,
+    "statuses": {
+      "negative_confirmed": 2928,
+      "reviewed_annotation": 5220,
+      "reviewed_excluded": 250
+    },
+    "flags_all": {
+      "Small": 1699,
+      "Occluded": 1491,
+      "Blurred": 2321,
+      "No Ball": 2934
+    },
+    "flags_usable": {
+      "Small": 1627,
+      "Occluded": 1416,
+      "Blurred": 2278,
+      "No Ball": 2928
+    },
+    "flags_excluded": {
+      "Small": 72,
+      "Occluded": 75,
+      "Blurred": 43,
+      "No Ball": 6
+    },
+    "all_zero": 1743,
+    "all_zero_usable": 1621,
+    "valid_label_files": 8394,
+    "nonempty_labels": 5261,
+    "empty_labels": 3133,
+    "boxes_all_valid_labels": 5463,
+    "boxes_usable": 5417,
+    "multi_ball_images_all": 202,
+    "multi_ball_images_usable": 197,
+    "box_count_histogram": {
+      "0": 3133,
+      "1": 5059,
+      "2": 202,
+      "None": 4
+    },
+    "resolutions": {
+      "672x376": 7869,
+      "1280x720": 528,
+      "1920x1080": 1
+    },
+    "formats": {
+      "PNG": 7684,
+      "JPEG": 714
+    },
+    "excluded_original_status": {
+      "temporal_only": 5,
+      "uncertain_bbox": 12,
+      "severe_blur": 6,
+      "severe_occlusion": 14,
+      "fully_occluded": 2,
+      "uncertain": 171,
+      "needs_manual_bbox_annotation": 10,
+      "auto_label_needs_review": 1,
+      "needs_visibility_review": 29
+    }
+  },
+  "splits": {
+    "train": {
+      "total": 8100,
+      "usable": 7857,
+      "unusable": 243,
+      "reviewed_excluded": 243,
+      "pending": 0,
+      "reviewed_positive": 4997,
+      "confirmed_negative": 2860,
+      "usable_positive": 4997,
+      "usable_negative": 2860,
+      "statuses": {
+        "negative_confirmed": 2860,
+        "reviewed_annotation": 4997,
+        "reviewed_excluded": 243
+      },
+      "flags_all": {
+        "Small": 1647,
+        "Occluded": 1424,
+        "Blurred": 2203,
+        "No Ball": 2865
+      },
+      "flags_usable": {
+        "Small": 1581,
+        "Occluded": 1350,
+        "Blurred": 2166,
+        "No Ball": 2860
+      },
+      "flags_excluded": {
+        "Small": 66,
+        "Occluded": 74,
+        "Blurred": 37,
+        "No Ball": 5
+      },
+      "all_zero": 1685,
+      "all_zero_usable": 1563,
+      "valid_label_files": 8096,
+      "nonempty_labels": 5037,
+      "empty_labels": 3059,
+      "boxes_all_valid_labels": 5239,
+      "boxes_usable": 5194,
+      "multi_ball_images_all": 202,
+      "multi_ball_images_usable": 197,
+      "box_count_histogram": {
+        "0": 3059,
+        "1": 4835,
+        "2": 202,
+        "None": 4
+      },
+      "resolutions": {
+        "672x376": 7645,
+        "1280x720": 454,
+        "1920x1080": 1
+      },
+      "formats": {
+        "PNG": 7460,
+        "JPEG": 640
+      },
+      "excluded_original_status": {
+        "temporal_only": 3,
+        "uncertain_bbox": 12,
+        "severe_blur": 6,
+        "severe_occlusion": 14,
+        "needs_manual_bbox_annotation": 9,
+        "needs_visibility_review": 29,
+        "uncertain": 170
+      }
+    },
+    "val": {
+      "total": 170,
+      "usable": 164,
+      "unusable": 6,
+      "reviewed_excluded": 6,
+      "pending": 0,
+      "reviewed_positive": 144,
+      "confirmed_negative": 20,
+      "usable_positive": 144,
+      "usable_negative": 20,
+      "statuses": {
+        "reviewed_annotation": 144,
+        "reviewed_excluded": 6,
+        "negative_confirmed": 20
+      },
+      "flags_all": {
+        "Small": 38,
+        "Occluded": 40,
+        "Blurred": 74,
+        "No Ball": 20
+      },
+      "flags_usable": {
+        "Small": 32,
+        "Occluded": 40,
+        "Blurred": 68,
+        "No Ball": 20
+      },
+      "flags_excluded": {
+        "Small": 6,
+        "Occluded": 0,
+        "Blurred": 6,
+        "No Ball": 0
+      },
+      "all_zero": 44,
+      "all_zero_usable": 44,
+      "valid_label_files": 170,
+      "nonempty_labels": 144,
+      "empty_labels": 26,
+      "boxes_all_valid_labels": 144,
+      "boxes_usable": 144,
+      "multi_ball_images_all": 0,
+      "multi_ball_images_usable": 0,
+      "box_count_histogram": {
+        "1": 144,
+        "0": 26
+      },
+      "resolutions": {
+        "672x376": 118,
+        "1280x720": 52
+      },
+      "formats": {
+        "PNG": 118,
+        "JPEG": 52
+      },
+      "excluded_original_status": {
+        "temporal_only": 2,
+        "fully_occluded": 2,
+        "uncertain": 1,
+        "needs_manual_bbox_annotation": 1
+      }
+    },
+    "test": {
+      "total": 128,
+      "usable": 127,
+      "unusable": 1,
+      "reviewed_excluded": 1,
+      "pending": 0,
+      "reviewed_positive": 79,
+      "confirmed_negative": 48,
+      "usable_positive": 79,
+      "usable_negative": 48,
+      "statuses": {
+        "reviewed_annotation": 79,
+        "negative_confirmed": 48,
+        "reviewed_excluded": 1
+      },
+      "flags_all": {
+        "Small": 14,
+        "Occluded": 27,
+        "Blurred": 44,
+        "No Ball": 49
+      },
+      "flags_usable": {
+        "Small": 14,
+        "Occluded": 26,
+        "Blurred": 44,
+        "No Ball": 48
+      },
+      "flags_excluded": {
+        "Small": 0,
+        "Occluded": 1,
+        "Blurred": 0,
+        "No Ball": 1
+      },
+      "all_zero": 14,
+      "all_zero_usable": 14,
+      "valid_label_files": 128,
+      "nonempty_labels": 80,
+      "empty_labels": 48,
+      "boxes_all_valid_labels": 80,
+      "boxes_usable": 79,
+      "multi_ball_images_all": 0,
+      "multi_ball_images_usable": 0,
+      "box_count_histogram": {
+        "1": 80,
+        "0": 48
+      },
+      "resolutions": {
+        "672x376": 106,
+        "1280x720": 22
+      },
+      "formats": {
+        "PNG": 106,
+        "JPEG": 22
+      },
+      "excluded_original_status": {
+        "auto_label_needs_review": 1
+      }
+    }
+  },
+  "quality": {
+    "actual_image_files": 8398,
+    "actual_label_files": 8398,
+    "missing_images": [],
+    "extra_images": [],
+    "missing_labels": [],
+    "extra_labels": [],
+    "invalid_images": 0,
+    "invalid_labels": 4,
+    "nonexcluded_NoBall_or_status_mismatches": 0,
+    "exact_duplicate_groups": 0,
+    "exact_duplicate_images": 0,
+    "exact_duplicate_cross_split_groups": 0,
+    "source_frame_cross_split_groups": 0,
+    "source_video_count": 2
+  },
+  "scene_combinations_all": {
+    "0001": 2379,
+    "0011": 475,
+    "1100": 295,
+    "1000": 1012,
+    "1110": 63,
+    "1010": 297,
+    "0100": 581,
+    "0110": 476,
+    "0000": 1743,
+    "0010": 997,
+    "1101": 28,
+    "0101": 37,
+    "0111": 11,
+    "1011": 2,
+    "1001": 2
+  },
+  "scene_combinations_usable": {
+    "0001": 2377,
+    "0011": 475,
+    "1100": 250,
+    "1000": 996,
+    "1110": 60,
+    "1010": 291,
+    "0100": 562,
+    "0110": 472,
+    "0000": 1621,
+    "0010": 968,
+    "1101": 26,
+    "0101": 36,
+    "1011": 2,
+    "0111": 10,
+    "1001": 2
+  },
+  "source_videos": [
+    {
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "total": 70,
+      "usable": 69,
+      "unusable": 1,
+      "reviewed_excluded": 1,
+      "pending": 0,
+      "reviewed_positive": 63,
+      "confirmed_negative": 6,
+      "usable_positive": 63,
+      "usable_negative": 6,
+      "statuses": {
+        "negative_confirmed": 6,
+        "reviewed_annotation": 63,
+        "reviewed_excluded": 1
+      },
+      "flags_all": {
+        "Small": 63,
+        "Occluded": 5,
+        "Blurred": 0,
+        "No Ball": 6
+      },
+      "flags_usable": {
+        "Small": 63,
+        "Occluded": 5,
+        "Blurred": 0,
+        "No Ball": 6
+      },
+      "flags_excluded": {
+        "Small": 0,
+        "Occluded": 0,
+        "Blurred": 0,
+        "No Ball": 0
+      },
+      "all_zero": 1,
+      "all_zero_usable": 0,
+      "valid_label_files": 70,
+      "nonempty_labels": 63,
+      "empty_labels": 7,
+      "boxes_all_valid_labels": 63,
+      "boxes_usable": 63,
+      "multi_ball_images_all": 0,
+      "multi_ball_images_usable": 0,
+      "box_count_histogram": {
+        "0": 7,
+        "1": 63
+      },
+      "resolutions": {
+        "672x376": 70
+      },
+      "formats": {
+        "PNG": 70
+      },
+      "excluded_original_status": {
+        "needs_visibility_review": 1
+      }
+    },
+    {
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+      "total": 6438,
+      "usable": 6212,
+      "unusable": 226,
+      "reviewed_excluded": 226,
+      "pending": 0,
+      "reviewed_positive": 3694,
+      "confirmed_negative": 2518,
+      "usable_positive": 3694,
+      "usable_negative": 2518,
+      "statuses": {
+        "reviewed_annotation": 3694,
+        "negative_confirmed": 2518,
+        "reviewed_excluded": 226
+      },
+      "flags_all": {
+        "Small": 1152,
+        "Occluded": 1075,
+        "Blurred": 1627,
+        "No Ball": 2522
+      },
+      "flags_usable": {
+        "Small": 1091,
+        "Occluded": 1012,
+        "Blurred": 1600,
+        "No Ball": 2518
+      },
+      "flags_excluded": {
+        "Small": 61,
+        "Occluded": 63,
+        "Blurred": 27,
+        "No Ball": 4
+      },
+      "all_zero": 1379,
+      "all_zero_usable": 1260,
+      "valid_label_files": 6436,
+      "nonempty_labels": 3723,
+      "empty_labels": 2713,
+      "boxes_all_valid_labels": 3878,
+      "boxes_usable": 3849,
+      "multi_ball_images_all": 155,
+      "multi_ball_images_usable": 155,
+      "box_count_histogram": {
+        "1": 3568,
+        "0": 2713,
+        "2": 155,
+        "None": 2
+      },
+      "resolutions": {
+        "672x376": 6438
+      },
+      "formats": {
+        "PNG": 6438
+      },
+      "excluded_original_status": {
+        "needs_visibility_review": 28,
+        "needs_manual_bbox_annotation": 7,
+        "uncertain_bbox": 7,
+        "temporal_only": 1,
+        "severe_occlusion": 12,
+        "uncertain": 170,
+        "severe_blur": 1
+      }
+    }
+  ]
+}

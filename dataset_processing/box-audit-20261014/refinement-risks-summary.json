@@ -1,0 +1,18 @@
+{
+  "boxes": 5218,
+  "images": 5033,
+  "topics": {
+    "possible_excess_border_gap": 1686,
+    "possible_partial_or_shifted_original_box": 308,
+    "geometric_and_semantic_candidates_disagree": 665,
+    "large_change_needs_visual_review": 464,
+    "possible_internal_panel_fit_or_grossly_loose_original": 496,
+    "boundary_evidence_is_weak_or_unresolved": 1555,
+    "human_annotation_preserve_and_review_proposal": 1396,
+    "visible_extent_under_occlusion": 510,
+    "visible_extent_at_image_edge": 524
+  },
+  "all_pending_review": true,
+  "no_model_only_approval": true,
+  "source": "/home/misaka/workspace/dataset_processing/box-audit-20261014/all-existing-refined.json"
+}

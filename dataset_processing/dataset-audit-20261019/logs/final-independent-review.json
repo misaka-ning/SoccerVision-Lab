@@ -1,0 +1,407 @@
+{
+  "reviewed_at_utc": "2026-10-19T04:08:21.727251+00:00",
+  "reviewer": "independent_provenance_stats_agent",
+  "scope": [
+    "AUDIT_REPORT.md",
+    "proposed_split_plan.md",
+    "cross_split_duplicates.csv",
+    "annotation_issues.csv",
+    "excluded_samples_audit.csv"
+  ],
+  "method": "Read-only final artifact consistency check against frozen inventory, latest similarity JSON, assistant review sidecars, post-isolation verification and actual loader discovery. No source data or report edits. No detection model execution or repeat image visual adjudication.",
+  "input_sha256": {
+    "AUDIT_REPORT.md": "a4c5bbed9aaf47809e0d46e8b71a51538819a0d785f322543c17e92852d1af72",
+    "proposed_split_plan.md": "6e2ad7710d97780760f2447586d67065bf99ba40aac524eb52593e0f0f4bb3cc",
+    "cross_split_duplicates.csv": "58c71178caf4e9a3ec1c408760d06c17d6b08a185818525067faae2bc869e504",
+    "annotation_issues.csv": "eed9acdddb62737ac95b050771968c67700cc68eb7abf6f6f574b596a7a18a2d",
+    "excluded_samples_audit.csv": "0144ecb8da6ee70f81a12354aebeca43317c0d3e70ec3e90ab134ca39b080db7"
+  },
+  "checks": [
+    {
+      "check": "candidate_csv_exact_ids_risk_and_assessment_match_json",
+      "passed": true,
+      "evidence": {
+        "rows": 22391,
+        "risk_counts": {
+          "high": 74,
+          "medium": 7556,
+          "low": 14761
+        }
+      }
+    },
+    {
+      "check": "final_high_74_composition",
+      "passed": true,
+      "evidence": {
+        "high": 74,
+        "temporal": 32,
+        "visual": 42,
+        "split_pair_counts": {
+          "train-test": 32,
+          "train-val": 37,
+          "val-test": 5
+        }
+      }
+    },
+    {
+      "check": "sidecar_visual_support37_uncertain5",
+      "passed": true,
+      "evidence": {
+        "legacy_assessments": {
+          "visual_near_duplicate_confirmed": 21,
+          "uncertain": 5
+        },
+        "medium_assessments": {
+          "v_near_duplicate": 16
+        },
+        "supported": 37,
+        "uncertain": 5
+      }
+    },
+    {
+      "check": "visual_not_equated_to_confirmed_source_event",
+      "passed": true,
+      "evidence": {
+        "session_columns_all_blank": true,
+        "main_report_explicit_caveat": true
+      }
+    },
+    {
+      "check": "no_file_or_pixel_exact_pairs",
+      "passed": true,
+      "evidence": {
+        "exact_pair_count": 0
+      }
+    },
+    {
+      "check": "user_review_field_blank_cross_split_duplicates.csv",
+      "passed": true,
+      "evidence": {
+        "field": "review_status",
+        "rows": 22391,
+        "nonblank": 0
+      }
+    },
+    {
+      "check": "user_review_field_blank_annotation_issues.csv",
+      "passed": true,
+      "evidence": {
+        "field": "review_result",
+        "rows": 310,
+        "nonblank": 0
+      }
+    },
+    {
+      "check": "user_review_field_blank_excluded_samples_audit.csv",
+      "passed": true,
+      "evidence": {
+        "field": "review_result",
+        "rows": 250,
+        "nonblank": 0
+      }
+    },
+    {
+      "check": "assistant_actual_opened_flags_and_observations_consistent",
+      "passed": true,
+      "evidence": {
+        "actual_opened_unique_pairs": 50,
+        "csv_flag_true_pairs": 50,
+        "visual_pairs": 42,
+        "temporal_representatives": 8,
+        "mismatched_pairs": [],
+        "unseen_time_combinations_kept_false": 24
+      }
+    },
+    {
+      "check": "plan_49train_and_5val_or4test_arithmetic",
+      "passed": true,
+      "evidence": {
+        "train_candidate_count": 49,
+        "val_candidate_names": [
+          "legacy_val_000002.jpg",
+          "legacy_val_000009.jpg",
+          "legacy_val_000013.jpg",
+          "legacy_val_000021.jpg",
+          "legacy_val_000060.jpg"
+        ],
+        "test_candidate_names": [
+          "legacy_test_000033.jpg",
+          "legacy_test_000038.jpg",
+          "legacy_test_000043.jpg",
+          "legacy_test_000044.jpg"
+        ],
+        "preserve_test": {
+          "train": 7808,
+          "val": 159,
+          "test": 127,
+          "total": 8094
+        },
+        "preserve_val": {
+          "train": 7808,
+          "val": 164,
+          "test": 123,
+          "total": 8095
+        }
+      }
+    },
+    {
+      "check": "planning_json_latest_input_sha_and_counts",
+      "passed": true,
+      "evidence": {
+        "planning_input_sha256": "502cc9fbac5d65f7399a8b294987f5fae7540ecfd56c64709d29ca065df986ff",
+        "actual_pairs_sha256": "502cc9fbac5d65f7399a8b294987f5fae7540ecfd56c64709d29ca065df986ff",
+        "candidates_executed": false,
+        "earlier_automated_stage": {
+          "high": 58,
+          "train_candidates": 38
+        }
+      }
+    },
+    {
+      "check": "candidate_sensitivity_counts",
+      "passed": true,
+      "evidence": {
+        "1": {
+          "frame_buffer": 15,
+          "temporal_train_candidates": 12,
+          "visual_train_candidates": 37,
+          "intersection": 0,
+          "union_train_candidates": 49,
+          "remaining_train": 7808,
+          "val_if_train_side_only": 164,
+          "test_if_train_side_only": 127,
+          "remaining_total_train_side_only": 8099,
+          "preserve_test_val": 159,
+          "preserve_test_test": 127,
+          "preserve_test_total": 8094,
+          "preserve_val_val": 164,
+          "preserve_val_test": 123,
+          "preserve_val_total": 8095
+        },
+        "2": {
+          "frame_buffer": 30,
+          "temporal_train_candidates": 25,
+          "visual_train_candidates": 37,
+          "intersection": 0,
+          "union_train_candidates": 62,
+          "remaining_train": 7795,
+          "val_if_train_side_only": 164,
+          "test_if_train_side_only": 127,
+          "remaining_total_train_side_only": 8086,
+          "preserve_test_val": 159,
+          "preserve_test_test": 127,
+          "preserve_test_total": 8081,
+          "preserve_val_val": 164,
+          "preserve_val_test": 123,
+          "preserve_val_total": 8082
+        },
+        "5": {
+          "frame_buffer": 75,
+          "temporal_train_candidates": 71,
+          "visual_train_candidates": 37,
+          "intersection": 0,
+          "union_train_candidates": 108,
+          "remaining_train": 7749,
+          "val_if_train_side_only": 164,
+          "test_if_train_side_only": 127,
+          "remaining_total_train_side_only": 8040,
+          "preserve_test_val": 159,
+          "preserve_test_test": 127,
+          "preserve_test_total": 8035,
+          "preserve_val_val": 164,
+          "preserve_val_test": 123,
+          "preserve_val_total": 8036
+        },
+        "10": {
+          "frame_buffer": 150,
+          "temporal_train_candidates": 147,
+          "visual_train_candidates": 37,
+          "intersection": 0,
+          "union_train_candidates": 184,
+          "remaining_train": 7673,
+          "val_if_train_side_only": 164,
+          "test_if_train_side_only": 127,
+          "remaining_total_train_side_only": 7964,
+          "preserve_test_val": 159,
+          "preserve_test_test": 127,
+          "preserve_test_total": 7959,
+          "preserve_val_val": 164,
+          "preserve_val_test": 123,
+          "preserve_val_total": 7960
+        }
+      }
+    },
+    {
+      "check": "isolated250_active8148",
+      "passed": true,
+      "evidence": {
+        "isolation_status": "PASS",
+        "excluded_csv_rows": 250,
+        "split_counts": {
+          "train": 243,
+          "val": 6,
+          "test": 1
+        },
+        "loader": {
+          "train": {
+            "discovered": 7857,
+            "usable": 7857,
+            "excluded_discovered": 0,
+            "excluded_empty": 0,
+            "excluded_nonempty": 0,
+            "excluded_geometry_invalid": 0
+          },
+          "val": {
+            "discovered": 164,
+            "usable": 164,
+            "excluded_discovered": 0,
+            "excluded_empty": 0,
+            "excluded_nonempty": 0,
+            "excluded_geometry_invalid": 0
+          },
+          "test": {
+            "discovered": 127,
+            "usable": 127,
+            "excluded_discovered": 0,
+            "excluded_empty": 0,
+            "excluded_nonempty": 0,
+            "excluded_geometry_invalid": 0
+          }
+        }
+      }
+    },
+    {
+      "check": "excluded_label_partition",
+      "passed": true,
+      "evidence": {
+        "valid_nonempty": 41,
+        "valid_empty": 205,
+        "invalid": 4
+      }
+    },
+    {
+      "check": "current_csv_image_label_paths_resolve",
+      "passed": true,
+      "evidence": {
+        "unique_export_paths": 8921,
+        "missing": []
+      }
+    },
+    {
+      "check": "test_scenario_true_positive_denominators",
+      "passed": true,
+      "evidence": {
+        "Small": {
+          "flagged_images": 14,
+          "positive_images": 14,
+          "boxes": 14
+        },
+        "Occluded": {
+          "flagged_images": 26,
+          "positive_images": 26,
+          "boxes": 26
+        },
+        "Blurred": {
+          "flagged_images": 44,
+          "positive_images": 30,
+          "boxes": 30
+        }
+      }
+    },
+    {
+      "check": "wilson_hypothetical_only_not_model_metrics",
+      "passed": true,
+      "evidence": {
+        "all_hit_95_lower": {
+          "14": 0.7846891972623642,
+          "26": 0.8712710781407847,
+          "30": 0.8864866068260312
+        },
+        "zero_fp48_95_upper": 0.0741001296661175,
+        "interpretation": "Illustrative independent Bernoulli assumption; actual Recall/AP unavailable."
+      }
+    },
+    {
+      "check": "annotation_issue_counts",
+      "passed": true,
+      "evidence": {
+        "rows": 310,
+        "types": {
+          "Small_large_box_risk": 49,
+          "Occluded_boundary_quality_candidate": 199,
+          "label_format_or_geometry": 4,
+          "Small_small_box_risk": 9,
+          "stratified_visual_review_candidate": 26,
+          "edge_truncation_policy_review_candidate": 7,
+          "hand_ball_boundary_review_candidate": 6,
+          "visually_similar_pair_annotation_disagreement": 10
+        }
+      }
+    },
+    {
+      "check": "reviewed_artifacts_stable_during_check",
+      "passed": true,
+      "evidence": {
+        "changed": []
+      }
+    },
+    {
+      "check": "SSIM61_refinement_auto58_alignment26_and_corrected_wording",
+      "passed": true,
+      "evidence": {
+        "refined256x144_pairs": 61,
+        "automatic_high_after_refinement": 58,
+        "aligned_nonblank_pairs": 26,
+        "actual_opened_flags": 50,
+        "all_aligned_response_and_shift_constraints_valid": true,
+        "report_wording_matches": true,
+        "finish_manifest_guard_and_claims_match": true,
+        "other_reviewed_artifacts_unchanged": {
+          "proposed_split_plan.md": true,
+          "cross_split_duplicates.csv": true,
+          "annotation_issues.csv": true,
+          "excluded_samples_audit.csv": true
+        }
+      }
+    }
+  ],
+  "findings": [],
+  "must_fix_count": 0,
+  "status": "PASS",
+  "resolved_findings": [
+    {
+      "id": "previous-FIR-001",
+      "resolution": "26 original legacy assistant visual flags/observations are now propagated consistently; total actually opened50=42visual+8temporal representative pairs. All user review fields remain blank."
+    }
+  ],
+  "not_reviewed": [
+    "audit_manifest.json final generation not yet run; script statically reviewed, final generated manifest handled by parent."
+  ],
+  "source_files_modified": false,
+  "report_files_modified": false,
+  "manifest_script_review": {
+    "path": "scripts/finish_manifest.py",
+    "sha256": "4517c277a012c27ff7545538a052c8b7e3c94091b1d8c19c7b6673741717703c",
+    "reviewed_at_utc": "2026-10-19T04:08:21.727251+00:00",
+    "syntax_valid": true,
+    "script_executed_by_reviewer": false,
+    "status": "PASS",
+    "reviewed_claims": {
+      "source_counts": "8398 baseline images/labels;8148 usable;250 moved with unchanged bytes and fields; post-isolation7857/164/127 verified.",
+      "SSIM": "22391 base128x72 comparisons;61 initial high refined256x144;58 remained automated high;26 valid limited alignments among those58.",
+      "alignment": "phase response>=0.3,norm shift<=8px,extra10px crop before SSIM internal5px valid border.",
+      "visual_coverage": "74 comparison pages exist;42 actual visual pairs+8 temporal representatives=50 actual opened;64 stratified images on32 pages.",
+      "self_reference": "output index excludes itself and audit_manifest; manifest authenticates index and leaves its own digest null; symlink targets not hashed as output copies."
+    },
+    "execution_note": "Do not redirect stdout into an indexed audit logfile or mutate indexed outputs after sealing."
+  },
+  "amendments": [
+    {
+      "at_utc": "2026-10-19T04:08:21.727251+00:00",
+      "reason": "Corrected SSIM61/58/26 wording in report and manifest script reviewed before sealing.",
+      "previous_report_sha256": "b118ea59c190d2806ed1cd9fdb47264e2f0db139c011ea5df06b4183d10fe857",
+      "current_report_sha256": "a4c5bbed9aaf47809e0d46e8b71a51538819a0d785f322543c17e92852d1af72",
+      "other_reviewed_artifacts_changed": false
+    }
+  ]
+}

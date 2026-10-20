@@ -1,0 +1,1793 @@
+[
+  {
+    "pair_id": "P000033",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000033.png",
+      "page_sha256": "84ba79e0ade1b21708df274ef672bc5c9959c265370d66ca909755d031b0e22b",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "球面同一组蓝白星形图案朝向基本一致；球均在左上沿，斜置键盘、手机、杯子和鼠标垫的相对布局高度重合，仅有小幅视角/位置差。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [
+      {
+        "filename": "legacy_train_000285.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000285.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/train/legacy_train_000285.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "edge_truncation_policy_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "页面中足球似接触并被图像上沿截断，当前Occluded=0；建议查看原图球体轮廓及审核批次。",
+        "reason": "当前项目口径包含画边截断；早期已确认批次不追溯规则可能解释差异。仅候选，不据此自动判错或重写。",
+        "requires_review": true,
+        "review_result": ""
+      },
+      {
+        "filename": "legacy_val_000031.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/val/legacy_val_000031.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/val/legacy_val_000031.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "edge_truncation_policy_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "页面中足球似接触并被图像上沿截断，当前Occluded=0；建议查看原图球体轮廓及审核批次。",
+        "reason": "当前项目口径包含画边截断；早期已确认批次不追溯规则可能解释差异。仅候选，不据此自动判错或重写。",
+        "requires_review": true,
+        "review_result": ""
+      }
+    ],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000285.jpg",
+      "filename_b": "legacy_val_000031.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000285.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000031.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 0,
+      "dhash_distance": 0,
+      "ssim": 0.8223690986633301,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.912862241268158,
+      "cosine_similarity": 0.9887288212776184,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.365201+00:00"
+  },
+  {
+    "pair_id": "P000034",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000034.png",
+      "page_sha256": "8377cebc06a55d657025eeee9858c63498ae30fe3314ca4d1a91019e9db4dae1",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "前景足球完整且球纹朝向、键盘后沿、左侧手机、上方杯子与右侧鼠标垫高度一致；主要差别是轻微相机位移。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000064.jpg",
+      "filename_b": "legacy_val_000004.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000064.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000004.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 0,
+      "dhash_distance": 1,
+      "ssim": 0.7271024584770203,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.9281964302062988,
+      "cosine_similarity": 0.9896579384803772,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.365591+00:00"
+  },
+  {
+    "pair_id": "P000035",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000035.png",
+      "page_sha256": "1c54617cdc4d48dbffe707813da279357fe11b212252b979f5dcc1bff9da26a2",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "较大的足球纹理朝向、左侧伸向键盘的手形及后方键盘布局高度重合，球和键盘仅有小幅位置变化。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000196.jpg",
+      "filename_b": "legacy_test_000020.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000196.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000020.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "both_usable": true,
+      "phash_distance": 0,
+      "dhash_distance": 1,
+      "ssim": 0.6870662569999695,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.942453145980835,
+      "cosine_similarity": 0.9897769689559937,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.365936+00:00"
+  },
+  {
+    "pair_id": "P000036",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000036.png",
+      "page_sha256": "a7add537071a1123ad19c25953f940381b4ebf8b69d84407e1f02cff4e02f59e",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "倾斜视角下的笔记本、鼠标、方形标记、银色盒以及右手与球的位置高度重合；球面有小幅转角，手指与球缘关系需分别判断。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [
+      {
+        "filename": "legacy_train_000665.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000665.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/train/legacy_train_000665.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "hand_ball_boundary_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "两图Occluded值不同，手指与球右缘接触/覆盖关系接近且随动作变化；仅从成对展示不能判定哪一图有误。",
+        "reason": "逐图原图区分真实前景覆盖与仅接触，不能要求近似图的场景标签机械一致。",
+        "requires_review": true,
+        "review_result": ""
+      },
+      {
+        "filename": "legacy_val_000077.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/val/legacy_val_000077.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/val/legacy_val_000077.txt",
+        "field": "Occluded",
+        "current_value": "1",
+        "issue_type": "hand_ball_boundary_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "两图Occluded值不同，手指与球右缘接触/覆盖关系接近且随动作变化；仅从成对展示不能判定哪一图有误。",
+        "reason": "逐图原图区分真实前景覆盖与仅接触，不能要求近似图的场景标签机械一致。",
+        "requires_review": true,
+        "review_result": ""
+      }
+    ],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000665.jpg",
+      "filename_b": "legacy_val_000077.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000665.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000077.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 0,
+      "dhash_distance": 2,
+      "ssim": 0.6982836723327637,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.8902080059051514,
+      "cosine_similarity": 0.9766398668289185,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [
+        "Occluded"
+      ],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.366269+00:00"
+  },
+  {
+    "pair_id": "P000037",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000037.png",
+      "page_sha256": "a48163365a814b3656c01b80d1ed9db781f92fcccf7d7751df54a0f0aaae9b66",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "球面星形纹理、左手指形、键盘与球的相对位置高度重合；可见轻微视角与球位置差异。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000186.jpg",
+      "filename_b": "legacy_test_000020.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000186.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000020.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "both_usable": true,
+      "phash_distance": 2,
+      "dhash_distance": 1,
+      "ssim": 0.8598190546035767,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.9319000244140625,
+      "cosine_similarity": 0.987695574760437,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.366606+00:00"
+  },
+  {
+    "pair_id": "P000038",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000038.png",
+      "page_sha256": "c562697107c44313522d18af77efa4d25578f9f3620c536593b8eda70569f3ed",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "左上足球的球纹、左侧椅子、手机、斜置键盘、杯子及鼠标垫高度重合，整幅仅有小幅位移。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [
+      {
+        "filename": "legacy_train_000284.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000284.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/train/legacy_train_000284.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "edge_truncation_policy_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "页面中足球似接触并被图像上沿截断，当前Occluded=0；建议查看原图球体轮廓及审核批次。",
+        "reason": "当前项目口径包含画边截断；早期已确认批次不追溯规则可能解释差异。仅候选，不据此自动判错或重写。",
+        "requires_review": true,
+        "review_result": ""
+      },
+      {
+        "filename": "legacy_val_000030.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/val/legacy_val_000030.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/val/legacy_val_000030.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "edge_truncation_policy_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "页面中足球似接触并被图像上沿截断，当前Occluded=0；建议查看原图球体轮廓及审核批次。",
+        "reason": "当前项目口径包含画边截断；早期已确认批次不追溯规则可能解释差异。仅候选，不据此自动判错或重写。",
+        "requires_review": true,
+        "review_result": ""
+      }
+    ],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000284.jpg",
+      "filename_b": "legacy_val_000030.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000284.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000030.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 2,
+      "dhash_distance": 1,
+      "ssim": 0.8428277969360352,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.9431618452072144,
+      "cosine_similarity": 0.988425076007843,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.366952+00:00"
+  },
+  {
+    "pair_id": "P000039",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000039.png",
+      "page_sha256": "e9af52c666bc14e113949a08763259ebff66363686b6029061a26e2f281324e5",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "足球正面纹理朝向、后方键盘、左侧手机及右侧鼠标位置一致；两图主要表现为小幅平移/视角差。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000061.jpg",
+      "filename_b": "legacy_val_000005.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000061.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000005.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 2,
+      "dhash_distance": 3,
+      "ssim": 0.5499473810195923,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.9683626294136047,
+      "cosine_similarity": 0.9864070415496826,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.367303+00:00"
+  },
+  {
+    "pair_id": "P000040",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000040.png",
+      "page_sha256": "c2d58775d407ad7a2b79d2ceff4cc50aded812760d013fa18353f697a6bb19c1",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "前景足球的星形纹理及左手在键盘旁的姿态高度相近；球、键盘和手存在轻微位置差，不能认作相同像素。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000189.jpg",
+      "filename_b": "legacy_test_000020.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000189.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000020.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "both_usable": true,
+      "phash_distance": 2,
+      "dhash_distance": 3,
+      "ssim": 0.47486183047294617,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.9326930642127991,
+      "cosine_similarity": 0.9871311187744141,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.367637+00:00"
+  },
+  {
+    "pair_id": "P000041",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000041.png",
+      "page_sha256": "03aa52e19f39064f7fb0786255e661a49d1c663fa795e86109d6720f8e9a2fdd",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "足球纹理、球后键盘、左侧手机及右侧鼠标垫高度重合，视角与球位置有小变化。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000065.jpg",
+      "filename_b": "legacy_val_000005.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000065.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000005.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 2,
+      "dhash_distance": 4,
+      "ssim": 0.7304098010063171,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.9061398506164551,
+      "cosine_similarity": 0.984616756439209,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.367988+00:00"
+  },
+  {
+    "pair_id": "P000042",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000042.png",
+      "page_sha256": "e1e8e5449ee579a18e617f578d53fbb14a60b397f3647348d9aff44f65983fdd",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "两图足球同一面可辨星形纹理和倾斜键盘布局高度相近，均有可见模糊；球及视角有小幅变化。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000140.jpg",
+      "filename_b": "legacy_test_000043.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000140.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000043.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "both_usable": true,
+      "phash_distance": 2,
+      "dhash_distance": 5,
+      "ssim": 0.7158504128456116,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.7797374725341797,
+      "cosine_similarity": 0.9791194200515747,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.368320+00:00"
+  },
+  {
+    "pair_id": "P000043",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000043.png",
+      "page_sha256": "05323f9f53ab7f74183bc9caa9c6d415a3a517fea0221b22f1f9cc00b0d543ef",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "uncertain",
+    "risk_confirmation": "background_similarity_supported_subject_near_duplicate_unresolved",
+    "assistant_observation": "桌面、键盘、手机、杯子与左上球的位置高度重合，但train球有明显旋转模糊而val球较清晰，球的动态状态不同。",
+    "reason": "背景和构图高度重合，但主体旋转、模糊、位置或手部状态变化使助手不把它升级为已确认的主体近重复；仅凭两图也不能认定不同事件。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [
+      {
+        "filename": "legacy_train_000289.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000289.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/train/legacy_train_000289.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "edge_truncation_policy_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "页面中足球似接触并被图像上沿截断，当前Occluded=0；建议查看原图球体轮廓及审核批次。",
+        "reason": "当前项目口径包含画边截断；早期已确认批次不追溯规则可能解释差异。仅候选，不据此自动判错或重写。",
+        "requires_review": true,
+        "review_result": ""
+      },
+      {
+        "filename": "legacy_val_000031.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/val/legacy_val_000031.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/val/legacy_val_000031.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "edge_truncation_policy_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "页面中足球似接触并被图像上沿截断，当前Occluded=0；建议查看原图球体轮廓及审核批次。",
+        "reason": "当前项目口径包含画边截断；早期已确认批次不追溯规则可能解释差异。仅候选，不据此自动判错或重写。",
+        "requires_review": true,
+        "review_result": ""
+      }
+    ],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000289.jpg",
+      "filename_b": "legacy_val_000031.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000289.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000031.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 1,
+      "ssim": 0.7945247888565063,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.8490278720855713,
+      "cosine_similarity": 0.9815924167633057,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [
+        "Blurred"
+      ],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.368677+00:00"
+  },
+  {
+    "pair_id": "P000044",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000044.png",
+      "page_sha256": "a7fc061ed5f8243cf4c4e12edb82fe7df72d0eaa7ddcccb689afc64f7bce17cc",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "两图左侧手部悬停姿态、旋转球的位置和右方键盘/显示器/鼠标垫布局高度重合；球纹模糊相位不同，不是完全重复图。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000402.jpg",
+      "filename_b": "legacy_val_000047.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000402.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000047.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 1,
+      "ssim": 0.5828929543495178,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.8306300044059753,
+      "cosine_similarity": 0.9774218201637268,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.369023+00:00"
+  },
+  {
+    "pair_id": "P000045",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000045.png",
+      "page_sha256": "81594564769a2ff0aa9c4ade1df65a5f1a6e3f3bab6222432ca146002161e0ea",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "笔记本、鼠标、方形标记、银盒及右手指球的姿态高度重合；球纹仅小幅转角，手指是否覆盖球缘应单图复核。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [
+      {
+        "filename": "legacy_train_000664.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000664.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/train/legacy_train_000664.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "hand_ball_boundary_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "两图Occluded值不同，手指与球右缘接触/覆盖关系接近且随动作变化；仅从成对展示不能判定哪一图有误。",
+        "reason": "逐图原图区分真实前景覆盖与仅接触，不能要求近似图的场景标签机械一致。",
+        "requires_review": true,
+        "review_result": ""
+      },
+      {
+        "filename": "legacy_val_000076.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/val/legacy_val_000076.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/val/legacy_val_000076.txt",
+        "field": "Occluded",
+        "current_value": "1",
+        "issue_type": "hand_ball_boundary_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "两图Occluded值不同，手指与球右缘接触/覆盖关系接近且随动作变化；仅从成对展示不能判定哪一图有误。",
+        "reason": "逐图原图区分真实前景覆盖与仅接触，不能要求近似图的场景标签机械一致。",
+        "requires_review": true,
+        "review_result": ""
+      }
+    ],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000664.jpg",
+      "filename_b": "legacy_val_000076.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000664.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000076.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 2,
+      "ssim": 0.6902422904968262,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.8829033374786377,
+      "cosine_similarity": 0.984358549118042,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [
+        "Occluded"
+      ],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.369359+00:00"
+  },
+  {
+    "pair_id": "P000046",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000046.png",
+      "page_sha256": "a8d161c682a93ee17b61921007d9fd5106b748a5a69695562cdf469e23feced9",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "足球正面图案、球后键盘、手机及桌面物品布局高度一致；相机和球有小幅位移。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000060.jpg",
+      "filename_b": "legacy_val_000004.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000060.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000004.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 2,
+      "ssim": 0.5615682601928711,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.9752499461174011,
+      "cosine_similarity": 0.9885813593864441,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.369731+00:00"
+  },
+  {
+    "pair_id": "P000047",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000047.png",
+      "page_sha256": "d9ffe4f26365c15e7c9a46a2c282f87f4d3b65c9da4313d65fbe8c004f6fc28e",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "球的正面主要白色多边形与蓝色星形布局相近，手机、杯子、键盘及右侧鼠标垫构图高度重合；视角有轻微变化。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000100.jpg",
+      "filename_b": "legacy_val_000009.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000100.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000009.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 2,
+      "ssim": 0.42692527174949646,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.9347248673439026,
+      "cosine_similarity": 0.9805863499641418,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.370097+00:00"
+  },
+  {
+    "pair_id": "P000048",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000048.png",
+      "page_sha256": "2078266d1a6396041ccd5bdfdc9ab5aa9cc2d0efc1375aad9b9fdaefcc1ee252",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "uncertain",
+    "risk_confirmation": "background_similarity_supported_subject_near_duplicate_unresolved",
+    "assistant_observation": "斜置键盘、椅子、手机和左上足球的背景/位置高度重合；train球呈旋转模糊，val球较清楚，动态球纹无法一一对应。",
+    "reason": "背景和构图高度重合，但主体旋转、模糊、位置或手部状态变化使助手不把它升级为已确认的主体近重复；仅凭两图也不能认定不同事件。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [
+      {
+        "filename": "legacy_train_000288.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000288.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/train/legacy_train_000288.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "edge_truncation_policy_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "页面中足球似接触并被图像上沿截断，当前Occluded=0；建议查看原图球体轮廓及审核批次。",
+        "reason": "当前项目口径包含画边截断；早期已确认批次不追溯规则可能解释差异。仅候选，不据此自动判错或重写。",
+        "requires_review": true,
+        "review_result": ""
+      },
+      {
+        "filename": "legacy_val_000030.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/val/legacy_val_000030.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/val/legacy_val_000030.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "edge_truncation_policy_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "页面中足球似接触并被图像上沿截断，当前Occluded=0；建议查看原图球体轮廓及审核批次。",
+        "reason": "当前项目口径包含画边截断；早期已确认批次不追溯规则可能解释差异。仅候选，不据此自动判错或重写。",
+        "requires_review": true,
+        "review_result": ""
+      }
+    ],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000288.jpg",
+      "filename_b": "legacy_val_000030.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000288.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000030.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 3,
+      "ssim": 0.7959680557250977,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.8490877151489258,
+      "cosine_similarity": 0.9756125211715698,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [
+        "Blurred"
+      ],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.370450+00:00"
+  },
+  {
+    "pair_id": "P000049",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000049.png",
+      "page_sha256": "f8cf1c040593d2ebfa9c0df3fc691b6a0b72e281c4aa4f0faa0b0d1369b3be31",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "足球正面带字白色面片、左侧手部下垂姿态、斜键盘和鼠标垫布局高度重合；球及相机角度有小幅变化。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000207.jpg",
+      "filename_b": "legacy_val_000020.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000207.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000020.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 3,
+      "ssim": 0.6286135315895081,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.8296105861663818,
+      "cosine_similarity": 0.9801443219184875,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.370818+00:00"
+  },
+  {
+    "pair_id": "P000050",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000050.png",
+      "page_sha256": "892d7e157b7e0352633e7bbfdb79768fecb87784d0c54e0c9da6818d3a6457f6",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "uncertain",
+    "risk_confirmation": "background_similarity_supported_subject_near_duplicate_unresolved",
+    "assistant_observation": "固定桌面和左上足球位置高度相近，但train球呈旋转模糊，val球较清晰；主体瞬时状态与场景标签有差异。",
+    "reason": "背景和构图高度重合，但主体旋转、模糊、位置或手部状态变化使助手不把它升级为已确认的主体近重复；仅凭两图也不能认定不同事件。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [
+      {
+        "filename": "legacy_val_000030.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/val/legacy_val_000030.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/val/legacy_val_000030.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "edge_truncation_policy_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "页面中足球似接触并被图像上沿截断，当前Occluded=0；建议查看原图球体轮廓及审核批次。",
+        "reason": "当前项目口径包含画边截断；早期已确认批次不追溯规则可能解释差异。仅候选，不据此自动判错或重写。",
+        "requires_review": true,
+        "review_result": ""
+      }
+    ],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000329.jpg",
+      "filename_b": "legacy_val_000030.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000329.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000030.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 3,
+      "ssim": 0.5695322751998901,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.7112788558006287,
+      "cosine_similarity": 0.975780189037323,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [
+        "Occluded",
+        "Blurred"
+      ],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.371171+00:00"
+  },
+  {
+    "pair_id": "P000051",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000051.png",
+      "page_sha256": "75af0eb31a88c8e5d5c8ddac09e2ad263443990723ef5a4f417ce7db02dc676e",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "球面大块白色片、蓝色图案、右下手部及笔记本/标记/银盒的相对构图相近；球的转角和位置有可见小差。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000723.jpg",
+      "filename_b": "legacy_test_000003.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000723.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000003.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 3,
+      "ssim": 0.5162351131439209,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.6936777234077454,
+      "cosine_similarity": 0.9810582995414734,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.371531+00:00"
+  },
+  {
+    "pair_id": "P000052",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000052.png",
+      "page_sha256": "acb6263ddc58d226ecc89f27789d7a30e6020dbce62eefb74d7bc007f1febbb6",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "uncertain",
+    "risk_confirmation": "background_similarity_supported_subject_near_duplicate_unresolved",
+    "assistant_observation": "笔记本、鼠标、标记、银盒及视角高度重合；train球较清楚且手指在球侧，test球旋转模糊、位置及手球关系不同，主体状态无法直接对应。",
+    "reason": "背景和构图高度重合，但主体旋转、模糊、位置或手部状态变化使助手不把它升级为已确认的主体近重复；仅凭两图也不能认定不同事件。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [
+      {
+        "filename": "legacy_train_000644.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000644.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/train/legacy_train_000644.txt",
+        "field": "Occluded",
+        "current_value": "1",
+        "issue_type": "hand_ball_boundary_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "两图Occluded值不同，手指与球右缘接触/覆盖关系接近且随动作变化；仅从成对展示不能判定哪一图有误。",
+        "reason": "逐图原图区分真实前景覆盖与仅接触，不能要求近似图的场景标签机械一致。",
+        "requires_review": true,
+        "review_result": ""
+      },
+      {
+        "filename": "legacy_test_000005.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/test/legacy_test_000005.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/test/legacy_test_000005.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "hand_ball_boundary_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "两图Occluded值不同，手指与球右缘接触/覆盖关系接近且随动作变化；仅从成对展示不能判定哪一图有误。",
+        "reason": "逐图原图区分真实前景覆盖与仅接触，不能要求近似图的场景标签机械一致。",
+        "requires_review": true,
+        "review_result": ""
+      }
+    ],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000644.jpg",
+      "filename_b": "legacy_test_000005.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000644.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000005.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 5,
+      "ssim": 0.8479810953140259,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.8595196604728699,
+      "cosine_similarity": 0.9686877727508545,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [
+        "Occluded",
+        "Blurred"
+      ],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.371882+00:00"
+  },
+  {
+    "pair_id": "P000053",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000053.png",
+      "page_sha256": "a5646ee1345decfbd07229cea50df65d663071ea1dde61a629f63176b4b66cb5",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "uncertain",
+    "risk_confirmation": "background_similarity_supported_subject_near_duplicate_unresolved",
+    "assistant_observation": "斜键盘、显示器底座和鼠标垫背景高度重合，但旋转球的位置、模糊纹理和左上手部出现状态不同，无法从球纹确认主体近重复。",
+    "reason": "背景和构图高度重合，但主体旋转、模糊、位置或手部状态变化使助手不把它升级为已确认的主体近重复；仅凭两图也不能认定不同事件。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [
+      {
+        "filename": "legacy_train_000374.jpg",
+        "image_path": "/home/misaka/workspace/datasets/images/train/legacy_train_000374.jpg",
+        "label_path": "/home/misaka/workspace/datasets/labels/train/legacy_train_000374.txt",
+        "field": "Occluded",
+        "current_value": "0",
+        "issue_type": "edge_truncation_policy_review_candidate",
+        "severity": "candidate",
+        "assistant_observation": "页面中足球似接触并被图像上沿截断，当前Occluded=0；建议查看原图球体轮廓及审核批次。",
+        "reason": "当前项目口径包含画边截断；早期已确认批次不追溯规则可能解释差异。仅候选，不据此自动判错或重写。",
+        "requires_review": true,
+        "review_result": ""
+      }
+    ],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000374.jpg",
+      "filename_b": "legacy_val_000043.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000374.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000043.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 5,
+      "ssim": 0.7327865362167358,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.8184747695922852,
+      "cosine_similarity": 0.9739121198654175,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.372243+00:00"
+  },
+  {
+    "pair_id": "P000054",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000054.png",
+      "page_sha256": "936c8b2e46b10819c77d144cc937f9a45aa2ef61d2ee09c52a13b0941c2232dd",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "球面白色/蓝色纹理朝向、指向球侧的手指、笔记本、鼠标及方形标记高度相近，主要是小幅视角变化。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000668.jpg",
+      "filename_b": "legacy_val_000076.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000668.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000076.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 5,
+      "ssim": 0.6440877914428711,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.9356255531311035,
+      "cosine_similarity": 0.985073983669281,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.372595+00:00"
+  },
+  {
+    "pair_id": "P000055",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000055.png",
+      "page_sha256": "9db307a2b31cc70f9d7430de483b0a4547c065e29e7e4b92f43c12036f606ebb",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "指向足球右侧的手指姿态、球面纹理以及笔记本/标记/银盒布局高度相近，球有小幅转角与位置差。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000672.jpg",
+      "filename_b": "legacy_val_000076.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000672.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000076.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 5,
+      "ssim": 0.5475326776504517,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.8466489315032959,
+      "cosine_similarity": 0.9829016327857971,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.372941+00:00"
+  },
+  {
+    "pair_id": "P000056",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000056.png",
+      "page_sha256": "f7acb58b6aec15719536fec544698202565c99c912c6ea0cb96b47c0267c9d0e",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 3,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "足球正面图案、手机、键盘和右侧鼠标的静态布局高度重合；相机平移与角度差较明显，不能由低未对齐SSIM单独否定视觉重合。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000057.jpg",
+      "filename_b": "legacy_val_000005.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000057.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000005.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 4,
+      "dhash_distance": 6,
+      "ssim": 0.3840636909008026,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.8562121391296387,
+      "cosine_similarity": 0.9726861715316772,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.373306+00:00"
+  },
+  {
+    "pair_id": "P000057",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000057.png",
+      "page_sha256": "e6ddba48f674728c9778ec6d65fa40d4ac2a1da32704bf06020d1c2c7101baac",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 2,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "足球正面星形纹理、左侧手机、键盘及杯子布局高度重合；主要可见小幅相机位移与球角度差。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000103.jpg",
+      "filename_b": "legacy_val_000008.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000103.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/val/legacy_val_000008.jpg",
+      "split_a": "train",
+      "split_b": "val",
+      "both_usable": true,
+      "phash_distance": 6,
+      "dhash_distance": 0,
+      "ssim": 0.6059180498123169,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.9392411112785339,
+      "cosine_similarity": 0.989458441734314,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.373663+00:00"
+  },
+  {
+    "pair_id": "P000058",
+    "actual_opened_evidence": {
+      "opened": true,
+      "method": "tools.view_image",
+      "page_path": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pair-pages/P000058.png",
+      "page_sha256": "132867315cdccb9b2d2cec6cae42344622ec84553b28e557cfb4d3bb389ba67a",
+      "page_dimensions_px": [
+        672,
+        899
+      ],
+      "opened_in_batches_of": 2,
+      "display_note": "逐页实际打开，页面每幅源图展示宽672像素；源图原生1280x720，不将页面展示宣称为逐像素原生检查。"
+    },
+    "visual_assessment": "visual_near_duplicate_confirmed",
+    "risk_confirmation": "visual_near_duplicate_risk_supported_only",
+    "assistant_observation": "球面白色片及蓝色图案朝向、右下手部和后方笔记本/标记/银盒布局高度重合；球及手位置存在小变化。",
+    "reason": "背景以外，还能比对到相近的足球纹理朝向、主体位置或手部姿态，支持仅视觉意义的近重复/高度重合画面。此结论只涉及实际打开页面中的视觉内容；文件和解码像素SHA均不相同。legacy真实session/帧号未知，无法据此确认相同采集事件、相邻帧或科研泄漏。",
+    "source_session_confirmed": false,
+    "source_event_confirmed": false,
+    "scientific_leakage_confirmed": false,
+    "exact_duplicate_confirmed": false,
+    "review_status": "",
+    "annotation_candidates": [],
+    "annotation_summary": "页面中每图均能看到一个已框足球；未据这两图发现确定漏框/NoBall冲突。场景候选须回到单图和项目口径复核。",
+    "source_pair_metadata": {
+      "filename_a": "legacy_train_000717.jpg",
+      "filename_b": "legacy_test_000003.jpg",
+      "image_a": "/home/misaka/workspace/datasets/images/train/legacy_train_000717.jpg",
+      "image_b": "/home/misaka/workspace/datasets/images/test/legacy_test_000003.jpg",
+      "split_a": "train",
+      "split_b": "test",
+      "both_usable": true,
+      "phash_distance": 6,
+      "dhash_distance": 4,
+      "ssim": 0.6820197701454163,
+      "ssim_resolution": "256x144",
+      "ssim_aligned": 0.7006614804267883,
+      "cosine_similarity": 0.9862543344497681,
+      "same_recording": false,
+      "frame_a": null,
+      "frame_b": null,
+      "scene_disagreement": [],
+      "box_count_a": 1,
+      "box_count_b": 1,
+      "scene_flags_a": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_flags_b": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      }
+    },
+    "assistant_reviewed_at_utc": "2026-10-19T03:52:48.374036+00:00"
+  }
+]

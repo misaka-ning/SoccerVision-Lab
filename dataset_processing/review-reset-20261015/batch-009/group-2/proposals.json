@@ -1,0 +1,3581 @@
+[
+  {
+    "filename": "video_4bec9c343db72928_frame_00008865_left.png",
+    "index": 134,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "小星形足球在鞋旁完整可见，鞋在球后未覆盖；纹理仅低像素软化，无可辨方向拖影，原框贴近球缘。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-000.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-000.png"
+    ],
+    "expected_image_sha256": "040bf9890c00054ff44f448711195509227f3c47d9ff653a183fc22bce4556e6",
+    "expected_label_sha256": "ab17eab0d0e4bfc45320f1082c9a3bbd36371e3f573853b376fd4c415a9a6a83",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00008865_right.png",
+    "index": 135,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "小星形足球在鞋旁完整可见，鞋在球后未覆盖；纹理仅低像素软化，无可辨方向拖影，原框贴近球缘。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-000.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-000.png"
+    ],
+    "expected_image_sha256": "5e508a8938761e96cce4263c6f9f20b0460d1e4ddffc725556c44e10587c1125",
+    "expected_label_sha256": "96baed15c4f2077a2f1324d85216fb5fb6a23b8d097e755b9d56546f42551140",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009073_left.png",
+    "index": 136,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "机器人脚旁小星形球圆弧完整，脚未覆盖球面；低像素软化为主，无明确方向拖影，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-001.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-000.png"
+    ],
+    "expected_image_sha256": "b1836798a53d87af33efd6f1820926cfe8016cbafda21e71d43653580c60646c",
+    "expected_label_sha256": "2dd853d4abd093aefce3394c78376db2c53e843f0be078d889fbd61a43fb4086",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00009073_right.png",
+    "index": 137,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "机器人脚旁小星形球圆弧完整，脚未覆盖球面；低像素软化为主，无明确方向拖影，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-001.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-000.png"
+    ],
+    "expected_image_sha256": "7b320e62aa3913abbe2756a9c7d31200dac158e0ff04d461b8c6dfa95bd4a236",
+    "expected_label_sha256": "217cbf1f80ef55c6bb3d0d064d79dced1e058ac78d9fc11555dacb3c5cfc7266",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010356_left.png",
+    "index": 138,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "小足球左侧被前景机器人躯干边缘明确覆盖；保留其可见球面原框，低像素软化未见方向拖影。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-002.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-000.png"
+    ],
+    "expected_image_sha256": "e8f6720d40da2afe0d960ce7b1290834a0b9a72b467a926e15a39704cf48bcf7",
+    "expected_label_sha256": "e555dd06e39f0e869ae6bcd77d48338a98d620f72ca6d752e68afc4b389f248b",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010356_right.png",
+    "index": 139,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "小足球在机器人右侧完整显露，机器人边缘未明确压过球弧；低像素软化未见方向拖影，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-002.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-000.png"
+    ],
+    "expected_image_sha256": "a5eb195d59f419c9c8cecce1303bac4d6d55f4b240046c5df7a0fb708f46888d",
+    "expected_label_sha256": "133da816920f4de6ea94c1fd1fa66111a42827c052f5a292639217c9ec4ff68f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010380_left.png",
+    "index": 140,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "远处小星形足球完整可见，邻近机器人脚未覆盖；球与场景呈斜向拉长拖影，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-003.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-000.png"
+    ],
+    "expected_image_sha256": "97f25b3fd3ae1c50a0a39ceb0311f5ac1ad71e5dc3b607b3f2ed348b9dce25bb",
+    "expected_label_sha256": "7834bcc1858fc6d628396667ef30bce29f756ba7c7d14d47d30f73dbc4d69ede",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010380_right.png",
+    "index": 141,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "远处小星形足球完整可见，邻近机器人脚未覆盖；球与场景呈斜向拉长拖影，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-003.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-000.png"
+    ],
+    "expected_image_sha256": "6233b8404938a68f2f4f5636819397715d9b9dc60f021202939522aa8b9d8149",
+    "expected_label_sha256": "c282b3c9091cffeb0d085d8fe4b07284eda30d2b5211c237d457185380663e8e",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010393_left.png",
+    "index": 142,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "远处小星形足球完整，机器人脚与球轮廓分开；球面及场景方向拖影明确，原框覆盖可见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-004.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-001.png"
+    ],
+    "expected_image_sha256": "f694309f06edbc1dac380de1dd9404c82ebd2138f98ce801a0b0c497c85ec271",
+    "expected_label_sha256": "57abe54e514d8c759ef1423987a22a85e1adf0ba9b0b25f5ca4790ad0d427122",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010393_right.png",
+    "index": 143,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "远处小星形足球完整，机器人脚与球轮廓分开；球面及场景方向拖影明确，原框覆盖可见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-004.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-001.png"
+    ],
+    "expected_image_sha256": "d7fff8eb8f09e076233230769abdec81e76e26385b8a80416925b614c0ac5001",
+    "expected_label_sha256": "5b4fe07b4a8908ef71538c1c67443d0897d5786a7b6f80177b573e3adc535084",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010412_left.png",
+    "index": 144,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "小星形球在后排机器人右脚旁完整显露，未见脚覆盖；球面低像素软化为主，无明确拖尾，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-005.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-001.png"
+    ],
+    "expected_image_sha256": "7d50ffd242e4de387cd69f179089a711388165238638607ed54e8c120e66e982",
+    "expected_label_sha256": "d42594449967a477dc4f77f32b3be978f34d80331180e779e14e7307fcf368da",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010412_right.png",
+    "index": 145,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "小星形球在后排机器人右脚旁完整显露，未见脚覆盖；球面低像素软化为主，无明确拖尾，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-005.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-001.png"
+    ],
+    "expected_image_sha256": "3ba79ac7435e0891e901067d49c06ec6322c3a0602e8b65a2e4a794bea9402ff",
+    "expected_label_sha256": "f64da23b0d771434f6d3cc2262c46162e4a92afea2f356fa1dd6839d73ebbf89",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010459_left.png",
+    "index": 146,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "小星形球在前景机器人右脚旁，球缘与脚基本分离；球和背景斜向运动拖影明显，原框覆盖可见球面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-006.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-001.png"
+    ],
+    "expected_image_sha256": "232bd03319f9dbfa4ac5a43f593fbef28b9ed70c824a71cd4123a646773a4982",
+    "expected_label_sha256": "a394b1013a315dfb73c7e85bececf158c59051852702a84ba1b8909c79de12ba",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010459_right.png",
+    "index": 147,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "小星形球在前景机器人右脚旁，球缘与脚基本分离；球和背景斜向运动拖影明显，原框覆盖可见球面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-006.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-001.png"
+    ],
+    "expected_image_sha256": "e3516b8908ddf35b3d05d637de77831ba89a632e030a06ed0155edcb1726e2cf",
+    "expected_label_sha256": "18127e35e0719fa562f899aec12994e2da3a1bfbd8feb0d9a01ada86f80aa3bf",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010611_left.png",
+    "index": 148,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球完整且距下边仍有空隙，完整尺度约41px；球面未见明确方向拖影，原框贴近球缘。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-007.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-001.png"
+    ],
+    "expected_image_sha256": "3d6644ad61deaf1f37cb8514bcaf37efef61588a620c4a40f68d5beb646bc202",
+    "expected_label_sha256": "c7088d0b7ac766f031cc6fd9bfa7df4805ae489ee8f44883521b078e4ad85ff5",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010611_right.png",
+    "index": 149,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球完整且距下边仍有空隙，完整尺度约41px；球面未见明确方向拖影，原框贴近球缘。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-007.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-001.png"
+    ],
+    "expected_image_sha256": "423ebc07ffaafe15eb6458fd647072489c2d05f1ae34cc8045ceea706b8ada7b",
+    "expected_label_sha256": "cc7c0d8d177299db68656756d713e42c255b1a0e149eda03d4402b33e30c19da",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010759_left.png",
+    "index": 150,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景大星形足球被画面下缘真实截断；球面和场景方向拖影明确，原框覆盖当前可见部分。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-008.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-002.png"
+    ],
+    "expected_image_sha256": "6a0db9102a5abf2806b045144a2a7495fd2154349cb142266051c508e3d98c60",
+    "expected_label_sha256": "4f3830f0dc6957a61d297a52801c70ad0e52af5468e4af2b2186b3c38a9bd367",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010759_right.png",
+    "index": 151,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景大星形足球被画面下缘真实截断；球面和场景方向拖影明确，原框覆盖当前可见部分。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-008.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-002.png"
+    ],
+    "expected_image_sha256": "468168a8cac61b5a93e50a78bf59453dd58794c621749e8c66d0683f78a9ea5c",
+    "expected_label_sha256": "c6fea7f1ecd4e917520f475b09db36145577615691cd115780525ac921167bf0",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010762_left.png",
+    "index": 152,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景大星形足球完整离开边缘，球缘及面板有明显斜向拖影，原框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-009.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-002.png"
+    ],
+    "expected_image_sha256": "cc7b88ba53a4ab4182d743034669c9251611530a000c5256e574c45d3a525409",
+    "expected_label_sha256": "04627744db3daea3501d0ca27bf097e295c4b22589eb669b7164d412606ad8b5",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010762_right.png",
+    "index": 153,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景大星形足球完整离开边缘，球缘及面板有明显斜向拖影，原框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-009.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-002.png"
+    ],
+    "expected_image_sha256": "849fac2c1d92c423e3675a7f31836f876872097421f33252ff777ab8dc3efcf0",
+    "expected_label_sha256": "da48b01295707da4cd844377d17bbd5bdeb241e75a8774a8dd2fd7d2053767e3",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010867_left.png",
+    "index": 154,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形足球完整，球面板边缘较稳定，未见可辨方向拖影；原框贴近外轮廓。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-010.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-002.png"
+    ],
+    "expected_image_sha256": "aa388623a0774afea4882b32643ff932dc53a502dbf6cf6c08641cfb0e41b3e0",
+    "expected_label_sha256": "66e7d05bcabf5401f0a2f8dac397024b75d6ae708e7101939d3c07c508527e83",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010867_right.png",
+    "index": 155,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形足球完整，球面板边缘较稳定，未见可辨方向拖影；原框贴近外轮廓。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-010.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-002.png"
+    ],
+    "expected_image_sha256": "765d016209a01b1a4110f605adcacfd3d9d6a372e2846a29103e0822f5e844f4",
+    "expected_label_sha256": "da8379c996ce1c82db0be2d2d28ac83e8b6fcab315597af7d08f105981c0818e",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010868_left.png",
+    "index": 156,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整可见，面板仅轻微软化，未见可辨方向拉长拖影；原框贴近球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-011.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-002.png"
+    ],
+    "expected_image_sha256": "7e9f7c8a7517bb5d4b219867057c2b03674d34f7529ce58a20586c6a8271029a",
+    "expected_label_sha256": "1b9c7979e1884acc27893a2f51d7641f0993384e0daaaf9b2793485041cb57ee",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010868_right.png",
+    "index": 157,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整可见，面板仅轻微软化，未见可辨方向拉长拖影；原框贴近球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-011.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-002.png"
+    ],
+    "expected_image_sha256": "6183ec9933b59744b4cf6d62ad37130ec925f2cc715e2586af4fe8bf193fa457",
+    "expected_label_sha256": "861fc82c17e7e24a9b6abc92735bc234a02566434d8b997b3a3444c05d721436",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010870_left.png",
+    "index": 158,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整，白面板和黑边随镜头斜向拉长，无遮挡，原框覆盖球体与明确运动边缘。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-012.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-003.png"
+    ],
+    "expected_image_sha256": "27640d9f0ce29b0938ecf47367674f2ecf1b14e764c7e473f7415bf032fef3d1",
+    "expected_label_sha256": "0fb14fdfe1a5ec79b78b5665781bfe797ed28b3ef6ca8ddca9faa9885e758ef8",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010870_right.png",
+    "index": 159,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整，白面板和黑边随镜头斜向拉长，无遮挡，原框覆盖球体与明确运动边缘。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-012.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-003.png"
+    ],
+    "expected_image_sha256": "e8da0cd0aa7113ee46948281b0147d9bb933b386e389795555b58b73669b41f9",
+    "expected_label_sha256": "129d906f592d81748865979349116207133f1c7949a6e10e1c17de5f37965263",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010981_left.png",
+    "index": 160,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全幅检查可见人物鞋、机器人及地面，未见可靠足球；原空框保留，镜头有方向拖影，No Ball按最终零框记1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-013.png"
+    ],
+    "expected_image_sha256": "20449a1acc3f3d79de0fc9a817b28521ba3a7fcc64a104d07722a055e47f4f74",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010981_right.png",
+    "index": 161,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全幅检查可见人物鞋、机器人及地面，未见可靠足球；原空框保留，镜头有方向拖影，No Ball按最终零框记1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-013.png"
+    ],
+    "expected_image_sha256": "be5f33545bbd5f30a5953ea0f485ef55c16c0b7978aabebfea67654040aa5ef5",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011142_left.png",
+    "index": 162,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整近景星形球在地面独立可见，镜头与球面有斜向拖影，原框覆盖外轮廓。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-014.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-003.png"
+    ],
+    "expected_image_sha256": "0e862e3309b0ca1e671760736d1ea608aa6dcd946eb7708670dd1d98e31fe369",
+    "expected_label_sha256": "8596e0930cd6cfe595f5cc6bd8d33a90ca9f14c621938a58b0db888f3ccbe214",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011142_right.png",
+    "index": 163,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整近景星形球在地面独立可见，镜头与球面有斜向拖影，原框覆盖外轮廓。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-014.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-003.png"
+    ],
+    "expected_image_sha256": "1c42115e7e44c1fc7710931b087a395dbf61f8fad9e647447a1f028061cc17e4",
+    "expected_label_sha256": "55a982dd18ff8682e432a414b397744ececbf53c103e3d187596a242b1f53e21",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011151_left.png",
+    "index": 164,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整近景星形球在地面独立可见，球面纹理纵向拉长明显，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-015.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-003.png"
+    ],
+    "expected_image_sha256": "0ca53ce60df6a872bf40faf77dd744f28968cc40852e0f268a227919211345dc",
+    "expected_label_sha256": "b377d6af7fd19776c844cd4000341ee975f2a3594ddb4f4fa7705b7172fe5b4f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011151_right.png",
+    "index": 165,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整近景星形球在地面独立可见，球面纹理纵向拉长明显，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-015.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-003.png"
+    ],
+    "expected_image_sha256": "6fc14533639adb05fafae5c90bcc08f5a7fcdbbff88b5933f965f7c91de7c680",
+    "expected_label_sha256": "f871eadd064147a87ec1f95fb707ff43c85e2013080ab889633113204fdcb8ae",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011277_left.png",
+    "index": 166,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球在鞋尖下方完整显露，鞋仅接近上缘未见明确覆盖；球面和相机方向拖影明显，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-016.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-003.png"
+    ],
+    "expected_image_sha256": "a0b5254133dc5a83b3d67cc86ca53e5a442dc2070884001da536748cc9ac615f",
+    "expected_label_sha256": "c09fa461e0cb87e3fd775c0d62e55e5320735317bd6f48a45037bca156dc8233",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011277_right.png",
+    "index": 167,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球在鞋尖下方完整显露，鞋仅接近上缘未见明确覆盖；球面和相机方向拖影明显，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-016.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-003.png"
+    ],
+    "expected_image_sha256": "a9f324f10957358c7f92e13b987cadfeb1b7e41f4a73258ed6b66049b154cc28",
+    "expected_label_sha256": "9bd74a644f90e81fbd3a5468ba8c981019b75e6df09415c257d262b2bdc939a4",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011310_left.png",
+    "index": 168,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形足球完整，鞋与球分离；镜头横斜方向拖影明确，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-017.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-004.png"
+    ],
+    "expected_image_sha256": "c868ca37ce8961937c0960dd1f48fd5f5cb8890210e7c101431c2bc4e88d076c",
+    "expected_label_sha256": "470e4fe6654bef873c3033a52c06da1668c6feeb447c894a07aeea3594c5dde3",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011310_right.png",
+    "index": 169,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形足球完整，鞋与球分离；镜头横斜方向拖影明确，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-017.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-004.png"
+    ],
+    "expected_image_sha256": "307b351a8ecd4a4fafa55dc56114b49a69fc0186588e2029baf26f81ec968733",
+    "expected_label_sha256": "c854a8c3a20ca408529fad01d03639adb7c39abd7db4d36bd0727d82a8cde6f0",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011320_left.png",
+    "index": 170,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形足球完整离开鞋，球体面板和场景出现斜向拖影，原框覆盖可见球缘。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-018.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-004.png"
+    ],
+    "expected_image_sha256": "a42196124a5cab4ecbb4d9a86ed17578cd4f07546b10d388e64234e36849c685",
+    "expected_label_sha256": "ced562c775c26e82e5c99c9285bb650d08f3f8a0596a5f60e362c6cf978ef997",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011320_right.png",
+    "index": 171,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形足球完整离开鞋，球体面板和场景出现斜向拖影，原框覆盖可见球缘。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-018.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-004.png"
+    ],
+    "expected_image_sha256": "9f5c6f4455e5d19bd61e01c43d50e29df04eede24822677b4ffc51708d073d66",
+    "expected_label_sha256": "717f30bf13a64f357d83a06fc9ee384ddf5f633ec1637fc52ba216bb8c3eb997",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011595_left.png",
+    "index": 172,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手掌和手指明确覆盖所持足球上缘；相机及球纹理斜向拖影明显，原框覆盖当前可见球面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-019.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-004.png"
+    ],
+    "expected_image_sha256": "2e4a20af6b75923adf298e9b8bc5c3c7e5f20074528a32fbc6928d1249233611",
+    "expected_label_sha256": "66e9dea654c691b51b744b3d1c933a43f665c0b732789789e9c28b2b3497f3ae",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011595_right.png",
+    "index": 173,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "手掌和手指明确覆盖所持足球上缘；相机及球纹理斜向拖影明显，原框覆盖当前可见球面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-019.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-004.png"
+    ],
+    "expected_image_sha256": "4778b0db171e9b88f6d50b43d45ba88d154f53df75312f60b3cb0b9621e457a8",
+    "expected_label_sha256": "837eb295b3959bd8c020f635afd4cee4968e62ba1278b18faa18287b67ebee36",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011630_left.png",
+    "index": 174,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面星形足球完整，横向拖影使面板和外缘拉长；无明确遮挡，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-020.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-004.png"
+    ],
+    "expected_image_sha256": "13acaeefc77a0805b96a8ee4d8493689c82d00487bd82f6a2c2e0e80b7a9062b",
+    "expected_label_sha256": "df3c34f2e52a8a2e0a572a7d2c4445371a27ffc6ff5a10690bf73eaa0067329d",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011630_right.png",
+    "index": 175,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面星形足球完整，横向拖影使面板和外缘拉长；无明确遮挡，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-020.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-004.png"
+    ],
+    "expected_image_sha256": "f9a4114fbdebc0be3c3fc45fe7e8e35d046c10fb5025930dafc727c353ad0a8f",
+    "expected_label_sha256": "165f6ca263c5cc57e02a862e0e7c88410a5e2839592d73a059b805efeeeec24f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011713_left.png",
+    "index": 176,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形足球完整，球面与地面斜向运动拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-021.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-005.png"
+    ],
+    "expected_image_sha256": "eff4c950f951d7e61848836959d30c414587b58290c6aa432bff35199441ee6f",
+    "expected_label_sha256": "40350bfd4e6d5ae9b8d95658923beb0dbf463831aacfa667437b64d5c62b1a14",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011713_right.png",
+    "index": 177,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形足球完整，球面与地面斜向运动拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-021.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-005.png"
+    ],
+    "expected_image_sha256": "4ebe88b4464672ac899e56e4ca05962961e900ead82a7f21c506ff11cab274be",
+    "expected_label_sha256": "9bb5e9ed600b34f3d90fd7d9bc528d5e2b5e91458ea84b9ecf482295de984b34",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011791_left.png",
+    "index": 178,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整足球横径约36px，纵向变长主要来自明确运动拖影；按完整球尺度记Small，无遮挡，原框覆盖可见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-022.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-005.png"
+    ],
+    "expected_image_sha256": "cf54880440fbd915986e567a749fa3935fb2d330dd0b82bac42107b232c097fb",
+    "expected_label_sha256": "951be84c4e56dbed965ba60f002959c5991e777099d4f7ef7fa8527c8f2be85a",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00011791_right.png",
+    "index": 179,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整足球横径约36px，纵向变长主要来自明确运动拖影；按完整球尺度记Small，无遮挡，原框覆盖可见球。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-022.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-005.png"
+    ],
+    "expected_image_sha256": "8b952e2ea5f91d87f056bccf79234f82bd41319746b16071cb5786afd4c4284f",
+    "expected_label_sha256": "129ec6fbca1460f60607f5ab4bec4130540ae283d554f385ef4a595bd81e151d",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012233_left.png",
+    "index": 180,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整，无前景覆盖；球面横向拖影明确，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-023.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-005.png"
+    ],
+    "expected_image_sha256": "87076d2228f0f6d4ccf6ebffe0338f53c1b53d4d817b277f8775cc12947cbb2f",
+    "expected_label_sha256": "b32b93b0b7a99d43e5c2a948266ebbcbd5a4c38a88c38c6aa5c3cf02c9ffb11b",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012233_right.png",
+    "index": 181,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整，无前景覆盖；球面横向拖影明确，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-023.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-005.png"
+    ],
+    "expected_image_sha256": "c57719d4447d17573f03a250768d09742dbfdb053a55bfbde71b8d3fecf4b26d",
+    "expected_label_sha256": "797d71371680b3a395848013e8d841a74c60f1799062b30b44fa1bc8f3635c1b",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012447_left.png",
+    "index": 182,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "replace",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "当前近景球上方明亮面板及纵向拖影明显超出旧框上边；原像素检查后扩回可见球缘并收紧下缘，不推断隐藏部分，候选仍待人工复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-024.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-005.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/diagnostics/nativegrid-048.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/diagnostics/beforeafter-048.png"
+    ],
+    "expected_image_sha256": "e2125fe24ad39fd3d040162b7a122731bc269ece1a0127d4c28087c85d20572e",
+    "expected_label_sha256": "719cd44a9e6bae0bf1390d6719381dd840554b6390fe326d3657c9c27517dc62",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false,
+    "boxes_xyxy": [
+      [
+        232,
+        179,
+        317,
+        278
+      ]
+    ]
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012447_right.png",
+    "index": 183,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "replace",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "当前近景球上方明亮面板及纵向拖影明显超出旧框上边；原像素检查后扩回可见球缘并收紧下缘，不推断隐藏部分，候选仍待人工复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-024.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-005.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/diagnostics/nativegrid-049.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/diagnostics/beforeafter-049.png"
+    ],
+    "expected_image_sha256": "d4aa27ee2ce65fc39754eed29dad18f7e0a3292a3e046d16117e435ead3df2ab",
+    "expected_label_sha256": "ecd9ad2b7756ce47c77dd7bc1ea0fc0db5a84898905e4bf40a4239706926d6a0",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false,
+    "boxes_xyxy": [
+      [
+        191,
+        178,
+        274,
+        279
+      ]
+    ]
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00014654_left.png",
+    "index": 184,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "两腿之间的小星形球完整显露，裤腿和鞋接近但未明确压过球面；球与地面有斜向拖影，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-025.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-006.png"
+    ],
+    "expected_image_sha256": "0815b08e75e0395244e05dfe8cce1ea829389d538657328a44c1ea181e6707e3",
+    "expected_label_sha256": "252ebd819558fe7ae784299208495ce5c07cd34b327bcf9a333f1454fa53e054",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00014654_right.png",
+    "index": 185,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "两腿之间的小星形球完整显露，裤腿和鞋接近但未明确压过球面；球与地面有斜向拖影，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-025.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-006.png"
+    ],
+    "expected_image_sha256": "0fe5ca528c693f163e5312e8bac250487cd3e7745c051d636e197b22cbec1979",
+    "expected_label_sha256": "334557f3f4fe7fc1452558bd1df1ebe2fbc09363dfb34d3294e6490ded44e5ec",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00014754_left.png",
+    "index": 186,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近左下足球完整，球底约y367距图底376仍有空隙；相机及球面横斜方向拖影明显，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-026.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-006.png"
+    ],
+    "expected_image_sha256": "876cffb8fbeda0db86526f25fa6c45f2e9db44c1e95eb45976d6982c465200fb",
+    "expected_label_sha256": "3f87b8885828fe99180ddb63ca1683a07c2de39ad3038052cf1df137fde1450f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00014754_right.png",
+    "index": 187,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球在当前图像左缘被真实裁切，完整球尺度超过40px；球面与相机横斜方向拖影明显，保留可见部分原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-026.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-006.png"
+    ],
+    "expected_image_sha256": "0c4eed215910443245452f807e2dac04d1854b06f5dd4925bdf56223b505d727",
+    "expected_label_sha256": "5a7f0b92931dae6075d992738e36f7e19488b0da263ee979a2bbd42232b2c671",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015606_left.png",
+    "index": 188,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋旁近景足球完整，鞋未压过球面；球面与地面纵向拖影明确，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-027.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-006.png"
+    ],
+    "expected_image_sha256": "a6c18286a608015adc0af4c27e8e635c5526c1759e0336837bc15fd972e65e63",
+    "expected_label_sha256": "96f1dc9bd5534c40325421faa5cf0d845518ca4689e59757f2a2560f3d877061",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015606_right.png",
+    "index": 189,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋旁近景足球完整，鞋未压过球面；球面与地面纵向拖影明确，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-027.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-006.png"
+    ],
+    "expected_image_sha256": "1fe8c2220d9707b29e00960b1d00cd51b58911f674283535810eb9ab68d37fed",
+    "expected_label_sha256": "2679279bfebb8f90c76afb705196be2bb2f12235c0b7dfc334bf3517c14c76f7",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015671_left.png",
+    "index": 190,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景大星形球完整，虽靠近下缘仍有间隙；球面和场景纵斜方向拖影明显，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-028.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-006.png"
+    ],
+    "expected_image_sha256": "976c30bd427d916e2ba2062847e3d90adef2a1c57df7c6b371b37f16ef19c455",
+    "expected_label_sha256": "7e294c346db1f1b6edb7f4f8962975f07a87765c33110dc240495acbc5eab914",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015671_right.png",
+    "index": 191,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景大星形球完整，虽靠近下缘仍有间隙；球面和场景纵斜方向拖影明显，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-028.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-006.png"
+    ],
+    "expected_image_sha256": "fed727d454219ef7f9db8cb91f48a62b25e5fc8fddcfb8ac929e9927e7b24393",
+    "expected_label_sha256": "c1aa74dda8c77da902a24034d4193551a3d58820205e0535f098a9ed9a95312f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015692_left.png",
+    "index": 192,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整，鞋与球分离；球面及相机有纵向拖影，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-029.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-007.png"
+    ],
+    "expected_image_sha256": "061a3165e2e4e6525b6161fe4f2fbb70333afe221a006a580de0f4225382ddab",
+    "expected_label_sha256": "137f648f53d8add79c71255298468cb976c27317f35c32250273f2e3d82ff3bf",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00015692_right.png",
+    "index": 193,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整，鞋与球分离；球面及相机有纵向拖影，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-029.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-007.png"
+    ],
+    "expected_image_sha256": "fcca6a4de0229a6226dd552ba833ebf7958f7fe64b85b88ef021bf27c0c23231",
+    "expected_label_sha256": "0675b5a8c39552d8d03fe850f7717cc724bb3858c63ebb7dfff68a5289c2a1f0",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016618_left.png",
+    "index": 194,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "大星形足球被手掌及手指覆盖上方轮廓；球面板和球缘无明确方向拖影，原框覆盖可见球面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-030.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-007.png"
+    ],
+    "expected_image_sha256": "38d6fde1a5071c6707e6e6ee0bfdb2bf385857336790bd804bef081da67bb5d5",
+    "expected_label_sha256": "421ef7aa6191166e86c553bfdebc16a27f3310c75f511c0eca3f70394458a708",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016618_right.png",
+    "index": 195,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "大星形足球被手掌及手指覆盖上方轮廓；球面板和球缘无明确方向拖影，原框覆盖可见球面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-030.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-007.png"
+    ],
+    "expected_image_sha256": "c4689da1df0728312560e8ddd85b135865043debd05ab2088645f72991f0a472",
+    "expected_label_sha256": "c8970f8dbf14538f9a1c0f37c93e510190cef65f9533105f534cb76ed91a7d04",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016652_left.png",
+    "index": 196,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "当前全幅只有玩偶、置物架与室内背景，未见可靠足球；原空框保留，镜头斜向拖影明确，No Ball按零框记1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-031.png"
+    ],
+    "expected_image_sha256": "dcff26990cca97b101f365928076a0e574d3b010241601e573289d09e96c0e73",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016652_right.png",
+    "index": 197,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "当前全幅只有玩偶、置物架与室内背景，未见可靠足球；原空框保留，镜头斜向拖影明确，No Ball按零框记1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-031.png"
+    ],
+    "expected_image_sha256": "6787beff4873bb9f49aa80bfe4cff43b060e6b5ca47a2dda7f0992ef2560994f",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016789_left.png",
+    "index": 198,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景球在两鞋旁完整可见，未见脚覆盖；球面与地面斜向拖影明确，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-032.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-007.png"
+    ],
+    "expected_image_sha256": "2e871e7be8c9b87e2294ac773ca4ed1a8ee6fba8028621377878e05d86bec996",
+    "expected_label_sha256": "6c1cb394995e911ba12b5515661f2bb676ac7788d8e5a40b303cb9b5989e372f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016789_right.png",
+    "index": 199,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景球在两鞋旁完整可见，未见脚覆盖；球面与地面斜向拖影明确，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-032.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-007.png"
+    ],
+    "expected_image_sha256": "eefe4a04143f6a8feb1fcfa4f8868a3960dfd9f85bb7a9f300563ca5e24aae47",
+    "expected_label_sha256": "51f096ccc737cb299009dd8c7961db316d3b7e3bf2f5ae105ec306a887d9938c",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016881_left.png",
+    "index": 200,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面远处小星形球完整，低像素软化未呈明确方向拖影；无遮挡，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-033.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-007.png"
+    ],
+    "expected_image_sha256": "8468217fad0bfa03714fd3ced071c87fbcbc4bcaadc9816727bc8f518c8e6f45",
+    "expected_label_sha256": "1a6c19151d4a2f0b2eb891e92cf85069645ddf4d7e6e7b88b2e136bb1d0ac53e",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016881_right.png",
+    "index": 201,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面远处小星形球完整，低像素软化未呈明确方向拖影；无遮挡，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-033.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-007.png"
+    ],
+    "expected_image_sha256": "9e94dd31034100c59249e988f96ede63f2b2d8684e88f0ee3f590702a079bc32",
+    "expected_label_sha256": "e36ff6efc3c3cabba4f84738a1dc5a04e1fd35f0cacf9e3bb0d6af66e2bf57b4",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016883_left.png",
+    "index": 202,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面远处小星形球完整，球面及背景有纵向运动拖影；无遮挡，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-034.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-008.png"
+    ],
+    "expected_image_sha256": "57faf9ffe3cc1af95b39585fcc474a205c3fc368d496e391cf78341a4fd76be9",
+    "expected_label_sha256": "66a429211643490ea64495ba228b288687ffb8982fb16797c9509ca464cb977d",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016883_right.png",
+    "index": 203,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面远处小星形球完整，球面及背景有纵向运动拖影；无遮挡，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-034.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-008.png"
+    ],
+    "expected_image_sha256": "19b4f723936726124176fc2890f79c3d04f2db9db426dc512904facfb54df076",
+    "expected_label_sha256": "d86b115c81cda2cd0a306e21a1dbcc4fcc2d976625df931c8eb5ab0de34d6c3f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016933_left.png",
+    "index": 204,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面星形足球完整离开鞋，球面和场景有斜向拖影，原框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-035.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-008.png"
+    ],
+    "expected_image_sha256": "d8465fdee92df4f7c0c38bc146873d91ac302744bd8614ff81d062f9597a1ac8",
+    "expected_label_sha256": "1fff9ef4e932c81927af15df46361b9600b05c0a9d227e8dc3a2c1ee81cc014f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016933_right.png",
+    "index": 205,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面星形足球完整离开鞋，球面和场景有斜向拖影，原框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-035.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-008.png"
+    ],
+    "expected_image_sha256": "0569e9f645f4dc2dafb48993ce119330f4057306d31b54261cdd6ba447fa70e7",
+    "expected_label_sha256": "a92f6a27900addc3dc1a077573fa9c2aaaa10004aa7f3cf1148214006cbbbf3d",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016961_left.png",
+    "index": 206,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "右侧近景大星形足球完整，球面与相机有明确方向拖影，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-036.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-008.png"
+    ],
+    "expected_image_sha256": "993502ff75befd31a9e8d669309e82ef2d6a033ea58346c96890a01cad3bddae",
+    "expected_label_sha256": "9ad76cb25fa552c00147991e5c72a6764fdff78daac5fa5fcb44bfa358ab1021",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00016961_right.png",
+    "index": 207,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "右侧近景大星形足球完整，球面与相机有明确方向拖影，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-036.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-008.png"
+    ],
+    "expected_image_sha256": "da5baae250af4beca3a0b939fd302077afdcbc1b8c25d2e73267779b5d473726",
+    "expected_label_sha256": "7620b6decdbad2ce667abcfe760534da66a006c3dc39bd892f392f6ccfd5d8a6",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017083_left.png",
+    "index": 208,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景足球上方的鞋与球缘留有间隙，未见鞋面覆盖；球与镜头斜向拖影明显，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-037.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-008.png"
+    ],
+    "expected_image_sha256": "b6a8ee9d6bac13862da28e07aec9b07eb8b066efd08851f83105caa1282a20d3",
+    "expected_label_sha256": "02bbd7ce7f52f08140a560e8d9562d69580a40023d7ace0bf4e55a8843f5aebe",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017083_right.png",
+    "index": 209,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景足球上方的鞋与球缘留有间隙，未见鞋面覆盖；球与镜头斜向拖影明显，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-037.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-008.png"
+    ],
+    "expected_image_sha256": "a77c570721d97d7854c9ed8dc2789ef2b838370a204da923bbfb06d0bced85f8",
+    "expected_label_sha256": "c8fad056ecb0f0204aa8f09640c1328a760dc8b331594653e388a6c042c7610e",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017273_left.png",
+    "index": 210,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋明确覆盖足球顶部轮廓；球面与场景基本稳定，无明确方向拖影，保留可见球面的原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-038.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-009.png"
+    ],
+    "expected_image_sha256": "9518afea86b08d2edabca1d5e30facf51f03698f0bae1363a25c4dfbd0094c81",
+    "expected_label_sha256": "227592849ee4a09352d7b99f19477e5de7d1f7bd57f8410bc0d3fb609000e033",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017273_right.png",
+    "index": 211,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋明确覆盖足球顶部轮廓；球面与场景基本稳定，无明确方向拖影，保留可见球面的原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-038.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-009.png"
+    ],
+    "expected_image_sha256": "997ad98467116675e867339daa854fb43041a4a23f3d03bf04966741eb368fe0",
+    "expected_label_sha256": "6e6acbaae1a74ce07020600d6309a72d9f5e65724bfaa59537b8f559d671cf51",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017293_left.png",
+    "index": 212,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋前缘明确压住足球左上球弧；球面及镜头横向拖影明显，保留覆盖可见部分的原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-039.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-009.png"
+    ],
+    "expected_image_sha256": "21f7aa98f385b16aebf14b333f2f4ee0948844f4908e0f58e29e75afb09a5c4e",
+    "expected_label_sha256": "eadc4401b405144705c52170530dfc77f8524f60f1c855fd0f9ed3371c062488",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017293_right.png",
+    "index": 213,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋前缘明确压住足球左上球弧；球面及镜头横向拖影明显，保留覆盖可见部分的原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-039.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-009.png"
+    ],
+    "expected_image_sha256": "5edb188918fccc612ca9cace7c5a2a7428a834d58ebebfb7dcc060e0a826f26b",
+    "expected_label_sha256": "1858710f78010f3f6ecf4c1a06c7c7ad4a9f20fe8cefe0e11065a0e2df9c8e60",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017295_left.png",
+    "index": 214,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球左上球弧被黑鞋前缘覆盖；球与相机有方向拖影，原框覆盖可见球面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-040.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-009.png"
+    ],
+    "expected_image_sha256": "102e267b3ae971170bf4e24dcb214cee8b8867f77f2ca0f915a987852bd67d12",
+    "expected_label_sha256": "dfbbf7f16eb4ad998176077fb28a8aa6a3569f075292e5c60ce0fce9cce5182e",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017295_right.png",
+    "index": 215,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球左上球弧被黑鞋前缘覆盖；球与相机有方向拖影，原框覆盖可见球面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-040.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-009.png"
+    ],
+    "expected_image_sha256": "342092016e9caddd9c85e2e8e789d3b9e431f6733b4395ddcdc3b1cdfc0e9cf9",
+    "expected_label_sha256": "8e2504f42f8ab67d294290c0447c5974a3c35c322764f0e9cb2ab70d5bfbcf84",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017297_left.png",
+    "index": 216,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋盖住足球左上轮廓；球与相机有明确方向拖影，原框覆盖当前可见球面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-041.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-009.png"
+    ],
+    "expected_image_sha256": "e4b541d5e8f787f884ba2b59f4f3ceee6a4d48e0b818e15b7d429d7047fa32a1",
+    "expected_label_sha256": "61e0f6b5c15e8aa90cd546c4de5ea69bca8c09028ec8373fb4cf946a67cb311b",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017297_right.png",
+    "index": 217,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋盖住足球左上轮廓；球与相机有明确方向拖影，原框覆盖当前可见球面。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-041.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-009.png"
+    ],
+    "expected_image_sha256": "2abac97d1f06e1e141287ec3a68bcdbcc83be58c2e23415f4a1b6861da84f979",
+    "expected_label_sha256": "378b17d7a85b6020ef1e1f1a3323799085e7e06569f14a40b27e2224c7354153",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017311_left.png",
+    "index": 218,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景足球完整离开鞋，球面强斜向拖影明确；保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-042.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-010.png"
+    ],
+    "expected_image_sha256": "e393764aec6e6cfe41d86913cd46dadd5ccd80d289d137e28acd849e2069bc79",
+    "expected_label_sha256": "a725b8571fb08322f8f6deb274c168274ea13cf7c2975f8faece5864f40e9de0",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017311_right.png",
+    "index": 219,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景足球完整离开鞋，球面强斜向拖影明确；保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-042.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-010.png"
+    ],
+    "expected_image_sha256": "5dafea93e82a9a6426547f92afd21c3eff7eec6e4be3c5409169c8c8b61299c7",
+    "expected_label_sha256": "22d580f8eed695cea513a02b74bedd704989206fb67a2babc8698d30bb3ec398",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017401_left.png",
+    "index": 220,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋明确覆盖近景足球上部球面；球面和镜头有方向拖影，原框覆盖可见部分。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-043.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-010.png"
+    ],
+    "expected_image_sha256": "53fd1fc875f9d1a32f0e216b796f9c38255bfefdf10b796c87ace3ac8b8fcf90",
+    "expected_label_sha256": "517c19a0b37d65e077b6dae428c2c09024eba2bab09af7eab0a5c5e7d13b1981",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017401_right.png",
+    "index": 221,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋明确覆盖近景足球上部球面；球面和镜头有方向拖影，原框覆盖可见部分。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-043.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-010.png"
+    ],
+    "expected_image_sha256": "d2a9e113016e290f8cfc26824f084a416cd61500ff9521132d275ef17c82447b",
+    "expected_label_sha256": "dda627feeca5b3060b84e1257e2b82336ce3e4856ad1dcf90bf6417239b15e29",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017403_left.png",
+    "index": 222,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋覆盖近景足球左上球面，球与背景方向拖影明显；原框覆盖当前可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-044.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-010.png"
+    ],
+    "expected_image_sha256": "d41bdf2799780ba15d3ca9ee1ee043f3c6f7adc57f7b145d1c454a0442d32523",
+    "expected_label_sha256": "282f15feef7995571711143f75847587969a9d2ecf3995520b91f25eafa20c8f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017403_right.png",
+    "index": 223,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "replace",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": false,
+    "confidence": "uncertain",
+    "reason": "旧框圈住左边屏幕的白色反光而非足球；本图中左部黑鞋下可见真实星形足球，鞋覆盖球左上缘，球与镜头方向拖影明确；删除反光框并按当前可见真球重画，仍待人工复核。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-044.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-010.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/diagnostics/nativegrid-089.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/diagnostics/beforeafter-089.png"
+    ],
+    "expected_image_sha256": "076d9f5a6780e7af8622d69b394b42c9f34c1562b181109ea2ac89004ef22e2f",
+    "expected_label_sha256": "f46a7b177a8acd7e7262b3208f26e2ce8d5b3eac58a90d6d8ceb79cdafe93d30",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false,
+    "boxes_xyxy": [
+      [
+        230,
+        212,
+        305,
+        282
+      ]
+    ]
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017421_left.png",
+    "index": 224,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋位于足球后上方，球顶仍保持完整曲弧，接触未见明确覆盖；球与相机方向拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-045.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-010.png"
+    ],
+    "expected_image_sha256": "2714d140147736ba16cf48a29ede4b96d34c0f9b92f5c651af5c13f24bdec430",
+    "expected_label_sha256": "c93ab55a75273b0c5fd00ee698205f28a6643d8d7f632fa07269a87ce601d033",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017421_right.png",
+    "index": 225,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "黑鞋位于足球后上方，球顶仍保持完整曲弧，接触未见明确覆盖；球与相机方向拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-045.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-010.png"
+    ],
+    "expected_image_sha256": "a1123fdd7d1cbfda526e9dac642a60c3714d1c60d63a766090c11271319f70e5",
+    "expected_label_sha256": "814b37eaf88417ec7c13aeb838cc38d72f652b97cf2b3023d2a5a0d5d35adf1f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017897_left.png",
+    "index": 226,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景足球完整，球面及场景横向方向拖影明显，原框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-046.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-011.png"
+    ],
+    "expected_image_sha256": "67ea50b659484a177967df2c49a8f1b3625b334d380de4a99c05461b93661c5d",
+    "expected_label_sha256": "f545cfb2a603ec15a46027f3476381078e2a033571867b4dc43dff0afc656622",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017897_right.png",
+    "index": 227,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景足球完整，球面及场景横向方向拖影明显，原框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-046.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-011.png"
+    ],
+    "expected_image_sha256": "c6d2eed7552b0d1a6d69bb02d6979a187ed6027648e4f0f9203c4f1098a0988a",
+    "expected_label_sha256": "264f4377ba04c26160e6c58a4834bdf88149759d4f0311799688be08c18b2273",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017910_left.png",
+    "index": 228,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景足球完整，球面纹理纵斜向拉长明显，原框覆盖运动中的球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-047.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-011.png"
+    ],
+    "expected_image_sha256": "3a543c2641807ec037d7426667f836cb31938499f91463a0b09f3aa628eff4bb",
+    "expected_label_sha256": "4ad7cf4f39c0574cd98d58d36290799de9c7d36268ce7aee8a2a73da6f62d5ca",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017910_right.png",
+    "index": 229,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景足球完整，球面纹理纵斜向拉长明显，原框覆盖运动中的球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-047.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-011.png"
+    ],
+    "expected_image_sha256": "7cb15e714927a36eb5753cb4e3051334adb960cd697e408f44d4398f848dd274",
+    "expected_label_sha256": "c8d540baf1954cca3ecf591a102b95de329e3c71a8cf098a00b4505654a901d1",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018012_left.png",
+    "index": 230,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整星形球的球面及背景横向拖影明显，无前景覆盖，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-048.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-011.png"
+    ],
+    "expected_image_sha256": "6cf69b6810d08a8856462d5cc16f47098669f1c76f868eee0f0dc0f182d898f8",
+    "expected_label_sha256": "2c66233580692a814db87e21cc3caa3347487dfacf8c31cb798a5ea153f7cbbc",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018012_right.png",
+    "index": 231,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整星形球的球面及背景横向拖影明显，无前景覆盖，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-048.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-011.png"
+    ],
+    "expected_image_sha256": "9e22fac23c561117caec929f36248c9aba971c0d2da370a03ed827ec94df49cd",
+    "expected_label_sha256": "21cb0316c52e44010e02be6626593fd4c77118aac60d50271571ce0c66245a71",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018019_left.png",
+    "index": 232,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整星形球的球面及地面斜向拖影明显，无前景覆盖，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-049.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-011.png"
+    ],
+    "expected_image_sha256": "dcfc376823a18fcf4d14918430df7fe0ac26f39fa8986f1477591d22df94e164",
+    "expected_label_sha256": "d1ac19b1aa1f4b3ab2e6367fc10518d6ec02cc14799be3a327798f1d0e38538c",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018019_right.png",
+    "index": 233,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整星形球的球面及地面斜向拖影明显，无前景覆盖，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-049.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-011.png"
+    ],
+    "expected_image_sha256": "945737ffcd823a5bc993bf1af91896d9268298d3a492b0d7edc6d6173a2eff6c",
+    "expected_label_sha256": "46dee04d3f64b13102c6b57ef19b560178c5e139d315fe9a013766428e079c00",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018181_left.png",
+    "index": 234,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "星形球位于两鞋前方且球轮廓完整；相机和球面斜向拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-050.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-012.png"
+    ],
+    "expected_image_sha256": "24e60f0e9384d90ca6e0a46e72a95b62ba157ec571f53783fd066f5cd4171142",
+    "expected_label_sha256": "c24f13d35bc8f2d6af40ce0ff6f3163d1fe0021a2a89e73e475467a9c95efeaf",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018181_right.png",
+    "index": 235,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "星形球位于两鞋前方且球轮廓完整；相机和球面斜向拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-050.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-012.png"
+    ],
+    "expected_image_sha256": "b43171c4923734c90892ae6a30181d9c2f3290fccd180c299f46bdd8a2750c93",
+    "expected_label_sha256": "82c80a41f5c6980e334e77d2e9d241be107dc986166b74257accb3bec0db30a8",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018328_left.png",
+    "index": 236,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "星形球与前方鞋分离，球缘完整；球面和相机纵斜方向拖影明显，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-051.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-012.png"
+    ],
+    "expected_image_sha256": "f3088f47d3b7b1f02128003154e97f5e62d4cacdc05c1d3e7517c1d11c993af3",
+    "expected_label_sha256": "950e9655505946fa11ef4356f2d3d2a8fc3fb0a1a3862bcd99ec42662590eb1c",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018328_right.png",
+    "index": 237,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "星形球与前方鞋分离，球缘完整；球面和相机纵斜方向拖影明显，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-051.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-012.png"
+    ],
+    "expected_image_sha256": "51685178b1a84e22e7c4652deeffafc658c8f256ec63ee5fbfc2e0488a915133",
+    "expected_label_sha256": "57361f28d2ece6d5860c16a493bd91dfef2880e72ca0d132794eb726bd9dd803",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018332_left.png",
+    "index": 238,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "星形球完整离开鞋，球纹理与地面横斜向拖影明确，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-052.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-012.png"
+    ],
+    "expected_image_sha256": "281945fd64589ac6a99a6699bf952fc0279030562b3fcd28aa22c9b9343adf3d",
+    "expected_label_sha256": "a505ef6f276f2a2f546a2c3fc1f547a4b31eb024c2405f932d531bff569f37d6",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018332_right.png",
+    "index": 239,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "星形球完整离开鞋，球纹理与地面横斜向拖影明确，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-052.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-012.png"
+    ],
+    "expected_image_sha256": "02931538df745e8bb32625ad787174340823820c0dd4ae6beb1464c6c93b1b11",
+    "expected_label_sha256": "a806cad1e14363fd70ea6b2609117d65302ff4b813f5f4fae2154d0dd48eb00d",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018393_left.png",
+    "index": 240,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "机器人右侧星形球完整，机器人脚和鞋均未覆盖；球与相机斜向运动拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-053.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-012.png"
+    ],
+    "expected_image_sha256": "464028f434220d401655c52d008087085924a61e95dd4e8db7ccf68c60d0b8ea",
+    "expected_label_sha256": "f850b0c6d34e58500eac0260f25a422d103e9d138946e395ba40c3dd0ef4633e",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018393_right.png",
+    "index": 241,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "机器人右侧星形球完整，机器人脚和鞋均未覆盖；球与相机斜向运动拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-053.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-012.png"
+    ],
+    "expected_image_sha256": "892d5f84b797d0d1526f3f157b6fd053078fa4001e0d18b71523a5ff25d84b69",
+    "expected_label_sha256": "5864fbe0d759505293466a0f7a8dc38a2e90dc2358e95ec4d2cb8575d2520442",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018536_left.png",
+    "index": 242,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋尖前缘明确覆盖足球左上弧，球面与场景斜向运动拖影明显；保留覆盖当前可见部分的原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-054.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-013.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/diagnostics/visibility-108.png"
+    ],
+    "expected_image_sha256": "59ee48c34b9b88bebcb37ca37fcbc15b6af634e6b85aa00ea0a7a83bddaf71ae",
+    "expected_label_sha256": "89aa85f34564fce60e528b7ad92cfbb4043cdd47ce66cedca336d6d4e3934cba",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018536_right.png",
+    "index": 243,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋尖前缘明确覆盖足球左上弧，球面与场景斜向运动拖影明显；保留覆盖当前可见部分的原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-054.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-013.png"
+    ],
+    "expected_image_sha256": "2b6f52dc47efdfaa312259dda120f83f81f13edae3257b226c11eb2532733f27",
+    "expected_label_sha256": "14283239dabde189c191e6e2209d3cf44713f4dfcd68f9a34c617dcf95d07f3f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018555_left.png",
+    "index": 244,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整足球在鞋前方，球纹理及外缘横向拉长拖影明显，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-055.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-013.png"
+    ],
+    "expected_image_sha256": "34ada16b761a04b0ae7e37e5b559e863923184b744f9ac3ae8e920a2d49f6eec",
+    "expected_label_sha256": "d11ecc50a40d48bb666f0c3d6fa3cd7485bdf09c57ef574384b5ffb87ed85c3c",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018555_right.png",
+    "index": 245,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "完整足球在鞋前方，球纹理及外缘横向拉长拖影明显，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-055.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-013.png"
+    ],
+    "expected_image_sha256": "82323baa79339c2605333835d42f94cc9adfdae98cda05d35ee2c2be47bc5d32",
+    "expected_label_sha256": "7c58d9aa58c4711a0937de34822a0a8f255fb71c41b572c452bc943ecb857899",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018569_left.png",
+    "index": 246,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球与上方鞋分离，足球完整显露；球面和场景纵向方向拖影明显，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-056.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-013.png"
+    ],
+    "expected_image_sha256": "7c4cec3586261cfb6fa0b546fc1034274515da8638bb95c896bc45781c39906d",
+    "expected_label_sha256": "7337f602ee1155475943d6847c9eeecfaa1077d0750c4edc1e9f5af9ea94ca9f",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018569_right.png",
+    "index": 247,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "球与上方鞋分离，足球完整显露；球面和场景纵向方向拖影明显，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-056.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-013.png"
+    ],
+    "expected_image_sha256": "9a669b9b6ce2ff6ae595890db54c350238fc58f6ec3985aa65b66ef4ff24699e",
+    "expected_label_sha256": "ae7a0f5603fd0ef895f407f5703ff6a0f00fe0d60d4d3b0a9c297a36d9ef6437",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018599_left.png",
+    "index": 248,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面星形足球完整，球面和场景斜向拖影明显，原框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-057.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-013.png"
+    ],
+    "expected_image_sha256": "be0fc0d16a896f06bc3ab15fe44c98242d2ffe7519b09ca80c78ff2214fc4cc3",
+    "expected_label_sha256": "e309c588abe5d62643dbe67c1cecbbab520a0345e7ac19dd0a27f1e88ac3abbc",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018599_right.png",
+    "index": 249,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面星形足球完整，球面和场景斜向拖影明显，原框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-057.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-013.png"
+    ],
+    "expected_image_sha256": "3b5e607d333e7f84d32327d9a80d02087253770a5b6c5a5da36f64bcfb7a4670",
+    "expected_label_sha256": "cf93e9e49fa35b558c74c6b0076b9b675f69338c1114cd9631b95f43e99d0f5a",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018601_left.png",
+    "index": 250,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面星形足球完整，球纹理与相机纵斜方向拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-058.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-014.png"
+    ],
+    "expected_image_sha256": "8112e41ce7cf7e1a33c590634d1438783f6a250fed0926bd1e9d03f7aaa1fdbd",
+    "expected_label_sha256": "56a37d5b1a13b0b850bfbf05f7289a7d3fdbcd6f320452635bf591c6af08a5c9",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018601_right.png",
+    "index": 251,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "地面星形足球完整，球纹理与相机纵斜方向拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-058.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-014.png"
+    ],
+    "expected_image_sha256": "8bb0670befa56277e52b8c3119a7a457c5147328e5c833bd89cd9750c8b8b12c",
+    "expected_label_sha256": "24adfe58643407c13d6d7c777a4baea6d367c0a60c82a8bf37f5c88d595b96da",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018618_left.png",
+    "index": 252,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全幅只有人物鞋、地面白标记和影子，未见可靠足球；原空框保留，镜头方向拖影明确，No Ball按最终零框记1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-059.png"
+    ],
+    "expected_image_sha256": "e4110c50df177484fd206fbead28d2d90b72a74592c4ae510afac7ad0a3291ae",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018618_right.png",
+    "index": 253,
+    "scene_seen": true,
+    "roi_boxes_seen": [],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "1"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "全幅只有人物鞋、地面白标记和影子，未见可靠足球；原空框保留，镜头方向拖影明确，No Ball按最终零框记1。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-059.png"
+    ],
+    "expected_image_sha256": "e09e8ac99a0d8278aeb055d78d16299138e9b7a7c2df275a44b979d55c070331",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018638_left.png",
+    "index": 254,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整，与鞋分离；球面及地面方向拖影明显，原框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-060.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-014.png"
+    ],
+    "expected_image_sha256": "998e5daf2d9482bc289901523185bdefdb0ea21a9d9e65c005320a869672dde2",
+    "expected_label_sha256": "17f3dc3cd51bbd2fc20c4699ab5e3c073f509505e65ffb542b6eec41721fbdfa",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018638_right.png",
+    "index": 255,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整，与鞋分离；球面及地面方向拖影明显，原框覆盖可见球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-060.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-014.png"
+    ],
+    "expected_image_sha256": "d31620d9303249b82c7e4b8a2e4361db0d69331dee3e2075decb01848715038e",
+    "expected_label_sha256": "9b4b3bf56a646b05e35c869f006ea43badccdf8fd45da3e984666028d1fc3cb0",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018650_left.png",
+    "index": 256,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整，球与镜头有强斜向运动拖影，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-061.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-014.png"
+    ],
+    "expected_image_sha256": "48f6c76836ccd9d92068e791d6a80c71233ff759d663617e6bb15a8f0c430595",
+    "expected_label_sha256": "e55ce49382f9d86c75e0d68aa165c1792e586f34dcb8f88bf5869d6e040bff74",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018650_right.png",
+    "index": 257,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "近景星形球完整，球与镜头有强斜向运动拖影，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-061.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-014.png"
+    ],
+    "expected_image_sha256": "ddad28f07ace265df619aa5dbc474da42dd9ca93a2d0811de0f8f366295180cf",
+    "expected_label_sha256": "1697ab22b66d15da63617628738a2154af82e41d507d409639d43980eb7e689d",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018706_left.png",
+    "index": 258,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球在鞋前且球顶轮廓仍完整，未因接触记遮挡；球面与镜头方向拖影明确，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-062.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-014.png"
+    ],
+    "expected_image_sha256": "35ef981599cdbc6be1392bed9a14483d2fed34128c4cd9dd3a04fab92389b525",
+    "expected_label_sha256": "4efffa941b6f7d535bf0ec1ed0fd9cc8654f2f5ef00783cdb3a044d4ebcb60b8",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018706_right.png",
+    "index": 259,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "足球在鞋前且球顶轮廓仍完整，未因接触记遮挡；球面与镜头方向拖影明确，原框可保留。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-062.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-014.png"
+    ],
+    "expected_image_sha256": "72385828c3376cc13dfb26e2869fa8340abf2f269dee89a4162a24b873535085",
+    "expected_label_sha256": "d2c325e066c1770089a6a7591a0b0e58eff1be1bbcd4159b50cd8d7b7734f8e2",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018898_left.png",
+    "index": 260,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋旁星形球完整显露，鞋未覆盖球面；球面及相机斜向运动拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-063.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-015.png"
+    ],
+    "expected_image_sha256": "1a01e8c9a6a8631343c8c31a789dc32044a7118bc30775b741192a0b7ee798f1",
+    "expected_label_sha256": "7ae02578286a96a225a615b102301bdce486f69d6c7523dd6584b81474785bbd",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018898_right.png",
+    "index": 261,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋旁星形球完整显露，鞋未覆盖球面；球面及相机斜向运动拖影明显，保留原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-063.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-015.png"
+    ],
+    "expected_image_sha256": "9bd6ac4882310b31f80a3eebdc24bcde7ca05a7c6328e58bebe854de0f47cf2e",
+    "expected_label_sha256": "2f373a3b03a1c57481bb5d86cc9c0e6f04835553443f8da6f76ea930fcc89e78",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018900_left.png",
+    "index": 262,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋尖压过足球左上弧的一小段，球的完整尺度约42px；球面及场景无明确方向拖影，保留可见球面的原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-064.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-015.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/diagnostics/visibility-128.png"
+    ],
+    "expected_image_sha256": "69b49e1878fe520849e0b13b9523975d6d4392ffab5587c5cfb11e888097793e",
+    "expected_label_sha256": "c80fcbc16e3181b7a3d1825f86d9b06e9a98abdf368c7b0b7ab16821661d67dc",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018900_right.png",
+    "index": 263,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "鞋尖压过足球左上弧的一小段，球的完整尺度约42px；球面及场景无明确方向拖影，保留可见球面的原框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-064.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-015.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/diagnostics/visibility-129.png"
+    ],
+    "expected_image_sha256": "9d2f2fd77696d6429defa86533c59f38735d4d1ea3ef7026e98c7538eb30af0e",
+    "expected_label_sha256": "25783b4d268a43ffedd0bacead4a30bfb1ecc0e2b4e2d0b6f7bb09089be69173",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018902_left.png",
+    "index": 264,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "星形球在鞋右侧完整显露，球面与相机斜向拖影明确，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-065.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-015.png"
+    ],
+    "expected_image_sha256": "c05094aea02e66989ccc5597025dcb32a0421bfc2492151b3cd4bc5447eef948",
+    "expected_label_sha256": "d2eb8660187394506bbc3fc65cd0ce980cd81ce6d67686b7a2b74ba8c2b21f8d",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00018902_right.png",
+    "index": 265,
+    "scene_seen": true,
+    "roi_boxes_seen": [
+      0
+    ],
+    "action": "keep",
+    "flags": {
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "1",
+      "No Ball": "0"
+    },
+    "scene_certain": true,
+    "confidence": "high",
+    "reason": "星形球在鞋右侧完整显露，球面与相机斜向拖影明确，原框覆盖球体。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/full/page-065.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/group-2/roi/page-015.png"
+    ],
+    "expected_image_sha256": "23e14d7e572f4fa5fbd9a2d8e81c38fb8f5d7fd7539d7cfe47c55edd5d16d83c",
+    "expected_label_sha256": "33ec2c993ff3c74dea3fdd042195b2a135c42a51b43a7b7b58a9934d9b48a764",
+    "label_review_required": "1",
+    "scene_review_required": "1",
+    "user_approved": false
+  }
+]

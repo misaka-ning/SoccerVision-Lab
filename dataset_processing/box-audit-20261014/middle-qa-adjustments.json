@@ -1,0 +1,302 @@
+[
+  {
+    "filename": "video_4bec9c343db72928_frame_00011394_left.png",
+    "split": "train",
+    "expected_label_sha256": "c8371fcbf41447d3a4d8967b708fee4828442cbe0cd1c78ea15838d1efef44bd",
+    "boxes_xyxy": [
+      [
+        230,
+        279,
+        259,
+        315
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：原生与同帧右眼核对：白蓝球可见左弧从约y279开始，旧候选右侧延到黑鞋白底/鞋面；调整到球外沿包围框。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4658,
+    "previous_proposed_boxes_xyxy": [
+      [
+        231,
+        285,
+        266,
+        316
+      ]
+    ],
+    "qa_reason": "原生与同帧右眼核对：白蓝球可见左弧从约y279开始，旧候选右侧延到黑鞋白底/鞋面；调整到球外沿包围框。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012104_left.png",
+    "split": "train",
+    "expected_label_sha256": "f113ec20da32ce5a41705e23cd16436fc58941ea0a30c87b2d7a902379130ea5",
+    "boxes_xyxy": [
+      [
+        348,
+        254,
+        505,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：暗色手持球上侧白灰外弧在y254..263可见，候选y264漏掉上缘；左缘保留灰暗模糊轮廓，右侧手部不加入球框。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4846,
+    "previous_proposed_boxes_xyxy": [
+      [
+        350,
+        264,
+        505,
+        376
+      ]
+    ],
+    "qa_reason": "暗色手持球上侧白灰外弧在y254..263可见，候选y264漏掉上缘；左缘保留灰暗模糊轮廓，右侧手部不加入球框。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012104_right.png",
+    "split": "train",
+    "expected_label_sha256": "8d2474fd2b0952a4b387a4ce04a392c0de6b0ae89f4e5be2c69979b7664fd3d0",
+    "boxes_xyxy": [
+      [
+        282,
+        254,
+        429,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：右眼暗色手持球顶部白灰外弧延到约y254，左侧灰暗圆弧约x282；候选顶边与左边略切球，补全可见轮廓。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4847,
+    "previous_proposed_boxes_xyxy": [
+      [
+        285,
+        259,
+        429,
+        376
+      ]
+    ],
+    "qa_reason": "右眼暗色手持球顶部白灰外弧延到约y254，左侧灰暗圆弧约x282；候选顶边与左边略切球，补全可见轮廓。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012109_left.png",
+    "split": "train",
+    "expected_label_sha256": "d2890877ca37455e773093ec390791d6781eb16018a2ede1bbbb7893a6b8e28d",
+    "boxes_xyxy": [
+      [
+        442,
+        287,
+        569,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：候选顶边y304明显穿过球顶部白弧；原生球上沿在约y287..298，而上方棕色区域为手，顶边补到可见球弧。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4848,
+    "previous_proposed_boxes_xyxy": [
+      [
+        442,
+        304,
+        569,
+        376
+      ]
+    ],
+    "qa_reason": "候选顶边y304明显穿过球顶部白弧；原生球上沿在约y287..298，而上方棕色区域为手，顶边补到可见球弧。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012109_right.png",
+    "split": "train",
+    "expected_label_sha256": "8f298b6c3c06dfdf3efd5b22a1f092c2dacb069cc94fa1b1a4db00a2e8068386",
+    "boxes_xyxy": [
+      [
+        380,
+        285,
+        506,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：右眼候选顶边y304穿过顶部白蓝外弧；原生球灰白上沿约y285..299，扩大顶边同时不包含上方手。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4849,
+    "previous_proposed_boxes_xyxy": [
+      [
+        380,
+        304,
+        506,
+        376
+      ]
+    ],
+    "qa_reason": "右眼候选顶边y304穿过顶部白蓝外弧；原生球灰白上沿约y285..299，扩大顶边同时不包含上方手。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012131_left.png",
+    "split": "train",
+    "expected_label_sha256": "c48f49e5b3f9d6d4676c0b29bb2c9eafc124fadfb07881db8448642e167c2981",
+    "boxes_xyxy": [
+      [
+        442,
+        258,
+        504,
+        319
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：手持球左上白灰轮廓从约y258可见，候选y265少量切到外弧；底部及左右保持原提案。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4854,
+    "previous_proposed_boxes_xyxy": [
+      [
+        442,
+        265,
+        504,
+        319
+      ]
+    ],
+    "qa_reason": "手持球左上白灰轮廓从约y258可见，候选y265少量切到外弧；底部及左右保持原提案。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00012160_right.png",
+    "split": "train",
+    "expected_label_sha256": "20bc09cf174d7b18183e6929f0ae816785d5ad3110c3a084b34b57eb6a3fcc77",
+    "boxes_xyxy": [
+      [
+        324,
+        156,
+        382,
+        211
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：原生灰暗球左侧圆弧约x324..329，候选x330切到可见表面；只向左补齐外缘。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 4863,
+    "previous_proposed_boxes_xyxy": [
+      [
+        330,
+        156,
+        382,
+        211
+      ]
+    ],
+    "qa_reason": "原生灰暗球左侧圆弧约x324..329，候选x330切到可见表面；只向左补齐外缘。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017385_left.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        602,
+        353,
+        660,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：底边蓝白星纹球片段真实可辨；球白色上弧约y353，底边横向轮廓约x602..660，旧候选只包内部片段。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6226,
+    "previous_proposed_boxes_xyxy": [
+      [
+        611,
+        360,
+        650,
+        376
+      ]
+    ],
+    "qa_reason": "底边蓝白星纹球片段真实可辨；球白色上弧约y353，底边横向轮廓约x602..660，旧候选只包内部片段。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017394_left.png",
+    "split": "train",
+    "expected_label_sha256": "5eea064ae2244b57447c418d59dadd980cf9ef15f804f185399b11cb148a3034",
+    "boxes_xyxy": [
+      [
+        315,
+        326,
+        351,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：全图、右眼及相邻6230/6231核对为同一白蓝足球，被黑鞋大幅遮挡。可见球后侧白蓝外弧从约y326到裁边，旧候选y362切掉后侧弧且漏左下球面。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6228,
+    "previous_proposed_boxes_xyxy": [
+      [
+        331,
+        362,
+        352,
+        376
+      ]
+    ],
+    "qa_reason": "全图、右眼及相邻6230/6231核对为同一白蓝足球，被黑鞋大幅遮挡。可见球后侧白蓝外弧从约y326到裁边，旧候选y362切掉后侧弧且漏左下球面。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00017394_right.png",
+    "split": "train",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "boxes_xyxy": [
+      [
+        269,
+        321,
+        312,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "Native per-eye visual review: locate the visible football and align four sides with its visible outer boundary; exclude hand, shadow and unrelated equipment. Truncated balls use only visible image extent. Pending human review.；第二视觉 QA：右眼足球在黑鞋后侧的白蓝外弧从约y321延续到底边，左下表面约x269；旧候选仅覆盖y353以下内部白片。",
+    "source": "root_full_scene_and_native_roi_visual_review",
+    "index": 6229,
+    "previous_proposed_boxes_xyxy": [
+      [
+        290,
+        353,
+        320,
+        376
+      ]
+    ],
+    "qa_reason": "右眼足球在黑鞋后侧的白蓝外弧从约y321延续到底边，左下表面约x269；旧候选仅覆盖y353以下内部白片。",
+    "qa_status": "native_visual_adjustment_pending",
+    "qa_source": "middle_native_second_visual_qa",
+    "production_written": false
+  }
+]

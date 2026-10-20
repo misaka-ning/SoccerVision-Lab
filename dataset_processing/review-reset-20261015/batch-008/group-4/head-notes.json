@@ -1,0 +1,960 @@
+{
+  "decisions": {
+    "0": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "画面朝向窗帘、玩偶和陈列架，未见足球；白色玩偶头、红帽人物衣裤的黑白印花不是球，保持空label，无明确方向拖影。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "1": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "画面朝向窗帘、玩偶和陈列架，未见足球；白色玩偶头、红帽人物衣裤的黑白印花不是球，保持空label，无明确方向拖影。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "2": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "画面朝向窗帘、玩偶和陈列架，未见足球；白色玩偶头、红帽人物衣裤的黑白印花不是球，保持空label，无明确方向拖影。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "3": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "画面朝向窗帘、玩偶和陈列架，未见足球；白色玩偶头、红帽人物衣裤的黑白印花不是球，保持空label，无明确方向拖影。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "4": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "画面朝向窗帘、玩偶和陈列架，未见足球；白色玩偶头、红帽人物衣裤的黑白印花不是球，保持空label，无明确方向拖影。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "5": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "画面朝向窗帘、玩偶和陈列架，未见足球；白色玩偶头、红帽人物衣裤的黑白印花不是球，保持空label，无明确方向拖影。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "6": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "reason": "窗帘、玩偶、白衣人物和架子有可辨方向性相机拖影；未见足球，玩偶头与黑白衣饰不作球，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "7": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "reason": "窗帘、玩偶、白衣人物和架子有可辨方向性相机拖影；未见足球，玩偶头与黑白衣饰不作球，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "8": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "近处白衣人物、白色玩偶、陈列架与灭火器占据画面；未见足球，衣饰与玩偶圆头不作球，无明确相机方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "9": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "近处白衣人物、白色玩偶、陈列架与灭火器占据画面；未见足球，衣饰与玩偶圆头不作球，无明确相机方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "10": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "近处白衣人物、白色玩偶、陈列架与灭火器占据画面；未见足球，衣饰与玩偶圆头不作球，无明确相机方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "11": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "近处白衣人物、白色玩偶、陈列架与灭火器占据画面；未见足球，衣饰与玩偶圆头不作球，无明确相机方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "12": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "近处白衣人物、白色玩偶、陈列架与灭火器占据画面；未见足球，衣饰与玩偶圆头不作球，无明确相机方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "13": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "近处白衣人物、白色玩偶、陈列架与灭火器占据画面；未见足球，衣饰与玩偶圆头不作球，无明确相机方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "14": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "近处白衣人物、白色玩偶、陈列架与灭火器占据画面；未见足球，衣饰与玩偶圆头不作球，无明确相机方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "15": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "近处白衣人物、白色玩偶、陈列架与灭火器占据画面；未见足球，衣饰与玩偶圆头不作球，无明确相机方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "16": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "reason": "镜头朝向灭火器和地面，整体斜向运动拖影明确；没有足球，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "17": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "reason": "镜头朝向灭火器和地面，整体斜向运动拖影明确；没有足球，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "18": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "衣物/手臂遮住大部分镜头，剩余仅见灭火器和地毯，无当前可见足球；不把镜头遮住误记足球遮挡，未见明确方向拖影，空label保留。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "19": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "衣物/手臂遮住大部分镜头，剩余仅见灭火器和地毯，无当前可见足球；不把镜头遮住误记足球遮挡，未见明确方向拖影，空label保留。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "20": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "衣物/手臂遮住大部分镜头，剩余仅见灭火器和地毯，无当前可见足球；不把镜头遮住误记足球遮挡，未见明确方向拖影，空label保留。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "21": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "衣物/手臂遮住大部分镜头，剩余仅见灭火器和地毯，无当前可见足球；不把镜头遮住误记足球遮挡，未见明确方向拖影，空label保留。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "22": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "衣物/手臂遮住大部分镜头，剩余仅见灭火器和地毯，无当前可见足球；不把镜头遮住误记足球遮挡，未见明确方向拖影，空label保留。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "23": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "衣物/手臂遮住大部分镜头，剩余仅见灭火器和地毯，无当前可见足球；不把镜头遮住误记足球遮挡，未见明确方向拖影，空label保留。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "24": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "reason": "镜头转动导致玩偶/地面/架子方向拖影；未见足球，玩偶衣裤印花与圆头不作球，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "25": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "reason": "镜头转动导致玩偶/地面/架子方向拖影；未见足球，玩偶衣裤印花与圆头不作球，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "26": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "reason": "镜头转动导致玩偶/地面/架子方向拖影；未见足球，玩偶衣裤印花与圆头不作球，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "27": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "reason": "镜头转动导致玩偶/地面/架子方向拖影；未见足球，玩偶衣裤印花与圆头不作球，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "28": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "三个玩偶与架子相对清楚，红帽玩偶裤腿是黑白布纹，非足球；无可见足球且无方向拖影，保留空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "29": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "三个玩偶与架子相对清楚，红帽玩偶裤腿是黑白布纹，非足球；无可见足球且无方向拖影，保留空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "30": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "三个玩偶与架子相对清楚，红帽玩偶裤腿是黑白布纹，非足球；无可见足球且无方向拖影，保留空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "31": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "三个玩偶与架子相对清楚，红帽玩偶裤腿是黑白布纹，非足球；无可见足球且无方向拖影，保留空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "32": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "玩偶、架子和局部人物清楚，未见足球；黑白裤饰、玩偶头和手指均不是球，无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "33": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "玩偶、架子和局部人物清楚，未见足球；黑白裤饰、玩偶头和手指均不是球，无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "36": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "玩偶、架子和局部人物清楚，未见足球；黑白裤饰、玩偶头和手指均不是球，无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "37": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "玩偶、架子和局部人物清楚，未见足球；黑白裤饰、玩偶头和手指均不是球，无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "38": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "玩偶、架子和局部人物清楚，未见足球；黑白裤饰、玩偶头和手指均不是球，无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "39": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "玩偶、架子和局部人物清楚，未见足球；黑白裤饰、玩偶头和手指均不是球，无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "34": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "reason": "相机明显转动使三个玩偶与架子呈斜向拖影；无当前可见足球，空label保持。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "35": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "reason": "相机明显转动使三个玩偶与架子呈斜向拖影；无当前可见足球，空label保持。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "40": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向窗帘前玩偶与架子，衣饰、底座和架上物品逐幅未见足球；轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "41": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向窗帘前玩偶与架子，衣饰、底座和架上物品逐幅未见足球；轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "42": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向窗帘前玩偶与架子，衣饰、底座和架上物品逐幅未见足球；轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "43": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向窗帘前玩偶与架子，衣饰、底座和架上物品逐幅未见足球；轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "44": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向窗帘前玩偶与架子，衣饰、底座和架上物品逐幅未见足球；轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "45": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向窗帘前玩偶与架子，衣饰、底座和架上物品逐幅未见足球；轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "46": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向窗帘前玩偶与架子，衣饰、底座和架上物品逐幅未见足球；轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "47": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向窗帘前玩偶与架子，衣饰、底座和架上物品逐幅未见足球；轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "48": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "人物从镜头前走过，玩偶/窗帘/架子背景仍稳定，只有身体局部运动；当前没有足球，保持空label，不将人体移动自动算球模糊。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "49": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "人物从镜头前走过，玩偶/窗帘/架子背景仍稳定，只有身体局部运动；当前没有足球，保持空label，不将人体移动自动算球模糊。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "50": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "人物从镜头前走过，玩偶/窗帘/架子背景仍稳定，只有身体局部运动；当前没有足球，保持空label，不将人体移动自动算球模糊。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "51": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "人物从镜头前走过，玩偶/窗帘/架子背景仍稳定，只有身体局部运动；当前没有足球，保持空label，不将人体移动自动算球模糊。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "52": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "人物从镜头前走过，玩偶/窗帘/架子背景仍稳定，只有身体局部运动；当前没有足球，保持空label，不将人体移动自动算球模糊。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "53": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "人物从镜头前走过，玩偶/窗帘/架子背景仍稳定，只有身体局部运动；当前没有足球，保持空label，不将人体移动自动算球模糊。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "54": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "人物从镜头前走过，玩偶/窗帘/架子背景仍稳定，只有身体局部运动；当前没有足球，保持空label，不将人体移动自动算球模糊。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "55": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "人物从镜头前走过，玩偶/窗帘/架子背景仍稳定，只有身体局部运动；当前没有足球，保持空label，不将人体移动自动算球模糊。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "56": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "白衣人物站立或从镜头前走过，当前可见背景、玩偶及架子没有足球；无球/相机方向拖影，空label保持。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "57": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "白衣人物站立或从镜头前走过，当前可见背景、玩偶及架子没有足球；无球/相机方向拖影，空label保持。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "58": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "白衣人物站立或从镜头前走过，当前可见背景、玩偶及架子没有足球；无球/相机方向拖影，空label保持。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "59": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "白衣人物站立或从镜头前走过，当前可见背景、玩偶及架子没有足球；无球/相机方向拖影，空label保持。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "60": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "白衣人物站立或从镜头前走过，当前可见背景、玩偶及架子没有足球；无球/相机方向拖影，空label保持。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "61": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "白衣人物站立或从镜头前走过，当前可见背景、玩偶及架子没有足球；无球/相机方向拖影，空label保持。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "62": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "白衣人物站立或从镜头前走过，当前可见背景、玩偶及架子没有足球；无球/相机方向拖影，空label保持。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "63": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "白衣人物站立或从镜头前走过，当前可见背景、玩偶及架子没有足球；无球/相机方向拖影，空label保持。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "64": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向三个玩偶与陈列架，逐幅检查衣饰、底座及画面边缘均无足球，轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "65": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向三个玩偶与陈列架，逐幅检查衣饰、底座及画面边缘均无足球，轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "66": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向三个玩偶与陈列架，逐幅检查衣饰、底座及画面边缘均无足球，轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "67": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向三个玩偶与陈列架，逐幅检查衣饰、底座及画面边缘均无足球，轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "68": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向三个玩偶与陈列架，逐幅检查衣饰、底座及画面边缘均无足球，轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "69": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向三个玩偶与陈列架，逐幅检查衣饰、底座及画面边缘均无足球，轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "70": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向三个玩偶与陈列架，逐幅检查衣饰、底座及画面边缘均无足球，轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "71": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "镜头固定看向三个玩偶与陈列架，逐幅检查衣饰、底座及画面边缘均无足球，轮廓稳定无方向拖影，保持空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "72": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "固定镜头下玩偶、衣裤印花、架子和画面边缘均未见足球；轮廓稳定无方向拖影，保留空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "73": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "固定镜头下玩偶、衣裤印花、架子和画面边缘均未见足球；轮廓稳定无方向拖影，保留空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "74": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "固定镜头下玩偶、衣裤印花、架子和画面边缘均未见足球；轮廓稳定无方向拖影，保留空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    },
+    "75": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "reason": "固定镜头下玩偶、衣裤印花、架子和画面边缘均未见足球；轮廓稳定无方向拖影，保留空label。",
+      "action": "keep",
+      "scene_certain": true,
+      "confidence": "high"
+    }
+  },
+  "actual_opened_full_pages": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-000.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-001.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-002.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-003.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-004.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-005.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-006.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-007.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-008.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-009.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-010.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-011.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-012.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-013.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-014.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-015.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-016.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-017.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-018.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-019.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-020.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-021.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-022.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-023.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-024.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-025.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-026.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-027.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-028.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-029.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-030.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-031.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-032.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-033.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-034.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-035.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-036.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/full/page-037.png"
+  ],
+  "actual_opened_roi_pages": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/roi/page-000.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/roi/page-001.png"
+  ]
+}

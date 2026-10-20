@@ -1,0 +1,2580 @@
+[
+  {
+    "index": 5530,
+    "filename": "video_4bec9c343db72928_frame_00014728_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014728_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "df3875bc80f94828576eb07aee71115d92e1c2f62874a7b05be111cd9a731c04",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        30,
+        337,
+        60,
+        369
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-01.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14728,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "partially_occluded_by_foreground_leg_or_shoe"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5531,
+    "filename": "video_4bec9c343db72928_frame_00014728_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014728_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "3c06e7c062cf5f85b7374bd4eb6795fcfd44077d3cddd73e65cce3dc2f37573d",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        334,
+        44,
+        370
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-01.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14728,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "partially_occluded_by_foreground_leg_or_shoe",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5532,
+    "filename": "video_4bec9c343db72928_frame_00014736_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014736_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c7313aae74fbfab8ed9b06dcd1ae55a1ba6999be010a01e1de19e666addd96d3",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        36,
+        335,
+        69,
+        367
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-01.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14736,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "partially_occluded_by_foreground_leg_or_shoe"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5533,
+    "filename": "video_4bec9c343db72928_frame_00014736_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014736_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "4cf1a6187673e415cfce3153a017fde0b9a08b132cc66d431f7f595c5b98426a",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        17,
+        335,
+        53,
+        367
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-01.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14736,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "partially_occluded_by_foreground_leg_or_shoe"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5534,
+    "filename": "video_4bec9c343db72928_frame_00014738_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014738_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c2b6606f5d8d44fdb790784a0284051bbbfcf209b08279ac083f26c0256e660a",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        43,
+        337,
+        66,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-02.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14738,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "partially_occluded_by_foreground_leg_or_shoe"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5535,
+    "filename": "video_4bec9c343db72928_frame_00014738_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014738_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1c03c3cf6f765fef741e090d166a9038cc3dfd39c9d7db868ec4d0b0c3116003",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        25,
+        335,
+        49,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-02.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14738,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "partially_occluded_by_foreground_leg_or_shoe"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5536,
+    "filename": "video_4bec9c343db72928_frame_00014745_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014745_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "249534d04cb7ae97a5ed98da804cba8970b39e50ffa98c2a63bc32c8227d9730",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        18,
+        329,
+        61,
+        366
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-02.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14745,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5537,
+    "filename": "video_4bec9c343db72928_frame_00014745_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014745_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a49f0ef8d3db36cc32b2c2e3b72c462ae46aa80bf5efaf25b89e0272295122fc",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        329,
+        45,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-02.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14745,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5538,
+    "filename": "video_4bec9c343db72928_frame_00014759_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014759_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a15cffaa85e0a61bfc6a738cfe62e08d0f13a69502880c6c6dca1824c29ca099",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        19,
+        325,
+        63,
+        363
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-03.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14759,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5539,
+    "filename": "video_4bec9c343db72928_frame_00014759_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014759_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9c9ac72f4275f880b2de5955dcd981bbbdf4934cf01ff6924cad39c4d8a1ab73",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        1,
+        325,
+        47,
+        363
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-03.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14759,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5540,
+    "filename": "video_4bec9c343db72928_frame_00014762_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014762_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c92288418e087efcbecaeccf3d58da5d80b5801323d8d9512684b40f61caaee7",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        18,
+        326,
+        64,
+        366
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-03.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14762,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5541,
+    "filename": "video_4bec9c343db72928_frame_00014762_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014762_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9f73dcbd444778ee6f55790d7f8170b8cf1965319a3301284270588b00691192",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        1,
+        326,
+        48,
+        366
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-03.jpg",
+    "roi_evidence": "middle-extra-native-roi-01.png",
+    "source_frame_idx": 14762,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5542,
+    "filename": "video_4bec9c343db72928_frame_00014774_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014774_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "67d179ae5f95ef8486a41d2793b7f650d1dc4c22d2cc0d2292586f7f9cce6c72",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        19,
+        321,
+        66,
+        360
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-04.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14774,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5543,
+    "filename": "video_4bec9c343db72928_frame_00014774_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014774_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "8610135871e9b263e22b58b82e0c51e73b8748ba0082f2b4ac170b38edadc684",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        1,
+        321,
+        49,
+        360
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-04.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14774,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5544,
+    "filename": "video_4bec9c343db72928_frame_00014781_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014781_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "7d9e9eceecb65580b809aebe1d047503e3b8629e0f63a96b6d310fcf0f46504b",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        18,
+        325,
+        64,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-04.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14781,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5545,
+    "filename": "video_4bec9c343db72928_frame_00014781_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014781_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "7aab7ebe61164e017c69123e015ad06ccfc53003a47cba79341f80add73cc7b9",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        1,
+        325,
+        48,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-04.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14781,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5546,
+    "filename": "video_4bec9c343db72928_frame_00014788_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014788_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1315e6f2efc6a93c2ef95e957ccffb838bcefbfa0df49daa76674e1bc3bc1b4e",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        14,
+        328,
+        59,
+        368
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-05.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14788,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5547,
+    "filename": "video_4bec9c343db72928_frame_00014788_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014788_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ab8889e80d8d74b5db1fb4ad7b19e01d70a607bdb073fc5554c81835865dcf39",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        328,
+        44,
+        368
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-05.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14788,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5548,
+    "filename": "video_4bec9c343db72928_frame_00014792_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014792_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "6d4748601376aa6c52b6d7c95d0b941410e500e44c281b56b18eddab995df8ff",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        15,
+        328,
+        60,
+        366
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-05.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14792,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5549,
+    "filename": "video_4bec9c343db72928_frame_00014792_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014792_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e5ee0ce4029e0f2691fb50c70f9c2ab56d561dfbb435fb07639a8f106fc116e1",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        328,
+        44,
+        366
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-05.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14792,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5550,
+    "filename": "video_4bec9c343db72928_frame_00014798_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014798_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "70081965dc3a7909e5c9022929c9dbfb95241506eb8f630f4f305e2c265ba257",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        18,
+        326,
+        64,
+        367
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-06.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14798,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5551,
+    "filename": "video_4bec9c343db72928_frame_00014798_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014798_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "88fa0a72f069ae55e40e8dc383d6d9f403fffd2578b719593ae335daf5dc5f52",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        1,
+        326,
+        46,
+        367
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-06.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14798,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5552,
+    "filename": "video_4bec9c343db72928_frame_00014806_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014806_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "4a611fdbb8de26b6cc502c82020f4ddddc3dcf4c2b61b160a19efd3bf7caa062",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        17,
+        327,
+        63,
+        367
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-06.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14806,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5553,
+    "filename": "video_4bec9c343db72928_frame_00014806_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014806_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "611559e9effe3245f9bfd3a37fef65a8c0e7271a2adfd5cd863b01a872507a31",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        327,
+        47,
+        367
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-06.jpg",
+    "roi_evidence": "middle-extra-native-roi-02.png",
+    "source_frame_idx": 14806,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5554,
+    "filename": "video_4bec9c343db72928_frame_00014819_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014819_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "4d0947e7e44e74ba040a8c7ae95a9efd69588d10975abb9811100352ef67d43c",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        17,
+        325,
+        62,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-07.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 14819,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5555,
+    "filename": "video_4bec9c343db72928_frame_00014819_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014819_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9e6efb3efd74a81813315fcc65b1f3b52315eb2d9e1e10a2612772792f6986e6",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        325,
+        46,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-07.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 14819,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5556,
+    "filename": "video_4bec9c343db72928_frame_00014825_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014825_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "2bc3449ca396c257ec6169ad55abf810a9f3577b4fa0c1ef6c0f2528a882630f",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        17,
+        325,
+        61,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-07.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 14825,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5557,
+    "filename": "video_4bec9c343db72928_frame_00014825_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014825_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "7b42b6353e365d1a97f2aaaa577b79b313b92f4d9b31792ed9e8464fe649ae2e",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        325,
+        45,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-07.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 14825,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5558,
+    "filename": "video_4bec9c343db72928_frame_00014828_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014828_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "55edc0fb3699db05b1acbb847b05255ab948ef75e9194f6b57af5cbfbee5a12b",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        17,
+        326,
+        62,
+        364
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-08.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 14828,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5559,
+    "filename": "video_4bec9c343db72928_frame_00014828_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014828_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "d0af49026f2703e2afe94c89c6673936113b799881f14c2b3943f2d5479971fc",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        326,
+        46,
+        364
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-08.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 14828,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5628,
+    "filename": "video_4bec9c343db72928_frame_00015096_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015096_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "086a586e0e2bf586f759e2ecb1489a3b6637928b3104f4dd26331e747ee3dd47",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        2,
+        341,
+        48,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-08.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 15096,
+    "eye": "left",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5632,
+    "filename": "video_4bec9c343db72928_frame_00015107_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015107_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "e91a01f94b29e261a4906884964fcf55350a003f73677996032fd2c192b032cb",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        5,
+        338,
+        53,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-08.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 15107,
+    "eye": "left",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5633,
+    "filename": "video_4bec9c343db72928_frame_00015107_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015107_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "1a59357bd1076a4cda075caca1f63506e132566172d278b31de35b4ba7a95721",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        336,
+        32,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-09.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 15107,
+    "eye": "right",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5634,
+    "filename": "video_4bec9c343db72928_frame_00015114_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015114_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a1989069dce340df4f5d780a11cee3cfb777fc1aac9159289836ee7afa934a7b",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        6,
+        338,
+        53,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-09.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 15114,
+    "eye": "left",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5646,
+    "filename": "video_4bec9c343db72928_frame_00015159_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015159_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "efc52260c4ab7781490577972741bcb04bb838fe12100014134dcf8c59cd5be5",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        8,
+        344,
+        53,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-09.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 15159,
+    "eye": "left",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5648,
+    "filename": "video_4bec9c343db72928_frame_00015170_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015170_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "9fec144639658b883d413daad7a6f8863fd0a9e721dc34a8e84f1c7c4649bac7",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        12,
+        362,
+        51,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-09.jpg",
+    "roi_evidence": "middle-extra-native-roi-03.png",
+    "source_frame_idx": 15170,
+    "eye": "left",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only",
+      "thin_visible_ball_cap_pending_close_manual_review"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5649,
+    "filename": "video_4bec9c343db72928_frame_00015170_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015170_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "d9a37244025b57189c746697f7adc2f4ead7adba256cb6ce2cdaa215d02f21ad",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        361,
+        30,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-10.jpg",
+    "roi_evidence": "middle-extra-native-roi-04.png",
+    "source_frame_idx": 15170,
+    "eye": "right",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only",
+      "thin_visible_ball_cap_pending_close_manual_review"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5650,
+    "filename": "video_4bec9c343db72928_frame_00015174_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015174_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "43c0c23efbd8a1339b93ed17b678edfc3261f7432b6c3961efa1cf9ea4fcc6c9",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        14,
+        368,
+        46,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-10.jpg",
+    "roi_evidence": "middle-extra-native-roi-04.png",
+    "source_frame_idx": 15174,
+    "eye": "left",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only",
+      "thin_visible_ball_cap_pending_close_manual_review"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5651,
+    "filename": "video_4bec9c343db72928_frame_00015174_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015174_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "119a78a4362d5b4c88b66f4c1ae3d18fd3648955958cadacdda7d3ee3e8d480f",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        368,
+        29,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-10.jpg",
+    "roi_evidence": "middle-extra-native-roi-04.png",
+    "source_frame_idx": 15174,
+    "eye": "right",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only",
+      "thin_visible_ball_cap_pending_close_manual_review"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5657,
+    "filename": "video_4bec9c343db72928_frame_00015200_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015200_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "710b314208175e9abd8efda81a9b3d35ede7c6a388904ce54e8b8170fe475d71",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        369,
+        29,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-11.jpg",
+    "roi_evidence": "middle-extra-native-roi-04.png",
+    "source_frame_idx": 15200,
+    "eye": "right",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only",
+      "thin_visible_ball_cap_pending_close_manual_review"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5669,
+    "filename": "video_4bec9c343db72928_frame_00015244_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015244_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "150282ffaedb04c56651ba9c15b76bf6c402f2f879bbb5ae4985be2ff5a92b85",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        346,
+        32,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-13.jpg",
+    "roi_evidence": "middle-extra-native-roi-05.png",
+    "source_frame_idx": 15244,
+    "eye": "right",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5671,
+    "filename": "video_4bec9c343db72928_frame_00015257_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015257_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "fe675dc31c81642d6ffc87edfbba7bd13034dbbc46d72e56f3b6d5ff48e01394",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        346,
+        31,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-13.jpg",
+    "roi_evidence": "middle-extra-native-roi-05.png",
+    "source_frame_idx": 15257,
+    "eye": "right",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5672,
+    "filename": "video_4bec9c343db72928_frame_00015275_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015275_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a3b7e2f224a8e64d3ff77efea1ab51fbfaa2fb9be0cfc898097b208e493d0d93",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        9,
+        339,
+        55,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-14.jpg",
+    "roi_evidence": "middle-extra-native-roi-05.png",
+    "source_frame_idx": 15275,
+    "eye": "left",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5706,
+    "filename": "video_4bec9c343db72928_frame_00015400_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015400_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "ce9a57c0b405083d904b7eb24c6211dd74ea2032b7c3626c658837401703ef6f",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        33,
+        320,
+        77,
+        359
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-14.jpg",
+    "roi_evidence": "middle-extra-native-roi-05.png",
+    "source_frame_idx": 15400,
+    "eye": "left",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5707,
+    "filename": "video_4bec9c343db72928_frame_00015400_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015400_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "b11f8eb3308b02a603efa89ac14ce7478f5b93832f73df823500657423394226",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        16,
+        320,
+        60,
+        360
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-14.jpg",
+    "roi_evidence": "middle-extra-native-roi-05.png",
+    "source_frame_idx": 15400,
+    "eye": "right",
+    "annotation_status_before": "needs_manual_bbox_annotation",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5722,
+    "filename": "video_4bec9c343db72928_frame_00015462_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015462_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "a03a215c86ffe9044f18625df522d00247e35dd9e2ea011433c4fad5f6914ab4",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        282,
+        254,
+        315,
+        291
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-15.jpg",
+    "roi_evidence": "middle-extra-native-roi-05.png",
+    "source_frame_idx": 15462,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5723,
+    "filename": "video_4bec9c343db72928_frame_00015462_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015462_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "fc8c7da354b8fbd321f49f7005099b46f76dc71852353a055359a0877c59a322",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        266,
+        254,
+        300,
+        292
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-16.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15462,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5724,
+    "filename": "video_4bec9c343db72928_frame_00015472_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015472_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "f2836f8c9ed23059fa746e0a2467f6acd6987e5564474be78670e6d8ced943f3",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        246,
+        319,
+        280,
+        357
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-16.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15472,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5725,
+    "filename": "video_4bec9c343db72928_frame_00015472_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015472_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "c6702379b4848337deab256f3813d593c999cc638e33b802e6b5199019c76a11",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        229,
+        319,
+        263,
+        357
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-16.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15472,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5726,
+    "filename": "video_4bec9c343db72928_frame_00015478_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015478_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "75cd3666d9df5d96f89541153465b78837471bc28c200fab491c04f273433362",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        245,
+        325,
+        279,
+        364
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-16.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15478,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5727,
+    "filename": "video_4bec9c343db72928_frame_00015478_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015478_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "8bdb73d68aa34847aa20e396b25212d935761384ebe41424eea7f886cf563c03",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        229,
+        324,
+        263,
+        363
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-17.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15478,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5728,
+    "filename": "video_4bec9c343db72928_frame_00015484_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015484_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "746adf3314ac714193e51fc6f33a0163ab243069dd2825516d07ffa47311fb5f",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        243,
+        327,
+        278,
+        368
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-17.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15484,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5729,
+    "filename": "video_4bec9c343db72928_frame_00015484_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015484_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "436136634d4ff4dda5241e14220d8db5114e43269fbb348f2e42ed8b753f7b9d",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        227,
+        327,
+        262,
+        368
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-17.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15484,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 5730,
+    "filename": "video_4bec9c343db72928_frame_00015489_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015489_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "50792b3f449a0a5185b4e3c9536eef0b21bb3d5c399871106d24f5a2e64fc19a",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        253,
+        334,
+        288,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-17.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15489,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only",
+      "foot_occludes_upper_ball_boundary"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5731,
+    "filename": "video_4bec9c343db72928_frame_00015489_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015489_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "3408ce002c58f78ec21304c224955d3631547f0fd10f4608948c77867fc2df48",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        236,
+        334,
+        271,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-18.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15489,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only",
+      "foot_occludes_upper_ball_boundary"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5732,
+    "filename": "video_4bec9c343db72928_frame_00015495_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015495_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "5c578ffcec51d5bb34a8571a51c9e42de659c42d73b55fd0ddb2df59f7fedb54",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        269,
+        355,
+        309,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-18.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15495,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only",
+      "thin_visible_ball_cap_pending_close_manual_review"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 5733,
+    "filename": "video_4bec9c343db72928_frame_00015495_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00015495_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "90ae275862cf20a770f5de68b8ea6ee8062b635bf570621b8f0a6e1354af7335",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        251,
+        354,
+        291,
+        376
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-18.jpg",
+    "roi_evidence": "middle-extra-native-roi-06.png",
+    "source_frame_idx": 15495,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only",
+      "thin_visible_ball_cap_pending_close_manual_review"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "Small": "1",
+      "Occluded": "1"
+    }
+  },
+  {
+    "index": 8186,
+    "filename": "video_4bec9c343db72928_frame_00014754_left.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014754_left.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "876cffb8fbeda0db86526f25fa6c45f2e9db44c1e95eb45976d6982c465200fb",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        18,
+        326,
+        63,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-19.jpg",
+    "roi_evidence": "middle-extra-native-roi-07.png",
+    "source_frame_idx": 14754,
+    "eye": "left",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "0"
+    }
+  },
+  {
+    "index": 8187,
+    "filename": "video_4bec9c343db72928_frame_00014754_right.png",
+    "image_path": "/home/misaka/workspace/datasets/images/train/video_4bec9c343db72928_frame_00014754_right.png",
+    "expected_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "expected_image_sha256": "0c4eed215910443245452f807e2dac04d1854b06f5dd4925bdf56223b505d727",
+    "original_boxes_xyxy": [],
+    "boxes_xyxy": [
+      [
+        0,
+        326,
+        45,
+        365
+      ]
+    ],
+    "reviewed_full_scene": true,
+    "reviewed_native_roi": true,
+    "full_evidence": "middle-extra-native-full-20.jpg",
+    "roi_evidence": "middle-extra-native-roi-07.png",
+    "source_frame_idx": 14754,
+    "eye": "right",
+    "annotation_status_before": "needs_visibility_review",
+    "decision": "add_missing_visible_ball_pending_manual_review",
+    "annotation_status_after": "auto_label_needs_review",
+    "label_review_required": 1,
+    "ball_presence_confidence": "high",
+    "boundary_confidence": "medium",
+    "No_Ball": 0,
+    "reason": "原生全景及坐标刻度最近邻局部确认足球黑白面板与可见轮廓；空标签漏掉该球。候选仅包可见像素，排除地毯投影，不补全图外/被挡部分。",
+    "uncertainty": [
+      "all_assistant_boxes_pending_manual_review",
+      "source_boundary_is_soft",
+      "image_edge_clipped_visible_extent_only"
+    ],
+    "No Ball": 0,
+    "proposed_metadata": {
+      "No Ball": "0",
+      "annotation_status": "auto_label_needs_review",
+      "label_review_required": "1",
+      "scene_review_required": "0",
+      "Small": "0",
+      "Occluded": "1"
+    }
+  }
+]

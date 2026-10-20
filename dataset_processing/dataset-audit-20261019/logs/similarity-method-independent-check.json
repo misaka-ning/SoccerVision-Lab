@@ -1,0 +1,25 @@
+{
+  "reviewed_at_utc": "2026-10-19T03:49:04.199562+00:00",
+  "status": "PASS",
+  "scope": "Independent algorithm and preprocessing review; extracted BK and ssim definitions via AST without executing the retrieval script. No changes to the retrieval implementation.",
+  "source_sha256": {
+    "scripts/similarity_audit.py": "584bab135d3292aee589e7337d68f03ec89175292586f58a00594373756f3c5f",
+    "scripts/embeddings.py": "780ffb5f28bf4655818bd98b4a7542a7dcd42eb063190511653796b8ace008df"
+  },
+  "checks": {
+    "BK_synthetic_bruteforce_queries": 224,
+    "BK_exact_match": true,
+    "BK_cases": "400 seeded random64bit hashes plus duplicated zero/all-one;32 queries x radii0,1,4,8,16,32,64",
+    "SSIM_identity": 1.0,
+    "SSIM_symmetry_error": 0.0,
+    "SSIM_float64_direct_Gaussian11_reference_absolute_error": 1.8750553550800353e-08,
+    "SSIM_blackwhite_analytic_pass": true,
+    "cosine_preprocessing_review": "ImageNet mean/std normalized RGB; MobileNetV3-small final576 mean-pooled backbone features; L2 normalization makes inner product cosine; exact cross-split matrix products only for usable samples"
+  },
+  "limitations_to_report": [
+    "Full-frame anisotropic224x224 resize differs from official center-crop classification evaluation; already recorded",
+    "128x72 SSIM candidate values and initially high-risk refined256x144 values must retain resolution provenance",
+    "Phase-correlation alignment is diagnostic only and limited to first200 ranked high-risk candidates with response>=0.3, shift<=8px",
+    "Perceptual hashes/global ImageNet features/SSIM thresholds are candidate-retrieval criteria, not ground truth of leakage"
+  ]
+}

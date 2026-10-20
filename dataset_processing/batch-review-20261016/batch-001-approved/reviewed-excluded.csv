@@ -1,0 +1,22 @@
+﻿filename,previous_status,No Ball,box_count,label_validation_error
+frame_001471_right.png,temporal_only,0,0,
+frame_001570_right.png,temporal_only,0,2,
+frame_001576_left.png,uncertain_bbox,0,1,
+frame_001605_left.png,uncertain_bbox,0,2,
+frame_001605_right.png,severe_blur,0,2,
+frame_001674_right.png,uncertain_bbox,0,,Box crosses image boundary: '0 0.31431626547528518 0.034205368324569212 0.044642859999999999 0.071808510000000006'
+frame_001677_right.png,uncertain_bbox,0,1,
+frame_001680_left.png,severe_blur,0,2,
+frame_001680_right.png,severe_blur,0,2,
+frame_001919_left.png,severe_occlusion,0,1,
+frame_001921_left.png,severe_occlusion,0,1,
+frame_002379_left.png,temporal_only,0,0,
+frame_002379_right.png,temporal_only,0,0,
+frame_002387_left.png,fully_occluded,0,0,
+frame_002387_right.png,fully_occluded,0,0,
+frame_002396_left.png,uncertain,0,0,
+frame_002396_right.png,needs_manual_bbox_annotation,0,0,
+frame_002719_left.png,uncertain_bbox,0,1,
+frame_003650_right.png,needs_manual_bbox_annotation,0,,Box crosses image boundary: '0 0.038022813688212927 0.77135243827198452 0.077946768060836516 0.45729512345603096'
+frame_004005_left.png,severe_blur,0,0,
+frame_004005_right.png,severe_blur,0,0,

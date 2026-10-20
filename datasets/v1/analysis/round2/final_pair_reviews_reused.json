@@ -1,0 +1,252 @@
+[
+  {
+    "final_pair_id": "F00001",
+    "original_pair_id": "N00053",
+    "test_image": "video_4bec9c343db72928_frame_00016913_left.png",
+    "other_image": "video_4bec9c343db72928_frame_00012191_left.png",
+    "observation": "已看对照：球的位置/纹理、前景鞋腿、机器人或取景存在明显变化，属于共同室内环境下不同可见状态。未见足以确认同一近重复事件的证据；保留同场次片段留出限制。",
+    "assessment": "distinct_visible_states_no_confirmed_duplicate_event",
+    "original_evidence_sha256": "852f5d2951ea25cb5eb48e43d1c6f57776b3a3b78d9e4d6909a84ad8d7448335",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00002",
+    "original_pair_id": "N00161",
+    "test_image": "video_4bec9c343db72928_frame_00007733_right.png",
+    "other_image": "video_4bec9c343db72928_frame_00010791_left.png",
+    "observation": "已看对照：球的位置/纹理、前景鞋腿、机器人或取景存在明显变化，属于共同室内环境下不同可见状态。未见足以确认同一近重复事件的证据；保留同场次片段留出限制。",
+    "assessment": "distinct_visible_states_no_confirmed_duplicate_event",
+    "original_evidence_sha256": "20bbe885159d77997593ef92e6b9da75950bdc85dc715172d4d103293aaa96b1",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00003",
+    "original_pair_id": "N00167",
+    "test_image": "video_4bec9c343db72928_frame_00007733_right.png",
+    "other_image": "video_4bec9c343db72928_frame_00010791_right.png",
+    "observation": "已看对照：球的位置/纹理、前景鞋腿、机器人或取景存在明显变化，属于共同室内环境下不同可见状态。未见足以确认同一近重复事件的证据；保留同场次片段留出限制。",
+    "assessment": "distinct_visible_states_no_confirmed_duplicate_event",
+    "original_evidence_sha256": "806a958c291d99e26dfc5fed741416047bce376d78d16d046ab85a068744ba3c",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00011",
+    "original_pair_id": "N00221",
+    "test_image": "video_4bec9c343db72928_frame_00016933_left.png",
+    "other_image": "video_4bec9c343db72928_frame_00012447_left.png",
+    "observation": "已看对照：球的位置/纹理、前景鞋腿、机器人或取景存在明显变化，属于共同室内环境下不同可见状态。未见足以确认同一近重复事件的证据；保留同场次片段留出限制。",
+    "assessment": "distinct_visible_states_no_confirmed_duplicate_event",
+    "original_evidence_sha256": "826143988e95012995c1bbeebaaea6789d2dad90733d8bbeb54505ba8de38799",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00023",
+    "original_pair_id": "N00256",
+    "test_image": "video_4bec9c343db72928_frame_00021973_right.png",
+    "other_image": "video_4bec9c343db72928_frame_00012332_right.png",
+    "observation": "已看对照：球的位置/纹理、前景鞋腿、机器人或取景存在明显变化，属于共同室内环境下不同可见状态。未见足以确认同一近重复事件的证据；保留同场次片段留出限制。",
+    "assessment": "distinct_visible_states_no_confirmed_duplicate_event",
+    "original_evidence_sha256": "d28070408e2270f31a777260e433185023b29312b06485cef6452ded98728a89",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00024",
+    "original_pair_id": "N00258",
+    "test_image": "video_4bec9c343db72928_frame_00021973_right.png",
+    "other_image": "video_4bec9c343db72928_frame_00012332_left.png",
+    "observation": "已看对照：球的位置/纹理、前景鞋腿、机器人或取景存在明显变化，属于共同室内环境下不同可见状态。未见足以确认同一近重复事件的证据；保留同场次片段留出限制。",
+    "assessment": "distinct_visible_states_no_confirmed_duplicate_event",
+    "original_evidence_sha256": "d6372c643cecdafdff8e19c9905680997b499a1ef01176d527fdd090714ae322",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00646",
+    "original_pair_id": "N00928",
+    "test_image": "video_4bec9c343db72928_frame_00001062_left.png",
+    "other_image": "frame_002199_left.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "620716c059673ba38858668bf847f21fde755f2c59191be074d1bdd987f727f6",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00669",
+    "original_pair_id": "N00949",
+    "test_image": "video_4bec9c343db72928_frame_00001062_left.png",
+    "other_image": "frame_002200_left.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "c877d26497a6e581bb56889bbcd2e927e7549be0ccacbc4873087d37d882f1a7",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00968",
+    "original_pair_id": "N01226",
+    "test_image": "video_4bec9c343db72928_frame_00003770_right.png",
+    "other_image": "frame_002529_right.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "154cedebfff4ace210d5ecc859f7f995c3ae1f410c6d664619301ce55c69cca6",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F01163",
+    "original_pair_id": "N01412",
+    "test_image": "video_4bec9c343db72928_frame_00005065_left.png",
+    "other_image": "frame_003391_left.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "8a00b00d6566abff402e715115666e7cbfb9ca7bc0483740d2ae2cded074eed4",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F01782",
+    "original_pair_id": "N01984",
+    "test_image": "video_4bec9c343db72928_frame_00005164_left.png",
+    "other_image": "frame_003395_right.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "7d561999bd318bfd2c40e393a478a661099971bc86cc3d12903c7aa2864e3854",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F02083",
+    "original_pair_id": "N02248",
+    "test_image": "video_4bec9c343db72928_frame_00007576_right.png",
+    "other_image": "frame_002497_left.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "91ea2df393e38f048b0a1592f9969b809630d29b4a5b71bbb5729850dbd9e032",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F02098",
+    "original_pair_id": "N02264",
+    "test_image": "video_4bec9c343db72928_frame_00007584_right.png",
+    "other_image": "frame_003169_left.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "9d7dbd1f8b53a2b6923d6af044d10e44ed195cd44e97f34f1a336e8159e5c55d",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00048",
+    "original_pair_id": "N00295",
+    "test_image": "video_4bec9c343db72928_frame_00011674_right.png",
+    "other_image": "video_4bec9c343db72928_frame_00010879_left.png",
+    "observation": "已看对照：球的位置/纹理、前景鞋腿、机器人或取景存在明显变化，属于共同室内环境下不同可见状态。未见足以确认同一近重复事件的证据；保留同场次片段留出限制。",
+    "assessment": "distinct_visible_states_no_confirmed_duplicate_event",
+    "original_evidence_sha256": "4d74d41190920c9f89026f07e15973db57083ecf74acaf2cce3ac435260c39bc",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00054",
+    "original_pair_id": "N00301",
+    "test_image": "video_4bec9c343db72928_frame_00011651_right.png",
+    "other_image": "video_4bec9c343db72928_frame_00010890_right.png",
+    "observation": "已看对照：球的位置/纹理、前景鞋腿、机器人或取景存在明显变化，属于共同室内环境下不同可见状态。未见足以确认同一近重复事件的证据；保留同场次片段留出限制。",
+    "assessment": "distinct_visible_states_no_confirmed_duplicate_event",
+    "original_evidence_sha256": "30954ad6f0904f19292a941b83deec86adfff491e51b4b4ea50e3888c3a13e4a",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00424",
+    "original_pair_id": "N00718",
+    "test_image": "video_4bec9c343db72928_frame_00011323_right.png",
+    "other_image": "frame_003427_left.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "dde3a77858ceb8d0e018b96dedd001cd839a215d431036399e00e337ae888d66",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00672",
+    "original_pair_id": "N00952",
+    "test_image": "video_4bec9c343db72928_frame_00011323_right.png",
+    "other_image": "frame_003427_right.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "8079bd77cb73a6b32998234e4371e7f721d0659145c3f549defbebf20b57b05f",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00620",
+    "original_pair_id": "N00902",
+    "test_image": "video_4bec9c343db72928_frame_00017174_left.png",
+    "other_image": "frame_003055_right.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "b59ad87f988a5cbb6faac1d4defd106056837331ecd9d9f8c480b5f27d9e6b61",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00782",
+    "original_pair_id": "N01054",
+    "test_image": "video_4bec9c343db72928_frame_00016871_left.png",
+    "other_image": "frame_002440_left.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "d3200e5c1153c6539639ca0d9e2a90a39d5a8d48a25a4d69e7191ccbef235348",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00954",
+    "original_pair_id": "N01215",
+    "test_image": "video_4bec9c343db72928_frame_00022334_right.png",
+    "other_image": "frame_003395_right.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "60642049e276b83beaab7fa83ea50e042737bce7b95710ab78a22596de15cdf4",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00993",
+    "original_pair_id": "N01251",
+    "test_image": "video_4bec9c343db72928_frame_00021966_right.png",
+    "other_image": "frame_003427_left.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "b2ca770442ca35fb0b97a4cc1c2076ed6127a18dbd21c50054f1eb09ead8eb58",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00378",
+    "original_pair_id": "N00672",
+    "test_image": "video_4bec9c343db72928_frame_00023763_left.png",
+    "other_image": "video_4bec9c343db72928_frame_00007213_right.png",
+    "observation": "已看对照：球的位置/纹理、前景鞋腿、机器人或取景存在明显变化，属于共同室内环境下不同可见状态。未见足以确认同一近重复事件的证据；保留同场次片段留出限制。",
+    "assessment": "distinct_visible_states_no_confirmed_duplicate_event",
+    "original_evidence_sha256": "be032c7445dbfd57e299acdf5fee2e60e2d88962b38b8868fd58c91b020c18da",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00534",
+    "original_pair_id": "N00823",
+    "test_image": "video_4bec9c343db72928_frame_00023763_left.png",
+    "other_image": "video_4bec9c343db72928_frame_00007225_right.png",
+    "observation": "已看对照：球的位置/纹理、前景鞋腿、机器人或取景存在明显变化，属于共同室内环境下不同可见状态。未见足以确认同一近重复事件的证据；保留同场次片段留出限制。",
+    "assessment": "distinct_visible_states_no_confirmed_duplicate_event",
+    "original_evidence_sha256": "a796f8966bd2cd16f3775d1f2fb82d3623ad31b0302b9b72ad7556c3c8bdcea0",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F00989",
+    "original_pair_id": "N01248",
+    "test_image": "video_4bec9c343db72928_frame_00024085_left.png",
+    "other_image": "frame_003063_right.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "df091a43fce6275ca9ade5b587b8643efd7ebcf9f405419572119e62a60d1b9a",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  },
+  {
+    "final_pair_id": "F01165",
+    "original_pair_id": "N01414",
+    "test_image": "video_4bec9c343db72928_frame_00024085_left.png",
+    "other_image": "frame_003063_left.png",
+    "observation": "实际对照能看到人体、机位/器材、球位置或纹理朝向的变化；用户已确认录像为不同场次。未据共同手臂/地面/玻璃门背景判为同一事件。",
+    "assessment": "different_confirmed_session_visually_distinct",
+    "original_evidence_sha256": "aeb3e972d6af67be986d75553ac257d18d6290e5e84c282949b52091410a2dcd",
+    "reused_by": "Exact same source image/label identities; pair metadata/rank changes do not require reinterpreting different photographs."
+  }
+]

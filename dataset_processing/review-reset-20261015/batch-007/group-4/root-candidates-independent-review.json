@@ -1,0 +1,195 @@
+{
+  "scope": "第7批group4指定六图独立视觉二审；仅建议，未修改head/tail提案或正式数据。",
+  "reviewer": "batch006_visual_b",
+  "actual_opened_full_pages": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-003.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-103.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-124.png"
+  ],
+  "actual_opened_roi_pages": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-000.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-022.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-024.png"
+  ],
+  "records": [
+    {
+      "local": 6,
+      "index": 756,
+      "filename": "video_4bec9c343db72928_frame_00019373_left.png",
+      "scene_seen": true,
+      "roi_boxes_seen": [
+        0
+      ],
+      "independent_recommendation": "support_candidate_replacement",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "flags_candidate": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "独立逐幅看原生全图、旧框raw/红框ROI及坐标网格，旧框漏左缘和鞋下右侧蓝白球面；当前可见轮廓支持所列tight框，未推鞋隐藏范围。球边软化约1px不确定，仍需人工复查。",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-003.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-000.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-grid-006.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-before-after-006.png"
+      ],
+      "expected_image_sha256": "adbaca6002d5c615c529fb7921500ae56aa8f9410a4ca6cf411bf3aa468c47dc",
+      "expected_label_sha256": "9f8152fa695d983028405665af2c320362e738600a49967a053e98a5dd09604f",
+      "candidate_boxes_xyxy": [
+        [
+          294,
+          270,
+          351,
+          329
+        ]
+      ]
+    },
+    {
+      "local": 7,
+      "index": 757,
+      "filename": "video_4bec9c343db72928_frame_00019373_right.png",
+      "scene_seen": true,
+      "roi_boxes_seen": [
+        0
+      ],
+      "independent_recommendation": "support_candidate_replacement",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "flags_candidate": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "reason": "独立逐幅看原生全图、旧框raw/红框ROI及坐标网格，旧框漏左缘和鞋下右侧蓝白球面；当前可见轮廓支持所列tight框，未推鞋隐藏范围。球边软化约1px不确定，仍需人工复查。",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-003.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-000.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-grid-007.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-before-after-007.png"
+      ],
+      "expected_image_sha256": "8fde33fe3fa91660380943a4cae247974b6835b073e77e730b97a38d374bf601",
+      "expected_label_sha256": "ccb476640f486ca1a2e3895c2505b5e623ff25fdc0c1dfe70f92adafc6e63fb8",
+      "candidate_boxes_xyxy": [
+        [
+          268,
+          270,
+          323,
+          329
+        ]
+      ]
+    },
+    {
+      "local": 206,
+      "index": 956,
+      "filename": "video_4bec9c343db72928_frame_00020136_left.png",
+      "scene_seen": true,
+      "roi_boxes_seen": [
+        0
+      ],
+      "independent_recommendation": "retain_reference_pending_manual_boundary_review",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "flags_candidate": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "全图、raw/红框ROI及独立原生坐标网格显示球面强方向拖影与鞋面、鞋底及投影交叠。原框存在少量余量，但无法稳定分离当前可见球面与鞋/拖影边界，不提出可靠替换坐标，保留旧框参考待人工精修。",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-103.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-022.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/independent-grid-206-207.png"
+      ],
+      "expected_image_sha256": "37b5186570f6fb2caeb67c3488db90a737e7b3f3b1f16bdac0a665e7c5fa7c5e",
+      "expected_label_sha256": "aaae78ebdc30610887a85d868af82f03cf1612da64db4e7368e106b4b9d06168"
+    },
+    {
+      "local": 207,
+      "index": 957,
+      "filename": "video_4bec9c343db72928_frame_00020136_right.png",
+      "scene_seen": true,
+      "roi_boxes_seen": [
+        0
+      ],
+      "independent_recommendation": "retain_reference_pending_manual_boundary_review",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "flags_candidate": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "全图、raw/红框ROI及独立原生坐标网格显示球面强方向拖影与鞋面、鞋底及投影交叠。原框存在少量余量，但无法稳定分离当前可见球面与鞋/拖影边界，不提出可靠替换坐标，保留旧框参考待人工精修。",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-103.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-022.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/independent-grid-206-207.png"
+      ],
+      "expected_image_sha256": "6dd6760493b4d7bf34e8de2546a21b2ba502c0d653ef8f9e2156de8e4f20c53a",
+      "expected_label_sha256": "3e8b7e98d3a64694a713c76fa2558cc6e72e87bf7d7eea99b9eecb1578c9a5ae"
+    },
+    {
+      "local": 248,
+      "index": 998,
+      "filename": "video_4bec9c343db72928_frame_00020294_left.png",
+      "scene_seen": true,
+      "roi_boxes_seen": [
+        0
+      ],
+      "independent_recommendation": "retain_reference_pending_manual_boundary_review",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "flags_candidate": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "全图、raw/红框ROI及原生侧界放大确认手持较大运动足球。左眼旧框左侧有约10px宽松候选，右眼侧界较贴合，但软拖影、手和深色椅背使边界阈值不稳定；不强行收紧，保留旧框参考待人工精修。",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-124.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-024.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/independent-grid-248-249.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/independent-grid-248-249-zoom.png"
+      ],
+      "expected_image_sha256": "97337b3552f3fbec36d1a5e340d8d74e50eabc377d9a28537dbacf18a6087f1f",
+      "expected_label_sha256": "7eb4c88e97676de3aca8db229e2d7ce4e9b0690bedb849e93edb6f963ca8a23a"
+    },
+    {
+      "local": 249,
+      "index": 999,
+      "filename": "video_4bec9c343db72928_frame_00020294_right.png",
+      "scene_seen": true,
+      "roi_boxes_seen": [
+        0
+      ],
+      "independent_recommendation": "retain_reference_pending_manual_boundary_review",
+      "scene_certain": false,
+      "confidence": "uncertain",
+      "flags_candidate": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "reason": "全图、raw/红框ROI及原生侧界放大确认手持较大运动足球。左眼旧框左侧有约10px宽松候选，右眼侧界较贴合，但软拖影、手和深色椅背使边界阈值不稳定；不强行收紧，保留旧框参考待人工精修。",
+      "evidence": [
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/full/page-124.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/roi/page-024.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/independent-grid-248-249.png",
+        "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/independent-grid-248-249-zoom.png"
+      ],
+      "expected_image_sha256": "fcc1294e90c964fbd6713ce505bff40d9eb8b7dc0c31bb63ecabcf7b24e3be1a",
+      "expected_label_sha256": "a28dd465a407486244a81560bba8482f76b8d7ec27063914028cd83c6f48eee1"
+    }
+  ],
+  "labels_written_to_dataset": 0,
+  "approval_flags_cleared": 0,
+  "frozen": true
+}

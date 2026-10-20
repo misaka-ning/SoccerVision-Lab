@@ -1,0 +1,44 @@
+# 路径相对仓库根目录；其余参数传入 Ultralytics YOLO.train()。
+# 参考权重为 80 类模型；训练时根据 data 自动建立 0 = football 的单类检测头。
+model: baseline/original_best.pt
+data: null                 # 运行时读取script/config.yaml中的dataset_version
+task: detect
+mode: train
+project: experiments/train
+name: football_yolo26s
+exist_ok: false             # 重复实验由 Ultralytics 自动递增目录，避免覆盖
+
+epochs: 100
+patience: 30
+imgsz: 640                 # 小目标实验可尝试 960/1280，并相应减小 batch
+batch: 8
+device: null               # 自动选择；指定 GPU 用 "0"，CPU 用 "cpu"
+workers: 4                 # 数据加载问题可设为 0
+cache: false
+amp: true
+seed: 42
+deterministic: true
+
+optimizer: AdamW
+lr0: 0.001
+lrf: 0.01
+weight_decay: 0.0005
+warmup_epochs: 3.0
+cos_lr: true
+
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+degrees: 0.0
+translate: 0.1
+scale: 0.5
+flipud: 0.0
+fliplr: 0.5
+mosaic: 1.0
+close_mosaic: 10
+mixup: 0.0
+
+val: true
+plots: true
+save: true
+save_period: 10

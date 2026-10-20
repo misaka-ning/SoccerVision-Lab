@@ -1,0 +1,309 @@
+{
+  "success": true,
+  "status": "PASS",
+  "independent": true,
+  "batch": 6,
+  "audit": "/home/misaka/workspace/dataset_processing/batch-review-20261016/applied/20261016T100325Z-37276653",
+  "verified_at_utc": "2026-10-16T10:12:16.721188+00:00",
+  "dataset_count": 8398,
+  "selected_count": 1000,
+  "metadata_before_sha256": "4bac2d79cff7949dd19d9cebb5913a5ca9a3c7db91ce9a9f0d0602bf4132aab9",
+  "metadata_after_sha256": "a6d0fd03b691fbd2a408cd7774167d72c84e977a42def38d4a818992dd127634",
+  "allowed_selected_metadata_fields": [
+    "Blurred",
+    "No Ball",
+    "Occluded",
+    "Small",
+    "annotation_status",
+    "label_review_note",
+    "label_review_required",
+    "scene_review_required"
+  ],
+  "selected_changed_field_counts": {
+    "label_review_note": 1000,
+    "Blurred": 58,
+    "Occluded": 166,
+    "No Ball": 126,
+    "Small": 34,
+    "annotation_status": 80
+  },
+  "original_notes_prefix_and_exact_review_append_preserved": true,
+  "all_nonreview_nonflag_columns_preserved": true,
+  "all_selected_review_flags_one": true,
+  "images_sha256_unchanged": 1000,
+  "old_label_backups_sha256_match_baseline": 1000,
+  "labels_unchanged_byte_for_byte": 980,
+  "labels_changed": 20,
+  "changed_label_categories": {
+    "nonempty_to_nonempty": 5,
+    "nonempty_to_empty": 4,
+    "empty_to_nonempty": 11
+  },
+  "changed_label_details": [
+    {
+      "filename": "video_4bec9c343db72928_frame_00013913_right.png",
+      "index": 315,
+      "category": "nonempty_to_nonempty",
+      "boxes_before": 1,
+      "boxes_after": 1,
+      "new_label_sha256": "546fbc17fda79323e150287983b12c947c65894d37a517b35f22d8204cc032f8"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00013949_right.png",
+      "index": 323,
+      "category": "nonempty_to_nonempty",
+      "boxes_before": 1,
+      "boxes_after": 1,
+      "new_label_sha256": "ba6a557ea832984a437bcc5fd0ea7634edaf3c67764499c699e4b6f7f99ebfbb"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014005_left.png",
+      "index": 338,
+      "category": "nonempty_to_empty",
+      "boxes_before": 1,
+      "boxes_after": 0,
+      "new_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014169_right.png",
+      "index": 383,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "c47b920c20ab48ce3d821b4bab0da9e03129b9b7e9a19b28a590ee5d65fc4546"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014299_left.png",
+      "index": 416,
+      "category": "nonempty_to_nonempty",
+      "boxes_before": 1,
+      "boxes_after": 1,
+      "new_label_sha256": "13e6f60d732ead0ea5f3d6032fc561246db1f8a5e92b025efb765f56feec1b66"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014303_right.png",
+      "index": 419,
+      "category": "nonempty_to_nonempty",
+      "boxes_before": 1,
+      "boxes_after": 1,
+      "new_label_sha256": "ba987e773bbdea6ea6100c9d2885bf1b8d55fb8200f4477608b2e50a20921261"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014316_left.png",
+      "index": 420,
+      "category": "nonempty_to_empty",
+      "boxes_before": 1,
+      "boxes_after": 0,
+      "new_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014316_right.png",
+      "index": 421,
+      "category": "nonempty_to_empty",
+      "boxes_before": 1,
+      "boxes_after": 0,
+      "new_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014377_left.png",
+      "index": 436,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "94b498abbb80c74cae07e8b6993f75fcce7a4f62a14cd0bc9a674d4665600bc4"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014377_right.png",
+      "index": 437,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "c3f1b60f32475ff7800d65bf5f13bf20eb5fbc3cf9ccc1d69cce94f4087db55b"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014476_right.png",
+      "index": 465,
+      "category": "nonempty_to_empty",
+      "boxes_before": 1,
+      "boxes_after": 0,
+      "new_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014496_left.png",
+      "index": 468,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "f0b0e5fc5c6b83a683668b9dbfe2fdc1384501983abc52bb4c98be4716e74db3"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014496_right.png",
+      "index": 469,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "10bf89ea800905d4d7766439923dee81467d1c83c7e91742bf531f5523143940"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014557_left.png",
+      "index": 484,
+      "category": "nonempty_to_nonempty",
+      "boxes_before": 1,
+      "boxes_after": 1,
+      "new_label_sha256": "affc793a6c7af30d61558c1b9c5859117d8835f9adeef4fd05b6fb3546b5cb63"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014622_left.png",
+      "index": 502,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "f4cef37dfa66d34540bbd7a70ad7513210e3a58f25d23321338506e22db5c43b"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00014622_right.png",
+      "index": 503,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "a58fc11bed8a96e537181e65a36bd0e087b34e26abd30f24eac1394a19a0f50c"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00015728_left.png",
+      "index": 794,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "6ac30d11f583c27eade843c47dbe4598806ee1e0dc3f3c1dba87fe27a1b4f3fe"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00015728_right.png",
+      "index": 795,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "9c6a41854bd597782a0df8a203f268bf0e8f0552b28ef7fb375ceed23c42cd6f"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00016027_left.png",
+      "index": 872,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "6baf252d930cc320abf39eff180c16ac9a652902260e48dfc58d277c2987c781"
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00016027_right.png",
+      "index": 873,
+      "category": "empty_to_nonempty",
+      "boxes_before": 0,
+      "boxes_after": 1,
+      "new_label_sha256": "c425d6ecef56077424acb83e7f1fb0d55a2b3681154aa3287319b7240524dbdc"
+    }
+  ],
+  "changed_labels_match_independent_encoding_apply_encode_proposed_backup_and_root_registry": true,
+  "all_labels_class_zero_finite_positive_normalized_inbounds": true,
+  "label_geometry_boundary_tolerance": 1e-06,
+  "boxes_before": 447,
+  "boxes_after": 454,
+  "scene_rows_changed": 320,
+  "flags": {
+    "Small": 255,
+    "Occluded": 187,
+    "Blurred": 80,
+    "No Ball": 546
+  },
+  "No_Ball_equivalent_to_empty_final_label": true,
+  "empty_final_labels": 546,
+  "manual_or_visibility_with_empty_label_permitted_and_checked": 75,
+  "outside_csv_rows_preserved_byte_for_byte": 7398,
+  "csv_header_bom_record_order_and_all_record_newlines_preserved": true,
+  "full_actual_opened_pages_recorded": 500,
+  "roi_actual_opened_pages_recorded": 58,
+  "all_evidence_paths_exist": true,
+  "uncertain_priority_count": 89,
+  "edge_second_review_O0_indices": [
+    539,
+    683
+  ],
+  "review_policy_sha256": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33",
+  "all_source_input_hashes_match_updated_summary": true,
+  "previous_batch_approvals": [
+    {
+      "batch": 1,
+      "count": 1000,
+      "both_review_flags_zero": 1000,
+      "status_counts": {
+        "negative_confirmed": 272,
+        "reviewed_annotation": 707,
+        "reviewed_excluded": 21
+      }
+    },
+    {
+      "batch": 2,
+      "count": 1000,
+      "both_review_flags_zero": 1000,
+      "status_counts": {
+        "reviewed_annotation": 847,
+        "reviewed_excluded": 11,
+        "negative_confirmed": 142
+      }
+    },
+    {
+      "batch": 3,
+      "count": 1000,
+      "both_review_flags_zero": 1000,
+      "status_counts": {
+        "negative_confirmed": 530,
+        "reviewed_excluded": 116,
+        "reviewed_annotation": 354
+      }
+    },
+    {
+      "batch": 4,
+      "count": 1000,
+      "both_review_flags_zero": 1000,
+      "status_counts": {
+        "reviewed_annotation": 725,
+        "reviewed_excluded": 41,
+        "negative_confirmed": 234
+      }
+    },
+    {
+      "batch": 5,
+      "count": 1000,
+      "both_review_flags_zero": 1000,
+      "status_counts": {
+        "reviewed_annotation": 498,
+        "negative_confirmed": 488,
+        "reviewed_excluded": 14
+      }
+    }
+  ],
+  "global_review_counts": {
+    "done": 5000,
+    "pending": 3398,
+    "mixed": 0
+  },
+  "datasets_written_by_verifier": 0,
+  "input_fingerprint_amendment_independently_verified": {
+    "path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-1/summary.json",
+    "original_sha256": "198a26ba20d8e94e8d960e55abb26651f2c307d05df7457910a3623a090979a5",
+    "current_sha256": "eb93f9ff6c9e10f0d6a9c530a33ff576f2181917ce8c0c312ccb87ae4e917c9c",
+    "preserved_original_snapshot": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/collection-inputs/group-1-summary-at-collection.json",
+    "only_changes": [
+      "old_and_new_geometry_finite_legal",
+      "hashes_match_inventory",
+      "scene_and_label_still_pending",
+      "manual_uncertainty_consistent",
+      "old_geometry_float_tolerance_px"
+    ],
+    "final_newline_in_current_and_original": false,
+    "original_snapshot_byte_exact_reconstruction": true,
+    "datasets_and_proposals_unchanged": true
+  },
+  "false_positive_relocalized_indices": [
+    416,
+    419
+  ]
+}

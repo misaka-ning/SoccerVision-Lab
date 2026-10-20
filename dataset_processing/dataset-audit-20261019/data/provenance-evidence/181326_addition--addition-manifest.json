@@ -1,0 +1,2966 @@
+[
+  {
+    "图片": "rec_20261013_181326_frame_000002_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000002_left.png",
+    "frame_idx": 2,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 0.13333333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000002_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1",
+      "split": "train",
+      "annotation_status": "negative_confirmed",
+      "scene_review_required": "1",
+      "label_review_required": "0",
+      "auto_box_count": "0",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Full image shows ceiling, people and office furniture; no visible football.",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "2",
+      "eye": "left"
+    },
+    "boxes": [],
+    "image_sha256": "71c914d45ed6563b456075bfd4cd7d63bee1bbf814646164f4dd5ed4c44e2a42",
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000002_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000002_right.png",
+    "frame_idx": 2,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 0.13333333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000002_right.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1",
+      "split": "train",
+      "annotation_status": "negative_confirmed",
+      "scene_review_required": "1",
+      "label_review_required": "0",
+      "auto_box_count": "0",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Full image shows ceiling, people and office furniture; no visible football.",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "2",
+      "eye": "right"
+    },
+    "boxes": [],
+    "image_sha256": "a0d90a53b79950265cfaf92e30a922f6041a5de1ce2510372d19e0838c6b4b85",
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000087_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000087_left.png",
+    "frame_idx": 87,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 5.8,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000087_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1",
+      "split": "train",
+      "annotation_status": "negative_confirmed",
+      "scene_review_required": "1",
+      "label_review_required": "0",
+      "auto_box_count": "0",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Full image shows ceiling, people and office furniture; no visible football.",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "87",
+      "eye": "left"
+    },
+    "boxes": [],
+    "image_sha256": "a563f3c3ca7fa70b703c3f72fbe0bb5122e170d7ca2e606daba88c25724771d8",
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000087_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000087_right.png",
+    "frame_idx": 87,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 5.8,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000087_right.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "1",
+      "split": "train",
+      "annotation_status": "negative_confirmed",
+      "scene_review_required": "1",
+      "label_review_required": "0",
+      "auto_box_count": "0",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Full image shows ceiling, people and office furniture; no visible football.",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "87",
+      "eye": "right"
+    },
+    "boxes": [],
+    "image_sha256": "17e984a5f6ccea96ca6612b132134a268556c223179d9c5e5f744cf8f9ece31c",
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000327_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000327_left.png",
+    "frame_idx": 327,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 21.8,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000327_left.png",
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "needs_visibility_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "0",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Foreground hand fully covers the known football location; cannot establish a separately visible ball boundary. No hidden-object bbox is fabricated.",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "327",
+      "eye": "left"
+    },
+    "boxes": [],
+    "image_sha256": "3ff793be839b0b639a8b06985e1df725f0e6045f1e5023649f190b1b90840f6c",
+    "label_sha256": null
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000327_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000327_right.png",
+    "frame_idx": 327,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 21.8,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000327_right.png",
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "327",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          393.0,
+          181.0,
+          419.0,
+          218.0
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.08270263671875,
+        "modelname": "recording",
+        "complete_ball_max_edge_px": 39.5,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "5447f5d694ace84fb87c111600899ca9d5624ccc81479c918dbf2b88e90948c4",
+    "label_sha256": "6fd4ba581348ba5225117a24c026661afa902a87f6add342b818d5cb7b06181e"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000330_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000330_left.png",
+    "frame_idx": 330,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 22.0,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000330_left.png",
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "needs_visibility_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "0",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Foreground hand fully covers the known football location; cannot establish a separately visible ball boundary. No hidden-object bbox is fabricated.",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "330",
+      "eye": "left"
+    },
+    "boxes": [],
+    "image_sha256": "00197244274fce8eb318f67028c2ba2343e701e884cc04a399ef7ac26457551b",
+    "label_sha256": null
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000330_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000330_right.png",
+    "frame_idx": 330,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 22.0,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000330_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "330",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.302,
+          180.5772,
+          421.7352,
+          218.4645
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7578163,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 37.8873,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "f97bf678511cc0cabe7188454ac5504b7b5da38ac515db535a38b8a24c830993",
+    "label_sha256": "c581868b9d10bebe1f0d6ae857734d6202dd02cfe08ec6f13d5de2a507f8d06b"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000332_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000332_left.png",
+    "frame_idx": 332,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 22.133333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000332_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "332",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.5699,
+          180.3266,
+          440.2989,
+          219.4129
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7837923,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.729,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "3601c4cb51ea3f3162fb45d562a54317d904f2caed9e173efac9d62458bb273c",
+    "label_sha256": "0c49c9d96459188f89c7c983e6ef4a26edf7bbe45eb3b45b69397ac5d4b58669"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000332_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000332_right.png",
+    "frame_idx": 332,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 22.133333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000332_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "332",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          382.7743,
+          180.0265,
+          421.2574,
+          218.3367
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.4922072,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.4831,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "fc46dee56d0f78645fdfdc210c3badfa67675fe59a38ea06c9658dda00790f71",
+    "label_sha256": "117e6f3061e667cb1a44fa4f52af9bfbe1fa62eb8bcbfa937b8548d6bc678750"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000339_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000339_left.png",
+    "frame_idx": 339,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 22.6,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000339_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "339",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          400.4052,
+          180.5006,
+          440.1986,
+          219.3408
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6119533,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 39.7934,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "063e1185b6399685ed805fc168461189d84663df85a2f5dbefc4698afd440134",
+    "label_sha256": "c76ee72489336062fc8d3e358a03991185c5fd2440dee403573cf3ea22caa6d3"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000339_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000339_right.png",
+    "frame_idx": 339,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 22.6,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000339_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "339",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          383.6682,
+          179.9784,
+          422.7506,
+          217.8518
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5820251,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 39.0824,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "821cc1d2e66ccf76395d2345ba9a50fc11fcf017d2e6ab0863df2267f2d1a7b7",
+    "label_sha256": "f9449732bbbf5a0a07377d3775932464326750048b74a61b760944fedfdbf6f3"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000355_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000355_left.png",
+    "frame_idx": 355,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 23.666666666666668,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000355_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "355",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          402.0,
+          181.0,
+          441.0,
+          219.0
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.64990234375,
+        "modelname": "recording",
+        "complete_ball_max_edge_px": 39.0,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "9459137d0c62d65370c396af6b8bb363fc36b96212f8df6604097a4c353f0e46",
+    "label_sha256": "098488facbc660d82a59e74d3560b7c70b98380dad1d05bb592510648968c2a6"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000355_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000355_right.png",
+    "frame_idx": 355,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 23.666666666666668,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000355_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "355",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          383.2652,
+          179.7457,
+          422.8644,
+          218.6146
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5575755,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 39.5992,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "d3e3c665bba2b1183796d41993ce46a90abcfc5683caab01ca791178f2812b33",
+    "label_sha256": "6ccd112c3b59a2ee74e28a2171cdba5bc3f97fbf7b636b74fcc8c0e6b8aae7b5"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000361_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000361_left.png",
+    "frame_idx": 361,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 24.066666666666666,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000361_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "361",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          401.597,
+          181.4474,
+          439.8398,
+          219.5747
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5052219,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.2428,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "86bd19d62ffd2233d80506080b0e30423c30ca5f2bd667d5bc3392e67a279d4f",
+    "label_sha256": "26f93cebaf0a722d51198e1e9c5bb3d536cd3dba7540ab84fd8d119a257615e7"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000361_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000361_right.png",
+    "frame_idx": 361,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 24.066666666666666,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000361_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "361",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.218,
+          180.4954,
+          422.5741,
+          218.5628
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5623565,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.3561,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "e9dd202e33547195ad7515ca2de6391a1f2c59245c39b08f23874d188f71bacc",
+    "label_sha256": "18d29349b4f32f5369f19911b3410fd17b6a4a17595a16d75ec8eefb5dbd5577"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000373_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000373_left.png",
+    "frame_idx": 373,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 24.866666666666667,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000373_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "373",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          400.5631,
+          180.7776,
+          440.2444,
+          219.3981
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7671973,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 39.6813,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "3529c20df8aca2fe254383a875ec52198793cab3f7c218518613dac55b7e5cd3",
+    "label_sha256": "38bc7b9ddaaf7b2d8a0174ebba0e8902544292ff42e6287d7db73cee18511e9f"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000373_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000373_right.png",
+    "frame_idx": 373,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 24.866666666666667,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000373_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "373",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.2268,
+          180.9044,
+          422.514,
+          218.836
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6674439,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.2872,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "7bb81619e1ab0708a7d548815ba48d34585a37ced99e84e0303ace6c30f7cc53",
+    "label_sha256": "50f37858236d9853ad6b6ccd4e47d7434798b8284644a95406abf7b0c841a826"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000376_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000376_left.png",
+    "frame_idx": 376,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 25.066666666666666,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000376_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "376",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          401.0,
+          181.0,
+          440.0,
+          219.0
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.73974609375,
+        "modelname": "recording",
+        "complete_ball_max_edge_px": 39.0,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "4c43b18772eac1f9e25cef245f0dded403bf83d0f21bd29af05df31a34790728",
+    "label_sha256": "f9e8276d5953ee39e7b84b9ac6dea98a9640917b5914fd58dc500dc4c2a87e14"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000376_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000376_right.png",
+    "frame_idx": 376,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 25.066666666666666,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000376_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "376",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.287,
+          180.926,
+          422.3942,
+          218.8932
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.652117,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.1072,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "a3850d684efffc30cb49618d72f56ba725a2a966c03fa02d47b497d22d90d3bb",
+    "label_sha256": "ccb2a23aa9a903beec16020c09b4c3c6943e4f67f8b6cab975d5720ef82cb58f"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000385_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000385_left.png",
+    "frame_idx": 385,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 25.666666666666668,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000385_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "385",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          400.2945,
+          180.9028,
+          440.2369,
+          219.6841
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.8593286,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 39.9424,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "4917935469f6fc4f9ed17b6c5cfaad67e025b1c11d48d640df27b7fd4a6ebfb7",
+    "label_sha256": "6e1766097dfad54c6b1f5c85033b040f8e95412fdd42179a888109956814f362"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000385_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000385_right.png",
+    "frame_idx": 385,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 25.666666666666668,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000385_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "385",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          383.6746,
+          180.6623,
+          422.1915,
+          218.715
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.4965232,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.5169,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "ff9b30f3894a0435bf96f7c2cb6ccc5619e2ef7c6cbcf260ab24948b0f230f65",
+    "label_sha256": "e0746f5fe59df21b60ad42bf545d7173a24617eb1e2b466caf497f4f38b80b08"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000390_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000390_left.png",
+    "frame_idx": 390,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 26.0,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000390_left.png",
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "390",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          401,
+          181,
+          441,
+          221
+        ],
+        "method": "manual_partial_ball_review_with_neighboring_complete_silhouette",
+        "reason": "White/purple football surface is clearly visible beside or above the blocking shoe; model absence does not imply No Ball. Instance bbox uses the same stationary ball extent verified in adjacent frames and requires human confirmation.",
+        "pending_human_review": true,
+        "complete_ball_max_edge_px": 40,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "9077b264e9163fd2d8b490f3acb0da809def7ca83d10ebed03559479cd0ca39c",
+    "label_sha256": "9d28c693c76b066237823c75ae867d48243f54a4fd256b0a087a330bfe3f2e0b"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000390_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000390_right.png",
+    "frame_idx": 390,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 26.0,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000390_right.png",
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "390",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          392.0,
+          181.0,
+          423.0,
+          214.0
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.447509765625,
+        "modelname": "recording",
+        "complete_ball_max_edge_px": 40,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "3cf52b05c7169f77abee054d34ca93a4476bd8d8307919219e8e4e54a6e648ce",
+    "label_sha256": "edf401775471ec011e8c108c34b5976b092d40bd29963b161e65e8e31c5e74ed"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000398_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000398_left.png",
+    "frame_idx": 398,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 26.533333333333335,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000398_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "398",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          401.0,
+          181.0,
+          441.0,
+          219.0
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7509765625,
+        "modelname": "recording",
+        "complete_ball_max_edge_px": 40.0,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "dc95897916562227e084f2d19ee7ee50ba6dcf405a3835c68bbe9692a3d7550f",
+    "label_sha256": "9fd914c792190988ffa628a0e78db187f77925d2092b56dd60ad823d509e86ac"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000398_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000398_right.png",
+    "frame_idx": 398,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 26.533333333333335,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000398_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "398",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.0,
+          181.0,
+          423.0,
+          219.0
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6669921875,
+        "modelname": "recording",
+        "complete_ball_max_edge_px": 39.0,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "99f17ee3eea692f25f2bfd7727c276eeb809bfdbede87e79e785e48cb44ab74a",
+    "label_sha256": "8106729213740976599a1e02b32114c38dfc736708d6d394b85164836552c276"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000406_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000406_left.png",
+    "frame_idx": 406,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 27.066666666666666,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000406_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "406",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          400.6304,
+          181.2679,
+          440.479,
+          219.3968
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5627278,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 39.8486,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "6cddc7a2dcb62d94d2d49915ceb19db90577d4abbee19632374c4ef6eef3071a",
+    "label_sha256": "45b1a398c023b62bc39e0714ae9a341f9a1151b9f4beb80baf05807643c0d8c0"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000406_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000406_right.png",
+    "frame_idx": 406,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 27.066666666666666,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000406_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "406",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          383.4424,
+          180.3349,
+          422.9135,
+          218.5742
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5726971,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 39.4711,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "b737c14ba9d7e8f3a5869345ac81ec44b50e06dadf430bdef3b1928f8c1a7a72",
+    "label_sha256": "14940832a21ef5c7fd65c91837e1ffda7173f21e2c5371ebda11ce8d0bb35ed6"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000498_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000498_left.png",
+    "frame_idx": 498,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 33.2,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000498_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "498",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          400.1562,
+          181.9455,
+          440.2163,
+          220.9375
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.4708312,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.0601,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "7f53b2cce1970481480cdba7ff38291fb47aff352573f6ff054038569ed68438",
+    "label_sha256": "96f76db52753d6b242bc8e50399c8c943e89e1272b66f42b5d61300c32672635"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000498_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000498_right.png",
+    "frame_idx": 498,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 33.2,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000498_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "498",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          383.911,
+          181.3875,
+          422.7137,
+          219.467
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.4153763,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.8027,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "f64751ebdbfa8cf5707fe10d9634d1858f30c3400b2ccbff71b58a817ea02234",
+    "label_sha256": "f88e3452e1c050151ab7f0916ea44f5d75ce20420dfa278bf2835c9ea6c05bd7"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000990_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000990_left.png",
+    "frame_idx": 990,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 66.0,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000990_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "990",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          400.0986,
+          182.6851,
+          440.3214,
+          221.3855
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7387334,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.2228,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "7a5bb692fd5c3e561c769f49afd189484b6afd177de011aefc965041fb560ba5",
+    "label_sha256": "8bbd8db0f6968bff94378c600a286bbae6b76a21c20f50403e6ac18f842885a4"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000990_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000990_right.png",
+    "frame_idx": 990,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 66.0,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000990_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "990",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.4892,
+          182.5617,
+          422.3311,
+          220.7346
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.4830321,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.1729,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "4098f129b074c7ef2c6539a21b2defbeb3a259fce594dcc176835c198d89f7ec",
+    "label_sha256": "af55403153e8955d15ee9db18e3f10ae8c4a3c8c6ca037bfa7bb84d4bb1e7d41"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000999_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000999_left.png",
+    "frame_idx": 999,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 66.6,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000999_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "999",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          401.0,
+          183.0,
+          441.0,
+          221.0
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6826171875,
+        "modelname": "recording",
+        "complete_ball_max_edge_px": 40.0,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "841a7f2dcc20a81f41d9843441f2ca6c7dcb754e833e5bb20a41de75c0e8ce11",
+    "label_sha256": "c29c33c8ba9f47f11c7291fcf41a660bddbcd461e53f1254ff2a0f95b58677e3"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_000999_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_000999_right.png",
+    "frame_idx": 999,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 66.6,
+    "final": {
+      "图片": "rec_20261013_181326_frame_000999_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "999",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.3928,
+          182.6957,
+          422.432,
+          220.6378
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.622909,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.0392,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "fc95f54ea4829fbe28da28cdf3dc3f6f206a42f1bf1d46959b8ad283c78804b6",
+    "label_sha256": "2d8e7c625ace3e725d5a6339ea3df7b0e76caac5af55cb001aa1738d6272b6c0"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001000_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001000_left.png",
+    "frame_idx": 1000,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 66.66666666666667,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001000_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1000",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          400.891,
+          183.1251,
+          440.306,
+          221.3827
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.4670927,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 39.415,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "c1360991f159268a98a9e0792cfe9518dc0998beb0b26fadbfdb366a51ab64de",
+    "label_sha256": "312e6dbb0e96d42be7e085bdcd0c3fef8b147846833de3c804cacb002e9eb7b6"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001000_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001000_right.png",
+    "frame_idx": 1000,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 66.66666666666667,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001000_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1000",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          383.6436,
+          182.3287,
+          422.3842,
+          220.6326
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5637702,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.7406,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "d9826835a65c98727665cc272385484c590472d4d02a7371b02da0afb59b13eb",
+    "label_sha256": "59373f857042e31f0b31ca6af359d6c44441b4bb79e686269c22193ddc165285"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001013_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001013_left.png",
+    "frame_idx": 1013,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 67.53333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001013_left.png",
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1013",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          401,
+          181,
+          441,
+          221
+        ],
+        "method": "manual_partial_ball_review_with_neighboring_complete_silhouette",
+        "reason": "White/purple football surface is clearly visible beside or above the blocking shoe; model absence does not imply No Ball. Instance bbox uses the same stationary ball extent verified in adjacent frames and requires human confirmation.",
+        "pending_human_review": true,
+        "complete_ball_max_edge_px": 40,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "a20c6bb3f6f38647388aa87c6aff93da3f7769def43ddd600b1191be7efcf882",
+    "label_sha256": "9d28c693c76b066237823c75ae867d48243f54a4fd256b0a087a330bfe3f2e0b"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001013_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001013_right.png",
+    "frame_idx": 1013,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 67.53333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001013_right.png",
+      "Small": "1",
+      "Occluded": "1",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "needs_visibility_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "0",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Foreground shoe/ankle fully covers the football location; no separately visible ball boundary can be localized. No hidden-object bbox is fabricated.",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1013",
+      "eye": "right"
+    },
+    "boxes": [],
+    "image_sha256": "32629032819002a07bdb5b30fcb3f55121336f135b0a402594ff8973879ca7d8",
+    "label_sha256": null
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001016_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001016_left.png",
+    "frame_idx": 1016,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 67.73333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001016_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1016",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          401.0,
+          183.0,
+          441.0,
+          221.0
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6826171875,
+        "modelname": "recording",
+        "complete_ball_max_edge_px": 40.0,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "c8182ba749297af0980bc9b1cc4adbef7a14758b4353918f20d8ab05d3bd1292",
+    "label_sha256": "c29c33c8ba9f47f11c7291fcf41a660bddbcd461e53f1254ff2a0f95b58677e3"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001016_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001016_right.png",
+    "frame_idx": 1016,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 67.73333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001016_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1016",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          383.7198,
+          182.2376,
+          422.1323,
+          220.5691
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7094417,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.4125,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "ab62dd53c02d4620f4c0770f2f40221557807fc64eb60a5c533e62af86116d54",
+    "label_sha256": "5b347082f2466e04aa363561f7186cfe448a5de1ad93081ed14c74c371d48b37"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001023_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001023_left.png",
+    "frame_idx": 1023,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 68.2,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001023_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1023",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.9126,
+          182.7391,
+          440.328,
+          221.2208
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.8701233,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.4154,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "72f45d4c414544bf93726f595af75d51f920c5c78e6e504902fe91c212f1507f",
+    "label_sha256": "9830048169b5cdcfc1a3278f433c5e7763d4145ec9c7a934d89cbc4ad52b4561"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001023_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001023_right.png",
+    "frame_idx": 1023,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 68.2,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001023_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1023",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          383.8515,
+          182.2869,
+          422.2491,
+          220.3252
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6735336,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.3976,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "dde48b0f65749668c2097273268afc915c679c6c4f057c5ccacfc799bdff44fd",
+    "label_sha256": "99e55ebdaeab8427653f8b34381f5d8c83b0ce510e4d7c7751fc41665a51122b"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001029_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001029_left.png",
+    "frame_idx": 1029,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 68.6,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001029_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1029",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.9625,
+          182.87,
+          440.2401,
+          221.3465
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7798541,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.2776,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "eb13546fb7025dd656bbdc963f046000ab80c4bc619284e3f4ab2d0a377093da",
+    "label_sha256": "db99e2970bd7f1e7f0af4dd6a0a5d46b4e54c598717542753a32c41e60e55e4c"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001029_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001029_right.png",
+    "frame_idx": 1029,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 68.6,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001029_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1029",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.4243,
+          182.5675,
+          422.3077,
+          220.5773
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.642772,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.0098,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "bce79deafa183adcab709c635a56971c56710e139553e217fa80d32e2f8725a3",
+    "label_sha256": "81a91e62d245bf850b5dd58a540ebc5653c137f4492424b1c33c6cb09dae58af"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001035_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001035_left.png",
+    "frame_idx": 1035,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 69.0,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001035_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1035",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.9734,
+          182.7575,
+          440.385,
+          221.2266
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6976039,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.4116,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "4c0b7c75a02fc786d70311a50670b3a09f70a87a2a9b34fe53d3d5249e30cbea",
+    "label_sha256": "8f703f7b38b09860adea3d6143058ee5fa17d95fd5ceaf7a12cdb5e1e804abcc"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001035_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001035_right.png",
+    "frame_idx": 1035,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 69.0,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001035_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1035",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.416,
+          182.5837,
+          422.5255,
+          220.49
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.544057,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.1095,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "8730e3e9227d49a8aa8b692e8ea352d7652c7e62ffb34deab995c5f80a12ab8a",
+    "label_sha256": "2cd60cbe6ee56dfc0ac7cc055694215cfb83370bb7faa7a388bd91778060aac5"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001041_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001041_left.png",
+    "frame_idx": 1041,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 69.4,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001041_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1041",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          400.0013,
+          182.8378,
+          440.2741,
+          221.4063
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7890949,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.2728,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "db48a931a2bc11bd511c7f6dfbda2ba2b6150ba15a17f05ee8b85ab71993bbbb",
+    "label_sha256": "cfe009fc853630b7d448b365b7ba4090a8cca78e676d13e25f688c9533967ca1"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001041_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001041_right.png",
+    "frame_idx": 1041,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 69.4,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001041_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1041",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.5447,
+          182.5132,
+          422.4655,
+          220.4368
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5524041,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 37.9236,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "55af970e160bdc637070ac4659ea57bc58ec8878a55a8a60b25c702c0b40670d",
+    "label_sha256": "4fcf219dc0f30d61b6603a707da1f987ca610a4d8aec0977a1a8e2294ebfe70a"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001050_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001050_left.png",
+    "frame_idx": 1050,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 70.0,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001050_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1050",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          400.011,
+          182.8264,
+          440.2828,
+          221.2428
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7203047,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.2718,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "7d7937af3661a7534fa837f776533e7d02d3020062920a427e5fd4168775e8e3",
+    "label_sha256": "d865ea59b5904fa024019d1620c87f1d0184fcfb7473e7aadd44ee433d0c9412"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001050_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001050_right.png",
+    "frame_idx": 1050,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 70.0,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001050_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1050",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.452,
+          182.5939,
+          422.5102,
+          220.6283
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.55728,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.0582,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "3b71295b86df6fac10e26605b5b61a47b8d735031d77534846e30ad0f8a72a68",
+    "label_sha256": "d5733b6ad1a9232f5cffd52618901c5feddcc3bf4e5e17081c85bb3ea3437b9b"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001061_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001061_left.png",
+    "frame_idx": 1061,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 70.73333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001061_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1061",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.8718,
+          182.8094,
+          440.3009,
+          221.567
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7544037,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.4291,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "e4ebde0815ceb5eb1f5b6644ffa573c63d63dc0269adf86921702f922c601ee9",
+    "label_sha256": "0f20566b60d759d471aacbd1e1441af065b89f65c532151a9897d00e106a04d1"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001061_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001061_right.png",
+    "frame_idx": 1061,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 70.73333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001061_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1061",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.4665,
+          182.6918,
+          422.6841,
+          220.5155
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6283504,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.2176,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "85405e87cb082c36739ba8cbdfd85f7d4990b5951954ed42a0a2cac1bb918745",
+    "label_sha256": "1a03787e26a1482732869db3d457f69c37ba4b359b666d7d4f131cadc31a409c"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001077_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001077_left.png",
+    "frame_idx": 1077,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 71.8,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001077_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1077",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          400.0272,
+          182.7883,
+          440.2709,
+          221.3384
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.8299941,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.2437,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "0ab90cb96c3646a5216a5ae46f42cfa8c6a1c15761f05467a719539aa4c5bf8c",
+    "label_sha256": "131204d0f9c0241d06b6fc4c3fce9009d3de6dc781afcc692bbf07ad680189b5"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001077_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001077_right.png",
+    "frame_idx": 1077,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 71.8,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001077_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1077",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.482,
+          182.5704,
+          422.4521,
+          220.4794
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5901393,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 37.9701,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "bc3e0d246246efd48a3b31f0c53cdd7e01d958204fd8c37f9f883000a599c01f",
+    "label_sha256": "030f21c859d38d05f4632d52082b24ebeb59f3ac7cfedaf5e13bd94d4d6f5462"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001101_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001101_left.png",
+    "frame_idx": 1101,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 73.4,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001101_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1101",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.7769,
+          182.7814,
+          440.3941,
+          221.0896
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7933348,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.6172,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "8a905d626cd261e3497d09fcf75f77487bdead033c8f3a2c8595f95651a7c0a1",
+    "label_sha256": "9346140f4e5a487c6e5844ab7c98e92c8a0bbb6ba767ff70b7a4d2ba316e364b"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001101_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001101_right.png",
+    "frame_idx": 1101,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 73.4,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001101_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1101",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.4435,
+          182.5588,
+          422.328,
+          220.4329
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5856687,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 37.8845,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "7188483d79a8d38f70d09a3b8665b68b878741ffb4a7904aa6b89c0e771f9658",
+    "label_sha256": "026ab1bec099ac5b2b4b450075540c719e36737936e20048ca9377430608f7c9"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001105_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001105_left.png",
+    "frame_idx": 1105,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 73.66666666666667,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001105_left.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1105",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          401.0,
+          183.0,
+          440.0,
+          221.0
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.537109375,
+        "modelname": "recording",
+        "complete_ball_max_edge_px": 39.0,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "2b79c0adf48b9fa0090cc0d84d9f932d3742114f6a06f3379bbaecea6b3963c5",
+    "label_sha256": "3744796acef9fb3e790058518ac06ae38c5dc8ed80e1b0fd5c0f01c0a94e41bc"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001105_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001105_right.png",
+    "frame_idx": 1105,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 73.66666666666667,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001105_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1105",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.4351,
+          182.2527,
+          422.3741,
+          220.5052
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5797108,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.2525,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "49442ee96cb4bf06f9a34f641a9366ea69a9960bf8f9d9c139952568a14024c0",
+    "label_sha256": "38cd885fba60c81c1158da6faaf7cf04082b3b3e843617f14a078a7c13c1de45"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001114_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001114_left.png",
+    "frame_idx": 1114,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 74.26666666666667,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001114_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1114",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.8847,
+          182.7687,
+          440.3146,
+          221.4967
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7684302,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.4299,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "08a562aa00ac42fbc56f40095875de422a9d489155b62b1174c8dd774b3e0fae",
+    "label_sha256": "225964931e3f7d4ff293113714f833dc699124adfa2348a7af758c1792878f70"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001114_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001114_right.png",
+    "frame_idx": 1114,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 74.26666666666667,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001114_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1114",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          383.6041,
+          182.2899,
+          422.2492,
+          220.3971
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6371281,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.6451,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "83b5a6807f8b4f0b5434712467b84b3fe4ae6879c0bbda18faa1e6fc67776827",
+    "label_sha256": "79518a4b1d43a53f9f52312f0426f586b196b9e7e933b82d08218984aeaaf950"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001124_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001124_left.png",
+    "frame_idx": 1124,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 74.93333333333334,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001124_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1124",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.8066,
+          182.6651,
+          440.4007,
+          221.3251
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.788802,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.5941,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "37bb0679b384f7b8d17cd56bb8310f5f0936333cdedcadcafba33bd084881705",
+    "label_sha256": "ffbe87bf2a744a8481a124d1920e0656e1bffc3deb8b79204ad1acafa5de42b1"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001124_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001124_right.png",
+    "frame_idx": 1124,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 74.93333333333334,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001124_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1124",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.3475,
+          182.5523,
+          422.2236,
+          220.5369
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5614912,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 37.9846,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "46f1387b9519b4a1c394727a725e06114eff49393805cbdf3f790835a380d3a0",
+    "label_sha256": "fa6f845064b87113e781ed069189eacf22b042445ed87a8aea3f4abf2110989d"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001128_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001128_left.png",
+    "frame_idx": 1128,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 75.2,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001128_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1128",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.8701,
+          182.7385,
+          440.2719,
+          221.0363
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.733549,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.4018,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "ae11509386c22f7b9a58ba44a6be82235a9a4f309ff61e147edb99833f767d7f",
+    "label_sha256": "22ca11f20c81535b7a23d7d47bec378c6fa33a56a9ecf0197137b35671629a92"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001128_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001128_right.png",
+    "frame_idx": 1128,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 75.2,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001128_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1128",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.3048,
+          182.442,
+          422.3355,
+          220.3717
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6614402,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.0307,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "2932bbabff00d74a0313bf484d4e31a2931b5b42e03bf8c2bbe8481329cae123",
+    "label_sha256": "ec376cdf59980a2d2ff404e1c0984324a4e0ec2ca430e8e1c6bad70380e58bf2"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001136_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001136_left.png",
+    "frame_idx": 1136,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 75.73333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001136_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1136",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.8379,
+          182.742,
+          440.1743,
+          221.3817
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6992143,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.3364,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "31a8af2b4b8698238898ce4fd210cd8d802653a1e6655cb1bbb6fb2a74635cf7",
+    "label_sha256": "9138fd10d4299cf33d9f96f57633a8f175482554597653c19c7f7d8ce6c08379"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001136_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001136_right.png",
+    "frame_idx": 1136,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 75.73333333333333,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001136_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1136",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          383.8287,
+          182.2175,
+          422.2214,
+          220.37
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.6631059,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.3927,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "813a9cad4a003c34fee90c647f8ec11ca1ffa06c9a4c1ec2f790328fc3e2fd8d",
+    "label_sha256": "32e072124d31b1bfc967d8f97341109d0bac12cac6dc280adc11d4ed1ebf608f"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001150_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001150_left.png",
+    "frame_idx": 1150,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 76.66666666666667,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001150_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1150",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.9098,
+          182.7247,
+          440.2608,
+          221.2536
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.7404754,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.351,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "fc52370187e017abea3b8b43f596f33a354ed7ec2c48e165cc6a4f2b0bfa5e14",
+    "label_sha256": "8a8fde7f7ff3b462f5468a8c324da1b2fbb53d6775cbdf7ab1395863a3de8584"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001150_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001150_right.png",
+    "frame_idx": 1150,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 76.66666666666667,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001150_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1150",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.5392,
+          182.578,
+          422.5303,
+          220.5932
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5202247,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.0152,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "d870a1d3184a276c347fc5ca10771ebfe9873d907156444d3985ad24372e8d4c",
+    "label_sha256": "6e476614838112fb2987fe1754d9805001fa67c8973704eda49b40e67f24c76f"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001154_left.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001154_left.png",
+    "frame_idx": 1154,
+    "eye": "left",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 76.93333333333334,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001154_left.png",
+      "Small": "0",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. Football size lies near the 40 px Small boundary and needs human review. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1154",
+      "eye": "left"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          399.8952,
+          182.741,
+          440.2193,
+          221.4662
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.8596906,
+        "modelname": "yolov8n.pt",
+        "complete_ball_max_edge_px": 40.3241,
+        "small_boundary_review": true
+      }
+    ],
+    "image_sha256": "f4cb7850c8741c54a8253977a62ebb9197903a0f504963e48522d2f3aaf67948",
+    "label_sha256": "6c07584be438baf5ef282115fe487fc7c81af0dc6f15777df2228e42a2137d6b"
+  },
+  {
+    "图片": "rec_20261013_181326_frame_001154_right.png",
+    "image_path": "/tmp/football-new-20261013-181326/candidate-images/rec_20261013_181326_frame_001154_right.png",
+    "frame_idx": 1154,
+    "eye": "right",
+    "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+    "source_seconds": 76.93333333333334,
+    "final": {
+      "图片": "rec_20261013_181326_frame_001154_right.png",
+      "Small": "1",
+      "Occluded": "0",
+      "Blurred": "0",
+      "No Ball": "0",
+      "split": "train",
+      "annotation_status": "auto_label_needs_review",
+      "scene_review_required": "1",
+      "label_review_required": "1",
+      "auto_box_count": "1",
+      "preserved_box_count": "0",
+      "label_review_note": "新录像预标注。Native 672×376 full image and close-up football views checked; one real football instance. Body adjacency or mere shoe contact is excluded from Occluded, and motion blur of a foreground hand/shoe alone is excluded from Blurred. 新增球框待人工审核。",
+      "source_video": "/home/misaka/temp/nvidia-recordings-20261013-193624/downloaded/stereo_20261013_181326_250178_b15c1f6de79441fc9a59436202b7cc5a.avi",
+      "source_frame_idx": "1154",
+      "eye": "right"
+    },
+    "boxes": [
+      {
+        "xyxy": [
+          384.4364,
+          182.5469,
+          422.6203,
+          220.5487
+        ],
+        "method": "model_complete_silhouette_verified_on_native_image",
+        "reason": "Retained one fitting football instance box after visually rejecting same-ball white/purple-panel sub-boxes. Partial hand/foot coverage is reflected in Occluded where visibly established.",
+        "pending_human_review": true,
+        "confidence": 0.5333982,
+        "modelname": "original_best.pt",
+        "complete_ball_max_edge_px": 38.1839,
+        "small_boundary_review": false
+      }
+    ],
+    "image_sha256": "c19678d84937ba625fbff7b10cd8045e74f3ecda9a62e4333bb577fc07f04368",
+    "label_sha256": "0db2355d546f4d3cd48534500dad1a3d4b791ddb60ba76a34232692d36ef48d1"
+  }
+]

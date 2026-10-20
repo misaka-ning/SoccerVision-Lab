@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "success": true,
+  "reviewer": "independent_final_dataset_audit",
+  "canonical_dataset_written": false,
+  "created_at_utc": "2026-10-19T03:29:39.049245+00:00",
+  "checks": {
+    "fresh_snapshot_equals_before_inventory": true,
+    "fresh_snapshot_sha_anchors_before_metadata": true,
+    "result_anchors_before_and_after_metadata": true,
+    "398_snapshot_unique_and_approved_order": true,
+    "total8398_order_headers_BOM_preserved": true,
+    "all_record_line_endings_preserved": true,
+    "outside8000_raw_records_preserved": true,
+    "398_snapshot_metadata_equals_before_rows": true,
+    "only_status_note_reviewflags_changed_fourflags_split_provenance_counts_preserved": true,
+    "398_prior_notes_preserved_exact_confirmation_appended": true,
+    "398_images_labels_match_fresh_snapshot_SHA256": true,
+    "398_dual00_status_matches_actual_labels_NoBall": true,
+    "approved_records_match_actual_media_and_metadata": true,
+    "344positive54negative0excluded": true,
+    "result_declares_zero_media_scene_writes_and_actual_counts": true,
+    "dataset8398_dual00_zero_pending": true,
+    "metadata_stable_during_verification": true
+  },
+  "failures": [],
+  "metrics": {
+    "images_approved": 398,
+    "counts": {
+      "negative_confirmed": 54,
+      "reviewed_annotation": 344
+    },
+    "outside_raw_preserved": 8000,
+    "dataset_reviewed": 8398,
+    "dataset_pending": 0,
+    "changed_column_counts": {
+      "label_review_note": 398,
+      "label_review_required": 398,
+      "scene_review_required": 398,
+      "annotation_status": 398
+    }
+  },
+  "metadata_before_sha256": "d54b7593e69197294bdfba75211056e326d6a08b416aac28b61e1e0301014df1",
+  "metadata_after_sha256": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9",
+  "snapshot_sha256": "49185b7793b11982563e9bd6c2326b093aa99149021fb17362a0a85227135de0"
+}

@@ -1,0 +1,11 @@
+from review_notes import *
+opened(full=[27],roi=[54,55])
+seq(1296,1305,'机器人聚集前景且当前空标，需原生检查机器人脚下、身体后与画面底边。',scene='retain',label='retain')
+seq(1306,1307,'机器人旁完整小足球约36 px，黑白拼块与连续球缘可辨，现框覆盖全部可见外缘；球面略软，当前Blurred=0场景保留。',scene='retain',label='approve_positive')
+seq(1308,1309,'机器人旁小足球左上白色外缘越过或贴住现框左边，轻微球面软化令边界核实不足，保留。',scene='retain',label='retain')
+seq(1310,1323,'黑衣人鞋旁独立小足球约28至35 px，黑白拼块及圆形边界可定位；现框包住全部可见球缘，无漏球或花纹重复框，球面软化是否Blurred另保留场景。',scene='retain',label='approve_positive')
+seq(1324,1331,'机器人或鞋旁小足球有明显运动软化/拖影，球缘与框边重合范围不清，部分Small尺度接近阈值，保留。',scene='retain',label='retain')
+seq(1332,1335,'全景右侧还可见第二个独立足球而label只框脚前球，存在明确漏球；现脚前球亦软化，需补全所有可见足球。',scene='retain',label='retain')
+seq(1336,1339,'近处地毯足球明显运动拖影，球体身份明确但左右外缘和现框贴合不清，保留label。',label='retain')
+seq(1340,1343,'机器人与人物全景当前空框，需原生核查最下沿、机器脚后是否露出足球。',scene='retain',label='retain')
+save()

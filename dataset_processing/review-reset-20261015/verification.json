@@ -1,0 +1,64 @@
+{
+  "total_images": 8398,
+  "total_labels": 8398,
+  "label_pending": 8398,
+  "scene_pending": 8398,
+  "batch_sizes": [
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    398
+  ],
+  "stereo_pairs_crossing_batches": 0,
+  "batch_prechecked": 1000,
+  "priority_review": 252,
+  "label_files_changed": 14,
+  "boxes_before": 765,
+  "boxes_after": 762,
+  "scene_rows_changed": 269,
+  "actions": {
+    "keep": 915,
+    "needs_visibility_review": 16,
+    "needs_manual_bbox_annotation": 55,
+    "replace": 14
+  },
+  "images_changed": [],
+  "metadata_outside_batch_changed": [],
+  "provenance_changed": [],
+  "label_changes_outside_proposals": [],
+  "yaml_unchanged": true,
+  "structural_errors": 0,
+  "user_approved": 0,
+  "coverage": [
+    {
+      "group": 1,
+      "images": 250,
+      "boxes": 169,
+      "summary_path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/summary.json"
+    },
+    {
+      "group": 2,
+      "images": 250,
+      "boxes": 186,
+      "summary_path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-2/summary.json"
+    },
+    {
+      "group": 3,
+      "images": 250,
+      "boxes": 183,
+      "summary_path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-3/summary.json"
+    },
+    {
+      "group": 4,
+      "images": 250,
+      "boxes": 227,
+      "summary_path": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-4/summary.json"
+    }
+  ],
+  "audit": "/home/misaka/workspace/dataset_processing/review-reset-20261015/applied/20261015T032806Z-a0721b12"
+}

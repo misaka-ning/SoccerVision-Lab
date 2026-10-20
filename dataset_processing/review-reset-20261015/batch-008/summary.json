@@ -1,0 +1,209 @@
+{
+  "images": 1000,
+  "boxes": 619,
+  "boxes_after": 624,
+  "full_pages": 500,
+  "roi_pages": 78,
+  "groups": [
+    {
+      "group": 1,
+      "images": 250,
+      "boxes": 200,
+      "boxes_after": 202,
+      "full_pages": 125,
+      "roi_pages": 25,
+      "actions": {
+        "keep": 242,
+        "needs_manual_bbox_annotation": 2,
+        "replace": 4,
+        "needs_visibility_review": 2
+      },
+      "flags": {
+        "Small": 2,
+        "Occluded": 48,
+        "Blurred": 86,
+        "No Ball": 48
+      },
+      "uncertain": 8,
+      "priority": 8,
+      "labels_changed": 4,
+      "scene_rows_changed": 84
+    },
+    {
+      "group": 2,
+      "images": 250,
+      "boxes": 200,
+      "boxes_after": 202,
+      "full_pages": 125,
+      "roi_pages": 25,
+      "actions": {
+        "keep": 244,
+        "replace": 2,
+        "needs_manual_bbox_annotation": 2,
+        "needs_visibility_review": 2
+      },
+      "flags": {
+        "Small": 32,
+        "Occluded": 39,
+        "Blurred": 84,
+        "No Ball": 48
+      },
+      "uncertain": 6,
+      "priority": 6,
+      "labels_changed": 2,
+      "scene_rows_changed": 88
+    },
+    {
+      "group": 3,
+      "images": 250,
+      "boxes": 205,
+      "boxes_after": 206,
+      "full_pages": 125,
+      "roi_pages": 26,
+      "actions": {
+        "keep": 247,
+        "needs_visibility_review": 2,
+        "replace": 1
+      },
+      "flags": {
+        "Small": 32,
+        "Occluded": 32,
+        "Blurred": 62,
+        "No Ball": 44
+      },
+      "uncertain": 3,
+      "priority": 3,
+      "labels_changed": 1,
+      "scene_rows_changed": 49
+    },
+    {
+      "group": 4,
+      "images": 250,
+      "boxes": 14,
+      "boxes_after": 14,
+      "full_pages": 125,
+      "roi_pages": 2,
+      "actions": {
+        "keep": 245,
+        "needs_manual_bbox_annotation": 2,
+        "replace": 2,
+        "needs_visibility_review": 1
+      },
+      "flags": {
+        "Small": 10,
+        "Occluded": 8,
+        "Blurred": 54,
+        "No Ball": 236
+      },
+      "uncertain": 5,
+      "priority": 5,
+      "labels_changed": 2,
+      "scene_rows_changed": 48
+    }
+  ],
+  "actions": {
+    "keep": 978,
+    "needs_manual_bbox_annotation": 6,
+    "replace": 9,
+    "needs_visibility_review": 7
+  },
+  "uncertain": 22,
+  "priority": 22,
+  "labels_changed": 9,
+  "changed_labels": [
+    {
+      "filename": "video_4bec9c343db72928_frame_00020686_left.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00020686_right.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00020993_left.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00020993_right.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00021644_left.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00021644_right.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00023012_right.png",
+      "boxes_before": 0,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00023797_left.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    },
+    {
+      "filename": "video_4bec9c343db72928_frame_00023797_right.png",
+      "boxes_before": 1,
+      "boxes_after": 1
+    }
+  ],
+  "scene_rows_changed": 269,
+  "flags": {
+    "Small": 76,
+    "Occluded": 127,
+    "Blurred": 286,
+    "No Ball": 376
+  },
+  "all_require_user_review": true,
+  "user_approved": 0,
+  "labels_written_to_dataset": 0,
+  "approval_flags_cleared": 0,
+  "no_ball_matches_final_box_count": true,
+  "occluded_basis": "visual_proposals_including_confirmed_edge_truncation; no_geometry_inference",
+  "review_policy": {
+    "path": "/home/misaka/workspace/dataset_processing/batch-review-20261016/review-policy.json",
+    "sha256": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33",
+    "policy": {
+      "effective_from_batch": 5,
+      "effective_date": "2026-10-16",
+      "authority": "用户：之后注意如果在边缘被挡了一半的也算是遮挡，没有标出label框的标注为无球",
+      "Occluded": "明确前景遮挡、足球被画面边缘截断（包括只露半球）均为1；单纯贴近但未覆盖不算。",
+      "No Ball": "以本轮预审最终label为准：0个球框为1；保留或补上至少1个球框为0。缺失label须补空文件；No Ball仅代表本项目分类口径，不自动通过审核。",
+      "Small": "按完整足球尺度折算到图像长边672后约40像素判断，不能用大球残片尺寸当完整小球。",
+      "Blurred": "足球或相机有可辨方向性运动拖影为1，低像素软化和单独脚部运动不自动记。",
+      "review": "每批预审仍保留label_review_required=1和scene_review_required=1，需用户复查；已确认的前4批不追溯重写。"
+    }
+  },
+  "dataset_metadata_sha256": "907a3084ca553d87733c4d7259fd4b6b8f63a7e909c7b591a19f436552a6ff94",
+  "input_sha256": {
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/inventory.json": "839f5eece378dd090bb687fcbb62b2187eb9f144e35e2b368e678ec64318727e",
+    "/home/misaka/workspace/dataset_processing/batch-review-20261016/review-policy.json": "8e4f3b9755946c28ca2f1bd42e93cbbad6b050911b5f6f8ceb767cab8749be33",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/inventory.json": "a833d1df879fae624d8ca733f37f6be9e979c8a8876c2f23a894da76c6fee6ca",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/manifest.json": "49be92cf406eedb8555c360d5d0a6414eea2cfb7b5065f423a17330939ada025",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/proposals.json": "9e208d99da9aff69e2872eaea66183487d8de02ef3bf45dd6ce34002335bd366",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-1/summary.json": "1758cdcdb28bed6506ca6609320dbbb6ea83650ce1ea68d648802c7daf3dffcd",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/inventory.json": "acb493743337cd0638bc00d81ea2eb52372c644cdf3a932541cfe74399cfbeec",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/manifest.json": "82c2db7aae6365f83c00c01dedb81b5d6c0af5bc1dd43d00f263d7ea9249343b",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/proposals.json": "c132819778b210d918896874aab93f9c5188e430902b30575c68ec184a3a5edd",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-2/summary.json": "e0a0fb6da76868e4ec9828571b715a813f35ea2a63a1256f8b1a0e285d5e368b",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/inventory.json": "5ee5a82a024074c40db62f6a725223cf74cd9e34ee5b5fd7f31b1318a9ebe7e0",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/manifest.json": "8e798bd47b8e7154fd0ec8d9af8d85c08e2e49967b79b717d0808750eb3c613b",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/proposals.json": "33cbdf766a8584c6d5562dad6c7e0b6ab0cd1c48c04388d84c3b08c6f2915cc6",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-3/summary.json": "1fc4bc24fa1823012edc9ae9a532bf627f6c485485b5a8985acb06a83bde9eb0",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/inventory.json": "c60f3bc126cf018ec70785d8ac9c9e228a82308b2712559062017c90a406e9c3",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/manifest.json": "4f691a861bc325aff85f054f068e17a6c843ea32deed99afcd93e6b20f572872",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/proposals.json": "1b2839654ebff1cb09422621864e36b0ccc333901c650fc4647d3437f917d1fc",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-008/group-4/summary.json": "9794f0af6a2c9b70f181e5fb6ebace03dd61259da96623e441a6fffec760f3ca"
+  },
+  "immutable_batch_list_sha256": "05a08ae6ea44309354e9c9265c7d22165943a424f47871bd3b8b377d64df5e54"
+}

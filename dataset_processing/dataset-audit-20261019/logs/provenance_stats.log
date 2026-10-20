@@ -1,0 +1,673 @@
+{
+  "provenance": {
+    "all_images": 8398,
+    "complete_current_metadata": 6508,
+    "sha_recovered_missing_metadata": 1176,
+    "confirmed_recording_images": 7684,
+    "recording_unknown_images": 714,
+    "confirmed_recording_count": 3,
+    "independent_physical_session_count": null,
+    "physical_session_note": "Three identified recording files all dated 2026-10-13; independence between these captures and legacy files is not documented. No true session count is inferred from video count.",
+    "same_frame_cross_split_groups": [],
+    "same_frame_units": 3842,
+    "temporal": {
+      "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb|train-val": {
+        "minimum_delta_frames": 6,
+        "fps": 15.0,
+        "minimum_delta_seconds": 0.4,
+        "threshold_counts": {
+          "1": {
+            "unique_frame_pairs": 0,
+            "image_pairs": 0,
+            "affected_images": 0
+          },
+          "5": {
+            "unique_frame_pairs": 0,
+            "image_pairs": 0,
+            "affected_images": 0
+          },
+          "15": {
+            "unique_frame_pairs": 3,
+            "image_pairs": 12,
+            "affected_images": 10
+          },
+          "30": {
+            "unique_frame_pairs": 13,
+            "image_pairs": 48,
+            "affected_images": 25
+          },
+          "75": {
+            "unique_frame_pairs": 89,
+            "image_pairs": 342,
+            "affected_images": 71
+          },
+          "150": {
+            "unique_frame_pairs": 365,
+            "image_pairs": 1422,
+            "affected_images": 143
+          }
+        },
+        "nearest_image_pairs": 2090
+      },
+      "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb|train-test": {
+        "minimum_delta_frames": 4,
+        "fps": 15.0,
+        "minimum_delta_seconds": 0.26666666666666666,
+        "threshold_counts": {
+          "1": {
+            "unique_frame_pairs": 0,
+            "image_pairs": 0,
+            "affected_images": 0
+          },
+          "5": {
+            "unique_frame_pairs": 1,
+            "image_pairs": 4,
+            "affected_images": 4
+          },
+          "15": {
+            "unique_frame_pairs": 5,
+            "image_pairs": 20,
+            "affected_images": 14
+          },
+          "30": {
+            "unique_frame_pairs": 16,
+            "image_pairs": 64,
+            "affected_images": 30
+          },
+          "75": {
+            "unique_frame_pairs": 95,
+            "image_pairs": 380,
+            "affected_images": 76
+          },
+          "150": {
+            "unique_frame_pairs": 374,
+            "image_pairs": 1476,
+            "affected_images": 153
+          }
+        },
+        "nearest_image_pairs": 2076
+      },
+      "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb|val-test": {
+        "minimum_delta_frames": 2256,
+        "fps": 15.0,
+        "minimum_delta_seconds": 150.4,
+        "threshold_counts": {
+          "1": {
+            "unique_frame_pairs": 0,
+            "image_pairs": 0,
+            "affected_images": 0
+          },
+          "5": {
+            "unique_frame_pairs": 0,
+            "image_pairs": 0,
+            "affected_images": 0
+          },
+          "15": {
+            "unique_frame_pairs": 0,
+            "image_pairs": 0,
+            "affected_images": 0
+          },
+          "30": {
+            "unique_frame_pairs": 0,
+            "image_pairs": 0,
+            "affected_images": 0
+          },
+          "75": {
+            "unique_frame_pairs": 0,
+            "image_pairs": 0,
+            "affected_images": 0
+          },
+          "150": {
+            "unique_frame_pairs": 0,
+            "image_pairs": 0,
+            "affected_images": 0
+          }
+        },
+        "nearest_image_pairs": 430
+      }
+    },
+    "cross_split_temporal_runs": [
+      {
+        "recording_id": "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb",
+        "max_observed_frame_gap": 15,
+        "start_frame": 1919,
+        "end_frame": 2373,
+        "sampled_times": 58,
+        "images": 114,
+        "split_counts": {
+          "train": 82,
+          "val": 32
+        },
+        "interpretation": "Operational temporal run; no claim that scene content was continuously unchanged."
+      },
+      {
+        "recording_id": "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb",
+        "max_observed_frame_gap": 15,
+        "start_frame": 2400,
+        "end_frame": 3992,
+        "sampled_times": 208,
+        "images": 414,
+        "split_counts": {
+          "val": 80,
+          "train": 334
+        },
+        "interpretation": "Operational temporal run; no claim that scene content was continuously unchanged."
+      },
+      {
+        "recording_id": "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb",
+        "max_observed_frame_gap": 15,
+        "start_frame": 4012,
+        "end_frame": 5174,
+        "sampled_times": 147,
+        "images": 293,
+        "split_counts": {
+          "train": 236,
+          "test": 57
+        },
+        "interpretation": "Operational temporal run; no claim that scene content was continuously unchanged."
+      },
+      {
+        "recording_id": "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb",
+        "max_observed_frame_gap": 15,
+        "start_frame": 5215,
+        "end_frame": 5688,
+        "sampled_times": 61,
+        "images": 122,
+        "split_counts": {
+          "test": 48,
+          "train": 74
+        },
+        "interpretation": "Operational temporal run; no claim that scene content was continuously unchanged."
+      },
+      {
+        "recording_id": "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb",
+        "max_observed_frame_gap": 75,
+        "start_frame": 1431,
+        "end_frame": 5805,
+        "sampled_times": 551,
+        "images": 1092,
+        "split_counts": {
+          "train": 875,
+          "val": 112,
+          "test": 105
+        },
+        "interpretation": "Operational temporal run; no claim that scene content was continuously unchanged."
+      },
+      {
+        "recording_id": "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb",
+        "max_observed_frame_gap": 150,
+        "start_frame": 1101,
+        "end_frame": 5805,
+        "sampled_times": 563,
+        "images": 1116,
+        "split_counts": {
+          "train": 899,
+          "val": 112,
+          "test": 105
+        },
+        "interpretation": "Operational temporal run; no claim that scene content was continuously unchanged."
+      }
+    ],
+    "boundary_quarantine_planning": {
+      "1": {
+        "candidate_train_images_to_quarantine": 0,
+        "remaining_train_images": 7857,
+        "affected_eval_images": 0,
+        "candidate_train_filenames": [],
+        "note": "Planning candidate only; frame threshold does not prove all visual or event leakage is eliminated."
+      },
+      "5": {
+        "candidate_train_images_to_quarantine": 2,
+        "remaining_train_images": 7855,
+        "affected_eval_images": 2,
+        "candidate_train_filenames": [
+          "frame_004948_left.png",
+          "frame_004948_right.png"
+        ],
+        "note": "Planning candidate only; frame threshold does not prove all visual or event leakage is eliminated."
+      },
+      "15": {
+        "candidate_train_images_to_quarantine": 12,
+        "remaining_train_images": 7845,
+        "affected_eval_images": 12,
+        "candidate_train_filenames": [
+          "frame_002247_left.png",
+          "frame_002247_right.png",
+          "frame_002707_left.png",
+          "frame_002707_right.png",
+          "frame_004937_left.png",
+          "frame_004937_right.png",
+          "frame_004948_left.png",
+          "frame_004948_right.png",
+          "frame_005404_left.png",
+          "frame_005404_right.png",
+          "frame_005408_left.png",
+          "frame_005408_right.png"
+        ],
+        "note": "Planning candidate only; frame threshold does not prove all visual or event leakage is eliminated."
+      },
+      "30": {
+        "candidate_train_images_to_quarantine": 25,
+        "remaining_train_images": 7832,
+        "affected_eval_images": 30,
+        "candidate_train_filenames": [
+          "frame_002231_left.png",
+          "frame_002231_right.png",
+          "frame_002234_left.png",
+          "frame_002234_right.png",
+          "frame_002247_left.png",
+          "frame_002247_right.png",
+          "frame_002707_left.png",
+          "frame_002707_right.png",
+          "frame_002719_right.png",
+          "frame_002726_left.png",
+          "frame_002726_right.png",
+          "frame_004925_left.png",
+          "frame_004925_right.png",
+          "frame_004931_left.png",
+          "frame_004931_right.png",
+          "frame_004937_left.png",
+          "frame_004937_right.png",
+          "frame_004948_left.png",
+          "frame_004948_right.png",
+          "frame_005404_left.png",
+          "frame_005404_right.png",
+          "frame_005408_left.png",
+          "frame_005408_right.png",
+          "frame_005422_left.png",
+          "frame_005422_right.png"
+        ],
+        "note": "Planning candidate only; frame threshold does not prove all visual or event leakage is eliminated."
+      },
+      "75": {
+        "candidate_train_images_to_quarantine": 71,
+        "remaining_train_images": 7786,
+        "affected_eval_images": 76,
+        "candidate_train_filenames": [
+          "frame_002183_left.png",
+          "frame_002183_right.png",
+          "frame_002185_left.png",
+          "frame_002185_right.png",
+          "frame_002199_left.png",
+          "frame_002199_right.png",
+          "frame_002200_left.png",
+          "frame_002200_right.png",
+          "frame_002212_left.png",
+          "frame_002212_right.png",
+          "frame_002217_left.png",
+          "frame_002217_right.png",
+          "frame_002231_left.png",
+          "frame_002231_right.png",
+          "frame_002234_left.png",
+          "frame_002234_right.png",
+          "frame_002247_left.png",
+          "frame_002247_right.png",
+          "frame_002707_left.png",
+          "frame_002707_right.png",
+          "frame_002719_right.png",
+          "frame_002726_left.png",
+          "frame_002726_right.png",
+          "frame_002730_left.png",
+          "frame_002730_right.png",
+          "frame_002736_left.png",
+          "frame_002736_right.png",
+          "frame_002744_left.png",
+          "frame_002744_right.png",
+          "frame_002757_left.png",
+          "frame_002757_right.png",
+          "frame_002767_left.png",
+          "frame_002767_right.png",
+          "frame_004879_left.png",
+          "frame_004879_right.png",
+          "frame_004884_left.png",
+          "frame_004884_right.png",
+          "frame_004891_left.png",
+          "frame_004891_right.png",
+          "frame_004898_left.png",
+          "frame_004898_right.png",
+          "frame_004908_left.png",
+          "frame_004908_right.png",
+          "frame_004916_left.png",
+          "frame_004916_right.png",
+          "frame_004925_left.png",
+          "frame_004925_right.png",
+          "frame_004931_left.png",
+          "frame_004931_right.png",
+          "frame_004937_left.png",
+          "frame_004937_right.png",
+          "frame_004948_left.png",
+          "frame_004948_right.png",
+          "frame_005404_left.png",
+          "frame_005404_right.png",
+          "frame_005408_left.png",
+          "frame_005408_right.png",
+          "frame_005422_left.png",
+          "frame_005422_right.png",
+          "frame_005430_left.png",
+          "frame_005430_right.png",
+          "frame_005435_left.png",
+          "frame_005435_right.png",
+          "frame_005444_left.png",
+          "frame_005444_right.png",
+          "frame_005449_left.png",
+          "frame_005449_right.png",
+          "frame_005462_left.png",
+          "frame_005462_right.png",
+          "frame_005467_left.png",
+          "frame_005467_right.png"
+        ],
+        "note": "Planning candidate only; frame threshold does not prove all visual or event leakage is eliminated."
+      },
+      "150": {
+        "candidate_train_images_to_quarantine": 147,
+        "remaining_train_images": 7710,
+        "affected_eval_images": 149,
+        "candidate_train_filenames": [
+          "frame_002104_left.png",
+          "frame_002104_right.png",
+          "frame_002114_left.png",
+          "frame_002114_right.png",
+          "frame_002121_left.png",
+          "frame_002121_right.png",
+          "frame_002132_left.png",
+          "frame_002132_right.png",
+          "frame_002136_left.png",
+          "frame_002136_right.png",
+          "frame_002144_left.png",
+          "frame_002144_right.png",
+          "frame_002159_left.png",
+          "frame_002159_right.png",
+          "frame_002166_left.png",
+          "frame_002166_right.png",
+          "frame_002168_left.png",
+          "frame_002168_right.png",
+          "frame_002183_left.png",
+          "frame_002183_right.png",
+          "frame_002185_left.png",
+          "frame_002185_right.png",
+          "frame_002199_left.png",
+          "frame_002199_right.png",
+          "frame_002200_left.png",
+          "frame_002200_right.png",
+          "frame_002212_left.png",
+          "frame_002212_right.png",
+          "frame_002217_left.png",
+          "frame_002217_right.png",
+          "frame_002231_left.png",
+          "frame_002231_right.png",
+          "frame_002234_left.png",
+          "frame_002234_right.png",
+          "frame_002247_left.png",
+          "frame_002247_right.png",
+          "frame_002707_left.png",
+          "frame_002707_right.png",
+          "frame_002719_right.png",
+          "frame_002726_left.png",
+          "frame_002726_right.png",
+          "frame_002730_left.png",
+          "frame_002730_right.png",
+          "frame_002736_left.png",
+          "frame_002736_right.png",
+          "frame_002744_left.png",
+          "frame_002744_right.png",
+          "frame_002757_left.png",
+          "frame_002757_right.png",
+          "frame_002767_left.png",
+          "frame_002767_right.png",
+          "frame_002772_left.png",
+          "frame_002772_right.png",
+          "frame_002782_left.png",
+          "frame_002782_right.png",
+          "frame_002786_left.png",
+          "frame_002786_right.png",
+          "frame_002794_left.png",
+          "frame_002794_right.png",
+          "frame_002800_left.png",
+          "frame_002800_right.png",
+          "frame_002804_left.png",
+          "frame_002804_right.png",
+          "frame_002808_left.png",
+          "frame_002808_right.png",
+          "frame_002823_left.png",
+          "frame_002823_right.png",
+          "frame_002824_left.png",
+          "frame_002824_right.png",
+          "frame_002834_left.png",
+          "frame_002834_right.png",
+          "frame_004805_left.png",
+          "frame_004805_right.png",
+          "frame_004815_left.png",
+          "frame_004815_right.png",
+          "frame_004820_left.png",
+          "frame_004820_right.png",
+          "frame_004828_left.png",
+          "frame_004828_right.png",
+          "frame_004832_left.png",
+          "frame_004832_right.png",
+          "frame_004842_left.png",
+          "frame_004842_right.png",
+          "frame_004855_left.png",
+          "frame_004855_right.png",
+          "frame_004862_left.png",
+          "frame_004862_right.png",
+          "frame_004871_left.png",
+          "frame_004871_right.png",
+          "frame_004879_left.png",
+          "frame_004879_right.png",
+          "frame_004884_left.png",
+          "frame_004884_right.png",
+          "frame_004891_left.png",
+          "frame_004891_right.png",
+          "frame_004898_left.png",
+          "frame_004898_right.png",
+          "frame_004908_left.png",
+          "frame_004908_right.png",
+          "frame_004916_left.png",
+          "frame_004916_right.png",
+          "frame_004925_left.png",
+          "frame_004925_right.png",
+          "frame_004931_left.png",
+          "frame_004931_right.png",
+          "frame_004937_left.png",
+          "frame_004937_right.png",
+          "frame_004948_left.png",
+          "frame_004948_right.png",
+          "frame_005404_left.png",
+          "frame_005404_right.png",
+          "frame_005408_left.png",
+          "frame_005408_right.png",
+          "frame_005422_left.png",
+          "frame_005422_right.png",
+          "frame_005430_left.png",
+          "frame_005430_right.png",
+          "frame_005435_left.png",
+          "frame_005435_right.png",
+          "frame_005444_left.png",
+          "frame_005444_right.png",
+          "frame_005449_left.png",
+          "frame_005449_right.png",
+          "frame_005462_left.png",
+          "frame_005462_right.png",
+          "frame_005467_left.png",
+          "frame_005467_right.png",
+          "frame_005475_left.png",
+          "frame_005475_right.png",
+          "frame_005480_left.png",
+          "frame_005480_right.png",
+          "frame_005491_left.png",
+          "frame_005491_right.png",
+          "frame_005497_left.png",
+          "frame_005497_right.png",
+          "frame_005505_left.png",
+          "frame_005505_right.png",
+          "frame_005515_left.png",
+          "frame_005515_right.png",
+          "frame_005520_left.png",
+          "frame_005520_right.png",
+          "frame_005533_left.png",
+          "frame_005533_right.png",
+          "frame_005543_left.png",
+          "frame_005543_right.png",
+          "frame_005544_left.png",
+          "frame_005544_right.png"
+        ],
+        "note": "Planning candidate only; frame threshold does not prove all visual or event leakage is eliminated."
+      }
+    }
+  },
+  "mapping_mismatches": [],
+  "temporal_rows": 4596,
+  "test": {
+    "all_images": 128,
+    "usable_images": 127,
+    "excluded_images": 1,
+    "positive_images": 79,
+    "negative_images": 48,
+    "boxes": 79,
+    "joint_flags_order": [
+      "Small",
+      "Occluded",
+      "Blurred",
+      "No Ball"
+    ],
+    "joint_flags_usable": {
+      "0010": 25,
+      "0000": 14,
+      "0100": 21,
+      "0110": 5,
+      "0011": 14,
+      "0001": 34,
+      "1000": 14
+    },
+    "geometry_usable": {
+      "boxes": 79,
+      "longest_side_at_672_px": {
+        "(64,96]": 8,
+        ">96": 26,
+        "(40,64]": 27,
+        "(32,40]": 5,
+        "(16,32]": 13
+      },
+      "bbox_area_at_672_px2": {
+        "[32^2,96^2)": 43,
+        "<32^2": 14,
+        ">=96^2": 22
+      },
+      "native_bbox_area_px2": {
+        "[32^2,96^2)": 43,
+        "<32^2": 14,
+        ">=96^2": 22
+      }
+    },
+    "scenarios": {
+      "Small": {
+        "images": 14,
+        "positive_images": 14,
+        "boxes": 14,
+        "negative_images": 0,
+        "confirmed_recording_frame_groups_positive": 7,
+        "positive_images_without_frame_identity": 0,
+        "positive_recording_timelines": {
+          "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb": {
+            "positive_frames": [
+              5119,
+              5127,
+              5134,
+              5136,
+              5147,
+              5153,
+              5164
+            ],
+            "first_frame": 5119,
+            "last_frame": 5164,
+            "span_seconds": 3.0,
+            "fps": 15.0
+          }
+        },
+        "box_count_interpretation": "All valid football boxes in images carrying this scene flag. Metadata has no instance-level flags; in multi-ball images this does not prove every box has the attribute."
+      },
+      "Occluded": {
+        "images": 26,
+        "positive_images": 26,
+        "boxes": 26,
+        "negative_images": 0,
+        "confirmed_recording_frame_groups_positive": 14,
+        "positive_images_without_frame_identity": 0,
+        "positive_recording_timelines": {
+          "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb": {
+            "positive_frames": [
+              4976,
+              4991,
+              4995,
+              5005,
+              5012,
+              5023,
+              5029,
+              5033,
+              5046,
+              5050,
+              5059,
+              5066,
+              5076,
+              5085
+            ],
+            "first_frame": 4976,
+            "last_frame": 5085,
+            "span_seconds": 7.266666666666667,
+            "fps": 15.0
+          }
+        },
+        "box_count_interpretation": "All valid football boxes in images carrying this scene flag. Metadata has no instance-level flags; in multi-ball images this does not prove every box has the attribute."
+      },
+      "Blurred": {
+        "images": 44,
+        "positive_images": 30,
+        "boxes": 30,
+        "negative_images": 14,
+        "confirmed_recording_frame_groups_positive": 7,
+        "positive_images_without_frame_identity": 16,
+        "positive_recording_timelines": {
+          "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb": {
+            "positive_frames": [
+              4952,
+              4991,
+              5005,
+              5012,
+              5098,
+              5231,
+              5232
+            ],
+            "first_frame": 4952,
+            "last_frame": 5232,
+            "span_seconds": 18.666666666666668,
+            "fps": 15.0
+          }
+        },
+        "box_count_interpretation": "All valid football boxes in images carrying this scene flag. Metadata has no instance-level flags; in multi-ball images this does not prove every box has the attribute."
+      },
+      "No Ball": {
+        "images": 48,
+        "positive_images": 0,
+        "boxes": 0,
+        "negative_images": 48,
+        "confirmed_recording_frame_groups_positive": 0,
+        "positive_images_without_frame_identity": 0,
+        "positive_recording_timelines": {},
+        "box_count_interpretation": "All valid football boxes in images carrying this scene flag. Metadata has no instance-level flags; in multi-ball images this does not prove every box has the attribute."
+      }
+    },
+    "confirmed_recording_ids": [
+      "stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb"
+    ],
+    "confirmed_recording_count": 1,
+    "images_unknown_physical_session": 127,
+    "images_unknown_recording": 22,
+    "independent_session_count": null
+  },
+  "outputs": [
+    "data/provenance.json",
+    "data/temporal_pairs.csv",
+    "data/statistical_power.json",
+    "data/provenance_summary.md"
+  ]
+}

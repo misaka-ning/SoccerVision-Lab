@@ -1,0 +1,6 @@
+﻿usage,images,positive,negative,boxes,Small,Occluded,Blurred,No Ball
+train,4346,2780,1566,2863,633,742,1213,1566
+val,1223,813,410,855,442,235,265,410
+test,464,343,121,354,82,102,163,121
+buffer,755,358,397,397,215,109,242,397
+heldout_unused,1360,926,434,948,255,228,395,434

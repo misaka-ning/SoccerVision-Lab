@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "performed_at_utc": "2026-10-19T04:06:52.631297+00:00",
+  "method": "Static HTMLParser href/src + safe JSON parse of window.AUDIT_PAIRS; all image/URI/thumbnail/evidence/compact-label paths checked is_file. No browser interaction.",
+  "audit_output": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019",
+  "pairs_js_count": 22391,
+  "cross_csv_count": 22391,
+  "cross_csv_expected_count": 22391,
+  "cross_csv_review_status_nonempty": 0,
+  "cross_csv_unique_pair_ids": 22391,
+  "csv_js_pair_id_sets_match": true,
+  "annotation_count": 310,
+  "annotation_expected_count": 310,
+  "annotation_review_result_nonempty": 0,
+  "compact_observation_review_status_nonempty": 0,
+  "source_hashes": {
+    "metadata.csv": {
+      "sha256": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9",
+      "expected": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9",
+      "matches_baseline": true
+    },
+    "dataset.yaml": {
+      "sha256": "7781d543cc43364f2a2598ff596adb05a8e80b4547af40195665565a8eef05b6",
+      "expected": "7781d543cc43364f2a2598ff596adb05a8e80b4547af40195665565a8eef05b6",
+      "matches_baseline": true
+    }
+  },
+  "reference_counts": {
+    "pairs.path": 44782,
+    "pairs.uri": 44782,
+    "pairs.thumbnail": 44782,
+    "pairs.label_path": 44782,
+    "pairs.evidence_page": 74,
+    "pairs.observation_evidence": 24,
+    "html.href": 37,
+    "html.src": 2,
+    "cross_csv.image_a": 22391,
+    "cross_csv.image_b": 22391,
+    "annotation_csv.image_path": 310,
+    "annotation_csv.label_path": 310
+  },
+  "unique_paths_by_field": {
+    "pairs.path": 8152,
+    "pairs.uri": 8152,
+    "pairs.thumbnail": 8152,
+    "pairs.label_path": 8152,
+    "pairs.evidence_page": 74,
+    "pairs.observation_evidence": 24,
+    "html.href": 37,
+    "html.src": 2,
+    "cross_csv.image_a": 1648,
+    "cross_csv.image_b": 7377,
+    "annotation_csv.image_path": 291,
+    "annotation_csv.label_path": 291
+  },
+  "checked_unique_physical_paths": 24605,
+  "missing_reference_unique_field_path_count": 0,
+  "missing_reference_count": 0,
+  "missing_counts_by_field": {},
+  "missing_references": [],
+  "runtime_image_and_evidence_paths_all_exist": true,
+  "all_referenced_paths_exist": true,
+  "html_js_unchanged_during_validation": true,
+  "validated_artifact_sha256": {
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/review/pairs-data.js": "4d0a28196492a6ac818f482b610a3ec92d8611500e3cf9e2f3be4617fa40cc7d",
+    "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/leakage_review.html": "5a0154798cc7ab398c5b776697c162cf221c682d90f4d5292e2bbb713a40ba9c"
+  },
+  "resolved_prior_issue": {
+    "old_missing_compact_label_paths": 4,
+    "old_missing_reference_count": 7,
+    "details": [
+      {
+        "field": "pairs.label_path",
+        "path": "/home/misaka/workspace/datasets/labels/train/frame_002719_left.txt",
+        "references": 4,
+        "example_origins": [
+          "P007625.b",
+          "P007626.b",
+          "P007627.b",
+          "P007628.b"
+        ],
+        "archive_candidate": "/home/misaka/workspace/datasets/excluded/labels/train/frame_002719_left.txt",
+        "archive_candidate_exists": true
+      },
+      {
+        "field": "pairs.label_path",
+        "path": "/home/misaka/workspace/datasets/labels/val/frame_002387_left.txt",
+        "references": 1,
+        "example_origins": [
+          "P007629.a"
+        ],
+        "archive_candidate": "/home/misaka/workspace/datasets/excluded/labels/val/frame_002387_left.txt",
+        "archive_candidate_exists": true
+      },
+      {
+        "field": "pairs.label_path",
+        "path": "/home/misaka/workspace/datasets/labels/val/frame_002387_right.txt",
+        "references": 1,
+        "example_origins": [
+          "P007630.a"
+        ],
+        "archive_candidate": "/home/misaka/workspace/datasets/excluded/labels/val/frame_002387_right.txt",
+        "archive_candidate_exists": true
+      },
+      {
+        "field": "pairs.label_path",
+        "path": "/home/misaka/workspace/datasets/labels/train/video_4bec9c343db72928_frame_00013987_right.txt",
+        "references": 1,
+        "example_origins": [
+          "P022391.b"
+        ],
+        "archive_candidate": "/home/misaka/workspace/datasets/excluded/labels/train/video_4bec9c343db72928_frame_00013987_right.txt",
+        "archive_candidate_exists": true
+      }
+    ],
+    "resolution": "root更新build_review.py并重生成HTML/JS，excluded label_path现在指向archive；复核均存在。"
+  },
+  "source_data_written": false,
+  "only_written_file": "/home/misaka/workspace/dataset_processing/dataset-audit-20261019/logs/final-path-validation.json",
+  "notes": [
+    "空evidence_page不是引用，不计缺文件。",
+    "明确命名为original_image_path的历史基线路径不属于当前活跃链接。",
+    "复核状态按原字符串严格判空，未把空白字符串或助手观察视作用户结论。"
+  ]
+}

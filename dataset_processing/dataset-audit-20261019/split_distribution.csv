@@ -1,0 +1,753 @@
+﻿scope,split,metric,category,count,denominator,fraction,unit,threshold_source_or_note
+all,all,population,total,8398,8398,1.0,images,
+all,all,status,negative_confirmed,2928,8398,0.3486544415336985,images,
+all,all,status,reviewed_annotation,5220,8398,0.6215765658490117,images,
+all,all,status,reviewed_excluded,250,8398,0.02976899261728983,images,
+all,all,flag,Small=0,6699,8398,0.7976899261728984,images,
+all,all,flag,Small=1,1699,8398,0.2023100738271017,images,
+all,all,flag,Occluded=0,6907,8398,0.8224577280304834,images,
+all,all,flag,Occluded=1,1491,8398,0.17754227196951655,images,
+all,all,flag,Blurred=0,6077,8398,0.7236246725410812,images,
+all,all,flag,Blurred=1,2321,8398,0.2763753274589188,images,
+all,all,flag,No Ball=0,5464,8398,0.6506311026434866,images,
+all,all,flag,No Ball=1,2934,8398,0.34936889735651344,images,
+all,all,joint_flags,0000,1743,8398,0.2075494165277447,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,0001,2379,8398,0.28328173374613,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,0010,997,8398,0.11871874255775185,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,0011,475,8398,0.05656108597285068,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,0100,581,8398,0.06918313884258157,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,0101,37,8398,0.004405810907358895,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,0110,476,8398,0.05668016194331984,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,0111,11,8398,0.0013098356751607525,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,1000,1012,8398,0.12050488211478924,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,1001,2,8398,0.00023815194093831864,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,1010,297,8398,0.03536556322934032,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,1011,2,8398,0.00023815194093831864,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,1100,295,8398,0.035127411288402,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,1101,28,8398,0.003334127173136461,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,1110,63,8398,0.007501786139557038,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,joint_flags,1111,0,8398,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,all,bbox_long_side_at_672_px,<16,27,5464,0.004941434846266472,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,all,bbox_long_side_at_672_px,16-<30,1077,5464,0.19710834553440704,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,all,bbox_long_side_at_672_px,30-<40,657,5464,0.12024158125915081,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,all,bbox_long_side_at_672_px,40-<50,805,5464,0.14732796486090777,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,all,bbox_long_side_at_672_px,50-<96,2080,5464,0.3806734992679356,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,all,bbox_long_side_at_672_px,>=96,818,5464,0.14970717423133237,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,all,bbox_area_fraction,<0.0001,0,5464,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,all,bbox_area_fraction,0.0001-<0.001,57,5464,0.010431918008784773,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,all,bbox_area_fraction,0.001-<0.01,2708,5464,0.4956076134699854,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,all,bbox_area_fraction,0.01-<0.1,2325,5464,0.4255124450951684,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,all,bbox_area_fraction,>=0.1,374,5464,0.06844802342606149,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,train,population,total,8100,8100,1.0,images,
+all,train,status,negative_confirmed,2860,8100,0.3530864197530864,images,
+all,train,status,reviewed_annotation,4997,8100,0.6169135802469136,images,
+all,train,status,reviewed_excluded,243,8100,0.03,images,
+all,train,flag,Small=0,6453,8100,0.7966666666666666,images,
+all,train,flag,Small=1,1647,8100,0.20333333333333334,images,
+all,train,flag,Occluded=0,6676,8100,0.8241975308641976,images,
+all,train,flag,Occluded=1,1424,8100,0.17580246913580247,images,
+all,train,flag,Blurred=0,5897,8100,0.7280246913580247,images,
+all,train,flag,Blurred=1,2203,8100,0.27197530864197533,images,
+all,train,flag,No Ball=0,5235,8100,0.6462962962962963,images,
+all,train,flag,No Ball=1,2865,8100,0.3537037037037037,images,
+all,train,joint_flags,0000,1685,8100,0.2080246913580247,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,0001,2333,8100,0.28802469135802466,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,0010,932,8100,0.11506172839506174,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,0011,455,8100,0.05617283950617284,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,0100,546,8100,0.0674074074074074,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,0101,36,8100,0.0044444444444444444,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,0110,455,8100,0.05617283950617284,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,0111,11,8100,0.0013580246913580246,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,1000,982,8100,0.12123456790123457,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,1001,2,8100,0.0002469135802469136,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,1010,285,8100,0.03518518518518519,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,1011,2,8100,0.0002469135802469136,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,1100,287,8100,0.0354320987654321,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,1101,26,8100,0.0032098765432098763,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,1110,63,8100,0.0077777777777777776,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,joint_flags,1111,0,8100,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,train,bbox_long_side_at_672_px,<16,25,5240,0.004770992366412214,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,train,bbox_long_side_at_672_px,16-<30,1038,5240,0.19809160305343512,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,train,bbox_long_side_at_672_px,30-<40,648,5240,0.12366412213740458,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,train,bbox_long_side_at_672_px,40-<50,762,5240,0.14541984732824428,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,train,bbox_long_side_at_672_px,50-<96,2028,5240,0.38702290076335877,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,train,bbox_long_side_at_672_px,>=96,739,5240,0.14103053435114504,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,train,bbox_area_fraction,<0.0001,0,5240,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,train,bbox_area_fraction,0.0001-<0.001,53,5240,0.010114503816793893,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,train,bbox_area_fraction,0.001-<0.01,2606,5240,0.49732824427480915,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,train,bbox_area_fraction,0.01-<0.1,2248,5240,0.42900763358778626,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,train,bbox_area_fraction,>=0.1,333,5240,0.06354961832061069,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,val,population,total,170,170,1.0,images,
+all,val,status,reviewed_annotation,144,170,0.8470588235294118,images,
+all,val,status,reviewed_excluded,6,170,0.03529411764705882,images,
+all,val,status,negative_confirmed,20,170,0.11764705882352941,images,
+all,val,flag,Small=0,132,170,0.7764705882352941,images,
+all,val,flag,Small=1,38,170,0.2235294117647059,images,
+all,val,flag,Occluded=0,130,170,0.7647058823529411,images,
+all,val,flag,Occluded=1,40,170,0.23529411764705882,images,
+all,val,flag,Blurred=0,96,170,0.5647058823529412,images,
+all,val,flag,Blurred=1,74,170,0.43529411764705883,images,
+all,val,flag,No Ball=0,150,170,0.8823529411764706,images,
+all,val,flag,No Ball=1,20,170,0.11764705882352941,images,
+all,val,joint_flags,0000,44,170,0.25882352941176473,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,0001,12,170,0.07058823529411765,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,0010,40,170,0.23529411764705882,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,0011,6,170,0.03529411764705882,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,0100,14,170,0.08235294117647059,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,0101,0,170,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,0110,16,170,0.09411764705882353,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,0111,0,170,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,1000,16,170,0.09411764705882353,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,1001,0,170,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,1010,12,170,0.07058823529411765,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,1011,0,170,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,1100,8,170,0.047058823529411764,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,1101,2,170,0.011764705882352941,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,1110,0,170,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,joint_flags,1111,0,170,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,val,bbox_long_side_at_672_px,<16,2,144,0.013888888888888888,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,val,bbox_long_side_at_672_px,16-<30,27,144,0.1875,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,val,bbox_long_side_at_672_px,30-<40,2,144,0.013888888888888888,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,val,bbox_long_side_at_672_px,40-<50,25,144,0.1736111111111111,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,val,bbox_long_side_at_672_px,50-<96,35,144,0.24305555555555555,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,val,bbox_long_side_at_672_px,>=96,53,144,0.3680555555555556,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,val,bbox_area_fraction,<0.0001,0,144,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,val,bbox_area_fraction,0.0001-<0.001,3,144,0.020833333333333332,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,val,bbox_area_fraction,0.001-<0.01,63,144,0.4375,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,val,bbox_area_fraction,0.01-<0.1,51,144,0.3541666666666667,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,val,bbox_area_fraction,>=0.1,27,144,0.1875,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,test,population,total,128,128,1.0,images,
+all,test,status,reviewed_annotation,79,128,0.6171875,images,
+all,test,status,negative_confirmed,48,128,0.375,images,
+all,test,status,reviewed_excluded,1,128,0.0078125,images,
+all,test,flag,Small=0,114,128,0.890625,images,
+all,test,flag,Small=1,14,128,0.109375,images,
+all,test,flag,Occluded=0,101,128,0.7890625,images,
+all,test,flag,Occluded=1,27,128,0.2109375,images,
+all,test,flag,Blurred=0,84,128,0.65625,images,
+all,test,flag,Blurred=1,44,128,0.34375,images,
+all,test,flag,No Ball=0,79,128,0.6171875,images,
+all,test,flag,No Ball=1,49,128,0.3828125,images,
+all,test,joint_flags,0000,14,128,0.109375,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,0001,34,128,0.265625,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,0010,25,128,0.1953125,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,0011,14,128,0.109375,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,0100,21,128,0.1640625,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,0101,1,128,0.0078125,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,0110,5,128,0.0390625,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,0111,0,128,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,1000,14,128,0.109375,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,1001,0,128,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,1010,0,128,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,1011,0,128,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,1100,0,128,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,1101,0,128,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,1110,0,128,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,joint_flags,1111,0,128,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+all,test,bbox_long_side_at_672_px,<16,0,80,0.0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,test,bbox_long_side_at_672_px,16-<30,12,80,0.15,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,test,bbox_long_side_at_672_px,30-<40,7,80,0.0875,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,test,bbox_long_side_at_672_px,40-<50,18,80,0.225,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,test,bbox_long_side_at_672_px,50-<96,17,80,0.2125,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,test,bbox_long_side_at_672_px,>=96,26,80,0.325,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+all,test,bbox_area_fraction,<0.0001,0,80,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,test,bbox_area_fraction,0.0001-<0.001,1,80,0.0125,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,test,bbox_area_fraction,0.001-<0.01,39,80,0.4875,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,test,bbox_area_fraction,0.01-<0.1,26,80,0.325,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+all,test,bbox_area_fraction,>=0.1,14,80,0.175,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,all,population,total,8148,8148,1.0,images,
+usable,all,status,negative_confirmed,2928,8148,0.3593519882179676,images,
+usable,all,status,reviewed_annotation,5220,8148,0.6406480117820325,images,
+usable,all,flag,Small=0,6521,8148,0.8003190967108493,images,
+usable,all,flag,Small=1,1627,8148,0.19968090328915072,images,
+usable,all,flag,Occluded=0,6732,8148,0.8262150220913107,images,
+usable,all,flag,Occluded=1,1416,8148,0.17378497790868924,images,
+usable,all,flag,Blurred=0,5870,8148,0.7204221894943544,images,
+usable,all,flag,Blurred=1,2278,8148,0.27957781050564556,images,
+usable,all,flag,No Ball=0,5220,8148,0.6406480117820325,images,
+usable,all,flag,No Ball=1,2928,8148,0.3593519882179676,images,
+usable,all,joint_flags,0000,1621,8148,0.19894452626411388,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,0001,2377,8148,0.2917280314187531,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,0010,968,8148,0.11880216003927344,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,0011,475,8148,0.05829651448208149,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,0100,562,8148,0.06897398134511537,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,0101,36,8148,0.004418262150220913,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,0110,472,8148,0.057928325969563085,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,0111,10,8148,0.0012272950417280314,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,1000,996,8148,0.12223858615611193,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,1001,2,8148,0.0002454590083456063,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,1010,291,8148,0.03571428571428571,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,1011,2,8148,0.0002454590083456063,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,1100,250,8148,0.030682376043200784,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,1101,26,8148,0.0031909671084928816,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,1110,60,8148,0.007363770250368188,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,joint_flags,1111,0,8148,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,all,bbox_long_side_at_672_px,<16,25,5417,0.0046151006091932805,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,all,bbox_long_side_at_672_px,16-<30,1057,5417,0.1951264537566919,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,all,bbox_long_side_at_672_px,30-<40,647,5417,0.1194388037659221,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,all,bbox_long_side_at_672_px,40-<50,802,5417,0.14805242754292045,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,all,bbox_long_side_at_672_px,50-<96,2071,5417,0.38231493446557135,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,all,bbox_long_side_at_672_px,>=96,815,5417,0.15045227985970094,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,all,bbox_area_fraction,<0.0001,0,5417,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,all,bbox_area_fraction,0.0001-<0.001,52,5417,0.009599409267122024,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,all,bbox_area_fraction,0.001-<0.01,2671,5417,0.4930773490862101,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,all,bbox_area_fraction,0.01-<0.1,2321,5417,0.42846594055750414,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,all,bbox_area_fraction,>=0.1,373,5417,0.06885730108916374,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,train,population,total,7857,7857,1.0,images,
+usable,train,status,negative_confirmed,2860,7857,0.364006618302151,images,
+usable,train,status,reviewed_annotation,4997,7857,0.635993381697849,images,
+usable,train,flag,Small=0,6276,7857,0.7987781596029019,images,
+usable,train,flag,Small=1,1581,7857,0.20122184039709812,images,
+usable,train,flag,Occluded=0,6507,7857,0.8281786941580757,images,
+usable,train,flag,Occluded=1,1350,7857,0.1718213058419244,images,
+usable,train,flag,Blurred=0,5691,7857,0.7243222604047347,images,
+usable,train,flag,Blurred=1,2166,7857,0.27567773959526537,images,
+usable,train,flag,No Ball=0,4997,7857,0.635993381697849,images,
+usable,train,flag,No Ball=1,2860,7857,0.364006618302151,images,
+usable,train,joint_flags,0000,1563,7857,0.19893088965253913,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,0001,2331,7857,0.29667812142038946,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,0010,903,7857,0.11492936235204276,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,0011,455,7857,0.05791014382079674,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,0100,527,7857,0.06707394679903271,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,0101,36,7857,0.004581901489117984,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,0110,451,7857,0.05740104365533919,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,0111,10,7857,0.0012727504136438843,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,1000,966,7857,0.12294768995799923,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,1001,2,7857,0.0002545500827287769,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,1010,285,7857,0.036273386788850705,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,1011,2,7857,0.0002545500827287769,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,1100,242,7857,0.030800560010182002,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,1101,24,7857,0.0030546009927453228,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,1110,60,7857,0.007636502481863307,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,joint_flags,1111,0,7857,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,train,bbox_long_side_at_672_px,<16,23,5194,0.0044281863688871775,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,train,bbox_long_side_at_672_px,16-<30,1018,5194,0.195995379283789,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,train,bbox_long_side_at_672_px,30-<40,639,5194,0.12302656911821332,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,train,bbox_long_side_at_672_px,40-<50,759,5194,0.14613015017327685,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,train,bbox_long_side_at_672_px,50-<96,2019,5194,0.388717751251444,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,train,bbox_long_side_at_672_px,>=96,736,5194,0.14170196380438968,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,train,bbox_area_fraction,<0.0001,0,5194,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,train,bbox_area_fraction,0.0001-<0.001,48,5194,0.009241432422025414,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,train,bbox_area_fraction,0.001-<0.01,2570,5194,0.4948016942626107,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,train,bbox_area_fraction,0.01-<0.1,2244,5194,0.4320369657296881,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,train,bbox_area_fraction,>=0.1,332,5194,0.06391990758567578,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,val,population,total,164,164,1.0,images,
+usable,val,status,reviewed_annotation,144,164,0.8780487804878049,images,
+usable,val,status,negative_confirmed,20,164,0.12195121951219512,images,
+usable,val,flag,Small=0,132,164,0.8048780487804879,images,
+usable,val,flag,Small=1,32,164,0.1951219512195122,images,
+usable,val,flag,Occluded=0,124,164,0.7560975609756098,images,
+usable,val,flag,Occluded=1,40,164,0.24390243902439024,images,
+usable,val,flag,Blurred=0,96,164,0.5853658536585366,images,
+usable,val,flag,Blurred=1,68,164,0.4146341463414634,images,
+usable,val,flag,No Ball=0,144,164,0.8780487804878049,images,
+usable,val,flag,No Ball=1,20,164,0.12195121951219512,images,
+usable,val,joint_flags,0000,44,164,0.2682926829268293,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,0001,12,164,0.07317073170731707,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,0010,40,164,0.24390243902439024,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,0011,6,164,0.036585365853658534,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,0100,14,164,0.08536585365853659,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,0101,0,164,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,0110,16,164,0.0975609756097561,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,0111,0,164,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,1000,16,164,0.0975609756097561,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,1001,0,164,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,1010,6,164,0.036585365853658534,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,1011,0,164,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,1100,8,164,0.04878048780487805,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,1101,2,164,0.012195121951219513,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,1110,0,164,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,joint_flags,1111,0,164,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,val,bbox_long_side_at_672_px,<16,2,144,0.013888888888888888,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,val,bbox_long_side_at_672_px,16-<30,27,144,0.1875,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,val,bbox_long_side_at_672_px,30-<40,2,144,0.013888888888888888,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,val,bbox_long_side_at_672_px,40-<50,25,144,0.1736111111111111,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,val,bbox_long_side_at_672_px,50-<96,35,144,0.24305555555555555,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,val,bbox_long_side_at_672_px,>=96,53,144,0.3680555555555556,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,val,bbox_area_fraction,<0.0001,0,144,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,val,bbox_area_fraction,0.0001-<0.001,3,144,0.020833333333333332,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,val,bbox_area_fraction,0.001-<0.01,63,144,0.4375,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,val,bbox_area_fraction,0.01-<0.1,51,144,0.3541666666666667,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,val,bbox_area_fraction,>=0.1,27,144,0.1875,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,test,population,total,127,127,1.0,images,
+usable,test,status,reviewed_annotation,79,127,0.6220472440944882,images,
+usable,test,status,negative_confirmed,48,127,0.3779527559055118,images,
+usable,test,flag,Small=0,113,127,0.889763779527559,images,
+usable,test,flag,Small=1,14,127,0.11023622047244094,images,
+usable,test,flag,Occluded=0,101,127,0.7952755905511811,images,
+usable,test,flag,Occluded=1,26,127,0.2047244094488189,images,
+usable,test,flag,Blurred=0,83,127,0.6535433070866141,images,
+usable,test,flag,Blurred=1,44,127,0.3464566929133858,images,
+usable,test,flag,No Ball=0,79,127,0.6220472440944882,images,
+usable,test,flag,No Ball=1,48,127,0.3779527559055118,images,
+usable,test,joint_flags,0000,14,127,0.11023622047244094,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,0001,34,127,0.2677165354330709,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,0010,25,127,0.1968503937007874,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,0011,14,127,0.11023622047244094,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,0100,21,127,0.16535433070866143,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,0101,0,127,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,0110,5,127,0.03937007874015748,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,0111,0,127,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,1000,14,127,0.11023622047244094,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,1001,0,127,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,1010,0,127,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,1011,0,127,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,1100,0,127,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,1101,0,127,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,1110,0,127,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,joint_flags,1111,0,127,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+usable,test,bbox_long_side_at_672_px,<16,0,79,0.0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,test,bbox_long_side_at_672_px,16-<30,12,79,0.1518987341772152,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,test,bbox_long_side_at_672_px,30-<40,6,79,0.0759493670886076,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,test,bbox_long_side_at_672_px,40-<50,18,79,0.22784810126582278,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,test,bbox_long_side_at_672_px,50-<96,17,79,0.21518987341772153,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,test,bbox_long_side_at_672_px,>=96,26,79,0.3291139240506329,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+usable,test,bbox_area_fraction,<0.0001,0,79,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,test,bbox_area_fraction,0.0001-<0.001,1,79,0.012658227848101266,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,test,bbox_area_fraction,0.001-<0.01,38,79,0.4810126582278481,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,test,bbox_area_fraction,0.01-<0.1,26,79,0.3291139240506329,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+usable,test,bbox_area_fraction,>=0.1,14,79,0.17721518987341772,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,all,population,total,250,250,1.0,images,
+reviewed_excluded,all,status,reviewed_excluded,250,250,1.0,images,
+reviewed_excluded,all,flag,Small=0,178,250,0.712,images,
+reviewed_excluded,all,flag,Small=1,72,250,0.288,images,
+reviewed_excluded,all,flag,Occluded=0,175,250,0.7,images,
+reviewed_excluded,all,flag,Occluded=1,75,250,0.3,images,
+reviewed_excluded,all,flag,Blurred=0,207,250,0.828,images,
+reviewed_excluded,all,flag,Blurred=1,43,250,0.172,images,
+reviewed_excluded,all,flag,No Ball=0,244,250,0.976,images,
+reviewed_excluded,all,flag,No Ball=1,6,250,0.024,images,
+reviewed_excluded,all,joint_flags,0000,122,250,0.488,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,0001,2,250,0.008,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,0010,29,250,0.116,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,0011,0,250,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,0100,19,250,0.076,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,0101,1,250,0.004,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,0110,4,250,0.016,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,0111,1,250,0.004,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,1000,16,250,0.064,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,1001,0,250,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,1010,6,250,0.024,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,1011,0,250,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,1100,45,250,0.18,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,1101,2,250,0.008,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,1110,3,250,0.012,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,joint_flags,1111,0,250,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,all,bbox_long_side_at_672_px,<16,2,47,0.0425531914893617,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,all,bbox_long_side_at_672_px,16-<30,20,47,0.425531914893617,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,all,bbox_long_side_at_672_px,30-<40,10,47,0.2127659574468085,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,all,bbox_long_side_at_672_px,40-<50,3,47,0.06382978723404255,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,all,bbox_long_side_at_672_px,50-<96,9,47,0.19148936170212766,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,all,bbox_long_side_at_672_px,>=96,3,47,0.06382978723404255,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,all,bbox_area_fraction,<0.0001,0,47,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,all,bbox_area_fraction,0.0001-<0.001,5,47,0.10638297872340426,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,all,bbox_area_fraction,0.001-<0.01,37,47,0.7872340425531915,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,all,bbox_area_fraction,0.01-<0.1,4,47,0.0851063829787234,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,all,bbox_area_fraction,>=0.1,1,47,0.02127659574468085,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,train,population,total,243,243,1.0,images,
+reviewed_excluded,train,status,reviewed_excluded,243,243,1.0,images,
+reviewed_excluded,train,flag,Small=0,177,243,0.7283950617283951,images,
+reviewed_excluded,train,flag,Small=1,66,243,0.2716049382716049,images,
+reviewed_excluded,train,flag,Occluded=0,169,243,0.6954732510288066,images,
+reviewed_excluded,train,flag,Occluded=1,74,243,0.3045267489711934,images,
+reviewed_excluded,train,flag,Blurred=0,206,243,0.8477366255144033,images,
+reviewed_excluded,train,flag,Blurred=1,37,243,0.1522633744855967,images,
+reviewed_excluded,train,flag,No Ball=0,238,243,0.9794238683127572,images,
+reviewed_excluded,train,flag,No Ball=1,5,243,0.0205761316872428,images,
+reviewed_excluded,train,joint_flags,0000,122,243,0.5020576131687243,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,0001,2,243,0.00823045267489712,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,0010,29,243,0.11934156378600823,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,0011,0,243,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,0100,19,243,0.07818930041152264,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,0101,0,243,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,0110,4,243,0.01646090534979424,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,0111,1,243,0.00411522633744856,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,1000,16,243,0.06584362139917696,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,1001,0,243,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,1010,0,243,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,1011,0,243,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,1100,45,243,0.18518518518518517,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,1101,2,243,0.00823045267489712,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,1110,3,243,0.012345679012345678,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,joint_flags,1111,0,243,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,train,bbox_long_side_at_672_px,<16,2,46,0.043478260869565216,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,train,bbox_long_side_at_672_px,16-<30,20,46,0.43478260869565216,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,train,bbox_long_side_at_672_px,30-<40,9,46,0.1956521739130435,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,train,bbox_long_side_at_672_px,40-<50,3,46,0.06521739130434782,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,train,bbox_long_side_at_672_px,50-<96,9,46,0.1956521739130435,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,train,bbox_long_side_at_672_px,>=96,3,46,0.06521739130434782,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,train,bbox_area_fraction,<0.0001,0,46,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,train,bbox_area_fraction,0.0001-<0.001,5,46,0.10869565217391304,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,train,bbox_area_fraction,0.001-<0.01,36,46,0.782608695652174,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,train,bbox_area_fraction,0.01-<0.1,4,46,0.08695652173913043,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,train,bbox_area_fraction,>=0.1,1,46,0.021739130434782608,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,val,population,total,6,6,1.0,images,
+reviewed_excluded,val,status,reviewed_excluded,6,6,1.0,images,
+reviewed_excluded,val,flag,Small=0,0,6,0.0,images,
+reviewed_excluded,val,flag,Small=1,6,6,1.0,images,
+reviewed_excluded,val,flag,Occluded=0,6,6,1.0,images,
+reviewed_excluded,val,flag,Occluded=1,0,6,0.0,images,
+reviewed_excluded,val,flag,Blurred=0,0,6,0.0,images,
+reviewed_excluded,val,flag,Blurred=1,6,6,1.0,images,
+reviewed_excluded,val,flag,No Ball=0,6,6,1.0,images,
+reviewed_excluded,val,flag,No Ball=1,0,6,0.0,images,
+reviewed_excluded,val,joint_flags,0000,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,0001,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,0010,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,0011,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,0100,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,0101,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,0110,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,0111,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,1000,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,1001,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,1010,6,6,1.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,1011,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,1100,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,1101,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,1110,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,joint_flags,1111,0,6,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,val,bbox_long_side_at_672_px,<16,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,val,bbox_long_side_at_672_px,16-<30,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,val,bbox_long_side_at_672_px,30-<40,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,val,bbox_long_side_at_672_px,40-<50,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,val,bbox_long_side_at_672_px,50-<96,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,val,bbox_long_side_at_672_px,>=96,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,val,bbox_area_fraction,<0.0001,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,val,bbox_area_fraction,0.0001-<0.001,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,val,bbox_area_fraction,0.001-<0.01,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,val,bbox_area_fraction,0.01-<0.1,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,val,bbox_area_fraction,>=0.1,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,test,population,total,1,1,1.0,images,
+reviewed_excluded,test,status,reviewed_excluded,1,1,1.0,images,
+reviewed_excluded,test,flag,Small=0,1,1,1.0,images,
+reviewed_excluded,test,flag,Small=1,0,1,0.0,images,
+reviewed_excluded,test,flag,Occluded=0,0,1,0.0,images,
+reviewed_excluded,test,flag,Occluded=1,1,1,1.0,images,
+reviewed_excluded,test,flag,Blurred=0,1,1,1.0,images,
+reviewed_excluded,test,flag,Blurred=1,0,1,0.0,images,
+reviewed_excluded,test,flag,No Ball=0,0,1,0.0,images,
+reviewed_excluded,test,flag,No Ball=1,1,1,1.0,images,
+reviewed_excluded,test,joint_flags,0000,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,0001,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,0010,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,0011,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,0100,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,0101,1,1,1.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,0110,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,0111,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,1000,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,1001,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,1010,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,1011,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,1100,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,1101,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,1110,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,joint_flags,1111,0,1,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_excluded,test,bbox_long_side_at_672_px,<16,0,1,0.0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,test,bbox_long_side_at_672_px,16-<30,0,1,0.0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,test,bbox_long_side_at_672_px,30-<40,1,1,1.0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,test,bbox_long_side_at_672_px,40-<50,0,1,0.0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,test,bbox_long_side_at_672_px,50-<96,0,1,0.0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,test,bbox_long_side_at_672_px,>=96,0,1,0.0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_excluded,test,bbox_area_fraction,<0.0001,0,1,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,test,bbox_area_fraction,0.0001-<0.001,0,1,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,test,bbox_area_fraction,0.001-<0.01,1,1,1.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,test,bbox_area_fraction,0.01-<0.1,0,1,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_excluded,test,bbox_area_fraction,>=0.1,0,1,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,all,population,total,5220,5220,1.0,images,
+reviewed_annotation,all,status,reviewed_annotation,5220,5220,1.0,images,
+reviewed_annotation,all,flag,Small=0,3623,5220,0.6940613026819923,images,
+reviewed_annotation,all,flag,Small=1,1597,5220,0.30593869731800766,images,
+reviewed_annotation,all,flag,Occluded=0,3876,5220,0.7425287356321839,images,
+reviewed_annotation,all,flag,Occluded=1,1344,5220,0.2574712643678161,images,
+reviewed_annotation,all,flag,Blurred=0,3429,5220,0.656896551724138,images,
+reviewed_annotation,all,flag,Blurred=1,1791,5220,0.3431034482758621,images,
+reviewed_annotation,all,flag,No Ball=0,5220,5220,1.0,images,
+reviewed_annotation,all,flag,No Ball=1,0,5220,0.0,images,
+reviewed_annotation,all,joint_flags,0000,1621,5220,0.310536398467433,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,0001,0,5220,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,0010,968,5220,0.1854406130268199,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,0011,0,5220,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,0100,562,5220,0.10766283524904215,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,0101,0,5220,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,0110,472,5220,0.09042145593869731,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,0111,0,5220,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,1000,996,5220,0.19080459770114944,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,1001,0,5220,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,1010,291,5220,0.05574712643678161,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,1011,0,5220,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,1100,250,5220,0.04789272030651341,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,1101,0,5220,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,1110,60,5220,0.011494252873563218,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,joint_flags,1111,0,5220,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,all,bbox_long_side_at_672_px,<16,25,5417,0.0046151006091932805,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,all,bbox_long_side_at_672_px,16-<30,1057,5417,0.1951264537566919,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,all,bbox_long_side_at_672_px,30-<40,647,5417,0.1194388037659221,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,all,bbox_long_side_at_672_px,40-<50,802,5417,0.14805242754292045,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,all,bbox_long_side_at_672_px,50-<96,2071,5417,0.38231493446557135,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,all,bbox_long_side_at_672_px,>=96,815,5417,0.15045227985970094,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,all,bbox_area_fraction,<0.0001,0,5417,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,all,bbox_area_fraction,0.0001-<0.001,52,5417,0.009599409267122024,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,all,bbox_area_fraction,0.001-<0.01,2671,5417,0.4930773490862101,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,all,bbox_area_fraction,0.01-<0.1,2321,5417,0.42846594055750414,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,all,bbox_area_fraction,>=0.1,373,5417,0.06885730108916374,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,train,population,total,4997,4997,1.0,images,
+reviewed_annotation,train,status,reviewed_annotation,4997,4997,1.0,images,
+reviewed_annotation,train,flag,Small=0,3444,4997,0.6892135281168701,images,
+reviewed_annotation,train,flag,Small=1,1553,4997,0.31078647188312986,images,
+reviewed_annotation,train,flag,Occluded=0,3717,4997,0.7438463077846708,images,
+reviewed_annotation,train,flag,Occluded=1,1280,4997,0.2561536922153292,images,
+reviewed_annotation,train,flag,Blurred=0,3298,4997,0.6599959975985591,images,
+reviewed_annotation,train,flag,Blurred=1,1699,4997,0.34000400240144085,images,
+reviewed_annotation,train,flag,No Ball=0,4997,4997,1.0,images,
+reviewed_annotation,train,flag,No Ball=1,0,4997,0.0,images,
+reviewed_annotation,train,joint_flags,0000,1563,4997,0.31278767260356216,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,0001,0,4997,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,0010,903,4997,0.180708425055033,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,0011,0,4997,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,0100,527,4997,0.10546327796678007,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,0101,0,4997,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,0110,451,4997,0.09025415249149489,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,0111,0,4997,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,1000,966,4997,0.19331598959375626,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,1001,0,4997,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,1010,285,4997,0.057034220532319393,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,1011,0,4997,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,1100,242,4997,0.04842905743446067,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,1101,0,4997,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,1110,60,4997,0.012007204322593557,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,joint_flags,1111,0,4997,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,train,bbox_long_side_at_672_px,<16,23,5194,0.0044281863688871775,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,train,bbox_long_side_at_672_px,16-<30,1018,5194,0.195995379283789,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,train,bbox_long_side_at_672_px,30-<40,639,5194,0.12302656911821332,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,train,bbox_long_side_at_672_px,40-<50,759,5194,0.14613015017327685,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,train,bbox_long_side_at_672_px,50-<96,2019,5194,0.388717751251444,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,train,bbox_long_side_at_672_px,>=96,736,5194,0.14170196380438968,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,train,bbox_area_fraction,<0.0001,0,5194,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,train,bbox_area_fraction,0.0001-<0.001,48,5194,0.009241432422025414,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,train,bbox_area_fraction,0.001-<0.01,2570,5194,0.4948016942626107,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,train,bbox_area_fraction,0.01-<0.1,2244,5194,0.4320369657296881,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,train,bbox_area_fraction,>=0.1,332,5194,0.06391990758567578,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,val,population,total,144,144,1.0,images,
+reviewed_annotation,val,status,reviewed_annotation,144,144,1.0,images,
+reviewed_annotation,val,flag,Small=0,114,144,0.7916666666666666,images,
+reviewed_annotation,val,flag,Small=1,30,144,0.20833333333333334,images,
+reviewed_annotation,val,flag,Occluded=0,106,144,0.7361111111111112,images,
+reviewed_annotation,val,flag,Occluded=1,38,144,0.2638888888888889,images,
+reviewed_annotation,val,flag,Blurred=0,82,144,0.5694444444444444,images,
+reviewed_annotation,val,flag,Blurred=1,62,144,0.4305555555555556,images,
+reviewed_annotation,val,flag,No Ball=0,144,144,1.0,images,
+reviewed_annotation,val,flag,No Ball=1,0,144,0.0,images,
+reviewed_annotation,val,joint_flags,0000,44,144,0.3055555555555556,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,0001,0,144,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,0010,40,144,0.2777777777777778,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,0011,0,144,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,0100,14,144,0.09722222222222222,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,0101,0,144,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,0110,16,144,0.1111111111111111,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,0111,0,144,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,1000,16,144,0.1111111111111111,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,1001,0,144,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,1010,6,144,0.041666666666666664,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,1011,0,144,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,1100,8,144,0.05555555555555555,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,1101,0,144,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,1110,0,144,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,joint_flags,1111,0,144,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,val,bbox_long_side_at_672_px,<16,2,144,0.013888888888888888,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,val,bbox_long_side_at_672_px,16-<30,27,144,0.1875,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,val,bbox_long_side_at_672_px,30-<40,2,144,0.013888888888888888,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,val,bbox_long_side_at_672_px,40-<50,25,144,0.1736111111111111,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,val,bbox_long_side_at_672_px,50-<96,35,144,0.24305555555555555,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,val,bbox_long_side_at_672_px,>=96,53,144,0.3680555555555556,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,val,bbox_area_fraction,<0.0001,0,144,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,val,bbox_area_fraction,0.0001-<0.001,3,144,0.020833333333333332,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,val,bbox_area_fraction,0.001-<0.01,63,144,0.4375,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,val,bbox_area_fraction,0.01-<0.1,51,144,0.3541666666666667,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,val,bbox_area_fraction,>=0.1,27,144,0.1875,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,test,population,total,79,79,1.0,images,
+reviewed_annotation,test,status,reviewed_annotation,79,79,1.0,images,
+reviewed_annotation,test,flag,Small=0,65,79,0.8227848101265823,images,
+reviewed_annotation,test,flag,Small=1,14,79,0.17721518987341772,images,
+reviewed_annotation,test,flag,Occluded=0,53,79,0.6708860759493671,images,
+reviewed_annotation,test,flag,Occluded=1,26,79,0.3291139240506329,images,
+reviewed_annotation,test,flag,Blurred=0,49,79,0.620253164556962,images,
+reviewed_annotation,test,flag,Blurred=1,30,79,0.379746835443038,images,
+reviewed_annotation,test,flag,No Ball=0,79,79,1.0,images,
+reviewed_annotation,test,flag,No Ball=1,0,79,0.0,images,
+reviewed_annotation,test,joint_flags,0000,14,79,0.17721518987341772,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,0001,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,0010,25,79,0.31645569620253167,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,0011,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,0100,21,79,0.26582278481012656,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,0101,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,0110,5,79,0.06329113924050633,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,0111,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,1000,14,79,0.17721518987341772,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,1001,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,1010,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,1011,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,1100,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,1101,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,1110,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,joint_flags,1111,0,79,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+reviewed_annotation,test,bbox_long_side_at_672_px,<16,0,79,0.0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,test,bbox_long_side_at_672_px,16-<30,12,79,0.1518987341772152,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,test,bbox_long_side_at_672_px,30-<40,6,79,0.0759493670886076,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,test,bbox_long_side_at_672_px,40-<50,18,79,0.22784810126582278,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,test,bbox_long_side_at_672_px,50-<96,17,79,0.21518987341772153,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,test,bbox_long_side_at_672_px,>=96,26,79,0.3291139240506329,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+reviewed_annotation,test,bbox_area_fraction,<0.0001,0,79,0.0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,test,bbox_area_fraction,0.0001-<0.001,1,79,0.012658227848101266,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,test,bbox_area_fraction,0.001-<0.01,38,79,0.4810126582278481,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,test,bbox_area_fraction,0.01-<0.1,26,79,0.3291139240506329,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+reviewed_annotation,test,bbox_area_fraction,>=0.1,14,79,0.17721518987341772,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,all,population,total,2928,2928,1.0,images,
+negative_confirmed,all,status,negative_confirmed,2928,2928,1.0,images,
+negative_confirmed,all,flag,Small=0,2898,2928,0.9897540983606558,images,
+negative_confirmed,all,flag,Small=1,30,2928,0.010245901639344262,images,
+negative_confirmed,all,flag,Occluded=0,2856,2928,0.9754098360655737,images,
+negative_confirmed,all,flag,Occluded=1,72,2928,0.02459016393442623,images,
+negative_confirmed,all,flag,Blurred=0,2441,2928,0.8336748633879781,images,
+negative_confirmed,all,flag,Blurred=1,487,2928,0.16632513661202186,images,
+negative_confirmed,all,flag,No Ball=0,0,2928,0.0,images,
+negative_confirmed,all,flag,No Ball=1,2928,2928,1.0,images,
+negative_confirmed,all,joint_flags,0000,0,2928,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,0001,2377,2928,0.8118169398907104,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,0010,0,2928,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,0011,475,2928,0.16222677595628415,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,0100,0,2928,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,0101,36,2928,0.012295081967213115,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,0110,0,2928,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,0111,10,2928,0.0034153005464480873,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,1000,0,2928,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,1001,2,2928,0.0006830601092896175,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,1010,0,2928,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,1011,2,2928,0.0006830601092896175,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,1100,0,2928,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,1101,26,2928,0.008879781420765027,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,1110,0,2928,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,joint_flags,1111,0,2928,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,all,bbox_long_side_at_672_px,<16,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,all,bbox_long_side_at_672_px,16-<30,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,all,bbox_long_side_at_672_px,30-<40,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,all,bbox_long_side_at_672_px,40-<50,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,all,bbox_long_side_at_672_px,50-<96,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,all,bbox_long_side_at_672_px,>=96,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,all,bbox_area_fraction,<0.0001,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,all,bbox_area_fraction,0.0001-<0.001,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,all,bbox_area_fraction,0.001-<0.01,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,all,bbox_area_fraction,0.01-<0.1,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,all,bbox_area_fraction,>=0.1,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,train,population,total,2860,2860,1.0,images,
+negative_confirmed,train,status,negative_confirmed,2860,2860,1.0,images,
+negative_confirmed,train,flag,Small=0,2832,2860,0.9902097902097902,images,
+negative_confirmed,train,flag,Small=1,28,2860,0.009790209790209791,images,
+negative_confirmed,train,flag,Occluded=0,2790,2860,0.9755244755244755,images,
+negative_confirmed,train,flag,Occluded=1,70,2860,0.024475524475524476,images,
+negative_confirmed,train,flag,Blurred=0,2393,2860,0.8367132867132867,images,
+negative_confirmed,train,flag,Blurred=1,467,2860,0.1632867132867133,images,
+negative_confirmed,train,flag,No Ball=0,0,2860,0.0,images,
+negative_confirmed,train,flag,No Ball=1,2860,2860,1.0,images,
+negative_confirmed,train,joint_flags,0000,0,2860,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,0001,2331,2860,0.8150349650349651,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,0010,0,2860,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,0011,455,2860,0.1590909090909091,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,0100,0,2860,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,0101,36,2860,0.012587412587412588,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,0110,0,2860,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,0111,10,2860,0.0034965034965034965,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,1000,0,2860,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,1001,2,2860,0.0006993006993006993,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,1010,0,2860,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,1011,2,2860,0.0006993006993006993,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,1100,0,2860,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,1101,24,2860,0.008391608391608392,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,1110,0,2860,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,joint_flags,1111,0,2860,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,train,bbox_long_side_at_672_px,<16,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,train,bbox_long_side_at_672_px,16-<30,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,train,bbox_long_side_at_672_px,30-<40,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,train,bbox_long_side_at_672_px,40-<50,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,train,bbox_long_side_at_672_px,50-<96,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,train,bbox_long_side_at_672_px,>=96,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,train,bbox_area_fraction,<0.0001,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,train,bbox_area_fraction,0.0001-<0.001,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,train,bbox_area_fraction,0.001-<0.01,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,train,bbox_area_fraction,0.01-<0.1,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,train,bbox_area_fraction,>=0.1,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,val,population,total,20,20,1.0,images,
+negative_confirmed,val,status,negative_confirmed,20,20,1.0,images,
+negative_confirmed,val,flag,Small=0,18,20,0.9,images,
+negative_confirmed,val,flag,Small=1,2,20,0.1,images,
+negative_confirmed,val,flag,Occluded=0,18,20,0.9,images,
+negative_confirmed,val,flag,Occluded=1,2,20,0.1,images,
+negative_confirmed,val,flag,Blurred=0,14,20,0.7,images,
+negative_confirmed,val,flag,Blurred=1,6,20,0.3,images,
+negative_confirmed,val,flag,No Ball=0,0,20,0.0,images,
+negative_confirmed,val,flag,No Ball=1,20,20,1.0,images,
+negative_confirmed,val,joint_flags,0000,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,0001,12,20,0.6,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,0010,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,0011,6,20,0.3,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,0100,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,0101,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,0110,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,0111,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,1000,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,1001,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,1010,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,1011,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,1100,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,1101,2,20,0.1,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,1110,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,joint_flags,1111,0,20,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,val,bbox_long_side_at_672_px,<16,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,val,bbox_long_side_at_672_px,16-<30,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,val,bbox_long_side_at_672_px,30-<40,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,val,bbox_long_side_at_672_px,40-<50,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,val,bbox_long_side_at_672_px,50-<96,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,val,bbox_long_side_at_672_px,>=96,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,val,bbox_area_fraction,<0.0001,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,val,bbox_area_fraction,0.0001-<0.001,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,val,bbox_area_fraction,0.001-<0.01,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,val,bbox_area_fraction,0.01-<0.1,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,val,bbox_area_fraction,>=0.1,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,test,population,total,48,48,1.0,images,
+negative_confirmed,test,status,negative_confirmed,48,48,1.0,images,
+negative_confirmed,test,flag,Small=0,48,48,1.0,images,
+negative_confirmed,test,flag,Small=1,0,48,0.0,images,
+negative_confirmed,test,flag,Occluded=0,48,48,1.0,images,
+negative_confirmed,test,flag,Occluded=1,0,48,0.0,images,
+negative_confirmed,test,flag,Blurred=0,34,48,0.7083333333333334,images,
+negative_confirmed,test,flag,Blurred=1,14,48,0.2916666666666667,images,
+negative_confirmed,test,flag,No Ball=0,0,48,0.0,images,
+negative_confirmed,test,flag,No Ball=1,48,48,1.0,images,
+negative_confirmed,test,joint_flags,0000,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,0001,34,48,0.7083333333333334,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,0010,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,0011,14,48,0.2916666666666667,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,0100,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,0101,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,0110,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,0111,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,1000,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,1001,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,1010,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,1011,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,1100,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,1101,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,1110,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,joint_flags,1111,0,48,0.0,images,"bit order: Small,Occluded,Blurred,No Ball; multi-label, not mutually exclusive classes"
+negative_confirmed,test,bbox_long_side_at_672_px,<16,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,test,bbox_long_side_at_672_px,16-<30,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,test,bbox_long_side_at_672_px,30-<40,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,test,bbox_long_side_at_672_px,40-<50,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,test,bbox_long_side_at_672_px,50-<96,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,test,bbox_long_side_at_672_px,>=96,0,0,0,valid_boxes,"long side=max(w_px,h_px)*672/image_long_side; project Small boundary approximately40px; extra bins descriptive; occluded fragments are not full-ball scale"
+negative_confirmed,test,bbox_area_fraction,<0.0001,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,test,bbox_area_fraction,0.0001-<0.001,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,test,bbox_area_fraction,0.001-<0.01,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,test,bbox_area_fraction,0.01-<0.1,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"
+negative_confirmed,test,bbox_area_fraction,>=0.1,0,0,0,valid_boxes,"area=w_norm*h_norm; descriptive bins, not a quality criterion"

@@ -1,0 +1,17 @@
+{
+  "prechecked": 1000,
+  "labels_changed": 2,
+  "boxes_before": 849,
+  "boxes_after": 849,
+  "skipped": [],
+  "user_approved": 0,
+  "scene_rows_changed": 257,
+  "audit": "/home/misaka/workspace/dataset_processing/batch-review-20261016/applied/20261016T062920Z-73b60c42",
+  "changed_labels": [
+    "legacy_train_000238.jpg",
+    "legacy_train_009603_L.jpg"
+  ],
+  "failed_labels": [],
+  "metadata_after_sha256": "72c871c41040c3d796db6bfb7638dbf41458a645c70a6ee9268bf8f24b4d0ae2",
+  "created_at_utc": "2026-10-16T06:29:21.493843+00:00"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "group": 1,
+    "images": 134,
+    "full_pages": 67,
+    "boxes": 108,
+    "roi_pages": 14
+  },
+  {
+    "group": 2,
+    "images": 132,
+    "full_pages": 66,
+    "boxes": 126,
+    "roi_pages": 16
+  },
+  {
+    "group": 3,
+    "images": 132,
+    "full_pages": 66,
+    "boxes": 126,
+    "roi_pages": 16
+  }
+]

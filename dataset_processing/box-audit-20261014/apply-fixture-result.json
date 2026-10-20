@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "read-only dry-run and stale label/review skips",
+    "native QLockFile conflict leaves dataset untouched",
+    "atomic apply, exact backups, current human/unknown fields, pending provenance",
+    "failed label commit retains original label and pending CSV",
+    "final comparison rejects non-cooperating edits",
+    "explicit native false-positive removal remains pending and preserves class conflicts",
+    "only native corrections repair old out-of-bounds boxes; replacements and syntax remain strict"
+  ],
+  "production_touched": false
+}

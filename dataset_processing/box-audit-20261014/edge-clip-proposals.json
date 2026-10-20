@@ -1,0 +1,42 @@
+[
+  {
+    "filename": "frame_001650_right.png",
+    "split": "train",
+    "expected_label_sha256": "92068d9b6b8dd4c85d37eb295153a3e0efcb56775864c8b53752c62964195413",
+    "boxes_xyxy": [
+      [
+        88.38783637961977,
+        315.277565419924,
+        161.38783477961977,
+        376
+      ],
+      [
+        225.49049429657796,
+        353.2471482889734,
+        297.0342205323194,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "本次最终全库校验发现原人工球框下沿略越界；重新查看最新原生图片确认足球被下图边截断，仅裁y2至图片高度，其他坐标和其他框保留；不回退本次期间的人工修改。",
+    "source": "助手对最新原图和最新label进行原生复核；edge-clip-latest-baseline.json；待人工确认。"
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00010759_right.png",
+    "split": "train",
+    "expected_label_sha256": "1d83cadc0f03c0075408e7a0917765f8a31f583cf135df5175fd9021dcb257c7",
+    "boxes_xyxy": [
+      [
+        218.18023891126992,
+        327.0570342205324,
+        277.87072243346006,
+        376
+      ]
+    ],
+    "action": "correct_false_positive_or_missing_ball",
+    "native_visual_review": true,
+    "reason": "本次最终全库校验发现原人工球框下沿略越界；重新查看最新原生图片确认足球被下图边截断，仅裁y2至图片高度，其他坐标和其他框保留；不回退本次期间的人工修改。",
+    "source": "助手对最新原图和最新label进行原生复核；edge-clip-latest-baseline.json；待人工确认。"
+  }
+]

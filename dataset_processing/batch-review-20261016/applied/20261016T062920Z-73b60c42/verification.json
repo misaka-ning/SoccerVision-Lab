@@ -1,0 +1,55 @@
+{
+  "independent_verifier": "batch002_engineering",
+  "total_dataset_rows": 8398,
+  "batch2_count": 1000,
+  "batch2_both_pending": 1000,
+  "batch2_auto_approved": 0,
+  "batch1_both_reviewed": 1000,
+  "batch1_status_counts": {
+    "reviewed_annotation": 707,
+    "negative_confirmed": 272,
+    "reviewed_excluded": 21
+  },
+  "outside_batch2_raw_csv_records_unchanged": 7398,
+  "unknown_and_provenance_fields_preserved": true,
+  "old_notes_retained_verbatim_as_prefix": true,
+  "correct_batch2_review_date": true,
+  "batch2_images_sha256_unchanged": 1000,
+  "batch2_unchanged_labels": 998,
+  "batch2_changed_labels": [
+    {
+      "filename": "legacy_train_000238.jpg",
+      "class0_boxes": 1,
+      "pixel_boxes": [
+        [
+          318.0,
+          32.00000003999999,
+          552.0,
+          264.00000002400003
+        ]
+      ],
+      "normalized_bounds_valid": true
+    },
+    {
+      "filename": "legacy_train_009603_L.jpg",
+      "class0_boxes": 1,
+      "pixel_boxes": [
+        [
+          237.00000001440003,
+          51.0000000104,
+          260.00000003040003,
+          69.0000000008
+        ]
+      ],
+      "normalized_bounds_valid": true
+    }
+  ],
+  "all_original_label_backups_sha256_match": true,
+  "boxes_before": 849,
+  "boxes_after": 849,
+  "metadata_sha256_matches_apply_report": true,
+  "source_yaml_unwritten_by_apply": true,
+  "encoder_nonfinite_cases_rejected": 12,
+  "apply_batch_parameter_forwarded_under_qt_locks": true,
+  "result": "PASS"
+}

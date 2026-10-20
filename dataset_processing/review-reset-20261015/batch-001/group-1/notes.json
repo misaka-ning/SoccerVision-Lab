@@ -1,0 +1,2961 @@
+{
+  "opened_full": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-00.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-01.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-02.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-03.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-04.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-05.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-06.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-07.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-08.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-09.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-10.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-11.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-12.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-13.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-14.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-15.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-16.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-17.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-18.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-19.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-20.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-21.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-22.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-23.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-24.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-25.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-26.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-27.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-28.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-29.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-30.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-31.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-32.png"
+  ],
+  "opened_roi": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-00.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-01.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-02.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-03.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-04.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-05.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-06.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-07.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-08.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-09.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-10.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-11.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-12.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-13.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-14.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-15.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-16.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-17.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-18.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-19.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-20.png"
+  ],
+  "opened_native": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n54-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n55-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n56-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n57-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n58-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n59-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n60-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n61-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n62-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n63-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n64-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n65-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n66-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n67-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n68-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n69-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n70-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n71-foot.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n68-left.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n69-left.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n70-left.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n71-left.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n106-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n107-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n108-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n109-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n110-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n111-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n112-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n113-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n114-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n115-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n116-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n117-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n118-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n119-occlusion.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n120-bottom.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n121-bottom.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n122-bottom.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n123-bottom.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n130-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n131-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n132-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n133-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n134-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n135-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n142-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n143-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n144-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n145-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n146-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n147-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n152-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n153-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n154-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n155-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n156-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n157-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n158-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n159-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n160-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n161-grid.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/native/n168-right.png"
+  ],
+  "decisions": {
+    "0": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "1": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "2": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "3": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "4": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "5": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "6": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "7": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "8": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "9": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "10": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "11": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "12": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "13": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "14": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "15": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "16": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "17": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "18": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "19": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "20": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "21": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "22": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "23": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "24": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "25": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "26": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "27": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "28": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "29": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "30": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "31": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "32": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "33": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "34": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "35": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景检查，画面为天花板、灯具、窗墙及局部人体/衣物，未见足球；候选仍待用户复查。"
+    },
+    "36": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "37": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "38": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "39": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "40": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "41": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "42": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "43": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "44": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "45": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "46": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "47": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "48": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "49": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "50": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "51": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "52": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。全图边缘有明显运动拖影，Blurred=1。候选待用户复查。"
+    },
+    "53": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。全图边缘有明显运动拖影，Blurred=1。候选待用户复查。"
+    },
+    "54": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "55": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "56": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "57": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "58": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "59": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "60": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "61": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "62": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "63": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "64": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "65": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "66": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "67": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景无人持球且无地面足球；天花板/人体/走廊或地板可见区域均无球，器械为轮脚结构。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "68": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景地板及器械脚边无足球。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "69": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景地板及器械脚边无足球。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "70": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_visibility_review",
+      "reason": "左边缘约y40–65有极窄深色弧片，4倍局部仍难分辨是否为下一帧出现的边缘足球；不能确认为无球，No Ball=0，保留空候选并请用户判可见性/补框。"
+    },
+    "71": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景地板及器械脚边无足球。未见明确全图运动拖影。候选待用户复查。"
+    },
+    "72": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "左裁边可见黑白足球片段，原框覆盖可见球缘；裁图边不算遮挡。完整球尺度无法由片段可靠判断，Small暂沿用现值且场景待审；局部偏软不能直接认定运动模糊。候选待用户复查。"
+    },
+    "73": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "左裁边可见黑白足球片段，原框覆盖可见球缘；裁图边不算遮挡。完整球尺度无法由片段可靠判断，Small暂沿用现值且场景待审；局部偏软不能直接认定运动模糊。候选待用户复查。"
+    },
+    "74": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "75": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "76": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "77": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "78": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "79": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "80": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "81": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "82": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "83": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "84": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "85": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景及放大ROI确认器械脚旁一只黑白足球，非脚轮；现框四边覆盖球缘，无重复花纹框。小球完整最长边约25–36px，Small=1；无明确前景遮挡、无明确球运动拖影。候选待用户复查。"
+    },
+    "86": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景及两个放大ROI确认器械脚旁小球和底边裁切的大球，均是真球；小球约26px使Small=1，底边裁切不算遮挡；大球有轻度运动拖影，Blurred=1。原框覆盖各自球缘，候选待用户复查。"
+    },
+    "87": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景及两个放大ROI确认器械脚旁小球和底边裁切的大球，均是真球；小球约26px使Small=1，底边裁切不算遮挡；大球有轻度运动拖影，Blurred=1。原框覆盖各自球缘，候选待用户复查。"
+    },
+    "88": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景及两个放大ROI确认器械脚旁小球和前景足球；前景球右上缘被鞋遮挡且运动拖影，Occluded=1、Blurred=1，小球约28px使Small=1。现框沿可见球体范围，待用户复查。"
+    },
+    "89": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景及两个放大ROI确认器械脚旁小球和前景足球；前景球右上缘被鞋遮挡且运动拖影，Occluded=1、Blurred=1，小球约28px使Small=1。现框沿可见球体范围，待用户复查。"
+    },
+    "90": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "确认前景球和器械脚旁小球，Small=1；前景球有运动拖影，Blurred=1，鞋接近但未明确遮挡球，Occluded=0；两框保留待用户复查。"
+    },
+    "91": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "确认前景球和器械脚旁小球，Small=1；前景球有运动拖影，Blurred=1，鞋接近但未明确遮挡球，Occluded=0；两框保留待用户复查。"
+    },
+    "92": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "确认前景球和器械脚旁小球，Small=1；前景球有运动拖影，Blurred=1，鞋接近但未明确遮挡球，Occluded=0；两框保留待用户复查。"
+    },
+    "93": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "确认前景球和器械脚旁小球，Small=1；前景球有运动拖影，Blurred=1，鞋接近但未明确遮挡球，Occluded=0；两框保留待用户复查。"
+    },
+    "94": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。"
+    },
+    "95": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。"
+    },
+    "96": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。"
+    },
+    "97": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。"
+    },
+    "98": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。"
+    },
+    "99": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "前景球与器械腿后足球均真实可见；后球被立柱明显遮挡，Occluded=1。后球完整尺寸接近40px或被遮挡难量，Small暂沿用现值并待分类复查；保留候选框，特别检查立柱旁可见球缘。"
+    },
+    "100": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "仅底边露出近处大足球弧面，原框覆盖可见片段；裁边不算Occluded，球在相邻视角明显大于40px。未见球被前景物挡住，候选待用户复查。"
+    },
+    "101": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "仅底边露出近处大足球弧面，原框覆盖可见片段；裁边不算Occluded，球在相邻视角明显大于40px。未见球被前景物挡住，候选待用户复查。"
+    },
+    "102": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "右裁边蓝白足球真实可见且球有方向拖影，Blurred=1；裁边不计Occluded，现框包住可见球缘，待用户复查。"
+    },
+    "103": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "右裁边蓝白足球真实可见且球有方向拖影，Blurred=1；裁边不计Occluded，现框包住可见球缘，待用户复查。"
+    },
+    "104": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "单只足球可见，球体和全图均有明显方向运动拖影；现框覆盖最合理可见球范围，待用户复查。"
+    },
+    "105": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "单只足球可见，球体和全图均有明显方向运动拖影；现框覆盖最合理可见球范围，待用户复查。"
+    },
+    "106": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "107": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "108": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "109": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "110": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。全图方向拖影明显，Blurred=1。"
+    },
+    "111": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。全图方向拖影明显，Blurred=1。"
+    },
+    "112": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "113": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "114": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "115": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "116": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "117": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "118": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "119": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "两只足球均可见，右球完整最长边约29–38px使Small=1；左球被器械横杆严重遮挡。5倍局部确认部分帧横杆上方还露球顶，现左框可能仅含横杆下方球片、或混入横杆，不能把残片当完整球缩框；保留现框请用户重画左球可见全部范围，右球保留。低像素软化不足以认定运动模糊。"
+    },
+    "120": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景及下沿局部未见足球，机器与腿的可见范围没有球片；全图明显方向拖影，Blurred=1。空候选仍待用户复查。"
+    },
+    "121": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景及下沿局部未见足球，机器与腿的可见范围没有球片；全图明显方向拖影，Blurred=1。空候选仍待用户复查。"
+    },
+    "122": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景及下沿局部未见足球，机器与腿的可见范围没有球片；全图明显方向拖影，Blurred=1。空候选仍待用户复查。"
+    },
+    "123": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景及下沿局部未见足球，机器与腿的可见范围没有球片；全图明显方向拖影，Blurred=1。空候选仍待用户复查。"
+    },
+    "124": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景及下沿局部未见足球，机器与腿的可见范围没有球片；全图明显方向拖影，Blurred=1。空候选仍待用户复查。"
+    },
+    "125": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景及下沿局部未见足球，机器与腿的可见范围没有球片；全图明显方向拖影，Blurred=1。空候选仍待用户复查。"
+    },
+    "126": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "腿鞋旁蓝白球清楚存在且运动拖影，球上缘与腿鞋重叠，Occluded=1；现框上缘是否覆盖完整可见拖影边界不够确定，保留框请用户复核，非小球。"
+    },
+    "127": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "腿鞋旁蓝白球清楚存在且运动拖影，球上缘与腿鞋重叠，Occluded=1；现框上缘是否覆盖完整可见拖影边界不够确定，保留框请用户复核，非小球。"
+    },
+    "128": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "replace",
+      "reason": "逐框放大确认box0为底边裁切足球，box1实际是灰鞋鞋面/鞋带误框，应删除；保留足球原框，裁边不算遮挡；球及全图有运动拖影。候选待用户复查。",
+      "boxes_xyxy": [
+        [
+          121.19391762980989,
+          317.8326984997719,
+          185.2471482889734,
+          375.99999999999994
+        ]
+      ]
+    },
+    "129": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "replace",
+      "reason": "逐框放大确认box0为底边裁切足球，box1实际是灰鞋鞋面/鞋带误框，应删除；保留足球原框，裁边不算遮挡；球及全图有运动拖影。候选待用户复查。",
+      "boxes_xyxy": [
+        [
+          88.3878363648,
+          315.27756543839996,
+          161.3878347648,
+          376.0
+        ]
+      ]
+    },
+    "130": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "replace",
+      "reason": "器械旁黑白球真实可见，原box0左/上边切进可见球面；已看原生和6倍像素网格，扩大到全部可见球缘，横杆遮挡使Occluded=1。完整球约45–52px，Small=0；未见明确球运动拖影。其他真实足球框保留，仍待用户复查。",
+      "boxes_xyxy": [
+        [
+          98,
+          162,
+          149,
+          202
+        ],
+        [
+          236.99999903999998,
+          242.99999972,
+          292.00000032,
+          296.00000092
+        ]
+      ]
+    },
+    "131": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生及6倍坐标网格检查，器械旁球轮廓在原框内，矩形角落背景正常，无需机械调整。球受横杆遮挡，完整尺度接近40px，Small暂沿用现值待用户复查。"
+    },
+    "132": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "replace",
+      "reason": "器械旁黑白球真实可见，原box0左/上边切进可见球面；已看原生和6倍像素网格，扩大到全部可见球缘，横杆遮挡使Occluded=1。完整球约45–52px，Small=0；前景球有明显拖影，Blurred=1。其他真实足球框保留，仍待用户复查。",
+      "boxes_xyxy": [
+        [
+          101,
+          155,
+          149,
+          195
+        ],
+        [
+          239.99999856,
+          296.99999924,
+          314.00000016,
+          373.99999772
+        ]
+      ]
+    },
+    "133": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "replace",
+      "reason": "器械旁黑白球真实可见，原box0左/上边切进可见球面；已看原生和6倍像素网格，扩大到全部可见球缘，横杆遮挡使Occluded=1。完整球约45–52px，Small=0；前景球有明显拖影，Blurred=1。其他真实足球框保留，仍待用户复查。该视角器械球尺度靠近40px，Small=0暂定请人工复核。",
+      "boxes_xyxy": [
+        [
+          80.58,
+          152,
+          124,
+          194
+        ],
+        [
+          210.99999984,
+          296.99999924,
+          281.00000208,
+          370.99999900000006
+        ]
+      ]
+    },
+    "134": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "replace",
+      "reason": "器械旁黑白球真实可见，原box0左/上边切进可见球面；已看原生和6倍像素网格，扩大到全部可见球缘，横杆遮挡使Occluded=1。完整球约45–52px，Small=0；未见明确球运动拖影。其他真实足球框保留，仍待用户复查。",
+      "boxes_xyxy": [
+        [
+          117,
+          73,
+          163,
+          111
+        ]
+      ]
+    },
+    "135": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生及6倍坐标网格检查，器械旁球轮廓在原框内，矩形角落背景正常，无需机械调整。球受横杆遮挡，完整尺度接近40px，Small暂沿用现值待用户复查。"
+    },
+    "136": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。"
+    },
+    "137": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。"
+    },
+    "138": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。"
+    },
+    "139": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。"
+    },
+    "140": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。"
+    },
+    "141": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。"
+    },
+    "142": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。"
+    },
+    "143": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "有蓝白足球及/或器械旁顶部裁边足球；顶部/底边裁切本身不计遮挡，腿鞋与球交叠时有遮挡。球片段不能独立可靠推算完整尺寸，Small暂0且场景待审；现框保留，请用户特别复核裁边球和腿鞋交界。"
+    },
+    "144": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。球低像素软化与运动拖影需用户复核。"
+    },
+    "145": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。球低像素软化与运动拖影需用户复核。"
+    },
+    "146": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。球低像素软化与运动拖影需用户复核。"
+    },
+    "147": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。球低像素软化与运动拖影需用户复核。"
+    },
+    "148": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。全图/球有方向拖影，Blurred=1。"
+    },
+    "149": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。全图/球有方向拖影，Blurred=1。"
+    },
+    "150": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。全图/球有方向拖影，Blurred=1。"
+    },
+    "151": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "确认器械旁黑白球；部分帧另有底边前景球，腿鞋与球交叠时Occluded=1。器械旁完整尺度在40px附近且部分遮挡，Small暂沿用现值待复核；原框矩形角落背景正常，不机械缩框。全图/球有方向拖影，Blurred=1。"
+    },
+    "152": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。"
+    },
+    "153": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。"
+    },
+    "154": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。"
+    },
+    "155": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。"
+    },
+    "156": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。"
+    },
+    "157": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。"
+    },
+    "158": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。"
+    },
+    "159": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。"
+    },
+    "160": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。"
+    },
+    "161": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "原生与5倍网格检查器械横杆后真实黑白球，横杆遮挡明确，Occluded=1；原框主要覆盖可见球，部分球顶与横杆交界无法可靠分开，保留候选供人工复核，不按残片重算完整Small；当前Small=1暂定，低像素软化不直接记运动模糊。"
+    },
+    "162": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景为器械上部、柜体及走廊，球已在视野下方不可见；未见可见足球片段，No Ball=1。全图存在方向拖影，Blurred=1。空候选待用户复查。"
+    },
+    "163": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景为器械上部、柜体及走廊，球已在视野下方不可见；未见可见足球片段，No Ball=1。全图存在方向拖影，Blurred=1。空候选待用户复查。"
+    },
+    "164": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景为器械上部、柜体及走廊，球已在视野下方不可见；未见可见足球片段，No Ball=1。未见明确运动拖影。空候选待用户复查。"
+    },
+    "165": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "原生全景为器械上部、柜体及走廊，球已在视野下方不可见；未见可见足球片段，No Ball=1。未见明确运动拖影。空候选待用户复查。"
+    },
+    "166": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "右底边器械横杆后可见黑白足球，非轮脚；有横杆遮挡，裁边本身不算遮挡。球完整尺寸被裁边/横杆影响，Small暂1且场景待审；原框保留请用户复核球缘。"
+    },
+    "167": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "右底边器械横杆后可见黑白足球，非轮脚；有横杆遮挡，裁边本身不算遮挡。球完整尺寸被裁边/横杆影响，Small暂1且场景待审；原框保留请用户复核球缘。"
+    },
+    "168": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_visibility_review",
+      "reason": "原为空框/No Ball=1，但右边缘约y180–300可见遮住背景的大幅浅色运动弧面，3倍局部仍无法完全分辨球/手臂，右目同帧明确出现近处球；不能确认为无球，改No Ball=0、Blurred=1并保留空候选请用户判可见性与补框。"
+    },
+    "169": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "右裁边近处蓝白球可见，拖影很强；现框作为候选保留，但拖影外缘不够确定请用户复核。裁边不算Occluded，未能看到手遮球。"
+    },
+    "170": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "近处手持蓝白球真实可见，手指盖住右/上球缘，Occluded=1，非小球；现框覆盖可见球，候选待用户复查。球纹理可见，未见明确球运动拖影。"
+    },
+    "171": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "近处手持蓝白球真实可见，手指盖住右/上球缘，Occluded=1，非小球；现框覆盖可见球，候选待用户复查。球纹理可见，未见明确球运动拖影。"
+    },
+    "172": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "近处手持蓝白球真实可见，手指盖住右/上球缘，Occluded=1，非小球；现框覆盖可见球，候选待用户复查。球/全图方向拖影明显，Blurred=1。"
+    },
+    "173": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "近处手持蓝白球真实可见，手指盖住右/上球缘，Occluded=1，非小球；现框覆盖可见球，候选待用户复查。球/全图方向拖影明显，Blurred=1。"
+    },
+    "174": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "近处手持蓝白球真实可见，手指盖住右/上球缘，Occluded=1，非小球；现框覆盖可见球，候选待用户复查。球/全图方向拖影明显，Blurred=1。"
+    },
+    "175": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "近处手持蓝白球真实可见，手指盖住右/上球缘，Occluded=1，非小球；现框覆盖可见球，候选待用户复查。球纹理可见，未见明确球运动拖影。"
+    },
+    "176": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "近处大球右裁边或接近右边缘，上缘手指明确压在球面而非仅碰轮廓，Occluded=1；球纹理清晰无明确运动拖影，原框保留待用户复查。"
+    },
+    "177": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "近处大球右裁边或接近右边缘，上缘手指明确压在球面而非仅碰轮廓，Occluded=1；球纹理清晰无明确运动拖影，原框保留待用户复查。"
+    },
+    "178": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "右侧近处蓝白足球可见且球体有方向拖影，Blurred=1；裁边不算遮挡，手指仅在179上缘明确盖住球面，其余未能确认遮挡。现框保留待用户复查。"
+    },
+    "179": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "右侧近处蓝白足球可见且球体有方向拖影，Blurred=1；裁边不算遮挡，手指仅在179上缘明确盖住球面，其余未能确认遮挡。现框保留待用户复查。"
+    },
+    "180": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "右侧近处蓝白足球可见且球体有方向拖影，Blurred=1；裁边不算遮挡，手指仅在179上缘明确盖住球面，其余未能确认遮挡。现框保留待用户复查。"
+    },
+    "181": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "右侧近处蓝白足球可见且球体有方向拖影，Blurred=1；裁边不算遮挡，手指仅在179上缘明确盖住球面，其余未能确认遮挡。现框保留待用户复查。"
+    },
+    "182": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "手持球可见，手遮住球右侧边缘且球/全图有运动拖影，Occluded=1、Blurred=1；现框覆盖球，保留候选待用户复查。"
+    },
+    "183": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "手持球可见，手遮住球右侧边缘且球/全图有运动拖影，Occluded=1、Blurred=1；现框覆盖球，保留候选待用户复查。"
+    },
+    "184": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "底部裁切手持大球可见，手盖住右上球面，Occluded=1；球纹理清楚，Blurred=0，现框贴合可见球缘，候选待用户复查。"
+    },
+    "185": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "底部裁切手持大球可见，手盖住右上球面，Occluded=1；球纹理清楚，Blurred=0，现框贴合可见球缘，候选待用户复查。"
+    },
+    "186": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "右底边裁切球清楚可见，裁边本身不算遮挡；整体有轻方向拖影，Blurred=1。现框覆盖可见球缘，候选待用户复查。"
+    },
+    "187": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "右底边裁切球清楚可见，裁边本身不算遮挡；整体有轻方向拖影，Blurred=1。现框覆盖可见球缘，候选待用户复查。"
+    },
+    "188": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景为器械上部、柜架、天花板，未见足球或球片；No Ball=1，空候选仍待用户复查。"
+    },
+    "189": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景为器械上部、柜架、天花板，未见足球或球片；No Ball=1，空候选仍待用户复查。"
+    },
+    "190": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景为器械上部、柜架、天花板，未见足球或球片；No Ball=1，空候选仍待用户复查。"
+    },
+    "191": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景为器械上部、柜架、天花板，未见足球或球片；No Ball=1，空候选仍待用户复查。"
+    },
+    "192": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景为器械上部、柜架、天花板，未见足球或球片；No Ball=1，空候选仍待用户复查。"
+    },
+    "193": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景为器械上部、柜架、天花板，未见足球或球片；No Ball=1，空候选仍待用户复查。"
+    },
+    "194": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景为器械上部、柜架、天花板，未见足球或球片；No Ball=1，空候选仍待用户复查。"
+    },
+    "195": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景为器械上部、柜架、天花板，未见足球或球片；No Ball=1，空候选仍待用户复查。"
+    },
+    "196": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景为器械上部、柜架、天花板，未见足球或球片；No Ball=1，空候选仍待用户复查。"
+    },
+    "197": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐张原生全景为器械上部、柜架、天花板，未见足球或球片；No Ball=1，空候选仍待用户复查。"
+    },
+    "198": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "199": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "200": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "201": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "202": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "203": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "204": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "205": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "206": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "207": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "208": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_visibility_review",
+      "reason": "器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。"
+    },
+    "209": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_visibility_review",
+      "reason": "器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。"
+    },
+    "210": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_visibility_review",
+      "reason": "器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。"
+    },
+    "211": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_visibility_review",
+      "reason": "器械底部灰色圆顶在局部放大仍不能可靠区分金属接头或球残片；保留现有候选/空框，No Ball=0，需用户辨认。"
+    },
+    "212": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "213": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "214": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "215": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "216": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "217": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "218": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "219": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "220": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "221": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "222": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "223": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "224": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "225": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "226": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "227": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "228": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "229": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "230": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "231": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "232": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "233": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "234": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "235": {
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "1",
+        "No Ball": "1"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "逐图原生全景为天花板、器械、办公区、垃圾桶及地面，未见足球，候选无球仍待用户复查。"
+    },
+    "236": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "走廊白线旁有蓝白完整足球，框内球纹理和轮廓清楚；小球尺度接近40px者待复核。"
+    },
+    "237": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "走廊白线旁有蓝白完整足球，框内球纹理和轮廓清楚；小球尺度接近40px者待复核。"
+    },
+    "238": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "走廊白线旁有蓝白完整足球，框内球纹理和轮廓清楚；小球尺度接近40px者待复核。"
+    },
+    "239": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "走廊白线旁有蓝白完整足球，框内球纹理和轮廓清楚；小球尺度接近40px者待复核。"
+    },
+    "240": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "走廊白线旁有蓝白完整足球，框内球纹理和轮廓清楚；小球尺度接近40px者待复核。"
+    },
+    "241": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": true,
+      "action": "keep",
+      "reason": "走廊白线旁有蓝白完整足球，框内球纹理和轮廓清楚；小球尺度接近40px者待复核。"
+    },
+    "242": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。"
+    },
+    "243": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。"
+    },
+    "244": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。"
+    },
+    "245": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。"
+    },
+    "246": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "needs_manual_bbox_annotation",
+      "reason": "走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。 左边缘另见黑白球片漏框，可见范围约x0–10,y208–244，需用户补框。"
+    },
+    "247": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。"
+    },
+    "248": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。"
+    },
+    "249": {
+      "flags": {
+        "Small": "1",
+        "Occluded": "1",
+        "Blurred": "0",
+        "No Ball": "0"
+      },
+      "scene_certain": false,
+      "action": "keep",
+      "reason": "走廊中央真实球及器械旁受横杆遮挡的黑白球候选均需核对；中央球约40px临界，受遮挡球边缘较软，先保留，待用户确认框与场景。"
+    }
+  },
+  "root_opened_full": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-33.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-34.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-35.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-36.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-37.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-38.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-39.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-40.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/full/page-41.png"
+  ],
+  "root_opened_roi": [
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-17.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-18.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-19.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-20.png",
+    "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-001/group-1/roi/page-21.png"
+  ]
+}

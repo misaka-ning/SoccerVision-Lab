@@ -1,0 +1,808 @@
+{
+  "batch": 1,
+  "group": 1,
+  "metadata_sha256": "44cc5b9217594b68f0534d7245c9188b32d364c16940717bb5fcb8a6e51f4ec3",
+  "created_at_utc": "20261015T062032Z",
+  "records": [
+    {
+      "number": 1,
+      "filename": "frame_000385_right.png",
+      "split": "train",
+      "image_sha256": "34ee2c2703e667b5880d942f29763283e801fc67c4ef91fe0bd209e720ea2dc6",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 2,
+      "filename": "frame_000392_left.png",
+      "split": "train",
+      "image_sha256": "62b333aa86c2cee55f287c6479d840e0bac756e4fcdf15c346f2a10da1e3f2b0",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 3,
+      "filename": "frame_000392_right.png",
+      "split": "train",
+      "image_sha256": "e62adf05c25dd222d4db0cc174030d091e76ce864ad8b12feed44737b37065d9",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 4,
+      "filename": "frame_000407_left.png",
+      "split": "train",
+      "image_sha256": "cb52fcf48245954b91a9e769b8063b01029c1e2b2e6fb15fbcfd546f01db6134",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 5,
+      "filename": "frame_000407_right.png",
+      "split": "train",
+      "image_sha256": "585f5ff99a0682c8061b00a71645f74d39b8bab51c7b569a8465cc5b53cc52c5",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 6,
+      "filename": "frame_000408_left.png",
+      "split": "train",
+      "image_sha256": "2ddc87f25d09b2e190cb57b9fe3a948eb17cebd8a791945939bfdcbb9893c302",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 7,
+      "filename": "frame_000408_right.png",
+      "split": "train",
+      "image_sha256": "fa72df2fda32dd5cea5798a1edc66292c8f73bcf045927464de0ef2dba9a5302",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 8,
+      "filename": "frame_000416_left.png",
+      "split": "train",
+      "image_sha256": "3255955c6a3324c2fb1246f85016bca31bec19d9f34a6e121e30b29c8dcbe059",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 9,
+      "filename": "frame_000416_right.png",
+      "split": "train",
+      "image_sha256": "8977d5e3844cd6e5f6a91c0433ec5791181f6c14ceb80d75e38872badd44d730",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 10,
+      "filename": "frame_000424_left.png",
+      "split": "train",
+      "image_sha256": "7bb4595c00ff6a89d4a519e3758d0ae2b35c0545d70a923256a0ade23c53620e",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 11,
+      "filename": "frame_000424_right.png",
+      "split": "train",
+      "image_sha256": "3514e32f8d72d1acc156f7e516c86531b797b2fe322ada1d76aceb4ac543f12d",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 12,
+      "filename": "frame_000439_left.png",
+      "split": "train",
+      "image_sha256": "6bb0103dad2ab76d85f3db692972b404a027216633ac74f82ede2d4677d20844",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 13,
+      "filename": "frame_000439_right.png",
+      "split": "train",
+      "image_sha256": "696ab0fb818c4fa5de98ad069f58da449274f78f239845e309a6839923b5ffde",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 14,
+      "filename": "frame_000446_left.png",
+      "split": "train",
+      "image_sha256": "11c96469d7b5ada144f5ac1fccb55f2b5298b1fbe6f8c964d6c6bcc10e625cf4",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 15,
+      "filename": "frame_000446_right.png",
+      "split": "train",
+      "image_sha256": "50accfc142e6e358589a0eb58ff821200823600b96cba9cb53e5397a1176b07e",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 16,
+      "filename": "frame_000448_left.png",
+      "split": "train",
+      "image_sha256": "b6c54554c2a7f96e29e85aa0d5e45f87067b22faced026c7782f82d5d0d93ddd",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 17,
+      "filename": "frame_000448_right.png",
+      "split": "train",
+      "image_sha256": "4fddcd1d83d2dddb43e78c195069a6a1a412cd967e1d4d777df589e717d372dd",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 18,
+      "filename": "frame_000459_left.png",
+      "split": "train",
+      "image_sha256": "6f8b409c525390b80ad96776162104a3d4ee447626affcdb92433627925b4b3d",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 19,
+      "filename": "frame_000459_right.png",
+      "split": "train",
+      "image_sha256": "b9852f73ed12f335c36f624d4d6ed6f4f8ef5a78fcad830229e1335f6ee4d4e9",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 20,
+      "filename": "frame_000465_left.png",
+      "split": "train",
+      "image_sha256": "ab839c65868cf04f01b301d4c49d1a868330f3651f59544fd6456687c5a9dc01",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 21,
+      "filename": "frame_000465_right.png",
+      "split": "train",
+      "image_sha256": "9a13618116f8e2083c2a92202af7e90d3d64867ffa3981afcdd2afee9bcfa40a",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 22,
+      "filename": "frame_000472_left.png",
+      "split": "train",
+      "image_sha256": "ef32ece52d7775e814ef41a8a4a0cf1eb07055dfec21a07abed2c68aaca760d5",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 23,
+      "filename": "frame_000472_right.png",
+      "split": "train",
+      "image_sha256": "3e21a66f0d82dc84bd54b6ea73e4c201a17a4080164f0836470b598d2e6b7ccb",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 24,
+      "filename": "frame_000485_left.png",
+      "split": "train",
+      "image_sha256": "1b7bf12c85a0a4f6aced4c016435a59145ddc0050700c4eff4b4206ba6640396",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 25,
+      "filename": "frame_000485_right.png",
+      "split": "train",
+      "image_sha256": "06a7dcfa8257e0e353c335287a86dd529b0ebe5d1bb78fd546c03274179aeac1",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 26,
+      "filename": "frame_000669_left.png",
+      "split": "train",
+      "image_sha256": "a1204e666ee5bc492dc837f402916f48e016738d53ca1d1e7c82f682b571c593",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "0",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 27,
+      "filename": "frame_000669_right.png",
+      "split": "train",
+      "image_sha256": "26655edefceeffd57f0011d2eb3bd3be5a0fe9d453f64ae7c312755d80c63963",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 28,
+      "filename": "frame_000927_left.png",
+      "split": "train",
+      "image_sha256": "da5950308b2ca4fc10c81dd78c5c7a353ba1d19fb5416accccb2c36f6d0dfbe8",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 29,
+      "filename": "frame_000927_right.png",
+      "split": "train",
+      "image_sha256": "86139fbe7c4da84181bacc19078c0837f44689a711942c2b11093f206a3dcfd2",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 30,
+      "filename": "frame_000930_left.png",
+      "split": "train",
+      "image_sha256": "a073c74898b46f4e30257589f69fa6951efd1160b7fe2c22a69079c3f604987d",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 31,
+      "filename": "frame_000930_right.png",
+      "split": "train",
+      "image_sha256": "907c67e13aaf4b6ec5ccf9cfe2d61bb3b1f5729c68e3e266db536685e1a87049",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 32,
+      "filename": "frame_000938_left.png",
+      "split": "train",
+      "image_sha256": "5e6016e0a4a849ac2a51bcd232fd4b5683f1fcb8bd4aec9baaa418f627eb74bd",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 33,
+      "filename": "frame_000938_right.png",
+      "split": "train",
+      "image_sha256": "d3f8601f76279a66d7afd3dcb8c485f265404b1b80e236d3f325e2466f04826d",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 34,
+      "filename": "frame_000945_left.png",
+      "split": "train",
+      "image_sha256": "8bd07a40dd7c62de64ca8eb68e1b3c6b049ae812a68cb667cbdffeb4c007ad8e",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 35,
+      "filename": "frame_000945_right.png",
+      "split": "train",
+      "image_sha256": "91d7829cc223c3697ddca20054bd2dc53afb53d952fd067d4df2442635daaf37",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 36,
+      "filename": "frame_001101_left.png",
+      "split": "train",
+      "image_sha256": "eab751af7a98a6d5ddbcaa6d9305b034fa7a00740d207f5289175628a5fe3a61",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 37,
+      "filename": "frame_001101_right.png",
+      "split": "train",
+      "image_sha256": "559ed225409d24a896ddfa3b42733e5443cfb4c10db3158ce40413e2cb8c4f11",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 38,
+      "filename": "frame_001107_left.png",
+      "split": "train",
+      "image_sha256": "4396a765788567108f26e2229388df38ca2b0694c0049144ce42458e39ff2889",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 39,
+      "filename": "frame_001107_right.png",
+      "split": "train",
+      "image_sha256": "6153140dde45f278aac392b7455cf8914998538852eb2d33ceab1c627f812e5a",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 40,
+      "filename": "frame_001143_left.png",
+      "split": "train",
+      "image_sha256": "3c7c90a44f46535f42af31d5c4345aed7a21a4a933fdca3c2ec66140c460bc7c",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 41,
+      "filename": "frame_001143_right.png",
+      "split": "train",
+      "image_sha256": "0aa59168f03cd9888d7ab2d97532e4646c18a25ecd0870a00cb54bbf7df259a5",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 42,
+      "filename": "frame_001150_left.png",
+      "split": "train",
+      "image_sha256": "64d46a2dd0c377543394eed9b42c9e715eea196ce3090db154804c1d6906119f",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 43,
+      "filename": "frame_001150_right.png",
+      "split": "train",
+      "image_sha256": "af36e25b4fd4325791fae5a40e556980d00795f5ef9b4e5daff1fb3a1311c583",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 44,
+      "filename": "frame_001159_left.png",
+      "split": "train",
+      "image_sha256": "0fb57c8dcd2f9e17a107704adc7267a6d68b8a30969b156eac2fa1ba80b95f6b",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 45,
+      "filename": "frame_001159_right.png",
+      "split": "train",
+      "image_sha256": "4bcee68865a35e4ce83d42513066dd5e007ef6179dff28c1b7b2131223532f38",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 46,
+      "filename": "frame_001160_left.png",
+      "split": "train",
+      "image_sha256": "ad509bf63ca63365e14ab2136bff40c5fb385418f41457a7d3b6da49c7138ddf",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 47,
+      "filename": "frame_001160_right.png",
+      "split": "train",
+      "image_sha256": "6735f4565eeb8c69043189d88c50163d1c0b747125a9fcffb35590192b322a86",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 48,
+      "filename": "frame_001170_left.png",
+      "split": "train",
+      "image_sha256": "6b9e6d8f47240283caf9284c6769a12d7def40a8056c749de8b23cbcc0fad8c9",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 49,
+      "filename": "frame_001170_right.png",
+      "split": "train",
+      "image_sha256": "e75f15dbf2114fd00d99deb27c7f1cb17b8e1a14d6158eb20475cb17ec6d9577",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    },
+    {
+      "number": 50,
+      "filename": "frame_001459_right.png",
+      "split": "train",
+      "image_sha256": "78ba9021bcef714ed0feb97d1d4a192c4d6042a5750b1a84fbec256ba3029d8f",
+      "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "flags": {
+        "Small": "0",
+        "Occluded": "0",
+        "Blurred": "0",
+        "No Ball": "1"
+      },
+      "label_review_required": "1",
+      "scene_review_required": "1",
+      "boxes_xyxy": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "group": 2,
+    "locals": [
+      48,
+      49
+    ],
+    "reason": "当前仅底边约3–5行亮点，不能独立确认足球身份；已撤回补框，保留空label NoBall1与可见性待审",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/nativegrid-048-049.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-2/before-after-048-049.png"
+    ]
+  },
+  {
+    "group": 4,
+    "locals": [
+      42
+    ],
+    "reason": "强白片及小灰点不足从当前图独立确认球边界，撤回补框转人工可见性/补框，空label NoBall1，不能靠另图推框",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/head-before-after-042.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-006/group-4/head-fine-042.png"
+    ]
+  }
+]

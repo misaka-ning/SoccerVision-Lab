@@ -1,0 +1,72 @@
+[
+  {
+    "page": "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/approved-group2-00.png",
+    "records": [
+      {
+        "filename": "video_4bec9c343db72928_frame_00008693_left.png",
+        "group": 2,
+        "local": 0
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00009697_left.png",
+        "group": 2,
+        "local": 144
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00010421_left.png",
+        "group": 2,
+        "local": 330
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00011574_left.png",
+        "group": 2,
+        "local": 552
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00012256_left.png",
+        "group": 2,
+        "local": 704
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00014105_right.png",
+        "group": 2,
+        "local": 1105
+      }
+    ]
+  },
+  {
+    "page": "/home/misaka/workspace/dataset_processing/confidence-review-20261014/independent-qa/approved-group2-01.png",
+    "records": [
+      {
+        "filename": "video_4bec9c343db72928_frame_00009087_left.png",
+        "group": 2,
+        "local": 104
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00011960_right.png",
+        "group": 2,
+        "local": 655
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00012977_left.png",
+        "group": 2,
+        "local": 818
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00013188_right.png",
+        "group": 2,
+        "local": 873
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00013397_left.png",
+        "group": 2,
+        "local": 928
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00013621_right.png",
+        "group": 2,
+        "local": 983
+      }
+    ]
+  }
+]

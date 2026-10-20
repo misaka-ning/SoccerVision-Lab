@@ -1,0 +1,674 @@
+[
+  {
+    "filename": "video_4bec9c343db72928_frame_00001805_left.png",
+    "index": 294,
+    "local": 44,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        648,
+        247,
+        665,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-022.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-00.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001805_right.png",
+    "index": 295,
+    "local": 45,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        640,
+        246,
+        659,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-022.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-00.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001810_left.png",
+    "index": 296,
+    "local": 46,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-023.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-00.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001810_right.png",
+    "index": 297,
+    "local": 47,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-023.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-00.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001863_left.png",
+    "index": 298,
+    "local": 48,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-024.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-00.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001863_right.png",
+    "index": 299,
+    "local": 49,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-024.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-00.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001924_left.png",
+    "index": 300,
+    "local": 50,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-025.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-00.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001924_right.png",
+    "index": 301,
+    "local": 51,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-025.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-00.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001930_left.png",
+    "index": 302,
+    "local": 52,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-026.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-01.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001930_right.png",
+    "index": 303,
+    "local": 53,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-026.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-01.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001937_left.png",
+    "index": 304,
+    "local": 54,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-027.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-01.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001937_right.png",
+    "index": 305,
+    "local": 55,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-027.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-01.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001945_left.png",
+    "index": 306,
+    "local": 56,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-028.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-01.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001945_right.png",
+    "index": 307,
+    "local": 57,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-028.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-01.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001953_left.png",
+    "index": 308,
+    "local": 58,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-029.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-01.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001960_left.png",
+    "index": 310,
+    "local": 60,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-030.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-02.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001960_right.png",
+    "index": 311,
+    "local": 61,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-030.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-02.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001969_left.png",
+    "index": 312,
+    "local": 62,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-031.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-02.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001969_right.png",
+    "index": 313,
+    "local": 63,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-031.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-02.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001977_left.png",
+    "index": 314,
+    "local": 64,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-032.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-02.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001977_right.png",
+    "index": 315,
+    "local": 65,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-032.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-02.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001984_left.png",
+    "index": 316,
+    "local": 66,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-033.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-02.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001984_right.png",
+    "index": 317,
+    "local": 67,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-033.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-02.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001993_left.png",
+    "index": 318,
+    "local": 68,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-034.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-03.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001993_right.png",
+    "index": 319,
+    "local": 69,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-034.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-03.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001997_left.png",
+    "index": 320,
+    "local": 70,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-035.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-03.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00001997_right.png",
+    "index": 321,
+    "local": 71,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-035.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-03.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00002063_right.png",
+    "index": 337,
+    "local": 87,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。 此帧人物腿/鞋较接近，但本框内主体仍为足球，左右边界未扩到邻近腿鞋。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-043.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-03.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00002086_left.png",
+    "index": 342,
+    "local": 92,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-046.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-04.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00002086_right.png",
+    "index": 343,
+    "local": 93,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。 此帧人物腿/鞋较接近，但本框内主体仍为足球，左右边界未扩到邻近腿鞋。",
+    "boxes_xyxy": [
+      [
+        638,
+        246,
+        657,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-046.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-04.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00002104_left.png",
+    "index": 346,
+    "local": 96,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。 人鞋在后侧接近球，但球的白黑轮廓仍能独立辨出，候选不随鞋大范围外扩。",
+    "boxes_xyxy": [
+      [
+        647,
+        247,
+        664,
+        261
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-048.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-04.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  },
+  {
+    "filename": "video_4bec9c343db72928_frame_00002104_right.png",
+    "index": 347,
+    "local": 97,
+    "verdict": "accept_candidate",
+    "reason": "原图右侧墙脚可见独立白黑足球，圆/近圆轮廓及深色球面斑块可辨；候选框与当前可见外缘贴合，未框入机器人或人鞋主体。小像素软边界允许约1像素余量，未见明显切球或大缝隙。 人鞋在后侧接近球，但球的白黑轮廓仍能独立辨出，候选不随鞋大范围外扩。",
+    "boxes_xyxy": [
+      [
+        639,
+        246,
+        658,
+        260
+      ]
+    ],
+    "evidence_opened": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/full/page-048.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-003/group-2/candidates-04.png"
+    ],
+    "proposal_file_sha256": "faa714805a1e7fc2f385f4c7d70f6fb57a53ce4b978fe540f8cd7296883e5fdf",
+    "final_human_review_required": true
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "prechecked": 398,
+  "labels_changed": 6,
+  "boxes_before": 360,
+  "boxes_after": 360,
+  "skipped": [],
+  "user_approved": 0,
+  "batch": 9,
+  "status": "ready_to_apply_after_batch_8_review",
+  "canonical_dataset_written": false,
+  "canonical_metadata_written": false,
+  "canonical_labels_written": 0,
+  "window_opened": false,
+  "all_require_user_review": true,
+  "scene_rows_changed": 77,
+  "flags": {
+    "Small": 64,
+    "Occluded": 55,
+    "Blurred": 330,
+    "No Ball": 54
+  },
+  "priority": 24,
+  "full_pages": 199,
+  "roi_pages": 46,
+  "input_sha256": {
+    "inventory.json": "a4cd3daabb8a224ce1e31a6ee50c851a9b53e48d1c3b603c21c91d6a2ddc3a9e",
+    "proposals.json": "db64b155acc270c68fc9f6dbe6413fd5dddd58f2d83568968045e88f57d9e9e7",
+    "summary.json": "506c6f4041aa7b46db1406ca805905f028fd0fdd1ccaff1421e8aadce9a26ab4",
+    "replacement-second-review.json": "8a62f777ec0a48c5c6a367297993ea2d793c22edafd11680122968b708174e9a"
+  },
+  "metadata_observed_sha256": "e7ad9bc05e5b386efd39e0a0b86ee8710da75946998c5bcbe3e1a8bd83887772",
+  "preview_metadata_sha256": "5f0198b1633cb10913b4c243f9fc0fb617384d6fc1de9d77571e81c4d17e32ab",
+  "review_date": "2026-10-19",
+  "created_at_utc": "2026-10-19T03:19:41.655777+00:00",
+  "staged_directory": "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-009/staged",
+  "next_step": "After user finishes batch 8, run apply_precheck.py --batch 9 --review-date with the current date --apply; its Qt locks and fresh row/media checks preserve subsequent user edits. Never install the stale preview CSV directly."
+}

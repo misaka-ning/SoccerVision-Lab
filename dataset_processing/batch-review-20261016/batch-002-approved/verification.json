@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "batch": 2,
+  "selected_count": 1000,
+  "outside_raw_rows_preserved": 7398,
+  "all_selected_both_review_flags_zero": true,
+  "all_selected_images_and_labels_sha256_unchanged": true,
+  "all_selected_scene_split_provenance_fields_unchanged": true,
+  "all_selected_prior_notes_retained": true,
+  "counts": {
+    "reviewed_annotation": 847,
+    "reviewed_excluded": 11,
+    "negative_confirmed": 142
+  },
+  "metadata_sha256": "6b5fc5f9288761cb06a236348bdee498967bc5548fb11d5df7be29854c33e8c6"
+}

@@ -1,0 +1,74 @@
+{
+  "images": 1000,
+  "boxes": 849,
+  "full_pages": 500,
+  "roi_pages": 108,
+  "groups": [
+    {
+      "group": 1,
+      "images": 250,
+      "boxes": 118,
+      "full_pages": 125,
+      "roi_pages": 15,
+      "actions": {
+        "keep": 250
+      },
+      "uncertain": 29
+    },
+    {
+      "group": 2,
+      "images": 250,
+      "boxes": 250,
+      "full_pages": 125,
+      "roi_pages": 32,
+      "actions": {
+        "keep": 246,
+        "replace": 1,
+        "needs_manual_bbox_annotation": 3
+      },
+      "uncertain": 4
+    },
+    {
+      "group": 3,
+      "images": 250,
+      "boxes": 250,
+      "full_pages": 125,
+      "roi_pages": 32,
+      "actions": {
+        "keep": 231,
+        "needs_manual_bbox_annotation": 18,
+        "replace": 1
+      },
+      "uncertain": 34
+    },
+    {
+      "group": 4,
+      "images": 250,
+      "boxes": 231,
+      "full_pages": 125,
+      "roi_pages": 29,
+      "actions": {
+        "keep": 240,
+        "needs_manual_bbox_annotation": 1,
+        "needs_visibility_review": 9
+      },
+      "uncertain": 142
+    }
+  ],
+  "actions": {
+    "keep": 967,
+    "replace": 2,
+    "needs_manual_bbox_annotation": 22,
+    "needs_visibility_review": 9
+  },
+  "uncertain": 209,
+  "priority": 209,
+  "scene_rows_changed": 257,
+  "flags": {
+    "Small": 203,
+    "Occluded": 170,
+    "Blurred": 461,
+    "No Ball": 142
+  },
+  "all_require_user_review": true
+}

@@ -1,0 +1,13 @@
+{
+  "validated": true,
+  "visual_images": 64,
+  "opened_pages": 32,
+  "review_result_empty": 64,
+  "requires_review_usable": 18,
+  "requires_review_excluded": 8,
+  "post_loader_total": 8148,
+  "post_excluded_discovered": 0,
+  "source_cache_files": 0,
+  "source_sha_unchanged": true,
+  "script_sha256": "62c27e95900b7cf060a76bcfe476025a17f39638c9518de5384c8954065650da"
+}

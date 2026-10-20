@@ -1,0 +1,38 @@
+[
+  {
+    "group": 4,
+    "local": 70,
+    "index": 820,
+    "rejected_boxes_xyxy": [
+      [
+        267,
+        325,
+        367,
+        376
+      ]
+    ],
+    "reason": "当前帧仅强拖影残片，试框切漏左侧软边且身份/边界不够稳定，撤回，不写入label；保留人工补框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-grid-070.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-before-after-070.png"
+    ]
+  },
+  {
+    "group": 4,
+    "local": 71,
+    "index": 821,
+    "rejected_boxes_xyxy": [
+      [
+        218,
+        323,
+        320,
+        376
+      ]
+    ],
+    "reason": "当前帧仅强拖影残片，试框切漏左侧软边且身份/边界不够稳定，撤回，不写入label；保留人工补框。",
+    "evidence": [
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-grid-071.png",
+      "/home/misaka/workspace/dataset_processing/review-reset-20261015/batch-007/group-4/root-before-after-071.png"
+    ]
+  }
+]

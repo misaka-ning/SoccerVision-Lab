@@ -1,0 +1,52 @@
+{
+  "source_video": "/home/misaka/temp/nvidia-recordings-20261013-104748/originals/stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb.avi",
+  "source_jsonl": "/home/misaka/temp/nvidia-recordings-20261013-104748/originals/stereo_20261013_104748_922854_7a88b83e76d9406f8ed02e0ded4f36bb.jsonl",
+  "source_avi_sha256": "5e9c3c33c06028f52b1026cd4d097b14505a5bb66e38d5104c65f30443d19b2e",
+  "source_jsonl_sha256": "791056b4ac1754e3c063b5f7bea4606fac7453e59140a4e84ac8b9f1a26a481f",
+  "source_frames": 5875,
+  "source_fps": 15.0,
+  "source_size": [
+    1344,
+    376
+  ],
+  "mono_size": [
+    672,
+    376
+  ],
+  "dedup_representatives": 4273,
+  "near_duplicate_frames_not_exported": 1602,
+  "curated_video_times": 588,
+  "exported_png_images": 1176,
+  "category_counts": {
+    "无球负样本": 425,
+    "运动模糊": 98,
+    "脚部局部遮挡": 50,
+    "待复核": 362,
+    "远距离小目标": 241
+  },
+  "dataset_images_in_requested_four_categories": 814,
+  "review_images": 362,
+  "sampling_target": "about2fps; best sharpness in8-source-frame bins plus hard-event anchors",
+  "dedup_settings": {
+    "grayscale_thumbnail": [
+      256,
+      144
+    ],
+    "ssim_min": 0.9,
+    "mean_absolute_difference_max": 6.0,
+    "max_block_mean_difference_max": 22.0,
+    "require_both_eyes_similar": true,
+    "plausible_ball_roi_change_guard": true
+  },
+  "classification": "visual review of selected pairs, separate per eye; no ball absence inferred solely from YOLO",
+  "priority_when_overlap": [
+    "foot_occlusion",
+    "motion_blur",
+    "small_target"
+  ],
+  "saved_losslessly_from_avi_decoded_pixels": true,
+  "all_png_roundtrip_pixels_verified": true,
+  "source_files_modified": false,
+  "training_box_labels_generated": false,
+  "largest6_duplicate_groups_visually_audited": true
+}

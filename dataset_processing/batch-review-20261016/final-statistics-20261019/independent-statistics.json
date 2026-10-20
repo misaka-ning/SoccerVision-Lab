@@ -1,0 +1,276 @@
+{
+  "independent": true,
+  "canonical_dataset_written": false,
+  "dataset": "/home/misaka/workspace/datasets",
+  "created_at_utc": "2026-10-19T03:29:04.616562+00:00",
+  "metadata_sha256": "cb2386ef97c2f864cad27adf8fc06dc6fc74cea2caf828f32a685abc05985ef9",
+  "metadata_headers": [
+    "图片",
+    "Small",
+    "Occluded",
+    "Blurred",
+    "No Ball",
+    "split",
+    "annotation_status",
+    "scene_review_required",
+    "label_review_required",
+    "auto_box_count",
+    "preserved_box_count",
+    "label_review_note",
+    "source_video",
+    "source_frame_idx",
+    "eye"
+  ],
+  "metadata_utf8_bom": true,
+  "criteria": {
+    "both_review_flags": "0",
+    "positive": "reviewed_annotation + No Ball=0 + valid nonempty class-0 YOLO",
+    "negative": "negative_confirmed + No Ball=1 + valid empty YOLO",
+    "excluded": "reviewed_excluded is archival and never trainable or a confirmed negative",
+    "image": "regular nonsymlink image, fully decoded by Pillow.Image.load()",
+    "geometry": "finite normalized coordinates, positive sizes, all corners inside [0,1] with tolerance 1e-6",
+    "four_flags": "independent multi-label flags; their counts may overlap"
+  },
+  "total": 8398,
+  "unique_names": 8398,
+  "status": {
+    "negative_confirmed": 2928,
+    "reviewed_annotation": 5220,
+    "reviewed_excluded": 250
+  },
+  "review_flag_pairs": {
+    "00": 8398
+  },
+  "split": {
+    "train": {
+      "total": 8100,
+      "trainable": 7857,
+      "reviewed_excluded": 243,
+      "other_unusable": 0,
+      "positive": 4997,
+      "confirmed_negative": 2860,
+      "trainable_boxes": 5194,
+      "all_four_flags_zero": 1685,
+      "trainable_all_four_flags_zero": 1563,
+      "flags_all": {
+        "Small": 1647,
+        "Occluded": 1424,
+        "Blurred": 2203,
+        "No Ball": 2865
+      },
+      "flags_trainable": {
+        "Small": 1581,
+        "Occluded": 1350,
+        "Blurred": 2166,
+        "No Ball": 2860
+      },
+      "status": {
+        "negative_confirmed": 2860,
+        "reviewed_annotation": 4997,
+        "reviewed_excluded": 243
+      }
+    },
+    "val": {
+      "total": 170,
+      "trainable": 164,
+      "reviewed_excluded": 6,
+      "other_unusable": 0,
+      "positive": 144,
+      "confirmed_negative": 20,
+      "trainable_boxes": 144,
+      "all_four_flags_zero": 44,
+      "trainable_all_four_flags_zero": 44,
+      "flags_all": {
+        "Small": 38,
+        "Occluded": 40,
+        "Blurred": 74,
+        "No Ball": 20
+      },
+      "flags_trainable": {
+        "Small": 32,
+        "Occluded": 40,
+        "Blurred": 68,
+        "No Ball": 20
+      },
+      "status": {
+        "negative_confirmed": 20,
+        "reviewed_annotation": 144,
+        "reviewed_excluded": 6
+      }
+    },
+    "test": {
+      "total": 128,
+      "trainable": 127,
+      "reviewed_excluded": 1,
+      "other_unusable": 0,
+      "positive": 79,
+      "confirmed_negative": 48,
+      "trainable_boxes": 79,
+      "all_four_flags_zero": 14,
+      "trainable_all_four_flags_zero": 14,
+      "flags_all": {
+        "Small": 14,
+        "Occluded": 27,
+        "Blurred": 44,
+        "No Ball": 49
+      },
+      "flags_trainable": {
+        "Small": 14,
+        "Occluded": 26,
+        "Blurred": 44,
+        "No Ball": 48
+      },
+      "status": {
+        "negative_confirmed": 48,
+        "reviewed_annotation": 79,
+        "reviewed_excluded": 1
+      }
+    }
+  },
+  "flags_all": {
+    "Small": 1699,
+    "Occluded": 1491,
+    "Blurred": 2321,
+    "No Ball": 2934
+  },
+  "flags_trainable": {
+    "Small": 1627,
+    "Occluded": 1416,
+    "Blurred": 2278,
+    "No Ball": 2928
+  },
+  "flag_combinations_all": {
+    "0000": 1743,
+    "0001": 2379,
+    "0010": 997,
+    "0011": 475,
+    "0100": 581,
+    "0101": 37,
+    "0110": 476,
+    "0111": 11,
+    "1000": 1012,
+    "1001": 2,
+    "1010": 297,
+    "1011": 2,
+    "1100": 295,
+    "1101": 28,
+    "1110": 63
+  },
+  "flag_combinations_trainable": {
+    "0000": 1621,
+    "0001": 2377,
+    "0010": 968,
+    "0011": 475,
+    "0100": 562,
+    "0101": 36,
+    "0110": 472,
+    "0111": 10,
+    "1000": 996,
+    "1001": 2,
+    "1010": 291,
+    "1011": 2,
+    "1100": 250,
+    "1101": 26,
+    "1110": 60
+  },
+  "all_four_flags_zero": 1743,
+  "trainable_all_four_flags_zero": 1621,
+  "trainable": 8148,
+  "reviewed_excluded": 250,
+  "other_unusable": 0,
+  "positive": 5220,
+  "confirmed_negative": 2928,
+  "trainable_boxes": 5417,
+  "pending_any_review_flag": 0,
+  "both_reviewed": 8398,
+  "image_validation": {
+    "decoded": 8398,
+    "errors": [],
+    "dimensions": {
+      "1280x720": 528,
+      "1920x1080": 1,
+      "672x376": 7869
+    },
+    "formats": {
+      "JPEG": 714,
+      "PNG": 7684
+    }
+  },
+  "label_validation": {
+    "valid": 8394,
+    "invalid": 4,
+    "errors": [
+      {
+        "filename": "frame_001674_right.png",
+        "split": "train",
+        "error": "box_crosses_image_boundary_at_line_1",
+        "status": "reviewed_excluded"
+      },
+      {
+        "filename": "frame_003650_right.png",
+        "split": "train",
+        "error": "box_crosses_image_boundary_at_line_1",
+        "status": "reviewed_excluded"
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00004643_left.png",
+        "split": "train",
+        "error": "box_crosses_image_boundary_at_line_1",
+        "status": "reviewed_excluded"
+      },
+      {
+        "filename": "video_4bec9c343db72928_frame_00007724_right.png",
+        "split": "train",
+        "error": "box_crosses_image_boundary_at_line_1",
+        "status": "reviewed_excluded"
+      }
+    ],
+    "valid_box_count_all": 5463,
+    "positive_label_images": 5261,
+    "empty_label_images": 3133,
+    "boxes_per_image": {
+      "0": 3133,
+      "1": 5059,
+      "2": 202
+    },
+    "excluded_valid_nonempty": 41,
+    "excluded_valid_empty": 205,
+    "excluded_invalid": 4
+  },
+  "unusable_reasons_multilabel": {
+    "invalid_label": 4,
+    "reviewed_excluded": 250
+  },
+  "semantic_errors_outside_excluded": [],
+  "physical_inventory": {
+    "image_files": 8398,
+    "label_files": 8398,
+    "missing_metadata_images": [],
+    "extra_images_without_metadata": [],
+    "missing_metadata_labels": [],
+    "extra_labels_without_metadata": []
+  },
+  "provenance_overlap": {
+    "basis": "explicit source_video + source_frame_idx + eye; no filename inference",
+    "rows_complete_provenance": 6508,
+    "rows_incomplete_provenance": 1890,
+    "exact_eye_frame_groups_across_splits": 0,
+    "exact_eye_frame_rows_across_splits": 0,
+    "source_frame_groups_across_splits": 0,
+    "source_frame_rows_across_splits": 0,
+    "left_right_same_frame_groups_across_splits": 0,
+    "left_right_same_frame_rows_across_splits": 0,
+    "limitation": "Incomplete explicit provenance cannot be used to establish or exclude overlap."
+  },
+  "metadata_unchanged_during_audit": true,
+  "elapsed_seconds": 27.497,
+  "checks": {
+    "expected8398": true,
+    "images_all_decode": true,
+    "all_images_and_labels_match_metadata": true,
+    "all_review_flags_zero": true,
+    "trainable_plus_excluded_plus_other_equals_total": true,
+    "nonexcluded_semantics_valid": true,
+    "metadata_unchanged_during_audit": true
+  }
+}
