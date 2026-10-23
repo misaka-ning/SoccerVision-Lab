@@ -1,0 +1,12 @@
+/build/
+/install/
+/log/
+/.deps/
+/.soccer_perception_env
+__pycache__/
+*.pyc
+/soccer_perception_ros/models/*.onnx
+/soccer_perception_ros/models/*.engine
+/soccer_perception_ros/models/*.engine.json
+/soccer_perception_ros/models/.engine-build.lock
+/soccer_perception_ros/models/.export-*/

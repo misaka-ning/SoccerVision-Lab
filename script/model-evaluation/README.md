@@ -22,7 +22,7 @@ bash script/model-evaluation/evaluate.sh --formats svg
 bash script/model-evaluation/evaluate.sh --formats pdf
 # 同时输出多个格式
 bash script/model-evaluation/evaluate.sh --formats png,svg,pdf
-# 使用COCO参考模型时，输入baseline/original_best.pt并明确选择足球类别32
+# 使用COCO参考模型时，输入baseline/E0_original_best.pt并明确选择足球类别32
 bash script/model-evaluation/evaluate.sh --class-id 32
 # 使用自己的GPU环境
 FOOTBALL_EVAL_PYTHON=/你的环境/bin/python bash script/model-evaluation/evaluate.sh --device 0
@@ -52,16 +52,99 @@ python script/model-evaluation/evaluate.py \
 
 # 当前参考权重是COCO 80类：0=person，32=sports ball，须显式选32
 python script/model-evaluation/evaluate.py \
-  --model baseline/original_best.pt --class-id 32 --split val --device cpu
+  --model baseline/E0_original_best.pt --class-id 32 --split val --device cpu
 
 # 只检查当前集合、标签和审核状态：不会加载模型、不会创建评估结果目录
 python script/model-evaluation/evaluate.py \
-  --model baseline/original_best.pt --class-id 32 --dry-run
+  --model baseline/E0_original_best.pt --class-id 32 --dry-run
 ```
 
 默认数据版本由 [../config.yaml](../config.yaml) 的 `dataset_version` 决定，每次启动重新读取，无需重新编译。当前默认v1：Train 4346、Val 1223、Test 464；v0：Train 6925、Val 1223、Test为空。默认集合为 **val**。v1的Test是同场次片段留出，不能当作独立场次测试；v0执行 `--split test` 会报错而不回退到Val。`--dataset-version v0` 可临时覆盖版本；`--data` 可显式指定其他YAML，此时不再跟随共享选择。
 
 如使用自己的环境：先按硬件准备PyTorch，再 `python -m pip install -r script/model-evaluation/requirements.txt`。要求Python 3.10+，Ultralytics支持YOLO26；ONNX/TensorRT/TorchScript需自行准备对应运行时。脚本禁用Ultralytics自动安装，不自动下载模型。支持Ultralytics兼容的 `.pt`、`.onnx`、`.engine`、`.torchscript` **检测模型**；本机完整运行测试覆盖PT（含GPU实际推理），其余格式依赖实际导出模型和设备。导出模型的固定输入尺寸、batch和量化精度以其自身为准。
+
+## 固定步长阈值扫描
+
+新增入口 `threshold_scan.py`，从 **0.05** 开始，每次增加 **0.01**，一直到 **0.95**，
+含两端共 **91 个置信度阈值**。默认匹配 IoU 为 0.5；读取已有评估时沿用来源匹配 IoU，
+也可用 `--match-iou` 显式指定。扫描的是置信度，匹配 IoU 和 NMS IoU 保持固定。
+
+Shell 启动入口为 `threshold_scan.sh`。直接运行后，选择缓存或模型模式并输入路径：
+
+```bash
+bash /home/misaka/workspace/script/model-evaluation/threshold_scan.sh
+```
+
+也可直接传入来源及扫描参数，省去交互：
+
+```bash
+bash /home/misaka/workspace/script/model-evaluation/threshold_scan.sh \
+  --eval-dir experiments/eval/E00_E01_gpu_val_20261020T020912Z_0cb51c/E01 \
+  --formats png,svg,pdf
+
+# 指定模型时，默认GPU 0；使用参考COCO权重需选择足球类别32
+bash /home/misaka/workspace/script/model-evaluation/threshold_scan.sh \
+  --model baseline/E0_original_best.pt --class-id 32 --device 0
+```
+
+启动脚本沿用 `FOOTBALL_EVAL_PYTHON` 环境变量。缓存模式优先使用本机CPU环境，
+模型模式默认GPU 0并优先使用本机CUDA环境；`--device cpu` 切换模型推理到CPU。
+模型模式启动前调用现有运行环境检查，缓存模式不要求PyTorch/CUDA。
+两种模式的相对路径（包括交互输入）均基于仓库根目录解析，支持空格和 `~/`。
+`bash threshold_scan.sh --help` 查看启动说明。
+
+优先复用已有完整评估的 `predictions.jsonl`，无需加载模型或再次 GPU 推理。
+例如扫描当前 E01 的完整 Val 评估结果：
+
+```bash
+/opt/VisionStudio/runtime/bin/python -B /home/misaka/workspace/script/model-evaluation/threshold_scan.py \
+  --eval-dir /home/misaka/workspace/experiments/eval/E00_E01_gpu_val_20261020T020912Z_0cb51c/E01 \
+  --formats png,svg,pdf
+```
+
+缓存目录必须包含完整的 `status.json`、`metrics.json`、`inputs_manifest.json` 和
+`predictions.jsonl`。来源候选下限 `min_conf` 必须不大于 0.05，否则低阈值所需候选已经丢失，
+脚本会拒绝扫描。缓存模式使用当时保存的 GT/预测快照，数据版本、集合和类别映射沿用来源，
+不会读取或改动当前数据集；可只使用安装了 NumPy/Matplotlib 的 CPU 环境。
+
+没有现成评估时，直接指定模型。该模式复用 `evaluate.py`，按共享配置选择数据、执行审核过滤，
+以 `min_conf=0.001` **推理一次**，保存完整基础评估，然后从同一批候选计算 91 个工作点：
+
+```bash
+# 当前 E01 单类足球模型；使用本机 GPU 环境
+~/.local/share/vision-studio/gpu-runtime/bin/python -B /home/misaka/workspace/script/model-evaluation/threshold_scan.py \
+  --model experiments/E01_baseline/runs/20261019T092432Z_s42_853c4a/train/weights/best.pt \
+  --dataset-version v1 --split val --device 0 --imgsz 640 --batch 4 \
+  --match-iou 0.5 --formats png,svg,pdf
+```
+
+模型模式支持 `--data`、`--dataset-config`、`--dataset-version`、`--metadata`、`--split`、
+`--class-id`、`--device`、`--imgsz`、`--batch`、`--threads`、`--nms-iou`、`--max-det`、`--limit`，
+默认值与 `evaluate.py` 一致。COCO 参考模型 `baseline/E0_original_best.pt` 需指定 `--class-id 32`。
+缓存模式不接受这些推理参数；`--match-iou`、`--formats`、`--dpi` 和 `--output` 两种模式均可用。
+所有相对路径均以仓库根目录解析，可从任意工作目录启动。
+
+默认新建 `experiments/eval/threshold_scan_<UTC时间>_<随机后缀>/`，
+也可通过 `--output` 指定尚不存在的新目录，不覆盖历史结果：
+
+```text
+扫描结果目录/
+├── status.json
+├── REPORT.md
+├── threshold_scan.json            # 全部 91 行指标、来源 SHA256 和推理参数
+├── tables/threshold_scan.csv      # threshold、TP/FP/FN、P/R/F1、无球误报率等
+├── figures/
+│   ├── tp_fp_fn_curve.*           # TP、FP、FN 随阈值变化
+│   ├── confidence_performance_curve.*  # Precision、Recall、F1 随阈值变化
+│   └── no_ball_fpr_curve.*        # 无球图片误报率随阈值变化
+└── evaluation/                   # 仅模型模式：完整基础评估与低阈值预测缓存
+```
+
+每个阈值先保留 `confidence >= threshold` 的框，再调用现有 `eval_metrics.operating`
+重新做最高 IoU 一对一匹配。匹配成功框计 TP，剩余预测框（包括重复框）计 FP，剩余 GT 计 FN。
+CSV 的阈值列名为 `confidence`；曲线使用全部 91 个工作点，不进行平滑或插值。
+P/R/F1 的零分母规则沿用下文评估口径。候选后的 NMS、max_det、模型头模式与来源推理保持一致。
+阈值选择应使用 Val；在 Test 上扫描只作描述，不自动选取或宣称最佳部署阈值。
 
 ## 指标口径
 

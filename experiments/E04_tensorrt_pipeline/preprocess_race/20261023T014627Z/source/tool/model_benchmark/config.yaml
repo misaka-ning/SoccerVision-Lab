@@ -1,0 +1,33 @@
+# 路径相对于本 config.yaml；只接受已经构建的 .engine。
+models:
+  - name: E1
+    path: ../../install/soccer_perception_ros/share/soccer_perception_ros/models/E01_baseline.engine
+  - name: E2
+    path: ../../install/soccer_perception_ros/share/soccer_perception_ros/models/E02_c3k2.engine
+baseline: E1
+
+test:
+  mode: both                 # engine / system / both
+  rounds: 3                 # 每轮依次执行模型列表，绝不并行加载
+  warmup_iterations: 100
+  duration_seconds: 60
+  input_shape: auto          # 动态 Engine 必须填 [2, 3, 640, 640]
+  seed: 42                  # engine 模式：同一随机种子的 GPU 常驻输入
+
+system:
+  publish_rate_hz: 50        # null 表示不主动等待，测处理上限
+  viser_enabled: true
+  point_cloud_enabled: false
+  ros_domain_id: 87          # 测试域，避免测试消息被机器人控制程序消费
+  parameter_overrides: {}   # 其他现有 BackendConfig 参数；模型/尺寸由工具管理
+
+monitor:
+  progress_interval_seconds: 2
+  stall_warning_seconds: 15
+  stall_timeout_seconds: 60
+  startup_timeout_seconds: 120
+  shutdown_timeout_seconds: 15
+
+output:
+  directory: results
+  save_frame_records: true

@@ -1,0 +1,60 @@
+--- robot/soccer_perception_ros/tests/test_ros_config.py
++++ candidate/soccer_perception_ros/tests/test_ros_config.py
+@@ -41,6 +41,35 @@
+ 
+ 
+ class RosConfigTests(unittest.TestCase):
++    def test_default_e01_engine_and_a2_graph_selection(self):
++        config = config_from_ros_params()
++
++        self.assertEqual(config.yolo_optimization, "a2_graph")
++        self.assertEqual(config.yolo_model.name, "E01_baseline.engine")
++        self.assertEqual(config.yolo_engine_path, config.yolo_model)
++        self.assertEqual(config.yolo_class_ids, "0")
++        self.assertEqual(config.det_conf, .45)
++        self.assertEqual((config.imgsz, config.yolo_trt_batch), (640, 2))
++        self.assertTrue(config.yolo_tensorrt)
++        self.assertFalse(config.yolo_trt_dynamic)
++
++    def test_optimization_modes_include_original_and_independent_fallbacks(self):
++        for mode in ("none", "a2", "graph", "a2_graph"):
++            with self.subTest(mode=mode):
++                config = config_from_ros_params(FakeRosNode({"yolo_optimization": mode}))
++                self.assertEqual(config.yolo_optimization, mode)
++                self.assertEqual(config.yolo_model.name, "E01_baseline.engine")
++                self.assertEqual(config.det_conf, .45)
++        # Per-process ROS overrides never rewrite the selected YAML default.
++        self.assertEqual(config_from_ros_params().yolo_optimization, "a2_graph")
++
++    def test_optimization_requires_valid_string_without_silent_fallback(self):
++        for value in ("", "baseline", "a1", "a2+graph", "A2", "a2_graph ", "reuse",
++                      None, True, 1, 1.0, [], {}):
++            with self.subTest(value=value):
++                with self.assertRaisesRegex(ValueError, "yolo_optimization"):
++                    config_from_ros_params(FakeRosNode({"yolo_optimization": value}))
++
+     def test_ros_bridge_reads_every_backend_config_field(self):
+         fake = FakeRosNode()
+ 
+@@ -94,6 +123,21 @@
+ 
+ 
+ class SplitYamlConfigTests(unittest.TestCase):
++    def test_optimization_is_a_required_yaml_string(self):
++        import tempfile
++        from unittest.mock import patch
++        field = next(field for field in fields(BackendConfig) if field.name == "yolo_optimization")
++        self.assertEqual(str(field.type), "str")
++        params = _load_camera_deploy_params()
++        self.assertEqual(params["yolo_optimization"], "a2_graph")
++        del params["yolo_optimization"]
++        with tempfile.TemporaryDirectory() as directory:
++            path = Path(directory) / 'camera_deploy.yaml'
++            _write_deployment_params(path, params)
++            with patch('soccer_perception.ros.node.deployment_config_path', return_value=path):
++                with self.assertRaisesRegex(ValueError, 'missing parameters=.*yolo_optimization'):
++                    config_from_ros_params()
++
+     def test_runtime_fields_have_no_python_defaults(self):
+         from dataclasses import MISSING
+         for field in fields(BackendConfig):

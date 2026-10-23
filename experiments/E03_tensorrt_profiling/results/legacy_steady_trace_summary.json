@@ -1,0 +1,69 @@
+{
+  "trace_smoke_pass": true,
+  "window_ms": 1871.127776,
+  "constant_replay_kernel_count_consistent": true,
+  "complete_iterations": 60,
+  "kernels": 11820,
+  "kernel_busy_union_ms": 1676.067328,
+  "kernel_count_per_iteration": {
+    "n": 60,
+    "mean": 197.0,
+    "p50": 197.0,
+    "p95": 197.0,
+    "p99": 197.0,
+    "min": 197.0,
+    "max": 197.0
+  },
+  "runtime_api_events": 12120,
+  "driver_api_events": 0,
+  "cpu_api_wall_union_ms": 1569.172768,
+  "graph_launch_calls_by_domain": {
+    "runtime": 0,
+    "driver": 0
+  },
+  "api_time_note": "Runtime and driver APIs may nest and may overlap GPU execution; totals are API wall time, not CPU core busy time.",
+  "gpu_activity_union_ms": 1676.067328,
+  "copy_or_memset_incremental_ms": 0.0,
+  "detector_phase_overlap": {},
+  "application_no_gpu_activity_ms": 195.060448,
+  "application_no_gpu_activity_gaps": {
+    "n": 11821,
+    "mean": 0.016501179934015734,
+    "p50": 0.003232,
+    "p95": 0.00336,
+    "p99": 0.005792,
+    "min": 0.002816,
+    "max": 114.872064
+  },
+  "top10_application_no_gpu_activity_gaps_ms": [
+    114.872064,
+    1.03168,
+    1.030496,
+    1.018592,
+    1.017376,
+    1.016352,
+    1.011136,
+    1.010944,
+    1.010528,
+    1.010336
+  ],
+  "per_iteration_kernel_busy_ms": {
+    "n": 60,
+    "mean": 27.934455466666666,
+    "p50": 27.934624,
+    "p95": 27.9652624,
+    "p99": 27.98285952,
+    "min": 27.899392,
+    "max": 27.984672
+  },
+  "per_iteration_wall_ms": {
+    "n": 60,
+    "mean": 31.15250773333333,
+    "p50": 29.124512,
+    "p95": 29.5830608,
+    "p99": 76.30155359999961,
+    "min": 29.057024,
+    "max": 143.411552
+  },
+  "coverage": "target application only; other GPU processes and CPU scheduling not established; instrumented trace, not normal timing"
+}

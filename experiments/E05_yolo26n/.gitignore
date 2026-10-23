@@ -1,0 +1,7 @@
+/runs/
+/assets/*.pt
+/assets/*.partial
+/LOCAL_READY.json
+/.training.lock
+/.launch.lock
+/.deps/

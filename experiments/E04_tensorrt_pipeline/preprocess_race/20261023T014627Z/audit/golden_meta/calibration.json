@@ -1,0 +1,26 @@
+{
+  "K": [
+    [
+      363.6561279296875,
+      0.0,
+      344.4394836425781
+    ],
+    [
+      0.0,
+      363.6561279296875,
+      187.1570587158203
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "baseline_m": 0.06305128335952759,
+  "image_size": [
+    672,
+    376
+  ],
+  "fps": 100.0,
+  "scope": "Current ZED calibration used for implementation-equivalence replay, not Val physical depth ground truth"
+}

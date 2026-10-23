@@ -1,0 +1,213 @@
+{
+  "status": "read_only_interface_review; no benchmark or SSH started",
+  "scope": "Optional system validation after exact correctness and screening; candidate saving <1ms ends this race without system jobs",
+  "source_root": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source",
+  "source_sha256": {
+    "worker": "a3a4da762e198b4919a9d8b714046e705394a352a8db679d1490800b19325f83",
+    "benchmark": "ceee62f7d897c5233244e6f212fbc4938019fd5cbe3ccd287370879513cbc4ec",
+    "reporting": "1148c5c1ecb64a9333480390317883c1992b05a5fa015ba030359c0506dc6cb2",
+    "node": "ee52c73f527f1b154b68f8840e8223fcf5337cd1e139865c7a3d881e38ad9011",
+    "yolo": "43660a6a4288dd5b7bcac8567415181dc350150d3fd84611825ac39ba575c1be",
+    "graph": "85aee1a4427bb6c558273f87d34a6a349a148a7b2f0b4b97b7d6ab190ad6f695",
+    "types": "e315ad45650ae124dedd9b10baac57159f0c72e43937f5b5954b9ec58b7f104a",
+    "pipeline": "919a14779a0d45f03ac227e4bb969eefad9bad9b51b78a7e48e92164b983ca12"
+  },
+  "baseline": {
+    "R0": "Existing E01 Engine + existing A2 + existing Graph, current MAXN; preprocessing unchanged",
+    "candidate": "Same R0 plus exactly one per-predictor candidate preprocess hook",
+    "freeze": [
+      "Engine file+SHA and runtime binding signature",
+      "config/thresholds/class/top-k and stereo geometry",
+      "a2_graph enabled and zero fallback",
+      "Viser false, point cloud false, publish limit50Hz",
+      "current MAXN and current clocks; read-only environment capture, no nvpmodel/jetson_clocks mutation",
+      "same scene, valid ball target present, unchanged camera and background load"
+    ],
+    "explicit_cfg": {
+      "test": {
+        "mode": "system",
+        "rounds": 3,
+        "warmup_iterations": 100,
+        "duration_seconds": 60,
+        "input_shape": [
+          2,
+          3,
+          640,
+          640
+        ]
+      },
+      "system": {
+        "publish_rate_hz": 50,
+        "viser_enabled": false,
+        "point_cloud_enabled": false,
+        "ros_domain_id": 87,
+        "parameter_overrides": {
+          "yolo_optimization": "a2_graph"
+        }
+      },
+      "output": {
+        "save_frame_records": true
+      },
+      "environment": {
+        "ROS_DOMAIN_ID": "87",
+        "ROS_LOCALHOST_ONLY": "1",
+        "YOLO_AUTOINSTALL": "false",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  },
+  "minimal_reuse": {
+    "public_source_changes": false,
+    "files_needed": "One private worker shim plus a small serial controller/result reducer; observer can reuse the already audited E04 packet observer",
+    "entry": "The shim imports the frozen tool worker module with source/tool/model_benchmark on sys.path, installs process-local wrappers, then calls worker.main() with the unchanged per-job JSON contract.",
+    "job_contract": "worker.main requires config/model/mode/round/directory/info. info must contain the current Engine SHA, static input_shape and original Ultralytics metadata. Alias model names can select R0_before/candidate/R0_after, all resolving to the identical Engine path.",
+    "controller": "Reuse benchmark.load_config/run_worker/Progress/Records and reporting.metrics. To dispatch a shim without editing the tool, after loading config point the isolated imported benchmark.HERE at a private directory containing worker.py=the shim. Keep the same machine-wide /tmp/soccer_model_benchmark_<uid>.lock and inherited fd, serial process groups, telemetry and own-group cleanup.",
+    "factory_hook": "Before worker.system_run(), replace node.PipelineFactory locally with a subclass of the original. Its create() calls super(), wraps that pipeline.detector.load and close, then returns it. worker.system_run later subclasses this wrapper, so its timing loop remains unchanged.",
+    "load_order": [
+      "CandidateFactory.load calls saved real detector.load() once. Existing load initializes predictor with one raw dummy, installs A2+Graph, executes one optimized dummy and synchronizes.",
+      "Record actual runtime identity and the A2-owned model.predict binding; assert existing mode a2_graph and preprocess c0.",
+      "Install only candidate predictor.preprocess hook (R0 uses unchanged preprocessing plus identical instrumentation). Do not install_pipeline again or recapture another Graph.",
+      "Return to worker load wrapper, which sets its imgsz/rect predict wrapper. All candidate preprocessing is now installed before the worker 100 real stereo-frame warmups."
+    ],
+    "warm_boundary": "Wrap Progress.set in this process. At forced measurement start (stage=测量, completed=0, elapsed=0) save one warm hook/observer snapshot after 100 completed published warm cycles; do not alter the worker begin/done logic. Candidate and baseline receive identical observation overhead.",
+    "frame_records": "Subclass worker.Records only for system fields; augment each row from cached numeric payload observation and optional last preprocess method wall, then call the original add(row, metric) exactly once. Keep original sample/timing keys unchanged.",
+    "payload_observer": "Wrap node.build_ball_position_camera_payload(packet), call original once and return that exact payload object. Cache only numeric metrics derived from packet/payload; no mutation, GPU tensor readback, per-frame file IO or added synchronization.",
+    "close_order": [
+      "Save final existing optimization_status(), candidate describe() and observer counters before restoring/clearing the model.",
+      "Verify the current model.predict is precisely the worker forced-shape outer wrapper and its old_predict closure points to the binding saved after real load; restore that saved binding before original detector.close(). Cache observed wrapper identity and reject unexpected replacement instead of overwriting another owner.",
+      "candidate.restore() restores original predictor.preprocess; then saved detector.close() restores A2+Graph and releases model. Failed ownership/restore must fail the job, retain evidence and stop later jobs.",
+      "Write restore status and restore all process-local class/function patches in finally; never leave altered module objects for another same-process job."
+    ]
+  },
+  "necessary_interfaces": [
+    {
+      "file": "tool/model_benchmark/worker.py",
+      "line": 203,
+      "symbol": "system_run",
+      "detail": "Runs actual installed node/pipeline with per-process class wrappers; no loop copy needed."
+    },
+    {
+      "file": "tool/model_benchmark/worker.py",
+      "line": 284,
+      "symbol": "Factory.create",
+      "detail": "Outer CandidateFactory can wrap detector.load/close; actual hardware/model open occurs later in node.run_ros_node."
+    },
+    {
+      "file": "tool/model_benchmark/worker.py",
+      "line": 298,
+      "symbol": "old_load/load",
+      "detail": "Candidate hook belongs after saved load returns, before first detector call and 100 warm frames."
+    },
+    {
+      "file": "tool/model_benchmark/worker.py",
+      "line": 301,
+      "symbol": "model.predict override",
+      "detail": "Forced shape wrapper masks the A2-owned predict identity; must undo it before A2.restore."
+    },
+    {
+      "file": "tool/model_benchmark/worker.py",
+      "line": 308,
+      "symbol": "detect wrapper",
+      "detail": "detector_ms times detect_candidates_batch only; backend binding verification happens afterwards inside pipeline wall."
+    },
+    {
+      "file": "tool/model_benchmark/worker.py",
+      "line": 326,
+      "symbol": "visualization wrapper",
+      "detail": "Completes a row only after publishing and visualization; counts 100 warm frames then measures until >=60s."
+    },
+    {
+      "file": "tool/model_benchmark/worker.py",
+      "line": 373,
+      "symbol": "main(job)",
+      "detail": "Keeps parent-death protection, Engine SHA check, signals and complete/interrupted/failed result markers."
+    },
+    {
+      "file": "soccer_perception_ros/soccer_perception/ros/node.py",
+      "line": 430,
+      "symbol": "payload/diagnostics",
+      "detail": "Packet observation before scheduler.wait/publish; measurement_valid differs from tracked payload valid."
+    },
+    {
+      "file": "soccer_perception_ros/soccer_perception/ros/node.py",
+      "line": 440,
+      "symbol": "publish/publish_status_only",
+      "detail": "Both output paths must retain publish_end. They count output cycles, not a guaranteed PointStamped for every invalid frame."
+    }
+  ],
+  "existing_csv": [
+    "sample",
+    "cycle_start",
+    "cycle_end",
+    "publish_end",
+    "read_ms",
+    "detector_ms",
+    "pipeline_ms",
+    "read_ready_to_publish_ms",
+    "read_start_to_publish_ms",
+    "visualization_ms",
+    "cycle_ms"
+  ],
+  "extra_numeric_csv": {
+    "frame_idx": "int(packet.frame_idx)",
+    "frame_timestamp_s": "float(packet.timestamp); relative source timestamp, not SDK exposure time",
+    "measurement_valid": "int(packet.ball_3d_measurement.valid)",
+    "tracking_valid": "int(payload['valid']) (TrackState has no valid attribute)",
+    "track_initialized": "int(packet.camera_track_state.initialized)",
+    "coasting": "int(packet.camera_track_state.coasting)",
+    "frames_since_measurement": "int(packet.camera_track_state.frames_since_measurement)",
+    "left_candidate_count": "int(packet.candidate_diagnostics['global']['left_count'])",
+    "right_candidate_count": "int(packet.candidate_diagnostics['global']['right_count'])",
+    "pair_count_after": "int(packet.candidate_diagnostics['global']['pair_count_after'])",
+    "selected_pair_valid": "int(packet.candidate_diagnostics['selected']) or both selected dets present",
+    "left_selected": "int(packet.left_det is not None)",
+    "right_selected": "int(packet.right_det is not None)",
+    "preprocess_method_ms": "optional perf_counter wall wrapper around predictor.preprocess; no CUDA synchronize, includes enqueue/wait effects and is already inside detector wall"
+  },
+  "statistics": {
+    "processing_hz": "N / (last.cycle_end - first.cycle_start)",
+    "publish_hz": "(N-1) / (last.publish_end - first.publish_end); actual publisher-call output cycles, not subscriber reception or per-topic delivery",
+    "latency": "mean/P50/P95/P99 separately for detector_ms, cycle_ms, read_ready_to_publish_ms; P99 must be recomputed from raw CSV because reporting.stats currently omits it",
+    "scope": "read_ready_to_publish excludes SDK capture/buffering and downstream delivery; cycle includes scheduling wait, ROS and visualization; no GPU/CPU wall summation",
+    "validity": "measurement_valid/N, tracking_valid/N, both-eye nonempty, selected pair valid and candidate count distributions per job; tracking/coasting is not current-frame measurement validity",
+    "pairing": "3 complete blocks, each R0_before -> candidate -> R0_after. Per-block reference=(R0_before metric+R0_after metric)/2; average 3 block effects equally, not per-frame pseudo-replicates.",
+    "pooling": "Pooled raw percentiles descriptive only. Hz uses sum of each worker active intervals, never gaps between separate worker monotonic timestamps.",
+    "posthoc": "If validity/count mixture differs, report whole-frame primary results plus exact-one-per-eye & measurement_valid latency-only sensitivity; never compute filtered-subset Hz or call validity ratios physical precision."
+  },
+  "hook_acceptance": {
+    "startup_offsets": "Existing production load contributes one optimized dummy before candidate install. Graph/A2 warm absolute calls can therefore be101, candidate preprocess100; do not hardcode every component warm==100.",
+    "warm_to_final_deltas": {
+      "engine.calls": "N",
+      "engine.replay_count": "N",
+      "engine.input_update_count": "N",
+      "engine.output_clone_count": "N",
+      "engine.capture_count": "0 during measurement; total1",
+      "postprocess.predict_calls": "N",
+      "candidate.calls": "N",
+      "observer.calls": "N"
+    },
+    "must_hold": [
+      "No Graph/A2/candidate fallback_count increase and no last_error/cleanup_error",
+      "current frames update Graph input and ordinary output ownership stays intact",
+      "same Engine hash, runtime shape,dtype,thresholds,NMS/top-k across jobs",
+      "A2 D2H is actual nonempty batches, bytes=24*packed_rows; do not require48B for arbitrary live candidate counts",
+      "all restore operations complete and worker result complete; incomplete block excluded, retries do not silently reuse partial groups"
+    ]
+  },
+  "gaps_and_traps": [
+    "benchmark default config contains E01 and E02 and Viser=true, while frozen deployed detector config already a2_graph and visualization=false; do not execute that default config.",
+    "benchmark.run_worker sets ROS_DOMAIN_ID but not ROS_LOCALHOST_ONLY. Set both explicitly before importing/initializing rclpy; launch only this perception worker, never運控 or the normal control launch.",
+    "Current worker predict wrapper must be unwound before A2 restore; otherwise a successful timing window can end as failed cleanup.",
+    "Current CSV has no packet validity/candidate counts, preprocessing wall, Graph counters or warm checkpoint; packet diagnostics exist in memory but are not recorded.",
+    "reporting.stats provides P50/P95 only. Its standard comparison uses label-level pooled R0, not 3 bracket paired blocks; use a private CSV reducer as primary comparison.",
+    "source/config cannot prove current hardware MAXN or GPU clocks. Record read-only nvpmodel/clock/temperature/background telemetry per job; do not compare this R0 with prior25W E04 Hz as a like-for-like result.",
+    "At high MAXN processing capacity a50Hz publish cap can mask detector improvement; preserve production50Hz for this system test and record scheduler wait if diagnosing saturation, rather than changing the primary contract.",
+    "Actual output cycle Hz is available; subscriber reception, per-topic delivered Hz, SDK exposure-to-publish age, GPU-only preprocessing event times and queue age are not available from this worker. Do not label host timestamps as those metrics."
+  ],
+  "go_no_go": {
+    "before_system": "First correctness on allowed frozen Val inputs, changing-input freshness, exact letterbox/color/normalize and Graph output ownership. Then screen actual detector saving.",
+    "stop": "Best credible saving<1ms: stop with negative result, no system benchmark required.",
+    "if_admitted": "User-run long script, serial9 timed60s jobs plus100 warm/frame per job, no concurrent GPU work; wrappers same overhead in R0/candidate; preserve all logs/config/SHA/raw rows.",
+    "this_review": "No source edits, robot access, GPU tests, dependency installations or experiment launch were performed."
+  }
+}

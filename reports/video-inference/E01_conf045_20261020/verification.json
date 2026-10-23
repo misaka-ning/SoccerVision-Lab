@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "videos": {
+    "original_montage": {
+      "width": 1344,
+      "height": 376,
+      "fps": 15.0,
+      "header_frames": 2700,
+      "decoded_frames": 2700,
+      "duration_seconds": 180.0,
+      "full_decode_passed": true
+    },
+    "E01_conf045_boxes": {
+      "width": 1344,
+      "height": 376,
+      "fps": 15.0,
+      "header_frames": 2700,
+      "decoded_frames": 2700,
+      "duration_seconds": 180.0,
+      "full_decode_passed": true
+    }
+  },
+  "prediction_rows": 2700,
+  "confidence_threshold": 0.45,
+  "all_boxes_meet_threshold": true,
+  "source_frame_alignment_checked_for_all_frames": true,
+  "original_source_visual_alignment_samples": 21,
+  "original_source_psnr_min_db": 38.4982639157711,
+  "original_source_psnr_mean_db": 39.72387852267469,
+  "contact_sheet": "preview/original_vs_E01.jpg"
+}

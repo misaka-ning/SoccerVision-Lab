@@ -1,0 +1,21 @@
+﻿artifact,model,module,mean_profile_ms,percent_of_profile,repeats,provenance
+legacy,E01,Backbone excluding Attention,10.823323133333336,37.992775761073005,3,robot_raw_sha256_verified_cpu_reanalysis
+legacy,E01,Neck excluding embedded PSA,6.098666833333332,21.40796117661199,3,robot_raw_sha256_verified_cpu_reanalysis
+legacy,E01,Attention blocks,2.9605012666666677,10.392155845225954,3,robot_raw_sha256_verified_cpu_reanalysis
+legacy,E01,Detect,4.032109500000001,14.153789015667398,3,robot_raw_sha256_verified_cpu_reanalysis
+legacy,E01,Auxiliary,4.573244433333334,16.053318201421718,3,robot_raw_sha256_verified_cpu_reanalysis
+legacy,E02,Backbone excluding Attention,10.797035233333336,37.79546750382188,3,robot_raw_sha256_verified_cpu_reanalysis
+legacy,E02,Neck excluding embedded PSA,6.1368179,21.48218436856162,3,robot_raw_sha256_verified_cpu_reanalysis
+legacy,E02,Attention blocks,2.9662919666666663,10.383627469036773,3,robot_raw_sha256_verified_cpu_reanalysis
+legacy,E02,Detect,4.0144655333333334,14.052802304644354,3,robot_raw_sha256_verified_cpu_reanalysis
+legacy,E02,Auxiliary,4.652400033333334,16.28591835393534,3,robot_raw_sha256_verified_cpu_reanalysis
+new_detailed,E01,Backbone excluding Attention,10.787140533333332,37.945679855268,3,robot_raw_sha256_verified_cpu_reanalysis
+new_detailed,E01,Neck excluding embedded PSA,6.100312533333333,21.458931186781875,3,robot_raw_sha256_verified_cpu_reanalysis
+new_detailed,E01,Attention blocks,2.7740832,9.758329621626762,3,robot_raw_sha256_verified_cpu_reanalysis
+new_detailed,E01,Detect,3.9774824666666673,13.991499957165821,3,robot_raw_sha256_verified_cpu_reanalysis
+new_detailed,E01,Auxiliary,4.788830166666666,16.845559379157464,3,robot_raw_sha256_verified_cpu_reanalysis
+new_detailed,E02,Backbone excluding Attention,10.788878800000003,37.839984851116185,3,robot_raw_sha256_verified_cpu_reanalysis
+new_detailed,E02,Neck excluding embedded PSA,6.102712866666668,21.40412981795462,3,robot_raw_sha256_verified_cpu_reanalysis
+new_detailed,E02,Attention blocks,2.789671833333333,9.78425486742133,3,robot_raw_sha256_verified_cpu_reanalysis
+new_detailed,E02,Detect,3.9635882333333328,13.901548204007597,3,robot_raw_sha256_verified_cpu_reanalysis
+new_detailed,E02,Auxiliary,4.866995833333336,17.070082259500307,3,robot_raw_sha256_verified_cpu_reanalysis

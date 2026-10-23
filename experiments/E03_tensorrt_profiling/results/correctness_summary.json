@@ -1,0 +1,83 @@
+{
+  "tolerances": {
+    "max_matched_box_coordinate_error_px": 2.0,
+    "max_matched_score_error": 0.03,
+    "nms_conf": 0.45,
+    "nms_iou": 0.7,
+    "max_det": 300,
+    "matching_iou": 0.9,
+    "full_val_required_for_promoting_candidate": true
+  },
+  "comparisons": [
+    {
+      "model": "E01_baseline",
+      "kind": "perf",
+      "images": 64,
+      "raw_max_abs": 1.0,
+      "raw_mean_abs": 0.004066163208335638,
+      "coordinate_abs_p99": 0.25,
+      "score_max_abs": 0.0,
+      "changed_detection_count_images": [],
+      "unmatched_reference_images": [],
+      "matched_detections": 43,
+      "max_matched_box_coordinate_error_px": 0.125,
+      "max_matched_score_error": 0.0,
+      "legacy_detection_count": 43,
+      "candidate_detection_count": 43,
+      "passed": true
+    },
+    {
+      "model": "E01_baseline",
+      "kind": "profile",
+      "images": 64,
+      "raw_max_abs": 1.0,
+      "raw_mean_abs": 0.004066163208335638,
+      "coordinate_abs_p99": 0.25,
+      "score_max_abs": 0.0,
+      "changed_detection_count_images": [],
+      "unmatched_reference_images": [],
+      "matched_detections": 43,
+      "max_matched_box_coordinate_error_px": 0.125,
+      "max_matched_score_error": 0.0,
+      "legacy_detection_count": 43,
+      "candidate_detection_count": 43,
+      "passed": true
+    },
+    {
+      "model": "E02_c3k2",
+      "kind": "perf",
+      "images": 64,
+      "raw_max_abs": 0.00024306774139404297,
+      "raw_mean_abs": 1.9070792944830828e-08,
+      "coordinate_abs_p99": 0.0,
+      "score_max_abs": 0.00024306774139404297,
+      "changed_detection_count_images": [],
+      "unmatched_reference_images": [],
+      "matched_detections": 44,
+      "max_matched_box_coordinate_error_px": 0.0,
+      "max_matched_score_error": 0.00024116039276123047,
+      "legacy_detection_count": 44,
+      "candidate_detection_count": 44,
+      "passed": true
+    },
+    {
+      "model": "E02_c3k2",
+      "kind": "profile",
+      "images": 64,
+      "raw_max_abs": 0.00024306774139404297,
+      "raw_mean_abs": 1.9070792944830828e-08,
+      "coordinate_abs_p99": 0.0,
+      "score_max_abs": 0.00024306774139404297,
+      "changed_detection_count_images": [],
+      "unmatched_reference_images": [],
+      "matched_detections": 44,
+      "max_matched_box_coordinate_error_px": 0.0,
+      "max_matched_score_error": 0.00024116039276123047,
+      "legacy_detection_count": 44,
+      "candidate_detection_count": 44,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "64 fixed Val images; no Test or full AP"
+}

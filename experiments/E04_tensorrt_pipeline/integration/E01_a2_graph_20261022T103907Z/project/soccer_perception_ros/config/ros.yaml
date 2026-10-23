@@ -1,0 +1,24 @@
+# ROS 话题、坐标系名称与统一输出策略。
+# 由 camera_deploy.yaml 统一列出；同一参数只在一个文件中定义。
+soccer_perception_ros:
+  ros__parameters:
+    # 唯一输出频率，单位 Hz，必须大于 0；ROS 固定周期发布，Viser 同步更新。
+    # 算力不足时按实际处理速度输出，不重复旧结果、不突发补发。
+    deploy_packet_rate_hz: 15
+    # 无效状态是否仍发送给下游；true 可让控制端明确知道 LOST/无球。
+    deploy_send_invalid_state: true
+
+    # 发布的 PointStamped 坐标系 ID。
+    frame_id: camera_flu
+    # 是否额外发布 JSON 字符串话题。
+    publish_json: true
+    # 是否在无效检测时也发布 position；false 时只发布 valid/status/json。
+    publish_invalid_position: false
+    # 球位置 PointStamped 话题。
+    position_topic: ball_position
+    # 检测有效性 Bool 话题。
+    valid_topic: /soccer_perception/ball_valid
+    # 状态 String 话题。
+    status_topic: /soccer_perception/ball_status
+    # JSON payload String 话题。
+    json_topic: /soccer_perception/ball_position_camera_json

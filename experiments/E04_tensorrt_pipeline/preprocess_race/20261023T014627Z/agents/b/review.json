@@ -1,0 +1,5581 @@
+{
+  "scope": "Independent CPU-only raw CSV/telemetry recomputation; no SSH/GPU/new experiment",
+  "source_directory": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/recovered/offline_20261023T020353Z_32626",
+  "source_hashes": {
+    "screen_frames.csv": "d99446e5f893e37c77b54db1abbb8c6426939e356e9a0801386a23fa288c0005",
+    "summary.json": "4f7bf3f5c2e5b35f5ac0a9ce3da4b846d86f55bf8b6b9f6bcd761f3271ca3b0c",
+    "telemetry.jsonl": "4860407b968b2e41edd6491fdde66440d873222cc3caf495de8115012233bc8f",
+    "tegrastats.log": "88c3800b461bda8401d8db29cd7633bf69e0edaf7eebb6e773e04e814ae94c79",
+    "environment.json": "81176e9b7317dec29258bb3fb70c18ca1eedbcc1ccebf685ff7a423cb57f1c74",
+    "vpi_qualification.json": "7ee7bea149a3873f8212ec58c248685c4e9f2c4d9ba21f07c64f0f5f65112c9a",
+    "status.json": "2b2071bed05ce67364bf830f393dd109a46f303688757b42a5031a3fa3da1bda"
+  },
+  "integrity": {
+    "csv_rows": 1600,
+    "groups": 16,
+    "every_group_100_samples": true,
+    "strictly_increasing_utc": true,
+    "summary_recalculation_errors": [],
+    "summary_matches_raw": true
+  },
+  "stats_input_ready_ms": {
+    "R0": {
+      "n": 800,
+      "mean": 8.41098622125,
+      "p95": 9.23826715,
+      "p99": 9.44261693
+    },
+    "canvas": {
+      "n": 400,
+      "mean": 8.649203844999999,
+      "p95": 9.23261965,
+      "p99": 9.40947127
+    },
+    "reuse": {
+      "n": 400,
+      "mean": 8.03596518,
+      "p95": 8.9547578,
+      "p99": 9.14903741
+    }
+  },
+  "blocks": [
+    {
+      "block": 0,
+      "baseline_start": {
+        "n": 100,
+        "mean": 8.29239072,
+        "p95": 9.08316585,
+        "p99": 9.259110340000001
+      },
+      "baseline_end": {
+        "n": 100,
+        "mean": 7.749191960000001,
+        "p95": 8.11691325,
+        "p99": 8.25049035
+      },
+      "reference_arithmetic_mean_of_endpoint_stats": {
+        "mean": 8.02079134,
+        "p95": 8.60003955,
+        "p99": 8.754800345
+      },
+      "baseline_abs_mean_drift_ms": 0.5431987599999992
+    },
+    {
+      "block": 1,
+      "baseline_start": {
+        "n": 100,
+        "mean": 7.759570870000001,
+        "p95": 7.9818977,
+        "p99": 8.058445480000003
+      },
+      "baseline_end": {
+        "n": 100,
+        "mean": 8.782025220000001,
+        "p95": 9.4383926,
+        "p99": 9.47879138
+      },
+      "reference_arithmetic_mean_of_endpoint_stats": {
+        "mean": 8.270798045000001,
+        "p95": 8.71014515,
+        "p99": 8.768618430000002
+      },
+      "baseline_abs_mean_drift_ms": 1.0224543500000003
+    },
+    {
+      "block": 2,
+      "baseline_start": {
+        "n": 100,
+        "mean": 8.69220912,
+        "p95": 9.30890765,
+        "p99": 9.382648560000002
+      },
+      "baseline_end": {
+        "n": 100,
+        "mean": 8.75628577,
+        "p95": 9.36001005,
+        "p99": 9.5535722
+      },
+      "reference_arithmetic_mean_of_endpoint_stats": {
+        "mean": 8.724247445,
+        "p95": 9.33445885,
+        "p99": 9.46811038
+      },
+      "baseline_abs_mean_drift_ms": 0.06407665000000051
+    },
+    {
+      "block": 3,
+      "baseline_start": {
+        "n": 100,
+        "mean": 8.56271017,
+        "p95": 9.134288499999998,
+        "p99": 9.38714992
+      },
+      "baseline_end": {
+        "n": 100,
+        "mean": 8.69350594,
+        "p95": 9.218885250000001,
+        "p99": 9.31681398
+      },
+      "reference_arithmetic_mean_of_endpoint_stats": {
+        "mean": 8.628108055,
+        "p95": 9.176586875,
+        "p99": 9.351981949999999
+      },
+      "baseline_abs_mean_drift_ms": 0.13079576999999887
+    }
+  ],
+  "paired": {
+    "canvas": {
+      "saved_ms_by_block": [
+        -0.5616558699999992,
+        -0.40572862500000006,
+        0.11812176499999971,
+        -0.10360776500000135
+      ],
+      "mean_saved_ms": -0.23821762375000022,
+      "baseline_abs_drift_ms": [
+        0.5431987599999992,
+        1.0224543500000003,
+        0.06407665000000051,
+        0.13079576999999887
+      ],
+      "saved_tail_ms_by_block": [
+        {
+          "p95": -0.5523144500000008,
+          "p99": -0.5767644349999994
+        },
+        {
+          "p95": -0.4968692999999984,
+          "p99": -0.5791913599999976
+        },
+        {
+          "p95": 0.10915200000000169,
+          "p99": 0.1621131499999997
+        },
+        {
+          "p95": -0.13627197500000143,
+          "p99": -0.2062608800000003
+        }
+      ],
+      "tail_nonregression": false,
+      "eligible": false
+    },
+    "reuse": {
+      "saved_ms_by_block": [
+        -0.07720932999999874,
+        -0.004224555000000407,
+        0.566409994999999,
+        1.0151080550000007
+      ],
+      "mean_saved_ms": 0.37502104125000013,
+      "baseline_abs_drift_ms": [
+        0.5431987599999992,
+        1.0224543500000003,
+        0.06407665000000051,
+        0.13079576999999887
+      ],
+      "saved_tail_ms_by_block": [
+        {
+          "p95": -0.38478910000000077,
+          "p99": -0.43869677500000215
+        },
+        {
+          "p95": -0.3664077499999987,
+          "p99": -0.4025962899999982
+        },
+        {
+          "p95": 0.4898952000000012,
+          "p99": 0.4285141899999996
+        },
+        {
+          "p95": 0.3805184750000006,
+          "p99": 0.45517642999999985
+        }
+      ],
+      "tail_nonregression": false,
+      "eligible": false
+    }
+  },
+  "winner": null,
+  "primary_decision": "Stop Resize/Letterbox race; neither candidate meets repeatable >=1ms completed input-ready saving and per-block P95/P99 nonregression. No system A/B is admitted by this result.",
+  "scope_of_stats": "Completed stereo batch2 preprocessing only. Graph execution/output clone occurs after timing. These numbers are not pure GPU kernel, Engine, detector or system cycle latency.",
+  "telemetry_alignment": {
+    "screen_bounds": {
+      "start_utc_ns": 1792721066366070464,
+      "end_utc_ns": 1792721103121788473,
+      "start_utc": "2026-10-23T02:04:26.366071+00:00",
+      "end_utc": "2026-10-23T02:05:03.121789+00:00",
+      "span_s": 36.755718009
+    },
+    "method": "Exact UTC-ns inclusion for telemetry.jsonl. Per 100-frame segment windows include untimed Graph work between preprocessing samples. Separate exact-preprocess-interval point count supplied; no per-frame frequency interpolation.",
+    "tegra_method": "Human local timestamps interpreted as UTC+08:00 from run context; one-second timestamp buckets. Only fully-contained buckets are used for strict segment aggregate; boundary-overlap alternatives are labeled in segments. Tegrastats cannot be mapped to individual 8ms preprocess intervals.",
+    "total_job_samples_not_screen": {
+      "telemetry": 125,
+      "tegrastats": 125
+    },
+    "inside_measured_segment_windows": {
+      "n": 68,
+      "gpu_frequency_mhz_counts": {
+        "918.0": 68
+      },
+      "raw_gpu_load_stats": {
+        "n": 68,
+        "mean": 617.3529411764706,
+        "p95": 750.3,
+        "p99": 773.97,
+        "min": 502.0,
+        "max": 780.0
+      },
+      "unlabeled_sysfs_thermal_zone_C": {
+        "/sys/class/thermal/thermal_zone0/temp": {
+          "n": 68,
+          "mean": 53.545117647058824,
+          "p95": 55.156,
+          "p99": 55.32223,
+          "min": 51.375,
+          "max": 55.343
+        },
+        "/sys/class/thermal/thermal_zone1/temp": {
+          "n": 68,
+          "mean": 54.04785294117647,
+          "p95": 55.5921,
+          "p99": 56.05052,
+          "min": 52.062,
+          "max": 56.281
+        },
+        "/sys/class/thermal/thermal_zone2/temp": {
+          "n": 68,
+          "mean": 51.96330882352941,
+          "p95": 53.7152,
+          "p99": 53.978249999999996,
+          "min": 49.812,
+          "max": 54.062
+        },
+        "/sys/class/thermal/thermal_zone3/temp": {
+          "n": 68,
+          "mean": 50.12092647058824,
+          "p95": 51.8092,
+          "p99": 52.03069,
+          "min": 48.156,
+          "max": 52.093
+        },
+        "/sys/class/thermal/thermal_zone4/temp": {
+          "n": 68,
+          "mean": 49.26614705882353,
+          "p95": 50.781,
+          "p99": 50.91527,
+          "min": 47.343,
+          "max": 51.062
+        },
+        "/sys/class/thermal/thermal_zone5/temp": {
+          "n": 68,
+          "mean": 51.3819705882353,
+          "p95": 53.06045,
+          "p99": 53.22856,
+          "min": 49.281,
+          "max": 53.25
+        },
+        "/sys/class/thermal/thermal_zone6/temp": {
+          "n": 68,
+          "mean": 51.67516176470588,
+          "p95": 53.27015,
+          "p99": 53.48879,
+          "min": 49.531,
+          "max": 53.531
+        },
+        "/sys/class/thermal/thermal_zone7/temp": {
+          "n": 68,
+          "mean": 51.692205882352944,
+          "p95": 53.3638,
+          "p99": 53.38523,
+          "min": 49.687,
+          "max": 53.406
+        },
+        "/sys/class/thermal/thermal_zone8/temp": {
+          "n": 68,
+          "mean": 54.04601470588235,
+          "p95": 55.4888,
+          "p99": 56.05052,
+          "min": 52.062,
+          "max": 56.281
+        }
+      }
+    },
+    "inside_exact_preprocess_intervals": {
+      "n": 68,
+      "gpu_frequency_mhz_counts": {
+        "918.0": 68
+      },
+      "raw_gpu_load_stats": {
+        "n": 68,
+        "mean": 617.3529411764706,
+        "p95": 750.3,
+        "p99": 773.97,
+        "min": 502.0,
+        "max": 780.0
+      },
+      "unlabeled_sysfs_thermal_zone_C": {
+        "/sys/class/thermal/thermal_zone0/temp": {
+          "n": 68,
+          "mean": 53.545117647058824,
+          "p95": 55.156,
+          "p99": 55.32223,
+          "min": 51.375,
+          "max": 55.343
+        },
+        "/sys/class/thermal/thermal_zone1/temp": {
+          "n": 68,
+          "mean": 54.04785294117647,
+          "p95": 55.5921,
+          "p99": 56.05052,
+          "min": 52.062,
+          "max": 56.281
+        },
+        "/sys/class/thermal/thermal_zone2/temp": {
+          "n": 68,
+          "mean": 51.96330882352941,
+          "p95": 53.7152,
+          "p99": 53.978249999999996,
+          "min": 49.812,
+          "max": 54.062
+        },
+        "/sys/class/thermal/thermal_zone3/temp": {
+          "n": 68,
+          "mean": 50.12092647058824,
+          "p95": 51.8092,
+          "p99": 52.03069,
+          "min": 48.156,
+          "max": 52.093
+        },
+        "/sys/class/thermal/thermal_zone4/temp": {
+          "n": 68,
+          "mean": 49.26614705882353,
+          "p95": 50.781,
+          "p99": 50.91527,
+          "min": 47.343,
+          "max": 51.062
+        },
+        "/sys/class/thermal/thermal_zone5/temp": {
+          "n": 68,
+          "mean": 51.3819705882353,
+          "p95": 53.06045,
+          "p99": 53.22856,
+          "min": 49.281,
+          "max": 53.25
+        },
+        "/sys/class/thermal/thermal_zone6/temp": {
+          "n": 68,
+          "mean": 51.67516176470588,
+          "p95": 53.27015,
+          "p99": 53.48879,
+          "min": 49.531,
+          "max": 53.531
+        },
+        "/sys/class/thermal/thermal_zone7/temp": {
+          "n": 68,
+          "mean": 51.692205882352944,
+          "p95": 53.3638,
+          "p99": 53.38523,
+          "min": 49.687,
+          "max": 53.406
+        },
+        "/sys/class/thermal/thermal_zone8/temp": {
+          "n": 68,
+          "mean": 54.04601470588235,
+          "p95": 55.4888,
+          "p99": 56.05052,
+          "min": 52.062,
+          "max": 56.281
+        }
+      }
+    },
+    "tegrastats_fully_contained_second_buckets": {
+      "n": 36,
+      "line_numbers": [
+        54,
+        55,
+        58,
+        59,
+        62,
+        63,
+        64,
+        65,
+        68,
+        69,
+        72,
+        73,
+        76,
+        77,
+        82,
+        83,
+        86,
+        87,
+        90,
+        91,
+        96,
+        97,
+        100,
+        101,
+        104,
+        105,
+        110,
+        111,
+        114,
+        115,
+        118,
+        119,
+        122,
+        123,
+        124,
+        125
+      ],
+      "stats": {
+        "GPU_temp_C": {
+          "n": 36,
+          "mean": 53.95188888888888,
+          "p95": 55.625,
+          "p99": 55.665299999999995,
+          "min": 52.062,
+          "max": 55.687
+        },
+        "CPU_temp_C": {
+          "n": 36,
+          "mean": 53.496249999999996,
+          "p95": 55.15625,
+          "p99": 55.290299999999995,
+          "min": 51.312,
+          "max": 55.312
+        },
+        "tj_temp_C": {
+          "n": 36,
+          "mean": 53.96666666666667,
+          "p95": 55.625,
+          "p99": 55.665299999999995,
+          "min": 52.062,
+          "max": 55.687
+        },
+        "cpu_mean_load_percent": {
+          "n": 36,
+          "mean": 26.34722222222222,
+          "p95": 37.28125,
+          "p99": 41.34374999999999,
+          "min": 21.5,
+          "max": 42.875
+        },
+        "cpu_mean_frequency_mhz": {
+          "n": 36,
+          "mean": 1719.2777777777778,
+          "p95": 1984.0,
+          "p99": 1984.0,
+          "min": 1356.5,
+          "max": 1984.0
+        },
+        "gpu_load_percent": {
+          "n": 36,
+          "mean": 61.72222222222222,
+          "p95": 75.25,
+          "p99": 77.3,
+          "min": 52.0,
+          "max": 78.0
+        }
+      },
+      "cpu_core_frequency_mhz_counts": [
+        {
+          "1267": 1,
+          "1344": 1,
+          "1420": 2,
+          "1497": 4,
+          "1574": 6,
+          "1651": 9,
+          "1728": 1,
+          "1881": 1,
+          "1958": 1,
+          "1984": 8,
+          "729": 2
+        },
+        {
+          "1267": 1,
+          "1344": 1,
+          "1420": 2,
+          "1497": 4,
+          "1574": 6,
+          "1651": 9,
+          "1728": 1,
+          "1881": 1,
+          "1958": 1,
+          "1984": 8,
+          "729": 2
+        },
+        {
+          "1267": 1,
+          "1344": 1,
+          "1420": 2,
+          "1497": 4,
+          "1574": 6,
+          "1651": 9,
+          "1728": 1,
+          "1881": 1,
+          "1958": 1,
+          "1984": 8,
+          "729": 2
+        },
+        {
+          "1267": 1,
+          "1344": 1,
+          "1420": 2,
+          "1497": 4,
+          "1574": 6,
+          "1651": 9,
+          "1728": 1,
+          "1881": 1,
+          "1958": 1,
+          "1984": 8,
+          "729": 2
+        },
+        {
+          "1984": 31,
+          "729": 5
+        },
+        {
+          "1984": 31,
+          "729": 5
+        },
+        {
+          "1984": 31,
+          "729": 5
+        },
+        {
+          "1984": 31,
+          "729": 5
+        }
+      ],
+      "tegra_gpu_frequency_text_counts": {
+        "0": 36
+      },
+      "power_rail_samples": 0
+    },
+    "no_power_watts_available": true,
+    "power_query": "NV Power Mode: MAXN\n0\nNVPM ERROR: Error opening /sys/kernel/nvpmodel_emc_cap/emc_iso_cap: 13\nNVPM ERROR: failed to read PARAM EMC: ARG MAX_FREQ: PATH /sys/kernel/nvpmodel_emc_cap/emc_iso_cap\n",
+    "interpretation": [
+      "All sysfs frequency points within measured segment windows and exact input-ready intervals are 918MHz. No observed GPU DVFS change explains the sign-changing per-block savings; sampling is sparse, so sub-sample transients cannot be excluded.",
+      "Named GPU temperatures rise over the short screen phase, but no accompanying observed GPU-clock drop establishes thermal throttling. Temperature trend alone does not prove the cause of latency drift.",
+      "CPU frequencies/load vary across cores and time. Host preprocessing and scheduler/background activity are plausible confounders; no main-thread core residency or causal isolation was recorded.",
+      "Mode label MAXN is recorded; actual power rails/watts are absent. nvpmodel also reports an EMC-cap permission error, so full EMC-cap readback and unchanged actual wattage cannot be claimed.",
+      "Tegrastats GR3D frequency text is [0] and EMC_FREQ is 0%; use observed sysfs GPU frequency rather than interpreting that text as a zero GPU clock.",
+      "This is a MAXN/918MHz observed screen, not the original E04 25W/408MHz environment; do not compare old 28ms Engine or old Hz as an identical-condition baseline."
+    ]
+  },
+  "segments": [
+    {
+      "block": 0,
+      "position": 0,
+      "variant": "R0",
+      "n": 100,
+      "first_start_utc_ns": 1792721066366070464,
+      "last_input_complete_utc_ns": 1792721068510052987,
+      "start_utc": "2026-10-23T02:04:26.366071+00:00",
+      "end_utc": "2026-10-23T02:04:28.510053+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.29239072,
+        "p95": 9.08316585,
+        "p99": 9.259110340000001
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 7.63694513,
+        "p95": 8.36064805,
+        "p99": 8.5015381
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 7.920729613304138,
+        "p95": 8.776731538772584,
+        "p99": 8.95685194015503
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 687.5,
+          "p95": 740.55,
+          "p99": 740.91,
+          "min": 610.0,
+          "max": 741.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 51.562250000000006,
+            "p95": 51.871449999999996,
+            "p99": 51.92389,
+            "min": 51.375,
+            "max": 51.937
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 52.202749999999995,
+            "p95": 52.39485,
+            "p99": 52.42857,
+            "min": 52.093,
+            "max": 52.437
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 49.921499999999995,
+            "p95": 50.031,
+            "p99": 50.031,
+            "min": 49.812,
+            "max": 50.031
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 48.21825,
+            "p95": 48.324250000000006,
+            "p99": 48.33925000000001,
+            "min": 48.156,
+            "max": 48.343
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 47.40575,
+            "p95": 47.463350000000005,
+            "p99": 47.46707000000001,
+            "min": 47.343,
+            "max": 47.468
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 49.398250000000004,
+            "p95": 49.49055,
+            "p99": 49.49811,
+            "min": 49.281,
+            "max": 49.5
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 49.65575,
+            "p95": 49.79325,
+            "p99": 49.80825,
+            "min": 49.531,
+            "max": 49.812
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 49.75750000000001,
+            "p95": 49.85625,
+            "p99": 49.87125,
+            "min": 49.687,
+            "max": 49.875
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 52.202749999999995,
+            "p95": 52.39485,
+            "p99": 52.42857,
+            "min": 52.093,
+            "max": 52.437
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          54,
+          55
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 52.281,
+            "p95": 52.4781,
+            "p99": 52.49562,
+            "min": 52.062,
+            "max": 52.5
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 51.3435,
+            "p95": 51.37185,
+            "p99": 51.37437,
+            "min": 51.312,
+            "max": 51.375
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 52.281,
+            "p95": 52.4781,
+            "p99": 52.49562,
+            "min": 52.062,
+            "max": 52.5
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 29.25,
+            "p95": 32.5125,
+            "p99": 32.8025,
+            "min": 25.625,
+            "max": 32.875
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1356.5,
+            "p95": 1356.5,
+            "p99": 1356.5,
+            "min": 1356.5,
+            "max": 1356.5
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 59.0,
+            "p95": 59.0,
+            "p99": 59.0,
+            "min": 59.0,
+            "max": 59.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "729": 2
+          },
+          {
+            "729": 2
+          },
+          {
+            "729": 2
+          },
+          {
+            "729": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 5,
+        "line_numbers": [
+          53,
+          54,
+          55,
+          56,
+          57
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 5,
+            "mean": 52.26219999999999,
+            "p95": 52.7744,
+            "p99": 52.829280000000004,
+            "min": 51.875,
+            "max": 52.843
+          },
+          "CPU_temp_C": {
+            "n": 5,
+            "mean": 51.512,
+            "p95": 51.718,
+            "p99": 51.718,
+            "min": 51.312,
+            "max": 51.718
+          },
+          "tj_temp_C": {
+            "n": 5,
+            "mean": 52.1996,
+            "p95": 52.7744,
+            "p99": 52.829280000000004,
+            "min": 51.718,
+            "max": 52.843
+          },
+          "cpu_mean_load_percent": {
+            "n": 5,
+            "mean": 27.025,
+            "p95": 32.05,
+            "p99": 32.71,
+            "min": 23.25,
+            "max": 32.875
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 5,
+            "mean": 1704.7,
+            "p95": 1973.7,
+            "p99": 1981.94,
+            "min": 1356.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 5,
+            "mean": 61.8,
+            "p95": 71.0,
+            "p99": 73.4,
+            "min": 58.0,
+            "max": 74.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1804": 1,
+            "1881": 1,
+            "1984": 1,
+            "729": 2
+          },
+          {
+            "1804": 1,
+            "1881": 1,
+            "1984": 1,
+            "729": 2
+          },
+          {
+            "1804": 1,
+            "1881": 1,
+            "1984": 1,
+            "729": 2
+          },
+          {
+            "1804": 1,
+            "1881": 1,
+            "1984": 1,
+            "729": 2
+          },
+          {
+            "1984": 5
+          },
+          {
+            "1984": 5
+          },
+          {
+            "1984": 5
+          },
+          {
+            "1984": 5
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 5
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 0,
+      "position": 1,
+      "variant": "canvas",
+      "n": 100,
+      "first_start_utc_ns": 1792721068667677046,
+      "last_input_complete_utc_ns": 1792721070837851029,
+      "start_utc": "2026-10-23T02:04:28.667677+00:00",
+      "end_utc": "2026-10-23T02:04:30.837851+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.58244721,
+        "p95": 9.152354,
+        "p99": 9.331564779999999
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 7.98555782,
+        "p95": 8.5020392,
+        "p99": 8.56691194
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 8.315433659553527,
+        "p95": 8.88091082572937,
+        "p99": 9.111445446014404
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 630.0,
+          "p95": 745.8,
+          "p99": 765.9599999999999,
+          "min": 559.0,
+          "max": 771.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 51.59325,
+            "p95": 51.7528,
+            "p99": 51.77536,
+            "min": 51.468,
+            "max": 51.781
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 52.31975,
+            "p95": 52.3702,
+            "p99": 52.37404,
+            "min": 52.218,
+            "max": 52.375
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 50.304249999999996,
+            "p95": 50.54155,
+            "p99": 50.582710000000006,
+            "min": 50.187,
+            "max": 50.593
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 48.41375000000001,
+            "p95": 48.52155,
+            "p99": 48.529109999999996,
+            "min": 48.25,
+            "max": 48.531
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 47.609,
+            "p95": 47.7087,
+            "p99": 47.71614,
+            "min": 47.5,
+            "max": 47.718
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 49.54675,
+            "p95": 49.61555,
+            "p99": 49.62311,
+            "min": 49.5,
+            "max": 49.625
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 49.9215,
+            "p95": 49.9952,
+            "p99": 49.99904,
+            "min": 49.812,
+            "max": 50.0
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 49.890249999999995,
+            "p95": 49.93235,
+            "p99": 49.93607,
+            "min": 49.843,
+            "max": 49.937
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 52.28075,
+            "p95": 52.3702,
+            "p99": 52.37404,
+            "min": 52.062,
+            "max": 52.375
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          58,
+          59
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 52.437,
+            "p95": 52.549499999999995,
+            "p99": 52.5595,
+            "min": 52.312,
+            "max": 52.562
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 51.5155,
+            "p95": 51.61405,
+            "p99": 51.62281,
+            "min": 51.406,
+            "max": 51.625
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 52.437,
+            "p95": 52.549499999999995,
+            "p99": 52.5595,
+            "min": 52.312,
+            "max": 52.562
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 23.875,
+            "p95": 24.1,
+            "p99": 24.12,
+            "min": 23.625,
+            "max": 24.125
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1798.25,
+            "p95": 1815.575,
+            "p99": 1817.115,
+            "min": 1779.0,
+            "max": 1817.5
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 64.5,
+            "p95": 73.05,
+            "p99": 73.81,
+            "min": 55.0,
+            "max": 74.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1574": 1,
+            "1651": 1
+          },
+          {
+            "1574": 1,
+            "1651": 1
+          },
+          {
+            "1574": 1,
+            "1651": 1
+          },
+          {
+            "1574": 1,
+            "1651": 1
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 52.28600000000001,
+            "p95": 52.5385,
+            "p99": 52.5573,
+            "min": 51.875,
+            "max": 52.562
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 51.68183333333334,
+            "p95": 51.96025,
+            "p99": 51.96645,
+            "min": 51.406,
+            "max": 51.968
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 52.23383333333334,
+            "p95": 52.5385,
+            "p99": 52.5573,
+            "min": 51.718,
+            "max": 52.562
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 25.208333333333332,
+            "p95": 28.0,
+            "p99": 28.6,
+            "min": 23.25,
+            "max": 28.75
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1838.75,
+            "p95": 1971.125,
+            "p99": 1981.425,
+            "min": 1740.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 62.166666666666664,
+            "p95": 74.0,
+            "p99": 74.0,
+            "min": 53.0,
+            "max": 74.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1497": 1,
+            "1574": 2,
+            "1651": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1497": 1,
+            "1574": 2,
+            "1651": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1497": 1,
+            "1574": 2,
+            "1651": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1497": 1,
+            "1574": 2,
+            "1651": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 0,
+      "position": 2,
+      "variant": "reuse",
+      "n": 100,
+      "first_start_utc_ns": 1792721070992902352,
+      "last_input_complete_utc_ns": 1792721073113930492,
+      "start_utc": "2026-10-23T02:04:30.992903+00:00",
+      "end_utc": "2026-10-23T02:04:33.113930+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.09800067,
+        "p95": 8.98482865,
+        "p99": 9.193497120000002
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 7.58911229,
+        "p95": 8.464702899999999,
+        "p99": 8.604322860000002
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 7.844369268417358,
+        "p95": 8.756128072738647,
+        "p99": 8.983422327041627
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 657.5,
+          "p95": 738.3,
+          "p99": 740.46,
+          "min": 544.0,
+          "max": 741.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 52.03875,
+            "p95": 52.23885,
+            "p99": 52.27257,
+            "min": 51.906,
+            "max": 52.281
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 52.56225,
+            "p95": 52.906,
+            "p99": 52.906,
+            "min": 52.062,
+            "max": 52.906
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 50.421499999999995,
+            "p95": 50.80465,
+            "p99": 50.86093,
+            "min": 50.093,
+            "max": 50.875
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 48.56999999999999,
+            "p95": 48.677699999999994,
+            "p99": 48.68514,
+            "min": 48.437,
+            "max": 48.687
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 47.804249999999996,
+            "p95": 47.8702,
+            "p99": 47.87404,
+            "min": 47.687,
+            "max": 47.875
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 49.85125,
+            "p95": 49.90135,
+            "p99": 49.90507,
+            "min": 49.781,
+            "max": 49.906
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 50.17125,
+            "p95": 50.27155,
+            "p99": 50.279109999999996,
+            "min": 49.968,
+            "max": 50.281
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 50.054500000000004,
+            "p95": 50.1202,
+            "p99": 50.12404,
+            "min": 50.0,
+            "max": 50.125
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 52.56225,
+            "p95": 52.906,
+            "p99": 52.906,
+            "min": 52.062,
+            "max": 52.906
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 4,
+        "line_numbers": [
+          62,
+          63,
+          64,
+          65
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 4,
+            "mean": 52.53874999999999,
+            "p95": 52.748149999999995,
+            "p99": 52.774429999999995,
+            "min": 52.375,
+            "max": 52.781
+          },
+          "CPU_temp_C": {
+            "n": 4,
+            "mean": 51.9995,
+            "p95": 52.13725,
+            "p99": 52.15225,
+            "min": 51.843,
+            "max": 52.156
+          },
+          "tj_temp_C": {
+            "n": 4,
+            "mean": 52.53874999999999,
+            "p95": 52.748149999999995,
+            "p99": 52.774429999999995,
+            "min": 52.375,
+            "max": 52.781
+          },
+          "cpu_mean_load_percent": {
+            "n": 4,
+            "mean": 25.0,
+            "p95": 25.55,
+            "p99": 25.61,
+            "min": 24.625,
+            "max": 25.625
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 4,
+            "mean": 1772.625,
+            "p95": 1953.25,
+            "p99": 1977.85,
+            "min": 1625.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 4,
+            "mean": 65.0,
+            "p95": 72.64999999999999,
+            "p99": 73.73,
+            "min": 59.0,
+            "max": 74.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1267": 1,
+            "1420": 1,
+            "1574": 1,
+            "1984": 1
+          },
+          {
+            "1267": 1,
+            "1420": 1,
+            "1574": 1,
+            "1984": 1
+          },
+          {
+            "1267": 1,
+            "1420": 1,
+            "1574": 1,
+            "1984": 1
+          },
+          {
+            "1267": 1,
+            "1420": 1,
+            "1574": 1,
+            "1984": 1
+          },
+          {
+            "1984": 4
+          },
+          {
+            "1984": 4
+          },
+          {
+            "1984": 4
+          },
+          {
+            "1984": 4
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 4
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 8,
+        "line_numbers": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 8,
+            "mean": 52.5035,
+            "p95": 52.70435,
+            "p99": 52.76567,
+            "min": 52.375,
+            "max": 52.781
+          },
+          "CPU_temp_C": {
+            "n": 8,
+            "mean": 52.07375,
+            "p95": 52.481,
+            "p99": 52.620999999999995,
+            "min": 51.843,
+            "max": 52.656
+          },
+          "tj_temp_C": {
+            "n": 8,
+            "mean": 52.519125,
+            "p95": 52.737249999999996,
+            "p99": 52.77225,
+            "min": 52.375,
+            "max": 52.781
+          },
+          "cpu_mean_load_percent": {
+            "n": 8,
+            "mean": 28.703125,
+            "p95": 39.34375,
+            "p99": 39.86875,
+            "min": 24.625,
+            "max": 40.0
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 8,
+            "mean": 1665.375,
+            "p95": 1912.25,
+            "p99": 1969.6499999999999,
+            "min": 1356.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 8,
+            "mean": 63.625,
+            "p95": 77.25,
+            "p99": 78.65,
+            "min": 53.0,
+            "max": 79.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1267": 1,
+            "1420": 1,
+            "1497": 1,
+            "1574": 2,
+            "1984": 3
+          },
+          {
+            "1267": 1,
+            "1420": 1,
+            "1497": 1,
+            "1574": 2,
+            "1984": 3
+          },
+          {
+            "1267": 1,
+            "1420": 1,
+            "1497": 1,
+            "1574": 2,
+            "1984": 3
+          },
+          {
+            "1267": 1,
+            "1420": 1,
+            "1497": 1,
+            "1574": 2,
+            "1984": 3
+          },
+          {
+            "1984": 6,
+            "729": 2
+          },
+          {
+            "1984": 6,
+            "729": 2
+          },
+          {
+            "1984": 6,
+            "729": 2
+          },
+          {
+            "1984": 6,
+            "729": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 8
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 0,
+      "position": 3,
+      "variant": "R0",
+      "n": 100,
+      "first_start_utc_ns": 1792721073270838501,
+      "last_input_complete_utc_ns": 1792721075359430619,
+      "start_utc": "2026-10-23T02:04:33.270838+00:00",
+      "end_utc": "2026-10-23T02:04:35.359431+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 7.749191960000001,
+        "p95": 8.11691325,
+        "p99": 8.25049035
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 7.180830639999999,
+        "p95": 7.3773804,
+        "p99": 7.4806624600000005
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 7.325514883995056,
+        "p95": 7.724659109115601,
+        "p99": 7.765396194458009
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 632.5,
+          "p95": 715.55,
+          "p99": 730.31,
+          "min": 580.0,
+          "max": 734.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 52.608999999999995,
+            "p95": 52.984049999999996,
+            "p99": 53.021609999999995,
+            "min": 52.281,
+            "max": 53.031
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 53.226,
+            "p95": 53.43995,
+            "p99": 53.462390000000006,
+            "min": 52.937,
+            "max": 53.468
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 50.851,
+            "p95": 51.25405,
+            "p99": 51.325210000000006,
+            "min": 50.593,
+            "max": 51.343
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 48.73425,
+            "p95": 48.75,
+            "p99": 48.75,
+            "min": 48.687,
+            "max": 48.75
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 48.1715,
+            "p95": 48.26225,
+            "p99": 48.27725,
+            "min": 48.093,
+            "max": 48.281
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 50.18725,
+            "p95": 50.3609,
+            "p99": 50.37218,
+            "min": 50.031,
+            "max": 50.375
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 50.52275,
+            "p95": 50.593,
+            "p99": 50.593,
+            "min": 50.437,
+            "max": 50.593
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 50.6245,
+            "p95": 50.656,
+            "p99": 50.656,
+            "min": 50.593,
+            "max": 50.656
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 53.226,
+            "p95": 53.43995,
+            "p99": 53.462390000000006,
+            "min": 52.937,
+            "max": 53.468
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          68,
+          69
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 52.8125,
+            "p95": 52.86875,
+            "p99": 52.87375,
+            "min": 52.75,
+            "max": 52.875
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 52.656,
+            "p95": 53.0781,
+            "p99": 53.11562,
+            "min": 52.187,
+            "max": 53.125
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 53.0,
+            "p95": 53.1125,
+            "p99": 53.1225,
+            "min": 52.875,
+            "max": 53.125
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 39.875,
+            "p95": 42.575,
+            "p99": 42.815,
+            "min": 36.875,
+            "max": 42.875
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1356.5,
+            "p95": 1356.5,
+            "p99": 1356.5,
+            "min": 1356.5,
+            "max": 1356.5
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 72.0,
+            "p95": 74.7,
+            "p99": 74.94,
+            "min": 69.0,
+            "max": 75.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "729": 2
+          },
+          {
+            "729": 2
+          },
+          {
+            "729": 2
+          },
+          {
+            "729": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 52.80183333333334,
+            "p95": 53.21825,
+            "p99": 53.29325,
+            "min": 52.406,
+            "max": 53.312
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 52.619499999999995,
+            "p95": 53.10925,
+            "p99": 53.12185,
+            "min": 52.031,
+            "max": 53.125
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 52.88516666666667,
+            "p95": 53.265249999999995,
+            "p99": 53.30265,
+            "min": 52.406,
+            "max": 53.312
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 39.354166666666664,
+            "p95": 42.21875,
+            "p99": 42.74375,
+            "min": 36.875,
+            "max": 42.875
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1356.5,
+            "p95": 1356.5,
+            "p99": 1356.5,
+            "min": 1356.5,
+            "max": 1356.5
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 70.0,
+            "p95": 78.75,
+            "p99": 78.95,
+            "min": 59.0,
+            "max": 79.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "729": 6
+          },
+          {
+            "729": 6
+          },
+          {
+            "729": 6
+          },
+          {
+            "729": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 1,
+      "position": 0,
+      "variant": "R0",
+      "n": 100,
+      "first_start_utc_ns": 1792721075515267797,
+      "last_input_complete_utc_ns": 1792721077605154651,
+      "start_utc": "2026-10-23T02:04:35.515268+00:00",
+      "end_utc": "2026-10-23T02:04:37.605155+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 7.759570870000001,
+        "p95": 7.9818977,
+        "p99": 8.058445480000003
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 7.20488657,
+        "p95": 7.41933085,
+        "p99": 7.513113500000002
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 7.348591032028199,
+        "p95": 7.720135831832886,
+        "p99": 7.850141024589542
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 650.25,
+          "p95": 754.1999999999999,
+          "p99": 774.8399999999999,
+          "min": 606.0,
+          "max": 780.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 52.8825,
+            "p95": 53.1185,
+            "p99": 53.1485,
+            "min": 52.718,
+            "max": 53.156
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 53.2495,
+            "p95": 53.449250000000006,
+            "p99": 53.46425000000001,
+            "min": 52.937,
+            "max": 53.468
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 50.921499999999995,
+            "p95": 51.0479,
+            "p99": 51.05918,
+            "min": 50.781,
+            "max": 51.062
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 48.960499999999996,
+            "p95": 49.052699999999994,
+            "p99": 49.06014,
+            "min": 48.843,
+            "max": 49.062
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 48.460499999999996,
+            "p95": 48.531,
+            "p99": 48.531,
+            "min": 48.312,
+            "max": 48.531
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 50.48400000000001,
+            "p95": 50.552699999999994,
+            "p99": 50.56014,
+            "min": 50.406,
+            "max": 50.562
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 50.76525000000001,
+            "p95": 50.82905,
+            "p99": 50.840210000000006,
+            "min": 50.718,
+            "max": 50.843
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 50.937,
+            "p95": 50.963350000000005,
+            "p99": 50.96707000000001,
+            "min": 50.906,
+            "max": 50.968
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 53.30425000000001,
+            "p95": 53.449250000000006,
+            "p99": 53.46425000000001,
+            "min": 53.156,
+            "max": 53.468
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          72,
+          73
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 53.0775,
+            "p95": 53.09145,
+            "p99": 53.092690000000005,
+            "min": 53.062,
+            "max": 53.093
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 52.9525,
+            "p95": 53.05105,
+            "p99": 53.05981,
+            "min": 52.843,
+            "max": 53.062
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 53.0775,
+            "p95": 53.09145,
+            "p99": 53.092690000000005,
+            "min": 53.062,
+            "max": 53.093
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 37.375,
+            "p95": 38.3875,
+            "p99": 38.4775,
+            "min": 36.25,
+            "max": 38.5
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1356.5,
+            "p95": 1356.5,
+            "p99": 1356.5,
+            "min": 1356.5,
+            "max": 1356.5
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 65.0,
+            "p95": 71.3,
+            "p99": 71.86,
+            "min": 58.0,
+            "max": 72.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "729": 2
+          },
+          {
+            "729": 2
+          },
+          {
+            "729": 2
+          },
+          {
+            "729": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 53.187000000000005,
+            "p95": 53.367000000000004,
+            "p99": 53.373400000000004,
+            "min": 52.937,
+            "max": 53.375
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 53.025666666666666,
+            "p95": 53.27325,
+            "p99": 53.27945,
+            "min": 52.656,
+            "max": 53.281
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 53.187000000000005,
+            "p95": 53.367000000000004,
+            "p99": 53.373400000000004,
+            "min": 52.937,
+            "max": 53.375
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 37.75,
+            "p95": 39.8125,
+            "p99": 40.1625,
+            "min": 36.0,
+            "max": 40.25
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1356.5,
+            "p95": 1356.5,
+            "p99": 1356.5,
+            "min": 1356.5,
+            "max": 1356.5
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 67.83333333333333,
+            "p95": 78.75,
+            "p99": 78.95,
+            "min": 58.0,
+            "max": 79.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "729": 6
+          },
+          {
+            "729": 6
+          },
+          {
+            "729": 6
+          },
+          {
+            "729": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 1,
+      "position": 1,
+      "variant": "reuse",
+      "n": 100,
+      "first_start_utc_ns": 1792721077760402520,
+      "last_input_complete_utc_ns": 1792721079900533507,
+      "start_utc": "2026-10-23T02:04:37.760402+00:00",
+      "end_utc": "2026-10-23T02:04:39.900533+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.275022600000002,
+        "p95": 9.0765529,
+        "p99": 9.17121472
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 7.75935815,
+        "p95": 8.476276949999999,
+        "p99": 8.611830300000001
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 7.958213424682617,
+        "p95": 8.780011320114136,
+        "p99": 8.923100986480714
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 620.25,
+          "p95": 698.9,
+          "p99": 710.18,
+          "min": 555.0,
+          "max": 713.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 52.897999999999996,
+            "p95": 53.09215,
+            "p99": 53.11843,
+            "min": 52.718,
+            "max": 53.125
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 53.4525,
+            "p95": 53.52155,
+            "p99": 53.529109999999996,
+            "min": 53.343,
+            "max": 53.531
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 51.483999999999995,
+            "p95": 51.81495,
+            "p99": 51.837390000000006,
+            "min": 51.187,
+            "max": 51.843
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 49.5075,
+            "p95": 49.531,
+            "p99": 49.531,
+            "min": 49.437,
+            "max": 49.531
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 48.7495,
+            "p95": 48.82905,
+            "p99": 48.840210000000006,
+            "min": 48.687,
+            "max": 48.843
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 50.781,
+            "p95": 50.927699999999994,
+            "p99": 50.93514,
+            "min": 50.625,
+            "max": 50.937
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 51.085499999999996,
+            "p95": 51.213350000000005,
+            "p99": 51.21707000000001,
+            "min": 50.937,
+            "max": 51.218
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 51.13249999999999,
+            "p95": 51.18235,
+            "p99": 51.18607,
+            "min": 51.062,
+            "max": 51.187
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 53.4525,
+            "p95": 53.52155,
+            "p99": 53.529109999999996,
+            "min": 53.343,
+            "max": 53.531
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          76,
+          77
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 53.531,
+            "p95": 53.558899999999994,
+            "p99": 53.56138,
+            "min": 53.5,
+            "max": 53.562
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 52.7655,
+            "p95": 52.89195,
+            "p99": 52.90319,
+            "min": 52.625,
+            "max": 52.906
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 53.531,
+            "p95": 53.558899999999994,
+            "p99": 53.56138,
+            "min": 53.5,
+            "max": 53.562
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 33.75,
+            "p95": 34.7625,
+            "p99": 34.8525,
+            "min": 32.625,
+            "max": 34.875
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1721.25,
+            "p95": 1738.575,
+            "p99": 1740.115,
+            "min": 1702.0,
+            "max": 1740.5
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 55.5,
+            "p95": 55.95,
+            "p99": 55.99,
+            "min": 55.0,
+            "max": 56.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1420": 1,
+            "1497": 1
+          },
+          {
+            "1420": 1,
+            "1497": 1
+          },
+          {
+            "1420": 1,
+            "1497": 1
+          },
+          {
+            "1420": 1,
+            "1497": 1
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 53.452666666666666,
+            "p95": 53.58525,
+            "p99": 53.59145,
+            "min": 53.343,
+            "max": 53.593
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 53.01533333333334,
+            "p95": 53.27325,
+            "p99": 53.27945,
+            "min": 52.625,
+            "max": 53.281
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 53.452666666666666,
+            "p95": 53.58525,
+            "p99": 53.59145,
+            "min": 53.343,
+            "max": 53.593
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 32.833333333333336,
+            "p95": 37.125,
+            "p99": 37.425,
+            "min": 24.75,
+            "max": 37.5
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1644.5,
+            "p95": 1913.375,
+            "p99": 1959.4750000000001,
+            "min": 1356.5,
+            "max": 1971.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 64.0,
+            "p95": 79.0,
+            "p99": 79.0,
+            "min": 55.0,
+            "max": 79.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1420": 1,
+            "1497": 2,
+            "1958": 1,
+            "1984": 2
+          },
+          {
+            "1420": 1,
+            "1497": 2,
+            "1958": 1,
+            "1984": 2
+          },
+          {
+            "1420": 1,
+            "1497": 2,
+            "1958": 1,
+            "1984": 2
+          },
+          {
+            "1420": 1,
+            "1497": 2,
+            "1958": 1,
+            "1984": 2
+          },
+          {
+            "1984": 4,
+            "729": 2
+          },
+          {
+            "1984": 4,
+            "729": 2
+          },
+          {
+            "1984": 4,
+            "729": 2
+          },
+          {
+            "1984": 4,
+            "729": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 1,
+      "position": 2,
+      "variant": "canvas",
+      "n": 100,
+      "first_start_utc_ns": 1792721080058190852,
+      "last_input_complete_utc_ns": 1792721082237312434,
+      "start_utc": "2026-10-23T02:04:40.058191+00:00",
+      "end_utc": "2026-10-23T02:04:42.237313+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.676526670000001,
+        "p95": 9.207014449999999,
+        "p99": 9.34780979
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 8.05725375,
+        "p95": 8.490641,
+        "p99": 8.61888946
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 8.41794177532196,
+        "p95": 8.989222240447997,
+        "p99": 9.139545593261719
+      },
+      "telemetry_inside_segment": {
+        "n": 5,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 5
+        },
+        "raw_gpu_load_stats": {
+          "n": 5,
+          "mean": 579.6,
+          "p95": 645.2,
+          "p99": 653.04,
+          "min": 527.0,
+          "max": 655.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 5,
+            "mean": 53.1432,
+            "p95": 53.318000000000005,
+            "p99": 53.338,
+            "min": 52.906,
+            "max": 53.343
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 5,
+            "mean": 53.76219999999999,
+            "p95": 53.9872,
+            "p99": 54.02224,
+            "min": 53.5,
+            "max": 54.031
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 5,
+            "mean": 51.6186,
+            "p95": 51.756,
+            "p99": 51.775999999999996,
+            "min": 51.5,
+            "max": 51.781
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 5,
+            "mean": 49.818200000000004,
+            "p95": 50.0122,
+            "p99": 50.02724,
+            "min": 49.687,
+            "max": 50.031
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 5,
+            "mean": 48.9686,
+            "p95": 49.1248,
+            "p99": 49.14976,
+            "min": 48.875,
+            "max": 49.156
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 5,
+            "mean": 51.0434,
+            "p95": 51.2372,
+            "p99": 51.27224,
+            "min": 50.906,
+            "max": 51.281
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 5,
+            "mean": 51.3558,
+            "p95": 51.561800000000005,
+            "p99": 51.586760000000005,
+            "min": 51.187,
+            "max": 51.593
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 5,
+            "mean": 51.331,
+            "p95": 51.4308,
+            "p99": 51.435759999999995,
+            "min": 51.25,
+            "max": 51.437
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 5,
+            "mean": 53.76219999999999,
+            "p95": 53.9872,
+            "p99": 54.02224,
+            "min": 53.5,
+            "max": 54.031
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          82,
+          83
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 53.546499999999995,
+            "p95": 53.75755,
+            "p99": 53.77631,
+            "min": 53.312,
+            "max": 53.781
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 53.078,
+            "p95": 53.1203,
+            "p99": 53.12406,
+            "min": 53.031,
+            "max": 53.125
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 53.546499999999995,
+            "p95": 53.75755,
+            "p99": 53.77631,
+            "min": 53.312,
+            "max": 53.781
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 23.6875,
+            "p95": 23.74375,
+            "p99": 23.74875,
+            "min": 23.625,
+            "max": 23.75
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1759.75,
+            "p95": 1777.075,
+            "p99": 1778.615,
+            "min": 1740.5,
+            "max": 1779.0
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 76.0,
+            "p95": 77.8,
+            "p99": 77.96,
+            "min": 74.0,
+            "max": 78.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1497": 1,
+            "1574": 1
+          },
+          {
+            "1497": 1,
+            "1574": 1
+          },
+          {
+            "1497": 1,
+            "1574": 1
+          },
+          {
+            "1497": 1,
+            "1574": 1
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          80,
+          81,
+          82,
+          83,
+          84,
+          85
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 53.69233333333333,
+            "p95": 54.09325,
+            "p99": 54.16825,
+            "min": 53.25,
+            "max": 54.187
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 53.062333333333335,
+            "p95": 53.171499999999995,
+            "p99": 53.1839,
+            "min": 52.875,
+            "max": 53.187
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 53.69233333333333,
+            "p95": 54.09325,
+            "p99": 54.16825,
+            "min": 53.25,
+            "max": 54.187
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 23.375,
+            "p95": 24.125,
+            "p99": 24.225,
+            "min": 21.875,
+            "max": 24.25
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1838.75,
+            "p95": 1971.125,
+            "p99": 1981.425,
+            "min": 1740.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 68.5,
+            "p95": 77.0,
+            "p99": 77.8,
+            "min": 58.0,
+            "max": 78.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1497": 1,
+            "1574": 2,
+            "1651": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1497": 1,
+            "1574": 2,
+            "1651": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1497": 1,
+            "1574": 2,
+            "1651": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1497": 1,
+            "1574": 2,
+            "1651": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 1,
+      "position": 3,
+      "variant": "R0",
+      "n": 100,
+      "first_start_utc_ns": 1792721082395427764,
+      "last_input_complete_utc_ns": 1792721084585059578,
+      "start_utc": "2026-10-23T02:04:42.395428+00:00",
+      "end_utc": "2026-10-23T02:04:44.585060+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.782025220000001,
+        "p95": 9.4383926,
+        "p99": 9.47879138
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 8.11318523,
+        "p95": 8.61906255,
+        "p99": 8.69528125
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 8.531535029411316,
+        "p95": 9.16357774734497,
+        "p99": 9.264751214981079
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 532.75,
+          "p95": 546.15,
+          "p99": 548.43,
+          "min": 525.0,
+          "max": 549.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 53.4135,
+            "p95": 53.562,
+            "p99": 53.562,
+            "min": 53.093,
+            "max": 53.562
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 53.921499999999995,
+            "p95": 54.06495,
+            "p99": 54.087390000000006,
+            "min": 53.812,
+            "max": 54.093
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 51.71825,
+            "p95": 51.8778,
+            "p99": 51.90036,
+            "min": 51.593,
+            "max": 51.906
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 50.15575,
+            "p95": 50.29325,
+            "p99": 50.30825,
+            "min": 50.062,
+            "max": 50.312
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 49.148250000000004,
+            "p95": 49.18235,
+            "p99": 49.18607,
+            "min": 49.125,
+            "max": 49.187
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 51.358999999999995,
+            "p95": 51.437,
+            "p99": 51.437,
+            "min": 51.281,
+            "max": 51.437
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 51.679249999999996,
+            "p95": 51.687,
+            "p99": 51.687,
+            "min": 51.656,
+            "max": 51.687
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 51.554249999999996,
+            "p95": 51.6202,
+            "p99": 51.62404,
+            "min": 51.437,
+            "max": 51.625
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 53.921499999999995,
+            "p95": 54.06495,
+            "p99": 54.087390000000006,
+            "min": 53.812,
+            "max": 54.093
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          86,
+          87
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 53.8275,
+            "p95": 54.06645,
+            "p99": 54.08769,
+            "min": 53.562,
+            "max": 54.093
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 53.4685,
+            "p95": 53.52475,
+            "p99": 53.52975,
+            "min": 53.406,
+            "max": 53.531
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 53.8275,
+            "p95": 54.06645,
+            "p99": 54.08769,
+            "min": 53.562,
+            "max": 54.093
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 23.8125,
+            "p95": 23.86875,
+            "p99": 23.87375,
+            "min": 23.75,
+            "max": 23.875
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1900.75,
+            "p95": 1975.675,
+            "p99": 1982.335,
+            "min": 1817.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 54.5,
+            "p95": 54.95,
+            "p99": 54.99,
+            "min": 54.0,
+            "max": 55.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1651": 1,
+            "1984": 1
+          },
+          {
+            "1651": 1,
+            "1984": 1
+          },
+          {
+            "1651": 1,
+            "1984": 1
+          },
+          {
+            "1651": 1,
+            "1984": 1
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 53.812000000000005,
+            "p95": 54.02275,
+            "p99": 54.078950000000006,
+            "min": 53.562,
+            "max": 54.093
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 53.333,
+            "p95": 53.51525,
+            "p99": 53.52785,
+            "min": 53.125,
+            "max": 53.531
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 53.812000000000005,
+            "p95": 54.02275,
+            "p99": 54.078950000000006,
+            "min": 53.562,
+            "max": 54.093
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 23.375,
+            "p95": 23.84375,
+            "p99": 23.86875,
+            "min": 22.75,
+            "max": 23.875
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1892.1666666666667,
+            "p95": 1984.0,
+            "p99": 1984.0,
+            "min": 1779.0,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 56.0,
+            "p95": 60.25,
+            "p99": 60.85,
+            "min": 51.0,
+            "max": 61.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1574": 1,
+            "1651": 1,
+            "1728": 1,
+            "1881": 1,
+            "1984": 2
+          },
+          {
+            "1574": 1,
+            "1651": 1,
+            "1728": 1,
+            "1881": 1,
+            "1984": 2
+          },
+          {
+            "1574": 1,
+            "1651": 1,
+            "1728": 1,
+            "1881": 1,
+            "1984": 2
+          },
+          {
+            "1574": 1,
+            "1651": 1,
+            "1728": 1,
+            "1881": 1,
+            "1984": 2
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 2,
+      "position": 0,
+      "variant": "R0",
+      "n": 100,
+      "first_start_utc_ns": 1792721084743513342,
+      "last_input_complete_utc_ns": 1792721086925090935,
+      "start_utc": "2026-10-23T02:04:44.743513+00:00",
+      "end_utc": "2026-10-23T02:04:46.925091+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.69220912,
+        "p95": 9.30890765,
+        "p99": 9.382648560000002
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 8.05405887,
+        "p95": 8.697671649999998,
+        "p99": 8.79772903
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 8.428234572410583,
+        "p95": 9.048557233810424,
+        "p99": 9.145711317062378
+      },
+      "telemetry_inside_segment": {
+        "n": 5,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 5
+        },
+        "raw_gpu_load_stats": {
+          "n": 5,
+          "mean": 624.4,
+          "p95": 729.4,
+          "p99": 746.68,
+          "min": 540.0,
+          "max": 751.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 5,
+            "mean": 53.73100000000001,
+            "p95": 53.906,
+            "p99": 53.906,
+            "min": 53.406,
+            "max": 53.906
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 5,
+            "mean": 54.0746,
+            "p95": 54.5994,
+            "p99": 54.694280000000006,
+            "min": 53.75,
+            "max": 54.718
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 5,
+            "mean": 52.0184,
+            "p95": 52.1434,
+            "p99": 52.15348,
+            "min": 51.906,
+            "max": 52.156
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 5,
+            "mean": 50.311800000000005,
+            "p95": 50.343,
+            "p99": 50.343,
+            "min": 50.187,
+            "max": 50.343
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 5,
+            "mean": 49.418400000000005,
+            "p95": 49.5248,
+            "p99": 49.529759999999996,
+            "min": 49.343,
+            "max": 49.531
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 5,
+            "mean": 51.537,
+            "p95": 51.6372,
+            "p99": 51.65224,
+            "min": 51.343,
+            "max": 51.656
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 5,
+            "mean": 51.812,
+            "p95": 51.9308,
+            "p99": 51.935759999999995,
+            "min": 51.687,
+            "max": 51.937
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 5,
+            "mean": 51.812,
+            "p95": 51.9182,
+            "p99": 51.93324,
+            "min": 51.718,
+            "max": 51.937
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 5,
+            "mean": 54.087199999999996,
+            "p95": 54.5994,
+            "p99": 54.694280000000006,
+            "min": 53.75,
+            "max": 54.718
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          90,
+          91
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 54.0465,
+            "p95": 54.22965,
+            "p99": 54.24593,
+            "min": 53.843,
+            "max": 54.25
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 53.734,
+            "p95": 53.7484,
+            "p99": 53.74968,
+            "min": 53.718,
+            "max": 53.75
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 54.0465,
+            "p95": 54.22965,
+            "p99": 54.24593,
+            "min": 53.843,
+            "max": 54.25
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 23.125,
+            "p95": 23.2375,
+            "p99": 23.2475,
+            "min": 23.0,
+            "max": 23.25
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1836.75,
+            "p95": 1854.075,
+            "p99": 1855.615,
+            "min": 1817.5,
+            "max": 1856.0
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 54.0,
+            "p95": 55.8,
+            "p99": 55.96,
+            "min": 52.0,
+            "max": 56.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1651": 1,
+            "1728": 1
+          },
+          {
+            "1651": 1,
+            "1728": 1
+          },
+          {
+            "1651": 1,
+            "1728": 1
+          },
+          {
+            "1651": 1,
+            "1728": 1
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          88,
+          89,
+          90,
+          91,
+          92,
+          93
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 53.963166666666666,
+            "p95": 54.23425,
+            "p99": 54.24685,
+            "min": 53.781,
+            "max": 54.25
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 53.60366666666667,
+            "p95": 53.796499999999995,
+            "p99": 53.8089,
+            "min": 53.281,
+            "max": 53.812
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 53.963166666666666,
+            "p95": 54.23425,
+            "p99": 54.24685,
+            "min": 53.781,
+            "max": 54.25
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 22.520833333333332,
+            "p95": 23.21875,
+            "p99": 23.24375,
+            "min": 20.875,
+            "max": 23.25
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1885.8333333333333,
+            "p95": 1984.0,
+            "p99": 1984.0,
+            "min": 1817.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 58.5,
+            "p95": 73.5,
+            "p99": 77.9,
+            "min": 51.0,
+            "max": 79.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1651": 2,
+            "1728": 2,
+            "1984": 2
+          },
+          {
+            "1651": 2,
+            "1728": 2,
+            "1984": 2
+          },
+          {
+            "1651": 2,
+            "1728": 2,
+            "1984": 2
+          },
+          {
+            "1651": 2,
+            "1728": 2,
+            "1984": 2
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 2,
+      "position": 1,
+      "variant": "canvas",
+      "n": 100,
+      "first_start_utc_ns": 1792721087082224611,
+      "last_input_complete_utc_ns": 1792721089255363908,
+      "start_utc": "2026-10-23T02:04:47.082225+00:00",
+      "end_utc": "2026-10-23T02:04:49.255364+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.60612568,
+        "p95": 9.225306849999999,
+        "p99": 9.305997230000001
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 7.969449749999999,
+        "p95": 8.4766156,
+        "p99": 8.526584040000001
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 8.34415936946869,
+        "p95": 9.013230800628662,
+        "p99": 9.104513540267945
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 570.5,
+          "p95": 638.0,
+          "p99": 647.6,
+          "min": 502.0,
+          "max": 650.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 53.88225,
+            "p95": 54.0479,
+            "p99": 54.05918,
+            "min": 53.656,
+            "max": 54.062
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 54.38250000000001,
+            "p95": 54.57805,
+            "p99": 54.61561,
+            "min": 54.281,
+            "max": 54.625
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 52.585499999999996,
+            "p95": 53.038599999999995,
+            "p99": 53.05732,
+            "min": 52.093,
+            "max": 53.062
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 50.57,
+            "p95": 50.625,
+            "p99": 50.625,
+            "min": 50.437,
+            "max": 50.625
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 49.6245,
+            "p95": 49.7528,
+            "p99": 49.77536,
+            "min": 49.562,
+            "max": 49.781
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 51.710499999999996,
+            "p95": 51.8196,
+            "p99": 51.83832,
+            "min": 51.625,
+            "max": 51.843
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 52.093500000000006,
+            "p95": 52.2087,
+            "p99": 52.21614,
+            "min": 51.875,
+            "max": 52.218
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 52.1015,
+            "p95": 52.23125,
+            "p99": 52.24625,
+            "min": 52.0,
+            "max": 52.25
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 54.38250000000001,
+            "p95": 54.57805,
+            "p99": 54.61561,
+            "min": 54.281,
+            "max": 54.625
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          96,
+          97
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 54.3905,
+            "p95": 54.48905,
+            "p99": 54.49781,
+            "min": 54.281,
+            "max": 54.5
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 53.8905,
+            "p95": 53.90445,
+            "p99": 53.90569,
+            "min": 53.875,
+            "max": 53.906
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 54.3905,
+            "p95": 54.48905,
+            "p99": 54.49781,
+            "min": 54.281,
+            "max": 54.5
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 22.375,
+            "p95": 22.825,
+            "p99": 22.865,
+            "min": 21.875,
+            "max": 22.875
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1798.25,
+            "p95": 1815.575,
+            "p99": 1817.115,
+            "min": 1779.0,
+            "max": 1817.5
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 63.0,
+            "p95": 72.9,
+            "p99": 73.78,
+            "min": 52.0,
+            "max": 74.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1574": 1,
+            "1651": 1
+          },
+          {
+            "1574": 1,
+            "1651": 1
+          },
+          {
+            "1574": 1,
+            "1651": 1
+          },
+          {
+            "1574": 1,
+            "1651": 1
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 54.60383333333334,
+            "p95": 54.96025,
+            "p99": 54.96645,
+            "min": 54.125,
+            "max": 54.968
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 53.98933333333334,
+            "p95": 54.304500000000004,
+            "p99": 54.3609,
+            "min": 53.687,
+            "max": 54.375
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 54.60383333333334,
+            "p95": 54.96025,
+            "p99": 54.96645,
+            "min": 54.125,
+            "max": 54.968
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 22.854166666666668,
+            "p95": 23.34375,
+            "p99": 23.36875,
+            "min": 21.875,
+            "max": 23.375
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1862.1666666666667,
+            "p95": 1971.0,
+            "p99": 1971.0,
+            "min": 1740.5,
+            "max": 1971.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 66.0,
+            "p95": 91.25,
+            "p99": 95.85000000000001,
+            "min": 52.0,
+            "max": 97.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1497": 1,
+            "1574": 1,
+            "1651": 1,
+            "1804": 1,
+            "1958": 2
+          },
+          {
+            "1497": 1,
+            "1574": 1,
+            "1651": 1,
+            "1804": 1,
+            "1958": 2
+          },
+          {
+            "1497": 1,
+            "1574": 1,
+            "1651": 1,
+            "1804": 1,
+            "1958": 2
+          },
+          {
+            "1497": 1,
+            "1574": 1,
+            "1651": 1,
+            "1804": 1,
+            "1958": 2
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 2,
+      "position": 2,
+      "variant": "reuse",
+      "n": 100,
+      "first_start_utc_ns": 1792721089411031315,
+      "last_input_complete_utc_ns": 1792721091538225366,
+      "start_utc": "2026-10-23T02:04:49.411031+00:00",
+      "end_utc": "2026-10-23T02:04:51.538225+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.15783745,
+        "p95": 8.84456365,
+        "p99": 9.039596190000001
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 7.66723933,
+        "p95": 8.3742197,
+        "p99": 8.53598622
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 7.904475536346435,
+        "p95": 8.585683155059815,
+        "p99": 8.81949809074402
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 642.0,
+          "p95": 734.5999999999999,
+          "p99": 748.52,
+          "min": 575.0,
+          "max": 752.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 54.085750000000004,
+            "p95": 54.25,
+            "p99": 54.25,
+            "min": 53.906,
+            "max": 54.25
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 54.5935,
+            "p95": 54.9343,
+            "p99": 54.98686,
+            "min": 54.312,
+            "max": 55.0
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 52.85125000000001,
+            "p95": 53.07905,
+            "p99": 53.090210000000006,
+            "min": 52.406,
+            "max": 53.093
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 50.804500000000004,
+            "p95": 50.927699999999994,
+            "p99": 50.93514,
+            "min": 50.656,
+            "max": 50.937
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 49.890249999999995,
+            "p95": 49.9587,
+            "p99": 49.96614,
+            "min": 49.812,
+            "max": 49.968
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 52.03075,
+            "p95": 52.163599999999995,
+            "p99": 52.18232,
+            "min": 51.937,
+            "max": 52.187
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 52.29675,
+            "p95": 52.375,
+            "p99": 52.375,
+            "min": 52.187,
+            "max": 52.375
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 52.374500000000005,
+            "p95": 52.406,
+            "p99": 52.406,
+            "min": 52.343,
+            "max": 52.406
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 54.5935,
+            "p95": 54.9343,
+            "p99": 54.98686,
+            "min": 54.312,
+            "max": 55.0
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          100,
+          101
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 54.562,
+            "p95": 54.6466,
+            "p99": 54.65412,
+            "min": 54.468,
+            "max": 54.656
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 54.281,
+            "p95": 54.308899999999994,
+            "p99": 54.31138,
+            "min": 54.25,
+            "max": 54.312
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 54.562,
+            "p95": 54.6466,
+            "p99": 54.65412,
+            "min": 54.468,
+            "max": 54.656
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 22.25,
+            "p95": 22.925,
+            "p99": 22.985,
+            "min": 21.5,
+            "max": 23.0
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1862.25,
+            "p95": 1971.825,
+            "p99": 1981.565,
+            "min": 1740.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 65.0,
+            "p95": 72.2,
+            "p99": 72.84,
+            "min": 57.0,
+            "max": 73.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1497": 1,
+            "1984": 1
+          },
+          {
+            "1497": 1,
+            "1984": 1
+          },
+          {
+            "1497": 1,
+            "1984": 1
+          },
+          {
+            "1497": 1,
+            "1984": 1
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 54.6715,
+            "p95": 55.2655,
+            "p99": 55.3531,
+            "min": 54.125,
+            "max": 55.375
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 54.296666666666674,
+            "p95": 54.492,
+            "p99": 54.523199999999996,
+            "min": 54.0,
+            "max": 54.531
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 54.6715,
+            "p95": 55.2655,
+            "p99": 55.3531,
+            "min": 54.125,
+            "max": 55.375
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 22.916666666666668,
+            "p95": 23.8125,
+            "p99": 23.9625,
+            "min": 21.5,
+            "max": 24.0
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1872.9166666666667,
+            "p95": 1984.0,
+            "p99": 1984.0,
+            "min": 1740.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 68.16666666666667,
+            "p95": 91.75,
+            "p99": 96.75,
+            "min": 57.0,
+            "max": 98.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1497": 2,
+            "1651": 1,
+            "1958": 1,
+            "1984": 2
+          },
+          {
+            "1497": 2,
+            "1651": 1,
+            "1958": 1,
+            "1984": 2
+          },
+          {
+            "1497": 2,
+            "1651": 1,
+            "1958": 1,
+            "1984": 2
+          },
+          {
+            "1497": 2,
+            "1651": 1,
+            "1958": 1,
+            "1984": 2
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 2,
+      "position": 3,
+      "variant": "R0",
+      "n": 100,
+      "first_start_utc_ns": 1792721091696054146,
+      "last_input_complete_utc_ns": 1792721093884204918,
+      "start_utc": "2026-10-23T02:04:51.696054+00:00",
+      "end_utc": "2026-10-23T02:04:53.884205+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.75628577,
+        "p95": 9.36001005,
+        "p99": 9.5535722
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 8.082796309999999,
+        "p95": 8.6326222,
+        "p99": 8.802817680000002
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 8.492420802116394,
+        "p95": 9.102159595489502,
+        "p99": 9.263746242523194
+      },
+      "telemetry_inside_segment": {
+        "n": 5,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 5
+        },
+        "raw_gpu_load_stats": {
+          "n": 5,
+          "mean": 555.8,
+          "p95": 575.4,
+          "p99": 575.88,
+          "min": 522.0,
+          "max": 576.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 5,
+            "mean": 54.4808,
+            "p95": 54.7498,
+            "p99": 54.77476,
+            "min": 54.187,
+            "max": 54.781
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 5,
+            "mean": 54.8934,
+            "p95": 55.0432,
+            "p99": 55.05824,
+            "min": 54.75,
+            "max": 55.062
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 5,
+            "mean": 52.7934,
+            "p95": 53.1624,
+            "p99": 53.23248,
+            "min": 52.531,
+            "max": 53.25
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 5,
+            "mean": 51.1496,
+            "p95": 51.324400000000004,
+            "p99": 51.33928,
+            "min": 50.937,
+            "max": 51.343
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 5,
+            "mean": 50.0994,
+            "p95": 50.2434,
+            "p99": 50.27348,
+            "min": 49.968,
+            "max": 50.281
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 5,
+            "mean": 52.2932,
+            "p95": 52.4182,
+            "p99": 52.43324,
+            "min": 52.093,
+            "max": 52.437
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 5,
+            "mean": 52.5686,
+            "p95": 52.625,
+            "p99": 52.625,
+            "min": 52.5,
+            "max": 52.625
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 5,
+            "mean": 52.555600000000005,
+            "p95": 52.705600000000004,
+            "p99": 52.715520000000005,
+            "min": 52.468,
+            "max": 52.718
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 5,
+            "mean": 54.8934,
+            "p95": 55.0432,
+            "p99": 55.05824,
+            "min": 54.75,
+            "max": 55.062
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          104,
+          105
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 54.609,
+            "p95": 54.7359,
+            "p99": 54.74718,
+            "min": 54.468,
+            "max": 54.75
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 54.296499999999995,
+            "p95": 54.310449999999996,
+            "p99": 54.31169,
+            "min": 54.281,
+            "max": 54.312
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 54.6405,
+            "p95": 54.73905,
+            "p99": 54.74781,
+            "min": 54.531,
+            "max": 54.75
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 23.1875,
+            "p95": 23.35625,
+            "p99": 23.37125,
+            "min": 23.0,
+            "max": 23.375
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1817.5,
+            "p95": 1817.5,
+            "p99": 1817.5,
+            "min": 1817.5,
+            "max": 1817.5
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 56.5,
+            "p95": 57.85,
+            "p99": 57.97,
+            "min": 55.0,
+            "max": 58.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1651": 2
+          },
+          {
+            "1651": 2
+          },
+          {
+            "1651": 2
+          },
+          {
+            "1651": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          102,
+          103,
+          104,
+          105,
+          106,
+          107
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 54.73916666666667,
+            "p95": 55.21875,
+            "p99": 55.34375,
+            "min": 54.468,
+            "max": 55.375
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 54.390166666666666,
+            "p95": 54.647999999999996,
+            "p99": 54.679199999999994,
+            "min": 54.218,
+            "max": 54.687
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 54.74966666666666,
+            "p95": 55.21875,
+            "p99": 55.34375,
+            "min": 54.468,
+            "max": 55.375
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 23.666666666666668,
+            "p95": 24.375,
+            "p99": 24.475,
+            "min": 23.0,
+            "max": 24.5
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1870.8333333333333,
+            "p95": 1971.125,
+            "p99": 1981.425,
+            "min": 1817.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 63.833333333333336,
+            "p95": 89.25,
+            "p99": 96.25,
+            "min": 53.0,
+            "max": 98.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1651": 3,
+            "1728": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1651": 3,
+            "1728": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1651": 3,
+            "1728": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1651": 3,
+            "1728": 1,
+            "1881": 1,
+            "1984": 1
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 3,
+      "position": 0,
+      "variant": "R0",
+      "n": 100,
+      "first_start_utc_ns": 1792721094041671691,
+      "last_input_complete_utc_ns": 1792721096211026937,
+      "start_utc": "2026-10-23T02:04:54.041672+00:00",
+      "end_utc": "2026-10-23T02:04:56.211027+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.56271017,
+        "p95": 9.134288499999998,
+        "p99": 9.38714992
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 7.92230823,
+        "p95": 8.4653023,
+        "p99": 8.841717150000001
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 8.27371106147766,
+        "p95": 8.911280107498168,
+        "p99": 9.174638338088991
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 602.5,
+          "p95": 721.55,
+          "p99": 743.51,
+          "min": 534.0,
+          "max": 749.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 54.64025,
+            "p95": 54.873149999999995,
+            "p99": 54.899429999999995,
+            "min": 54.468,
+            "max": 54.906
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 54.94499999999999,
+            "p95": 55.149499999999996,
+            "p99": 55.1795,
+            "min": 54.781,
+            "max": 55.187
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 53.039,
+            "p95": 53.125,
+            "p99": 53.125,
+            "min": 52.906,
+            "max": 53.125
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 51.2495,
+            "p95": 51.32905,
+            "p99": 51.340210000000006,
+            "min": 51.187,
+            "max": 51.343
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 50.351,
+            "p95": 50.39655,
+            "p99": 50.404109999999996,
+            "min": 50.312,
+            "max": 50.406
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 52.50725,
+            "p95": 52.5837,
+            "p99": 52.59114,
+            "min": 52.437,
+            "max": 52.593
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 52.7655,
+            "p95": 52.8609,
+            "p99": 52.87218,
+            "min": 52.656,
+            "max": 52.875
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 52.75,
+            "p95": 52.75,
+            "p99": 52.75,
+            "min": 52.75,
+            "max": 52.75
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 54.94499999999999,
+            "p95": 55.149499999999996,
+            "p99": 55.1795,
+            "min": 54.781,
+            "max": 55.187
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          110,
+          111
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 55.2805,
+            "p95": 55.33675,
+            "p99": 55.341750000000005,
+            "min": 55.218,
+            "max": 55.343
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 54.812,
+            "p95": 54.952400000000004,
+            "p99": 54.96488,
+            "min": 54.656,
+            "max": 54.968
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 55.2805,
+            "p95": 55.33675,
+            "p99": 55.341750000000005,
+            "min": 55.218,
+            "max": 55.343
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 24.5,
+            "p95": 25.0625,
+            "p99": 25.1125,
+            "min": 23.875,
+            "max": 25.125
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1836.5,
+            "p95": 1922.9,
+            "p99": 1930.58,
+            "min": 1740.5,
+            "max": 1932.5
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 66.0,
+            "p95": 75.0,
+            "p99": 75.8,
+            "min": 56.0,
+            "max": 76.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1497": 1,
+            "1881": 1
+          },
+          {
+            "1497": 1,
+            "1881": 1
+          },
+          {
+            "1497": 1,
+            "1881": 1
+          },
+          {
+            "1497": 1,
+            "1881": 1
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 55.30666666666667,
+            "p95": 55.56175,
+            "p99": 55.58675,
+            "min": 54.812,
+            "max": 55.593
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 54.69233333333333,
+            "p95": 54.92125,
+            "p99": 54.958650000000006,
+            "min": 54.406,
+            "max": 54.968
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 55.30666666666667,
+            "p95": 55.56175,
+            "p99": 55.58675,
+            "min": 54.812,
+            "max": 55.593
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 23.708333333333332,
+            "p95": 24.8125,
+            "p99": 25.0625,
+            "min": 22.375,
+            "max": 25.125
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1857.9166666666667,
+            "p95": 1971.125,
+            "p99": 1981.425,
+            "min": 1702.0,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 62.333333333333336,
+            "p95": 73.0,
+            "p99": 75.4,
+            "min": 56.0,
+            "max": 76.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1420": 1,
+            "1497": 1,
+            "1728": 1,
+            "1881": 2,
+            "1984": 1
+          },
+          {
+            "1420": 1,
+            "1497": 1,
+            "1728": 1,
+            "1881": 2,
+            "1984": 1
+          },
+          {
+            "1420": 1,
+            "1497": 1,
+            "1728": 1,
+            "1881": 2,
+            "1984": 1
+          },
+          {
+            "1420": 1,
+            "1497": 1,
+            "1728": 1,
+            "1881": 2,
+            "1984": 1
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 3,
+      "position": 1,
+      "variant": "reuse",
+      "n": 100,
+      "first_start_utc_ns": 1792721096366345211,
+      "last_input_complete_utc_ns": 1792721098439789858,
+      "start_utc": "2026-10-23T02:04:56.366345+00:00",
+      "end_utc": "2026-10-23T02:04:58.439790+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 7.6129999999999995,
+        "p95": 8.7960684,
+        "p99": 8.89680552
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 7.133439380000001,
+        "p95": 8.27746585,
+        "p99": 8.36405601
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 7.339154233932495,
+        "p95": 8.593964862823487,
+        "p99": 8.678062314987184
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 636.25,
+          "p95": 638.0,
+          "p99": 638.0,
+          "min": 634.0,
+          "max": 638.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 55.13225,
+            "p95": 55.288599999999995,
+            "p99": 55.30732,
+            "min": 54.968,
+            "max": 55.312
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 55.476,
+            "p95": 55.68995,
+            "p99": 55.712390000000006,
+            "min": 55.218,
+            "max": 55.718
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 53.04625,
+            "p95": 53.093,
+            "p99": 53.093,
+            "min": 52.937,
+            "max": 53.093
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 51.3435,
+            "p95": 51.40135,
+            "p99": 51.40507,
+            "min": 51.218,
+            "max": 51.406
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 50.460750000000004,
+            "p95": 50.5,
+            "p99": 50.5,
+            "min": 50.375,
+            "max": 50.5
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 52.718500000000006,
+            "p95": 52.873149999999995,
+            "p99": 52.899429999999995,
+            "min": 52.625,
+            "max": 52.906
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 52.99175,
+            "p95": 53.031,
+            "p99": 53.031,
+            "min": 52.937,
+            "max": 53.031
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 53.00725,
+            "p95": 53.0837,
+            "p99": 53.09114,
+            "min": 52.937,
+            "max": 53.093
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 55.46025,
+            "p95": 55.6805,
+            "p99": 55.7105,
+            "min": 55.218,
+            "max": 55.718
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          114,
+          115
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 55.4215,
+            "p95": 55.60465,
+            "p99": 55.62093,
+            "min": 55.218,
+            "max": 55.625
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 54.8905,
+            "p95": 55.10155,
+            "p99": 55.12031,
+            "min": 54.656,
+            "max": 55.125
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 55.4215,
+            "p95": 55.60465,
+            "p99": 55.62093,
+            "min": 55.218,
+            "max": 55.625
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 27.0,
+            "p95": 29.25,
+            "p99": 29.45,
+            "min": 24.5,
+            "max": 29.5
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1510.25,
+            "p95": 1648.625,
+            "p99": 1660.925,
+            "min": 1356.5,
+            "max": 1664.0
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 59.0,
+            "p95": 62.6,
+            "p99": 62.92,
+            "min": 55.0,
+            "max": 63.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1344": 1,
+            "1984": 1
+          },
+          {
+            "1344": 1,
+            "1984": 1
+          },
+          {
+            "1344": 1,
+            "1984": 1
+          },
+          {
+            "1344": 1,
+            "1984": 1
+          },
+          {
+            "1984": 1,
+            "729": 1
+          },
+          {
+            "1984": 1,
+            "729": 1
+          },
+          {
+            "1984": 1,
+            "729": 1
+          },
+          {
+            "1984": 1,
+            "729": 1
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          112,
+          113,
+          114,
+          115,
+          116,
+          117
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 55.39533333333333,
+            "p95": 55.585750000000004,
+            "p99": 55.61715,
+            "min": 55.187,
+            "max": 55.625
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 54.963166666666666,
+            "p95": 55.452749999999995,
+            "p99": 55.54015,
+            "min": 54.593,
+            "max": 55.562
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 55.45783333333333,
+            "p95": 55.60925,
+            "p99": 55.62185,
+            "min": 55.218,
+            "max": 55.625
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 25.041666666666668,
+            "p95": 28.59375,
+            "p99": 29.31875,
+            "min": 23.25,
+            "max": 29.5
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1674.5,
+            "p95": 1984.0,
+            "p99": 1984.0,
+            "min": 1356.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 63.333333333333336,
+            "p95": 75.25,
+            "p99": 78.25,
+            "min": 55.0,
+            "max": 79.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1344": 1,
+            "1420": 1,
+            "1984": 4
+          },
+          {
+            "1344": 1,
+            "1420": 1,
+            "1984": 4
+          },
+          {
+            "1344": 1,
+            "1420": 1,
+            "1984": 4
+          },
+          {
+            "1344": 1,
+            "1420": 1,
+            "1984": 4
+          },
+          {
+            "1984": 4,
+            "729": 2
+          },
+          {
+            "1984": 4,
+            "729": 2
+          },
+          {
+            "1984": 4,
+            "729": 2
+          },
+          {
+            "1984": 4,
+            "729": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 3,
+      "position": 2,
+      "variant": "canvas",
+      "n": 100,
+      "first_start_utc_ns": 1792721098598604204,
+      "last_input_complete_utc_ns": 1792721100783491976,
+      "start_utc": "2026-10-23T02:04:58.598604+00:00",
+      "end_utc": "2026-10-23T02:05:00.783492+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.731715820000002,
+        "p95": 9.312858850000001,
+        "p99": 9.55824283
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 8.10181245,
+        "p95": 8.65715465,
+        "p99": 8.822976660000002
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 8.466388182640076,
+        "p95": 9.08803391456604,
+        "p99": 9.338656940460206
+      },
+      "telemetry_inside_segment": {
+        "n": 4,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 4
+        },
+        "raw_gpu_load_stats": {
+          "n": 4,
+          "mean": 664.0,
+          "p95": 737.0,
+          "p99": 746.6,
+          "min": 573.0,
+          "max": 749.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 4,
+            "mean": 54.92175,
+            "p95": 55.1109,
+            "p99": 55.12218,
+            "min": 54.75,
+            "max": 55.125
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 4,
+            "mean": 55.4135,
+            "p95": 55.4952,
+            "p99": 55.49904,
+            "min": 55.343,
+            "max": 55.5
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 4,
+            "mean": 53.679249999999996,
+            "p95": 53.913599999999995,
+            "p99": 53.93232,
+            "min": 53.218,
+            "max": 53.937
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 4,
+            "mean": 51.59325,
+            "p95": 51.8327,
+            "p99": 51.86654,
+            "min": 51.437,
+            "max": 51.875
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 4,
+            "mean": 50.671499999999995,
+            "p95": 50.687,
+            "p99": 50.687,
+            "min": 50.625,
+            "max": 50.687
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 4,
+            "mean": 52.9525,
+            "p95": 53.074250000000006,
+            "p99": 53.08925000000001,
+            "min": 52.843,
+            "max": 53.093
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 4,
+            "mean": 53.109,
+            "p95": 53.15135,
+            "p99": 53.15507,
+            "min": 53.062,
+            "max": 53.156
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 4,
+            "mean": 53.242000000000004,
+            "p95": 53.281,
+            "p99": 53.281,
+            "min": 53.125,
+            "max": 53.281
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 4,
+            "mean": 55.4135,
+            "p95": 55.4952,
+            "p99": 55.49904,
+            "min": 55.343,
+            "max": 55.5
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 2,
+        "line_numbers": [
+          118,
+          119
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 2,
+            "mean": 55.1405,
+            "p95": 55.23905,
+            "p99": 55.24781,
+            "min": 55.031,
+            "max": 55.25
+          },
+          "CPU_temp_C": {
+            "n": 2,
+            "mean": 55.0,
+            "p95": 55.1125,
+            "p99": 55.1225,
+            "min": 54.875,
+            "max": 55.125
+          },
+          "tj_temp_C": {
+            "n": 2,
+            "mean": 55.1875,
+            "p95": 55.24375,
+            "p99": 55.24875,
+            "min": 55.125,
+            "max": 55.25
+          },
+          "cpu_mean_load_percent": {
+            "n": 2,
+            "mean": 22.625,
+            "p95": 22.7375,
+            "p99": 22.7475,
+            "min": 22.5,
+            "max": 22.75
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 2,
+            "mean": 1894.25,
+            "p95": 1963.325,
+            "p99": 1969.465,
+            "min": 1817.5,
+            "max": 1971.0
+          },
+          "gpu_load_percent": {
+            "n": 2,
+            "mean": 52.5,
+            "p95": 52.95,
+            "p99": 52.99,
+            "min": 52.0,
+            "max": 53.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1651": 1,
+            "1958": 1
+          },
+          {
+            "1651": 1,
+            "1958": 1
+          },
+          {
+            "1651": 1,
+            "1958": 1
+          },
+          {
+            "1651": 1,
+            "1958": 1
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          },
+          {
+            "1984": 2
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 2
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          116,
+          117,
+          118,
+          119,
+          120,
+          121
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 55.26533333333334,
+            "p95": 55.44475,
+            "p99": 55.463350000000005,
+            "min": 55.031,
+            "max": 55.468
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 55.16116666666667,
+            "p95": 55.46825,
+            "p99": 55.54325,
+            "min": 54.875,
+            "max": 55.562
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 55.3435,
+            "p95": 55.5385,
+            "p99": 55.5573,
+            "min": 55.125,
+            "max": 55.562
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 23.541666666666668,
+            "p95": 25.28125,
+            "p99": 25.75625,
+            "min": 22.5,
+            "max": 25.875
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1822.8333333333333,
+            "p95": 1980.75,
+            "p99": 1983.35,
+            "min": 1356.5,
+            "max": 1984.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 64.16666666666667,
+            "p95": 79.0,
+            "p99": 79.0,
+            "min": 52.0,
+            "max": 79.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1651": 1,
+            "1728": 2,
+            "1958": 1,
+            "1984": 2
+          },
+          {
+            "1651": 1,
+            "1728": 1,
+            "1958": 1,
+            "1984": 3
+          },
+          {
+            "1651": 1,
+            "1728": 1,
+            "1958": 1,
+            "1984": 3
+          },
+          {
+            "1651": 1,
+            "1728": 1,
+            "1958": 1,
+            "1984": 3
+          },
+          {
+            "1984": 5,
+            "729": 1
+          },
+          {
+            "1984": 5,
+            "729": 1
+          },
+          {
+            "1984": 5,
+            "729": 1
+          },
+          {
+            "1984": 5,
+            "729": 1
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    },
+    {
+      "block": 3,
+      "position": 3,
+      "variant": "R0",
+      "n": 100,
+      "first_start_utc_ns": 1792721100941339689,
+      "last_input_complete_utc_ns": 1792721103121788473,
+      "start_utc": "2026-10-23T02:05:00.941340+00:00",
+      "end_utc": "2026-10-23T02:05:03.121789+00:00",
+      "input_ready_ms": {
+        "n": 100,
+        "mean": 8.69350594,
+        "p95": 9.218885250000001,
+        "p99": 9.31681398
+      },
+      "cpu_submit_ms": {
+        "n": 100,
+        "mean": 8.027296820000002,
+        "p95": 8.4540987,
+        "p99": 8.5954134
+      },
+      "cuda_event_span_ms": {
+        "n": 100,
+        "mean": 8.453328652381897,
+        "p95": 8.95677399635315,
+        "p99": 9.06489688873291
+      },
+      "telemetry_inside_segment": {
+        "n": 5,
+        "gpu_frequency_mhz_counts": {
+          "918.0": 5
+        },
+        "raw_gpu_load_stats": {
+          "n": 5,
+          "mean": 615.4,
+          "p95": 712.8,
+          "p99": 724.96,
+          "min": 538.0,
+          "max": 728.0
+        },
+        "unlabeled_sysfs_thermal_zone_C": {
+          "/sys/class/thermal/thermal_zone0/temp": {
+            "n": 5,
+            "mean": 55.13099999999999,
+            "p95": 55.324400000000004,
+            "p99": 55.33928,
+            "min": 54.906,
+            "max": 55.343
+          },
+          "/sys/class/thermal/thermal_zone1/temp": {
+            "n": 5,
+            "mean": 55.7248,
+            "p95": 56.212199999999996,
+            "p99": 56.26724,
+            "min": 55.375,
+            "max": 56.281
+          },
+          "/sys/class/thermal/thermal_zone2/temp": {
+            "n": 5,
+            "mean": 53.612,
+            "p95": 53.968199999999996,
+            "p99": 54.04324,
+            "min": 53.25,
+            "max": 54.062
+          },
+          "/sys/class/thermal/thermal_zone3/temp": {
+            "n": 5,
+            "mean": 51.868399999999994,
+            "p95": 52.074400000000004,
+            "p99": 52.08928,
+            "min": 51.656,
+            "max": 52.093
+          },
+          "/sys/class/thermal/thermal_zone4/temp": {
+            "n": 5,
+            "mean": 50.8558,
+            "p95": 51.0182,
+            "p99": 51.053239999999995,
+            "min": 50.781,
+            "max": 51.062
+          },
+          "/sys/class/thermal/thermal_zone5/temp": {
+            "n": 5,
+            "mean": 53.099599999999995,
+            "p95": 53.2436,
+            "p99": 53.24872,
+            "min": 52.937,
+            "max": 53.25
+          },
+          "/sys/class/thermal/thermal_zone6/temp": {
+            "n": 5,
+            "mean": 53.39960000000001,
+            "p95": 53.5184,
+            "p99": 53.52848,
+            "min": 53.25,
+            "max": 53.531
+          },
+          "/sys/class/thermal/thermal_zone7/temp": {
+            "n": 5,
+            "mean": 53.37480000000001,
+            "p95": 53.3998,
+            "p99": 53.404759999999996,
+            "min": 53.343,
+            "max": 53.406
+          },
+          "/sys/class/thermal/thermal_zone8/temp": {
+            "n": 5,
+            "mean": 55.687200000000004,
+            "p95": 56.212199999999996,
+            "p99": 56.26724,
+            "min": 55.375,
+            "max": 56.281
+          }
+        }
+      },
+      "tegrastats_whole_seconds_contained": {
+        "n": 4,
+        "line_numbers": [
+          122,
+          123,
+          124,
+          125
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 4,
+            "mean": 55.54650000000001,
+            "p95": 55.677699999999994,
+            "p99": 55.68514,
+            "min": 55.406,
+            "max": 55.687
+          },
+          "CPU_temp_C": {
+            "n": 4,
+            "mean": 55.12475,
+            "p95": 55.302699999999994,
+            "p99": 55.31014,
+            "min": 54.937,
+            "max": 55.312
+          },
+          "tj_temp_C": {
+            "n": 4,
+            "mean": 55.54650000000001,
+            "p95": 55.677699999999994,
+            "p99": 55.68514,
+            "min": 55.406,
+            "max": 55.687
+          },
+          "cpu_mean_load_percent": {
+            "n": 4,
+            "mean": 23.78125,
+            "p95": 24.3,
+            "p99": 24.36,
+            "min": 23.125,
+            "max": 24.375
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 4,
+            "mean": 1798.25,
+            "p95": 1817.5,
+            "p99": 1817.5,
+            "min": 1779.0,
+            "max": 1817.5
+          },
+          "gpu_load_percent": {
+            "n": 4,
+            "mean": 59.25,
+            "p95": 66.35,
+            "p99": 67.67,
+            "min": 56.0,
+            "max": 68.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1574": 2,
+            "1651": 2
+          },
+          {
+            "1574": 2,
+            "1651": 2
+          },
+          {
+            "1574": 2,
+            "1651": 2
+          },
+          {
+            "1574": 2,
+            "1651": 2
+          },
+          {
+            "1984": 4
+          },
+          {
+            "1984": 4
+          },
+          {
+            "1984": 4
+          },
+          {
+            "1984": 4
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 4
+        },
+        "power_rail_samples": 0
+      },
+      "tegrastats_possible_boundary_overlap": {
+        "n": 6,
+        "line_numbers": [
+          120,
+          121,
+          122,
+          123,
+          124,
+          125
+        ],
+        "stats": {
+          "GPU_temp_C": {
+            "n": 6,
+            "mean": 55.473666666666674,
+            "p95": 55.671499999999995,
+            "p99": 55.6839,
+            "min": 55.281,
+            "max": 55.687
+          },
+          "CPU_temp_C": {
+            "n": 6,
+            "mean": 55.13516666666666,
+            "p95": 55.296499999999995,
+            "p99": 55.3089,
+            "min": 54.937,
+            "max": 55.312
+          },
+          "tj_temp_C": {
+            "n": 6,
+            "mean": 55.473666666666674,
+            "p95": 55.671499999999995,
+            "p99": 55.6839,
+            "min": 55.281,
+            "max": 55.687
+          },
+          "cpu_mean_load_percent": {
+            "n": 6,
+            "mean": 23.666666666666668,
+            "p95": 24.25,
+            "p99": 24.35,
+            "min": 23.125,
+            "max": 24.375
+          },
+          "cpu_mean_frequency_mhz": {
+            "n": 6,
+            "mean": 1833.5,
+            "p95": 1928.0,
+            "p99": 1947.2,
+            "min": 1779.0,
+            "max": 1952.0
+          },
+          "gpu_load_percent": {
+            "n": 6,
+            "mean": 62.333333333333336,
+            "p95": 76.25,
+            "p99": 78.45,
+            "min": 56.0,
+            "max": 79.0
+          }
+        },
+        "cpu_core_frequency_mhz_counts": [
+          {
+            "1574": 2,
+            "1651": 2,
+            "1728": 2
+          },
+          {
+            "1574": 2,
+            "1651": 2,
+            "1728": 1,
+            "1984": 1
+          },
+          {
+            "1574": 2,
+            "1651": 2,
+            "1728": 1,
+            "1984": 1
+          },
+          {
+            "1574": 2,
+            "1651": 2,
+            "1728": 1,
+            "1984": 1
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          },
+          {
+            "1984": 6
+          }
+        ],
+        "tegra_gpu_frequency_text_counts": {
+          "0": 6
+        },
+        "power_rail_samples": 0
+      }
+    }
+  ],
+  "graph_evidence": {
+    "capture_count": 1,
+    "calls": 2111,
+    "replay_count": 2111,
+    "input_update_count": 2111,
+    "output_clone_count": 2111,
+    "fallback_count": 0,
+    "last_error": null,
+    "cleanup_error": null,
+    "expected_calls_from_protocol": "1 startup + 50 profile + 300 initial warm + 16*(10 segment warm+100 measured)=2111",
+    "final_close_reported": true,
+    "caveat": "Final pre-close Graph status is active; successful final cleanup comes from status.json, not allocation flags in pre-close summary. No B5 long stability result."
+  },
+  "vpi": {
+    "version": "2.4.8",
+    "input_format": "BGR8",
+    "input_shape": [
+      376,
+      672,
+      3
+    ],
+    "resized_wh": [
+      640,
+      358
+    ],
+    "backends": {
+      "CUDA": {
+        "supported": false,
+        "error": "ValueError: VPI_ERROR_INVALID_IMAGE_FORMAT: Unsupported input format: VPI_IMAGE_FORMAT_BGR8",
+        "cleanup_error": null,
+        "failed_phase": "submit",
+        "decision": "exclude_direct_BGR_probe_failed"
+      },
+      "VIC": {
+        "supported": false,
+        "error": "ValueError: VPI_ERROR_INVALID_IMAGE_FORMAT: Input image format not supported: VPI_IMAGE_FORMAT_BGR8",
+        "cleanup_error": null,
+        "failed_phase": "submit",
+        "decision": "exclude_direct_BGR_probe_failed"
+      }
+    },
+    "conclusion": "Both CUDA and VIC rejected direct VPI_IMAGE_FORMAT_BGR8 rescale in this installed VPI2.4.8 path. No numerical or timing success was measured. This excludes the tested direct BGR path only; it does not show that VPI in supported formats or other algorithms is useless. NV12 or format-conversion paths were intentionally not developed/tested."
+  }
+}

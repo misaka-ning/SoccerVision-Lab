@@ -1,0 +1,54 @@
+{
+  "python": "/home/nvidia/miniconda3/envs/soccer_perception/bin/python",
+  "packages": {
+    "numpy": "1.23.5",
+    "opencv-python": "4.12.0.88",
+    "torch": "2.0.0+nv23.5",
+    "torchvision": "0.15.0",
+    "ultralytics": "8.3.159",
+    "tensorrt": "8.5.2.2"
+  },
+  "specs": {
+    "ultralytics": "/home/nvidia/.local/lib/python3.8/site-packages/ultralytics/__init__.py",
+    "vpi": "/usr/lib/python3/dist-packages/vpi.cpython-38-aarch64-linux-gnu.so",
+    "cv2": "/home/nvidia/.local/lib/python3.8/site-packages/cv2/__init__.py",
+    "torch": "/home/nvidia/.local/lib/python3.8/site-packages/torch/__init__.py"
+  },
+  "files": {
+    "/home/nvidia/.local/lib/python3.8/site-packages/ultralytics/engine/predictor.py": "f3cceb8193fdd5e87075e1a5f0133f710fdc69ebb02883c3cb73b3c5c4418d35",
+    "/home/nvidia/.local/lib/python3.8/site-packages/ultralytics/data/augment.py": "671aa9e9d58a00b01b51885af91fcc56b732b1d9418fd8259b836cb61fc92eb8",
+    "/home/nvidia/.local/lib/python3.8/site-packages/ultralytics/models/yolo/detect/predict.py": "c9252c7487fc770d346f35a17313758d9c0b58a3d14f633bf8ded334bde8e33a"
+  },
+  "data": {
+    "old_root_entries": [
+      "stage0_engine_system_attempt1",
+      "audit",
+      "stage0_detector_r3_attempt1",
+      "frozen_models",
+      "phase1_20261022T031913Z_260f0c",
+      "stage0_golden_attempt1",
+      "stage0_detector_r2_attempt1",
+      "extra",
+      "scripts",
+      "phase4_combo_correctness_20261022T083338Z_a40d24",
+      "inputs",
+      "phase2_20261022T040942Z_f1ef07",
+      "phase3_target_20261022T074056Z_ae65c6",
+      "phase5_combo_performance_20261022T090140Z_4d6d9a",
+      "stage0_detector_r1_attempt1",
+      "smoke_detector",
+      "phase2_20261022T040320Z_552071"
+    ],
+    "golden_exists": true
+  },
+  "installed_matches": {
+    "adapters/yolo.py": true,
+    "optimizations/graph.py": true,
+    "optimizations/postprocess.py": true,
+    "optimizations/preprocess.py": true,
+    "pipeline.py": true,
+    "adapters/zed.py": true
+  },
+  "vpi_packages": "libnvvpi2 2.4.8\nnvidia-vpi 5.1.5-b11\nnvidia-vpi-dev 5.1.5-b11\npython3-vpi2 \npython3.8-vpi2 2.4.8\npython3.9-vpi2 2.4.8\nvpi-dev \nvpi2-demos 2.4.8\nvpi2-dev 2.4.8\nvpi2-samples 2.4.8\n",
+  "cuda_candidates": []
+}

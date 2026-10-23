@@ -81,7 +81,12 @@ bash script/model-evaluation/evaluate.sh
 bash script/model-evaluation/evaluate.sh --split test
 ```
 
-结果默认保存在 `experiments/eval/`，包括Markdown报告、JSON/CSV指标、逐图错误清单及默认PNG图表（可用 `--formats svg` / `--formats pdf` 切换）。若输入 `baseline/original_best.pt` 这个COCO多类参考模型，应在启动命令后加 `--class-id 32`。完整指标口径和参数见 [评估说明](model-evaluation/README.md)。
+结果默认保存在 `experiments/eval/`，包括Markdown报告、JSON/CSV指标、逐图错误清单及默认PNG图表（可用 `--formats svg` / `--formats pdf` 切换）。若输入 `baseline/E0_original_best.pt` 这个COCO多类参考模型，应在启动命令后加 `--class-id 32`。完整指标口径和参数见 [评估说明](model-evaluation/README.md)。
+
+固定步长阈值扫描可运行 `bash script/model-evaluation/threshold_scan.sh`，按提示选择缓存或输入模型；
+Python入口为 `model-evaluation/threshold_scan.py`，扫描 `0.05:0.01:0.95` 共91个工作点，
+输出 TP/FP/FN、Precision/Recall/F1 的完整表格和性能曲线。支持 `--eval-dir` 复用已有评估缓存，
+或 `--model` 先推理一次，运行示例见 [阈值扫描说明](model-evaluation/README.md#固定步长阈值扫描)。
 
 ### repository：校验和准备数据
 

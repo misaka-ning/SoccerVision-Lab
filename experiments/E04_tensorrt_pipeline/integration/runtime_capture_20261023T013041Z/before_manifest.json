@@ -1,0 +1,10 @@
+[
+  {
+    "path": "docs/e04_a2_graph.md",
+    "before_sha256": "bf92a00ca2ecf4a0d8694e214903bccbfe7a0cacd6dbc088450d7ce84618116d"
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_e04_runtime.py",
+    "before_sha256": "1812ea78fa30095192ed1917a824407d2c667ac8d03602e0871d12261009e9d1"
+  }
+]

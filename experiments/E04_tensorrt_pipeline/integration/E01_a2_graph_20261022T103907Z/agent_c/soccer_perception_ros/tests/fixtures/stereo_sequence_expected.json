@@ -1,0 +1,917 @@
+[
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.0,
+      "valid": true,
+      "confidence": 1.0,
+      "x_m": 1.8,
+      "y_m": -0.0,
+      "z_m": -0.0
+    },
+    "mode": "TRACKED",
+    "velocity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "measurement": {
+      "x_front": 1.8,
+      "y_left": -0.0,
+      "z_up": -0.0
+    },
+    "reject_reasons": []
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.0333333333333334,
+      "valid": true,
+      "confidence": 1.0,
+      "x_m": 1.8,
+      "y_m": -0.0016500000000000002,
+      "z_m": 0.0
+    },
+    "mode": "TRACKED",
+    "velocity": [
+      0.0,
+      -0.01619999999999995,
+      0.0
+    ],
+    "measurement": {
+      "x_front": 1.8,
+      "y_left": -0.003,
+      "z_up": -0.0
+    },
+    "reject_reasons": []
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.0666666666666667,
+      "valid": true,
+      "confidence": 1.0,
+      "x_m": 1.8,
+      "y_m": -0.0042854999999999985,
+      "z_m": 0.0
+    },
+    "mode": "TRACKED",
+    "velocity": [
+      0.0,
+      -0.03677400000000004,
+      0.0
+    ],
+    "measurement": {
+      "x_front": 1.8,
+      "y_left": -0.006,
+      "z_up": -0.0
+    },
+    "reject_reasons": []
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.1,
+      "valid": true,
+      "confidence": 1.0,
+      "x_m": 1.8,
+      "y_m": -0.007430085000000003,
+      "z_m": 0.0
+    },
+    "mode": "TRACKED",
+    "velocity": [
+      0.0,
+      -0.05561297999999997,
+      0.0
+    ],
+    "measurement": {
+      "x_front": 1.8,
+      "y_left": -0.009000000000000001,
+      "z_up": -0.0
+    },
+    "reject_reasons": []
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.1333333333333333,
+      "valid": true,
+      "confidence": 0.925,
+      "x_m": 1.8,
+      "y_m": -0.009283850999999996,
+      "z_m": 0.0
+    },
+    "mode": "OCCLUDED_PREDICT",
+    "velocity": [
+      0.0,
+      -0.047271032999999976,
+      0.0
+    ],
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.1666666666666667,
+      "valid": true,
+      "confidence": 0.85,
+      "x_m": 1.8,
+      "y_m": -0.0108595521,
+      "z_m": 0.0
+    },
+    "mode": "OCCLUDED_PREDICT",
+    "velocity": [
+      0.0,
+      -0.04018037804999998,
+      0.0
+    ],
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.2,
+      "valid": true,
+      "confidence": 0.775,
+      "x_m": 1.8,
+      "y_m": -0.012198898034999994,
+      "z_m": 0.0
+    },
+    "mode": "OCCLUDED_PREDICT",
+    "velocity": [
+      0.0,
+      -0.03415332134249998,
+      0.0
+    ],
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.2333333333333334,
+      "valid": true,
+      "confidence": 0.7,
+      "x_m": 1.8,
+      "y_m": -0.013337342079749997,
+      "z_m": 0.0
+    },
+    "mode": "OCCLUDED_PREDICT",
+    "velocity": [
+      0.0,
+      -0.029030323141124983,
+      0.0
+    ],
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.2666666666666666,
+      "valid": true,
+      "confidence": 0.625,
+      "x_m": 1.8,
+      "y_m": -0.014305019517787492,
+      "z_m": 0.0
+    },
+    "mode": "OCCLUDED_PREDICT",
+    "velocity": [
+      0.0,
+      -0.024675774669956234,
+      0.0
+    ],
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.3,
+      "valid": true,
+      "confidence": 0.55,
+      "x_m": 1.8,
+      "y_m": -0.01512754534011937,
+      "z_m": 0.0
+    },
+    "mode": "OCCLUDED_PREDICT",
+    "velocity": [
+      0.0,
+      -0.0209744084694628,
+      0.0
+    ],
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.3333333333333333,
+      "valid": true,
+      "confidence": 0.4750000000000001,
+      "x_m": 1.8,
+      "y_m": -0.01582669228910146,
+      "z_m": 0.0
+    },
+    "mode": "OCCLUDED_PREDICT",
+    "velocity": [
+      0.0,
+      -0.017828247199043377,
+      0.0
+    ],
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.3666666666666667,
+      "valid": true,
+      "confidence": 0.3999999999999999,
+      "x_m": 1.8,
+      "y_m": -0.01642096719573624,
+      "z_m": 0.0
+    },
+    "mode": "OCCLUDED_PREDICT",
+    "velocity": [
+      0.0,
+      -0.015154010119186871,
+      0.0
+    ],
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.4,
+      "valid": true,
+      "confidence": 0.32499999999999996,
+      "x_m": 1.8,
+      "y_m": -0.0169261008663758,
+      "z_m": 0.0
+    },
+    "mode": "OCCLUDED_PREDICT",
+    "velocity": [
+      0.0,
+      -0.01288090860130884,
+      0.0
+    ],
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.4333333333333333,
+      "valid": true,
+      "confidence": 0.25,
+      "x_m": 1.8,
+      "y_m": -0.01735546448641943,
+      "z_m": 0.0
+    },
+    "mode": "OCCLUDED_PREDICT",
+    "velocity": [
+      0.0,
+      -0.010948772311112513,
+      0.0
+    ],
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.4666666666666668,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.5,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.5333333333333332,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.5666666666666667,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.6,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.6333333333333333,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.6666666666666665,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.7,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.7333333333333334,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.7666666666666666,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.8,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.8333333333333335,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.8666666666666667,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.9,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.9333333333333333,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 1.9666666666666668,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.0,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.033333333333333,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.0666666666666664,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.1,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.1333333333333333,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.166666666666667,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.2,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.2333333333333334,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.2666666666666666,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.3,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.333333333333333,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.3666666666666667,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.4,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.4333333333333336,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.466666666666667,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.5,
+      "valid": false,
+      "confidence": 0.0,
+      "x_m": null,
+      "y_m": null,
+      "z_m": null
+    },
+    "mode": "LOST",
+    "velocity": null,
+    "measurement": null,
+    "reject_reasons": [
+      "missing_stereo_pair"
+    ]
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.533333333333333,
+      "valid": true,
+      "confidence": 1.0,
+      "x_m": 1.8,
+      "y_m": -0.03,
+      "z_m": 0.015
+    },
+    "mode": "TRACKED",
+    "velocity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "measurement": {
+      "x_front": 1.8,
+      "y_left": -0.03,
+      "z_up": 0.015
+    },
+    "reject_reasons": []
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.5666666666666664,
+      "valid": true,
+      "confidence": 1.0,
+      "x_m": 1.8,
+      "y_m": -0.03,
+      "z_m": 0.015
+    },
+    "mode": "TRACKED",
+    "velocity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "measurement": {
+      "x_front": 1.8,
+      "y_left": -0.03,
+      "z_up": 0.015
+    },
+    "reject_reasons": []
+  },
+  {
+    "payload": {
+      "type": "ball_position_camera",
+      "timestamp": 2.6,
+      "valid": true,
+      "confidence": 1.0,
+      "x_m": 1.8,
+      "y_m": -0.03,
+      "z_m": 0.015
+    },
+    "mode": "TRACKED",
+    "velocity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "measurement": {
+      "x_front": 1.8,
+      "y_left": -0.03,
+      "z_up": 0.015
+    },
+    "reject_reasons": []
+  }
+]

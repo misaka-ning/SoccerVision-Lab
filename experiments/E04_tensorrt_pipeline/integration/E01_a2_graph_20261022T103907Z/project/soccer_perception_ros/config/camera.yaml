@@ -1,0 +1,25 @@
+# ZED 相机采集、打开重试与图像设置。
+# 由 camera_deploy.yaml 统一列出；同一参数只在一个文件中定义。
+soccer_perception_ros:
+  ros__parameters:
+    # ZED 分辨率：VGA 速度快；HD720/HD1080 细节更多但更耗算力。
+    zed_resolution: VGA
+    # 相机请求帧率；0 由 SDK 自动选择，不保证最高帧率。ZED Mini VGA 可设 100。
+    # 实际帧率以启动日志为准；ROS 输出仍由 deploy_packet_rate_hz 和处理速度限制。
+    zed_fps: 100
+
+    # 相机打开失败时的重试次数。
+    zed_open_retries: 5
+    # 每次重试间隔，单位 s。
+    zed_open_retry_delay: 1.0
+    # ZED 图像参数：unchanged 表示保持当前相机/SDK 设置；-1 表示恢复该项自动值。
+    zed_brightness: unchanged
+    zed_contrast: unchanged
+    zed_hue: unchanged
+    zed_saturation: unchanged
+    zed_sharpness: unchanged
+    zed_gain: unchanged
+    zed_exposure: unchanged
+    zed_whitebalance_temperature: unchanged
+    # ZED LED：unchanged 表示不改；0 关闭；1 开启。
+    zed_led_status: unchanged

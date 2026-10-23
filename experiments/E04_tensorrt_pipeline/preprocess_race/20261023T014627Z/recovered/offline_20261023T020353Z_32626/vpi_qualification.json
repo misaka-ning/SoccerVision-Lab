@@ -1,0 +1,44 @@
+{
+  "scope": "one-shot direct BGR8 resize qualification; no pipeline speed claim",
+  "vpi_version": "2.4.8",
+  "input_format": "BGR8",
+  "backends": {
+    "CUDA": {
+      "supported": false,
+      "exact": null,
+      "strict_race_qualified": false,
+      "completed_resize_wall_ms": null,
+      "host_to_host_wall_ms": null,
+      "error": "ValueError: VPI_ERROR_INVALID_IMAGE_FORMAT: Unsupported input format: VPI_IMAGE_FORMAT_BGR8",
+      "cleanup_error": null,
+      "failed_phase": "submit",
+      "decision": "exclude_direct_BGR_probe_failed"
+    },
+    "VIC": {
+      "supported": false,
+      "exact": null,
+      "strict_race_qualified": false,
+      "completed_resize_wall_ms": null,
+      "host_to_host_wall_ms": null,
+      "error": "ValueError: VPI_ERROR_INVALID_IMAGE_FORMAT: Input image format not supported: VPI_IMAGE_FORMAT_BGR8",
+      "cleanup_error": null,
+      "failed_phase": "submit",
+      "decision": "exclude_direct_BGR_probe_failed"
+    }
+  },
+  "interpolation": "LINEAR",
+  "border": "CLAMP",
+  "conversion": "none",
+  "timing": "cold submit/allocation + stream.sync; host wall also includes owned copies and host access",
+  "production_candidate_approved": false,
+  "input_shape": [
+    376,
+    672,
+    3
+  ],
+  "resized_wh": [
+    640,
+    358
+  ],
+  "status": "complete"
+}

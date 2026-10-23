@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "production_modified": false,
+  "camera_opened": false,
+  "ros_published": false,
+  "decision": "stop_resize_letterbox",
+  "winner": null,
+  "production_hashes_unchanged": true,
+  "cleanup_passed": true
+}

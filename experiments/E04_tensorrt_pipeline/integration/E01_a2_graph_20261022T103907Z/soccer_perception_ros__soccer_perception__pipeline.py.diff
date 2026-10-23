@@ -1,0 +1,29 @@
+--- robot/soccer_perception_ros/soccer_perception/pipeline.py
++++ candidate/soccer_perception_ros/soccer_perception/pipeline.py
+@@ -104,9 +104,16 @@
+         try:
+             self.source.close()
+         finally:
+-            self.visualizer.close()
+-            self._started = False
+-            self._visualization_frame = None
++            try:
++                close_detector = getattr(self.detector, "close", None)
++                if callable(close_detector):
++                    close_detector()
++            finally:
++                try:
++                    self.visualizer.close()
++                finally:
++                    self._started = False
++                    self._visualization_frame = None
+ 
+     def next_packet(self) -> FramePacket | None:
+         """处理下一帧并生成定位结果；输入结束时返回 None。"""
+@@ -321,4 +328,5 @@
+             trt_batch=self.config.yolo_trt_batch,
+             trt_dynamic=self.config.yolo_trt_dynamic,
+             trt_workspace_gb=self.config.yolo_trt_workspace_gb,
+-        )
++            optimization=self.config.yolo_optimization,
++        )

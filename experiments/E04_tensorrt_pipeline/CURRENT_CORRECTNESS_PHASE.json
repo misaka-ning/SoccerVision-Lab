@@ -1,0 +1,15 @@
+{
+  "phase_id": "phase1_20261022T031913Z_260f0c",
+  "phase_local": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/runs/20261022T020842Z_78f1b7/phase1_20261022T031913Z_260f0c",
+  "phase_remote": "/home/nvidia/soccer_backend_tensorrt/results/E04_tensorrt_pipeline/20261022T020842Z_78f1b7/phase1_20261022T031913Z_260f0c",
+  "archive": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/runs/20261022T020842Z_78f1b7/phase1_20261022T031913Z_260f0c.tar.gz",
+  "archive_sha256": "f196660b259d0fb688ecf946663e15f358f3feaf793d32eb8c03aea1a5290be5",
+  "archive_bytes": 61001,
+  "status": "validated_for_single_component_benchmark",
+  "integration_commit": "e0672063ed58446a9ed3ecec59ad854380f5795b",
+  "manifest_sha256": "16d34236f9cf8f6ad7206afe6ad7b263102d6222b20a17506ae85e2f77d9ab43",
+  "gpu_tests_run": true,
+  "correctness_approved": true,
+  "recovery_archive_sha256": "f92a95877e40e7d19605b91ab6a6cee13d8f345894688a38b1b867ae3332d922",
+  "review_sha256": "b6a487fc960ea91c5c1c5cd903df7a952224cc40b74ffae286f725a17dff635b"
+}

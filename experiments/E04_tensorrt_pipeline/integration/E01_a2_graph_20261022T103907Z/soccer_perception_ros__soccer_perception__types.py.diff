@@ -1,0 +1,10 @@
+--- robot/soccer_perception_ros/soccer_perception/types.py
++++ candidate/soccer_perception_ros/soccer_perception/types.py
+@@ -321,6 +321,7 @@
+     device: str
+     half: bool
+     yolo_tensorrt: bool
++    yolo_optimization: str
+     yolo_engine_path: Path | None
+     yolo_trt_batch: int
+     yolo_trt_dynamic: bool

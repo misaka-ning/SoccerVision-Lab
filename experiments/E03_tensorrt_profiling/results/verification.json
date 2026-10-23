@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "archive": {
+    "status": "passed",
+    "archive": "result_bundle.tar.gz",
+    "archive_bytes": 264248794,
+    "archive_sha256": "7ec6706e503327a44006951a78c9684402dd98c2bc7960654a0a957a6c5b004f",
+    "verified_files": 625,
+    "sum_file_bytes": 518248932,
+    "completed_utc": "2026-10-21T10:19:06.086746+00:00",
+    "note": "Archive SHA matches remote. All manifest file sizes and SHA256 match after safe extraction. Analysis snapshot is preserved before local recomputation."
+  },
+  "readback_numeric_fields_reconciled": 118,
+  "profile_groups": 4,
+  "profile_repeats_each": 3,
+  "all_layer_rows_have_three_repeats": true,
+  "all_module_percentages_sum_to_100": true,
+  "correctness_comparisons_passed": 4,
+  "production_artifacts_unchanged": 12,
+  "trace_quality": {
+    "legacy_smoke2": true,
+    "legacy_steady": true,
+    "legacy_graph2": true,
+    "detector_steady": true,
+    "legacy_graph": false
+  },
+  "legacy_metadata": "Layer names only: internal shape/dtype/tactic unavailable; not substituted from new engines",
+  "detailed_top20_io_and_tactic_coverage": "20/20 for E01 and E02",
+  "local_final_checks": {
+    "status": "passed",
+    "markdown_links": 72,
+    "python_syntax": true,
+    "top20_order_and_metadata": true,
+    "interval_union_and_gap_api_overlap": true,
+    "detector_phase_partition": true,
+    "completed_utc": "2026-10-21T10:30:46.608205+00:00"
+  }
+}

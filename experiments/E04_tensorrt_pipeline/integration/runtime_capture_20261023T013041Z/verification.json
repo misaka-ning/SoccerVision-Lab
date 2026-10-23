@@ -1,0 +1,25 @@
+{
+  "request": "每次运行在正式推理前默认捕获一次，不在build_project.sh捕获",
+  "runtime_change_required": false,
+  "default_mode": "a2_graph",
+  "modified_files": [
+    "docs/e04_a2_graph.md",
+    "soccer_perception_ros/tests/test_e04_runtime.py"
+  ],
+  "runtime_tests": {
+    "total": 16,
+    "passed": 16,
+    "failed": 0,
+    "skipped": 0
+  },
+  "runtime_file_sha256": {
+    "deployment/build_project.sh": "e22fc103b1b6aca5e400dc0bb8eec54aa404a732945aa7f97c1cc10427822583",
+    "soccer_perception_ros/soccer_perception/adapters/yolo.py": "43660a6a4288dd5b7bcac8567415181dc350150d3fd84611825ac39ba575c1be",
+    "soccer_perception_ros/soccer_perception/optimizations/graph.py": "85aee1a4427bb6c558273f87d34a6a349a148a7b2f0b4b97b7d6ab190ad6f695",
+    "soccer_perception_ros/config/detector.yaml": "6839bcddad7ee28a913370fb60a07109ee6ee7377eebaaab596db715c67dff57"
+  },
+  "robot_check": "SSH No route to host; no new remote changes",
+  "previous_robot_deployment": "E01_a2_graph_20261022T103907Z already contains this startup capture policy",
+  "gpu_run_started": false,
+  "production_started": false
+}

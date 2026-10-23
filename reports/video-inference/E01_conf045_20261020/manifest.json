@@ -1,0 +1,162 @@
+{
+  "created_utc": "2026-10-20T03:18:57.224026+00:00",
+  "purpose": "从数据集来源录像选取的定性演示，不是独立测试集评测；保留实际漏检和误检，无人工增删检测框。",
+  "source": {
+    "path": "/home/misaka/temp/nvidia-recordings-20261013-181531/stereo_20261013_181531_750945_d976724b06a247158bb023f3675e05b4_first27min.avi",
+    "sha256": "4bec9c343db729281ab4becf1e79d99effa7a333eb99cac7fd0872fe61509b09",
+    "total_frames": 24300,
+    "width": 1344,
+    "height": 376,
+    "fps": 15,
+    "audio": false
+  },
+  "model": {
+    "path": "/home/misaka/workspace/experiments/E01_yolo26s_single_class_finetune/E01_best.pt",
+    "sha256": "285c198aff043fe7e7486515dbdc1a2cc02db5daf9a0f55f8ce3c6cabf2743ac",
+    "names": {
+      "0": "football"
+    },
+    "run_id": "20261019T092432Z_s42_853c4a"
+  },
+  "inference": {
+    "conf": 0.45,
+    "imgsz": 640,
+    "rect": false,
+    "nms": true,
+    "nms_iou": 0.7,
+    "max_det": 300,
+    "device": "NVIDIA GeForce RTX 4060",
+    "precision": "FP32",
+    "stereo": "separate inference for each 672x376 eye; boxes offset onto 1344x376 source",
+    "all_output_frames_inferred": true,
+    "tracking": false,
+    "temporal_smoothing": false
+  },
+  "encoding": {
+    "codec": "H.264/libx264",
+    "pixel_format": "yuv420p",
+    "crf": 18,
+    "fps": 15,
+    "width": 1344,
+    "height": 376,
+    "original_montage": "同一片段、原速、无框无文字，H.264重编码",
+    "annotated": "逐帧模型框、类别和分数，含源录像时间"
+  },
+  "duration_seconds": 180,
+  "output_frame_count": 2700,
+  "clips": [
+    {
+      "clip": 1,
+      "source_start_seconds": 215,
+      "source_end_seconds": 245,
+      "source_start": "03:35",
+      "source_end": "04:05",
+      "duration_seconds": 30,
+      "output_start_seconds": 0.0,
+      "output_end_seconds": 30.0,
+      "source_first_frame": 3225,
+      "source_end_frame_exclusive": 3675,
+      "selection_reason": "近处球及距离变化"
+    },
+    {
+      "clip": 2,
+      "source_start_seconds": 335,
+      "source_end_seconds": 365,
+      "source_start": "05:35",
+      "source_end": "06:05",
+      "duration_seconds": 30,
+      "output_start_seconds": 30.0,
+      "output_end_seconds": 60.0,
+      "source_first_frame": 5025,
+      "source_end_frame_exclusive": 5475,
+      "selection_reason": "脚部遮挡与近距离交互"
+    },
+    {
+      "clip": 3,
+      "source_start_seconds": 540,
+      "source_end_seconds": 565,
+      "source_start": "09:00",
+      "source_end": "09:25",
+      "duration_seconds": 25,
+      "output_start_seconds": 60.0,
+      "output_end_seconds": 85.0,
+      "source_first_frame": 8100,
+      "source_end_frame_exclusive": 8475,
+      "selection_reason": "中距离球及机器人交互"
+    },
+    {
+      "clip": 4,
+      "source_start_seconds": 690,
+      "source_end_seconds": 715,
+      "source_start": "11:30",
+      "source_end": "11:55",
+      "duration_seconds": 25,
+      "output_start_seconds": 85.0,
+      "output_end_seconds": 110.0,
+      "source_first_frame": 10350,
+      "source_end_frame_exclusive": 10725,
+      "selection_reason": "相机运动与运动模糊"
+    },
+    {
+      "clip": 5,
+      "source_start_seconds": 990,
+      "source_end_seconds": 1020,
+      "source_start": "16:30",
+      "source_end": "17:00",
+      "duration_seconds": 30,
+      "output_start_seconds": 110.0,
+      "output_end_seconds": 140.0,
+      "source_first_frame": 14850,
+      "source_end_frame_exclusive": 15300,
+      "selection_reason": "远处小球及人员交互"
+    },
+    {
+      "clip": 6,
+      "source_start_seconds": 1085,
+      "source_end_seconds": 1100,
+      "source_start": "18:05",
+      "source_end": "18:20",
+      "duration_seconds": 15,
+      "output_start_seconds": 140.0,
+      "output_end_seconds": 155.0,
+      "source_first_frame": 16275,
+      "source_end_frame_exclusive": 16500,
+      "selection_reason": "无球及复杂人偶背景"
+    },
+    {
+      "clip": 7,
+      "source_start_seconds": 1290,
+      "source_end_seconds": 1315,
+      "source_start": "21:30",
+      "source_end": "21:55",
+      "duration_seconds": 25,
+      "output_start_seconds": 155.0,
+      "output_end_seconds": 180.0,
+      "source_first_frame": 19350,
+      "source_end_frame_exclusive": 19725,
+      "selection_reason": "脚部遮挡及球的移动"
+    }
+  ],
+  "detections": {
+    "total_boxes": 4150,
+    "frames_with_detections": 2034
+  },
+  "runtime": {
+    "torch": "2.9.1+cu128",
+    "ultralytics": "8.4.173",
+    "opencv": "4.11.0",
+    "elapsed_seconds": 45.54389866499696
+  },
+  "outputs": {
+    "original_montage": {
+      "path": "/home/misaka/workspace/reports/video-inference/E01_conf045_20261020/original_montage.mp4",
+      "bytes": 49700238,
+      "sha256": "846fad8cf068e9f0e63cab84b2bffdbd7237785db41a5b1d52bbda9f66d4c456"
+    },
+    "E01_conf045_boxes": {
+      "path": "/home/misaka/workspace/reports/video-inference/E01_conf045_20261020/E01_conf045_boxes.mp4",
+      "bytes": 47866645,
+      "sha256": "a5d02aff23e36afeb7f704434519db50b8b6346829a89bca9878ea9d988107b6"
+    }
+  }
+}

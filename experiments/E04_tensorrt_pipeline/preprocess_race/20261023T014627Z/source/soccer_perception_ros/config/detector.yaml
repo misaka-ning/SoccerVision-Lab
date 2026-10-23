@@ -1,0 +1,41 @@
+# YOLO 检测、推理设备与 TensorRT 加速。
+# 由 camera_deploy.yaml 统一列出；同一参数只在一个文件中定义。
+soccer_perception_ros:
+  ros__parameters:
+    # 检测置信度阈值；越低越不漏检，但误检更多。
+    det_conf: 0.45
+    # E01 单类别部署 Engine；显式 .engine 只加载现有文件，不导出或重建。
+    yolo_model: models/E01_baseline.engine
+    # E01 的足球类别为 0。
+    yolo_class_ids: "0"
+    # 人体模型备选配置，需要时取消注释并注释上面的足球配置。
+    # det_conf: 0.65
+    # yolo_model: models/yolo8.pt
+    # yolo_class_ids: "0"
+
+    # 每目保留的候选框数量；漏检时可调大，误检/耗时高时调小。
+    yolo_top_k: 5
+    # YOLO 输入尺寸；越大越容易识别远处小球，但推理更慢。
+    imgsz: 640
+
+    # CPU 备选配置。
+    # device: "cpu"
+    # half: false
+    # 推理设备；cuda:0 表示第一张 NVIDIA GPU。
+    device: "cuda:0"
+    # GPU 半精度推理；通常可提速，结果异常时改 false。
+    half: true
+    # 是否使用 TensorRT engine 加速 YOLO。
+    yolo_tensorrt: true
+    # 独立回退：none=原实现，a2=仅结果回传，graph=仅Graph，a2_graph=两者。
+    yolo_optimization: "a2_graph"
+    # 复用机器人现有 E01 Engine，与 yolo_model 指向同一文件。
+    yolo_engine_path: "models/E01_baseline.engine"
+    # TensorRT 最大 batch；双目同帧左右图建议至少 2。
+    yolo_trt_batch: 2
+    # 是否使用动态输入尺寸/批量；固定部署场景通常 false 更稳定。
+    yolo_trt_dynamic: false
+    # TensorRT workspace 大小，单位 GiB；负数表示自动选择。
+    yolo_trt_workspace_gb: -1
+    # 是否禁用 cuDNN；GPU 初始化不稳定时可临时设 true。
+    disable_cudnn: false

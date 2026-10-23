@@ -1,0 +1,153 @@
+{
+  "scope": "Local read-only source/history feasibility audit; no SSH, GPU, VPI execution or production edits",
+  "robot_audit": {
+    "source": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/runtime_audit.tar.gz:audit.json",
+    "ultralytics": "8.3.159",
+    "torch": "2.0.0+nv23.5",
+    "tensorrt": "8.5.2.2",
+    "opencv": "4.12.0.88",
+    "installed_source_matches": true,
+    "vpi": {
+      "module_spec": "/usr/lib/python3/dist-packages/vpi.cpython-38-aarch64-linux-gnu.so",
+      "libnvvpi2": "2.4.8",
+      "python3.8-vpi2": "2.4.8",
+      "runtime_backend_probe": "root reports VPI2.4.8 import success; Image.rescale out/size/factor API present; direct BGR CUDA/VIC result pending",
+      "caveat": "Package/spec presence does not establish import, CUDA/VIC resize support, numerical equivalence or Torch interop."
+    }
+  },
+  "participation": [
+    {
+      "candidate": "legacy_opencv_canvas_and_device_reuse",
+      "decision": "eligible_for_correctness_then_short_serial_screen",
+      "implementation": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/adapters/fast_preprocess.py",
+      "reason": "Existing ReusablePreprocessor retains cv2.INTER_LINEAR and exact letterbox geometry; destination ROI removes full-image padding copies; GPU uint8/FP32 buffers are reused. It is not GPU resize.",
+      "history": "Old E02 report records 160 ball images with exact same-device GPU preprocessing; old measurement conditions are not current-race timing.",
+      "numerics": "Preserve uint8 OpenCV resize, Python round, padding +/-0.1, 114 fill, RGB BCHW, FP32 GPU division by 255. Require current 61-Val same-device input exact comparison before timing.",
+      "lifetime": "Returned uint8/FP32 storage is borrowed and overwritten next call. One helper per serialized predictor, original smart_inference_mode, blocking H2D. Do not retain returned FP32 tensors as Golden references without cloning.",
+      "graph_compatibility": "Existing Graph copies current input on its owned stream, then returns a clone and queues caller.wait_stream. Next preprocess updates on that same caller stream follow the wait; no asynchronous/different-stream overwrite is allowed. Do not wrap reuse inside Graph capture or change Graph stable buffers."
+    },
+    {
+      "candidate": "e04_c2_host_pack_only",
+      "decision": "eligible_reference_candidate_with_startup_shape_gate",
+      "implementation": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/optimizations/preprocess.py",
+      "reason": "Already verified exact 61-Val and R5 combination; safe host reuse with per-call FP32 output. Leaves original pre_transform and GPU conversion intact, so historical local saving was only about 0.3-0.4 ms.",
+      "lifetime": "Host pack is blocking H2D, no pinned asynchronous DMA; FP32 output is independent per call, Graph input-update semantics preserved.",
+      "startup_shape_risk": "Current detector.load performs startup with two 640x640 black images. If c2 is installed before that call it freezes input_shapes=640x640; later real VGA input falls back. Install after detector.load and first warmup on actual Val geometry, or exclude startup from shape freezing without modifying candidate silently.",
+      "gate": "Check effective=c2, success_count and zero fallback on measured actual frames. Do not label fallback timing as candidate performance."
+    },
+    {
+      "candidate": "torch_bilinear_resize",
+      "decision": "exclude_from_exact_race",
+      "implementation": "/home/misaka/soccer_backend_tensorrt/experiments/E02_trt_realtime_p1_p4/tools/compare_resize_numerical.py",
+      "reason": "Existing code is a CPU numerical screen, not an integrated GPU preprocessing candidate. It already differs from OpenCV uint8 INTER_LINEAR.",
+      "numerical_evidence": {
+        "source": "/home/misaka/soccer_backend_tensorrt/experiments/E02_trt_realtime_p1_p4/results/agent_c_torch_resize_numerical.json",
+        "scope": "CPU Torch2.4.1/OpenCV5.0 screening only; no GPU timing",
+        "images": 65,
+        "different_channel_pixels": 4729766,
+        "total_channel_pixels": 44678400,
+        "different_fraction": 0.10586247493195818,
+        "max_abs_uint8": 1,
+        "resize_wh": [
+          640,
+          358
+        ],
+        "mode": "bilinear",
+        "align_corners": false,
+        "antialias": false,
+        "round_to_uint8": true
+      },
+      "gate": "Do not claim numerical equivalence or speedup. A future approximate-numerics experiment would need separate authorization, input/raw/detection/localization validation and full H2D/cast/normalization timing."
+    },
+    {
+      "candidate": "vpi_cuda_resize",
+      "decision": "pending_direct_BGR_qualification_probe_only",
+      "reason": "VPI2.4.8 is installed, but searched actual project/source and old E02 tools contain no VPI resize/letterbox implementation. Do not develop complex interop from scratch for this quick race.",
+      "gates": [
+        "Root import/backend probe must succeed.",
+        "Only include if a short existing API/sample can be reused within current scope.",
+        "Require exact OpenCV geometry and quantified uint8 differences; reject exact-race mismatch.",
+        "Measure input upload, rescale, output access/transfer and FP32 normalization, not resize submission alone."
+      ],
+      "graph_risks": [
+        "VPI image memory/lock lifetime must cover consumer use.",
+        "Producer completion on VPI stream must be established before Torch caller stream or Graph-owned stream reads.",
+        "No assumed zero-copy from NumPy to VPI to Torch; retain host/device owners.",
+        "Existing Graph captures TensorRT enqueue only; keep VPI and transfers outside that capture."
+      ],
+      "probe": "agents/b/vpi_probe.py; CUDA/VIC individually attempted, no conversion fallback"
+    },
+    {
+      "candidate": "vpi_vic_resize",
+      "decision": "pending_direct_BGR_qualification_probe_only",
+      "reason": "Package presence alone does not establish this image format/rescale on VIC. No project implementation exists; backend/format and numerical gates precede any timing.",
+      "graph_risks": [
+        "VIC completion needs explicit consumer dependency.",
+        "Format/pitch/color conversion and memory mapping must preserve original BGR pixels.",
+        "VIC resource time and CPU waits are outside Engine CUDA-event timing."
+      ],
+      "probe": "agents/b/vpi_probe.py; CUDA/VIC individually attempted, no conversion fallback"
+    },
+    {
+      "candidate": "new_custom_cuda_or_cvcuda_kernel",
+      "decision": "exclude_no_existing_implementation",
+      "reason": "No reusable .cu/.cpp, cv2.cuda, CV-CUDA, CuPy RawKernel or VPI implementation found in scoped project paths. New complex GPU kernel/interop development is out of the quick-race scope."
+    }
+  ],
+  "benchmark_reuse_notes": {
+    "entry": "/home/misaka/soccer_backend_tensorrt/experiments/E02_trt_realtime_p1_p4/tools/benchmark_preprocess.py",
+    "can_reuse": "Existing baseline vs ReusablePreprocessor exact checks and interleaved isolated preprocess comparison.",
+    "limitations": [
+      "Defaults CPU, 30 warmup, 100 samples; root must set actual agreed race protocol.",
+      "CUDA synchronize before/after each sample yields completed isolated preprocess wall time, not asynchronous production-pipeline latency.",
+      "No Engine, Graph, A2, camera, ROS or downstream localization in this worker; cannot claim complete detector/system gain.",
+      "Default generated data is synthetic VGA; supply frozen applicable Val pairs, never frozen Test."
+    ]
+  },
+  "evidence": [
+    "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/AGENT_C_REPORT.md",
+    "/home/misaka/soccer_backend_tensorrt/experiments/E02_trt_realtime_p1_p4/AGENT_C_REPORT.md",
+    "/home/misaka/soccer_backend_tensorrt/experiments/E02_trt_realtime_p1_p4/CORRECTNESS_REPORT.md"
+  ],
+  "new_measurements": "none",
+  "final_gate": "Only count completed correct same-device preprocess wall time; retain Graph update/clone cost in full detector scope. If best repeated saving is below root threshold, stop rather than force GPU/VPI development.",
+  "vpi_qualification_probe": {
+    "implementation": "agents/b/vpi_probe.py",
+    "entry": "probe(image, resized_wh) -> JSON-serializable dict",
+    "execution": "Only runs upon explicit coordinator offline-worker call, under coordinator GPU lock and process timeout; never submitted locally.",
+    "path": "owned contiguous host BGR8 -> vpi.asimage(format=BGR8) -> rescale(size, LINEAR, CLAMP, explicit backend+stream) -> stream.sync -> owned CPU output",
+    "wall_metrics": [
+      "completed_resize_wall_ms: rescale submission/allocation through explicit stream completion",
+      "host_to_host_wall_ms: cold setup, protected input copy, rescale/sync and owned host result copy"
+    ],
+    "decision": "Format/backend error or any nonzero pixel difference excludes direct-BGR exact-race path. A single-image exact success is qualification only, not formal candidate approval.",
+    "scope_limits": [
+      "No NV12/color conversion, Torch interop, custom CUDA, Graph changes or production hook.",
+      "Source and output retained through sync/host read; sync failure retains owners, aborts remaining backend, and rejects subsequent probe calls in that worker.",
+      "Cold single-image times are not warmed preprocessing or end-to-end performance evidence."
+    ],
+    "local_verification": "Python3.8 AST passed; four CPU/mock tests passed (invalid input, exact unchanged source, unsupported backend, failed sync/retained ownership). No real VPI/GPU execution.",
+    "primary_sources": [
+      {
+        "title": "VPI2.4 Image.rescale Python API",
+        "url": "https://docs.nvidia.com/vpi/2.4/python/build/vpi.Image.rescale.html",
+        "support": "Explicit size(width,height), backend, interpolation, border and stream parameters."
+      },
+      {
+        "title": "VPI2.4 asimage Python API",
+        "url": "https://docs.nvidia.com/vpi/2.4/python/build/vpi.asimage.html",
+        "support": "Host NumPy image wrapping with explicit format."
+      },
+      {
+        "title": "VPI2.4 Stream Python API",
+        "url": "https://docs.nvidia.com/vpi/2.4/python/build/vpi.Stream.html",
+        "support": "Asynchronous stream execution needs sync to complete."
+      },
+      {
+        "title": "VPI2.4 Rescale sample",
+        "url": "https://docs.nvidia.com/vpi/2.4/sample_rescale.html",
+        "support": "Official sample performs NV12_ER conversion and host read; probe deliberately avoids the conversion to test direct BGR qualification only."
+      }
+    ]
+  }
+}

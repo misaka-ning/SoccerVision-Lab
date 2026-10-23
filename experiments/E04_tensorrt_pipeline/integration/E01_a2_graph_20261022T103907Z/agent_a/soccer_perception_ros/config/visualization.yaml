@@ -1,0 +1,30 @@
+# Viser 可视化；SDK 深度仅用于显示点云，不参与足球测距。
+# 由 camera_deploy.yaml 统一列出；同一参数只在一个文件中定义。
+soccer_perception_ros:
+  ros__parameters:
+    # 是否启用 viser Web 可视化。
+    zed_viser_enabled: false
+    # viser 监听地址。
+    zed_viser_host: 0.0.0.0
+    # viser Web 端口。
+    zed_viser_port: 8080
+    # viser 是否显示左目图像。
+    zed_viser_show_image: true
+    # viser 是否显示 SDK 点云。
+    zed_viser_show_point_cloud: false
+    # 仅控制 Viser 显示所需的 ZED SDK 深度，不是足球测距算法。
+    # 仅当 zed_viser_enabled 和 zed_viser_show_point_cloud 都为 true 时生效。
+    # NONE 关闭点云；显示点云可设 QUALITY（也支持 PERFORMANCE/ULTRA/NEURAL）。
+    zed_depth_mode: NONE
+    # viser 图像显示采样步长。
+    zed_viser_image_stride: 2
+    # viser 点云采样步长。
+    zed_viser_pc_stride: 4
+    # viser 单帧点云最大点数。
+    zed_viser_pc_max_points: 80000
+    # viser 点云点大小。
+    zed_viser_pc_point_size: 0.006
+    # viser 点云显示最大深度，单位 m。
+    zed_viser_max_depth_m: 8.0
+    # viser 中球体显示半径，单位 m。
+    zed_viser_ball_radius_m: 0.07

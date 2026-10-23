@@ -1,0 +1,9 @@
+{
+  "source": "/home/misaka/soccer_backend_tensorrt",
+  "project": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/integration/E01_a2_graph_20261022T103907Z/project",
+  "id": "E01_a2_graph_20261022T103907Z",
+  "original_head": "5ef358e9b7df2edcf36d4618d3e2b6aad70e0812",
+  "original_branch": "dev",
+  "preserve_existing_dirty_changes": true,
+  "models_copied": false
+}

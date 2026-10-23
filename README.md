@@ -66,7 +66,7 @@ cd /home/misaka/workspace
 
 原始版本YAML保留历史路径；工具会按共享配置生成适配当前工作空间的运行YAML。正式训练前应完成审核或另行整理已确认子集；YOLO 训练不会自动读取 metadata 审核标记来筛选样本。
 
-`baseline/original_best.pt` 为参考权重，使用前需要核对实际类别映射。统一训练入口与 YAML 配置见 [模型训练说明](script/model-training/README.md)，默认按单类足球数据集微调 YOLO26s，结果保存到 `experiments/train/`。
+`baseline/E0_original_best.pt` 为参考权重，使用前需要核对实际类别映射。统一训练入口与 YAML 配置见 [模型训练说明](script/model-training/README.md)，默认按单类足球数据集微调 YOLO26s，结果保存到 `experiments/train/`。
 
 ## 模型评估
 

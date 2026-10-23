@@ -1,0 +1,11 @@
+{
+  "status": "paused_by_user",
+  "utc": "2026-10-22T10:12:17.008164+00:00",
+  "scope": "All further E04/E05 experiments and production adoption; completed evidence review/report permitted",
+  "completed_phase": "phase5_combo_performance_20261022T090140Z_4d6d9a",
+  "completed_performance_jobs": 100,
+  "b5_completed": false,
+  "production_adopted": false,
+  "automatic_monitoring": false,
+  "resume_requires_new_user_request": true
+}

@@ -1,0 +1,170 @@
+--- robot/soccer_perception_ros/soccer_perception/adapters/yolo.py
++++ candidate/soccer_perception_ros/soccer_perception/adapters/yolo.py
+@@ -6,6 +6,8 @@
+ 
+ from __future__ import annotations
+ 
++import json
++import os
+ import sys
+ from abc import ABC, abstractmethod
+ from collections.abc import Sequence
+@@ -118,6 +120,7 @@
+         trt_batch: int = 2,
+         trt_dynamic: bool = False,
+         trt_workspace_gb: float | None = None,
++        optimization: str = "none",
+     ):
+         self.model_path = model_path
+         self.conf = conf
+@@ -130,6 +133,13 @@
+         self.trt_batch = max(1, int(trt_batch))
+         self.trt_dynamic = trt_dynamic
+         self.trt_workspace_gb = trt_workspace_gb
++        from soccer_perception.optimizations import variants_for_mode
++
++        variants_for_mode(optimization)
++        self.optimization = optimization
++        self._optimization_handle = None
++        self._last_optimization_status = None
++        self._optimization_warning_emitted = False
+         self.model = None
+         self.runtime_model_path = model_path
+         self.names: dict[int, str] = {}
+@@ -139,6 +149,11 @@
+     def load(self) -> None:
+         """延迟加载 YOLO 模型，避免只导入模块时触发重依赖。"""
+ 
++        self._check_optimization_settings()
++        if self.model is not None or self._optimization_handle is not None:
++            self.close()
++        self._optimization_warning_emitted = False
++        self._last_optimization_status = None
+         try:
+             from ultralytics import YOLO
+         except ModuleNotFoundError as exc:
+@@ -157,7 +172,99 @@
+             self.model = YOLO(str(load_path), task="detect")
+         else:
+             self.model = YOLO(str(load_path))
++        from soccer_perception.adapters.optimization import experimental_predictor_class
++
++        predictor_class = experimental_predictor_class()
++        if predictor_class is not None:
++            # Configure before reading model.names: Ultralytics 8.3.159 creates
++            # the TensorRT predictor while resolving names, before predict().
++            setup_overrides = dict(self.model.overrides)
++            setup_overrides.update(imgsz=self.imgsz, conf=self.conf, verbose=False)
++            if self.class_ids:
++                setup_overrides["classes"] = self.class_ids
++            if load_path.suffix.lower() != ".engine":
++                if self.device:
++                    setup_overrides["device"] = self.device
++                setup_overrides["half"] = self.half
++            self.model.predictor = predictor_class(
++                overrides=setup_overrides, _callbacks=self.model.callbacks,
++            )
++            self.model.predictor.setup_model(model=self.model.model, verbose=False)
+         self.names = self._safe_model_names()
++        if self.optimization != "none":
++            try:
++                self._initialize_optimizations()
++            except BaseException:
++                # Installation and discarded startup work never become a ROS
++                # result. Release any owned context/stream on partial failure.
++                try:
++                    self.close()
++                except Exception as cleanup_error:
++                    print("E04 optimization cleanup failed: %s" % cleanup_error, file=sys.stderr)
++                raise
++
++    def _check_optimization_settings(self) -> None:
++        if self.optimization == "none":
++            return
++        defaults = {"SOCCER_YOLO_POSTPROCESS": "baseline", "SOCCER_YOLO_NMS": "torch",
++                    "SOCCER_YOLO_PREPROCESS": "baseline"}
++        conflicts = {key: os.environ[key] for key, default in defaults.items()
++                     if os.environ.get(key, default) != default}
++        if conflicts:
++            raise ValueError("yolo_optimization cannot be combined with legacy predictor options: %r" % conflicts)
++
++    def _prediction_kwargs(self) -> dict:
++        kwargs = {"conf": self.conf, "imgsz": self.imgsz, "verbose": False}
++        if self.class_ids:
++            kwargs["classes"] = self.class_ids
++        if self.device and self.runtime_model_path.suffix.lower() != ".engine":
++            kwargs["device"] = self.device
++        if self.half and self.runtime_model_path.suffix.lower() != ".engine":
++            kwargs["half"] = True
++        if self.optimization != "none":
++            # Keep the E04 letterbox contract. Baseline/legacy kwargs retain
++            # their original behavior when the new switch is disabled.
++            kwargs["rect"] = False
++        return kwargs
++
++    def _initialize_optimizations(self) -> None:
++        from soccer_perception.optimizations import install_pipeline, variants_for_mode
++
++        images = [np.zeros((self.imgsz, self.imgsz, 3), dtype=np.uint8)
++                  for _ in range(self.trt_batch)]
++        kwargs = self._prediction_kwargs()
++        # Initialize the real predictor/backend before attaching any hooks.
++        # Both this baseline result and the capture/warmup result are discarded.
++        self.model.predict(images, **kwargs)
++        self._optimization_handle = install_pipeline(self, variants_for_mode(self.optimization))
++        self.model.predict(images, **kwargs)
++        self._optimization_handle.synchronize()
++        print("E04 optimization initialized: " + json.dumps(self.optimization_status(), ensure_ascii=False),
++              file=sys.stderr)
++        self._warn_optimization_fallback()
++
++    def optimization_status(self) -> dict:
++        state = self._last_optimization_status
++        if self._optimization_handle is not None:
++            state = self._optimization_handle.describe()
++        return {"mode": self.optimization, "enabled": self._optimization_handle is not None, "state": state}
++
++    def _warn_optimization_fallback(self) -> None:
++        if self._optimization_handle is None or self._optimization_warning_emitted:
++            return
++        state = self._optimization_handle.describe()
++        if any(value.get("fallback_count", 0) for value in state["components"].values()):
++            self._optimization_warning_emitted = True
++            print("E04 optimization fallback (original path retained): " +
++                  json.dumps(self.optimization_status(), ensure_ascii=False), file=sys.stderr)
++
++    def close(self) -> None:
++        """Restore owned hooks before dropping model references; retry on error."""
++        if self._optimization_handle is not None:
++            self._optimization_handle.restore()
++            self._last_optimization_status = self._optimization_handle.describe()
++            self._optimization_handle = None
++        self.model = None
+ 
+     def _safe_model_names(self) -> dict[int, str]:
+         """Read Ultralytics class names without forcing TensorRT setup to fail."""
+@@ -243,18 +350,16 @@
+             raise RuntimeError("YoloBallDetector.load() must be called before detect().")
+         if not frames:
+             return []
+-        kwargs = {"conf": self.conf, "imgsz": self.imgsz, "verbose": False}
+-        if self.class_ids:
+-            kwargs["classes"] = self.class_ids
+-        if self.device and self.runtime_model_path.suffix.lower() != ".engine":
+-            kwargs["device"] = self.device
+-        if self.half and self.runtime_model_path.suffix.lower() != ".engine":
+-            kwargs["half"] = True
+-        results = self.model.predict(list(frames), **kwargs)
++        results = self.model.predict(list(frames), **self._prediction_kwargs())
++        self._warn_optimization_fallback()
+ 
+         return [self._result_to_candidates(result, top_k=top_k) for result in results]
+ 
+     def _result_to_candidates(self, result, top_k: int | None = None) -> list[BallDetection]:
++        from soccer_perception.adapters.fast_postprocess import FastDetectionResult, rows_to_candidates
++
++        if isinstance(result, FastDetectionResult):
++            return rows_to_candidates(result.rows, names=self.names, top_k=top_k)
+         if result.boxes is None or len(result.boxes) == 0:
+             return []
+ 

@@ -1,0 +1,171 @@
+test_candidates (unittest.loader._FailedTest) ... ERROR
+test_all_final_boxes_checked_before_topk (test_correctness.CorrectnessTests) ... ERROR
+test_candidate_exception_keeps_traceback_and_restores_before_close (test_correctness.CorrectnessTests) ... ERROR
+test_changed_candidate_fails_without_hiding_or_excluding_other_candidate (test_correctness.CorrectnessTests) ... ERROR
+test_r0_failure_writes_report_then_raises (test_correctness.CorrectnessTests) ... ERROR
+test_real_pipeline_exact_and_safe_restore_every_variant (test_correctness.CorrectnessTests) ... ERROR
+test_snapshot_owns_raw_storage_and_checks_dtype_shape_bytes (test_correctness.CorrectnessTests) ... ERROR
+test_baseline_drift_larger_than_saved_cost_stops (test_race.DecisionTests) ... ok
+test_below_one_ms_stops_even_if_fastest (test_race.DecisionTests) ... ok
+test_mean_improves_but_tail_regresses_is_not_selected (test_race.DecisionTests) ... ok
+test_one_block_regression_rejects_aggregate_speedup (test_race.DecisionTests) ... ok
+test_winner_requires_at_least_one_ms_for_stereo_pair (test_race.DecisionTests) ... ok
+
+======================================================================
+ERROR: test_candidates (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_candidates
+Traceback (most recent call last):
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/tools/test_candidates.py", line 42, in <module>
+    ReferencePredictor = reference_predictor_class()
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/tools/test_candidates.py", line 27, in reference_predictor_class
+    augment = ast.parse((ROOT / "audit/library/data/augment.py").read_text())
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1236, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/audit/library/data/augment.py'
+
+
+======================================================================
+ERROR: test_all_final_boxes_checked_before_topk (test_correctness.CorrectnessTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/tools/test_correctness.py", line 157, in setUp
+    self.config = replace(config_from_ros_params(), zed_viser_enabled=False,
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 124, in config_from_ros_params
+    params = _read_deployment_params()
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 40, in _read_deployment_params
+    params = load_deployment_parameters(path)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 83, in load_deployment_parameters
+    for path in deployment_parameter_paths(manifest_path):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 56, in deployment_parameter_paths
+    document = _read_yaml(manifest)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 29, in _read_yaml
+    with path.open(encoding='utf-8') as stream:
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/source/soccer_perception_ros/config/camera_deploy.yaml'
+
+======================================================================
+ERROR: test_candidate_exception_keeps_traceback_and_restores_before_close (test_correctness.CorrectnessTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/tools/test_correctness.py", line 157, in setUp
+    self.config = replace(config_from_ros_params(), zed_viser_enabled=False,
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 124, in config_from_ros_params
+    params = _read_deployment_params()
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 40, in _read_deployment_params
+    params = load_deployment_parameters(path)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 83, in load_deployment_parameters
+    for path in deployment_parameter_paths(manifest_path):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 56, in deployment_parameter_paths
+    document = _read_yaml(manifest)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 29, in _read_yaml
+    with path.open(encoding='utf-8') as stream:
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/source/soccer_perception_ros/config/camera_deploy.yaml'
+
+======================================================================
+ERROR: test_changed_candidate_fails_without_hiding_or_excluding_other_candidate (test_correctness.CorrectnessTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/tools/test_correctness.py", line 157, in setUp
+    self.config = replace(config_from_ros_params(), zed_viser_enabled=False,
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 124, in config_from_ros_params
+    params = _read_deployment_params()
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 40, in _read_deployment_params
+    params = load_deployment_parameters(path)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 83, in load_deployment_parameters
+    for path in deployment_parameter_paths(manifest_path):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 56, in deployment_parameter_paths
+    document = _read_yaml(manifest)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 29, in _read_yaml
+    with path.open(encoding='utf-8') as stream:
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/source/soccer_perception_ros/config/camera_deploy.yaml'
+
+======================================================================
+ERROR: test_r0_failure_writes_report_then_raises (test_correctness.CorrectnessTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/tools/test_correctness.py", line 157, in setUp
+    self.config = replace(config_from_ros_params(), zed_viser_enabled=False,
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 124, in config_from_ros_params
+    params = _read_deployment_params()
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 40, in _read_deployment_params
+    params = load_deployment_parameters(path)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 83, in load_deployment_parameters
+    for path in deployment_parameter_paths(manifest_path):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 56, in deployment_parameter_paths
+    document = _read_yaml(manifest)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 29, in _read_yaml
+    with path.open(encoding='utf-8') as stream:
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/source/soccer_perception_ros/config/camera_deploy.yaml'
+
+======================================================================
+ERROR: test_real_pipeline_exact_and_safe_restore_every_variant (test_correctness.CorrectnessTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/tools/test_correctness.py", line 157, in setUp
+    self.config = replace(config_from_ros_params(), zed_viser_enabled=False,
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 124, in config_from_ros_params
+    params = _read_deployment_params()
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 40, in _read_deployment_params
+    params = load_deployment_parameters(path)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 83, in load_deployment_parameters
+    for path in deployment_parameter_paths(manifest_path):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 56, in deployment_parameter_paths
+    document = _read_yaml(manifest)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 29, in _read_yaml
+    with path.open(encoding='utf-8') as stream:
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/source/soccer_perception_ros/config/camera_deploy.yaml'
+
+======================================================================
+ERROR: test_snapshot_owns_raw_storage_and_checks_dtype_shape_bytes (test_correctness.CorrectnessTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/tools/test_correctness.py", line 157, in setUp
+    self.config = replace(config_from_ros_params(), zed_viser_enabled=False,
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 124, in config_from_ros_params
+    params = _read_deployment_params()
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/ros/node.py", line 40, in _read_deployment_params
+    params = load_deployment_parameters(path)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 83, in load_deployment_parameters
+    for path in deployment_parameter_paths(manifest_path):
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 56, in deployment_parameter_paths
+    document = _read_yaml(manifest)
+  File "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/source/soccer_perception_ros/soccer_perception/resources.py", line 29, in _read_yaml
+    with path.open(encoding='utf-8') as stream:
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/home/misaka/miniconda3/envs/soccer_perception/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/source/soccer_perception_ros/config/camera_deploy.yaml'
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.016s
+
+FAILED (errors=7)

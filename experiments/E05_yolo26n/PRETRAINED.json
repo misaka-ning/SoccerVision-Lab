@@ -1,0 +1,13 @@
+{
+  "model": "official YOLO26n COCO pretrained",
+  "url": "https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.pt",
+  "release": "v8.4.0",
+  "bytes": 5544453,
+  "sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "retrieved_utc": "2026-10-23",
+  "target_class": {
+    "0": "football"
+  },
+  "initialization": "official general pretrained nano; do not use E01 s channel slicing",
+  "upstream_test_exposure": "COCO pretrained; project frozen Test pixels/labels not accessed"
+}

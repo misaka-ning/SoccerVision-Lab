@@ -1,0 +1,377 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "5c9c508356b54fba6d19acc20c44f77fbc372538303897f479b90e1b4652863f",
+    "bytes": 285
+  },
+  {
+    "path": ".soccer_perception_env",
+    "sha256": "481c1d1c35823c3a1859522bfe6f34e214c0abd0cf3be6aa404169d13495cd86",
+    "bytes": 298
+  },
+  {
+    "path": ".vscode/settings.json",
+    "sha256": "dad72bf7fe737c5f91e1277a7a927b178f4c4259a8590d1adc9e8a8953419108",
+    "bytes": 93
+  },
+  {
+    "path": "README.md",
+    "sha256": "9051b10c99393c0669d3741330191027b3bc70abf8a227b09fcb68f3e2fef949",
+    "bytes": 15391
+  },
+  {
+    "path": "deployment/build_engine.sh",
+    "sha256": "d9c03bed0b6cd626475f278e203e187024da87741769af1037faee2e867edafa",
+    "bytes": 1283
+  },
+  {
+    "path": "deployment/build_project.sh",
+    "sha256": "e22fc103b1b6aca5e400dc0bb8eec54aa404a732945aa7f97c1cc10427822583",
+    "bytes": 1085
+  },
+  {
+    "path": "deployment/common.sh",
+    "sha256": "a38597604bbef09a071e32e0ef91d27c273cdeb6572086924930b45e3b84cc15",
+    "bytes": 1803
+  },
+  {
+    "path": "deployment/dependencies.sh",
+    "sha256": "f16280fd17af42ef9ee24e65689b7abfcb933c61093f73e393d2f85c4975799e",
+    "bytes": 1214
+  },
+  {
+    "path": "deployment/migrate_models.py",
+    "sha256": "f64aba9993a485af409ecba9ca7bb0db41d024161d1ad28b8f502adbbf2be161",
+    "bytes": 1849
+  },
+  {
+    "path": "deployment/run_soccer.sh",
+    "sha256": "298135ede57f840733433dfb3b3af42fb0c3d71199d5bcb35ca97505f9ef4c7d",
+    "bytes": 176
+  },
+  {
+    "path": "deployment/setup_dependencies.sh",
+    "sha256": "5848980b9e6f9fc437fd19fbff1e83e4252cb763f63527b72dc450c826d0bb67",
+    "bytes": 28799
+  },
+  {
+    "path": "docs/deployment_jetson.md",
+    "sha256": "53c241b67c12e01227e3b5e9a654f8fce5346a3cbe4fbb8a652a75362e1bfe9c",
+    "bytes": 2992
+  },
+  {
+    "path": "docs/development.md",
+    "sha256": "34e4f81b8badeb2b25e44e821f044afc4253840ca1f9e483535323a4f967ab32",
+    "bytes": 2655
+  },
+  {
+    "path": "docs/maintenance.md",
+    "sha256": "7ed8c5cabfb469643f0ca3ea52dad0b3e3467d96913f978cd51a4942869d5c3d",
+    "bytes": 13543
+  },
+  {
+    "path": "docs/node_code_review.md",
+    "sha256": "28b1fc85621a01147a826fe47ed17b9712beea9575ff32e78c22a34af2a8dd10",
+    "bytes": 7444
+  },
+  {
+    "path": "docs/note.md",
+    "sha256": "48a172ce4072cde514417fef7b7f0624824963eaff9cdbd5faea73a6b92f9b21",
+    "bytes": 5335
+  },
+  {
+    "path": "docs/performance/2026-10-20/current-100fps.md",
+    "sha256": "9e3e7e5a37b6c69f08945d1015a0e1f756c28217f431ce03dc78960b87d61973",
+    "bytes": 1858
+  },
+  {
+    "path": "docs/performance/2026-10-20/profile_baseline.json",
+    "sha256": "929bebb486af6a46fc228e50d5c6380cf61764028c59585fb96fc22c3dd2fe7f",
+    "bytes": 2756
+  },
+  {
+    "path": "docs/performance/2026-10-20/profile_current.json",
+    "sha256": "7efe6b8ae03b86ef03363b2ee807889f9681c8635a7a0e003981d70526814bb3",
+    "bytes": 3060
+  },
+  {
+    "path": "docs/performance/2026-10-20/profile_detail.json",
+    "sha256": "60c1ead52ccb999f14d670dc7a3f206f39d4b7a5cefcda41635ea679f3543fde",
+    "bytes": 3905
+  },
+  {
+    "path": "docs/performance/2026-10-20/profile_no_viser.json",
+    "sha256": "2c837fc145ecfd02c9e04a3d3e4e9efd112c1dfda2d12dd8f39e798f3dd3692d",
+    "bytes": 2616
+  },
+  {
+    "path": "docs/performance/2026-10-20/profile_post.json",
+    "sha256": "3afb271c4d4af367d3e4849c84fc0318c88c4ff47d03a9984678f6fd49b1e01f",
+    "bytes": 5165
+  },
+  {
+    "path": "docs/performance/2026-10-20/report.md",
+    "sha256": "ec4f4225d5b479b9893926554d5706efb28aa768450a437b1378b90a9a343201",
+    "bytes": 3627
+  },
+  {
+    "path": "requirements/common.txt",
+    "sha256": "f232e33d66390a04c700561a085b963dbeb04e250bfed3d6a1247de3484173ab",
+    "bytes": 105
+  },
+  {
+    "path": "requirements/test.txt",
+    "sha256": "a3cbd0b771d69a6c18f5de0c95fcac7cc87b37200afdf007d9a00f317191debe",
+    "bytes": 108
+  },
+  {
+    "path": "soccer_perception_ros/CMakeLists.txt",
+    "sha256": "e76efaed03c1cd774a31a7f0be04cee79a3d84acd9863a31dc9d455461b37361",
+    "bytes": 1200
+  },
+  {
+    "path": "soccer_perception_ros/config/camera.yaml",
+    "sha256": "fe7c178a2497a870ca336f29df42752843875d178247f87ec5b943278d8aabf3",
+    "bytes": 1086
+  },
+  {
+    "path": "soccer_perception_ros/config/camera_deploy.yaml",
+    "sha256": "9d203b9485e3656df554eb76fdd7b3613bd4a4615fdb367db0982a6eb3d4dd8e",
+    "bytes": 605
+  },
+  {
+    "path": "soccer_perception_ros/config/detector.yaml",
+    "sha256": "ec3f2180634e7aaeec72738320b43f0a7dafa28c99ff27148205b6438407290a",
+    "bytes": 1704
+  },
+  {
+    "path": "soccer_perception_ros/config/ros.yaml",
+    "sha256": "b1bbfc3e28c905e38e549259be2530b723b47dd21589cd873bd5303426e1632e",
+    "bytes": 1136
+  },
+  {
+    "path": "soccer_perception_ros/config/stereo.yaml",
+    "sha256": "d2371844df3ec014c07ca6bac25431975c2723ae8aba735564c0673fe08b86af",
+    "bytes": 2857
+  },
+  {
+    "path": "soccer_perception_ros/config/tracking.yaml",
+    "sha256": "805c02dc2dffeb47c83ad2fc8aa625f127d2e58495f4b0903c58aa3954bcf054",
+    "bytes": 676
+  },
+  {
+    "path": "soccer_perception_ros/config/visualization.yaml",
+    "sha256": "63a03660c69cb951ce76b20c5fc0332d431c778179fab423aca8db96abb2b3f9",
+    "bytes": 1257
+  },
+  {
+    "path": "soccer_perception_ros/launch/soccer_perception.launch.py",
+    "sha256": "46c2b52bafab24581db6a9d1f00fa929971e9696b30dfa45240e76711b5b4a6b",
+    "bytes": 1021
+  },
+  {
+    "path": "soccer_perception_ros/models/README.md",
+    "sha256": "54ed6ff2096936950aadab7c6ce0463df9a2cca4af9e2222cc0b086cf7b1a365",
+    "bytes": 1728
+  },
+  {
+    "path": "soccer_perception_ros/package.xml",
+    "sha256": "67e36a7155f5c441efc0a1a7e8f2bd9e3d7c82da987fd95df3f3815c45cba29b",
+    "bytes": 932
+  },
+  {
+    "path": "soccer_perception_ros/scripts/soccer_perception_ros_node.py",
+    "sha256": "ba4b3bd755d98ae9c376e7b6c1daebecc7548e5fc5da3627193950e79908ebb2",
+    "bytes": 5857
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/__init__.py",
+    "sha256": "c564e33afab7fe4ea5a8038ef4bcf6eb85ec9041d36d2d8eed60fef4fa42b2e0",
+    "bytes": 43
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/adapters/__init__.py",
+    "sha256": "0fbcb9255d808d68e979c3270c1ff3da475b6be03734a5a57ee5e893584eb265",
+    "bytes": 52
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/adapters/fast_postprocess.py",
+    "sha256": "a062a9cabebe22610eaf1b848db6ffa939eb376a69105794dd193763c5c3da49",
+    "bytes": 7718
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/adapters/fast_preprocess.py",
+    "sha256": "59dc1e9eb3c9cb5f8f4d5586361490dd8ae5d67d2c4411d3d127e09061505310",
+    "bytes": 6295
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/adapters/nms_backends.py",
+    "sha256": "9baa8d8e6714d82773b1b3c4fa55926494ac3cc0a79719605255dbc1d3a4b9f8",
+    "bytes": 5426
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/adapters/optimization.py",
+    "sha256": "3fec83a17ab9adf0958eccd3e0e4a0214ce68311120c089298d76e5c4ff822b3",
+    "bytes": 2197
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/adapters/viser.py",
+    "sha256": "7affb0a022049d9c95825431abfb16fefc2ee48c0d8df080f546ded13da068d4",
+    "bytes": 6781
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/adapters/yolo.py",
+    "sha256": "bee5617ba8a44fb02a4b8895bfdc581ea03c85351acc71282008255d32824a07",
+    "bytes": 12824
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/adapters/zed.py",
+    "sha256": "fd1eb4814aa6c7e7760573b3e89040b0038cedd2a143d5ea278469b2e28f9f1e",
+    "bytes": 7751
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/core/__init__.py",
+    "sha256": "4c996dcf2a908045130f6446bd172022b41497b59af986fabe4d84a1702ea1d8",
+    "bytes": 71
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/core/candidate_selection.py",
+    "sha256": "a5e81c76f3f6bb76a0f764c1b8258c7009c11837c6f18159c76b53fd3315d35c",
+    "bytes": 27191
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/core/coordinates.py",
+    "sha256": "4da2aa19aa93e757f0337338d85f293890f844d556ad2283a9957ba92aa846dc",
+    "bytes": 656
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/core/geometry.py",
+    "sha256": "d97b978267477100213e132616ce9203e54f834af8a45ce42df9aa17d910673b",
+    "bytes": 2521
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/core/localization.py",
+    "sha256": "e6c8f5be210c19e1a846426a1d0b32327f6bedf1709101c4871358a7b8a966bd",
+    "bytes": 5604
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/core/tracking.py",
+    "sha256": "ad6491393507531e7afd6900ec6239a85232c3b55fda7c879a8eca278fc22b9e",
+    "bytes": 4063
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/model_artifacts.py",
+    "sha256": "3bae96a340bffe4d5577af0fe2aa86af3f333ad4772a3a9ced53396b4394352f",
+    "bytes": 7538
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/pipeline.py",
+    "sha256": "4eca155cdffda3642ca5a3cd2400119e6a2573e2fef053a692c915038753a9e7",
+    "bytes": 14026
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/resources.py",
+    "sha256": "b737696f4c631bf18d39ed00c66ec537d6156eea51c4f233e23f55945a01caa8",
+    "bytes": 5913
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/ros/__init__.py",
+    "sha256": "9bb26fd28684dd5233b44508ab443571a40c8a45f60cdb1af855718f002133d7",
+    "bytes": 57
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/ros/node.py",
+    "sha256": "36fe726f0d91263d885c5c0639da5a69fc3de8d68d7fdc6107473203053455f7",
+    "bytes": 24084
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/ros/output.py",
+    "sha256": "6f8754f492e01c0846f25005535d9e8d5ed6fe6ded5995ca23832f5269f6b212",
+    "bytes": 5584
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/types.py",
+    "sha256": "47b03f46948a6b9e76100181bc450b0587fefcbc879fc27d91b7dafffde28283",
+    "bytes": 12062
+  },
+  {
+    "path": "soccer_perception_ros/tests/__init__.py",
+    "sha256": "4ea0990e1bf203584eae565ea3bb2af3d9f1255b006873a41cb6756e1849a962",
+    "bytes": 37
+  },
+  {
+    "path": "soccer_perception_ros/tests/fixtures/golden_postprocess_8_3_159.py",
+    "sha256": "39810f471b21b46ac07656d54bc0b8d3b6a2d4cea418fc1068eb08e975ce219c",
+    "bytes": 11989
+  },
+  {
+    "path": "soccer_perception_ros/tests/fixtures/stereo_sequence_expected.json",
+    "sha256": "5a5facb34a084d4599c1398f665db1b092d5d90aca756888c4de469fa3505f59",
+    "bytes": 17748
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_candidate_selection.py",
+    "sha256": "7e5c3c2b2f9fd56956e7d4dd5229aab58955523d90399639b6aec05f6fe03798",
+    "bytes": 8262
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_config_files.py",
+    "sha256": "9467c0f62ac835df5904bc3ddcb20f58ca5fdf263952e2311a5b9ac414c2dc58",
+    "bytes": 9416
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_fast_postprocess.py",
+    "sha256": "d7e9e1a6667ec37272053d0f472ded1cab3e1f2e782dd79ba03005e27201bbc1",
+    "bytes": 8230
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_fast_preprocess.py",
+    "sha256": "1047e5e8cba0c94e87e9e01f7e394e955132c156dd2d2c131ec5a485bf75ff5f",
+    "bytes": 8595
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_measurement_localization.py",
+    "sha256": "f630cb39ff52c60c1844dd357d8dd6de1b5cee0f1ab6469c2f7c119b55f732af",
+    "bytes": 7999
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_model_artifacts.py",
+    "sha256": "d94a242d46705d93e844035ad8188cf92ce3f4bdbff8fc6dade13a247a40e399",
+    "bytes": 7426
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_nms_backends.py",
+    "sha256": "2d8dfa6fcb8a8a5a8a3e7c95a58a8d275970bce46fe2b53576ce6a983980d142",
+    "bytes": 4548
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_optimization_integration.py",
+    "sha256": "9e7ff3240c859b571e38567c2e933401172917e5866fdde451a31946d81da426",
+    "bytes": 2302
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_output_scheduler.py",
+    "sha256": "f3256996f49ece3c16dc106464f5999d00173265c16e94116e66240491b12eac",
+    "bytes": 3625
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_pipeline_regression.py",
+    "sha256": "f7525335c001d27f3b9a4f94ea0b54a5799bb3bd15899d97a9c27b8068de5e95",
+    "bytes": 3531
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_resources.py",
+    "sha256": "260ffee94f7dfb822fd31ebf174f647523621dfa326be6dfc8dc248dba90f774",
+    "bytes": 8361
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_ros_config.py",
+    "sha256": "223bd2675b4d588d91014f112e0fcce086ff6eb8f768479bc5765231572fb77d",
+    "bytes": 7971
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_ros_runtime.py",
+    "sha256": "022bb2c03c9c483d9980a016646dd03ca750656b31b258b4e00ef8ee87389e7f",
+    "bytes": 11696
+  }
+]

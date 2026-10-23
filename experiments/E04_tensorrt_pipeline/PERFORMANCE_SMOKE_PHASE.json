@@ -1,0 +1,18 @@
+{
+  "phase_id": "phase2_20261022T040320Z_552071",
+  "phase_local": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/runs/20261022T020842Z_78f1b7/phase2_20261022T040320Z_552071",
+  "phase_remote": "/home/nvidia/soccer_backend_tensorrt/results/E04_tensorrt_pipeline/20261022T020842Z_78f1b7/phase2_20261022T040320Z_552071",
+  "archive": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/runs/20261022T020842Z_78f1b7/phase2_20261022T040320Z_552071.tar.gz",
+  "archive_sha256": "f5b4c8961626730ec6abd5e53af80f02e20816761367d954998d54890c8a8528",
+  "archive_bytes": 24847,
+  "manifest_sha256": "73980616391106a6dc73589e9774d234e13b7e05c009b63fd6b9a77b2a42f033",
+  "status": "smoke_only_no_formal_jobs",
+  "candidate_source_phase": "phase1_20261022T031913Z_260f0c",
+  "default_scopes": [
+    "execution",
+    "detector",
+    "diagnostic"
+  ],
+  "formal_performance_run": false,
+  "smoke_recovery_sha256": "1d23b75bdd39009c95310756f7e32a15b98021969d60a91546fbbf08df227199"
+}

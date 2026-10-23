@@ -1,0 +1,11 @@
+﻿start_offset_ms,end_offset_ms,duration_ms,overlapping_detector_ranges,cpu_api_wall_overlap_ms
+2698.577888,2708.787776,10.209888,detector_candidates_to_cpu; detector_preprocess,0.68304
+1281.25536,1291.321952,10.066592,detector_candidates_to_cpu; detector_preprocess,0.670272
+3842.01952,3851.919232,9.899712,detector_candidates_to_cpu; detector_preprocess,1.119648
+1616.328608,1626.197152,9.868544,detector_candidates_to_cpu; detector_preprocess,0.999616
+3506.24832,3516.108928,9.860608,detector_candidates_to_cpu; detector_preprocess,1.084864
+404.577792,414.398336,9.820544,detector_candidates_to_cpu; detector_preprocess,1.008416
+2629.65296,2639.387136,9.734176,detector_candidates_to_cpu; detector_preprocess,0.677984
+3977.276288,3987.009728,9.73344,detector_candidates_to_cpu; detector_preprocess,0.660512
+2561.779168,2571.495008,9.71584,detector_candidates_to_cpu; detector_preprocess,0.66544
+2088.529568,2098.177056,9.647488,detector_candidates_to_cpu; detector_preprocess,0.670272

@@ -1,0 +1,10 @@
+# 足球感知配置入口：按职责列出需要加载的参数文件。
+# 文件路径相对于本清单所在目录；每个参数只能定义一次。
+# 修改具体参数请打开对应文件，不要在本清单中添加 ROS 参数。
+config_files:
+  - camera.yaml         # ZED 采集与图像设置
+  - detector.yaml       # YOLO / TensorRT / 推理设备
+  - stereo.yaml         # 双目匹配、候选筛选与定位约束
+  - tracking.yaml       # 跟踪与短时漏检容错
+  - visualization.yaml  # Viser 与可视化点云
+  - ros.yaml            # 话题、坐标系名称与输出策略

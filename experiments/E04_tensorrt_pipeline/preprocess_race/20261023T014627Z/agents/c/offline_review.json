@@ -1,0 +1,221 @@
+{
+  "review_status": "passed",
+  "decision": "stop_resize_letterbox",
+  "errors": [],
+  "review_scope": "Read-only review and CSV arithmetic; no new tests, SSH, GPU, system experiment, or production changes.",
+  "source_directory": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/recovered/offline_20261023T020353Z_32626",
+  "correctness": {
+    "total_rows": 183,
+    "variants": {
+      "R0": {
+        "rows": 61,
+        "all_exact": true,
+        "zero_input_diff_rows": 61,
+        "distinct_input_hashes": 61
+      },
+      "canvas": {
+        "rows": 61,
+        "all_exact": true,
+        "zero_input_diff_rows": 61,
+        "distinct_input_hashes": 61
+      },
+      "reuse": {
+        "rows": 61,
+        "all_exact": true,
+        "zero_input_diff_rows": 61,
+        "distinct_input_hashes": 61
+      }
+    },
+    "reference_caveat": "R0 is the fresh self-reference (61 records); canvas/reuse contribute 122 exact candidate comparisons, not three independent Golden datasets.",
+    "input_contract": "FP32 [2,3,640,640]; max_abs=mean_abs=different_elements=0 on all 183 records.",
+    "downstream_caveat": "Full semantic equivalence is reported by capture comparison; persisted input/raw/box hashes and candidate/measurement/tracking values independently agree across variants. Physical depth accuracy is not validated.",
+    "calibration": {
+      "K": [
+        [
+          363.6561279296875,
+          0.0,
+          344.4394836425781
+        ],
+        [
+          0.0,
+          363.6561279296875,
+          187.1570587158203
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "baseline_m": 0.06305128335952759,
+      "image_size": [
+        672,
+        376
+      ],
+      "fps": 100.0,
+      "scope": "Current ZED calibration used for implementation-equivalence replay, not Val physical depth ground truth"
+    }
+  },
+  "correctness_graph_and_restore": [
+    {
+      "variant": "R0",
+      "graph_calls": 62,
+      "graph_capture_count": 1,
+      "fallback_count": 0,
+      "restore_passed": true
+    },
+    {
+      "variant": "canvas",
+      "graph_calls": 62,
+      "graph_capture_count": 1,
+      "fallback_count": 0,
+      "restore_passed": true
+    },
+    {
+      "variant": "reuse",
+      "graph_calls": 62,
+      "graph_capture_count": 1,
+      "fallback_count": 0,
+      "restore_passed": true
+    }
+  ],
+  "screen_hooks": {
+    "count": 8,
+    "per_activation_calls": 110,
+    "measured_samples": 100,
+    "discarded_local_warmups": 10,
+    "all_fallbacks_zero": true,
+    "canvas_allocations_per_activation": 2,
+    "reuse_canvas_host_view_allocations": [
+      1,
+      1,
+      1
+    ],
+    "reuse_fp32_outputs_per_activation": 110,
+    "gpu_output_and_uint8_reused": false,
+    "restore_evidence": "Per-pair correctness includes explicit after-restore states. Screen hook snapshots are before finally.restore (restored=false/restore_count=0 expected); final cleanup_passed=true and source finally blocks show restoration, but no per-screen after-restore snapshots were persisted."
+  },
+  "graph_final": {
+    "calls": 2111,
+    "capture_count": 1,
+    "fallback_count": 0,
+    "expected_calls_breakdown": {
+      "load": 1,
+      "diagnostic": 50,
+      "method_warmup": 300,
+      "local_warmup_plus_screen": 1760
+    },
+    "cleanup": "status.cleanup_passed=true; graph_final snapshot intentionally precedes detector.close()."
+  },
+  "screen_stats_recomputed": {
+    "R0": {
+      "n": 800,
+      "mean": 8.41098622125,
+      "p95": 9.23826715,
+      "p99": 9.44261693
+    },
+    "canvas": {
+      "n": 400,
+      "mean": 8.649203845,
+      "p95": 9.23261965,
+      "p99": 9.40947127
+    },
+    "reuse": {
+      "n": 400,
+      "mean": 8.03596518,
+      "p95": 8.9547578,
+      "p99": 9.14903741
+    }
+  },
+  "paired_block_differences_recomputed": {
+    "canvas": [
+      {
+        "block": 0,
+        "saved_mean_ms": -0.5616558699999992,
+        "baseline_abs_drift_ms": 0.5431987600000001,
+        "p95_saved_ms": -0.5523144500000008,
+        "p99_saved_ms": -0.5767644349999994
+      },
+      {
+        "block": 1,
+        "saved_mean_ms": -0.40572862500000006,
+        "baseline_abs_drift_ms": 1.0224543499999994,
+        "p95_saved_ms": -0.4968692999999984,
+        "p99_saved_ms": -0.5791913599999976
+      },
+      {
+        "block": 2,
+        "saved_mean_ms": 0.11812176499999971,
+        "baseline_abs_drift_ms": 0.06407665000000051,
+        "p95_saved_ms": 0.10915200000000169,
+        "p99_saved_ms": 0.1621131499999997
+      },
+      {
+        "block": 3,
+        "saved_mean_ms": -0.10360776499999957,
+        "baseline_abs_drift_ms": 0.13079576999999887,
+        "p95_saved_ms": -0.13627197500000143,
+        "p99_saved_ms": -0.2062608800000003
+      }
+    ],
+    "reuse": [
+      {
+        "block": 0,
+        "saved_mean_ms": -0.07720932999999874,
+        "baseline_abs_drift_ms": 0.5431987600000001,
+        "p95_saved_ms": -0.38478910000000077,
+        "p99_saved_ms": -0.43869677500000215
+      },
+      {
+        "block": 1,
+        "saved_mean_ms": -0.004224555000000407,
+        "baseline_abs_drift_ms": 1.0224543499999994,
+        "p95_saved_ms": -0.3664077499999987,
+        "p99_saved_ms": -0.4025962899999982
+      },
+      {
+        "block": 2,
+        "saved_mean_ms": 0.566409994999999,
+        "baseline_abs_drift_ms": 0.06407665000000051,
+        "p95_saved_ms": 0.4898952000000012,
+        "p99_saved_ms": 0.4285141899999996
+      },
+      {
+        "block": 3,
+        "saved_mean_ms": 1.0151080550000007,
+        "baseline_abs_drift_ms": 0.13079576999999887,
+        "p95_saved_ms": 0.3805184750000006,
+        "p99_saved_ms": 0.45517642999999985
+      }
+    ]
+  },
+  "screen_conclusion": {
+    "canvas_mean_saved_ms": -0.23821762375000022,
+    "reuse_mean_saved_ms": 0.37502104125000013,
+    "threshold_ms": 1.0,
+    "neither_eligible": true,
+    "reasons": [
+      "Neither candidate reaches >=1 ms mean input-ready savings.",
+      "canvas has negative mean savings; reuse has two nonpositive blocks.",
+      "Both regress P95/P99 in some blocks.",
+      "Maximum baseline within-block drift is 1.02245435 ms, greater than reuse mean savings 0.37502104 ms."
+    ],
+    "system_claim": "No system A/B or publishing/Hz gain was measured; stopping before system A/B follows the predeclared rule."
+  },
+  "diagnostic": {
+    "resize_mean_ms": 5.518835759999999,
+    "padding_mean_ms": 0.23431619999999997,
+    "pre_transform_mean_ms": 5.90668494,
+    "input_ready_completed_wall_mean_ms": 9.41460598,
+    "resize_fraction_of_pre_transform": 0.9343372494148976,
+    "padding_fraction_of_input_ready": 0.024888582750863038,
+    "interpretation": "Resize dominates pre_transform; padding alone is about 0.234 ms per stereo batch in this 50-sample diagnostic, too small to explain a >=1 ms cache-only gain. pre_transform already includes resize and padding; never add them again.",
+    "timing_limit": "float/normalize are asynchronous method submission walls; input_ready includes final CUDA synchronization. CUDA event span includes host submission gaps and transfer, not pure GPU compute. Diagnostic and screen are different samples/scopes; do not sum or substitute them."
+  },
+  "limits": [
+    "One offline screen, four short blocks; does not establish universal impossibility of future resize optimization.",
+    "Serial predictor ownership is required for borrowed canvas/host buffers; current candidates return independent FP32 results.",
+    "No GPU Resize, VPI interop, asynchronous overlap, or double buffering was implemented or validated by these candidates.",
+    "Replay uses synthetic timestamps and frozen ZED calibration; no physical localization accuracy or live camera/system performance validation."
+  ]
+}

@@ -1,0 +1,14 @@
+# 三维跟踪、漏检容错与预测。
+# 由 camera_deploy.yaml 统一列出；同一参数只在一个文件中定义。
+soccer_perception_ros:
+  ros__parameters:
+    # 短时丢球容错：仅延续已确认的接近状态，预测不触发新踢球。
+    short_loss_tolerance_enabled: true
+    # 从最后一次真实测量计时；超时立即结束容错，单位秒。
+    short_loss_tolerance_s: 0.25
+    # 短时漏检时允许预测滑行的最大帧数。
+    max_coast_frames: 10
+    # 短时漏检时允许预测滑行的最大时间，单位 s。
+    max_coast_time_s: 0.4
+    # 预测速度衰减系数；越小速度衰减越快。
+    velocity_decay: 0.85

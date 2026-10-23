@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "pairs": 61,
+  "images": 122,
+  "coverage_flags": {
+    "Small": 28,
+    "Occluded": 27,
+    "Blurred": 22,
+    "No Ball": 22
+  },
+  "optimization": "a2_graph",
+  "model": "/home/nvidia/soccer_backend_tensorrt/soccer_perception_ros/models/E01_baseline.engine",
+  "production_files_checked": 66,
+  "gpu_work": false,
+  "camera_opened": false
+}

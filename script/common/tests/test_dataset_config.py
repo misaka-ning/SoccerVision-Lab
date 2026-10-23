@@ -53,7 +53,7 @@ class VersionSwitchTests(unittest.TestCase):
             (data/'lists').mkdir();(data/'lists/train.txt').write_text('/old/frozen.png\n')
             self.frozen.extend([data/'dataset.yaml',data/'lists/train.txt',data/'metadata.csv'])
         (self.root/'baseline').mkdir()
-        (self.root/'baseline/original_best.pt').write_bytes(b'only dry-run: never deserialize')
+        (self.root/'baseline/E0_original_best.pt').write_bytes(b'only dry-run: never deserialize')
         self.write_config('v0')
         self.hashes={p:hashlib.sha256(p.read_bytes()).hexdigest() for p in self.frozen}
         self.env={**os.environ,'PYTHONDONTWRITEBYTECODE':'1','FOOTBALL_DATASET_PYTHON':sys.executable}
@@ -86,9 +86,9 @@ class VersionSwitchTests(unittest.TestCase):
             self.write_config(version)
             result=self.run_entry('model-training/train.py','--dry-run')
             self.assertIn(str(self.root/'datasets'/version),result.stdout)
-            result=self.run_entry('model-evaluation/evaluate.py','--model','baseline/original_best.pt','--dry-run')
+            result=self.run_entry('model-evaluation/evaluate.py','--model','baseline/E0_original_best.pt','--dry-run')
             self.assertIn(str(self.root/'datasets'/version),result.stdout)
-            result=self.run_entry('model-evaluation/evaluate.py','--model','baseline/original_best.pt','--split','test','--dry-run',expected=2 if version=='v0' else 0)
+            result=self.run_entry('model-evaluation/evaluate.py','--model','baseline/E0_original_best.pt','--split','test','--dry-run',expected=2 if version=='v0' else 0)
             self.assertIn('test 集为空' if version=='v0' else '集合test：1/1',result.stderr+result.stdout)
 
     def test_repository_defaults_switch_and_check_only_never_writes(self):

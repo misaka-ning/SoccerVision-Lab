@@ -1,0 +1,10 @@
+{
+  "phase_id": "phase2_20261022T040942Z_f1ef07",
+  "status": "system_empty_scene_reviewed",
+  "jobs": 49,
+  "system_jobs": 21,
+  "system_samples": 23455,
+  "system_review": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/runs/20261022T020842Z_78f1b7/phase2_20261022T040942Z_f1ef07/system_empty_review.json",
+  "validity": "empty_scene_only",
+  "target_acceptance": false
+}

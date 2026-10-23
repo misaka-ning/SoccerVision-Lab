@@ -1,0 +1,32 @@
+{
+  "phase_id": "phase4_combo_correctness_20261022T083338Z_a40d24",
+  "phase_local": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/runs/20261022T020842Z_78f1b7/phase4_combo_correctness_20261022T083338Z_a40d24",
+  "phase_remote": "/home/nvidia/soccer_backend_tensorrt/results/E04_tensorrt_pipeline/20261022T020842Z_78f1b7/phase4_combo_correctness_20261022T083338Z_a40d24",
+  "archive": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/runs/20261022T020842Z_78f1b7/phase4_combo_correctness_20261022T083338Z_a40d24.tar.gz",
+  "archive_sha256": "1ca66c1b7676bc907ec6793bd73973610a0c44c3bb8dfcccd234d52b6eff19da",
+  "archive_bytes": 72022,
+  "manifest_sha256": "f2fe308b67ef997e944828ecfad7c5abf0e56f1d6ec7404e71281b679acb107d",
+  "status": "combination_correctness_reviewed_passed",
+  "mode": "ab_abc_combination_correctness",
+  "candidate_source_phase": "phase1_20261022T031913Z_260f0c",
+  "planned_jobs": [
+    "R0",
+    "R4_AB",
+    "R5_ABC"
+  ],
+  "formal_performance": false,
+  "gpu_tests_started_by_coordinator": false,
+  "camera_work": false,
+  "C2_scope": "correctness then diagnostic performance only; not default adoption",
+  "cpu_dry_run_ready": true,
+  "code_tests_passed": 24,
+  "completed_jobs": 3,
+  "pairs_per_variant": 61,
+  "arrays_total": 732,
+  "review": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/runs/20261022T020842Z_78f1b7/phase4_combo_correctness_20261022T083338Z_a40d24/combination_review.json",
+  "review_sha256": "fdd573084e9a2f5f050af5058345bdbec878376647967360807881f1dd7796ef",
+  "recovery_archive_sha256": "1ef0180246900aa29bb909e7078212a02635513d9dbcf15fd181982287a55cc3",
+  "performance_measured": false,
+  "stability_approved": false,
+  "production_approved": false
+}

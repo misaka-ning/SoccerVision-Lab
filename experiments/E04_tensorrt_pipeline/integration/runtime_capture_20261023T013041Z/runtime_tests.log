@@ -1,0 +1,21 @@
+test_active_modes_initialize_capture_warm_then_synchronize (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_close_restores_before_releasing_model_and_remembers_status (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_close_without_load_is_safe (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_default_none_has_no_install_or_extra_predict (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_each_load_reinitializes_even_for_the_same_engine (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_explicit_old_defaults_allow_active_mode (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_failed_old_graph_cleanup_blocks_reload_before_new_model (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_failed_restore_preserves_model_and_handle_for_retry (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_first_runtime_fallback_is_visible_without_retrying_frame (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_none_preserves_legacy_predictor_selection (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_old_nondefault_environment_rejected_before_yolo_creation (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_real_frames_keep_predict_and_original_candidate_protocol (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_startup_capture_fallback_is_visible_before_first_real_frame (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_startup_install_failure_does_not_leave_model_loaded (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_startup_warm_failure_restores_and_releases_owned_model (test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_unknown_mode_is_rejected_before_yolo_creation (test_e04_runtime.RuntimeLifecycleTests) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.060s
+
+OK

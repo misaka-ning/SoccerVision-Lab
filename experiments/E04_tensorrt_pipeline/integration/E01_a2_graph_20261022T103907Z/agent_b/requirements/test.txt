@@ -1,0 +1,4 @@
+# Isolated CPU test environment only; not a robot deployment lock file.
+numpy
+PyYAML
+opencv-python-headless

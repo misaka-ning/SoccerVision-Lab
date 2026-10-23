@@ -1,0 +1,3 @@
+# Shared deployment pins; consumed by deployment/dependencies.sh.
+opencv-python==4.12.0.88
+PyYAML==6.0.2

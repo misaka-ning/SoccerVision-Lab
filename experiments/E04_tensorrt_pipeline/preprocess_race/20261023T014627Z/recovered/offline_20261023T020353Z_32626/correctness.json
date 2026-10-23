@@ -1,0 +1,1653 @@
+{
+  "passed": true,
+  "split": "val",
+  "test_accessed": false,
+  "reference": "fresh R0: current configured E01 + A2 + Graph",
+  "comparisons": "exact input/raw/final boxes/candidate order/left-right/downstream semantics",
+  "not_performance_data": true,
+  "camera_opened": false,
+  "ros_published": false,
+  "timestamp_rule": "1000 + index/30; frame_idx=index",
+  "excluded_volatile_semantics": [
+    "diagnostics.fps",
+    "diagnostics.det_ms"
+  ],
+  "variants": [
+    {
+      "variant": "R0",
+      "passed": true,
+      "excluded": false,
+      "errors": [],
+      "completed_pairs": 61,
+      "restore": {
+        "capture": "passed",
+        "candidate": "not_installed",
+        "load": "passed",
+        "pipeline_detector": "passed"
+      },
+      "start_status": {
+        "mode": "a2_graph",
+        "enabled": true,
+        "state": {
+          "requested": {
+            "postprocess": "a2",
+            "engine": "graph",
+            "preprocess": "c0"
+          },
+          "restored": false,
+          "components": {
+            "engine": {
+              "requested": "graph",
+              "effective": "graph",
+              "fallback_count": 0,
+              "last_error": null,
+              "disabled_reason": null,
+              "cleanup_error": null,
+              "calls": 1,
+              "capture_count": 1,
+              "replay_count": 1,
+              "input_update_count": 1,
+              "warmup_enqueue_count": 3,
+              "output_clone_count": 1,
+              "input_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_shape": [
+                2,
+                5,
+                8400
+              ],
+              "input_dtype": "float32",
+              "output_dtype": "float32",
+              "output_names": [
+                "output0"
+              ],
+              "private_context_allocated": true,
+              "graph_allocated": true,
+              "stream_allocated": true,
+              "buffers_allocated": true,
+              "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+              "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+              "device": "cuda:0"
+            },
+            "preprocess": {
+              "requested": "c0",
+              "effective": "c0",
+              "restored": false,
+              "calls": 0,
+              "success_count": 0,
+              "fallback_count": 0,
+              "last_error": null,
+              "output_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_dtype": "float32",
+              "device": "cuda:0",
+              "input_shapes": null,
+              "host_buffer_allocations": 0,
+              "host_tensor_view_allocations": 0,
+              "host_buffer_bytes": 0,
+              "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+              "gpu_output_buffer_reused": false,
+              "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+              "transfer": "original blocking Tensor.to(device), non_blocking=False",
+              "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+              "timings": {},
+              "cuda_validation": "external coordinator correctness/performance check required"
+            },
+            "postprocess": {
+              "requested": "a2",
+              "effective": "a2",
+              "available": true,
+              "restored": false,
+              "fallback_count": 0,
+              "last_error": null,
+              "predict_calls": 1,
+              "converted_results": 0,
+              "packed_batches": 0,
+              "packed_rows": 0,
+              "d2h_calls": 0,
+              "d2h_bytes": 0,
+              "last_pack_wall_ms": 0.4205580000871123,
+              "pack_wall_ms_total": 0.4205580000871123,
+              "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+              "nms": "original predictor unchanged",
+              "top_k": "original stable sort then slice"
+            }
+          }
+        }
+      },
+      "final_status": {
+        "mode": "a2_graph",
+        "enabled": true,
+        "state": {
+          "requested": {
+            "postprocess": "a2",
+            "engine": "graph",
+            "preprocess": "c0"
+          },
+          "restored": false,
+          "components": {
+            "engine": {
+              "requested": "graph",
+              "effective": "graph",
+              "fallback_count": 0,
+              "last_error": null,
+              "disabled_reason": null,
+              "cleanup_error": null,
+              "calls": 62,
+              "capture_count": 1,
+              "replay_count": 62,
+              "input_update_count": 62,
+              "warmup_enqueue_count": 3,
+              "output_clone_count": 62,
+              "input_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_shape": [
+                2,
+                5,
+                8400
+              ],
+              "input_dtype": "float32",
+              "output_dtype": "float32",
+              "output_names": [
+                "output0"
+              ],
+              "private_context_allocated": true,
+              "graph_allocated": true,
+              "stream_allocated": true,
+              "buffers_allocated": true,
+              "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+              "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+              "device": "cuda:0"
+            },
+            "preprocess": {
+              "requested": "c0",
+              "effective": "c0",
+              "restored": false,
+              "calls": 0,
+              "success_count": 0,
+              "fallback_count": 0,
+              "last_error": null,
+              "output_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_dtype": "float32",
+              "device": "cuda:0",
+              "input_shapes": null,
+              "host_buffer_allocations": 0,
+              "host_tensor_view_allocations": 0,
+              "host_buffer_bytes": 0,
+              "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+              "gpu_output_buffer_reused": false,
+              "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+              "transfer": "original blocking Tensor.to(device), non_blocking=False",
+              "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+              "timings": {},
+              "cuda_validation": "external coordinator correctness/performance check required"
+            },
+            "postprocess": {
+              "requested": "a2",
+              "effective": "a2",
+              "available": true,
+              "restored": false,
+              "fallback_count": 0,
+              "last_error": null,
+              "predict_calls": 62,
+              "converted_results": 0,
+              "packed_batches": 38,
+              "packed_rows": 85,
+              "d2h_calls": 38,
+              "d2h_bytes": 2040,
+              "last_pack_wall_ms": 0.817147999896406,
+              "pack_wall_ms_total": 32.33950099843241,
+              "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+              "nms": "original predictor unchanged",
+              "top_k": "original stable sort then slice"
+            }
+          }
+        }
+      },
+      "restore_passed": true
+    },
+    {
+      "variant": "canvas",
+      "passed": true,
+      "excluded": false,
+      "errors": [],
+      "completed_pairs": 61,
+      "restore": {
+        "capture": "passed",
+        "candidate": "passed",
+        "load": "passed",
+        "pipeline_detector": "passed"
+      },
+      "start_status": {
+        "mode": "a2_graph",
+        "enabled": true,
+        "state": {
+          "requested": {
+            "postprocess": "a2",
+            "engine": "graph",
+            "preprocess": "c0"
+          },
+          "restored": false,
+          "components": {
+            "engine": {
+              "requested": "graph",
+              "effective": "graph",
+              "fallback_count": 0,
+              "last_error": null,
+              "disabled_reason": null,
+              "cleanup_error": null,
+              "calls": 1,
+              "capture_count": 1,
+              "replay_count": 1,
+              "input_update_count": 1,
+              "warmup_enqueue_count": 3,
+              "output_clone_count": 1,
+              "input_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_shape": [
+                2,
+                5,
+                8400
+              ],
+              "input_dtype": "float32",
+              "output_dtype": "float32",
+              "output_names": [
+                "output0"
+              ],
+              "private_context_allocated": true,
+              "graph_allocated": true,
+              "stream_allocated": true,
+              "buffers_allocated": true,
+              "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+              "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+              "device": "cuda:0"
+            },
+            "preprocess": {
+              "requested": "c0",
+              "effective": "c0",
+              "restored": false,
+              "calls": 0,
+              "success_count": 0,
+              "fallback_count": 0,
+              "last_error": null,
+              "output_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_dtype": "float32",
+              "device": "cuda:0",
+              "input_shapes": null,
+              "host_buffer_allocations": 0,
+              "host_tensor_view_allocations": 0,
+              "host_buffer_bytes": 0,
+              "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+              "gpu_output_buffer_reused": false,
+              "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+              "transfer": "original blocking Tensor.to(device), non_blocking=False",
+              "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+              "timings": {},
+              "cuda_validation": "external coordinator correctness/performance check required"
+            },
+            "postprocess": {
+              "requested": "a2",
+              "effective": "a2",
+              "available": true,
+              "restored": false,
+              "fallback_count": 0,
+              "last_error": null,
+              "predict_calls": 1,
+              "converted_results": 0,
+              "packed_batches": 0,
+              "packed_rows": 0,
+              "d2h_calls": 0,
+              "d2h_bytes": 0,
+              "last_pack_wall_ms": 0.10896399999182904,
+              "pack_wall_ms_total": 0.10896399999182904,
+              "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+              "nms": "original predictor unchanged",
+              "top_k": "original stable sort then slice"
+            }
+          }
+        }
+      },
+      "final_status": {
+        "mode": "a2_graph",
+        "enabled": true,
+        "state": {
+          "requested": {
+            "postprocess": "a2",
+            "engine": "graph",
+            "preprocess": "c0"
+          },
+          "restored": false,
+          "components": {
+            "engine": {
+              "requested": "graph",
+              "effective": "graph",
+              "fallback_count": 0,
+              "last_error": null,
+              "disabled_reason": null,
+              "cleanup_error": null,
+              "calls": 62,
+              "capture_count": 1,
+              "replay_count": 62,
+              "input_update_count": 62,
+              "warmup_enqueue_count": 3,
+              "output_clone_count": 62,
+              "input_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_shape": [
+                2,
+                5,
+                8400
+              ],
+              "input_dtype": "float32",
+              "output_dtype": "float32",
+              "output_names": [
+                "output0"
+              ],
+              "private_context_allocated": true,
+              "graph_allocated": true,
+              "stream_allocated": true,
+              "buffers_allocated": true,
+              "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+              "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+              "device": "cuda:0"
+            },
+            "preprocess": {
+              "requested": "c0",
+              "effective": "c0",
+              "restored": false,
+              "calls": 0,
+              "success_count": 0,
+              "fallback_count": 0,
+              "last_error": null,
+              "output_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_dtype": "float32",
+              "device": "cuda:0",
+              "input_shapes": null,
+              "host_buffer_allocations": 0,
+              "host_tensor_view_allocations": 0,
+              "host_buffer_bytes": 0,
+              "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+              "gpu_output_buffer_reused": false,
+              "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+              "transfer": "original blocking Tensor.to(device), non_blocking=False",
+              "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+              "timings": {},
+              "cuda_validation": "external coordinator correctness/performance check required"
+            },
+            "postprocess": {
+              "requested": "a2",
+              "effective": "a2",
+              "available": true,
+              "restored": false,
+              "fallback_count": 0,
+              "last_error": null,
+              "predict_calls": 62,
+              "converted_results": 0,
+              "packed_batches": 38,
+              "packed_rows": 85,
+              "d2h_calls": 38,
+              "d2h_bytes": 2040,
+              "last_pack_wall_ms": 0.8351960000254621,
+              "pack_wall_ms_total": 30.963739999151585,
+              "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+              "nms": "original predictor unchanged",
+              "top_k": "original stable sort then slice"
+            }
+          }
+        }
+      },
+      "candidate_status": {
+        "requested": "canvas",
+        "effective": "canvas",
+        "restored": false,
+        "calls": 61,
+        "success_count": 61,
+        "fallback_count": 0,
+        "restore_count": 0,
+        "last_error": null,
+        "hook": "pre_transform",
+        "input_shapes": [
+          [
+            376,
+            672,
+            3
+          ],
+          [
+            376,
+            672,
+            3
+          ]
+        ],
+        "output_shape": [
+          2,
+          3,
+          640,
+          640
+        ],
+        "output_dtype": "float32",
+        "device": "cuda:0",
+        "canvas_allocations": 2,
+        "host_buffer_allocations": 0,
+        "host_tensor_view_allocations": 0,
+        "fp32_output_allocations": null,
+        "gpu_output_buffer_reused": false,
+        "gpu_uint8_buffer_reused": false,
+        "host_buffer_owner": "handle; no alias of caller input images",
+        "pre_transform_output_owner": "two borrowed per-eye HWC canvases; original preprocess immediately np.stack copies",
+        "output_owner": "per-call independent FP32 tensor; caller may retain earlier output",
+        "transfer": "original blocking Tensor.to(device), non_blocking=False",
+        "concurrency": "one serialized predictor; no asynchronous overlap or extra streams",
+        "cuda_validation": "not performed by this CPU-only candidate developer"
+      },
+      "candidate_after_restore": {
+        "requested": "canvas",
+        "effective": "baseline",
+        "restored": true,
+        "calls": 61,
+        "success_count": 61,
+        "fallback_count": 0,
+        "restore_count": 1,
+        "last_error": null,
+        "hook": "pre_transform",
+        "input_shapes": [
+          [
+            376,
+            672,
+            3
+          ],
+          [
+            376,
+            672,
+            3
+          ]
+        ],
+        "output_shape": [
+          2,
+          3,
+          640,
+          640
+        ],
+        "output_dtype": "float32",
+        "device": "cuda:0",
+        "canvas_allocations": 2,
+        "host_buffer_allocations": 0,
+        "host_tensor_view_allocations": 0,
+        "fp32_output_allocations": null,
+        "gpu_output_buffer_reused": false,
+        "gpu_uint8_buffer_reused": false,
+        "host_buffer_owner": "handle; no alias of caller input images",
+        "pre_transform_output_owner": "two borrowed per-eye HWC canvases; original preprocess immediately np.stack copies",
+        "output_owner": "per-call independent FP32 tensor; caller may retain earlier output",
+        "transfer": "original blocking Tensor.to(device), non_blocking=False",
+        "concurrency": "one serialized predictor; no asynchronous overlap or extra streams",
+        "cuda_validation": "not performed by this CPU-only candidate developer"
+      },
+      "restore_passed": true
+    },
+    {
+      "variant": "reuse",
+      "passed": true,
+      "excluded": false,
+      "errors": [],
+      "completed_pairs": 61,
+      "restore": {
+        "capture": "passed",
+        "candidate": "passed",
+        "load": "passed",
+        "pipeline_detector": "passed"
+      },
+      "start_status": {
+        "mode": "a2_graph",
+        "enabled": true,
+        "state": {
+          "requested": {
+            "postprocess": "a2",
+            "engine": "graph",
+            "preprocess": "c0"
+          },
+          "restored": false,
+          "components": {
+            "engine": {
+              "requested": "graph",
+              "effective": "graph",
+              "fallback_count": 0,
+              "last_error": null,
+              "disabled_reason": null,
+              "cleanup_error": null,
+              "calls": 1,
+              "capture_count": 1,
+              "replay_count": 1,
+              "input_update_count": 1,
+              "warmup_enqueue_count": 3,
+              "output_clone_count": 1,
+              "input_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_shape": [
+                2,
+                5,
+                8400
+              ],
+              "input_dtype": "float32",
+              "output_dtype": "float32",
+              "output_names": [
+                "output0"
+              ],
+              "private_context_allocated": true,
+              "graph_allocated": true,
+              "stream_allocated": true,
+              "buffers_allocated": true,
+              "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+              "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+              "device": "cuda:0"
+            },
+            "preprocess": {
+              "requested": "c0",
+              "effective": "c0",
+              "restored": false,
+              "calls": 0,
+              "success_count": 0,
+              "fallback_count": 0,
+              "last_error": null,
+              "output_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_dtype": "float32",
+              "device": "cuda:0",
+              "input_shapes": null,
+              "host_buffer_allocations": 0,
+              "host_tensor_view_allocations": 0,
+              "host_buffer_bytes": 0,
+              "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+              "gpu_output_buffer_reused": false,
+              "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+              "transfer": "original blocking Tensor.to(device), non_blocking=False",
+              "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+              "timings": {},
+              "cuda_validation": "external coordinator correctness/performance check required"
+            },
+            "postprocess": {
+              "requested": "a2",
+              "effective": "a2",
+              "available": true,
+              "restored": false,
+              "fallback_count": 0,
+              "last_error": null,
+              "predict_calls": 1,
+              "converted_results": 0,
+              "packed_batches": 0,
+              "packed_rows": 0,
+              "d2h_calls": 0,
+              "d2h_bytes": 0,
+              "last_pack_wall_ms": 0.059073999864267535,
+              "pack_wall_ms_total": 0.059073999864267535,
+              "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+              "nms": "original predictor unchanged",
+              "top_k": "original stable sort then slice"
+            }
+          }
+        }
+      },
+      "final_status": {
+        "mode": "a2_graph",
+        "enabled": true,
+        "state": {
+          "requested": {
+            "postprocess": "a2",
+            "engine": "graph",
+            "preprocess": "c0"
+          },
+          "restored": false,
+          "components": {
+            "engine": {
+              "requested": "graph",
+              "effective": "graph",
+              "fallback_count": 0,
+              "last_error": null,
+              "disabled_reason": null,
+              "cleanup_error": null,
+              "calls": 62,
+              "capture_count": 1,
+              "replay_count": 62,
+              "input_update_count": 62,
+              "warmup_enqueue_count": 3,
+              "output_clone_count": 62,
+              "input_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_shape": [
+                2,
+                5,
+                8400
+              ],
+              "input_dtype": "float32",
+              "output_dtype": "float32",
+              "output_names": [
+                "output0"
+              ],
+              "private_context_allocated": true,
+              "graph_allocated": true,
+              "stream_allocated": true,
+              "buffers_allocated": true,
+              "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+              "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+              "device": "cuda:0"
+            },
+            "preprocess": {
+              "requested": "c0",
+              "effective": "c0",
+              "restored": false,
+              "calls": 0,
+              "success_count": 0,
+              "fallback_count": 0,
+              "last_error": null,
+              "output_shape": [
+                2,
+                3,
+                640,
+                640
+              ],
+              "output_dtype": "float32",
+              "device": "cuda:0",
+              "input_shapes": null,
+              "host_buffer_allocations": 0,
+              "host_tensor_view_allocations": 0,
+              "host_buffer_bytes": 0,
+              "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+              "gpu_output_buffer_reused": false,
+              "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+              "transfer": "original blocking Tensor.to(device), non_blocking=False",
+              "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+              "timings": {},
+              "cuda_validation": "external coordinator correctness/performance check required"
+            },
+            "postprocess": {
+              "requested": "a2",
+              "effective": "a2",
+              "available": true,
+              "restored": false,
+              "fallback_count": 0,
+              "last_error": null,
+              "predict_calls": 62,
+              "converted_results": 0,
+              "packed_batches": 38,
+              "packed_rows": 85,
+              "d2h_calls": 38,
+              "d2h_bytes": 2040,
+              "last_pack_wall_ms": 0.7954500001687848,
+              "pack_wall_ms_total": 31.269148999854224,
+              "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+              "nms": "original predictor unchanged",
+              "top_k": "original stable sort then slice"
+            }
+          }
+        }
+      },
+      "candidate_status": {
+        "requested": "reuse",
+        "effective": "reuse",
+        "restored": false,
+        "calls": 61,
+        "success_count": 61,
+        "fallback_count": 0,
+        "restore_count": 0,
+        "last_error": null,
+        "hook": "preprocess",
+        "input_shapes": [
+          [
+            376,
+            672,
+            3
+          ],
+          [
+            376,
+            672,
+            3
+          ]
+        ],
+        "output_shape": [
+          2,
+          3,
+          640,
+          640
+        ],
+        "output_dtype": "float32",
+        "device": "cuda:0",
+        "canvas_allocations": 1,
+        "host_buffer_allocations": 1,
+        "host_tensor_view_allocations": 1,
+        "fp32_output_allocations": 61,
+        "gpu_output_buffer_reused": false,
+        "gpu_uint8_buffer_reused": false,
+        "host_buffer_owner": "handle; no alias of caller input images",
+        "pre_transform_output_owner": "internal single canvas copied into BCHW host batch",
+        "output_owner": "per-call independent FP32 tensor; caller may retain earlier output",
+        "transfer": "original blocking Tensor.to(device), non_blocking=False",
+        "concurrency": "one serialized predictor; no asynchronous overlap or extra streams",
+        "cuda_validation": "not performed by this CPU-only candidate developer"
+      },
+      "candidate_after_restore": {
+        "requested": "reuse",
+        "effective": "baseline",
+        "restored": true,
+        "calls": 61,
+        "success_count": 61,
+        "fallback_count": 0,
+        "restore_count": 1,
+        "last_error": null,
+        "hook": "preprocess",
+        "input_shapes": [
+          [
+            376,
+            672,
+            3
+          ],
+          [
+            376,
+            672,
+            3
+          ]
+        ],
+        "output_shape": [
+          2,
+          3,
+          640,
+          640
+        ],
+        "output_dtype": "float32",
+        "device": "cuda:0",
+        "canvas_allocations": 1,
+        "host_buffer_allocations": 1,
+        "host_tensor_view_allocations": 1,
+        "fp32_output_allocations": 61,
+        "gpu_output_buffer_reused": false,
+        "gpu_uint8_buffer_reused": false,
+        "host_buffer_owner": "handle; no alias of caller input images",
+        "pre_transform_output_owner": "internal single canvas copied into BCHW host batch",
+        "output_owner": "per-call independent FP32 tensor; caller may retain earlier output",
+        "transfer": "original blocking Tensor.to(device), non_blocking=False",
+        "concurrency": "one serialized predictor; no asynchronous overlap or extra streams",
+        "cuda_validation": "not performed by this CPU-only candidate developer"
+      },
+      "restore_passed": true
+    }
+  ],
+  "eligible_candidates": [
+    "canvas",
+    "reuse"
+  ],
+  "errors": [],
+  "pair_count": 61,
+  "calibration": {
+    "K": [
+      [
+        363.6561279296875,
+        0.0,
+        344.4394836425781
+      ],
+      [
+        0.0,
+        363.6561279296875,
+        187.1570587158203
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "baseline_m": 0.06305128335952759,
+    "image_size": [
+      672,
+      376
+    ],
+    "fps": 100.0,
+    "scope": "Current ZED calibration used for implementation-equivalence replay, not Val physical depth ground truth"
+  },
+  "R0": {
+    "variant": "R0",
+    "passed": true,
+    "excluded": false,
+    "errors": [],
+    "completed_pairs": 61,
+    "restore": {
+      "capture": "passed",
+      "candidate": "not_installed",
+      "load": "passed",
+      "pipeline_detector": "passed"
+    },
+    "start_status": {
+      "mode": "a2_graph",
+      "enabled": true,
+      "state": {
+        "requested": {
+          "postprocess": "a2",
+          "engine": "graph",
+          "preprocess": "c0"
+        },
+        "restored": false,
+        "components": {
+          "engine": {
+            "requested": "graph",
+            "effective": "graph",
+            "fallback_count": 0,
+            "last_error": null,
+            "disabled_reason": null,
+            "cleanup_error": null,
+            "calls": 1,
+            "capture_count": 1,
+            "replay_count": 1,
+            "input_update_count": 1,
+            "warmup_enqueue_count": 3,
+            "output_clone_count": 1,
+            "input_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_shape": [
+              2,
+              5,
+              8400
+            ],
+            "input_dtype": "float32",
+            "output_dtype": "float32",
+            "output_names": [
+              "output0"
+            ],
+            "private_context_allocated": true,
+            "graph_allocated": true,
+            "stream_allocated": true,
+            "buffers_allocated": true,
+            "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+            "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+            "device": "cuda:0"
+          },
+          "preprocess": {
+            "requested": "c0",
+            "effective": "c0",
+            "restored": false,
+            "calls": 0,
+            "success_count": 0,
+            "fallback_count": 0,
+            "last_error": null,
+            "output_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_dtype": "float32",
+            "device": "cuda:0",
+            "input_shapes": null,
+            "host_buffer_allocations": 0,
+            "host_tensor_view_allocations": 0,
+            "host_buffer_bytes": 0,
+            "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+            "gpu_output_buffer_reused": false,
+            "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+            "transfer": "original blocking Tensor.to(device), non_blocking=False",
+            "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+            "timings": {},
+            "cuda_validation": "external coordinator correctness/performance check required"
+          },
+          "postprocess": {
+            "requested": "a2",
+            "effective": "a2",
+            "available": true,
+            "restored": false,
+            "fallback_count": 0,
+            "last_error": null,
+            "predict_calls": 1,
+            "converted_results": 0,
+            "packed_batches": 0,
+            "packed_rows": 0,
+            "d2h_calls": 0,
+            "d2h_bytes": 0,
+            "last_pack_wall_ms": 0.4205580000871123,
+            "pack_wall_ms_total": 0.4205580000871123,
+            "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+            "nms": "original predictor unchanged",
+            "top_k": "original stable sort then slice"
+          }
+        }
+      }
+    },
+    "final_status": {
+      "mode": "a2_graph",
+      "enabled": true,
+      "state": {
+        "requested": {
+          "postprocess": "a2",
+          "engine": "graph",
+          "preprocess": "c0"
+        },
+        "restored": false,
+        "components": {
+          "engine": {
+            "requested": "graph",
+            "effective": "graph",
+            "fallback_count": 0,
+            "last_error": null,
+            "disabled_reason": null,
+            "cleanup_error": null,
+            "calls": 62,
+            "capture_count": 1,
+            "replay_count": 62,
+            "input_update_count": 62,
+            "warmup_enqueue_count": 3,
+            "output_clone_count": 62,
+            "input_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_shape": [
+              2,
+              5,
+              8400
+            ],
+            "input_dtype": "float32",
+            "output_dtype": "float32",
+            "output_names": [
+              "output0"
+            ],
+            "private_context_allocated": true,
+            "graph_allocated": true,
+            "stream_allocated": true,
+            "buffers_allocated": true,
+            "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+            "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+            "device": "cuda:0"
+          },
+          "preprocess": {
+            "requested": "c0",
+            "effective": "c0",
+            "restored": false,
+            "calls": 0,
+            "success_count": 0,
+            "fallback_count": 0,
+            "last_error": null,
+            "output_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_dtype": "float32",
+            "device": "cuda:0",
+            "input_shapes": null,
+            "host_buffer_allocations": 0,
+            "host_tensor_view_allocations": 0,
+            "host_buffer_bytes": 0,
+            "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+            "gpu_output_buffer_reused": false,
+            "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+            "transfer": "original blocking Tensor.to(device), non_blocking=False",
+            "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+            "timings": {},
+            "cuda_validation": "external coordinator correctness/performance check required"
+          },
+          "postprocess": {
+            "requested": "a2",
+            "effective": "a2",
+            "available": true,
+            "restored": false,
+            "fallback_count": 0,
+            "last_error": null,
+            "predict_calls": 62,
+            "converted_results": 0,
+            "packed_batches": 38,
+            "packed_rows": 85,
+            "d2h_calls": 38,
+            "d2h_bytes": 2040,
+            "last_pack_wall_ms": 0.817147999896406,
+            "pack_wall_ms_total": 32.33950099843241,
+            "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+            "nms": "original predictor unchanged",
+            "top_k": "original stable sort then slice"
+          }
+        }
+      }
+    },
+    "restore_passed": true
+  },
+  "canvas": {
+    "variant": "canvas",
+    "passed": true,
+    "excluded": false,
+    "errors": [],
+    "completed_pairs": 61,
+    "restore": {
+      "capture": "passed",
+      "candidate": "passed",
+      "load": "passed",
+      "pipeline_detector": "passed"
+    },
+    "start_status": {
+      "mode": "a2_graph",
+      "enabled": true,
+      "state": {
+        "requested": {
+          "postprocess": "a2",
+          "engine": "graph",
+          "preprocess": "c0"
+        },
+        "restored": false,
+        "components": {
+          "engine": {
+            "requested": "graph",
+            "effective": "graph",
+            "fallback_count": 0,
+            "last_error": null,
+            "disabled_reason": null,
+            "cleanup_error": null,
+            "calls": 1,
+            "capture_count": 1,
+            "replay_count": 1,
+            "input_update_count": 1,
+            "warmup_enqueue_count": 3,
+            "output_clone_count": 1,
+            "input_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_shape": [
+              2,
+              5,
+              8400
+            ],
+            "input_dtype": "float32",
+            "output_dtype": "float32",
+            "output_names": [
+              "output0"
+            ],
+            "private_context_allocated": true,
+            "graph_allocated": true,
+            "stream_allocated": true,
+            "buffers_allocated": true,
+            "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+            "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+            "device": "cuda:0"
+          },
+          "preprocess": {
+            "requested": "c0",
+            "effective": "c0",
+            "restored": false,
+            "calls": 0,
+            "success_count": 0,
+            "fallback_count": 0,
+            "last_error": null,
+            "output_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_dtype": "float32",
+            "device": "cuda:0",
+            "input_shapes": null,
+            "host_buffer_allocations": 0,
+            "host_tensor_view_allocations": 0,
+            "host_buffer_bytes": 0,
+            "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+            "gpu_output_buffer_reused": false,
+            "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+            "transfer": "original blocking Tensor.to(device), non_blocking=False",
+            "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+            "timings": {},
+            "cuda_validation": "external coordinator correctness/performance check required"
+          },
+          "postprocess": {
+            "requested": "a2",
+            "effective": "a2",
+            "available": true,
+            "restored": false,
+            "fallback_count": 0,
+            "last_error": null,
+            "predict_calls": 1,
+            "converted_results": 0,
+            "packed_batches": 0,
+            "packed_rows": 0,
+            "d2h_calls": 0,
+            "d2h_bytes": 0,
+            "last_pack_wall_ms": 0.10896399999182904,
+            "pack_wall_ms_total": 0.10896399999182904,
+            "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+            "nms": "original predictor unchanged",
+            "top_k": "original stable sort then slice"
+          }
+        }
+      }
+    },
+    "final_status": {
+      "mode": "a2_graph",
+      "enabled": true,
+      "state": {
+        "requested": {
+          "postprocess": "a2",
+          "engine": "graph",
+          "preprocess": "c0"
+        },
+        "restored": false,
+        "components": {
+          "engine": {
+            "requested": "graph",
+            "effective": "graph",
+            "fallback_count": 0,
+            "last_error": null,
+            "disabled_reason": null,
+            "cleanup_error": null,
+            "calls": 62,
+            "capture_count": 1,
+            "replay_count": 62,
+            "input_update_count": 62,
+            "warmup_enqueue_count": 3,
+            "output_clone_count": 62,
+            "input_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_shape": [
+              2,
+              5,
+              8400
+            ],
+            "input_dtype": "float32",
+            "output_dtype": "float32",
+            "output_names": [
+              "output0"
+            ],
+            "private_context_allocated": true,
+            "graph_allocated": true,
+            "stream_allocated": true,
+            "buffers_allocated": true,
+            "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+            "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+            "device": "cuda:0"
+          },
+          "preprocess": {
+            "requested": "c0",
+            "effective": "c0",
+            "restored": false,
+            "calls": 0,
+            "success_count": 0,
+            "fallback_count": 0,
+            "last_error": null,
+            "output_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_dtype": "float32",
+            "device": "cuda:0",
+            "input_shapes": null,
+            "host_buffer_allocations": 0,
+            "host_tensor_view_allocations": 0,
+            "host_buffer_bytes": 0,
+            "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+            "gpu_output_buffer_reused": false,
+            "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+            "transfer": "original blocking Tensor.to(device), non_blocking=False",
+            "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+            "timings": {},
+            "cuda_validation": "external coordinator correctness/performance check required"
+          },
+          "postprocess": {
+            "requested": "a2",
+            "effective": "a2",
+            "available": true,
+            "restored": false,
+            "fallback_count": 0,
+            "last_error": null,
+            "predict_calls": 62,
+            "converted_results": 0,
+            "packed_batches": 38,
+            "packed_rows": 85,
+            "d2h_calls": 38,
+            "d2h_bytes": 2040,
+            "last_pack_wall_ms": 0.8351960000254621,
+            "pack_wall_ms_total": 30.963739999151585,
+            "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+            "nms": "original predictor unchanged",
+            "top_k": "original stable sort then slice"
+          }
+        }
+      }
+    },
+    "candidate_status": {
+      "requested": "canvas",
+      "effective": "canvas",
+      "restored": false,
+      "calls": 61,
+      "success_count": 61,
+      "fallback_count": 0,
+      "restore_count": 0,
+      "last_error": null,
+      "hook": "pre_transform",
+      "input_shapes": [
+        [
+          376,
+          672,
+          3
+        ],
+        [
+          376,
+          672,
+          3
+        ]
+      ],
+      "output_shape": [
+        2,
+        3,
+        640,
+        640
+      ],
+      "output_dtype": "float32",
+      "device": "cuda:0",
+      "canvas_allocations": 2,
+      "host_buffer_allocations": 0,
+      "host_tensor_view_allocations": 0,
+      "fp32_output_allocations": null,
+      "gpu_output_buffer_reused": false,
+      "gpu_uint8_buffer_reused": false,
+      "host_buffer_owner": "handle; no alias of caller input images",
+      "pre_transform_output_owner": "two borrowed per-eye HWC canvases; original preprocess immediately np.stack copies",
+      "output_owner": "per-call independent FP32 tensor; caller may retain earlier output",
+      "transfer": "original blocking Tensor.to(device), non_blocking=False",
+      "concurrency": "one serialized predictor; no asynchronous overlap or extra streams",
+      "cuda_validation": "not performed by this CPU-only candidate developer"
+    },
+    "candidate_after_restore": {
+      "requested": "canvas",
+      "effective": "baseline",
+      "restored": true,
+      "calls": 61,
+      "success_count": 61,
+      "fallback_count": 0,
+      "restore_count": 1,
+      "last_error": null,
+      "hook": "pre_transform",
+      "input_shapes": [
+        [
+          376,
+          672,
+          3
+        ],
+        [
+          376,
+          672,
+          3
+        ]
+      ],
+      "output_shape": [
+        2,
+        3,
+        640,
+        640
+      ],
+      "output_dtype": "float32",
+      "device": "cuda:0",
+      "canvas_allocations": 2,
+      "host_buffer_allocations": 0,
+      "host_tensor_view_allocations": 0,
+      "fp32_output_allocations": null,
+      "gpu_output_buffer_reused": false,
+      "gpu_uint8_buffer_reused": false,
+      "host_buffer_owner": "handle; no alias of caller input images",
+      "pre_transform_output_owner": "two borrowed per-eye HWC canvases; original preprocess immediately np.stack copies",
+      "output_owner": "per-call independent FP32 tensor; caller may retain earlier output",
+      "transfer": "original blocking Tensor.to(device), non_blocking=False",
+      "concurrency": "one serialized predictor; no asynchronous overlap or extra streams",
+      "cuda_validation": "not performed by this CPU-only candidate developer"
+    },
+    "restore_passed": true
+  },
+  "reuse": {
+    "variant": "reuse",
+    "passed": true,
+    "excluded": false,
+    "errors": [],
+    "completed_pairs": 61,
+    "restore": {
+      "capture": "passed",
+      "candidate": "passed",
+      "load": "passed",
+      "pipeline_detector": "passed"
+    },
+    "start_status": {
+      "mode": "a2_graph",
+      "enabled": true,
+      "state": {
+        "requested": {
+          "postprocess": "a2",
+          "engine": "graph",
+          "preprocess": "c0"
+        },
+        "restored": false,
+        "components": {
+          "engine": {
+            "requested": "graph",
+            "effective": "graph",
+            "fallback_count": 0,
+            "last_error": null,
+            "disabled_reason": null,
+            "cleanup_error": null,
+            "calls": 1,
+            "capture_count": 1,
+            "replay_count": 1,
+            "input_update_count": 1,
+            "warmup_enqueue_count": 3,
+            "output_clone_count": 1,
+            "input_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_shape": [
+              2,
+              5,
+              8400
+            ],
+            "input_dtype": "float32",
+            "output_dtype": "float32",
+            "output_names": [
+              "output0"
+            ],
+            "private_context_allocated": true,
+            "graph_allocated": true,
+            "stream_allocated": true,
+            "buffers_allocated": true,
+            "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+            "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+            "device": "cuda:0"
+          },
+          "preprocess": {
+            "requested": "c0",
+            "effective": "c0",
+            "restored": false,
+            "calls": 0,
+            "success_count": 0,
+            "fallback_count": 0,
+            "last_error": null,
+            "output_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_dtype": "float32",
+            "device": "cuda:0",
+            "input_shapes": null,
+            "host_buffer_allocations": 0,
+            "host_tensor_view_allocations": 0,
+            "host_buffer_bytes": 0,
+            "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+            "gpu_output_buffer_reused": false,
+            "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+            "transfer": "original blocking Tensor.to(device), non_blocking=False",
+            "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+            "timings": {},
+            "cuda_validation": "external coordinator correctness/performance check required"
+          },
+          "postprocess": {
+            "requested": "a2",
+            "effective": "a2",
+            "available": true,
+            "restored": false,
+            "fallback_count": 0,
+            "last_error": null,
+            "predict_calls": 1,
+            "converted_results": 0,
+            "packed_batches": 0,
+            "packed_rows": 0,
+            "d2h_calls": 0,
+            "d2h_bytes": 0,
+            "last_pack_wall_ms": 0.059073999864267535,
+            "pack_wall_ms_total": 0.059073999864267535,
+            "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+            "nms": "original predictor unchanged",
+            "top_k": "original stable sort then slice"
+          }
+        }
+      }
+    },
+    "final_status": {
+      "mode": "a2_graph",
+      "enabled": true,
+      "state": {
+        "requested": {
+          "postprocess": "a2",
+          "engine": "graph",
+          "preprocess": "c0"
+        },
+        "restored": false,
+        "components": {
+          "engine": {
+            "requested": "graph",
+            "effective": "graph",
+            "fallback_count": 0,
+            "last_error": null,
+            "disabled_reason": null,
+            "cleanup_error": null,
+            "calls": 62,
+            "capture_count": 1,
+            "replay_count": 62,
+            "input_update_count": 62,
+            "warmup_enqueue_count": 3,
+            "output_clone_count": 62,
+            "input_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_shape": [
+              2,
+              5,
+              8400
+            ],
+            "input_dtype": "float32",
+            "output_dtype": "float32",
+            "output_names": [
+              "output0"
+            ],
+            "private_context_allocated": true,
+            "graph_allocated": true,
+            "stream_allocated": true,
+            "buffers_allocated": true,
+            "counter_scope": "successfully enqueued; synchronize/output read validates CUDA completion",
+            "input_update_policy": "current caller stream -> owned stream -> graph -> owned output clone -> caller",
+            "device": "cuda:0"
+          },
+          "preprocess": {
+            "requested": "c0",
+            "effective": "c0",
+            "restored": false,
+            "calls": 0,
+            "success_count": 0,
+            "fallback_count": 0,
+            "last_error": null,
+            "output_shape": [
+              2,
+              3,
+              640,
+              640
+            ],
+            "output_dtype": "float32",
+            "device": "cuda:0",
+            "input_shapes": null,
+            "host_buffer_allocations": 0,
+            "host_tensor_view_allocations": 0,
+            "host_buffer_bytes": 0,
+            "host_buffer_owner": "handle; uint8 BCHW, no caller-array aliases",
+            "gpu_output_buffer_reused": false,
+            "output_owner": "per-call FP32 tensor; caller may retain earlier batches",
+            "transfer": "original blocking Tensor.to(device), non_blocking=False",
+            "timing_scope": "c1 method wall milliseconds; no added CUDA synchronization; not kernel times",
+            "timings": {},
+            "cuda_validation": "external coordinator correctness/performance check required"
+          },
+          "postprocess": {
+            "requested": "a2",
+            "effective": "a2",
+            "available": true,
+            "restored": false,
+            "fallback_count": 0,
+            "last_error": null,
+            "predict_calls": 62,
+            "converted_results": 0,
+            "packed_batches": 38,
+            "packed_rows": 85,
+            "d2h_calls": 38,
+            "d2h_bytes": 2040,
+            "last_pack_wall_ms": 0.7954500001687848,
+            "pack_wall_ms_total": 31.269148999854224,
+            "pack_wall_scope": "cat + blocking CPU copy + Result/Boxes shallow copies; not exclusive GPU time",
+            "nms": "original predictor unchanged",
+            "top_k": "original stable sort then slice"
+          }
+        }
+      }
+    },
+    "candidate_status": {
+      "requested": "reuse",
+      "effective": "reuse",
+      "restored": false,
+      "calls": 61,
+      "success_count": 61,
+      "fallback_count": 0,
+      "restore_count": 0,
+      "last_error": null,
+      "hook": "preprocess",
+      "input_shapes": [
+        [
+          376,
+          672,
+          3
+        ],
+        [
+          376,
+          672,
+          3
+        ]
+      ],
+      "output_shape": [
+        2,
+        3,
+        640,
+        640
+      ],
+      "output_dtype": "float32",
+      "device": "cuda:0",
+      "canvas_allocations": 1,
+      "host_buffer_allocations": 1,
+      "host_tensor_view_allocations": 1,
+      "fp32_output_allocations": 61,
+      "gpu_output_buffer_reused": false,
+      "gpu_uint8_buffer_reused": false,
+      "host_buffer_owner": "handle; no alias of caller input images",
+      "pre_transform_output_owner": "internal single canvas copied into BCHW host batch",
+      "output_owner": "per-call independent FP32 tensor; caller may retain earlier output",
+      "transfer": "original blocking Tensor.to(device), non_blocking=False",
+      "concurrency": "one serialized predictor; no asynchronous overlap or extra streams",
+      "cuda_validation": "not performed by this CPU-only candidate developer"
+    },
+    "candidate_after_restore": {
+      "requested": "reuse",
+      "effective": "baseline",
+      "restored": true,
+      "calls": 61,
+      "success_count": 61,
+      "fallback_count": 0,
+      "restore_count": 1,
+      "last_error": null,
+      "hook": "preprocess",
+      "input_shapes": [
+        [
+          376,
+          672,
+          3
+        ],
+        [
+          376,
+          672,
+          3
+        ]
+      ],
+      "output_shape": [
+        2,
+        3,
+        640,
+        640
+      ],
+      "output_dtype": "float32",
+      "device": "cuda:0",
+      "canvas_allocations": 1,
+      "host_buffer_allocations": 1,
+      "host_tensor_view_allocations": 1,
+      "fp32_output_allocations": 61,
+      "gpu_output_buffer_reused": false,
+      "gpu_uint8_buffer_reused": false,
+      "host_buffer_owner": "handle; no alias of caller input images",
+      "pre_transform_output_owner": "internal single canvas copied into BCHW host batch",
+      "output_owner": "per-call independent FP32 tensor; caller may retain earlier output",
+      "transfer": "original blocking Tensor.to(device), non_blocking=False",
+      "concurrency": "one serialized predictor; no asynchronous overlap or extra streams",
+      "cuda_validation": "not performed by this CPU-only candidate developer"
+    },
+    "restore_passed": true
+  }
+}

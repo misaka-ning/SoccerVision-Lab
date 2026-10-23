@@ -1,0 +1,110 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "c1689204f6ccafbc51854a5c8aef5c0b38adf061388352d87ee865a4497c34da",
+    "before_sha256": "9051b10c99393c0669d3741330191027b3bc70abf8a227b09fcb68f3e2fef949",
+    "bytes": 15570
+  },
+  {
+    "path": "docs/e04_a2_graph.md",
+    "sha256": "bf92a00ca2ecf4a0d8694e214903bccbfe7a0cacd6dbc088450d7ce84618116d",
+    "before_sha256": null,
+    "bytes": 3886
+  },
+  {
+    "path": "soccer_perception_ros/config/detector.yaml",
+    "sha256": "6839bcddad7ee28a913370fb60a07109ee6ee7377eebaaab596db715c67dff57",
+    "before_sha256": "ec3f2180634e7aaeec72738320b43f0a7dafa28c99ff27148205b6438407290a",
+    "bytes": 1812
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/adapters/yolo.py",
+    "sha256": "43660a6a4288dd5b7bcac8567415181dc350150d3fd84611825ac39ba575c1be",
+    "before_sha256": "bee5617ba8a44fb02a4b8895bfdc581ea03c85351acc71282008255d32824a07",
+    "bytes": 16896
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/optimizations/__init__.py",
+    "sha256": "64e24726cee24f39b5cf89abd3c64c39ad7780acf442cd28ef7710c678cecb31",
+    "before_sha256": null,
+    "bytes": 2519
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/optimizations/graph.py",
+    "sha256": "85aee1a4427bb6c558273f87d34a6a349a148a7b2f0b4b97b7d6ab190ad6f695",
+    "before_sha256": null,
+    "bytes": 14837
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/optimizations/postprocess.py",
+    "sha256": "bb305015b10f997f875a20875670ed846bf353831ea6377f8428f240c4ad0c54",
+    "before_sha256": null,
+    "bytes": 9047
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/optimizations/preprocess.py",
+    "sha256": "5772bedc37dcde470249431af752efcf87247db2a438734750a2e3d337cc9d66",
+    "before_sha256": null,
+    "bytes": 10414
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/pipeline.py",
+    "sha256": "919a14779a0d45f03ac227e4bb969eefad9bad9b51b78a7e48e92164b983ca12",
+    "before_sha256": "4eca155cdffda3642ca5a3cd2400119e6a2573e2fef053a692c915038753a9e7",
+    "bytes": 14343
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/ros/node.py",
+    "sha256": "ee52c73f527f1b154b68f8840e8223fcf5337cd1e139865c7a3d881e38ad9011",
+    "before_sha256": "36fe726f0d91263d885c5c0639da5a69fc3de8d68d7fdc6107473203053455f7",
+    "bytes": 24400
+  },
+  {
+    "path": "soccer_perception_ros/soccer_perception/types.py",
+    "sha256": "e315ad45650ae124dedd9b10baac57159f0c72e43937f5b5954b9ec58b7f104a",
+    "before_sha256": "47b03f46948a6b9e76100181bc450b0587fefcbc879fc27d91b7dafffde28283",
+    "bytes": 12089
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_e04_graph.py",
+    "sha256": "f03c9bda1e77c1980a134da93a4c590e569ed454f6719d6782718c4f9f59a853",
+    "before_sha256": null,
+    "bytes": 17613
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_e04_integration.py",
+    "sha256": "caa64f5feb0ecda366436855767052b336af7233157048e016409a588dc1e699",
+    "before_sha256": null,
+    "bytes": 2797
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_e04_postprocess.py",
+    "sha256": "6cfa0e99e5994fe85fe7746c339856d54590504edbc07c8e35a06b8fa9fd394f",
+    "before_sha256": null,
+    "bytes": 15946
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_e04_runtime.py",
+    "sha256": "1812ea78fa30095192ed1917a824407d2c667ac8d03602e0871d12261009e9d1",
+    "before_sha256": null,
+    "bytes": 17770
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_pipeline_regression.py",
+    "sha256": "6c91aa0bfdf817abf7d25b6dfd71c0e0bfbbc626624c2c66ad3cd59be0f48940",
+    "before_sha256": "f7525335c001d27f3b9a4f94ea0b54a5799bb3bd15899d97a9c27b8068de5e95",
+    "bytes": 4378
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_resources.py",
+    "sha256": "d477570d00ad1b66fae57a5c1de6e3655587eec74eb497a3ed1cd5b7c3dd5e91",
+    "before_sha256": "260ffee94f7dfb822fd31ebf174f647523621dfa326be6dfc8dc248dba90f774",
+    "bytes": 8539
+  },
+  {
+    "path": "soccer_perception_ros/tests/test_ros_config.py",
+    "sha256": "c3d010a1e5ba067906d4c996b2ff7e79a30f175524fff4ceb68498894456af8e",
+    "before_sha256": "223bd2675b4d588d91014f112e0fcce086ff6eb8f768479bc5765231572fb77d",
+    "bytes": 10435
+  }
+]

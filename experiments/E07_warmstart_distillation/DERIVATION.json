@@ -1,0 +1,7 @@
+{
+  "source_experiment": "E06_distillation",
+  "source_entry": "experiments/E06_distillation/e06.py",
+  "source_sha256": "9610e8971d8ca8be7ff4702ed07a37c0eae483ed39e3b3e8d7e4f0af0896bdac",
+  "baseline_run": "20261023T034325Z_s42_KD1_f1347d",
+  "purpose": "E07 uses E05 best.pt as student initialization; same frozen E01 teacher and KD recipe; new optimizer, independent artifacts. Only orchestration is copied; shared Trainer and metrics remain reused."
+}

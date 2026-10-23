@@ -1,0 +1,61 @@
+{
+  "python": "/home/nvidia/miniconda3/envs/soccer_perception/bin/python",
+  "installed_package": "/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception",
+  "installed_code_matches": [
+    "adapters/fast_postprocess.py",
+    "adapters/fast_preprocess.py",
+    "adapters/nms_backends.py",
+    "adapters/optimization.py",
+    "adapters/yolo.py",
+    "optimizations/__init__.py",
+    "optimizations/graph.py",
+    "optimizations/postprocess.py",
+    "optimizations/preprocess.py",
+    "pipeline.py",
+    "ros/node.py",
+    "types.py"
+  ],
+  "config": {
+    "model": "/home/nvidia/soccer_backend_tensorrt/soccer_perception_ros/models/E01_baseline.engine",
+    "optimization": "a2_graph",
+    "conf": 0.45,
+    "class_ids": "0",
+    "top_k": 5,
+    "imgsz": 640,
+    "batch": 2,
+    "publish_limit_hz": 50.0
+  },
+  "engine_sha256": "98c1b6bc703b29874d95db94d9cf51ef5b4a4142a7ca6cf22362a0c616fbf348",
+  "weight_sha256": "285c198aff043fe7e7486515dbdc1a2cc02db5daf9a0f55f8ce3c6cabf2743ac",
+  "engine_metadata": {
+    "description": "Ultralytics YOLO26s model trained on /home/misaka/workspace/experiments/E01_yolo26s_single_class_finetune/runs/20261019T092432Z_s42_853c4a/dataset.train-val.yaml",
+    "author": "Ultralytics",
+    "date": "2026-10-20T10:40:22.124341",
+    "version": "8.3.159",
+    "license": "AGPL-3.0 License (https://ultralytics.com/license)",
+    "docs": "https://docs.ultralytics.com",
+    "stride": 32,
+    "task": "detect",
+    "batch": 2,
+    "imgsz": [
+      640,
+      640
+    ],
+    "names": {
+      "0": "football"
+    },
+    "args": {
+      "batch": 2,
+      "fraction": 1.0,
+      "half": true,
+      "int8": false,
+      "dynamic": false,
+      "simplify": false,
+      "nms": false
+    },
+    "channels": 3
+  },
+  "model_instantiated": false,
+  "production_started": false,
+  "graph_capture_tested_in_this_step": false
+}

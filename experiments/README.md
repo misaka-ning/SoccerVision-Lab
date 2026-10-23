@@ -1,8 +1,21 @@
 # 实验设计与独立运行
 
-保留现有 `E00_original/`、`E01_baseline/` 空预留目录。未来按需创建E01_finetune、E02_c3k2、E03_p2、E04_neck；不一次性复制五套代码、数据和配置。原架构已有C3k2，E02须明确变体/层号；各结构实验先以E01为单因素对照。
+当前实验入口：
 
-本轮只增加一份[run_record.json模板](_template/run_record.json)，它是管理记录，不是训练配置或当前程序接口；未启动任何训练、推理、Test或部署。详细方法见[实验设计](../reports/workspace-organization/EXPERIMENT_DESIGN.md)。
+|目录|状态|
+|---|---|
+|`E00_original/`|原始模型参考与已有评估记录|
+|[E01_baseline](E01_baseline/README.md)|单类别足球微调与 Val 已完成，建立 E1 基线；原目录由用户重命名至此|
+|[E02_c3k2](E02_c3k2/README.md)|第19层隐藏通道128→112；78轮恢复训练和独立 Val 已完成，Orin 三轮对照未取得可测量加速收益|
+|[E03_tensorrt_profiling](E03_tensorrt_profiling/README.md)|已完成实机 Profiling、原始结果回收与校验；Top20/模块/L19/Nsight/系统结论见报告|
+|[E04_tensorrt_pipeline](E04_tensorrt_pipeline/README.md)|推理链路优化；100个有效性能作业与组合Golden已审查，R4同期系统约+6.93%；后续用户暂停，长稳/生产采用未验收|
+|[E05_yolo26n](E05_yolo26n/README.md)|nano73轮、最佳43轮；完整独立Val mAP50-95为76.846%，E01为78.567%；召回下降，无球误报更少；转入E06，未做Orin测速|
+|[E06_distillation](E06_distillation/README.md)|KD1：冻结E01-s教师、与E05同起点nano，原生P3/P4/P5特征蒸馏dis=6；独立入口与短时验证，正式训练待用户启动|
+|[E07_warmstart_distillation](E07_warmstart_distillation/README.md)|WarmKD：从E05 best.pt开始，教师与训练配方同E06；独立run、共享GPU互斥，正式训练待用户启动|
+
+阶段结果见[E00～E03实验表格](../benchmarks/experiment_tables/README.md)及[E1/E2 实验报告](../benchmarks/E01_E02_REPORT.md)，包含实验内容、产出、精度变化、实机结论及比较范围。
+
+E03 已用于 TensorRT Profiling；后续 P2、Neck 或系统优化按实际假设另行编号，不复制多套训练/评估实现。原架构已经包含C3k2，E02是指定层内部宽度试验。运行管理信息保存在各run的 `run_record.json`；历史组织设计见[实验设计](../reports/workspace-organization/EXPERIMENT_DESIGN.md)，其中旧路径和“未训练”描述为当时状态，当前以各实验记录和追加汇总为准。
 
 ## 每次运行
 

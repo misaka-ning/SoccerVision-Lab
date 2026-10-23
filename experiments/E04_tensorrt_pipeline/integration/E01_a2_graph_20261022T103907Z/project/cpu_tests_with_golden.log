@@ -1,0 +1,189 @@
+test_prediction_3d_jump_and_speed_hard_gate_are_explicit (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+test_radius_consistency_can_hard_reject (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+test_rejects_bad_aspect_ratio_and_too_large_bbox (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+test_rejects_bad_disparity_vertical_and_radius_mismatch (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+test_rejects_bbox_outside_image (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+test_rejects_depth_outside_configured_range (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+test_rejects_invalid_monocular_bbox (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+test_score_gate_only_applies_confidence_detectors (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+test_selects_highest_scored_valid_pair (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+test_duplicate_file_references_are_rejected (tests.test_config_files.ConfigFileTests) ... ok
+test_duplicate_keys_inside_yaml_are_rejected (tests.test_config_files.ConfigFileTests) ... ok
+test_duplicate_parameters_report_both_source_files (tests.test_config_files.ConfigFileTests) ... ok
+test_installed_package_loads_manifest_and_sibling_files (tests.test_config_files.ConfigFileTests) ... ok
+test_launch_uses_manifest_from_active_installed_package (tests.test_config_files.ConfigFileTests) ... ok
+test_manifest_shape_and_entries_are_checked (tests.test_config_files.ConfigFileTests) ... ok
+test_merges_files_preserving_values_types_and_manifest_order (tests.test_config_files.ConfigFileTests) ... ok
+test_missing_manifest_or_parameter_file_fails (tests.test_config_files.ConfigFileTests) ... ok
+test_parameter_file_annotations_are_deferred_for_python38 (tests.test_config_files.ConfigFileTests) ... ok
+test_parameter_file_shape_is_checked (tests.test_config_files.ConfigFileTests) ... ok
+test_relative_file_paths_do_not_depend_on_current_directory (tests.test_config_files.ConfigFileTests) ... ok
+test_async_failure_is_visible_and_never_returns_a_frame (tests.test_e04_graph.GraphContractTests) ... ok
+test_b0_does_not_patch_or_allocate (tests.test_e04_graph.GraphContractTests) ... ok
+test_capture_failure_closes_owned_context_and_baseline_survives (tests.test_e04_graph.GraphContractTests) ... ok
+test_close_before_first_frame_does_not_allocate_or_capture (tests.test_e04_graph.GraphContractTests) ... ok
+test_duplicate_and_invalid_install_fail_before_mutation (tests.test_e04_graph.GraphContractTests) ... ok
+test_input_mismatch_disables_and_preserves_original_arguments (tests.test_e04_graph.GraphContractTests) ... ok
+test_install_requires_predictor_backend_to_be_ready (tests.test_e04_graph.GraphContractTests) ... ok
+test_instance_override_restored_exactly (tests.test_e04_graph.GraphContractTests) ... ok
+test_mock_changed_inputs_replay_current_data_and_own_output (tests.test_e04_graph.GraphContractTests) ... ok
+test_old_backend_cleanup_does_not_unpatch_reloaded_backend (tests.test_e04_graph.GraphContractTests) ... ok
+test_ordinary_predictor_keywords_capture_once_for_current_frames (tests.test_e04_graph.GraphContractTests) ... ok
+test_replay_failure_does_not_reuse_old_output (tests.test_e04_graph.GraphContractTests) ... ok
+test_restore_can_retry_cleanup_without_repatching_baseline (tests.test_e04_graph.GraphContractTests) ... ok
+test_restore_does_not_overwrite_another_patch_owner (tests.test_e04_graph.GraphContractTests) ... ok
+test_restore_releases_owned_allocations_and_exact_method (tests.test_e04_graph.GraphContractTests) ... ok
+test_restore_then_reinstall_owns_fresh_context_and_statistics (tests.test_e04_graph.GraphContractTests) ... ok
+test_startup_context_creation_failure_releases_partial_allocations (tests.test_e04_graph.GraphContractTests) ... ok
+test_trt_false_return_does_not_report_graph_success (tests.test_e04_graph.GraphContractTests) ... ok
+test_unsupported_backend_fails_before_context_allocation (tests.test_e04_graph.GraphContractTests) ... ok
+test_default_hooks_and_reverse_idempotent_restore (tests.test_e04_integration.IntegrationLifecycle) ... ok
+test_failed_cleanup_can_be_retried (tests.test_e04_integration.IntegrationLifecycle) ... ok
+test_partial_setup_failure_restores_prior_components (tests.test_e04_integration.IntegrationLifecycle) ... ok
+test_unknown_option_fails_before_mutation (tests.test_e04_integration.IntegrationLifecycle) ... ok
+test_all_final_boxes_match_candidates_including_left_right (tests.test_e04_postprocess.GoldenTests) ... ok
+test_real_downstream_stereo_tracking_and_ros_protocol_match_golden (tests.test_e04_postprocess.GoldenTests) ... ok
+test_a1_masks_use_original_centroid_and_radius (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_a2_preserves_legacy_fast_results_without_claiming_a_transfer (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_a2_restore_ownership_conflict_is_retryable (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_a2_returned_storage_survives_later_calls_and_source_mutation (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_changed_inputs_are_not_cached_or_replayed (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_dense_overlapping_ties_negative_bounds_tiny_boxes_and_topk (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_empty_left_right_and_asymmetry (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_install_rollback_off_by_default_and_a3_unavailable (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_predict_arguments_and_original_objects_are_preserved (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_restore_preserves_preexisting_instance_override (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_unsupported_a2_results_fall_back_without_repeating_inference (tests.test_e04_postprocess.PostprocessTests) ... ok
+test_active_modes_initialize_capture_warm_then_synchronize (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_close_restores_before_releasing_model_and_remembers_status (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_close_without_load_is_safe (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_default_none_has_no_install_or_extra_predict (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_explicit_old_defaults_allow_active_mode (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_failed_restore_preserves_model_and_handle_for_retry (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_first_runtime_fallback_is_visible_without_retrying_frame (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_none_preserves_legacy_predictor_selection (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_old_nondefault_environment_rejected_before_yolo_creation (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_real_frames_keep_predict_and_original_candidate_protocol (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_startup_capture_fallback_is_visible_before_first_real_frame (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_startup_install_failure_does_not_leave_model_loaded (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_startup_warm_failure_restores_and_releases_owned_model (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_unknown_mode_is_rejected_before_yolo_creation (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+test_empty_transfer_and_candidates (tests.test_fast_postprocess.CandidateProtocolTest) ... ok
+test_matches_original_results_converter_for_top_k_and_ties (tests.test_fast_postprocess.CandidateProtocolTest) ... ok
+test_batch_transfer_calls_cpu_once_and_empty_never (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+test_empty_and_strict_low_confidence (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+test_overlap_boundary_degenerate_ties (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+test_predictor_factory_leaves_nms_untouched (tests.test_fast_postprocess.SingleClassGoldenTest) ... WARNING ⚠️ Ultralytics settings reset to default values. This may be due to a possible problem with your settings or a recent ultralytics package update. 
+View Ultralytics Settings with 'yolo settings' or at '/home/misaka/.config/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+ERROR ❌ Error writing to /home/misaka/.config/Ultralytics/settings.json: [Errno 30] Read-only file system: '/home/misaka/.config/Ultralytics/settings.json'
+ERROR ❌ Error writing to /home/misaka/.config/Ultralytics/settings.json: [Errno 30] Read-only file system: '/home/misaka/.config/Ultralytics/settings.json'
+Matplotlib created a temporary cache directory at /tmp/matplotlib-p3nn1y7n because the default path (/home/misaka/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+ok
+test_predictor_fast_output_and_feature_fallback (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+test_random_order_max_nms_and_max_det (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+test_rejects_unsupported_output (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+test_scale_and_batch_order (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+test_cuda_transfer_and_normalization_match_original (tests.test_fast_preprocess.FastPreprocessTests) ... skipped 'CUDA unavailable'
+test_float32_and_float16_match_original_tensor_normalization (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+test_frozen_robot_images (tests.test_fast_preprocess.FastPreprocessTests) ... skipped 'E02_GOLDEN_DIR not supplied'
+test_letterbox_matches_deployed_cv2_pixels_across_rounding_cases (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+test_noncontiguous_and_mixed_shapes_do_not_mutate_source (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+test_predictor_hook_uses_original_auto_rule (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+test_reuse_and_shape_changes_have_no_stale_padding (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+test_stereo_order_channel_order_and_padding (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+test_unsupported_inputs_can_use_original_predictor (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+test_bad_disparity_is_invalid_measurement (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+test_ball_position_camera_payload_is_flu (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+test_camera_payload_stays_seven_fields (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+test_invalid_measurement_diagnostics_do_not_need_none_branch (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+test_measurement_to_dict_is_json_safe (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+test_missing_pair_is_invalid_measurement (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+test_non_finite_triangulation_is_invalid_measurement (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+test_valid_stereo_measurement (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+test_vertical_mismatch_is_invalid_measurement (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+test_concurrent_exports_fail_before_loading_model (tests.test_model_artifacts.ModelArtifactTests) ... ok
+test_custom_engine_destination_and_pointer_rejection (tests.test_model_artifacts.ModelArtifactTests) ... Exporting /tmp/tmps7yzhs4b/ball.pt -> /tmp/tmps7yzhs4b/external/custom.engine
+ok
+test_engine_destination_cannot_overwrite_source_weights (tests.test_model_artifacts.ModelArtifactTests) ... ok
+test_existing_onnx_conflict_requires_force (tests.test_model_artifacts.ModelArtifactTests) ... Exporting /tmp/tmpidb9tb3v/ball.pt -> /tmp/tmpidb9tb3v/ball.engine
+Exporting /tmp/tmpidb9tb3v/ball.pt -> /tmp/tmpidb9tb3v/ball.engine
+ok
+test_explicit_engine_can_run_without_pt_but_must_exist (tests.test_model_artifacts.ModelArtifactTests) ... Using TensorRT engine: /tmp/tmprdq2ry7d/ball.engine
+ok
+test_failed_export_preserves_existing_engine_and_onnx (tests.test_model_artifacts.ModelArtifactTests) ... Exporting /tmp/tmp0g39p66s/ball.pt -> /tmp/tmp0g39p66s/ball.engine
+Exporting /tmp/tmp0g39p66s/ball.pt -> /tmp/tmp0g39p66s/ball.engine
+Using TensorRT engine: /tmp/tmp0g39p66s/ball.engine
+ok
+test_legacy_engine_requires_explicit_adoption_and_is_preserved (tests.test_model_artifacts.ModelArtifactTests) ... Using TensorRT engine: /tmp/tmp9157m6av/ball.engine
+ok
+test_startup_does_not_export_and_explicit_build_reuses_matching_engine (tests.test_model_artifacts.ModelArtifactTests) ... Exporting /tmp/tmp3xezvuwh/ball.pt -> /tmp/tmp3xezvuwh/ball.engine
+Using TensorRT engine: /tmp/tmp3xezvuwh/ball.engine
+Reusing TensorRT engine: /tmp/tmp3xezvuwh/ball.engine
+ok
+test_weights_settings_and_engine_changes_require_explicit_rebuild (tests.test_model_artifacts.ModelArtifactTests) ... Exporting /tmp/tmpr2wg8egq/ball.pt -> /tmp/tmpr2wg8egq/ball.engine
+Exporting /tmp/tmpr2wg8egq/ball.pt -> /tmp/tmpr2wg8egq/ball.engine
+ok
+test_migration_is_repeatable_and_conflicts_preserve_both_versions (tests.test_model_artifacts.ModelMigrationTests) ... ok
+test_cuda_ties_and_copy_boundary (tests.test_nms_backends.NmsBackendTests) ... skipped 'CUDA device unavailable'
+test_empty_and_single (tests.test_nms_backends.NmsBackendTests) ... ok
+test_equal_scores_preserve_original_device_sort (tests.test_nms_backends.NmsBackendTests) ... ok
+test_numpy_rejects_unvalidated_dtype_and_unknown_backend (tests.test_nms_backends.NmsBackendTests) ... ok
+test_overlap_and_decreasing_score_order (tests.test_nms_backends.NmsBackendTests) ... ok
+test_randomized_including_score_ties_and_invalid_boxes (tests.test_nms_backends.NmsBackendTests) ... ok
+test_threshold_equality_kept_and_greater_suppressed (tests.test_nms_backends.NmsBackendTests) ... ok
+test_torchvision_probe_and_valid_distinct_scores (tests.test_nms_backends.NmsBackendTests) ... ok
+test_zero_negative_area_and_nonfinite (tests.test_nms_backends.NmsBackendTests) ... ok
+test_default_needs_no_predictor_override (tests.test_optimization_integration.OptimizationIntegrationTests) ... ok
+test_engine_keeps_binding_precision (tests.test_optimization_integration.OptimizationIntegrationTests) ... ok
+test_misspelled_or_unsafe_combinations_fail (tests.test_optimization_integration.OptimizationIntegrationTests) ... ok
+test_pt_initialization_honors_requested_device_and_precision (tests.test_optimization_integration.OptimizationIntegrationTests) ... ok
+test_15_hz_workload_produces_10_hz_without_halving (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+test_early_sleep_return_still_waits_until_deadline (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+test_insufficient_compute_reports_actual_frequency (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+test_invalid_rates_are_rejected (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+test_overrun_skips_backlog_instead_of_catching_up (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+test_partial_period_overrun_does_not_compress_next_interval (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+test_processing_and_publish_cost_are_included_without_sleep_drift (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+test_detector_cleanup_failure_still_closes_source_and_visualizer (tests.test_pipeline_regression.PipelineRegressionTests) ... ok
+test_tracking_loss_and_recovery_match_original_outputs (tests.test_pipeline_regression.PipelineRegressionTests) ... ok
+test_absolute_model_override_and_home_expansion (tests.test_resources.ResourcePathTests) ... ok
+test_installed_resources_use_ament_package_index (tests.test_resources.ResourcePathTests) ... ok
+test_model_override_is_shared_by_source_and_install_and_resolves_symlinks (tests.test_resources.ResourcePathTests) ... ok
+test_node_dependency_check_rejects_broken_lazy_yolo_import (tests.test_resources.ResourcePathTests) ... ok
+test_node_entry_uses_installed_import_without_changing_process_paths (tests.test_resources.ResourcePathTests) ... ok
+test_node_switches_to_venv_even_when_python_binary_is_the_same (tests.test_resources.ResourcePathTests) ... ok
+test_relocated_install_does_not_silently_generate_in_install (tests.test_resources.ResourcePathTests) ... ok
+test_source_configuration_and_models_resolve_from_any_directory (tests.test_resources.ResourcePathTests) ... ok
+test_camera_deploy_yaml_covers_every_backend_config_field (tests.test_ros_config.RosConfigTests) ... ok
+test_camera_deploy_yaml_matches_piplus_ball_topic_contract (tests.test_ros_config.RosConfigTests) ... ok
+test_camera_deploy_yaml_uses_current_deploy_param_names (tests.test_ros_config.RosConfigTests) ... ok
+test_default_e01_engine_and_a2_graph_selection (tests.test_ros_config.RosConfigTests) ... ok
+test_optimization_modes_include_original_and_independent_fallbacks (tests.test_ros_config.RosConfigTests) ... ok
+test_optimization_requires_valid_string_without_silent_fallback (tests.test_ros_config.RosConfigTests) ... ok
+test_ros_bridge_reads_every_backend_config_field (tests.test_ros_config.RosConfigTests) ... ok
+test_ros_bridge_uses_ros2_parameter_overrides (tests.test_ros_config.RosConfigTests) ... ok
+test_camera_fps_ros_override_and_validation (tests.test_ros_config.SplitYamlConfigTests) ... ok
+test_edited_yaml_changes_backend_and_ros_defaults (tests.test_ros_config.SplitYamlConfigTests) ... ok
+test_missing_and_unknown_yaml_fields_fail_without_fallback (tests.test_ros_config.SplitYamlConfigTests) ... ok
+test_optimization_is_a_required_yaml_string (tests.test_ros_config.SplitYamlConfigTests) ... ok
+test_optional_values_and_ros_scalar_types (tests.test_ros_config.SplitYamlConfigTests) ... ok
+test_output_frequency_must_be_positive_and_finite (tests.test_ros_config.SplitYamlConfigTests) ... ok
+test_runtime_fields_have_no_python_defaults (tests.test_ros_config.SplitYamlConfigTests) ... ok
+test_yaml_location_does_not_depend_on_working_directory (tests.test_ros_config.SplitYamlConfigTests) ... ok
+test_camera_retrieves_only_optional_visualization_cloud (tests.test_ros_runtime.RosRuntimeTests) ... ok
+test_disabled_viser_never_imports_optional_package (tests.test_ros_runtime.RosRuntimeTests) ... ok
+test_invalid_state_preserves_publishing_policy (tests.test_ros_runtime.RosRuntimeTests) ... ok
+test_json_handles_numpy_boolean_nan_and_infinity (tests.test_ros_runtime.RosRuntimeTests) ... ok
+test_loop_paces_invalid_status_and_viser_without_dropping_frames (tests.test_ros_runtime.RosRuntimeTests) ... ok
+test_open_failure_still_releases_camera (tests.test_ros_runtime.RosRuntimeTests) ... ok
+test_sdk_depth_is_enabled_only_for_viser_point_cloud (tests.test_ros_runtime.RosRuntimeTests) ... ok
+test_status_only_and_optional_json (tests.test_ros_runtime.RosRuntimeTests) ... ok
+test_valid_position_axes_timestamp_and_json (tests.test_ros_runtime.RosRuntimeTests) ... Preserved model: /tmp/tmpj67p2l2x/install/models/ball.engine -> /tmp/tmpj67p2l2x/source/models/ball.engine
+Preserved model: /tmp/tmpj67p2l2x/install/models/ball.onnx -> /tmp/tmpj67p2l2x/source/models/ball.onnx
+ok
+
+----------------------------------------------------------------------
+Ran 163 tests in 2.108s
+
+OK (skipped=3)

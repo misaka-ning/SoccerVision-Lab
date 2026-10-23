@@ -1,0 +1,25 @@
+test_61_fixed_val_pairs_exactly_match_audited_preprocess (test_candidates.CandidateTests) ... ok
+test_canvas_only_changes_pre_transform (test_candidates.CandidateTests) ... ok
+test_exact_rounding_padding_channel_and_stereo_pixels (test_candidates.CandidateTests) ... ok
+test_exception_falls_back_and_restore_is_unconditional_and_idempotent (test_candidates.CandidateTests) ... ok
+test_noncontiguous_readonly_inputs (test_candidates.CandidateTests) ... ok
+test_repeated_changed_images_and_retained_outputs (test_candidates.CandidateTests) ... ok
+test_restore_preserves_preexisting_instance_override (test_candidates.CandidateTests) ... ok
+test_shape_change_falls_back_without_poisoning_frozen_buffers (test_candidates.CandidateTests) ... ok
+test_unsupported_dtype_batch_and_backend_use_saved_original (test_candidates.CandidateTests) ... ok
+test_all_final_boxes_checked_before_topk (test_correctness.CorrectnessTests) ... ok
+test_candidate_exception_keeps_traceback_and_restores_before_close (test_correctness.CorrectnessTests) ... ok
+test_changed_candidate_fails_without_hiding_or_excluding_other_candidate (test_correctness.CorrectnessTests) ... ok
+test_r0_failure_writes_report_then_raises (test_correctness.CorrectnessTests) ... ok
+test_real_pipeline_exact_and_safe_restore_every_variant (test_correctness.CorrectnessTests) ... ok
+test_snapshot_owns_raw_storage_and_checks_dtype_shape_bytes (test_correctness.CorrectnessTests) ... ok
+test_baseline_drift_larger_than_saved_cost_stops (test_race.DecisionTests) ... ok
+test_below_one_ms_stops_even_if_fastest (test_race.DecisionTests) ... ok
+test_mean_improves_but_tail_regresses_is_not_selected (test_race.DecisionTests) ... ok
+test_one_block_regression_rejects_aggregate_speedup (test_race.DecisionTests) ... ok
+test_winner_requires_at_least_one_ms_for_stereo_pair (test_race.DecisionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.717s
+
+OK

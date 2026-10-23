@@ -1,0 +1,118 @@
+{
+  "E01_baseline": {
+    "profile_repeats": 3,
+    "layer_count": 224,
+    "sum_average_ms": 28.427848900000022,
+    "modules": {
+      "Backbone (excl Attention)": {
+        "ms": 10.787140533333332,
+        "percent": 37.945679855268
+      },
+      "Auxiliary": {
+        "ms": 4.788830166666666,
+        "percent": 16.845559379157464
+      },
+      "Neck (excl embedded PSA)": {
+        "ms": 6.100312533333333,
+        "percent": 21.458931186781875
+      },
+      "Attention": {
+        "ms": 2.7740832,
+        "percent": 9.758329621626762
+      },
+      "Detect": {
+        "ms": 3.9774824666666673,
+        "percent": 13.991499957165821
+      }
+    },
+    "auxiliary_breakdown_ms": {
+      "Reformat": 1.2331585,
+      "Copy": 3.555671666666667,
+      "Cast_or_other": 0
+    },
+    "attention_named_matmul_softmax_ms": 1.5073873333333334,
+    "attention_named_matmul_softmax_layers": 6,
+    "attention_definition": "Whole top-level C2PSA L10 plus identifiable embedded PSA subblock /model.22/m.0/m.0.1/; remove the latter from Neck; auxiliary and boundary fusion separate",
+    "attention_blocks": {
+      "L10_C2PSA": {
+        "core_ms": 1.5399588000000002,
+        "auxiliary_ms": 0.42913106666666667
+      },
+      "L22_PSA": {
+        "core_ms": 1.2341244,
+        "auxiliary_ms": 0.22503376666666666
+      }
+    },
+    "structural_core_ms": {
+      "Backbone_incl_C2PSA": 12.327099333333331,
+      "Neck_incl_embedded_PSA": 7.334436933333333,
+      "Detect": 3.9774824666666673
+    },
+    "l19_exclusive_ms": 1.367459433333333,
+    "l19_cross_module_associated_ms": 0.0,
+    "l19_core_ms": 1.185974433333333,
+    "l19_auxiliary_ms": 0.181485,
+    "metadata_coverage_count": 224,
+    "io_shape_coverage_count": 221,
+    "tactic_coverage_count": 224,
+    "profile_scope": "detailed newly-built Engine; real representative resident batch2 input; profiler timings, not production latency"
+  },
+  "E02_c3k2": {
+    "profile_repeats": 3,
+    "layer_count": 230,
+    "sum_average_ms": 28.51184756666666,
+    "modules": {
+      "Backbone (excl Attention)": {
+        "ms": 10.788878800000003,
+        "percent": 37.839984851116185
+      },
+      "Auxiliary": {
+        "ms": 4.866995833333336,
+        "percent": 17.070082259500307
+      },
+      "Neck (excl embedded PSA)": {
+        "ms": 6.102712866666668,
+        "percent": 21.40412981795462
+      },
+      "Attention": {
+        "ms": 2.789671833333333,
+        "percent": 9.78425486742133
+      },
+      "Detect": {
+        "ms": 3.9635882333333328,
+        "percent": 13.901548204007597
+      }
+    },
+    "auxiliary_breakdown_ms": {
+      "Reformat": 1.2342194333333334,
+      "Copy": 3.6327764000000005,
+      "Cast_or_other": 0
+    },
+    "attention_named_matmul_softmax_ms": 1.5120073333333335,
+    "attention_named_matmul_softmax_layers": 6,
+    "attention_definition": "Whole top-level C2PSA L10 plus identifiable embedded PSA subblock /model.22/m.0/m.0.1/; remove the latter from Neck; auxiliary and boundary fusion separate",
+    "attention_blocks": {
+      "L10_C2PSA": {
+        "core_ms": 1.5563384333333334,
+        "auxiliary_ms": 0.43099289999999996
+      },
+      "L22_PSA": {
+        "core_ms": 1.2333334,
+        "auxiliary_ms": 0.22477203333333332
+      }
+    },
+    "structural_core_ms": {
+      "Backbone_incl_C2PSA": 12.345217233333337,
+      "Neck_incl_embedded_PSA": 7.336046266666669,
+      "Detect": 3.9635882333333328
+    },
+    "l19_exclusive_ms": 1.4772239666666669,
+    "l19_cross_module_associated_ms": 0.0,
+    "l19_core_ms": 1.2180274333333332,
+    "l19_auxiliary_ms": 0.25919653333333337,
+    "metadata_coverage_count": 230,
+    "io_shape_coverage_count": 227,
+    "tactic_coverage_count": 230,
+    "profile_scope": "detailed newly-built Engine; real representative resident batch2 input; profiler timings, not production latency"
+  }
+}

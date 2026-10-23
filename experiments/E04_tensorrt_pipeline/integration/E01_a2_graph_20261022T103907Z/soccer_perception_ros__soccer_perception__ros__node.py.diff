@@ -1,0 +1,15 @@
+--- robot/soccer_perception_ros/soccer_perception/ros/node.py
++++ candidate/soccer_perception_ros/soccer_perception/ros/node.py
+@@ -89,6 +89,12 @@
+             raise ValueError(f"{field.name}: null is not allowed")
+         # 当前配置中的其他可选字段是路径或数值，分别用空字符串或负数占位。
+         return "" if kind == "Path" else (-1 if kind == "int" else -1.0)
++    if field.name == "yolo_optimization":
++        if not isinstance(value, str):
++            raise ValueError("yolo_optimization: expected string")
++        if value not in {"none", "a2", "graph", "a2_graph"}:
++            raise ValueError("yolo_optimization must be none, a2, graph or a2_graph")
++        return value
+     if kind == "bool":
+         if isinstance(value, bool):
+             return value

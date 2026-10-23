@@ -1,0 +1,3 @@
+# Reuse the E1 CUDA runtime; do not replace its vendor-specific Torch wheel.
+ultralytics==8.4.173
+PyYAML==6.0.3

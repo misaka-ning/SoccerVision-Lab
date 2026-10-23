@@ -1,6 +1,6 @@
 # 路径相对仓库根目录；其余参数传入 Ultralytics YOLO.train()。
 # 参考权重为 80 类模型；训练时根据 data 自动建立 0 = football 的单类检测头。
-model: baseline/original_best.pt
+model: baseline/E0_original_best.pt
 data: null                 # 运行时读取script/config.yaml中的dataset_version
 task: detect
 mode: train

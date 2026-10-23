@@ -1,10 +1,10 @@
 # 原始参考模型资产
 
-此目录保存原始YOLO26s权重、从checkpoint提取的架构和历史身份清单。`original_best.pt` 的文件名、路径和字节保持，不作为缓存清理或为每个实验重复复制。
+此目录保存原始YOLO26s权重、从checkpoint提取的架构和历史身份清单。原权重已由 `original_best.pt` 更名为 `E0_original_best.pt`，字节及SHA256保持，不作为缓存清理或为每个实验重复复制。
 
 | 文件 | 角色 |
 | --- | --- |
-| original_best.pt | 原始参考权重；20,422,725字节，SHA256见下文 |
+| E0_original_best.pt | 原始参考权重；20,422,725字节，SHA256见下文 |
 | original_model.yaml | 保存的原始架构定义；原结构已经包含C3k2 |
 | baseline_manifest.json | 历史类别、模型元数据及身份记录；保持原字节 |
 | the model is yolo26s | 0字节历史占位；删除仍待批准 |

@@ -1,0 +1,13 @@
+{
+  "root": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/integration/E01_a2_graph_20261022T103907Z",
+  "project": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/integration/E01_a2_graph_20261022T103907Z/project",
+  "id": "E01_a2_graph_20261022T103907Z",
+  "status": "integrated_and_installed_cpu_verified",
+  "report": "/home/misaka/workspace/experiments/E04_tensorrt_pipeline/integration/E01_a2_graph_20261022T103907Z/INTEGRATION_REPORT.md",
+  "local_applied_files": 18,
+  "robot_applied_files": 27,
+  "production_started": false,
+  "long_experiments_paused": true,
+  "graph_capture_this_step": false,
+  "completed_at_utc": "2026-10-22T10:49:57.986135+00:00"
+}

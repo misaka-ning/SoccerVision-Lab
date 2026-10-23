@@ -1,0 +1,301 @@
+Starting >>> soccer_perception_ros
+-- Install configuration: ""
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/environment/pythonpath.sh
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/environment/pythonpath.dsv
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/core
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/core/coordinates.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/core/candidate_selection.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/core/__init__.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/core/geometry.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/core/tracking.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/core/localization.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/model_artifacts.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/ros
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/ros/node.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/ros/output.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/ros/__init__.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/viser.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/nms_backends.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/yolo.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/fast_preprocess.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/__init__.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/optimization.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/zed.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/fast_postprocess.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/optimizations
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/optimizations/graph.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/optimizations/postprocess.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/optimizations/__init__.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/optimizations/preprocess.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/types.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/__init__.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/resources.py
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/pipeline.py
+Listing '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception'...
+Listing '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/fast_postprocess.py'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/fast_preprocess.py'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/nms_backends.py'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/optimization.py'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/adapters/yolo.py'...
+Listing '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/core'...
+Listing '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/optimizations'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/optimizations/__init__.py'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/optimizations/graph.py'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/optimizations/postprocess.py'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/optimizations/preprocess.py'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/pipeline.py'...
+Listing '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/ros'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/ros/node.py'...
+Compiling '/home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/python3.8/site-packages/soccer_perception/types.py'...
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/lib/soccer_perception_ros/soccer_perception_ros_node.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/source_models_directory.txt
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/launch
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/launch/soccer_perception.launch.py
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/config
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/config/visualization.yaml
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/config/tracking.yaml
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/config/stereo.yaml
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/config/detector.yaml
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/config/ros.yaml
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/config/camera.yaml
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/config/camera_deploy.yaml
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/ament_index/resource_index/package_run_dependencies/soccer_perception_ros
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/ament_index/resource_index/parent_prefix_path/soccer_perception_ros
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/environment/path.sh
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/environment/path.dsv
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/local_setup.bash
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/local_setup.sh
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/local_setup.zsh
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/local_setup.dsv
+-- Installing: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/package.dsv
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/ament_index/resource_index/packages/soccer_perception_ros
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/cmake/soccer_perception_rosConfig.cmake
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/cmake/soccer_perception_rosConfig-version.cmake
+-- Up-to-date: /home/nvidia/soccer_backend_tensorrt/install/soccer_perception_ros/share/soccer_perception_ros/package.xml
+Finished <<< soccer_perception_ros [0.32s]
+
+Summary: 1 package finished [0.74s]
+Starting >>> soccer_perception_ros
+UpdateCTestConfiguration  from :/home/nvidia/soccer_backend_tensorrt/build/soccer_perception_ros/CTestConfiguration.ini
+Parse Config file:/home/nvidia/soccer_backend_tensorrt/build/soccer_perception_ros/CTestConfiguration.ini
+   Site: ubuntu
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261022-1047 - Experimental
+UpdateCTestConfiguration  from :/home/nvidia/soccer_backend_tensorrt/build/soccer_perception_ros/CTestConfiguration.ini
+Parse Config file:/home/nvidia/soccer_backend_tensorrt/build/soccer_perception_ros/CTestConfiguration.ini
+Test project /home/nvidia/soccer_backend_tensorrt/build/soccer_perception_ros
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: perception_unit_tests
+
+1: Test command: /home/nvidia/miniconda3/envs/soccer_perception/bin/python "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/nvidia/soccer_backend_tensorrt/build/soccer_perception_ros/test_results/soccer_perception_ros/perception_unit_tests.xml" "--package-name" "soccer_perception_ros" "--generate-result-on-success" "--command" "/home/nvidia/miniconda3/envs/soccer_perception/bin/python" "-B" "-m" "unittest" "discover" "-s" "tests" "-t" "." "-v"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/nvidia/soccer_backend_tensorrt/soccer_perception_ros':
+1:  - /home/nvidia/miniconda3/envs/soccer_perception/bin/python -B -m unittest discover -s tests -t . -v
+1: /home/nvidia/.local/lib/python3.8/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: ''If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+1:   warn(
+1: test_prediction_3d_jump_and_speed_hard_gate_are_explicit (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+1: test_radius_consistency_can_hard_reject (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+1: test_rejects_bad_aspect_ratio_and_too_large_bbox (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+1: test_rejects_bad_disparity_vertical_and_radius_mismatch (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+1: test_rejects_bbox_outside_image (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+1: test_rejects_depth_outside_configured_range (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+1: test_rejects_invalid_monocular_bbox (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+1: test_score_gate_only_applies_confidence_detectors (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+1: test_selects_highest_scored_valid_pair (tests.test_candidate_selection.StereoCandidateSelectorTest) ... ok
+1: test_duplicate_file_references_are_rejected (tests.test_config_files.ConfigFileTests) ... ok
+1: test_duplicate_keys_inside_yaml_are_rejected (tests.test_config_files.ConfigFileTests) ... ok
+1: test_duplicate_parameters_report_both_source_files (tests.test_config_files.ConfigFileTests) ... ok
+1: test_installed_package_loads_manifest_and_sibling_files (tests.test_config_files.ConfigFileTests) ... ok
+1: test_launch_uses_manifest_from_active_installed_package (tests.test_config_files.ConfigFileTests) ... ok
+1: test_manifest_shape_and_entries_are_checked (tests.test_config_files.ConfigFileTests) ... ok
+1: test_merges_files_preserving_values_types_and_manifest_order (tests.test_config_files.ConfigFileTests) ... ok
+1: test_missing_manifest_or_parameter_file_fails (tests.test_config_files.ConfigFileTests) ... ok
+1: test_parameter_file_annotations_are_deferred_for_python38 (tests.test_config_files.ConfigFileTests) ... ok
+1: test_parameter_file_shape_is_checked (tests.test_config_files.ConfigFileTests) ... ok
+1: test_relative_file_paths_do_not_depend_on_current_directory (tests.test_config_files.ConfigFileTests) ... ok
+1: test_async_failure_is_visible_and_never_returns_a_frame (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_b0_does_not_patch_or_allocate (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_capture_failure_closes_owned_context_and_baseline_survives (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_close_before_first_frame_does_not_allocate_or_capture (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_duplicate_and_invalid_install_fail_before_mutation (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_input_mismatch_disables_and_preserves_original_arguments (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_install_requires_predictor_backend_to_be_ready (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_instance_override_restored_exactly (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_mock_changed_inputs_replay_current_data_and_own_output (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_old_backend_cleanup_does_not_unpatch_reloaded_backend (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_ordinary_predictor_keywords_capture_once_for_current_frames (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_replay_failure_does_not_reuse_old_output (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_restore_can_retry_cleanup_without_repatching_baseline (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_restore_does_not_overwrite_another_patch_owner (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_restore_releases_owned_allocations_and_exact_method (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_restore_then_reinstall_owns_fresh_context_and_statistics (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_startup_context_creation_failure_releases_partial_allocations (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_trt_false_return_does_not_report_graph_success (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_unsupported_backend_fails_before_context_allocation (tests.test_e04_graph.GraphContractTests) ... ok
+1: test_default_hooks_and_reverse_idempotent_restore (tests.test_e04_integration.IntegrationLifecycle) ... ok
+1: test_failed_cleanup_can_be_retried (tests.test_e04_integration.IntegrationLifecycle) ... ok
+1: test_partial_setup_failure_restores_prior_components (tests.test_e04_integration.IntegrationLifecycle) ... ok
+1: test_unknown_option_fails_before_mutation (tests.test_e04_integration.IntegrationLifecycle) ... ok
+1: test_all_final_boxes_match_candidates_including_left_right (tests.test_e04_postprocess.GoldenTests) ... ok
+1: test_real_downstream_stereo_tracking_and_ros_protocol_match_golden (tests.test_e04_postprocess.GoldenTests) ... ok
+1: test_a1_masks_use_original_centroid_and_radius (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_a2_preserves_legacy_fast_results_without_claiming_a_transfer (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_a2_restore_ownership_conflict_is_retryable (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_a2_returned_storage_survives_later_calls_and_source_mutation (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_changed_inputs_are_not_cached_or_replayed (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_dense_overlapping_ties_negative_bounds_tiny_boxes_and_topk (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_empty_left_right_and_asymmetry (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_install_rollback_off_by_default_and_a3_unavailable (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_predict_arguments_and_original_objects_are_preserved (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_restore_preserves_preexisting_instance_override (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_unsupported_a2_results_fall_back_without_repeating_inference (tests.test_e04_postprocess.PostprocessTests) ... ok
+1: test_active_modes_initialize_capture_warm_then_synchronize (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_close_restores_before_releasing_model_and_remembers_status (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_close_without_load_is_safe (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_default_none_has_no_install_or_extra_predict (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_explicit_old_defaults_allow_active_mode (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_failed_restore_preserves_model_and_handle_for_retry (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_first_runtime_fallback_is_visible_without_retrying_frame (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_none_preserves_legacy_predictor_selection (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_old_nondefault_environment_rejected_before_yolo_creation (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_real_frames_keep_predict_and_original_candidate_protocol (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_startup_capture_fallback_is_visible_before_first_real_frame (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_startup_install_failure_does_not_leave_model_loaded (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_startup_warm_failure_restores_and_releases_owned_model (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_unknown_mode_is_rejected_before_yolo_creation (tests.test_e04_runtime.RuntimeLifecycleTests) ... ok
+1: test_empty_transfer_and_candidates (tests.test_fast_postprocess.CandidateProtocolTest) ... ok
+1: test_matches_original_results_converter_for_top_k_and_ties (tests.test_fast_postprocess.CandidateProtocolTest) ... ok
+1: test_batch_transfer_calls_cpu_once_and_empty_never (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+1: test_empty_and_strict_low_confidence (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+1: test_overlap_boundary_degenerate_ties (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+1: test_predictor_factory_leaves_nms_untouched (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+1: test_predictor_fast_output_and_feature_fallback (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+1: test_random_order_max_nms_and_max_det (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+1: test_rejects_unsupported_output (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+1: test_scale_and_batch_order (tests.test_fast_postprocess.SingleClassGoldenTest) ... ok
+1: test_cuda_transfer_and_normalization_match_original (tests.test_fast_preprocess.FastPreprocessTests) ... skipped 'CUDA unavailable'
+1: test_float32_and_float16_match_original_tensor_normalization (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+1: test_frozen_robot_images (tests.test_fast_preprocess.FastPreprocessTests) ... skipped 'E02_GOLDEN_DIR not supplied'
+1: test_letterbox_matches_deployed_cv2_pixels_across_rounding_cases (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+1: test_noncontiguous_and_mixed_shapes_do_not_mutate_source (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+1: test_predictor_hook_uses_original_auto_rule (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+1: test_reuse_and_shape_changes_have_no_stale_padding (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+1: test_stereo_order_channel_order_and_padding (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+1: test_unsupported_inputs_can_use_original_predictor (tests.test_fast_preprocess.FastPreprocessTests) ... ok
+1: test_bad_disparity_is_invalid_measurement (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+1: test_ball_position_camera_payload_is_flu (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+1: test_camera_payload_stays_seven_fields (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+1: test_invalid_measurement_diagnostics_do_not_need_none_branch (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+1: test_measurement_to_dict_is_json_safe (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+1: test_missing_pair_is_invalid_measurement (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+1: test_non_finite_triangulation_is_invalid_measurement (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+1: test_valid_stereo_measurement (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+1: test_vertical_mismatch_is_invalid_measurement (tests.test_measurement_localization.MeasurementLocalizationTest) ... ok
+1: test_concurrent_exports_fail_before_loading_model (tests.test_model_artifacts.ModelArtifactTests) ... ok
+1: test_custom_engine_destination_and_pointer_rejection (tests.test_model_artifacts.ModelArtifactTests) ... Exporting /tmp/tmpbtud0l1d/ball.pt -> /tmp/tmpbtud0l1d/external/custom.engine
+1: ok
+1: test_engine_destination_cannot_overwrite_source_weights (tests.test_model_artifacts.ModelArtifactTests) ... ok
+1: test_existing_onnx_conflict_requires_force (tests.test_model_artifacts.ModelArtifactTests) ... Exporting /tmp/tmpk91gxgd6/ball.pt -> /tmp/tmpk91gxgd6/ball.engine
+1: Exporting /tmp/tmpk91gxgd6/ball.pt -> /tmp/tmpk91gxgd6/ball.engine
+1: ok
+1: test_explicit_engine_can_run_without_pt_but_must_exist (tests.test_model_artifacts.ModelArtifactTests) ... Using TensorRT engine: /tmp/tmptf8wyn50/ball.engine
+1: ok
+1: test_failed_export_preserves_existing_engine_and_onnx (tests.test_model_artifacts.ModelArtifactTests) ... Exporting /tmp/tmpofegxqgq/ball.pt -> /tmp/tmpofegxqgq/ball.engine
+1: Exporting /tmp/tmpofegxqgq/ball.pt -> /tmp/tmpofegxqgq/ball.engine
+1: Using TensorRT engine: /tmp/tmpofegxqgq/ball.engine
+1: ok
+1: test_legacy_engine_requires_explicit_adoption_and_is_preserved (tests.test_model_artifacts.ModelArtifactTests) ... Using TensorRT engine: /tmp/tmpf5bk2649/ball.engine
+1: ok
+1: test_startup_does_not_export_and_explicit_build_reuses_matching_engine (tests.test_model_artifacts.ModelArtifactTests) ... Exporting /tmp/tmphnnnga4q/ball.pt -> /tmp/tmphnnnga4q/ball.engine
+1: Using TensorRT engine: /tmp/tmphnnnga4q/ball.engine
+1: Reusing TensorRT engine: /tmp/tmphnnnga4q/ball.engine
+1: ok
+1: test_weights_settings_and_engine_changes_require_explicit_rebuild (tests.test_model_artifacts.ModelArtifactTests) ... Exporting /tmp/tmpv0xaakz4/ball.pt -> /tmp/tmpv0xaakz4/ball.engine
+1: Exporting /tmp/tmpv0xaakz4/ball.pt -> /tmp/tmpv0xaakz4/ball.engine
+1: ok
+1: test_migration_is_repeatable_and_conflicts_preserve_both_versions (tests.test_model_artifacts.ModelMigrationTests) ... ok
+1: test_cuda_ties_and_copy_boundary (tests.test_nms_backends.NmsBackendTests) ... skipped 'CUDA device unavailable'
+1: test_empty_and_single (tests.test_nms_backends.NmsBackendTests) ... ok
+1: test_equal_scores_preserve_original_device_sort (tests.test_nms_backends.NmsBackendTests) ... ok
+1: test_numpy_rejects_unvalidated_dtype_and_unknown_backend (tests.test_nms_backends.NmsBackendTests) ... ok
+1: test_overlap_and_decreasing_score_order (tests.test_nms_backends.NmsBackendTests) ... ok
+1: test_randomized_including_score_ties_and_invalid_boxes (tests.test_nms_backends.NmsBackendTests) ... ok
+1: test_threshold_equality_kept_and_greater_suppressed (tests.test_nms_backends.NmsBackendTests) ... ok
+1: test_torchvision_probe_and_valid_distinct_scores (tests.test_nms_backends.NmsBackendTests) ... skipped "AttributeError: '_OpNamespace' 'torchvision' object has no attribute 'nms'"
+1: test_zero_negative_area_and_nonfinite (tests.test_nms_backends.NmsBackendTests) ... ok
+1: test_default_needs_no_predictor_override (tests.test_optimization_integration.OptimizationIntegrationTests) ... ok
+1: test_engine_keeps_binding_precision (tests.test_optimization_integration.OptimizationIntegrationTests) ... ok
+1: test_misspelled_or_unsafe_combinations_fail (tests.test_optimization_integration.OptimizationIntegrationTests) ... ok
+1: test_pt_initialization_honors_requested_device_and_precision (tests.test_optimization_integration.OptimizationIntegrationTests) ... ok
+1: test_15_hz_workload_produces_10_hz_without_halving (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+1: test_early_sleep_return_still_waits_until_deadline (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+1: test_insufficient_compute_reports_actual_frequency (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+1: test_invalid_rates_are_rejected (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+1: test_overrun_skips_backlog_instead_of_catching_up (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+1: test_partial_period_overrun_does_not_compress_next_interval (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+1: test_processing_and_publish_cost_are_included_without_sleep_drift (tests.test_output_scheduler.OutputSchedulerTests) ... ok
+1: test_detector_cleanup_failure_still_closes_source_and_visualizer (tests.test_pipeline_regression.PipelineRegressionTests) ... ok
+1: test_tracking_loss_and_recovery_match_original_outputs (tests.test_pipeline_regression.PipelineRegressionTests) ... ok
+1: test_absolute_model_override_and_home_expansion (tests.test_resources.ResourcePathTests) ... ok
+1: test_installed_resources_use_ament_package_index (tests.test_resources.ResourcePathTests) ... ok
+1: test_model_override_is_shared_by_source_and_install_and_resolves_symlinks (tests.test_resources.ResourcePathTests) ... ok
+1: test_node_dependency_check_rejects_broken_lazy_yolo_import (tests.test_resources.ResourcePathTests) ... ok
+1: test_node_entry_uses_installed_import_without_changing_process_paths (tests.test_resources.ResourcePathTests) ... ok
+1: test_node_switches_to_venv_even_when_python_binary_is_the_same (tests.test_resources.ResourcePathTests) ... ok
+1: test_relocated_install_does_not_silently_generate_in_install (tests.test_resources.ResourcePathTests) ... ok
+1: test_source_configuration_and_models_resolve_from_any_directory (tests.test_resources.ResourcePathTests) ... ok
+1: test_camera_deploy_yaml_covers_every_backend_config_field (tests.test_ros_config.RosConfigTests) ... ok
+1: test_camera_deploy_yaml_matches_piplus_ball_topic_contract (tests.test_ros_config.RosConfigTests) ... ok
+1: test_camera_deploy_yaml_uses_current_deploy_param_names (tests.test_ros_config.RosConfigTests) ... ok
+1: test_default_e01_engine_and_a2_graph_selection (tests.test_ros_config.RosConfigTests) ... ok
+1: test_optimization_modes_include_original_and_independent_fallbacks (tests.test_ros_config.RosConfigTests) ... ok
+1: test_optimization_requires_valid_string_without_silent_fallback (tests.test_ros_config.RosConfigTests) ... ok
+1: test_ros_bridge_reads_every_backend_config_field (tests.test_ros_config.RosConfigTests) ... ok
+1: test_ros_bridge_uses_ros2_parameter_overrides (tests.test_ros_config.RosConfigTests) ... ok
+1: test_camera_fps_ros_override_and_validation (tests.test_ros_config.SplitYamlConfigTests) ... ok
+1: test_edited_yaml_changes_backend_and_ros_defaults (tests.test_ros_config.SplitYamlConfigTests) ... ok
+1: test_missing_and_unknown_yaml_fields_fail_without_fallback (tests.test_ros_config.SplitYamlConfigTests) ... ok
+1: test_optimization_is_a_required_yaml_string (tests.test_ros_config.SplitYamlConfigTests) ... ok
+1: test_optional_values_and_ros_scalar_types (tests.test_ros_config.SplitYamlConfigTests) ... ok
+1: test_output_frequency_must_be_positive_and_finite (tests.test_ros_config.SplitYamlConfigTests) ... ok
+1: test_runtime_fields_have_no_python_defaults (tests.test_ros_config.SplitYamlConfigTests) ... ok
+1: test_yaml_location_does_not_depend_on_working_directory (tests.test_ros_config.SplitYamlConfigTests) ... ok
+1: test_camera_retrieves_only_optional_visualization_cloud (tests.test_ros_runtime.RosRuntimeTests) ... ok
+1: test_disabled_viser_never_imports_optional_package (tests.test_ros_runtime.RosRuntimeTests) ... ok
+1: test_invalid_state_preserves_publishing_policy (tests.test_ros_runtime.RosRuntimeTests) ... ok
+1: test_json_handles_numpy_boolean_nan_and_infinity (tests.test_ros_runtime.RosRuntimeTests) ... ok
+1: test_loop_paces_invalid_status_and_viser_without_dropping_frames (tests.test_ros_runtime.RosRuntimeTests) ... ok
+1: test_open_failure_still_releases_camera (tests.test_ros_runtime.RosRuntimeTests) ... ok
+1: test_sdk_depth_is_enabled_only_for_viser_point_cloud (tests.test_ros_runtime.RosRuntimeTests) ... ok
+1: test_status_only_and_optional_json (tests.test_ros_runtime.RosRuntimeTests) ... ok
+1: test_valid_position_axes_timestamp_and_json (tests.test_ros_runtime.RosRuntimeTests) ... Preserved model: /tmp/tmp3jr1j6cj/install/models/ball.engine -> /tmp/tmp3jr1j6cj/source/models/ball.engine
+1: Preserved model: /tmp/tmp3jr1j6cj/install/models/ball.onnx -> /tmp/tmp3jr1j6cj/source/models/ball.onnx
+1: ok
+1: 
+1: ----------------------------------------------------------------------
+1: Ran 163 tests in 15.065s
+1: 
+1: OK (skipped=4)
+1: -- run_test.py: return code 0
+1: -- run_test.py: generate result file '/home/nvidia/soccer_backend_tensorrt/build/soccer_perception_ros/test_results/soccer_perception_ros/perception_unit_tests.xml' with successful test
+1/1 Test #1: perception_unit_tests ............   Passed   20.96 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =  20.96 sec
+Finished <<< soccer_perception_ros [21.0s]
+
+Summary: 1 package finished [21.5s]
+Summary: 2 tests, 0 errors, 0 failures, 0 skipped

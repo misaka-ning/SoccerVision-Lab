@@ -1,0 +1,59 @@
+# 双目匹配、候选评分与三维定位约束。
+# 由 camera_deploy.yaml 统一列出；同一参数只在一个文件中定义。
+soccer_perception_ros:
+  ros__parameters:
+    # 左右目候选允许的最大垂直像素差；标定/同步误差大时调大，误配多时调小。
+    max_vertical_delta_px: 20.0
+    # 垂直误差随球半径放宽的系数。
+    vertical_radius_factor: 0.65
+
+    # YOLO 分数权重；越大越偏好高置信度候选。
+    candidate_yolo_score_weight: 1.0
+    # 左右目垂直误差惩罚；越大越偏好同水平候选。
+    candidate_vertical_penalty: 0.03
+    # 与上一帧预测位置偏差的惩罚；越大越稳定但可能跟不上快速运动。
+    candidate_prediction_penalty: 0.001
+    # 视差跳变惩罚；越大越抑制深度突变。
+    candidate_disparity_jump_penalty: 0.04
+    # 左右目检测半径最大比例；越小越严格。
+    candidate_max_radius_ratio: 2.0
+    # 是否启用 bbox 质量硬门控。
+    candidate_bbox_gate_enabled: false
+    # bbox 最大图像面积占比；用于过滤异常大框。
+    candidate_bbox_max_area_ratio: 0.75
+    # bbox 最小面积，单位 px^2。
+    candidate_bbox_min_area_px: 1.0
+    # bbox 宽高比下限 w/h。
+    candidate_bbox_min_aspect_ratio: 0.2
+    # bbox 宽高比上限 w/h。
+    candidate_bbox_max_aspect_ratio: 5.0
+    # 计算 bbox 质量前是否先裁剪到图像范围内。
+    candidate_bbox_clip_to_image: true
+    # 左右目 bbox 尺寸最大比例；越小越严格。
+    candidate_bbox_pair_max_size_ratio: 3.0
+    # 候选半径下限，单位 px；负数表示不额外限制。
+    candidate_min_radius_px: -1
+    # 候选半径上限，单位 px；负数表示不额外限制。
+    candidate_max_radius_px: -1
+    # 候选三角化深度下限，单位 m。
+    candidate_min_depth_m: 0.05
+    # 候选三角化深度上限，单位 m。
+    candidate_max_depth_m: 80.0
+    # 足球真实半径，单位 m，用于半径/深度一致性检查。
+    candidate_expected_ball_radius_m: 0.07
+    # 是否启用真实半径一致性检查。
+    candidate_radius_consistency_enabled: false
+    # 半径一致性容忍比例。
+    candidate_radius_consistency_tolerance_ratio: 1.0
+    # true 时半径不一致直接拒绝；false 时只影响打分。
+    candidate_radius_consistency_hard_gate: false
+    # camera-frame 3D 预测偏差惩罚权重；0 表示不启用。
+    candidate_prediction_3d_penalty: 0.0
+    # 相邻帧允许的最大 3D 跳变，单位 m；负数表示不限制。
+    candidate_max_3d_jump_m: -1
+    # 允许的最大速度，单位 m/s；负数表示不限制。
+    candidate_max_speed_mps: -1
+    # 是否启用 YOLO 分数硬门控。
+    candidate_score_gate_enabled: false
+    # YOLO 最低分数；负数表示不额外限制。
+    candidate_min_yolo_score: -1

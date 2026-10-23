@@ -1,0 +1,13 @@
+--- robot/soccer_perception_ros/tests/test_resources.py
++++ candidate/soccer_perception_ros/tests/test_resources.py
+@@ -34,7 +34,9 @@
+                         configured_path = Path(params[name]).expanduser()
+                         expected = (package / configured_path).resolve()
+                         self.assertEqual(getattr(config, name), expected)
+-                self.assertTrue(config.yolo_model.is_file())
++                # Engine is device-specific deployment data, not a source
++                # checkout prerequisite. Its existence is checked by load().
++                self.assertEqual(config.yolo_model.parent, resources.model_directory())
+             finally:
+                 os.chdir(previous)
+ 

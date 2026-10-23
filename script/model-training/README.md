@@ -1,7 +1,7 @@
 # 足球模型训练
 
 统一入口 `train.py` 读取 `config/train.yaml`，默认使用仓库内的 YOLO26s
-参考权重 `baseline/original_best.pt`，在 [../config.yaml](../config.yaml) 选择的数据版本上微调；默认v1。
+参考权重 `baseline/E0_original_best.pt`，在 [../config.yaml](../config.yaml) 选择的数据版本上微调；默认v1。
 参考权重包含 80 类，数据集目标为 `0 = football`；Ultralytics 根据数据集重建单类检测头并迁移兼容权重。
 
 ## 安装与运行
@@ -38,7 +38,7 @@ python script/model-training/train.py --resume experiments/train/football_yolo26
 `pretrained`，以及 `--data`、`--resume` 路径，均相对仓库根目录，也支持绝对路径。
 默认配置不依赖启动时所在目录。模型必须是已存在的本地 `.pt` / `.yaml` 文件。
 改用 `baseline/original_model.yaml` 可从架构初始化；若要同时迁移参考权重，在配置中增加
-`pretrained: baseline/original_best.pt`。仅改架构文件则从随机权重开始训练。
+`pretrained: baseline/E0_original_best.pt`。仅改架构文件则从随机权重开始训练。
 
 断点续训使用 checkpoint 保存的训练参数及优化器状态，只接受额外的 `--device` 覆盖。
 如需修改训练轮数、数据或超参数进行新实验，将 `model` 改为已有权重并正常启动训练。

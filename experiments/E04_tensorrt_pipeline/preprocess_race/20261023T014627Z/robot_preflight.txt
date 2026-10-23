@@ -1,0 +1,23 @@
+cases.json
+images
+labels
+        376,
+        672
+      ],
+      "known_flags": null,
+      "label_count": 1
+    }
+  ],
+  "skipped_pairs": [],
+  "golden_reference": "not_generated",
+  "timestamp_policy": "Replay timestamps and frame IDs will be explicit; original capture timestamps unavailable",
+  "coverage_note": "Flags inherited only where present in E03. NMS boundary/overlap synthetic cases will be separate from model Val coverage."
+}
+98c1b6bc703b29874d95db94d9cf51ef5b4a4142a7ca6cf22362a0c616fbf348  soccer_perception_ros/models/E01_baseline.engine
+9d203b9485e3656df554eb76fdd7b3613bd4a4615fdb367db0982a6eb3d4dd8e  soccer_perception_ros/config/camera_deploy.yaml
+fe7c178a2497a870ca336f29df42752843875d178247f87ec5b943278d8aabf3  soccer_perception_ros/config/camera.yaml
+6839bcddad7ee28a913370fb60a07109ee6ee7377eebaaab596db715c67dff57  soccer_perception_ros/config/detector.yaml
+0348107729b772e1bf81c8d01b7ce4319d125a9232cc24a9358efd4491a94ac0  soccer_perception_ros/config/ros.yaml
+d2371844df3ec014c07ca6bac25431975c2723ae8aba735564c0673fe08b86af  soccer_perception_ros/config/stereo.yaml
+805c02dc2dffeb47c83ad2fc8aa625f127d2e58495f4b0903c58aa3954bcf054  soccer_perception_ros/config/tracking.yaml
+63a03660c69cb951ce76b20c5fc0332d431c778179fab423aca8db96abb2b3f9  soccer_perception_ros/config/visualization.yaml
