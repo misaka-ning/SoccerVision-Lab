@@ -1,4 +1,4 @@
-# Architecture extracted from E05_yolo26n.pt (checkpoint.model.yaml).
+# Architecture extracted from E05_finetuned.pt (checkpoint.model.yaml).
 # Original configuration name: yolo26n.yaml.
 # Preserve the checkpoint's single football class and explicit nano-model scale.
 # end2end: true retains both detection branches; checkpoint inference uses end2end=false.
