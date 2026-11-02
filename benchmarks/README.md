@@ -1,15 +1,18 @@
-# 可追溯的正式比较索引
+# 结果与证据导航
 
-[E00～E03实验表格](experiment_tables/README.md)按实验分别保存内容、产出、量化结果与结论，并链接各自的原始记录；整理日期为2026-10-22。
+[分组结果摘要](RESULTS.md)是当前研究展示入口，覆盖已有模型质量、训练预算、Engine计时、系统性能与负结果。全实验假设和状态见[实验导航](../experiments/README.md)，数字来源、冲突与缺口见[来源核对清单](../docs/SOURCE_AUDIT.md)。
 
-[E1/E2 实验报告](E01_E02_REPORT.md)汇总了单类别微调、指定层结构缩窄、已有 Val 指标及用户提供的 Orin 三轮对照结论，并区分评估设备和工作阈值。
+|阅读目的|入口|范围|
+|---|---|---|
+|快速比较已有结论|[RESULTS.md](RESULTS.md)|按Val设备/阈值和实机计时边界分组；E08结果not_run|
+|早期模型研究|[E01/E02报告](E01_E02_REPORT.md)|E00/E01 CPU conf0.25与E02 CUDA conf0.45分别解释|
+|E00–E03逐项详表|[历史表格索引](experiment_tables/README.md)|2026-10-22阶段快照；完整路线以实验导航为准|
+|nano/KD结果与修复|[E07统一报告](../experiments/E07_warmstart_distillation/REPORT.md)|E01/E05/E06/E07开发Val；零面积候选处理透明记录|
+|实机瓶颈与执行负结果|[E03报告](../experiments/E03_tensorrt_profiling/REPORT.md)|旧/新Engine分组、Top20、L19、Nsight与回收校验|
+|系统性能与部署边界|[E04入口](../experiments/E04_tensorrt_pipeline/README.md)|phase5性能、后续安装、MAXN筛选和未验收项分开|
 
-[E03 TensorRT Profiling 报告](../experiments/E03_tensorrt_profiling/REPORT.md)记录已完成的 Orin run `20261021T080741Z_824b47`：25W、GPU 上限 408 MHz、batch2；原有 E01/E02 正常执行 28.135/28.275 ms，L19 局部反而增加 8.1%。完整 Top20、逐轮计时、模型指纹、Nsight 与原始包校验均已回收，下一轮优先调查部署预处理、NMS/同步及 Graph。
+[runs.csv](runs.csv)仍只有表头，是历史预留的结构化登记接口，不是完整排行榜。本次仅根据可核实报告整理文档，不在缺少全套run、模型/数据指纹时反向填造登记条目。
 
-[runs.csv](runs.csv)目前只有表头，尚未登记比较条目。只登记有完整来源、已完成的真实run；未测项留空，不把模板或数据加载PASS当模型成绩。E01/E02 历史报告中的 Orin 结论尚未附完整逐轮数据和部署指纹，不填造数值条目。
+质量比较必须说明数据版本、Val/Test、类别映射、输入、阈值、设备和分母；速度必须说明Engine身份、设备/软件、精度、功耗/时钟、预热/重复、同步和计时范围。Val开发选择、多seed稳健性与最终Test评价分别报告；参数量/FLOPs不等于实机加速。
 
-每行引用实际run记录、代码、数据manifest、初始化和最终模型SHA。质量比较明确相同数据/类别映射/尺寸/阈值与样本分母；同场次留出和独立场次分开报告。多种子预先固定，不能只选最好一次。
-
-Val用于开发和选择；Test只在最终方案冻结后正式评估，记录访问史。部署的设备、格式、精度、电源模式和计时边界一致才比较延迟/FPS；参数量与FLOPs附计算方法及输入条件。
-
-本目录只放小型摘要及权威run引用，不复制best/last、图片集、预测全量、engine或恢复包。未来论文图表引用生成它的run与数据/模型指纹。详见[实验目录约定](../experiments/README.md)。
+本目录只保存摘要及证据链接。工作站`runs/`、忽略的`experiments/eval/`及大型恢复包是**本地产物引用**，不承诺随克隆提供；公开报告与本地位置的对应关系见[复现说明](../docs/REPRODUCIBILITY.md#公开摘要与本地产物)。

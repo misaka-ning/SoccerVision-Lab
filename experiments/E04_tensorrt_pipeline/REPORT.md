@@ -1,5 +1,7 @@
 # E04：Jetson Orin NX 上 YOLO26s TensorRT 推理链路优化阶段报告
 
+> 状态导航补注（2026-11-02）：本文是phase5结束时的历史测量报告；“未安装”描述仅适用于该时点。后续已有[A2+Graph接入安装记录](integration/E01_a2_graph_20261022T103907Z/INTEGRATION_REPORT.md)、[运行捕获说明](integration/runtime_capture_20261023T013041Z/REPORT.md)和[MAXN预处理负结果](preprocess_race/20261023T014627Z/REPORT.md)。后续接入不补足长稳或生产性能验收，分阶段状态见[实验入口](README.md)。
+
 日期：2026-10-22（Asia/Hong_Kong）。状态：本轮组合正确性与30组正式性能已回收审查；用户要求暂停后续实验。B5长期稳定性及生产采用未验收，本报告不将E04全阶段标记为完成。
 
 ## 1. 主要结论

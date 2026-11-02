@@ -1,5 +1,7 @@
 # E06 / KD1 训练与独立 Val 报告
 
+> 文档导航补注（2026-11-02）：下文run路径为本地产物引用，不随Git提供；可在线阅读本报告及[分组结果摘要](../../benchmarks/RESULTS.md)。[产物定位与复现限制](../../docs/REPRODUCIBILITY.md#公开摘要与本地产物)。原始结果数值保持。
+
 2026-10-23；run：`20261023T034325Z_s42_KD1_f1347d`。**正式训练及完整独立 Val 已完成，产物待用户验收。** 未导出或部署模型。
 
 ## 正式训练与评估结果
@@ -20,8 +22,8 @@ E06与E05同初始化、同配方，E06增加教师及蒸馏；实际早停轮�
 
 本轮由E07统一入口串行评估两模型，E06原始输出保存在E07运行归档中，E06本run的`validation_result.json`记录指向及hash。E01/E05复用通过来源核验的既有完整结果；E06只执行了一次完整Val。
 
-- [四模型完整对照、误报取舍及复现方法](/home/misaka/workspace/experiments/E07_warmstart_distillation/runs/20261023T035555Z_s42_WarmKD_93e0cf/val_0p45_20261023T061225Z_e643a0/COMPARISON.md)
-- [E06逐图评估报告](/home/misaka/workspace/experiments/E07_warmstart_distillation/runs/20261023T035555Z_s42_WarmKD_93e0cf/val_0p45_20261023T061225Z_e643a0/E06_KD1/REPORT.md)
+- 四模型完整对照、误报取舍及复现方法（本地产物引用：`/home/misaka/workspace/experiments/E07_warmstart_distillation/runs/20261023T035555Z_s42_WarmKD_93e0cf/val_0p45_20261023T061225Z_e643a0/COMPARISON.md`）
+- E06逐图评估报告（本地产物引用：`/home/misaka/workspace/experiments/E07_warmstart_distillation/runs/20261023T035555Z_s42_WarmKD_93e0cf/val_0p45_20261023T061225Z_e643a0/E06_KD1/REPORT.md`）
 
 以下保留准备阶段的配置和短时验证记录。
 

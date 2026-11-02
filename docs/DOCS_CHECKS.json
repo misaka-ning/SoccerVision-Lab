@@ -1,0 +1,731 @@
+{
+  "date": "2026-11-02",
+  "base_pr": {
+    "number": 1,
+    "state_at_check": "OPEN",
+    "head_sha": "9264e4b83e3ca4cd2e4cd10adfa4ff7b5787f4ed"
+  },
+  "no_training_or_inference": true,
+  "test_image_or_label_payloads_read": false,
+  "robot_accessed": false,
+  "mutation_scope": "Markdown documentation and this audit JSON only",
+  "e08_and_experiment_tools_unchanged": true,
+  "modified_files": [
+    "README.md",
+    "benchmarks/E01_E02_REPORT.md",
+    "benchmarks/README.md",
+    "benchmarks/RESULTS.md",
+    "benchmarks/experiment_tables/E00.md",
+    "benchmarks/experiment_tables/E01.md",
+    "benchmarks/experiment_tables/E02.md",
+    "benchmarks/experiment_tables/README.md",
+    "docs/DATA_WORKFLOW.md",
+    "docs/DOCS_CHECKS.json",
+    "docs/DOCS_CHECKS.md",
+    "docs/REPRODUCIBILITY.md",
+    "docs/SOURCE_AUDIT.md",
+    "docs/机器人足球视觉感知系统模型优化与部署性能阶段成果报告.md",
+    "experiments/E00_original/README.md",
+    "experiments/E01_baseline/README.md",
+    "experiments/E04_tensorrt_pipeline/INTEGRATION_REPORT.md",
+    "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md",
+    "experiments/E04_tensorrt_pipeline/README.md",
+    "experiments/E04_tensorrt_pipeline/REPORT.md",
+    "experiments/E05_yolo26n/REPORT.md",
+    "experiments/E06_distillation/README.md",
+    "experiments/E06_distillation/REPORT.md",
+    "experiments/E07_warmstart_distillation/README.md",
+    "experiments/E07_warmstart_distillation/REPORT.md",
+    "experiments/README.md"
+  ],
+  "links": {
+    "scope": "changed docs, experiment landings/primary reports, benchmark tables and linked tool docs",
+    "counts": {
+      "documents": 67,
+      "links": 454,
+      "anchors": 32
+    },
+    "issues": [],
+    "external_urls": {
+      "https://docs.ultralytics.com/guides/end2end-detection/": [
+        "experiments/E01_baseline/PLAN.md"
+      ],
+      "https://docs.ultralytics.com/modes/train/": [
+        "experiments/E01_baseline/PLAN.md",
+        "script/model-training/README.md"
+      ],
+      "https://docs.ultralytics.com/reference/nn/modules/block/#ultralytics.nn.modules.block.C3k2": [
+        "experiments/E02_c3k2/PLAN.md"
+      ],
+      "https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-853/pdf/TensorRT-Developer-Guide.pdf": [
+        "experiments/E03_tensorrt_profiling/PLAN.md"
+      ],
+      "https://docs.nvidia.com/deeplearning/tensorrt/10.x.x/performance/measurement-techniques.html": [
+        "experiments/E03_tensorrt_profiling/PLAN.md"
+      ],
+      "https://docs.nvidia.com/jetson/archives/r35.6.2/DeveloperGuide/AT/JetsonLinuxDevelopmentTools/TegrastatsUtility.html": [
+        "experiments/E03_tensorrt_profiling/PLAN.md"
+      ],
+      "https://docs.pytorch.org/docs/stable/notes/cuda": [
+        "experiments/E04_tensorrt_pipeline/AGENT_B_REPORT.md"
+      ],
+      "https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-861/api/c_api/classnvinfer1_1_1_i_execution_context.html": [
+        "experiments/E04_tensorrt_pipeline/AGENT_B_REPORT.md"
+      ],
+      "https://docs.ultralytics.com/guides/knowledge-distillation/": [
+        "experiments/E06_distillation/README.md"
+      ],
+      "https://docs.ultralytics.com/modes/val/": [
+        "script/model-evaluation/README.md"
+      ],
+      "https://docs.ultralytics.com/reference/utils/metrics/": [
+        "script/model-evaluation/README.md"
+      ]
+    },
+    "files": [
+      "README.md",
+      "benchmarks/E01_E02_REPORT.md",
+      "benchmarks/README.md",
+      "benchmarks/RESULTS.md",
+      "benchmarks/experiment_tables/E00.md",
+      "benchmarks/experiment_tables/E01.md",
+      "benchmarks/experiment_tables/E02.md",
+      "benchmarks/experiment_tables/E03.md",
+      "benchmarks/experiment_tables/README.md",
+      "docs/DATA_WORKFLOW.md",
+      "docs/DOCS_CHECKS.md",
+      "docs/REPRODUCIBILITY.md",
+      "docs/SOURCE_AUDIT.md",
+      "docs/机器人足球视觉感知系统模型优化与部署性能阶段成果报告.md",
+      "experiments/E00_original/README.md",
+      "experiments/E00_original/evaluation/REPORT.md",
+      "experiments/E01_baseline/PLAN.md",
+      "experiments/E01_baseline/README.md",
+      "experiments/E02_c3k2/PLAN.md",
+      "experiments/E02_c3k2/PRECHECK_REPORT.md",
+      "experiments/E02_c3k2/README.md",
+      "experiments/E03_tensorrt_profiling/PLAN.md",
+      "experiments/E03_tensorrt_profiling/README.md",
+      "experiments/E03_tensorrt_profiling/RECOVERY.md",
+      "experiments/E03_tensorrt_profiling/REPORT.md",
+      "experiments/E03_tensorrt_profiling/results/README.md",
+      "experiments/E03_tensorrt_profiling/results/TOP20.md",
+      "experiments/E04_tensorrt_pipeline/AGENT_A_REPORT.md",
+      "experiments/E04_tensorrt_pipeline/AGENT_B_REPORT.md",
+      "experiments/E04_tensorrt_pipeline/AGENT_C_REPORT.md",
+      "experiments/E04_tensorrt_pipeline/BASELINE.md",
+      "experiments/E04_tensorrt_pipeline/CORRECTNESS_REPORT.md",
+      "experiments/E04_tensorrt_pipeline/CORRECTNESS_REPRODUCE.md",
+      "experiments/E04_tensorrt_pipeline/INTEGRATION_REPORT.md",
+      "experiments/E04_tensorrt_pipeline/INTERFACES.md",
+      "experiments/E04_tensorrt_pipeline/NEXT_RUN.md",
+      "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md",
+      "experiments/E04_tensorrt_pipeline/PLAN.md",
+      "experiments/E04_tensorrt_pipeline/RAW_DATA_INDEX.md",
+      "experiments/E04_tensorrt_pipeline/README.md",
+      "experiments/E04_tensorrt_pipeline/REPORT.md",
+      "experiments/E04_tensorrt_pipeline/REPRODUCE.md",
+      "experiments/E04_tensorrt_pipeline/SCENE_CONDITIONS.md",
+      "experiments/E04_tensorrt_pipeline/integration/E01_a2_graph_20261022T103907Z/INTEGRATION_REPORT.md",
+      "experiments/E04_tensorrt_pipeline/integration/runtime_capture_20261023T013041Z/REPORT.md",
+      "experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/REPORT.md",
+      "experiments/E05_yolo26n/README.md",
+      "experiments/E05_yolo26n/REPORT.md",
+      "experiments/E06_distillation/README.md",
+      "experiments/E06_distillation/REPORT.md",
+      "experiments/E07_warmstart_distillation/README.md",
+      "experiments/E07_warmstart_distillation/REPORT.md",
+      "experiments/E08_warmstart_no_distillation/README.md",
+      "experiments/E08_warmstart_no_distillation/VALIDATION.md",
+      "experiments/README.md",
+      "script/README.md",
+      "script/common/README.md",
+      "script/dataset-reviewer/README.md",
+      "script/dataset-reviewer/docs/annotation-policy.md",
+      "script/dataset-reviewer/docs/architecture.md",
+      "script/dataset-reviewer/docs/data-format.md",
+      "script/dataset-reviewer/docs/development.md",
+      "script/dataset-reviewer/docs/user-guide.md",
+      "script/dataset-reviewer/maintenance/README.md",
+      "script/model-evaluation/README.md",
+      "script/model-training/README.md",
+      "script/repository/README.md"
+    ]
+  },
+  "external_http_checks": [
+    {
+      "url": "https://docs.ultralytics.com/guides/end2end-detection/",
+      "status": 200,
+      "final_url": "https://docs.ultralytics.com/guides/end2end-detection"
+    },
+    {
+      "url": "https://docs.ultralytics.com/modes/train/",
+      "status": 200,
+      "final_url": "https://docs.ultralytics.com/modes/train"
+    },
+    {
+      "url": "https://docs.ultralytics.com/reference/nn/modules/block/#ultralytics.nn.modules.block.C3k2",
+      "status": 200,
+      "final_url": "https://docs.ultralytics.com/reference/nn/modules/block",
+      "anchor_present": true
+    },
+    {
+      "url": "https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-853/pdf/TensorRT-Developer-Guide.pdf",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    },
+    {
+      "url": "https://docs.nvidia.com/deeplearning/tensorrt/10.x.x/performance/measurement-techniques.html",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    },
+    {
+      "url": "https://docs.nvidia.com/jetson/archives/r35.6.2/DeveloperGuide/AT/JetsonLinuxDevelopmentTools/TegrastatsUtility.html",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    },
+    {
+      "url": "https://docs.pytorch.org/docs/stable/notes/cuda",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    },
+    {
+      "url": "https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-861/api/c_api/classnvinfer1_1_1_i_execution_context.html",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    },
+    {
+      "url": "https://docs.ultralytics.com/guides/knowledge-distillation/",
+      "status": 200,
+      "final_url": "https://docs.ultralytics.com/guides/knowledge-distillation"
+    },
+    {
+      "url": "https://docs.ultralytics.com/modes/val/",
+      "status": 200,
+      "final_url": "https://docs.ultralytics.com/modes/val"
+    },
+    {
+      "url": "https://docs.ultralytics.com/reference/utils/metrics/",
+      "status": 200,
+      "final_url": "https://docs.ultralytics.com/reference/utils/metrics"
+    }
+  ],
+  "external_unconfirmed": 5,
+  "numeric_and_provenance_checks": {
+    "checks": [
+      {
+        "check": "E00 mAP50",
+        "status": "passed",
+        "sources": [
+          "experiments/E00_original/evaluation/metrics.json"
+        ]
+      },
+      {
+        "check": "E00 mAP50_95",
+        "status": "passed",
+        "sources": [
+          "experiments/E00_original/evaluation/metrics.json"
+        ]
+      },
+      {
+        "check": "E00 precision",
+        "status": "passed",
+        "sources": [
+          "experiments/E00_original/evaluation/metrics.json"
+        ]
+      },
+      {
+        "check": "E00 recall",
+        "status": "passed",
+        "sources": [
+          "experiments/E00_original/evaluation/metrics.json"
+        ]
+      },
+      {
+        "check": "E01 CPU mAP50",
+        "status": "passed",
+        "sources": [
+          "benchmarks/E01_E02_REPORT.md"
+        ]
+      },
+      {
+        "check": "E01 CPU mAP50–95",
+        "status": "passed",
+        "sources": [
+          "benchmarks/E01_E02_REPORT.md"
+        ]
+      },
+      {
+        "check": "E01 CPU Precision，conf=0.25",
+        "status": "passed",
+        "sources": [
+          "benchmarks/E01_E02_REPORT.md"
+        ]
+      },
+      {
+        "check": "E01 CPU Recall，conf=0.25",
+        "status": "passed",
+        "sources": [
+          "benchmarks/E01_E02_REPORT.md"
+        ]
+      },
+      {
+        "check": "E02 95.9545",
+        "status": "passed",
+        "sources": [
+          "benchmarks/E01_E02_REPORT.md"
+        ]
+      },
+      {
+        "check": "E02 78.7770",
+        "status": "passed",
+        "sources": [
+          "benchmarks/E01_E02_REPORT.md"
+        ]
+      },
+      {
+        "check": "E02 99.1150",
+        "status": "passed",
+        "sources": [
+          "benchmarks/E01_E02_REPORT.md"
+        ]
+      },
+      {
+        "check": "E02 91.6959",
+        "status": "passed",
+        "sources": [
+          "benchmarks/E01_E02_REPORT.md"
+        ]
+      },
+      {
+        "check": "E02 FPR",
+        "status": "passed",
+        "sources": [
+          "benchmarks/E01_E02_REPORT.md"
+        ]
+      },
+      {
+        "check": "E01-s five quality fields",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E01-s scenes",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E01-s FPR",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E05-n five quality fields",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E05-n scenes",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E05-n FPR",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E06-KD1 five quality fields",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E06-KD1 scenes",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E06-KD1 FPR",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E07-WarmKD five quality fields",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E07-WarmKD scenes",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E07-WarmKD FPR",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E08 all quality not_run",
+        "status": "passed",
+        "sources": [
+          "experiments/E08_warmstart_no_distillation/VALIDATION.json"
+        ]
+      },
+      {
+        "check": "E01 epoch budget",
+        "status": "passed",
+        "sources": [
+          "benchmarks/experiment_tables/E01.md"
+        ]
+      },
+      {
+        "check": "E01 budget duration",
+        "status": "passed",
+        "sources": [
+          "benchmarks/experiment_tables/E01.md"
+        ]
+      },
+      {
+        "check": "E02 epoch budget",
+        "status": "passed",
+        "sources": [
+          "benchmarks/experiment_tables/E02.md"
+        ]
+      },
+      {
+        "check": "E02 budget duration",
+        "status": "passed",
+        "sources": [
+          "benchmarks/experiment_tables/E02.md"
+        ]
+      },
+      {
+        "check": "E05 epoch budget",
+        "status": "passed",
+        "sources": [
+          "experiments/E05_yolo26n/REPORT.md"
+        ]
+      },
+      {
+        "check": "E05 budget duration",
+        "status": "passed",
+        "sources": [
+          "experiments/E05_yolo26n/REPORT.md"
+        ]
+      },
+      {
+        "check": "E06 epoch budget",
+        "status": "passed",
+        "sources": [
+          "experiments/E06_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E06 budget duration",
+        "status": "passed",
+        "sources": [
+          "experiments/E06_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E07 epoch budget",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "E07 budget duration",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "原有Engine E01",
+        "status": "passed",
+        "sources": [
+          "experiments/E03_tensorrt_profiling/results/normal_timings_summary.csv"
+        ]
+      },
+      {
+        "check": "原有Engine E02",
+        "status": "passed",
+        "sources": [
+          "experiments/E03_tensorrt_profiling/results/normal_timings_summary.csv"
+        ]
+      },
+      {
+        "check": "新performance Engine E01",
+        "status": "passed",
+        "sources": [
+          "experiments/E03_tensorrt_profiling/results/normal_timings_summary.csv"
+        ]
+      },
+      {
+        "check": "新performance Engine E02",
+        "status": "passed",
+        "sources": [
+          "experiments/E03_tensorrt_profiling/results/normal_timings_summary.csv"
+        ]
+      },
+      {
+        "check": "R0 原路径 system figures",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md"
+        ]
+      },
+      {
+        "check": "A2 合并回传 system figures",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md"
+        ]
+      },
+      {
+        "check": "A2 合并回传 paired macro",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md"
+        ]
+      },
+      {
+        "check": "R4 A2+Graph system figures",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md"
+        ]
+      },
+      {
+        "check": "R4 A2+Graph paired macro",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md"
+        ]
+      },
+      {
+        "check": "R5 A2+Graph+C2 system figures",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md"
+        ]
+      },
+      {
+        "check": "R5 A2+Graph+C2 paired macro",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md"
+        ]
+      },
+      {
+        "check": "MAXN R0原版",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/REPORT.md"
+        ]
+      },
+      {
+        "check": "MAXN canvas",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/REPORT.md"
+        ]
+      },
+      {
+        "check": "MAXN reuse",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/REPORT.md"
+        ]
+      },
+      {
+        "check": "all experiment IDs navigable",
+        "status": "passed",
+        "sources": [
+          "experiments/README.md"
+        ]
+      },
+      {
+        "check": "E08 base unchanged",
+        "status": "passed",
+        "sources": [
+          "experiments/E08_warmstart_no_distillation/VALIDATION.json"
+        ]
+      },
+      {
+        "check": "tracked diff documentation only",
+        "status": "passed",
+        "sources": []
+      },
+      {
+        "check": "historical numeric tables retained: benchmarks/E01_E02_REPORT.md",
+        "status": "passed",
+        "sources": [
+          "benchmarks/E01_E02_REPORT.md"
+        ]
+      },
+      {
+        "check": "historical numeric tables retained: experiments/E04_tensorrt_pipeline/REPORT.md",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/REPORT.md"
+        ]
+      },
+      {
+        "check": "historical numeric tables retained: experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md",
+        "status": "passed",
+        "sources": [
+          "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md"
+        ]
+      },
+      {
+        "check": "historical numeric tables retained: experiments/E05_yolo26n/REPORT.md",
+        "status": "passed",
+        "sources": [
+          "experiments/E05_yolo26n/REPORT.md"
+        ]
+      },
+      {
+        "check": "historical numeric tables retained: experiments/E06_distillation/REPORT.md",
+        "status": "passed",
+        "sources": [
+          "experiments/E06_distillation/REPORT.md"
+        ]
+      },
+      {
+        "check": "historical numeric tables retained: experiments/E07_warmstart_distillation/REPORT.md",
+        "status": "passed",
+        "sources": [
+          "experiments/E07_warmstart_distillation/REPORT.md"
+        ]
+      }
+    ],
+    "count": 59,
+    "experiment_ids": [
+      "E00_original",
+      "E01_baseline",
+      "E02_c3k2",
+      "E03_tensorrt_profiling",
+      "E04_tensorrt_pipeline",
+      "E05_yolo26n",
+      "E06_distillation",
+      "E07_warmstart_distillation",
+      "E08_warmstart_no_distillation"
+    ],
+    "sources_sha256": {
+      "benchmarks/E01_E02_REPORT.md": "2f5483b1d4b3d04f878a2d6aa30e180326c6738d292e296a97b86c5888acab3e",
+      "benchmarks/experiment_tables/E01.md": "bcabf32743aa8179221e0c83d80c0a8d0dfa5f642fcdaf66e208094c72be5851",
+      "benchmarks/experiment_tables/E02.md": "fb6cc328327856257e436a77cb7bd1d5af427d04fd34001c922b2317ae4de3a6",
+      "experiments/E00_original/evaluation/metrics.json": "b2eac3d673219f05f6ef35ac17e09b659ed2a8f0aa34cd3df13f7795a429cda5",
+      "experiments/E03_tensorrt_profiling/results/normal_timings_summary.csv": "666aaf84127e0e8c0739639b86321c4eba8d6c2be470b00e9a60c05d8d199ec0",
+      "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md": "0f827e6bc16bdd22f18cf8fcd67068050cc486817a9167ddeb34921f8a8dd864",
+      "experiments/E04_tensorrt_pipeline/REPORT.md": "a55c99ac4219c8cb44e87f1a6749b08f817d3d7edac6bd3d0e64cd804802f9cd",
+      "experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/REPORT.md": "d9eacbcbc62c3b6ff232efa9bccf5bbaa868446dfb61a7d8cea74fbaff6920de",
+      "experiments/E05_yolo26n/REPORT.md": "7f21e0e0f89f039340102100c3bca6f16e77313d4de93575e222ae6cde398f19",
+      "experiments/E06_distillation/REPORT.md": "e49d4cabfaa80c7abe4e56d787d9799214a2958c579d750438428dfdaf14fa8e",
+      "experiments/E07_warmstart_distillation/REPORT.md": "542adcb2a16a8461c8470e8647c4bd2b16efecb63df8189f49cdabe61c75061a",
+      "experiments/E08_warmstart_no_distillation/VALIDATION.json": "14d8f4f1951928a5c691e13b5522c6db4ad23fe67bd65f89bd83884e20132089",
+      "experiments/README.md": "3b4d14ed2225e64027d8b57c45465bd0353ffdb1ebfa6a502adefda9ed9e2d33"
+    }
+  },
+  "source_sha256_at_base": {
+    "benchmarks/E01_E02_REPORT.md": "3e29a77681dca5518ca439f433e403053d3dca8cefc76a72caff8c40bb9e209a",
+    "benchmarks/experiment_tables/E01.md": "1b9b70772dafae26cdef2a8e3251452db20ede324e55385574ce42ebebceffbd",
+    "benchmarks/experiment_tables/E02.md": "fae7f74ebf000a59f49a0be54104b6a96d607d91423b80b970a9ff9abc24b6a0",
+    "datasets/VERSION_INDEX.md": "494f87e01bd15deee405e714d474474e2d0a2386127b8fe2f6f869805cf7f5a7",
+    "datasets/v1/REPORT.md": "348ca4ba77e7158a9b30f53ac4753c719f6f44f0d2b50c42a4465e8b0923d9aa",
+    "docs/机器人足球视觉感知系统模型优化与部署性能阶段成果报告.md": "94cc152816daae5dac95378d45ef44e6c771967adcc28dfed08df0c3e9bf4395",
+    "experiments/E00_original/evaluation/metrics.json": "b2eac3d673219f05f6ef35ac17e09b659ed2a8f0aa34cd3df13f7795a429cda5",
+    "experiments/E03_tensorrt_profiling/results/normal_timings_summary.csv": "666aaf84127e0e8c0739639b86321c4eba8d6c2be470b00e9a60c05d8d199ec0",
+    "experiments/E04_tensorrt_pipeline/PERFORMANCE_COMPARISON.md": "fd9c36328f8a154be96e665bab6ca4a1052289b2a88ffbfbdb2870ad48e9eca8",
+    "experiments/E04_tensorrt_pipeline/REPORT.md": "d0061b8735f38b7b780c4a65df652790efa5d1257ddaaab511a5846837b731e9",
+    "experiments/E04_tensorrt_pipeline/integration/CURRENT_INTEGRATION.json": "6e05e0eb8f809d80d3a4a4e7e2cb28ed088e8a37d0f8ec0d64b10e9f40f1697f",
+    "experiments/E04_tensorrt_pipeline/integration/E01_a2_graph_20261022T103907Z/INTEGRATION_REPORT.md": "38b98b9e8ffc9e0fed1f3cbbf3f46448f6450928fb1e6362774bc87b5e8f8f07",
+    "experiments/E04_tensorrt_pipeline/integration/runtime_capture_20261023T013041Z/REPORT.md": "bea2f7158eeb50a9ee292e60693484d272b732ae8b3bd3d7931bccefe54829c8",
+    "experiments/E04_tensorrt_pipeline/preprocess_race/20261023T014627Z/REPORT.md": "d9eacbcbc62c3b6ff232efa9bccf5bbaa868446dfb61a7d8cea74fbaff6920de",
+    "experiments/E05_yolo26n/REPORT.md": "ac2cb15dae08e83d09799630ffe1355f1907e4de2cb5616f6729633a43284bb5",
+    "experiments/E06_distillation/REPORT.md": "e44bbc7ebdbd2c7bc387e3aac65dd129098a8a305a51aeef2153126f5e70e328",
+    "experiments/E07_warmstart_distillation/REPORT.md": "2fd288f422153bb3eaf2daf7c4e94bb40bf838a4712e60b2dfeb33505dd038fc",
+    "experiments/E08_warmstart_no_distillation/VALIDATION.json": "14d8f4f1951928a5c691e13b5522c6db4ad23fe67bd65f89bd83884e20132089",
+    "experiments/README.md": "4255d9274d4bfd904616a8c1f1dc56eea2932901273e5471f1a2434e34466e3a",
+    "script/config.yaml": "43d79197ec2d7428018b77065c7f3c13ffdc18c76a7a07c1d797b832de2f52b5"
+  },
+  "render": {
+    "mermaid_version": "11.4.1",
+    "script_sha256": "a43bc1afd446f9c4cc66ac5dd45d02e8d65e26fc5344ec0ef787f88d6ddb6f9e",
+    "parser": {
+      "parsed": {
+        "diagramType": "flowchart-v2",
+        "config": {}
+      },
+      "nodes": 6
+    },
+    "markdown_render": {
+      "README.md": {
+        "tables": 4,
+        "headings": 7,
+        "links": 31,
+        "scrollWidth": 1280,
+        "viewport": 1280
+      },
+      "experiments/README.md": {
+        "tables": 1,
+        "headings": 4,
+        "links": 43,
+        "scrollWidth": 1280,
+        "viewport": 1280
+      },
+      "benchmarks/RESULTS.md": {
+        "tables": 8,
+        "headings": 10,
+        "links": 28,
+        "scrollWidth": 1280,
+        "viewport": 1280
+      },
+      "docs/DATA_WORKFLOW.md": {
+        "tables": 1,
+        "headings": 6,
+        "links": 24,
+        "scrollWidth": 1280,
+        "viewport": 1280
+      }
+    },
+    "network_from_page": "none; local content only",
+    "test_payloads_accessed": false
+  },
+  "validations_not_performed": [
+    "re-running raw training/Val measurements",
+    "Test payload inspection",
+    "robot deployment verification",
+    "live GitHub UI rendering"
+  ],
+  "validation_scripts": {
+    "location": "/tmp/soccervision-doc-checks (local only)",
+    "sha256": {
+      "check_http.py": "acd7eb10511d8756d0364b9d04e1fcdaff37a13007ffe9fbe2f5eb61bfb9a960",
+      "check_links.py": "420d5ffecfe4247186037a13d203576de8c5855e29e60719f05096f2e64fcbdc",
+      "check_numbers.py": "cfa2c1fcfb6ef70683cf01c2cb06e10baa09beb749a67c7bc2a0e144bdf510ae",
+      "render_docs.py": "f8ddf4435eba7c9f0d7ac68e49cdf0fbda8c3f8ea84adae059f142d7fea2c784"
+    }
+  }
+}
