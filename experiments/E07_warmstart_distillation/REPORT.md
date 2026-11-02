@@ -1,5 +1,7 @@
 # E07 / WarmKD 训练与独立 Val 报告
 
+> 文档导航补注（2026-11-02）：下文run路径为本地产物引用，不随Git提供；可在线阅读本报告及[分组结果摘要](../../benchmarks/RESULTS.md)。[产物定位与复现限制](../../docs/REPRODUCIBILITY.md#公开摘要与本地产物)。原始结果数值保持。部署“未执行”是本run归档状态；综合报告的后续现场消息频率观察尚缺完整绑定证据，不等于正式验收已补齐，见[证据缺口](../../docs/SOURCE_AUDIT.md#待补齐的证据)。
+
 2026-10-23；run：`20261023T035555Z_s42_WarmKD_93e0cf`。**正式训练及完整独立Val已完成，产物待用户验收。** 未导出或部署模型。
 
 ## 正式训练与评估结果
@@ -33,9 +35,9 @@ E07在固定工作点TP775、FP26、FN80。相对E05，mAP50–95提高0.694个�
 
 9项针对性回归检查通过，另核对三个已有对照均无此类框，准入检查的变化不改变其结果。四模型保存的1223条预测均用原共享AP/匹配代码重算全部6组场景，指标一致（误差≤1e-12），来源hash、样本顺序、完整性及实际运行分支均核验通过。独立副本、原源码、diff及hash在run内`evaluation_revision/zero_area_v1/`；这不是生产后处理修改。
 
-- [完整对照报告与复现方法](/home/misaka/workspace/experiments/E07_warmstart_distillation/runs/20261023T035555Z_s42_WarmKD_93e0cf/val_0p45_20261023T061225Z_e643a0/COMPARISON.md)
-- [结构化指标及来源](/home/misaka/workspace/experiments/E07_warmstart_distillation/runs/20261023T035555Z_s42_WarmKD_93e0cf/val_0p45_20261023T061225Z_e643a0/comparison.json)
-- [E07逐图评估报告](/home/misaka/workspace/experiments/E07_warmstart_distillation/runs/20261023T035555Z_s42_WarmKD_93e0cf/val_0p45_20261023T061225Z_e643a0/E07_WarmKD_zero_area_v1/REPORT.md)
+- 完整对照报告与复现方法（本地产物引用：`/home/misaka/workspace/experiments/E07_warmstart_distillation/runs/20261023T035555Z_s42_WarmKD_93e0cf/val_0p45_20261023T061225Z_e643a0/COMPARISON.md`）
+- 结构化指标及来源（本地产物引用：`/home/misaka/workspace/experiments/E07_warmstart_distillation/runs/20261023T035555Z_s42_WarmKD_93e0cf/val_0p45_20261023T061225Z_e643a0/comparison.json`）
+- E07逐图评估报告（本地产物引用：`/home/misaka/workspace/experiments/E07_warmstart_distillation/runs/20261023T035555Z_s42_WarmKD_93e0cf/val_0p45_20261023T061225Z_e643a0/E07_WarmKD_zero_area_v1/REPORT.md`）
 
 尚未执行ONNX、Jetson TensorRT构建或系统测速、双目定位验收，不把本地离线评估速度作为机器人Hz。生产配置和Engine未切换。以下保留准备阶段记录。
 

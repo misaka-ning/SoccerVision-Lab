@@ -1,5 +1,7 @@
 # E05 训练与工具链检查
 
+> 阅读顺序补注（2026-11-02）：下文保留分阶段回收和修复经过；早期“不能判断nano场景召回”“尚无E06精度”对应当时状态。后续本页已补齐E05独立Val，[E06](../E06_distillation/REPORT.md)/[E07](../E07_warmstart_distillation/REPORT.md)也已有正式结果；部署证据边界见[来源核对](../../docs/SOURCE_AUDIT.md#待补齐的证据)。
+
 2026-10-23；run：`20261023T023231Z_s42_90bcea`。当前状态 **trained，E01/E05完整独立Val对照已完成**。训练后ONNX导出及机器人TensorRT性能尚未执行；用户选择继续E06蒸馏实验。
 
 ## 正式训练回收

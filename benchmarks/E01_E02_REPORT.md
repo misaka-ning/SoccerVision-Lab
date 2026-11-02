@@ -1,5 +1,7 @@
 # E1 单类别微调与 E2 结构缩窄实验报告
 
+> 文档导航补注（2026-11-02）：下文run路径为本地产物引用，不随Git提供；可在线阅读本报告及[分组结果摘要](RESULTS.md)。[产物定位与复现限制](../docs/REPRODUCIBILITY.md#公开摘要与本地产物)。原始结果数值保持。
+
 记录日期：2026-10-21。本文中的 E1、E2 分别对应 `E01_baseline`、`E02_c3k2`。
 
 **E1 建立了足球单类别检测基线，明显改善了原模型的召回和 AP，但低工作阈值下的误报增加。E2 从 E1 权重出发，仅缩窄第 19 层 C3k2 的内部通道，恢复训练后整体 Val 精度接近 E1，总参数量减少约 0.674%；在 Jetson Orin NX 16GB 的三轮交错重复测试中，没有取得可测量的推理延迟或系统吞吐收益。**
@@ -132,8 +134,8 @@ E2 完成了结构缩窄与恢复训练流程验证，但没有实现本轮实�
 | E1 checkpoint SHA256 | `285c198aff043fe7e7486515dbdc1a2cc02db5daf9a0f55f8ce3c6cabf2743ac` |
 | E2 checkpoint SHA256 | `16ea00e9e75b4dfcae7b5eddc46e89b50aa8b6830eadf2285315132f9c5bc800` |
 
-- E1：[训练结果](../experiments/E01_baseline/runs/20261019T092432Z_s42_853c4a/RESULT.md)、[E0/E1 公平对照](../experiments/E01_baseline/runs/20261019T092432Z_s42_853c4a/E00_VS_E01.md)、[Val 指标](../experiments/E01_baseline/runs/20261019T092432Z_s42_853c4a/evaluation/metrics.json)、[输入清单](../experiments/E01_baseline/runs/20261019T092432Z_s42_853c4a/evaluation/inputs_manifest.json)。
-- E2：[架构定义](../experiments/E02_c3k2/architecture.yaml)、[准备阶段预检](../experiments/E02_c3k2/PRECHECK_REPORT.md)、[训练记录](../experiments/E02_c3k2/runs/20261020T102957Z_s42_da66b0_candidate/run_record.json)、[逐轮训练 CSV](../experiments/E02_c3k2/runs/20261020T102957Z_s42_da66b0_candidate/train/results.csv)、[独立 Val 报告](../experiments/eval/best_val_20261021T025306Z_00e792/REPORT.md)、[Val 指标](../experiments/eval/best_val_20261021T025306Z_00e792/metrics.json)、[输入清单](../experiments/eval/best_val_20261021T025306Z_00e792/inputs_manifest.json)。
+- E1：训练结果（本地产物引用：`../experiments/E01_baseline/runs/20261019T092432Z_s42_853c4a/RESULT.md`）、E0/E1 公平对照（本地产物引用：`../experiments/E01_baseline/runs/20261019T092432Z_s42_853c4a/E00_VS_E01.md`）、Val 指标（本地产物引用：`../experiments/E01_baseline/runs/20261019T092432Z_s42_853c4a/evaluation/metrics.json`）、输入清单（本地产物引用：`../experiments/E01_baseline/runs/20261019T092432Z_s42_853c4a/evaluation/inputs_manifest.json`）。
+- E2：[架构定义](../experiments/E02_c3k2/architecture.yaml)、[准备阶段预检](../experiments/E02_c3k2/PRECHECK_REPORT.md)、训练记录（本地产物引用：`../experiments/E02_c3k2/runs/20261020T102957Z_s42_da66b0_candidate/run_record.json`）、逐轮训练 CSV（本地产物引用：`../experiments/E02_c3k2/runs/20261020T102957Z_s42_da66b0_candidate/train/results.csv`）、独立 Val 报告（本地产物引用：`../experiments/eval/best_val_20261021T025306Z_00e792/REPORT.md`）、Val 指标（本地产物引用：`../experiments/eval/best_val_20261021T025306Z_00e792/metrics.json`）、输入清单（本地产物引用：`../experiments/eval/best_val_20261021T025306Z_00e792/inputs_manifest.json`）。
 - Orin 三轮对照：用户在本次报告请求中提供的实机实验结论；本报告整理期间未重新训练、导出 Engine 或运行机器人测试。
 
 本报告是对后续训练、评估和实机结论的追加汇总。E2 预检中“尚未训练”及 run_record 中尚未更新的评估状态属于各自记录时点，保留原始记录，不据此覆盖已经存在的训练和独立 Val 结果。上述 run 与评估目录按项目约定默认被 Git 忽略，链接在保留原始产物的本机有效。
