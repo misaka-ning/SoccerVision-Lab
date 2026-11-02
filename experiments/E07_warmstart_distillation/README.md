@@ -68,7 +68,7 @@ bash /home/misaka/workspace/experiments/E07_warmstart_distillation/start_trainin
 
 校验并复用E01/E05已完成的同口径Val；对E07，以及已训练完成的指定E06对照进行评估，输出`metrics.json`对应的汇总、`comparison.json`和`COMPARISON.md`。若E06未完成，明确标记，不能编造一行实测值。使用CPU或0.25工作点时三/四模型在新目录同口径评估，不混用不同设备/阈值。
 
-优先比较整体AP、Small/Occluded Recall、Precision和无球误报，必要时查看逐图预测与P-R曲线。E06/E07是不同初始化下的同配方开发实验；E07对E05的改善同时含额外训练与蒸馏，仍不能单独证明蒸馏净收益。单seed、早停轮数可能不同，结果不等于统计显著性。
+优先比较整体AP、Small/Occluded Recall、Precision和无球误报，必要时查看逐图预测与P-R曲线。E06/E07是不同初始化下的同配方开发实验；E07对E05的改善同时含额外训练与蒸馏，仍不能单独证明蒸馏净收益。[E08无蒸馏继续训练对照](../E08_warmstart_no_distillation/README.md)补齐同一E05 best.pt、同配方的NoKD路线；E08真实训练/Val尚未执行。单seed、早停轮数可能不同，结果不等于统计显著性。
 
 最终部署只保留普通nano，教师及517,888个投影层参数只用于训练。学生仍需训练后ONNX数值验证、Jetson独立构建、双目定位与系统A/B；本次不启动机器人、不修改Engine、功耗、频率、检测阈值或生产配置，不承诺新的系统Hz。
 

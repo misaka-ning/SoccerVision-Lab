@@ -1,0 +1,24 @@
+{
+  "source_commit": "7ab77739828b4e33b3342627fe293e892416d047",
+  "reviewed_utc": "2026-11-02",
+  "equivalent_control_found": false,
+  "next_unused_experiment": "E08",
+  "evidence": "E05 official nano init; E06 same init plus KD; E07 E05 best plus KD; E02 E01-s continuation is not equivalent",
+  "source_sha256": {
+    "experiments/E05_yolo26n/e05.py": "6e6f0350084db9263b539301dbb82211a1ebc81b9a8bedfc5a235258a01198d7",
+    "experiments/E06_distillation/e06.py": "9610e8971d8ca8be7ff4702ed07a37c0eae483ed39e3b3e8d7e4f0af0896bdac",
+    "experiments/E07_warmstart_distillation/e07.py": "e0edda214ab47e2ef0464cbac45e9547b1760f5d9c2550646b2a6a1028941262",
+    "experiments/E05_yolo26n/train.template.yaml": "bfb124bad0f84d7357efec62a9d1b874d968ed89a4f521ee15ffe9095e3df6b4",
+    "script/model-training/train.py": "0eedde4916e4c0c9e20db8a386fa69811f2bb263e841472b274f0b5701961b20",
+    "script/model-evaluation/evaluate.py": "237c056fbff28cbe0067fbd86e591c701f0253da78fcbe6427277d19a6364552",
+    "script/model-evaluation/eval_metrics.py": "f491dfa7d2f540d7d6b09cf72d419f32b30650e63ae9f740719410ec7b0eeaf1"
+  },
+  "initialization_sha256": "a51bf6f3ec855e7cb126d097fe30e213d0588d37a9f1d2d9546f090b168dfd13",
+  "semantic_difference": {
+    "distill_model": {
+      "E07": "frozen E01 teacher",
+      "E08": null
+    }
+  },
+  "dis_unchanged": 6.0
+}
