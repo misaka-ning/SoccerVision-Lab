@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-02",
+  "baseline_commit": "7ab77739828b4e33b3342627fe293e892416d047",
+  "environment": {
+    "python": "3.10.12",
+    "torch": "2.9.1+cpu",
+    "ultralytics": "8.4.173",
+    "cuda_available": false
+  },
+  "checks": {
+    "acceptance": {
+      "passed": 16,
+      "failed": 0
+    },
+    "shared_training": {
+      "passed": 6,
+      "failed": 0
+    },
+    "shared_evaluation": {
+      "passed": 22,
+      "failed": 0
+    },
+    "python_compile": "passed",
+    "shell_syntax": "passed",
+    "dry_run": "passed",
+    "missing_sources": "expected fail before run creation or data access"
+  },
+  "cpu_synthetic_smoke": {
+    "formal_training_started": false,
+    "smoke_optimizer_updates": 1,
+    "actual_batch": 8,
+    "actual_imgsz": [
+      640,
+      640
+    ],
+    "loss_items": {
+      "box_loss": 1.4684300422668457,
+      "cls_loss": 5.9123311042785645,
+      "l1_loss": 0.00772026926279068
+    },
+    "attempts": [
+      {
+        "gradient": {
+          "tensors": 366,
+          "nonfinite_tensors": 0,
+          "unscaled_norm": 6420.918980984279
+        },
+        "applied": true
+      }
+    ],
+    "initialization": {
+      "initialization_tensors_exact": true,
+      "tensor_count": 708,
+      "teacher_loaded": false,
+      "projector_parameters": 0,
+      "parameters": 2504190
+    },
+    "teacher_loaded": false,
+    "save_checkpoint": "passed",
+    "status": "passed",
+    "scope": "synthetic CPU only; formal Train/Val GPU smoke not_run",
+    "torch": "2.9.1+cpu",
+    "ultralytics": "8.4.173",
+    "init_sha256": "a51bf6f3ec855e7cb126d097fe30e213d0588d37a9f1d2d9546f090b168dfd13",
+    "initialization_unchanged": true,
+    "checkpoint_load_audit": {
+      "teacher_loads": 0,
+      "teacher_construction_attempts": 0,
+      "checkpoint_loads": [
+        "<CPU synthetic smoke>/init.pt",
+        "<CPU synthetic smoke>/init.pt"
+      ]
+    },
+    "changes_from_formal": {
+      "device": "cpu",
+      "workers": 0,
+      "plots": false,
+      "save_period": -1,
+      "dataset": "8 synthetic Train + 8 synthetic Val",
+      "amp_effective": false
+    }
+  },
+  "formal_prepare": "not_run",
+  "formal_train_val_cuda_smoke": "not_run",
+  "formal_training": "not_run",
+  "uniform_val_comparison": "not_run",
+  "test_images_or_labels_opened": false,
+  "robot_deployment_modified": false,
+  "reason": "Historical E05/E07 run artifacts are not in this checkout; CUDA driver unavailable.",
+  "sources": {
+    "experiments/E08_warmstart_no_distillation/runs/review_cpu_smoke_02/cpu_smoke.json": "ee8212e02bbac869b4e08fba1e9170a85bfcc72ab1418cdd11272ef5c3de91d7",
+    "experiments/E08_warmstart_no_distillation/runs/review_validation/shared_training.log": "f3588b60003b2d9ed9dbeefb096a600c81e9e52c9326b3a4a1b2daa434252bbd",
+    "experiments/E08_warmstart_no_distillation/runs/review_validation/shared_evaluation.log": "2301284172cd14a6d714ce252e8bf74080dcdcab28a870e7585db769adbd23a7",
+    "experiments/E08_warmstart_no_distillation/runs/review_validation/shell_release.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/E08_warmstart_no_distillation/runs/review_validation/acceptance_release.log": "dfbd1c0f78b2a23901bbfa62816d7245cad1480fc3d2c6fd0e506d94cd5cc134",
+    "experiments/E08_warmstart_no_distillation/runs/review_validation/compile_release.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "implementation_sha256": {
+    "experiments/E08_warmstart_no_distillation/e08.py": "ce4841d82a060a938b48b7c37ab8ee7d9bce9080ce437d5ede2c8484c7a99ca5",
+    "experiments/E08_warmstart_no_distillation/compare.py": "4c4bcde18800e9d0664511091b8b8e01cff26b7360a9d38587c3fd7bb09bbb35",
+    "script/experiment-tools/warm_control.py": "3420c51bb0f5d663bf4589d4eeff48055245cf3e5425e86c1b161bde7c97d259"
+  }
+}

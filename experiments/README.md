@@ -10,8 +10,9 @@
 |[E03_tensorrt_profiling](E03_tensorrt_profiling/README.md)|已完成实机 Profiling、原始结果回收与校验；Top20/模块/L19/Nsight/系统结论见报告|
 |[E04_tensorrt_pipeline](E04_tensorrt_pipeline/README.md)|推理链路优化；100个有效性能作业与组合Golden已审查，R4同期系统约+6.93%；后续用户暂停，长稳/生产采用未验收|
 |[E05_yolo26n](E05_yolo26n/README.md)|nano73轮、最佳43轮；完整独立Val mAP50-95为76.846%，E01为78.567%；召回下降，无球误报更少；转入E06，未做Orin测速|
-|[E06_distillation](E06_distillation/README.md)|KD1：冻结E01-s教师、与E05同起点nano，原生P3/P4/P5特征蒸馏dis=6；独立入口与短时验证，正式训练待用户启动|
-|[E07_warmstart_distillation](E07_warmstart_distillation/README.md)|WarmKD：从E05 best.pt开始，教师与训练配方同E06；独立run、共享GPU互斥，正式训练待用户启动|
+|[E06_distillation](E06_distillation/README.md)|KD1：2026-10-23完成44轮、最佳14轮及独立Val；结果见实验报告，未部署|
+|[E07_warmstart_distillation](E07_warmstart_distillation/README.md)|WarmKD：2026-10-23完成49轮、最佳19轮及独立Val；额外训练与KD贡献由E08对照补齐|
+|[E08_warmstart_no_distillation](E08_warmstart_no_distillation/README.md)|E07无蒸馏继续训练对照；实现、离线验收与CPU合成smoke已完成，真实Train/Val smoke、正式训练和三模型统一评估not_run|
 
 阶段结果见[E00～E03实验表格](../benchmarks/experiment_tables/README.md)及[E1/E2 实验报告](../benchmarks/E01_E02_REPORT.md)，包含实验内容、产出、精度变化、实机结论及比较范围。
 
