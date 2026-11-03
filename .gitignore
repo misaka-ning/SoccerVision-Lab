@@ -23,3 +23,6 @@
 # Machine-specific plotting and Ultralytics settings are regenerated locally.
 **/matplotlib-config/fontlist-v*.json
 **/ultralytics-config/**/settings.json
+
+# Local synthetic evaluation environment and output
+.demo-local/

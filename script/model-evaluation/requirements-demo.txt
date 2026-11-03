@@ -1,0 +1,2 @@
+# Standalone CPU synthetic demo only; do not install the full evaluation stack.
+numpy==2.2.6
