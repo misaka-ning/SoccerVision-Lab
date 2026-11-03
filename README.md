@@ -2,6 +2,8 @@
 
 面向机器人双目足球感知的研究与实验仓库：在小球、遮挡、模糊和无球场景中，研究**检测质量、误报代价与边缘端实时性之间的取舍**。工作覆盖数据审核、YOLO26 单类别微调、结构缩窄、知识蒸馏，以及 Jetson Orin NX 上的 TensorRT 推理链路验证。
 
+**技术阅读入口：** [研究证据路线与 CPU 合成评估演示](docs/TECHNICAL_READING.md)
+
 **阅读入口：** [实验路线 E00–E08](experiments/README.md) · [结果与比较口径](benchmarks/RESULTS.md) · [复现与产物定位](docs/REPRODUCIBILITY.md) · [来源核对与证据缺口](docs/SOURCE_AUDIT.md)
 
 **数据审核工作入口：** [审核操作与版本选择](docs/DATA_WORKFLOW.md) · [Qt 审核工具](script/dataset-reviewer/README.md) · [操作手册](script/dataset-reviewer/docs/user-guide.md)
